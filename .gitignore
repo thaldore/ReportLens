@@ -1,0 +1,16 @@
+# Python
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Data & Database (Hata veren büyük dosyalar)
+Data/vector_db/
+Data_json/
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
