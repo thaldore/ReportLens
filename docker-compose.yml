@@ -9,7 +9,6 @@ services:
       - ./Data:/app/Data
       - ./core:/app/core
       - ./ui:/app/ui
-      - ./scripts:/app/scripts
     environment:
       - OLLAMA_BASE_URL=http://ollama:11434
       - QDRANT_URL=http://qdrant:6333

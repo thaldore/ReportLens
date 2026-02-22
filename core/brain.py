@@ -11,6 +11,7 @@ from core.agents import (
     create_consistency_checker,
     create_report_writer,
     create_mock_generator,
+    create_rubric_evaluator,
 )
 from core.config import Config
 from core.logging_config import get_logger
@@ -37,6 +38,7 @@ class QualityBrain:
         self.report_writer = create_report_writer(self.model)
         self.consistency_checker = create_consistency_checker(self.model)
         self.mock_generator = create_mock_generator(self.model)
+        self.rubric_evaluator = create_rubric_evaluator(self.model)
 
         logger.info("QualityBrain başlatıldı. Tüm ajanlar hazır.")
 
@@ -210,31 +212,82 @@ class QualityBrain:
         """Rapor içeriği ile metin/anket karşılaştırması yapar."""
         try:
             if filename:
-                # Sadece belirli bir raporla kıyasla - Kapsamı geniş tut
-                search_results = self.vector_store.client.scroll(
-                    collection_name=self.vector_store.collection_name,
-                    scroll_filter=Filter(
-                        must=[FieldCondition(key="dosya_adi", match=MatchValue(value=filename))]
-                    ),
-                    limit=150,
-                    with_payload=True
-                )[0]
-                context = "\n\n".join([p.payload.get("content", "") for p in search_results])
+                # Sadece belirli bir raporla kıyasla - Kapsamı model sınırları içinde tut
+                try:
+                    search_results = self.vector_store.client.scroll(
+                        collection_name=self.vector_store.collection_name,
+                        scroll_filter=Filter(
+                            must=[FieldCondition(key="dosya_adi", match=MatchValue(value=filename))]
+                        ),
+                        limit=Config.MAX_CONTEXT_CHUNKS,
+                        with_payload=True
+                    )[0]
+                    context = "\n\n".join([p.payload.get("content", "") for p in search_results])
+                except Exception as e:
+                    logger.warning(f"Scroll hatası, search'e dönülüyor: {str(e)}")
+                    context = self.vector_store.search("", k=Config.MAX_CONTEXT_CHUNKS, filename=filename)
             else:
-                # Genel arama - limit k=30
-                context = self.vector_store.search(comparison_text[:1000], birim=birim, k=30)
+                # Genel arama
+                context = self.vector_store.search(comparison_text[:500], birim=birim, k=Config.MAX_CONTEXT_CHUNKS)
 
-            if not context or "Vektör veritabanı arama hatası" in str(context):
-                return f"Karşılaştırma için ilgili rapor verisi bulunamadı veya bir hata oluştu: {context}"
+            if not context or "hata" in str(context).lower():
+                return "Karşılaştırma için yeterli rapor verisi bulunamadı."
 
             prompt = (
                 f"Sana analiz etmen için iki bölüm veriyorum:\n\n"
                 f"1. GROUND TRUTH (RAPOR İÇERİĞİ):\n{context}\n\n"
                 f"2. KIYASLANACAK VERİ (ANKET/METİN):\n{comparison_text}\n\n"
-                "Lütfen talimatlarındaki gibi 'RAPOR 1' ve 'RAPOR 2' formatında İKİ AYRI ANALİZ sun."
+                "Lütfen talimatlarındaki gibi 'RAPOR 1' ve 'RAPOR 2' formatında İKİ AYRI ANALİZ sun. "
+                "MUTLAKA bir karşılaştırma tablosu içermeli."
             )
             response = self.consistency_checker.run(prompt)
             return response.content
         except Exception as e:
             logger.error(f"Tutarsızlık analizi hatası: {str(e)}")
             return f"Analiz sırasında bir hata oluştu: {str(e)}"
+
+    # ── Rubrik Notlandırma ───────────────────────────────────────────
+
+    def evaluate_rubric(self, filenames: list) -> str:
+        """Bir veya birden fazla raporu rubrik kriterlerine göre değerlendirir."""
+        if not filenames:
+            return "Değerlendirilecek rapor seçilmedi."
+
+        overall_results = []
+        overall_results.append(f"# 📊 Rubrik Notlandırma Raporu\n")
+        overall_results.append(f"**Değerlendirilen Raporlar:** {', '.join(filenames)}\n")
+
+        for filename in filenames:
+            overall_results.append(f"## 📄 Rapor: {filename}")
+            
+            report_analyses = []
+            for criterion_name, criterion_desc in Config.RUBRIC_CRITERIA.items():
+                logger.info(f"  📏 Rubrik Değerlendirmesi: {filename} -> {criterion_name}")
+                
+                # Her kriter için hedeflenmiş bağlam araması
+                search_query = f"{criterion_name} {criterion_desc}"
+                context = self.vector_store.search(
+                    search_query, 
+                    k=15, # Her kriter için en alakalı 15 parça yeterli
+                    birim=filename.split("_")[0] # Dosya adından birim çıkarımı
+                )
+
+                if not context.strip():
+                    report_analyses.append(f"### {criterion_name}\n\nBu kriter için kanıt bulunamadı.")
+                    continue
+
+                prompt = (
+                    f"Rapor: {filename}\n"
+                    f"Kriter: {criterion_name}\n"
+                    f"Kriter Tanımı: {criterion_desc}\n\n"
+                    f"Bağlam Verileri:\n{context}\n\n"
+                    "Lütfen bu kriteri 1-5 arası puanla, gerekçeni yaz ve metinden kanıt göster."
+                )
+
+                result = self.rubric_evaluator.run(prompt)
+                report_analyses.append(result.content)
+
+            overall_results.append("\n\n".join(report_analyses))
+            overall_results.append("\n---")
+
+        return "\n\n".join(overall_results)

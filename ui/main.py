@@ -53,6 +53,7 @@ tabs = st.tabs([
     "🤖 Kalite Analiz Uzmanı",
     "📄 Rapor Analizi",
     "📊 Öz Değerlendirme Raporu",
+    "⚖️ Rubrik Notlandırma",
     "🔍 Tutarsızlık Analizi",
     "📁 Rapor Yönetimi",
     "⚙️ Ayarlar",
@@ -214,10 +215,53 @@ with tabs[3]:
                         st.error(f"Rapor oluşturma hatası: {e}")
 
 # ══════════════════════════════════════════════════════════════════════
-# SAYFA 4: Tutarsızlık Analizi
+# SAYFA 4: Rubrik Notlandırma
 # ══════════════════════════════════════════════════════════════════════
 
 with tabs[4]:
+    st.header("⚖️ Rubrik Notlandırma Sistemi")
+    st.markdown("""
+    Bu modül, seçilen raporları **YÖKAK Rubrik Standartlarına** göre 1-5 arası puanlar. 
+    Ajan, her puan için rapordan somut kanıt sunmak zorundadır.
+    """)
+
+    if not brain:
+        st.error("Sistem başlatılamadı.")
+    else:
+        proc_files = [f.name for f in Config.PROCESSED_DATA_DIR.glob("*.md")]
+        if not proc_files:
+            st.warning("Değerlendirilecek rapor bulunamadı.")
+        else:
+            selected_reports = st.multiselect(
+                "Değerlendirilecek Raporları Seçin", 
+                proc_files,
+                help="Birden fazla rapor seçerek kıyaslama yapabilirsiniz."
+            )
+
+            if st.button("⚖️ Rubrik Analizini Başlat", type="primary"):
+                if not selected_reports:
+                    st.warning("Lütfen en az bir rapor seçin.")
+                else:
+                    with st.spinner("Rubrik değerlendirmesi yapılıyor (Her kriter için derinlemesine analiz edilir)..."):
+                        try:
+                            rubric_result = brain.evaluate_rubric(selected_reports)
+                            st.success("✅ Rubrik Değerlendirmesi Tamamlandı!")
+                            st.markdown(rubric_result)
+
+                            st.download_button(
+                                label="📥 Rubrik Raporunu İndir (.md)",
+                                data=rubric_result,
+                                file_name=f"Rubrik_Degerlendirme_{len(selected_reports)}_Rapor.md",
+                                mime="text/markdown",
+                            )
+                        except Exception as e:
+                            st.error(f"Rubrik analizi hatası: {e}")
+
+# ══════════════════════════════════════════════════════════════════════
+# SAYFA 5: Tutarsızlık Analizi
+# ══════════════════════════════════════════════════════════════════════
+
+with tabs[5]:
     st.header("🔍 Tutarsızlık Analizi")
     st.markdown("Rapor verileri ile harici metinleri veya anket yanıtlarını kıyaslayarak tutarlılık denetimi yapın.")
 
@@ -276,8 +320,9 @@ with tabs[4]:
 # SAYFA 5: Rapor Yönetimi
 # ══════════════════════════════════════════════════════════════════════
 
-with tabs[5]:
+with tabs[6]:
     st.header("📁 Rapor Yönetimi")
+    # ... rest of the content remains mapped correctly to tabs ...
     st.markdown("### 📤 Yeni Rapor Yükle")
     uploaded_files = st.file_uploader(
         "PDF, DOCX, Excel veya CSV dosyaları seçin",
@@ -333,7 +378,7 @@ with tabs[5]:
 # SAYFA 6: Ayarlar
 # ══════════════════════════════════════════════════════════════════════
 
-with tabs[6]:
+with tabs[7]:
     st.header("⚙️ Ayarlar")
     if brain:
         status = brain.get_status()
