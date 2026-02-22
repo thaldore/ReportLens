@@ -223,41 +223,45 @@ class VectorStore:
         search_filter = Filter(must=filter_conditions) if filter_conditions else None
 
         # Standard search is the most reliable way to use pre-computed vectors
-        if hasattr(self.client, "search"):
-            results = self.client.search(
-                collection_name=self.collection_name,
-                query_vector=query_vector,
-                query_filter=search_filter,
-                limit=k,
-                with_payload=True,
-            )
-        elif hasattr(self.client, "query"):
-            # If search is not available, we use query. 
-            # Some versions (with Fastembed mixin) require query_text as the second positional argument.
-            results = self.client.query(
-                self.collection_name,
-                query_text=query, # Pass text to avoid TypeError, will use query_vector if supported
-                query_filter=search_filter,
-                limit=k,
-                query_vector=query_vector,
-            )
-        else:
-            logger.error("QdrantClient ne 'search' ne de 'query' metoduna sahip!")
-            return "Vektör veritabanı arama hatası."
+        try:
+            if hasattr(self.client, "search"):
+                results = self.client.search(
+                    collection_name=self.collection_name,
+                    query_vector=query_vector,
+                    query_filter=search_filter,
+                    limit=k,
+                    with_payload=True,
+                )
+            elif hasattr(self.client, "query"):
+                # Unified Query API (recent qdrant-client versions)
+                results = self.client.query(
+                    collection_name=self.collection_name,
+                    query_filter=search_filter,
+                    limit=k,
+                    query=query_vector,
+                )
+            else:
+                logger.error("QdrantClient ne 'search' ne de 'query' metoduna sahip!")
+                return "Vektör veritabanı arama hatası: Arama metodu bulunamadı."
+            
+            # Sonuçları işle ve metin bağlamına dönüştür
+            context_parts = []
+            for point in results:
+                content = point.payload.get("content", "")
+                source = point.payload.get("dosya_adi", "bilinmiyor")
+                birim_info = point.payload.get("birim", "")
+                yil_info = point.payload.get("yil", "")
+                context_parts.append(
+                    f"[Kaynak: {source} | Birim: {birim_info} | Yıl: {yil_info}]\n{content}"
+                )
 
-        context_parts = []
-        for point in results:
-            content = point.payload.get("content", "")
-            source = point.payload.get("dosya_adi", "bilinmiyor")
-            birim_info = point.payload.get("birim", "")
-            yil_info = point.payload.get("yil", "")
-            context_parts.append(
-                f"[Kaynak: {source} | Birim: {birim_info} | Yıl: {yil_info}]\n{content}"
-            )
+            context = "\n\n---\n\n".join(context_parts)
+            logger.info(f"Arama: '{query[:50]}...' - {len(results)} sonuç")
+            return context
 
-        context = "\n\n---\n\n".join(context_parts)
-        logger.info(f"Arama: '{query[:50]}...' - {len(results)} sonuç")
-        return context
+        except Exception as e:
+            logger.error(f"Qdrant arama hatası: {str(e)}")
+            return f"Vektör veritabanı arama hatası: {str(e)}"
 
     # ── Bilgi ─────────────────────────────────────────────────────────
 

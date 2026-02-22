@@ -208,29 +208,33 @@ class QualityBrain:
 
     def check_consistency(self, comparison_text: str, birim: str = None, filename: str = None) -> str:
         """Rapor içeriği ile metin/anket karşılaştırması yapar."""
-        if filename:
-            # Sadece belirli bir raporla kıyasla - Tüm içeriği almaya çalış
-            search_results = self.vector_store.client.scroll(
-                collection_name=self.vector_store.collection_name,
-                scroll_filter=Filter(
-                    must=[FieldCondition(key="dosya_adi", match=MatchValue(value=filename))]
-                ),
-                limit=150, # Raporun tamamına yakınını al
-                with_payload=True
-            )[0]
-            context = "\n\n".join([p.payload.get("content", "") for p in search_results])
-        else:
-            # Genel arama - limit artırıldı (k=30)
-            context = self.vector_store.search(comparison_text[:1000], birim=birim, k=30)
+        try:
+            if filename:
+                # Sadece belirli bir raporla kıyasla - Kapsamı geniş tut
+                search_results = self.vector_store.client.scroll(
+                    collection_name=self.vector_store.collection_name,
+                    scroll_filter=Filter(
+                        must=[FieldCondition(key="dosya_adi", match=MatchValue(value=filename))]
+                    ),
+                    limit=150,
+                    with_payload=True
+                )[0]
+                context = "\n\n".join([p.payload.get("content", "") for p in search_results])
+            else:
+                # Genel arama - limit k=30
+                context = self.vector_store.search(comparison_text[:1000], birim=birim, k=30)
 
-        if not context.strip():
-            return "Karşılaştırma için ilgili rapor verisi bulunamadı."
+            if not context or "Vektör veritabanı arama hatası" in str(context):
+                return f"Karşılaştırma için ilgili rapor verisi bulunamadı veya bir hata oluştu: {context}"
 
-        prompt = (
-            f"Ground Truth (RAPOR İÇERİĞİ):\n{context}\n\n"
-            f"Kıyaslanacak Veri (ANKET/METİN):\n{comparison_text}\n\n"
-            "Görevin: Verinin rapordaki gerçeklerle ne kadar örtüştüğünü analiz et."
-        )
-
-        response = self.consistency_checker.run(prompt)
-        return response.content
+            prompt = (
+                f"Sana analiz etmen için iki bölüm veriyorum:\n\n"
+                f"1. GROUND TRUTH (RAPOR İÇERİĞİ):\n{context}\n\n"
+                f"2. KIYASLANACAK VERİ (ANKET/METİN):\n{comparison_text}\n\n"
+                "Lütfen talimatlarındaki gibi 'RAPOR 1' ve 'RAPOR 2' formatında İKİ AYRI ANALİZ sun."
+            )
+            response = self.consistency_checker.run(prompt)
+            return response.content
+        except Exception as e:
+            logger.error(f"Tutarsızlık analizi hatası: {str(e)}")
+            return f"Analiz sırasında bir hata oluştu: {str(e)}"
