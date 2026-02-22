@@ -6,39 +6,66 @@ Bu rapor, projenin sürdürülebilirliği, geliştirilebilirliği ve veri gizlil
 
 ```text
 ReportLens/
-├── core/                   # Uygulamanın beyni (AI ve Veri İşleme)
-│   ├── prompts/            # Ajanlar için özel sistem komutları
-│   ├── tools/              # Ajanların kullanabileceği özel fonksiyonlar
-│   ├── processor.py        # PDF/DOCX -> Markdown dönüştürücü
-│   └── brain.py            # Multi-Agent ve LLM yönetim merkezi
-├── ui/                     # Kullanıcı arayüzü
-│   └── main.py             # Streamlit ana sayfası ve UI bileşenleri
-├── Data/                   # Veri merkezi (Gizlilik öncelikli)
-│   ├── raw_data/           # Ham raporlar (PDF/DOCX)
-│   ├── processed/          # Temizlenmiş ve yapılandırılmış Markdown dosyaları
-│   ├── vector_db/          # Hızlı arama için kullanılan vektör veritabanı
-│   ├── graph_db/           # İlişkisel analiz için bilgi grafiği veritabanı
-│   └── archive/            # Artık kullanılmayan ama saklanan eski veriler
-├── models/                 # Yerel model yapılandırmaları
-│   └── reporter_expert.Modelfile # Ömür boyu kalıcı uzman ajan rolü
-├── scripts/                # Yardımcı scriptler ve bakım araçları
-├── Dockerfile              # Konteynerizasyon ayarları
-├── docker-compose.yml      # Çoklu konteyner (App + Ollama) yönetimi
-├── requirements.txt        # Python kütüphane bağımlılıkları
-├── SETUP.md                # Geliştiriciler için kurulum rehberi
-└── README.md               # Projenin genel tanıtımı
+├── core/                           # Uygulamanın beyni (AI ve Veri İşleme)
+│   ├── __init__.py                 # Paket tanımı
+│   ├── config.py                   # Merkezi yapılandırma (tüm ayarlar tek noktadan)
+│   ├── logging_config.py           # Merkezi loglama yapılandırması
+│   ├── brain.py                    # Çok Ajanlı orkestrasyon merkezi
+│   ├── processor.py                # PDF/DOCX → Markdown dönüştürücü (tablo, görsel, başlık desteği)
+│   ├── vector_store.py             # Qdrant vektör veritabanı yönetimi (artımlı indeksleme)
+│   └── agents/                     # Uzman ajanlar
+│       ├── __init__.py
+│       ├── analyzer.py             # Kalite Analiz Uzmanı ajanı
+│       ├── report_writer.py        # Rapor Yazım Uzmanı ajanı
+│       └── consistency_checker.py  # Tutarsızlık Analiz Uzmanı ajanı
+├── ui/                             # Kullanıcı arayüzü
+│   └── main.py                     # Streamlit arayüzü (6 sayfa)
+├── Data/                           # Veri merkezi (Gizlilik öncelikli)
+│   ├── raw_data/                   # Ham raporlar (PDF/DOCX)
+│   ├── processed/                  # Markdown dosyaları
+│   │   └── images/                 # DOCX'ten çıkarılan görseller
+│   └── vector_db/                  # Qdrant yerel depolama (Docker dışı mod)
+├── models/                         # Yerel model yapılandırmaları
+│   └── reporter_expert.Modelfile   # Ollama uzman ajan rolü
+├── scripts/                        # Yardımcı scriptler
+│   ├── check_db.py                 # Vektör DB durum kontrolü
+│   ├── debug_agno.py               # Agno debug aracı
+│   └── docker_entrypoint.sh        # Docker başlatma scripti
+├── tests/                          # Test altyapısı
+│   ├── __init__.py
+│   ├── test_processor.py           # Processor testleri
+│   ├── test_vector_store.py        # Vector store testleri
+│   └── test_config.py              # Config testleri
+├── Dockerfile                      # Konteynerizasyon (healthcheck, entrypoint)
+├── docker-compose.yml              # 3 servis: App + Ollama + Qdrant
+├── requirements.txt                # Python bağımlılıkları (versiyonlu)
+├── SETUP.md                        # Kurulum rehberi
+├── STRUCTURE.md                    # Bu dosya
+└── README.md                       # Proje tanıtımı
 ```
 
 ## 2. Mimari Yaklaşımlar
 
 ### Temiz ve Modüler (Clean Architecture)
-Kod ve arayüz birbirinden tamamen ayrılmıştır. Yarın Streamlit yerine başka bir arayüz (React vb.) kullanmak isterseniz, sadece `ui/` klasörünü değiştirmeniz yeterli olacaktır; `core/` (beyin) kısmına dokunmanıza gerek kalmaz.
+Kod ve arayüz tamamen ayrılmıştır. `core/` katmanı hiçbir UI bağımlılığı içermez. Yarın Streamlit yerine React kullanılsa sadece `ui/` değişir.
 
-### Sürdürülebilirlik ve Geliştirilebilirlik
-Tüm veri işleme akışı lineerdir. Yeni bir rapor türü eklendiğindeadece `core/processor.py` güncellenerek sisteme dahil edilebilir.
+### Çok Ajanlı Sistem
+Tek ajan yerine görev ayrımı yapılmıştır:
+- **Analiz Ajanı:** Verileri değerlendirir, PUKÖ döngüsü analizi yapar
+- **Rapor Yazım Ajanı:** Analizleri yapılandırılmış rapora dönüştürür
+- **Tutarsızlık Ajanı:** Metin/anket ile rapor karşılaştırması yapar
+
+### Merkezi Yapılandırma
+Tüm ayarlar `core/config.py`'de toplanmıştır. Ortam değişkenleri ile geçersiz kılınabilir. Kod içinde hardcoded değer yoktur.
 
 ### Veri Gizliliği (Zero Data Leak)
-`Data/` klasörü altındaki hiçbir dosya dışarıdaki bir bulut sistemine gönderilmez. Uygulama tamamen Docker içinde veya yerel sanal ortamda çalışarak tam gizlilik sağlar.
+`Data/` altındaki hiçbir dosya dışarıya gönderilmez. Ollama yerel çalışır, Qdrant yerel/Docker içinde çalışır. 3. parti API bağımlılığı yoktur.
+
+### Qdrant Vektör Veritabanı
+- Artımlı indeksleme (sadece yeni/değişen dosyalar)
+- Metadata zenginleştirme (birim, yıl, rapor türü)
+- Filtrelemeli arama
+- Yerel dosya modu (geliştirme) veya sunucu modu (Docker)
 
 ### Genişletilebilirlik
-Vektör ve Grafik veritabanları (`Data/vector_db`, `Data/graph_db`) projeyi 100 raporluk bir sistemden 10.000 raporluk bir kurumsal hafızaya taşıyabilecek şekilde ölçeklenebilir altyapıdadır.
+Qdrant, 100 raporluk bir sistemden 100.000+ raporluk bir kurumsal hafızaya ölçeklenebilir altyapıdadır.

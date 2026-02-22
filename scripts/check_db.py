@@ -1,18 +1,22 @@
-import os
-from langchain_community.vectorstores import Chroma
-from langchain_ollama import OllamaEmbeddings
+"""
+ReportLens Vektör Veritabanı Kontrol Scripti.
+Qdrant koleksiyonundaki veri sayısını ve durumunu gösterir.
+"""
+from core.config import Config
+from core.vector_store import VectorStore
+
 
 def check_db():
-    embeddings = OllamaEmbeddings(model="llama3.1:8b")
-    db_dir = "Data/vector_db"
-    
-    if not os.path.exists(db_dir):
-        print(f"Hata: {db_dir} bulunamadı.")
-        return
+    try:
+        store = VectorStore()
+        info = store.get_collection_info()
+        print(f"Koleksiyon: {Config.QDRANT_COLLECTION}")
+        print(f"Toplam vektör noktası: {info.get('toplam_nokta', 0)}")
+        print(f"Vektör boyutu: {info.get('vektör_boyutu', '-')}")
+        print(f"Durum: {info.get('durum', '-')}")
+    except Exception as e:
+        print(f"Hata: {e}")
 
-    db = Chroma(persist_directory=db_dir, embedding_function=embeddings)
-    count = db._collection.count()
-    print(f"Vektör veritabanındaki toplam parça (chunk) sayısı: {count}")
 
 if __name__ == "__main__":
     check_db()

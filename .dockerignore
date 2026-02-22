@@ -5,18 +5,27 @@ __pycache__
 venv
 tmp
 .gemini
+
+# Geçici dosyalar
 output.txt
 test_summary.txt
 final_report.txt
+
+# Data dosyaları (Docker içinde volume ile bağlanır)
 Data/raw_data/*.pdf
 Data/raw_data/*.docx
 Data/processed/*.md
+Data/processed/images/
 Data/vector_db/
-Data/graph_db/
+
+# Dokümantasyon
 Dockerfile
 docker-compose.yml
 STRUCTURE.md
 SETUP.md
+README.md
+
+# Artifact dosyaları
 implementation_plan.md
 walkthrough.md
 task.md

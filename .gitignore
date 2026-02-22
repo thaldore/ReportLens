@@ -3,8 +3,11 @@ venv/
 __pycache__/
 *.py[cod]
 *$py.class
+*.egg-info/
 
-# Data & Database (Hata veren büyük dosyalar)
+# Data & Database (Büyük dosyalar ve gizli veriler)
+Data/raw_data/
+Data/processed/
 Data/vector_db/
 Data_json/
 
@@ -14,3 +17,8 @@ Data_json/
 # OS
 .DS_Store
 Thumbs.db
+
+# Geçici dosyalar
+output.txt
+test_summary.txt
+final_report.txt
