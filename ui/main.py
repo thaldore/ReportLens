@@ -106,7 +106,7 @@ with tabs[1]:
         3. Bu bölümleri bağlam (context) olarak LLM'e (llama3.1) iletir.
         4. LLM sadece bu verilere dayanarak size doğru ve kanıta dayalı bir yanıt üretir.
         
-        **İpucu:** Daha spesifik sorular sorarak (örn: 'Fen Fakültesi 2024 hedefleri nelerdir?') daha iyi sonuçlar alabilirsiniz.
+        **İpucu:** Daha spesifik sorular sorarak (örn: 'Fen Fakültesi 2024 Öz Değerlendirme Raporu'nda belirtilen 'öğrenci merkezli öğrenme' hedefine ulaşmak için hangi somut eğitim teknolojileri veya yöntemleri devreye alınmıştır ve bu süreçte karşılaşılan riskler nasıl yönetilmektedir?') daha iyi sonuçlar alabilirsiniz.
         """)
     st.write("Raporlar hakkında her şeyi sorabilirsiniz.")
 

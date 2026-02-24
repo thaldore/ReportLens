@@ -57,13 +57,13 @@ class Config:
         )
     }
 
-    # Puanlama Skalası (YÖKAK uyumlu)
+    # Puanlama Skalası (YÖKAK uyumlu — rubric_evaluator.py ile hizalı)
     RUBRIC_SCORING_KEY = {
-        1: "Planlama aşamasında: Henüz bir uygulama örneği yok.",
-        2: "Uygulama var: Bazı alanlarda uygulamalar başlatılmış ancak süreklilik yok.",
-        3: "Süreklilik var: Uygulamalar tüm birime yayılmış ve düzenli yapılıyor.",
-        4: "İzleme ve İyileştirme: Sonuçlar izleniyor ve iyileştirmeler yapılıyor (PUKÖ).",
-        5: "Örnek Uygulama: Sürdürülebilir, sistematik ve örnek gösterilebilir düzeyde."
+        1: "Hiç Yok: İlgili konuda hiçbir planlama veya uygulama örneği yok.",
+        2: "Planlama/Niyet: Konuyla ilgili niyet veya plan var, somut uygulama yok.",
+        3: "Uygulama: En az bir somut uygulama örneği veya tablo verisi mevcut.",
+        4: "İzleme: Uygulama yapılmış ve sonuçları düzenli takip ediliyor/raporlanıyor.",
+        5: "Sürekli İyileştirme: PUKÖ döngüsü tamamlanmış; izleme verilerine göre iyileştirmeler yapılmış.",
     }
 
     @classmethod

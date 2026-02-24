@@ -1,33 +1,53 @@
 """
 Tutarsızlık analizi için sahte veri (anket/metin) üreten ajan.
-Seçilen rapor içeriğine dayanarak tutarlı, tutarsız veya karmaşık veriler üretir.
+Seçilen rapor içeriğine dayanarak AYRI bölümler halinde anket tablosu ve analiz metni üretir.
 """
 from agno.agent import Agent
 from agno.models.ollama import Ollama
 
+
 def create_mock_generator(model: Ollama) -> Agent:
     return Agent(
         model=model,
-        description="Görevin, verilen rapor içeriğine dayanarak gerçekçi ve amaca uygun sahte anket yanıtları veya metinler üretmektir.",
+        description=(
+            "Görevin, verilen rapor içeriğine dayanarak gerçekçi ve amaca uygun "
+            "iki AYRI bölüm üretmektir: (1) Markdown tablo formatında anket ve (2) analiz metni."
+        ),
         instructions=[
-            "Sana raporun içeriği ve bir mod (Tutarlı, Tutarsız, Karmaşık) verilecek.",
-            "Görevin, iki farklı türde veri üretmektir: 1. Anket Yanıtları (Soru-Cevap), 2. Serbest Analiz Metni.",
-            
-            "### 1. ANKET YANITLARI (Puanlı Değerlendirme):",
-            "- Raporun içeriğiyle ilgili 3-5 adet kalite sorusu üret.",
-            "- Her soru için 1'den 5'e kadar bir 'SKOR' ver (Örn: 4/5).",
-            "- Bu bölümü mutlaka bir tablo veya liste formatında sun.",
-            "- Mod 'Tutarsız' ise puanları rapordaki gerçek başarının tam tersi şekilde üret (Rapor 'çok iyi' diyorsa sen 1-2 puan ver).",
+            "Sana bir rapor içeriği ve Üretim Modu verilecek: Tutarlı, Tutarsız veya Karmaşık.",
+            "Görevin TAMAMEN AYRI iki bölüm üretmektir.",
 
-            "### 2. ANALİZ METNİ (Bilgi ve İddialar):",
-            "- Raporun içeriğine dair somut iddialar (sayı, tarih, birim adı vb.) içeren bir değerlendirme metni yaz.",
-            "- Bu metindeki bilgiler doğru da olabilir, kasten yanlış/hatalı da olabilir (Mod'a göre).",
+            "### BÖLÜM 1 — ANKET YANITLARI:",
+            "Raporun YÖKAK kalite kriterlerine uygun 4-5 adet ölçülebilir kalite sorusu üret.",
+            "Bu bölümü AŞAĞIDAKİ Markdown tablosu formatında üret (başka format kullanma):",
+            "| # | Soru | Puan (1-5) | Gerekçe |",
+            "| :-- | :--- | :---: | :--- |",
+            "| 1 | [Somut kalite sorusu] | [1-5] | [Neden bu puan verildi] |",
+            "Mod TUTARSIZ ise: Raporda iyi durum bildirilen konulara 1-2, zayıf bildirilen konulara 4-5 puan ver.",
+            "Mod TUTARLI ise: Raporun gerçek durumunu yansıtan doğru puanlar ver.",
+            "Mod KARMAŞIK ise: Bazı sorular tutarlı (rapor gibi), bazıları tutarsız (ters puan) olsun.",
 
-            "### ÇIKTI FORMATI (ZORUNLU):",
-            "**--- ANKET YANITLARI (Değerlendirilmiş) ---**",
-            "Soru X: ... | Puan: [1-5] | Değerlendirme Gerekçesi: ...",
-            "---",
-            "**--- ANALİZ METNİ (Bilgi Durumu) ---**",
-            "(Burada raporla ilgili iddialar ve açıklamalar yer alacak...)",
+            "### BÖLÜM 2 — ANALİZ METNİ:",
+            "Raporun gerçek içeriğindeki somut bilgilere atıfta bulunan 4-6 maddelik değerlendirme yaz.",
+            "Her madde; bir iddia veya gözlem içermelidir: sayı, tarih, birim adı, faaliyet gibi somut bilgiler.",
+            "Mod TUTARSIZ ise: Bazı maddelerde kasten yanlış veri üret (sayıyı değiştir, yanlış birim adı kullan).",
+            "Mod TUTARLI ise: Tüm maddeler raporla örtüşsün.",
+            "Mod KARMAŞIK ise: Kasıtlı olarak bazı doğru, bazı yanlış maddeler yaz.",
+
+            "### ZORUNLU ÇIKTI FORMATI (asla değiştirme):",
+            "## BÖLÜM 1 — ANKET YANITLARI",
+            "| # | Soru | Puan (1-5) | Gerekçe |",
+            "| :-- | :--- | :---: | :--- |",
+            "| 1 | [soru] | [1-5] | [gerekçe] |",
+            "",
+            "## BÖLÜM 2 — ANALİZ METNİ",
+            "- Madde 1: [somut iddia veya gözlem]",
+            "- Madde 2: ...",
+
+            "### KRİTİK KURALLAR:",
+            "1. Bölüm 1 (Anket Tablosu) ve Bölüm 2 (Metin) KESINLIKLE ayrı tutulsun, karışmasın.",
+            "2. Anket tablosu kesinlikle Markdown tablo formatında olsun — liste veya düz metin olarak üretme.",
+            "3. Her bölüm için rapordaki gerçek içerikten ilham al, raporda olmayan bilgi uydurma.",
+            "4. Metin bölümünde raporda geçen gerçek sayıları, isimleri ve tarihleri kullan.",
         ],
     )

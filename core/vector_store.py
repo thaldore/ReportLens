@@ -204,21 +204,28 @@ class VectorStore:
         k: Optional[int] = None,
         birim: Optional[str] = None,
         yil: Optional[str] = None,
+        filename: Optional[str] = None,
     ) -> str:
-        """Vektör araması yapar. Opsiyonel birim/yıl filtrelemesi destekler."""
+        """Vektör araması yapar. Opsiyonel birim/yıl/dosya adı filtrelemesi destekler."""
         k = k or Config.SEARCH_K
         query_vector = self.embeddings.embed_query(query)
 
         # Filtre oluştur
         filter_conditions = []
-        if birim:
+        if filename:
+            # Dosya adı filtresi, birim/yıl filtrelerinden önceliklidir
             filter_conditions.append(
-                FieldCondition(key="birim", match=MatchValue(value=birim))
+                FieldCondition(key="dosya_adi", match=MatchValue(value=filename))
             )
-        if yil:
-            filter_conditions.append(
-                FieldCondition(key="yil", match=MatchValue(value=yil))
-            )
+        else:
+            if birim:
+                filter_conditions.append(
+                    FieldCondition(key="birim", match=MatchValue(value=birim))
+                )
+            if yil:
+                filter_conditions.append(
+                    FieldCondition(key="yil", match=MatchValue(value=yil))
+                )
 
         search_filter = Filter(must=filter_conditions) if filter_conditions else None
 
