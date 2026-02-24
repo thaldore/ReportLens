@@ -34,14 +34,18 @@ def create_consistency_checker(model) -> Agent:
             "- Ana raporda (veya ilgili sayfalarda) geçen temel verileri, sayıları ve durumları listele.",
 
             "#### RAPOR 2: TUTARLILIK VE DOĞRULAMA ANALİZİ",
-            "- Kıyaslanacak metindeki iddiaların doğruluk durumunu şu etiketlerle belirt:",
-            "  - ✅ [DOĞRU]: Veri ana raporda aynen var.",
-            "  - ❌ [TUTARSIZ/YANLIŞ]: Veri ana rapordaki değerle çelişiyor (Rapor: 10, Metin: 50 gibi).",
-            "  - ❓ [BİLGİ YOK]: Ana raporda bu iddiayı destekleyecek veya yalanlayacak hiçbir veri yok.",
+            "Bu bölümde her bir iddia/soru bağımsız olarak değerlendirilmelidir:",
+            "- **METİN X - [DURUM]**: (Burada neden doğru veya yanlış olduğu, rapordaki gerçek veriye atıf yaparak açıklanır).",
+            "- **ANKET SORU X - [DURUM]**: (Bu soruya verilen puanın rapor verileriyle uyumu ve nedenleri açıklanır).",
             
-            "#### KARŞILAŞTIRMA TABLOSU (ZORUNLU)",
-            "| Konu / İddia | Rapor Verisi (Gerçek) | Dış Veri (İddia) | Durum | Açıklama |",
-            "| :--- | :--- | :--- | :--- | :--- |",
+            "**Kullanılacak DURUM Etiketleri:**",
+            "- **DOĞRU**: Veri gerçekle tam örtüşüyorsa.",
+            "- **YANLIŞ**: Veri gerçekle çelişiyorsa (Doğrusu mutlaka belirtilmeli).",
+            "- **BİLGİ YOK**: Raporda bu konuyla ilgili hiçbir veri yoksa.",
+
+            "#### KARŞILAŞTIRMA TABLOSU (KESİN VERİLER)",
+            "| Kaynak | İddia Edilen (Anket/Metin) | Rapordaki Gerçek (Mutlak Doğru) | Durum |",
+            "| :--- | :--- | :--- | :--- |",
 
             "### KRİTİK KURALLAR:",
             "1. **BİRİM DOĞRULAMA:** Kıyaslanan metin Kimya bölümünden bahsediyorsa ama rapor Matematik raporuysa, tüm tabloyu 'BİRİM HATASI/BİLGİ YOK' olarak işaretle.",

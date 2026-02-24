@@ -224,34 +224,65 @@ class VectorStore:
 
         # Arama gerçekleştir
         try:
-            # En güncel ve stabil yöntem: search (dahili vektör arama için)
-            search_results = self.client.search(
-                collection_name=self.collection_name,
-                query_vector=query_vector,
-                query_filter=search_filter,
-                limit=k,
-                with_payload=True,
-            )
+            # En güvenli metod erişimi
+            search_func = getattr(self.client, 'search', None)
             
-            # Sonuçları işle ve metin bağlamına dönüştür
+            if search_func:
+                search_results = search_func(
+                    collection_name=self.collection_name,
+                    query_vector=query_vector,
+                    query_filter=search_filter,
+                    limit=k,
+                    with_payload=True,
+                )
+            else:
+                # Fallback: query_points (Modern v1.10+)
+                query_points_func = getattr(self.client, 'query_points', None)
+                if query_points_func:
+                    response = query_points_func(
+                        collection_name=self.collection_name,
+                        query=query_vector,
+                        query_filter=search_filter,
+                        limit=k,
+                        with_payload=True,
+                    )
+                    search_results = response.points if hasattr(response, 'points') else []
+                else:
+                    # Kritik Fallback: Scroll (Vektörsüz arama)
+                    search_results = self.client.scroll(
+                        collection_name=self.collection_name,
+                        scroll_filter=search_filter,
+                        limit=k,
+                        with_payload=True
+                    )[0]
+            
+            # Sonuçları işle
             context_parts = []
             for point in search_results:
-                content = point.payload.get("content", "")
+                # Hem PointStruct hem de dict formatını destekle
+                payload = getattr(point, 'payload', point) if not isinstance(point, dict) else point.get('payload', {})
+                if not isinstance(payload, dict): 
+                   payload = {} # Güvenlik
+
+                content = payload.get("content", "")
                 if content:
-                    source = point.payload.get("dosya_adi", "bilinmiyor")
-                    birim_info = point.payload.get("birim", "")
-                    yil_info = point.payload.get("yil", "")
+                    source = payload.get("dosya_adi", "bilinmiyor")
+                    birim_info = payload.get("birim", "Belirtilmemiş")
+                    yil_info = payload.get("yil", "Belirtilmemiş")
                     context_parts.append(
                         f"[Kaynak: {source} | Birim: {birim_info} | Yıl: {yil_info}]\n{content}"
                     )
             
             context = "\n\n---\n\n".join(context_parts)
-            logger.info(f"Arama: '{query[:50]}...' - {len(search_results)} sonuç")
+            if not context:
+                return "Bu arama kriterlerine uygun veri bulunamadı."
+                
+            logger.info(f"Arama: '{query[:50]}...' - {len(search_results)} parça bulundu.")
             return context
 
         except Exception as e:
-            logger.error(f"Qdrant arama hatası: {str(e)}")
-            return f"Vektör veritabanı arama hatası: {str(e)}"
+            logger.error(f"Kritik Arama Hatası: {str(e)}")
+            return f"Analiz için veri çekilirken bir sorun oluştu. (Sistem Notu: {str(e)[:100]})"
 
     # ── Bilgi ─────────────────────────────────────────────────────────
 

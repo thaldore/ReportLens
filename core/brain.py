@@ -12,6 +12,7 @@ from core.agents import (
     create_report_writer,
     create_mock_generator,
     create_rubric_evaluator,
+    create_rubric_validator,
 )
 from core.config import Config
 from core.logging_config import get_logger
@@ -39,6 +40,7 @@ class QualityBrain:
         self.consistency_checker = create_consistency_checker(self.model)
         self.mock_generator = create_mock_generator(self.model)
         self.rubric_evaluator = create_rubric_evaluator(self.model)
+        self.rubric_validator = create_rubric_validator(self.model)
 
         logger.info("QualityBrain başlatıldı. Tüm ajanlar hazır.")
 
@@ -186,23 +188,30 @@ class QualityBrain:
     # ── Sahte Veri Üretimi ──────────────────────────────────────────────
 
     def generate_mock_data(self, filename: str, mode: str = "Tutarsız") -> str:
-        """Seçilen rapor için tutarlı/tutarsız sahte veri üretir."""
+        """Seçilen rapor için hem Anket hem Metin içeren hibrit sahte veri üretir."""
         # Rapor içeriğinden daha geniş bir parça al (daha gerçekçi veri için)
-        search_results = self.vector_store.client.scroll(
-            collection_name=self.vector_store.collection_name,
-            scroll_filter=Filter(
-                must=[FieldCondition(key="dosya_adi", match=MatchValue(value=filename))]
-            ),
-            limit=20, # Daha fazla bağlam
-            with_payload=True
-        )[0]
+        try:
+            search_results = self.vector_store.client.scroll(
+                collection_name=self.vector_store.collection_name,
+                scroll_filter=Filter(
+                    must=[FieldCondition(key="dosya_adi", match=MatchValue(value=filename))]
+                ),
+                limit=20,
+                with_payload=True
+            )[0]
+            context = "\n".join([p.payload.get("content", "") for p in search_results])
+        except Exception:
+            context = self.vector_store.search("", filename=filename, k=15)
 
-        if not search_results:
+        if not context:
             return "Veri üretmek için rapor içeriği bulunamadı."
-
-        context = "\n".join([p.payload.get("content", "") for p in search_results])
         
-        prompt = f"Rapor İçeriği:\n{context}\n\nMod: {mode}"
+        prompt = (
+            f"Dosya: {filename}\n"
+            f"Mod: {mode}\n"
+            f"Rapor İçeriği:\n{context[:10000]}\n\n"
+            "Lütfen talimatlarına uygun olarak **--- ANKET YANITLARI ---** (Skorlu) ve **--- ANALİZ METNİ ---** bölümlerini üret."
+        )
         response = self.mock_generator.run(prompt)
         return response.content
 
@@ -236,9 +245,9 @@ class QualityBrain:
             prompt = (
                 f"Sana analiz etmen için iki bölüm veriyorum:\n\n"
                 f"1. GROUND TRUTH (RAPOR İÇERİĞİ):\n{context}\n\n"
-                f"2. KIYASLANACAK VERİ (ANKET/METİN):\n{comparison_text}\n\n"
-                "Lütfen talimatlarındaki gibi 'RAPOR 1' ve 'RAPOR 2' formatında İKİ AYRI ANALİZ sun. "
-                "MUTLAKA bir karşılaştırma tablosu içermeli."
+                f"2. KIYASLANACAK HİBRİT VERİ (ANKET + METİN):\n{comparison_text}\n\n"
+                "Lütfen talimatlarındaki gibi 'RAPOR 1' (Raporun Analizi) ve 'RAPOR 2' (Anket ve Metnin Doğrulanması) formatında İKİ AYRI ANALİZ sun. "
+                "MUTLAKA bir karşılaştırma tablosu içermeli ve mutlak gerçek olarak Rapor İçeriği baz alınmalı."
             )
             response = self.consistency_checker.run(prompt)
             return response.content
@@ -276,18 +285,34 @@ class QualityBrain:
                     report_analyses.append(f"### {criterion_name}\n\nBu kriter için kanıt bulunamadı.")
                     continue
 
-                prompt = (
+                # 1. Adım: Değerlendirme (Evaluator)
+                eval_prompt = (
                     f"Rapor: {filename}\n"
-                    f"Kriter: {criterion_name}\n"
-                    f"Kriter Tanımı: {criterion_desc}\n\n"
-                    f"Bağlam Verileri:\n{context}\n\n"
-                    "Lütfen bu kriteri 1-5 arası puanla, gerekçeni yaz ve metinden kanıt göster."
+                    f"Kriter: {criterion_name} ({criterion_desc})\n\n"
+                    f"BAĞLAM:\n{context}\n\n"
+                    "Lütfen talimatlarındaki 1-5 formatına göre puanlamanı yap."
                 )
+                eval_response = self.rubric_evaluator.run(eval_prompt)
+                
+                # 2. Adım: Denetleme (Validator)
+                val_prompt = (
+                    f"BAĞLAM:\n{context}\n\n"
+                    f"YAPILAN DEĞERLENDİRME:\n{eval_response.content}\n\n"
+                    "Lütfen denetimini yap (Doğru mu/Yanlış mı ve Asıl Puan)."
+                )
+                val_response = self.rubric_validator.run(val_prompt)
+                
+                # Kriter bazlı birleştirme
+                criterion_result = (
+                    f"### 📏 {criterion_name}\n"
+                    f"{eval_response.content}\n\n"
+                    f"**--- 🤖 RUBRİK DENETİMİ ---**\n"
+                    f"{val_response.content}\n"
+                    f"{'-' * 40}"
+                )
+                report_analyses.append(criterion_result)
 
-                result = self.rubric_evaluator.run(prompt)
-                report_analyses.append(result.content)
-
-            overall_results.append("\n\n".join(report_analyses))
+            overall_results.append("\n\n---\n\n".join(report_analyses))
             overall_results.append("\n---")
 
         return "\n\n".join(overall_results)

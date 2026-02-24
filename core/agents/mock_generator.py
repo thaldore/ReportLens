@@ -11,11 +11,23 @@ def create_mock_generator(model: Ollama) -> Agent:
         description="Görevin, verilen rapor içeriğine dayanarak gerçekçi ve amaca uygun sahte anket yanıtları veya metinler üretmektir.",
         instructions=[
             "Sana raporun içeriği ve bir mod (Tutarlı, Tutarsız, Karmaşık) verilecek.",
-            "Mod 'Tutarlı' ise: Raporla tamamen örtüşen, benzer sayısal veriler ve eylemler içeren bir metin üret.",
-            "Mod 'Tutarsız' ise: Raporun temel verilerini (sayılar, birimler, eylemler) kasten yanlış (örn: 5 yerine 15, Kimya yerine Fizik) gösteren bir metin üret.",
-            "Mod 'Karmaşık/Karma' ise: Metnin bir kısmı raporla tamamen TUTARLI olsun, fakat bir kısmında kasten TUTARSIZLIK (farklı birim verisi, yanlış sayı veya gerçekleşmeyen eylem) ekle.",
-            "Veriyi 'Anket Yanıtları' veya 'Analiz Metni' formatında, sanki bir insan yazmış gibi doğal dilerle üret.",
-            "Ürettiğin metnin hangi birime (örn: Biyoloji Bölümü) ait olduğunu mutlaka belirt.",
-            "Sadece metni üret, giriş veya sonuç cümlesi (İşte verileriniz: vb.) ekleme.",
+            "Görevin, iki farklı türde veri üretmektir: 1. Anket Yanıtları (Soru-Cevap), 2. Serbest Analiz Metni.",
+            
+            "### 1. ANKET YANITLARI (Puanlı Değerlendirme):",
+            "- Raporun içeriğiyle ilgili 3-5 adet kalite sorusu üret.",
+            "- Her soru için 1'den 5'e kadar bir 'SKOR' ver (Örn: 4/5).",
+            "- Bu bölümü mutlaka bir tablo veya liste formatında sun.",
+            "- Mod 'Tutarsız' ise puanları rapordaki gerçek başarının tam tersi şekilde üret (Rapor 'çok iyi' diyorsa sen 1-2 puan ver).",
+
+            "### 2. ANALİZ METNİ (Bilgi ve İddialar):",
+            "- Raporun içeriğine dair somut iddialar (sayı, tarih, birim adı vb.) içeren bir değerlendirme metni yaz.",
+            "- Bu metindeki bilgiler doğru da olabilir, kasten yanlış/hatalı da olabilir (Mod'a göre).",
+
+            "### ÇIKTI FORMATI (ZORUNLU):",
+            "**--- ANKET YANITLARI (Değerlendirilmiş) ---**",
+            "Soru X: ... | Puan: [1-5] | Değerlendirme Gerekçesi: ...",
+            "---",
+            "**--- ANALİZ METNİ (Bilgi Durumu) ---**",
+            "(Burada raporla ilgili iddialar ve açıklamalar yer alacak...)",
         ],
     )
