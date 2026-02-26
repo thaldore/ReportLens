@@ -1,6 +1,8 @@
 """
 Tutarsızlık analizi için sahte veri (anket/metin) üreten ajan.
-Seçilen rapor içeriğine dayanarak AYRI bölümler halinde anket tablosu ve analiz metni üretir.
+Seçilen rapor içeriğine dayanarak İKİ AYRI bölüm üretir:
+  1. ANKET TABLOSU: Sorular + 1-5 puan + isaretleme (bazi dogru, bazi yanlis)
+  2. METIN BEYANLARI: Paragraf halinde iddialar (bazi dogru, bazi yanlis)
 """
 from agno.agent import Agent
 from agno.models.ollama import Ollama
@@ -10,44 +12,52 @@ def create_mock_generator(model: Ollama) -> Agent:
     return Agent(
         model=model,
         description=(
-            "Görevin, verilen rapor içeriğine dayanarak gerçekçi ve amaca uygun "
-            "iki AYRI bölüm üretmektir: (1) Markdown tablo formatında anket ve (2) analiz metni."
+            "Gorevin: Verilen rapor icerigine dayanarak gercekci test verisi uretmek. "
+            "Bu veriler daha sonra tutarlilik analizinde rapor ile kiyaslanacak."
         ),
         instructions=[
-            "Sana bir rapor içeriği ve Üretim Modu verilecek: Tutarlı, Tutarsız veya Karmaşık.",
-            "Görevin TAMAMEN AYRI iki bölüm üretmektir.",
-
-            "### BÖLÜM 1 — ANKET YANITLARI:",
-            "Raporun YÖKAK kalite kriterlerine uygun 4-5 adet ölçülebilir kalite sorusu üret.",
-            "Bu bölümü AŞAĞIDAKİ Markdown tablosu formatında üret (başka format kullanma):",
-            "| # | Soru | Puan (1-5) | Gerekçe |",
-            "| :-- | :--- | :---: | :--- |",
-            "| 1 | [Somut kalite sorusu] | [1-5] | [Neden bu puan verildi] |",
-            "Mod TUTARSIZ ise: Raporda iyi durum bildirilen konulara 1-2, zayıf bildirilen konulara 4-5 puan ver.",
-            "Mod TUTARLI ise: Raporun gerçek durumunu yansıtan doğru puanlar ver.",
-            "Mod KARMAŞIK ise: Bazı sorular tutarlı (rapor gibi), bazıları tutarsız (ters puan) olsun.",
-
-            "### BÖLÜM 2 — ANALİZ METNİ:",
-            "Raporun gerçek içeriğindeki somut bilgilere atıfta bulunan 4-6 maddelik değerlendirme yaz.",
-            "Her madde; bir iddia veya gözlem içermelidir: sayı, tarih, birim adı, faaliyet gibi somut bilgiler.",
-            "Mod TUTARSIZ ise: Bazı maddelerde kasten yanlış veri üret (sayıyı değiştir, yanlış birim adı kullan).",
-            "Mod TUTARLI ise: Tüm maddeler raporla örtüşsün.",
-            "Mod KARMAŞIK ise: Kasıtlı olarak bazı doğru, bazı yanlış maddeler yaz.",
-
-            "### ZORUNLU ÇIKTI FORMATI (asla değiştirme):",
-            "## BÖLÜM 1 — ANKET YANITLARI",
-            "| # | Soru | Puan (1-5) | Gerekçe |",
-            "| :-- | :--- | :---: | :--- |",
-            "| 1 | [soru] | [1-5] | [gerekçe] |",
+            "Sana bir rapor icerigi ve Uretim Modu verilecek: Tutarli, Tutarsiz veya Karmasik.",
+            "Gorevin TAMAMEN AYRI iki bolum uretmek.",
             "",
-            "## BÖLÜM 2 — ANALİZ METNİ",
-            "- Madde 1: [somut iddia veya gözlem]",
-            "- Madde 2: ...",
-
-            "### KRİTİK KURALLAR:",
-            "1. Bölüm 1 (Anket Tablosu) ve Bölüm 2 (Metin) KESINLIKLE ayrı tutulsun, karışmasın.",
-            "2. Anket tablosu kesinlikle Markdown tablo formatında olsun — liste veya düz metin olarak üretme.",
-            "3. Her bölüm için rapordaki gerçek içerikten ilham al, raporda olmayan bilgi uydurma.",
-            "4. Metin bölümünde raporda geçen gerçek sayıları, isimleri ve tarihleri kullan.",
+            "### BOLUM 1: ANKET TABLOSU",
+            "Rapordaki YOKAK kalite kriterlerine uygun 5-7 adet olculebilir kalite sorusu uret.",
+            "Her soru icin 1-5 arasi bir puan ve isaretleme yap.",
+            "KESINLIKLE asagidaki Markdown tablo formatini kullan:",
+            "",
+            "## BOLUM 1: ANKET YANITLARI",
+            "",
+            "| # | Soru | Puan (1-5) | Isaretleme |",
+            "| :-- | :--- | :---: | :---: |",
+            "| 1 | [Somut kalite sorusu — ornegin: Programlarin AKTS is yukleri belirlenmis mi?] | [1-5] | [X] veya [ ] |",
+            "| 2 | [Somut kalite sorusu] | [1-5] | [X] veya [ ] |",
+            "",
+            "PUAN KURALLARI:",
+            "- Mod TUTARSIZ ise: Raporda iyi olan konulara 1-2 puan ver, zayif olanlara 4-5 puan ver. Bazi isaretlemeleri yanlis yap.",
+            "- Mod TUTARLI ise: Raporun gercek durumunu yansitan dogru puanlar ve isaretlemeler ver.",
+            "- Mod KARMASIK ise: Bazi sorular dogru puanli, bazilari kasitli yanlis olsun.",
+            "",
+            "### BOLUM 2: METIN BEYANLARI",
+            "Rapordaki somut bilgilere dayanan 4-6 maddelik deger/gozlem metni yaz.",
+            "Bu bolumu PARAGRAF halinde yaz (tablo degil).",
+            "Her cumle bir iddia icermeli: sayi, tarih, birim adi, faaliyet gibi somut bilgiler.",
+            "",
+            "## BOLUM 2: METIN BEYANLARI",
+            "",
+            "Ornek format:",
+            "[Birim adi] bunyesinde [X adet] program bulunmakta olup, toplam [Y] ogrenci kayitlidir. "
+            "[Z] adet TUBITAK projesi yurutulmektedir. Ogretim kadrosu [N] kisiden olusmaktadir. "
+            "[Faaliyet/sistem adi] ile performans izlenmektedir.",
+            "",
+            "METIN KURALLARI:",
+            "- Mod TUTARSIZ ise: Kasitli yanlis sayilar, yanlis birim adlari, olmayan faaliyetler ekle.",
+            "- Mod TUTARLI ise: Tum bilgiler raporla birebir ortussun.",
+            "- Mod KARMASIK ise: Bazi cumleler dogru, bazilari kasitli yanlis olsun.",
+            "",
+            "### KRITIK KURALLAR:",
+            "1. BOLUM 1 (Anket) ve BOLUM 2 (Metin) KESINLIKLE AYRI tutulsun, KARISMASIN.",
+            "2. Anket KESINLIKLE Markdown tablo formatinda olsun — duz metin olarak uretme.",
+            "3. Metin bolumu PARAGRAF halinde olsun — tablo olarak uretme.",
+            "4. Her iki bolumde de rapordaki gercek icerikten ilham al.",
+            "5. BOLUM 1 ve BOLUM 2 basliklarini AYNEN kullan, degistirme.",
         ],
     )

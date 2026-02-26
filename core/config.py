@@ -66,6 +66,27 @@ class Config:
         5: "Sürekli İyileştirme: PUKÖ döngüsü tamamlanmış; izleme verilerine göre iyileştirmeler yapılmış.",
     }
 
+    # Birim adı → arama anahtar kelimeleri eşleşmesi (RAG filtreleme için)
+    BIRIM_KEYWORDS = {
+        "Fen": [
+            "fen fakültesi", "fen fak", "biyoloji", "biyoteknoloji",
+            "fizik bölümü", "kimya bölümü", "matematik bölümü",
+        ],
+        "IIBF": [
+            "iibf", "iktisadi", "idari bilimler", "iktisat", "işletme",
+            "maliye", "kamu yönetimi", "siyaset bilimi", "uluslararası ilişkiler",
+        ],
+        "Mimarlik": [
+            "mimarlık", "mimari", "peyzaj mimarlığı", "şehir ve bölge planlama",
+            "iç mimarlık", "mimar",
+        ],
+        "ITBF": [
+            "itbf", "insan ve toplum bilimleri", "psikoloji", "sosyoloji",
+            "tarih", "coğrafya", "türk dili", "edebiyat", "sanat tarihi",
+            "mütercim", "tercümanlık", "batı dilleri",
+        ],
+    }
+
     @classmethod
     def ensure_directories(cls):
         """Gerekli dizinleri oluşturur."""

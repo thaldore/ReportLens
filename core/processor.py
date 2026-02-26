@@ -28,10 +28,101 @@ class ReportProcessor:
     # ── PDF İşleme ────────────────────────────────────────────────────
 
     def process_pdf(self, file_path: Path, output_path: Path):
-        """PDF dosyasını Markdown'a çevirir (pymupdf4llm ile tablo ve görsel desteği)."""
-        md_text = pymupdf4llm.to_markdown(str(file_path))
+        """PDF dosyasını Markdown'a çevirir. Görsel tabanlı PDF'ler için otomatik OCR kullanır."""
+        md_text = ""
+        try:
+            md_text = pymupdf4llm.to_markdown(str(file_path))
+        except Exception as e:
+            logger.warning(f"pymupdf4llm hatası ({file_path.name}): {e}")
+
+        # Çıktı çok kısaysa (taranmış/görsel tabanlı PDF) OCR ile yeniden dene
+        if len(md_text.strip()) < 200:
+            logger.info(f"  🔍 OCR modu deneniyor: {file_path.name} (metin uzunluğu: {len(md_text.strip())})")
+            ocr_text = self._pdf_ocr_fallback(file_path)
+            if len(ocr_text.strip()) > len(md_text.strip()):
+                md_text = ocr_text
+                logger.info(f"  ✅ OCR başarılı: {file_path.name} ({len(md_text)} karakter)")
+            else:
+                logger.warning(f"  ⚠️ OCR çıktısı da yetersiz: {file_path.name}")
+
         with open(output_path, "w", encoding="utf-8") as f:
             f.write(md_text)
+
+    def _pdf_ocr_fallback(self, file_path: Path) -> str:
+        """Görsel tabanlı PDF sayfaları için PyMuPDF + Tesseract OCR kullanarak metin çıkarır."""
+        try:
+            import fitz  # PyMuPDF (pymupdf4llm ile birlikte gelir)
+            doc = fitz.open(str(file_path))
+            md_parts = []
+
+            for page_num in range(len(doc)):
+                page = doc[page_num]
+
+                # Önce normal metin çıkarmayı dene
+                text = page.get_text("text").strip()
+
+                if len(text) < 50:
+                    # Görüntü tabanlı sayfa — Tesseract OCR uygula
+                    try:
+                        tp = page.get_textpage_ocr(flags=0, full=True, language="tur+eng")
+                        text = page.get_text(textpage=tp).strip()
+                    except Exception as ocr_err:
+                        logger.warning(f"OCR hatası (sayfa {page_num + 1}): {ocr_err}")
+
+                if text:
+                    md_parts.append(f"## Sayfa {page_num + 1}\n\n{text}")
+
+            doc.close()
+            return "\n\n---\n\n".join(md_parts) if md_parts else ""
+
+        except Exception as e:
+            logger.error(f"OCR fallback genel hata ({file_path.name}): {e}")
+            return ""
+
+    def check_empty_processed_files(self) -> list:
+        """Boş veya çok kısa olan işlenmiş dosyaları tespit eder (yeniden işleme için)."""
+        empty_files = []
+        if not self.processed_dir.exists():
+            return empty_files
+        for md_file in self.processed_dir.glob("*.md"):
+            if md_file.stat().st_size < 200:  # 200 byte'tan küçük = boş/içeriksiz
+                raw_candidates = list(self.raw_dir.glob(f"{md_file.stem}.*"))
+                raw_candidates = [f for f in raw_candidates if f.suffix.lower() in [".pdf", ".docx", ".xlsx", ".csv"]]
+                empty_files.append({
+                    "md_file": md_file,
+                    "raw_file": raw_candidates[0] if raw_candidates else None,
+                    "size": md_file.stat().st_size,
+                })
+        return empty_files
+
+    def reprocess_empty_files(self) -> int:
+        """Boş işlenmiş dosyaları zorla yeniden işler. İşlenen dosya sayısını döner."""
+        empty = self.check_empty_processed_files()
+        if not empty:
+            logger.info("Yeniden işlenecek boş dosya yok.")
+            return 0
+
+        count = 0
+        for item in empty:
+            if item["raw_file"] is None:
+                logger.warning(f"Ham dosya bulunamadı: {item['md_file'].name}")
+                continue
+            try:
+                logger.info(f"  🔄 Yeniden işleniyor: {item['raw_file'].name}")
+                suffix = item["raw_file"].suffix.lower()
+                if suffix == ".pdf":
+                    self.process_pdf(item["raw_file"], item["md_file"])
+                elif suffix == ".docx":
+                    self.process_docx(item["raw_file"], item["md_file"])
+                elif suffix in [".xlsx", ".xls"]:
+                    self.process_excel(item["raw_file"], item["md_file"])
+                elif suffix == ".csv":
+                    self.process_csv(item["raw_file"], item["md_file"])
+                count += 1
+                logger.info(f"  ✅ {item['raw_file'].name} tamamlandı ({item['md_file'].stat().st_size} byte)")
+            except Exception as e:
+                logger.error(f"Yeniden işleme hatası ({item['raw_file'].name}): {e}")
+        return count
 
     # ── DOCX İşleme (Gelişmiş) ───────────────────────────────────────
 
@@ -275,8 +366,8 @@ class ReportProcessor:
             try:
                 output_path = self.processed_dir / f"{file_path.stem}.md"
 
-                # Zaten işlenmişse atla
-                if output_path.exists() and output_path.stat().st_size > 0:
+                # Zaten yeterli içerikle işlenmişse atla (boş dosyaları yeniden işle)
+                if output_path.exists() and output_path.stat().st_size > 500:
                     continue
 
                 suffix = file_path.suffix.lower()

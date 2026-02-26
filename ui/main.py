@@ -113,7 +113,31 @@ with tabs[1]:
     if not brain:
         st.error("Sistem başlatılamadı. Lütfen Ayarlar sayfasını kontrol edin.")
     else:
-        # Sohbet Geçmişi
+        # ── Opsiyonel Filtreler ────────────────────────────────
+        with st.expander("🔍 Filtreler (Opsiyonel — Daha doğru sonuçlar için kullanın)", expanded=False):
+            st.info(
+                "⚠️ **Önemli:** Belirli bir fakülte/birim hakkında soruyorsanız aşağıdan filtre seçin. "
+                "Seçilmezse tüm birimlerin verileri karışabilir."
+            )
+            fcol1, fcol2 = st.columns(2)
+            with fcol1:
+                available_birimler = ["🌐 Tüm Birimler (Filtresiz)"] + get_available_birimler()
+                selected_birim_rag = st.selectbox(
+                    "Birim Filtresi",
+                    available_birimler,
+                    help="Seçilen birime ait raporlardan arama yapılır.",
+                    key="rag_birim",
+                )
+            with fcol2:
+                yil_filter_rag = st.text_input(
+                    "Yıl Filtresi",
+                    placeholder="Örn: 2024 (boş bırakırsanız tüm yıllar)",
+                    key="rag_yil",
+                )
+            birim_rag = None if selected_birim_rag.startswith("🌐") else selected_birim_rag
+            yil_rag = yil_filter_rag.strip() if yil_filter_rag.strip() else None
+
+        # ── Sohbet Geçmişi ──────────────────────────────────────────────────
         if "messages" not in st.session_state:
             st.session_state.messages = []
 
@@ -127,11 +151,11 @@ with tabs[1]:
                 st.markdown(prompt)
 
             with st.chat_message("assistant"):
-                with st.spinner("Düşünüyor..."):
-                    response = brain.analyze(prompt)
-                    st.markdown(response)
-                    st.session_state.messages.append({"role": "assistant", "content": response})
-            
+                with st.spinner("Analiz ediliyor... (bu işlem 1-2 dk sürebilir)"):
+                    response = brain.analyze(prompt, birim=birim_rag, yil=yil_rag)
+                st.markdown(response)
+            st.session_state.messages.append({"role": "assistant", "content": response})
+
             # Temizleme butonu
             if st.button("Sohbeti Temizle"):
                 st.session_state.messages = []
@@ -263,7 +287,13 @@ with tabs[4]:
 
 with tabs[5]:
     st.header("🔍 Tutarsızlık Analizi")
-    st.markdown("Rapor verileri ile harici metinleri veya anket yanıtlarını kıyaslayarak tutarlılık denetimi yapın.")
+    st.markdown("""
+    Rapor verileri ile kullanıcı beyanlarını (anket + metin) karşılaştırarak her iddiayı 
+    **DOĞRU / YANLIŞ / BİLGİ YOK** olarak etiketler.
+    
+    **Nasıl Çalışır:** Rapor içeriği **mutlak doğru** kabul edilir. Kullanıcı beyanları 
+    (anket puanları ve metin iddiaları) rapor ile tek tek kıyaslanır.
+    """)
 
     if not brain:
         st.error("Sistem başlatılamadı.")
@@ -272,45 +302,48 @@ with tabs[5]:
         
         with col1:
             proc_files = [f.name for f in Config.PROCESSED_DATA_DIR.glob("*.md")]
-            selected_filename = st.selectbox("Kıyaslanacak Rapor (Opsiyonel)", ["Tümü"] + proc_files)
+            selected_filename = st.selectbox("Kıyaslanacak Rapor", ["Tümü"] + proc_files)
             target_file = None if selected_filename == "Tümü" else selected_filename
             
-            st.subheader("Otomatik Üretim")
-            mode = st.radio("Üretilecek Veri Tipi", ["Tutarsız", "Tutarlı", "Karmaşık"], horizontal=True)
+            st.subheader("🤖 Otomatik Test Verisi Üretimi")
+            st.caption("Rapordaki verilere dayanarak anket tablosu + metin beyanları üretir.")
+            mode = st.radio("Üretilecek Veri Tipi", ["Tutarsız", "Tutarlı", "Karmaşık"], horizontal=True,
+                           help="Tutarsız: Kasıtlı yanlış veriler içerir | Tutarlı: Rapor ile örtüşen veriler | Karmaşık: Karışık")
             
-            if st.button("Örnek Veri Üret (Ajan ile)"):
+            if st.button("📋 Örnek Veri Üret"):
                 if target_file:
-                    with st.spinner("Örnek veri üretiliyor..."):
+                    with st.spinner("Örnek veri üretiliyor (anket tablosu + metin beyanları)..."):
                         mock_data = brain.generate_mock_data(target_file, mode)
                         st.session_state["comparison_text"] = mock_data
+                        st.rerun()
                 else:
                     st.warning("Lütfen veri üretmek için önce bir rapor seçin.")
 
         with col2:
+            st.subheader("📝 Beyan Girişi")
+            st.caption("Anket tablosu ve metin beyanlarını aşağıya yapıştırın veya otomatik üretin.")
             comparison_text = st.text_area(
-                "Karşılaştırılacak Metin veya Anket Yanıtları",
+                "Karşılaştırılacak Beyanlar (Anket + Metin)",
                 value=st.session_state.get("comparison_text", ""),
-                height=250,
-                placeholder="Buraya karşılaştırılacak metni yapıştırın veya otomatik üretin...",
+                height=300,
+                placeholder="BÖLÜM 1: ANKET YANITLARI\n| # | Soru | Puan (1-5) | İşaretleme |\n...\n\nBÖLÜM 2: METİN BEYANLARI\n...",
             )
 
-        if st.button("Analizi Başlat", type="primary"):
+        if st.button("🔍 Doğrulama Analizini Başlat", type="primary"):
             if not comparison_text.strip():
-                st.warning("Lütfen karşılaştırılacak bir metin girin.")
+                st.warning("Lütfen karşılaştırılacak bir beyan girin veya otomatik üretin.")
             else:
-                with st.spinner("Derinlemesine tutarsızlık analizi yapılıyor (bu işlem raporun uzunluğuna göre vakit alabilir)..."):
+                with st.spinner("Her iddia rapor ile tek tek karşılaştırılıyor..."):
                     try:
                         result = brain.check_consistency(comparison_text, filename=target_file)
                         
-                        st.success("✅ Analiz Tamamlandı!")
-                        
-                        # Sonucu daha iyi yapılandırılmış göster
+                        st.success("✅ Doğrulama Analizi Tamamlandı!")
                         st.markdown(result)
                         
                         st.download_button(
-                            label="📥 Detaylı Analiz Raporunu İndir (.md)",
+                            label="📥 Analiz Raporunu İndir (.md)",
                             data=result,
-                            file_name=f"Tutarsizlik_Analizi_{selected_filename}.md",
+                            file_name=f"Dogrulama_Analizi_{selected_filename}.md",
                             mime="text/markdown",
                         )
                     except Exception as e:
@@ -347,6 +380,36 @@ with tabs[6]:
                     )
                     st.cache_resource.clear()
                     st.rerun()
+
+    st.markdown("---")
+    st.markdown("### ⚠️ Boş / İçeriksiz İşlenmiş Dosyalar")
+    if brain:
+        empty_files = brain.processor.check_empty_processed_files()
+        if empty_files:
+            st.warning(f"{len(empty_files)} dosya boş veya yetersiz içerikli (genellikle görsel tabanlı PDF'ler):"
+                       " Bu dosyalar için OCR ile yeniden işleme önerilir.")
+            empty_df_data = [
+                {
+                    "Dosya": e["md_file"].name,
+                    "Boyut (byte)": e["size"],
+                    "Ham Dosya Mevcut": "✅" if e["raw_file"] else "❌",
+                }
+                for e in empty_files
+            ]
+            import pandas as pd
+            st.dataframe(pd.DataFrame(empty_df_data), hide_index=True)
+
+            if st.button("🔄 Boş Dosyaları OCR ile Yeniden İşle", type="primary"):
+                with st.spinner("OCR ile yeniden işleniyor (görsel tabanlı PDF'ler için tesseract kullanılır)..."):
+                    result = brain.reprocess_empty_files()
+                    st.success(
+                        f"✅ {result['yeniden_islenen']} dosya yeniden işlendi, "
+                        f"{result['indekslenen_chunk']} chunk yeniden indekslendi."
+                    )
+                    st.cache_resource.clear()
+                    st.rerun()
+        else:
+            st.success("✅ Tüm işlenmiş dosyalar yeterli içeriğe sahip.")
 
     st.markdown("---")
     st.markdown("### 📋 Mevcut Raporlar")
