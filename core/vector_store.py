@@ -134,7 +134,8 @@ class VectorStore:
 
         logger.info(f"{len(files_to_index)} yeni/güncellenmiş dosya indekslenecek...")
 
-        text_splitter = RecursiveCharacterTextSplitter(
+        # Fallback splitter (çok büyük bölümler için)
+        fallback_splitter = RecursiveCharacterTextSplitter(
             chunk_size=Config.CHUNK_SIZE, chunk_overlap=Config.CHUNK_OVERLAP
         )
 
@@ -142,7 +143,9 @@ class VectorStore:
         for md_file in files_to_index:
             try:
                 content = md_file.read_text(encoding="utf-8")
-                chunks = text_splitter.split_text(content)
+
+                # Semantik chunking: Markdown başlıklarına göre böl
+                semantic_chunks = self._semantic_split(content, fallback_splitter)
                 metadata = self.parse_metadata(md_file.name)
 
                 # Eski chunk'ları sil
@@ -150,13 +153,22 @@ class VectorStore:
 
                 # Vektörleştir ve kaydet
                 points = []
-                for i, chunk in enumerate(chunks):
-                    embedding = self.embeddings.embed_query(chunk)
+                for i, (chunk_text, bolum_basligi) in enumerate(semantic_chunks):
+                    # Çok kısa chunk'ları filtrele
+                    if len(chunk_text.strip()) < Config.MIN_CHUNK_CONTENT_LENGTH:
+                        continue
+
+                    embedding = self.embeddings.embed_query(chunk_text)
                     points.append(
                         PointStruct(
                             id=str(uuid.uuid4()),
                             vector=embedding,
-                            payload={**metadata, "chunk_index": i, "content": chunk},
+                            payload={
+                                **metadata,
+                                "chunk_index": i,
+                                "content": chunk_text,
+                                "bolum_basligi": bolum_basligi,
+                            },
                         )
                     )
 
@@ -195,6 +207,60 @@ class VectorStore:
             )
         except Exception:
             pass  # Koleksiyon boş olabilir
+
+    # ── Semantik Chunking ─────────────────────────────────────────────
+
+    @staticmethod
+    def _semantic_split(content: str, fallback_splitter) -> list:
+        """Markdown başlıklarına göre semantik chunking yapar.
+
+        Her #, ##, ### başlığı bir bölüm sınırı olarak kullanılır.
+        Çok büyük bölümler fallback_splitter ile alt parçalara bölünür.
+
+        Returns:
+            list of (chunk_text, bolum_basligi) tuples
+        """
+        import re as _re
+
+        # Markdown başlıklarına göre böl
+        # Pattern: satır başında 1-3 adet # ve ardından boşluk + başlık metni
+        heading_pattern = _re.compile(r'^(#{1,3})\s+(.+)$', _re.MULTILINE)
+
+        sections = []
+        last_end = 0
+        current_heading = "Genel"
+
+        for match in heading_pattern.finditer(content):
+            # Önceki bölümün içeriğini kaydet
+            section_text = content[last_end:match.start()].strip()
+            if section_text:
+                sections.append((section_text, current_heading))
+
+            # Yeni bölüm başlığını al
+            current_heading = match.group(2).strip()
+            last_end = match.start()
+
+        # Son bölümü ekle
+        remaining = content[last_end:].strip()
+        if remaining:
+            sections.append((remaining, current_heading))
+
+        # Eğer hiç başlık bulunamadıysa, tüm içeriği tek bölüm olarak al
+        if not sections:
+            sections = [(content.strip(), "Genel")]
+
+        # Çok büyük bölümleri alt parçalara böl
+        result = []
+        for section_text, heading in sections:
+            if len(section_text) > Config.CHUNK_SIZE * 2:
+                # Büyük bölüm: fallback splitter ile böl
+                sub_chunks = fallback_splitter.split_text(section_text)
+                for sub in sub_chunks:
+                    result.append((sub, heading))
+            else:
+                result.append((section_text, heading))
+
+        return result
 
     # ── Arama ─────────────────────────────────────────────────────────
 

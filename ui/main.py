@@ -152,7 +152,20 @@ with tabs[1]:
 
             with st.chat_message("assistant"):
                 with st.spinner("Analiz ediliyor... (bu işlem 1-2 dk sürebilir)"):
-                    response = brain.analyze(prompt, birim=birim_rag, yil=yil_rag)
+                    result = brain.analyze(prompt, birim=birim_rag, yil=yil_rag)
+                    # analyze() artık tuple dönüyor: (text, auto_birim, auto_yil)
+                    if isinstance(result, tuple):
+                        response, auto_birim, auto_yil = result
+                        # Otomatik algılanan birim/yıl bilgisini göster
+                        if auto_birim or auto_yil:
+                            info_parts = []
+                            if auto_birim:
+                                info_parts.append(f"Birim: **{auto_birim}**")
+                            if auto_yil:
+                                info_parts.append(f"Yıl: **{auto_yil}**")
+                            st.info(f"🔍 Otomatik algılanan filtre: {', '.join(info_parts)}")
+                    else:
+                        response = result
                 st.markdown(response)
             st.session_state.messages.append({"role": "assistant", "content": response})
 
@@ -314,28 +327,50 @@ with tabs[5]:
                 if target_file:
                     with st.spinner("Örnek veri üretiliyor (anket tablosu + metin beyanları)..."):
                         mock_data = brain.generate_mock_data(target_file, mode)
-                        st.session_state["comparison_text"] = mock_data
+                        # Anket ve metin bölümlerini ayırmaya çalış
+                        if "BOLUM 2" in mock_data or "BÖLÜM 2" in mock_data:
+                            parts = mock_data.split("BOLUM 2") if "BOLUM 2" in mock_data else mock_data.split("BÖLÜM 2")
+                            st.session_state["survey_text"] = parts[0].strip()
+                            st.session_state["comparison_text"] = ("BÖLÜM 2" + parts[1]).strip() if len(parts) > 1 else ""
+                        else:
+                            st.session_state["comparison_text"] = mock_data
+                            st.session_state["survey_text"] = ""
                         st.rerun()
                 else:
                     st.warning("Lütfen veri üretmek için önce bir rapor seçin.")
 
         with col2:
-            st.subheader("📝 Beyan Girişi")
-            st.caption("Anket tablosu ve metin beyanlarını aşağıya yapıştırın veya otomatik üretin.")
+            st.subheader("📊 Anket Verileri")
+            st.caption("Anket tablosunu aşağıya yapıştırın veya otomatik üretin.")
+            survey_text = st.text_area(
+                "Anket Tablosu",
+                value=st.session_state.get("survey_text", ""),
+                height=180,
+                placeholder="| # | Soru | Puan (1-5) | İşaretleme |\n| 1 | ... | 4 | [X] |\n| 2 | ... | 3 | [X] |",
+                key="survey_input",
+            )
+
+            st.subheader("📝 Metin Beyanları")
+            st.caption("Metin iddialarını aşağıya yapıştırın veya otomatik üretin.")
             comparison_text = st.text_area(
-                "Karşılaştırılacak Beyanlar (Anket + Metin)",
+                "Metin Beyanları",
                 value=st.session_state.get("comparison_text", ""),
-                height=300,
-                placeholder="BÖLÜM 1: ANKET YANITLARI\n| # | Soru | Puan (1-5) | İşaretleme |\n...\n\nBÖLÜM 2: METİN BEYANLARI\n...",
+                height=180,
+                placeholder="Birim bünyesinde 5 program bulunmakta olup, toplam 2441 öğrenci kayıtlıdır...\n3 adet TÜBİTAK projesi yürütülmektedir...",
+                key="text_input",
             )
 
         if st.button("🔍 Doğrulama Analizini Başlat", type="primary"):
-            if not comparison_text.strip():
-                st.warning("Lütfen karşılaştırılacak bir beyan girin veya otomatik üretin.")
+            if not comparison_text.strip() and not survey_text.strip():
+                st.warning("Lütfen en az bir beyan girin (anket veya metin) veya otomatik üretin.")
             else:
                 with st.spinner("Her iddia rapor ile tek tek karşılaştırılıyor..."):
                     try:
-                        result = brain.check_consistency(comparison_text, filename=target_file)
+                        result = brain.check_consistency(
+                            comparison_text=comparison_text.strip(),
+                            survey_text=survey_text.strip() if survey_text.strip() else None,
+                            filename=target_file,
+                        )
                         
                         st.success("✅ Doğrulama Analizi Tamamlandı!")
                         st.markdown(result)

@@ -2,23 +2,28 @@
 
 Bu belge, projeyi sıfırdan kuracak ekip üyeleri için hazırlanmıştır.
 
-## 1. Sistem Gereksinimleri ve Hazırlık
-- **Python:** 3.10.11 
-- **GPU:** NVIDIA RTX serisi (Min. 8GB VRAM önerilir).
-- **İnternet:** Sadece model ve kütüphane kurulumu sırasında gereklidir.
+## 1. Sistem Gereksinimleri
+- **Python:** 3.10+
+- **GPU:** NVIDIA RTX serisi (Min. 8GB VRAM)
+- **RAM:** Min. 16GB (32GB önerilir)
+- **Disk:** Min. 10GB boş alan (model + vektör veritabanı)
+- **İnternet:** Sadece ilk kurulumda (model ve kütüphane indirme)
 
-## 2. Ollama Kurulumu (Adım Adım)
+## 2. Ollama Kurulumu
+
 Ollama, yerel modelleri çalıştırmak için gereken ana motordur.
-1. [Ollama Windows Download](https://ollama.com/download/windows) adresine gidin.
-2. `OllamaSetup.exe` dosyasını indirin ve kurun.
-3. Kurulum bittikten sonra sağ alt köşede (sistem tepsisi) Ollama ikonunun göründüğünden emin olun.
-4. Terminali (PowerShell veya CMD) açıp `ollama --version` yazarak kurulumu doğrulayın.
 
-## 3. Python Sanal Ortam (venv) Kurulumu
-Python 3.10.11 bilgisayarınızda yüklü olduğu için projeye özel bir izole alan oluşturacağız. Bu işlem Python'u tekrar indirmeyi gerektirmez.
+1. [Ollama Windows Download](https://ollama.com/download/windows) adresinden `OllamaSetup.exe` indirin ve kurun
+2. Sistem tepsisinde (sağ alt köşe) Ollama ikonunun göründüğünü doğrulayın
+3. Terminal açıp kurulumu doğrulayın:
+   ```powershell
+   ollama --version
+   ```
 
-1. Proje klasörüne (`ReportLens`) terminal ile gidin.
-2. Şu komutu çalıştırarak sanal ortamı oluşturun:
+## 3. Python Sanal Ortam Kurulumu
+
+1. Proje klasörüne (`ReportLens`) terminal ile gidin
+2. Sanal ortam oluşturun:
    ```powershell
    python -m venv venv
    ```
@@ -26,28 +31,68 @@ Python 3.10.11 bilgisayarınızda yüklü olduğu için projeye özel bir izole 
    ```powershell
    .\venv\Scripts\Activate
    ```
-   *Not: Aktif olduğunda terminal satırının başında `(venv)` ibaresini görmelisiniz.*
-4. Gerekli kütüphaneleri kurun:
+   > Aktif olduğunda satır başında `(venv)` görünmelidir.
+4. Bağımlılıkları kurun:
    ```powershell
    pip install -r requirements.txt
    ```
 
-## 4. Model ve Agent Hazırlığı
-Terminaliniz aktifken (`venv` içindeyken) şu komutları çalıştırın:
+## 4. Model İndirme
+
+Sanal ortam aktifken şu komutları çalıştırın:
 
 ```powershell
-# Ana modeli indirme (Yaklaşık 4.7 GB)
+# Ana LLM modeli (Yaklaşık 4.7 GB)
 ollama pull llama3.1:8b
 
-# Raporlama Uzmanı Agent rolünü sisteme kaydetme
-ollama create quality-expert -f models/reporter_expert.Modelfile
+# Embedding modeli (Yaklaşık 270 MB)
+ollama pull nomic-embed-text
 ```
 
-## 5. Uygulama Akışı
-Her şey kurulduktan sonra analiz süreci şu şekilde işler:
-1. **Veri Girişi:** PDF/DOCX dosyalarını `Data/raw_data` içine atın.
-2. **İşleme:** Raporları Markdown'a çevirin: `python scripts/process_data.py`
-3. **Analiz:** Raporları sorgulayın: `python scripts/analyze_reports.py`
+## 5. Uygulamayı Başlatma
 
-## 6. Gizlilik ve Güvenlik
-Bu proje tamamen **OFFLINE** çalışacak şekilde tasarlanmıştır. Verileriniz asla dışarı çıkmaz, vektör veritabanınız (`Data/vector_db`) yerel diskinde saklanır.
+```powershell
+# Sanal ortam aktif olmalı (venv)
+streamlit run ui/main.py
+```
+
+Tarayıcınızda `http://localhost:8501` adresinde uygulama açılacaktır.
+
+## 6. Uygulama Akışı
+
+1. **Rapor Yükleme:** `📁 Rapor Yönetimi` sekmesinden PDF/DOCX/Excel/CSV dosyalarını yükleyin
+2. **İşleme ve İndeksleme:** "Yüklenen Dosyaları İşle ve İndeksle" butonuna tıklayın
+3. **Analiz:** Diğer sekmeleri kullanarak raporlarınızı analiz edin:
+   - 🤖 **Kalite Analiz Uzmanı** — Serbest metin sorguları
+   - 📄 **Rapor Analizi** — Tekil rapor detaylı analizi
+   - 📊 **Öz Değerlendirme** — Kapsamlı YÖKAK raporu üretimi
+   - ⚖️ **Rubrik Notlandırma** — YÖKAK rubrik puanlama
+   - 🔍 **Tutarsızlık Analizi** — Beyan/anket doğrulama
+
+## 7. Testleri Çalıştırma
+
+```powershell
+# Tüm testler
+python -m pytest tests/ -v
+
+# Belirli test dosyası
+python -m pytest tests/test_output_validator.py -v
+```
+
+## 8. Gizlilik ve Güvenlik
+
+Bu proje tamamen **OFFLINE** çalışır:
+- LLM modeli yerel çalışır (Ollama)
+- Vektör veritabanı yerel diskte saklanır (Qdrant)
+- Veriler `Data/` dizininde tutulur
+- Hiçbir veri 3. parti servislere gönderilmez
+
+## 9. Sorun Giderme
+
+| Sorun | Çözüm |
+| :--- | :--- |
+| `ConnectionError: Ollama'ya bağlanılamıyor` | Ollama'nın çalıştığından emin olun (sistem tepsisi) |
+| `Model bulunamadı` | `ollama pull llama3.1:8b` çalıştırın |
+| `Embedding hatası` | `ollama pull nomic-embed-text` çalıştırın |
+| `CUDA out of memory` | Diğer GPU kullanan uygulamaları kapatın |
+| Boş analiz sonuçları | `📁 Rapor Yönetimi`'nden dosyaları yeniden işleyin |

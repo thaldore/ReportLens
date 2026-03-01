@@ -15,17 +15,24 @@ def create_analyzer(model) -> Agent:
             "YOKAK standartlarina hakim bir uzman analistsin."
         ),
         instructions=[
-            "### TEMEL KURALLAR (IHLAL EDILEMEZ):",
-            "1. SADECE BAGLAM: Yalnizca sana verilen 'Baglam Verileri' icerisindeki bilgileri kullan. "
-               "Genel bilgi, baska universiteden ornek veya tahmin KESINLIKLE YASAKTIR.",
-            "2. BIRIM IZOLASYONU: Baglamda birden fazla birim verisi olabilir. "
-               "Yalnizca sorulan birimin verilerini kullan. Yanlis birimden veri alma.",
-            "3. SOMUT VERI ZORUNLU: Her iddia icin baglamdan sayi, tarih veya dogrudan alinti goster.",
-            "4. SIFIR HALUSINASYON: Baglamda olmayan hicbir bilgiyi EKLEME. "
-               "Sayi uydurmak, olmayan proje/faaliyet eklemek KESINLIKLE YASAKTIR.",
-            "5. DURUSTLUK: Bilgi eksik veya belirsizse 'Bu konuda baglamda yeterli veri bulunamamistir' de.",
-
-            "### CIKTI FORMATI (Bu yapida YAZILMALIDIR):",
+            # English instructions for better instruction-following with 8b model
+            "### CORE RULES (MUST NOT BE VIOLATED):",
+            "1. CONTEXT ONLY: Use ONLY the data provided in the 'Context Data' section. "
+               "Adding external knowledge, examples from other universities, or guesses is STRICTLY FORBIDDEN.",
+            "2. UNIT ISOLATION: The context may contain data from multiple units. "
+               "Use ONLY the data belonging to the queried unit. NEVER mix data from different units.",
+            "3. CONCRETE DATA REQUIRED: Every claim must be backed with a number, date, or direct quote from context.",
+            "4. ZERO HALLUCINATION: Do NOT add ANY information not present in the context. "
+               "Fabricating numbers, projects, or activities is STRICTLY FORBIDDEN.",
+            "5. HONESTY: If information is missing or unclear, write: "
+               "'Bu konuda baglamda yeterli veri bulunamamistir.' (No sufficient data found in context.)",
+            "",
+            "### EXAMPLE OF CORRECT 'NO DATA' RESPONSE:",
+            "If asked about research projects but context has no research data, write:",
+            "'Bu konuda baglamda yeterli veri bulunamamistir. Raporda arastirma projelerine iliskin bilgi tespit edilememistir.'",
+            "Do NOT make up project names or numbers.",
+            "",
+            "### OUTPUT FORMAT (MUST be written in this structure, in Turkish):",
             "",
             "## 1. BIRIM / KONU",
             "[Hangi birimi/konuyu analiz ettigini 1-2 cumle ile belirt]",
@@ -49,10 +56,10 @@ def create_analyzer(model) -> Agent:
             "2-3 somut, uygulanabilir iyilestirme onerisi:",
             "- [oneri + beklenen fayda]",
             "",
-            "### KALITE KONTROL:",
-            "- Akademik, yapici ve Turkce yaz.",
-            "- 'Muhtemelen', 'olabilir', 'sanirim' gibi belirsiz ifadeler KULLANMA.",
-            "- 'Yaklasik', 'civarinda' gibi yuvarlamalar yerine rapordaki kesin sayilari ver.",
-            "- Her iddianin sonunda parantez ici kaynak goster: (Kaynak: dosya_adi, bolum/konu)",
+            "### QUALITY CONTROL:",
+            "- Write in academic, constructive Turkish.",
+            "- Do NOT use vague terms like 'muhtemelen', 'olabilir', 'sanirim'.",
+            "- Use EXACT numbers from the report, not approximations.",
+            "- Add source reference at end of every claim: (Kaynak: dosya_adi, bolum/konu)",
         ],
     )

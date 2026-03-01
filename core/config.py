@@ -33,10 +33,16 @@ class Config:
     SEARCH_K = int(os.getenv("SEARCH_K", "8"))
     
     # Maksimum bağlam limiti (8b model güvenli sınırı)
-    MAX_CONTEXT_CHUNKS = 40 
+    MAX_CONTEXT_CHUNKS = 40
+
+    # Tutarsızlık analizi beyan boyutu limiti (karakter)
+    MAX_COMPARISON_TEXT = int(os.getenv("MAX_COMPARISON_TEXT", "5000"))
+
+    # Minimum chunk içerik uzunluğu (çok kısa chunk'ları filtrele)
+    MIN_CHUNK_CONTENT_LENGTH = int(os.getenv("MIN_CHUNK_CONTENT_LENGTH", "50"))
 
     # Model parametreleri
-    TEMPERATURE = float(os.getenv("TEMPERATURE", "0.3"))
+    TEMPERATURE = float(os.getenv("TEMPERATURE", "0.1"))
     NUM_CTX = int(os.getenv("NUM_CTX", "32768"))
 
     # YÖKAK Rubrik Kriterleri (Standart)
