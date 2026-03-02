@@ -2,97 +2,90 @@
 
 Bu belge, projeyi sıfırdan kuracak ekip üyeleri için hazırlanmıştır.
 
-## 1. Sistem Gereksinimleri
-- **Python:** 3.10+
-- **GPU:** NVIDIA RTX serisi (Min. 8GB VRAM)
-- **RAM:** Min. 16GB (32GB önerilir)
-- **Disk:** Min. 10GB boş alan (model + vektör veritabanı)
-- **İnternet:** Sadece ilk kurulumda (model ve kütüphane indirme)
+## 🤖 İndeksleme ve RAG Çalışma Mantığı
 
-## 2. Ollama Kurulumu
+ReportLens, **Agentic RAG (Retrieval-Augmented Generation)** mimarisini kullanır. Yüklediğiniz raporlar şu adımlardan geçer:
+1.  **Semantik Parçalama:** Raporlar Markdown başlıklarına göre anlamlı bloklara ayrılır.
+2.  **Vektörleştirme (Embedding):** `nomic-embed-text` modeli ile her parça nümerik bir vektöre dönüştürülür.
+3.  **İndeksleme:** Bu vektörler yerel **Qdrant** veritabanında saklanır.
+4.  **Sorgulama:** Bir soru sorduğunuzda, sistem en alakalı 15-20 parçayı bulur ve LLM'e (llama3.1) "bağlam" olarak sunar.
 
-Ollama, yerel modelleri çalıştırmak için gereken ana motordur.
+---
 
-1. [Ollama Windows Download](https://ollama.com/download/windows) adresinden `OllamaSetup.exe` indirin ve kurun
-2. Sistem tepsisinde (sağ alt köşe) Ollama ikonunun göründüğünü doğrulayın
-3. Terminal açıp kurulumu doğrulayın:
+## 🚀 1. Docker ile Hızlı Kurulum (Önerilen)
+
+En sorunsuz ve hızlı yöntem Docker kullanmaktır. Tüm bağımlılıklar ve veritabanları otomatik kurulur.
+
+**Gereksinimler:** Docker Desktop ve NVIDIA Container Toolkit yüklü olmalıdır.
+
+1.  Proje klasöründe terminal açın.
+2.  Sistemi ayağa kaldırın:
+    ```bash
+    docker compose up --build
+    ```
+3.  **Önemli:** İlk çalıştırmada `llama3.1:8b` ve `nomic-embed-text` modelleri otomatik olarak çekilecektir (yaklaşık 5GB). Bu işlem internet hızınıza bağlı olarak zaman alabilir.
+4.  Tarayıcınızda `http://localhost:8501` adresine giderek sistemi kullanmaya başlayın.
+
+---
+
+## 🐍 2. Alternatif: Yerel Python Kurulumu (venv)
+
+Docker kullanmak istemiyorsanız aşağıdaki adımları izleyin.
+
+### A. Ollama Kurulumu
+1. [Ollama Windows Download](https://ollama.com/download/windows) adresinden indirin ve kurun.
+2. Modelleri manuel çekin:
    ```powershell
-   ollama --version
+   ollama pull llama3.1:8b
+   ollama pull nomic-embed-text
    ```
 
-## 3. Python Sanal Ortam Kurulumu
-
-1. Proje klasörüne (`ReportLens`) terminal ile gidin
-2. Sanal ortam oluşturun:
+### B. Python Ortamı
+1. Sanal ortam oluşturun ve aktif edin:
    ```powershell
    python -m venv venv
-   ```
-3. Sanal ortamı aktif edin:
-   ```powershell
    .\venv\Scripts\Activate
    ```
-   > Aktif olduğunda satır başında `(venv)` görünmelidir.
-4. Bağımlılıkları kurun:
+2. Bağımlılıkları kurun:
    ```powershell
    pip install -r requirements.txt
    ```
 
-## 4. Model İndirme
-
-Sanal ortam aktifken şu komutları çalıştırın:
-
-```powershell
-# Ana LLM modeli (Yaklaşık 4.7 GB)
-ollama pull llama3.1:8b
-
-# Embedding modeli (Yaklaşık 270 MB)
-ollama pull nomic-embed-text
+### C. Qdrant Çalıştırma
+Yerel Python kurulumunda Qdrant'ı ayrıca çalıştırmanız gerekir:
+```bash
+docker run -p 6333:6333 -v qdrant_storage:/qdrant/storage qdrant/qdrant
 ```
 
-## 5. Uygulamayı Başlatma
-
+### D. Uygulamayı Başlatma
 ```powershell
-# Sanal ortam aktif olmalı (venv)
 streamlit run ui/main.py
 ```
 
-Tarayıcınızda `http://localhost:8501` adresinde uygulama açılacaktır.
+---
 
-## 6. Uygulama Akışı
+## 🛠️ 3. Uygulama Akışı
 
-1. **Rapor Yükleme:** `📁 Rapor Yönetimi` sekmesinden PDF/DOCX/Excel/CSV dosyalarını yükleyin
-2. **İşleme ve İndeksleme:** "Yüklenen Dosyaları İşle ve İndeksle" butonuna tıklayın
-3. **Analiz:** Diğer sekmeleri kullanarak raporlarınızı analiz edin:
-   - 🤖 **Kalite Analiz Uzmanı** — Serbest metin sorguları
-   - 📄 **Rapor Analizi** — Tekil rapor detaylı analizi
-   - 📊 **Öz Değerlendirme** — Kapsamlı YÖKAK raporu üretimi
-   - ⚖️ **Rubrik Notlandırma** — YÖKAK rubrik puanlama
-   - 🔍 **Tutarsızlık Analizi** — Beyan/anket doğrulama
+1. **Rapor Yükleme:** `📁 Rapor Yönetimi` sekmesinden PDF/DOCX/Excel/CSV dosyalarını yükleyin.
+2. **İşleme ve İndeksleme:** "Yüklenen Dosyaları İşle ve İndeksle" butonuna tıklayın. (Bu işlem metinleri vektör veritabanına kaydeder).
+3. **Analiz:** Diğer sekmeleri kullanarak analizleri gerçekleştirin.
 
-## 7. Testleri Çalıştırma
+## 🧪 4. Testleri Çalıştırma
 
 ```powershell
-# Tüm testler
+# Venv içindeyken
 python -m pytest tests/ -v
-
-# Belirli test dosyası
-python -m pytest tests/test_output_validator.py -v
 ```
 
-## 8. Gizlilik ve Güvenlik
+## 🔐 5. Gizlilik ve Güvenlik
 
-Bu proje tamamen **OFFLINE** çalışır:
-- LLM modeli yerel çalışır (Ollama)
-- Vektör veritabanı yerel diskte saklanır (Qdrant)
-- Veriler `Data/` dizininde tutulur
-- Hiçbir veri 3. parti servislere gönderilmez
+Bu proje tamamen **OFFLINE** çalışır. Hiçbir veri 3. parti servislere (OpenAI, Google vb.) gönderilmez. Tüm analizler kendi donanımınızda (GPU) gerçekleşir.
 
-## 9. Sorun Giderme
+## ❓ 6. Sorun Giderme
 
 | Sorun | Çözüm |
 | :--- | :--- |
-| `ConnectionError: Ollama'ya bağlanılamıyor` | Ollama'nın çalıştığından emin olun (sistem tepsisi) |
-| `Model bulunamadı` | `ollama pull llama3.1:8b` çalıştırın |
-| `Embedding hatası` | `ollama pull nomic-embed-text` çalıştırın |
-| `CUDA out of memory` | Diğer GPU kullanan uygulamaları kapatın |
-| Boş analiz sonuçları | `📁 Rapor Yönetimi`'nden dosyaları yeniden işleyin |
+| `ConnectionError` | Ollama veya Qdrant konteynerlerinin çalıştığından emin olun. |
+| `CUDA out of memory` | GPU belleğiniz (VRAM) yetersiz olabilir. Diğer uygulamaları kapatın. |
+| `Boş Sonuçlar` | Raporları yeniden indekslemeyi deneyin. |
+| `Docker GPU Hatası` | NVIDIA Container Toolkit'in yüklü olduğunu kontrol edin. |
