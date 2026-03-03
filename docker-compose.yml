@@ -14,6 +14,7 @@ services:
       - QDRANT_URL=http://qdrant:6333
       - MODEL_ID=llama3.1:8b
       - EMBEDDING_MODEL=nomic-embed-text
+      - AGNO_TELEMETRY=false
     depends_on:
       ollama:
         condition: service_started

@@ -180,8 +180,8 @@ class VectorStore:
                             points=points[j : j + batch_size],
                         )
 
-                total_chunks += len(chunks)
-                logger.info(f"  ✅ {md_file.name}: {len(chunks)} parça")
+                total_chunks += len(points)
+                logger.info(f"  ✅ {md_file.name}: {len(points)} parça")
 
             except Exception as e:
                 logger.error(f"  ❌ {md_file.name}: {str(e)}")
@@ -215,6 +215,7 @@ class VectorStore:
         """Markdown başlıklarına göre semantik chunking yapar.
 
         Her #, ##, ### başlığı bir bölüm sınırı olarak kullanılır.
+        Tablo blokları korunur (chunk sınırlarına bölünmez).
         Çok büyük bölümler fallback_splitter ile alt parçalara bölünür.
 
         Returns:
@@ -222,8 +223,10 @@ class VectorStore:
         """
         import re as _re
 
+        # Ön işlem: tablo bloklarını koru (bölünmeyi önle)
+        content = VectorStore._protect_tables(content)
+
         # Markdown başlıklarına göre böl
-        # Pattern: satır başında 1-3 adet # ve ardından boşluk + başlık metni
         heading_pattern = _re.compile(r'^(#{1,3})\s+(.+)$', _re.MULTILINE)
 
         sections = []
@@ -231,34 +234,91 @@ class VectorStore:
         current_heading = "Genel"
 
         for match in heading_pattern.finditer(content):
-            # Önceki bölümün içeriğini kaydet
             section_text = content[last_end:match.start()].strip()
             if section_text:
                 sections.append((section_text, current_heading))
-
-            # Yeni bölüm başlığını al
             current_heading = match.group(2).strip()
             last_end = match.start()
 
-        # Son bölümü ekle
         remaining = content[last_end:].strip()
         if remaining:
             sections.append((remaining, current_heading))
 
-        # Eğer hiç başlık bulunamadıysa, tüm içeriği tek bölüm olarak al
         if not sections:
             sections = [(content.strip(), "Genel")]
 
-        # Çok büyük bölümleri alt parçalara böl
+        # Çok büyük bölümleri alt parçalara böl (tablo bloklarını koru)
         result = []
         for section_text, heading in sections:
             if len(section_text) > Config.CHUNK_SIZE * 2:
-                # Büyük bölüm: fallback splitter ile böl
-                sub_chunks = fallback_splitter.split_text(section_text)
+                sub_chunks = VectorStore._split_preserving_tables(
+                    section_text, fallback_splitter
+                )
                 for sub in sub_chunks:
                     result.append((sub, heading))
             else:
                 result.append((section_text, heading))
+
+        return result
+
+    @staticmethod
+    def _protect_tables(content: str) -> str:
+        """Tekrarlayan tablo sütunlarını temizler (OCR artefaktları).
+        Örn: aynı hücre 8 kez tekrarlanıyorsa tek kopya bırak."""
+        import re as _re
+        lines = content.split('\n')
+        cleaned = []
+        for line in lines:
+            if '|' in line and line.count('|') > 6:
+                # Tablo satırı: tekrarlayan hücreleri temizle
+                cells = [c.strip() for c in line.split('|')]
+                cells = [c for c in cells if c]  # Boşları kaldır
+                if cells:
+                    unique_cells = []
+                    seen = set()
+                    for cell in cells:
+                        cell_normalized = _re.sub(r'\s+', ' ', cell.strip())
+                        if cell_normalized not in seen:
+                            unique_cells.append(cell)
+                            seen.add(cell_normalized)
+                    line = '| ' + ' | '.join(unique_cells) + ' |'
+            cleaned.append(line)
+        return '\n'.join(cleaned)
+
+    @staticmethod
+    def _split_preserving_tables(text: str, fallback_splitter) -> list:
+        """Metni bölerken tablo bloklarını korur."""
+        import re as _re
+        # Tablo bloklarını bul (| ile başlayan ardışık satırlar)
+        blocks = []
+        current_block = []
+        in_table = False
+
+        for line in text.split('\n'):
+            is_table_line = line.strip().startswith('|') and '|' in line[1:]
+            if is_table_line:
+                if not in_table and current_block:
+                    blocks.append(('text', '\n'.join(current_block)))
+                    current_block = []
+                in_table = True
+                current_block.append(line)
+            else:
+                if in_table and current_block:
+                    blocks.append(('table', '\n'.join(current_block)))
+                    current_block = []
+                in_table = False
+                current_block.append(line)
+
+        if current_block:
+            blocks.append(('table' if in_table else 'text', '\n'.join(current_block)))
+
+        # Metin bloklarını böl, tablo bloklarını koru
+        result = []
+        for block_type, block_text in blocks:
+            if block_type == 'table' or len(block_text) <= Config.CHUNK_SIZE * 2:
+                result.append(block_text)
+            else:
+                result.extend(fallback_splitter.split_text(block_text))
 
         return result
 

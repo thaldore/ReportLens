@@ -1,6 +1,6 @@
 """
 ReportLens Streamlit Arayüzü.
-Analiz, Öz Değerlendirme, Tutarsızlık Analizi, Rapor Yönetimi sayfaları.
+Analiz, Öz Değerlendirme, Tutarsızlık Analizi, Rapor Yönetimi ve Test Sonuçları sayfaları.
 """
 import os
 import sys
@@ -56,6 +56,7 @@ tabs = st.tabs([
     "⚖️ Rubrik Notlandırma",
     "🔍 Tutarsızlık Analizi",
     "📁 Rapor Yönetimi",
+    "📊 Test Sonuçları",
     "⚙️ Ayarlar",
 ])
 
@@ -473,10 +474,71 @@ with tabs[6]:
             st.info("Henüz rapor yüklenmemiş.")
 
 # ══════════════════════════════════════════════════════════════════════
-# SAYFA 6: Ayarlar
+# SAYFA 7: Test Sonuçları
 # ══════════════════════════════════════════════════════════════════════
 
 with tabs[7]:
+    st.header("📊 Test Sonuçları")
+    st.markdown("""
+    `python scripts/full_system_test.py` komutu ile çalıştırılan kapsamlı testlerin sonuçlarını gösterir.
+    Sonuçlar `Data/test_results/` dizininde Markdown rapor olarak saklanır.
+    """)
+
+    import json
+    # Markdown raporları listele
+    test_md_files = sorted(
+        Config.TEST_RESULTS_DIR.glob("test_raporu_*.md"),
+        reverse=True
+    ) if Config.TEST_RESULTS_DIR.exists() else []
+
+    if not test_md_files:
+        st.info(
+            "Henüz test sonucu yok. Testi çalıştırmak için:\n\n"
+            "`docker compose exec streamlit python scripts/full_system_test.py`"
+        )
+    else:
+        selected_result = st.selectbox(
+            "Test Raporu Seç",
+            [f.name for f in test_md_files],
+            key="test_result_select",
+        )
+
+        result_path = Config.TEST_RESULTS_DIR / selected_result
+
+        # JSON özet bilgisini göster (varsa)
+        json_name = selected_result.replace("test_raporu_", "test_results_").replace(".md", ".json")
+        json_path = Config.TEST_RESULTS_DIR / json_name
+        if json_path.exists():
+            try:
+                meta = json.loads(json_path.read_text(encoding="utf-8"))
+                scol1, scol2, scol3 = st.columns(3)
+                scol1.metric("📅 Tarih", meta.get("tarih", "—"))
+                scol2.metric("✅ Başarılı", meta.get("basarili", 0))
+                scol3.metric("⚠️ Hata", meta.get("hata", 0))
+            except Exception:
+                pass
+
+        st.markdown("---")
+
+        # Markdown raporunu göster
+        try:
+            md_content = result_path.read_text(encoding="utf-8")
+            st.markdown(md_content)
+
+            st.download_button(
+                "📥 Raporu İndir (.md)",
+                data=md_content,
+                file_name=selected_result,
+                mime="text/markdown",
+            )
+        except Exception as e:
+            st.error(f"Rapor okunamadı: {e}")
+
+# ══════════════════════════════════════════════════════════════════════
+# SAYFA 8: Ayarlar
+# ══════════════════════════════════════════════════════════════════════
+
+with tabs[8]:
     st.header("⚙️ Ayarlar")
     if brain:
         status = brain.get_status()
@@ -485,9 +547,11 @@ with tabs[7]:
         with col1:
             st.write(f"**Ollama URL:** `{status['ollama_url']}`")
             st.write(f"**Model:** `{status['model']}`")
+            st.write(f"**Re-ranker:** `{status.get('reranker', 'bilinmiyor')}`")
         with col2:
             st.write(f"**Chunk Boyutu:** `{Config.CHUNK_SIZE}`")
             st.write(f"**Arama Sonuç (k):** `{Config.SEARCH_K}`")
+            st.write(f"**Prompt Cache:** `{status.get('prompt_cache', 'bilinmiyor')}`")
 
         st.markdown("### 📊 Vektör Veritabanı")
         st.json(status["vektor_db"])

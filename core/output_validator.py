@@ -2,12 +2,16 @@
 ReportLens Çıktı Doğrulama Modülü.
 LLM çıktılarını kullanıcıya göstermeden önce doğrular:
 - Halüsinasyon dedektörü (sayı eşleştirme)
-- Format doğrulama (bölüm başlıkları)
+- Format doğrulama (accent-insensitive bölüm başlıkları)
 - Tekrar dedektörü (paragraf benzerliği)
 - Rubrik puan format doğrulama
+- Structured JSON output parser
+- Birim kısaltma doğrulama
 """
+import json
 import re
-from typing import Dict, List, Optional
+import unicodedata
+from typing import Any, Dict, List, Optional
 
 from core.logging_config import get_logger
 
@@ -17,27 +21,34 @@ logger = get_logger(__name__)
 class OutputValidator:
     """LLM çıktılarını doğrulayan post-processing katmanı."""
 
+    # ── Türkçe Karakter Normalize ─────────────────────────────────────
+
+    # Türkçe → ASCII eşleşme tablosu
+    _TR_MAP = str.maketrans(
+        "çğıöşüÇĞİÖŞÜâîûÂÎÛ",
+        "cgiosuCGIOSUaiuAIU",
+    )
+
+    @staticmethod
+    def normalize_turkish(text: str) -> str:
+        """Türkçe karakterleri ASCII karşılıklarına dönüştürür.
+        GÜÇLÜ YÖNLER → GUCLU YONLER
+        """
+        return text.translate(OutputValidator._TR_MAP)
+
     # ── Halüsinasyon Dedektörü ────────────────────────────────────────
 
     @staticmethod
     def detect_hallucinated_numbers(output: str, context: str) -> Dict:
         """Çıktıdaki sayısal değerleri bağlamda arar.
         Bağlamda geçmeyen sayılar potansiyel halüsinasyondur.
-
-        Returns:
-            dict: {
-                "verified": [bağlamda bulunan sayılar],
-                "unverified": [bağlamda bulunamayan sayılar],
-                "warning_count": int
-            }
         """
-        # Çıktıdaki anlamlı sayıları çıkar (2+ basamaklı, yüzde değerleri vb.)
         output_numbers = set(re.findall(r'\b(\d{2,}(?:[.,]\d+)?)\b', output))
         context_numbers = set(re.findall(r'\b(\d{2,}(?:[.,]\d+)?)\b', context))
 
-        # Yıl, puan (1-5), sıra numaraları gibi genel sayıları hariç tut
-        skip_patterns = {str(y) for y in range(2015, 2030)}  # Yıllar
-        skip_patterns.update({'10', '20', '50', '100'})  # Yaygın yuvarlak sayılar
+        # Yaygın genel sayıları hariç tut
+        skip_patterns = {str(y) for y in range(2015, 2030)}
+        skip_patterns.update({'10', '20', '50', '100'})
 
         verified = []
         unverified = []
@@ -77,34 +88,36 @@ class OutputValidator:
 
         return output
 
-    # ── Format Doğrulama ──────────────────────────────────────────────
+    # ── Format Doğrulama (Accent-Insensitive) ─────────────────────────
 
     @staticmethod
     def validate_sections(output: str, expected_sections: List[str]) -> Dict:
         """Beklenen bölüm başlıklarının var olduğunu kontrol eder.
-
-        Returns:
-            dict: {
-                "found": [bulunan bölümler],
-                "missing": [eksik bölümler],
-                "compliance_rate": float (0-1)
-            }
+        Accent-insensitive ve case-insensitive eşleşme kullanır.
         """
-        output_lower = output.lower()
+        output_normalized = OutputValidator.normalize_turkish(output).lower()
         found = []
         missing = []
 
         for section in expected_sections:
-            # Hem tam eşleşme hem de kısmi eşleşme dene
-            if section.lower() in output_lower:
+            section_normalized = OutputValidator.normalize_turkish(section).lower()
+            # 1. Tam eşleşme (normalized)
+            if section_normalized in output_normalized:
                 found.append(section)
-            else:
-                # Bölüm numarası olmadan da ara
-                section_clean = re.sub(r'^\d+\.\s*', '', section).strip()
-                if section_clean.lower() in output_lower:
+                continue
+            # 2. Numarasız eşleşme
+            section_clean = re.sub(r'^\d+\.\s*', '', section_normalized).strip()
+            if section_clean in output_normalized:
+                found.append(section)
+                continue
+            # 3. Anahtar kelime eşleşme (başlığın %60+ kelimesi bulunursa)
+            words = [w for w in section_clean.split() if len(w) > 2]
+            if words:
+                matched = sum(1 for w in words if w in output_normalized)
+                if matched / len(words) >= 0.6:
                     found.append(section)
-                else:
-                    missing.append(section)
+                    continue
+            missing.append(section)
 
         total = len(expected_sections)
         compliance = len(found) / total if total > 0 else 0.0
@@ -137,15 +150,7 @@ class OutputValidator:
 
     @staticmethod
     def detect_repetitions(output: str, threshold: float = 0.8) -> Dict:
-        """Tekrarlı paragrafları tespit eder (Jaccard benzerliği ile).
-
-        Returns:
-            dict: {
-                "duplicate_pairs": [(i, j, benzerlik)],
-                "duplicate_count": int,
-                "cleaned_output": str (tekrarlar kaldırılmış)
-            }
-        """
+        """Tekrarlı paragrafları tespit eder (Jaccard benzerliği ile)."""
         paragraphs = [p.strip() for p in output.split('\n\n') if len(p.strip()) > 50]
         duplicate_pairs = []
         duplicates_to_remove = set()
@@ -157,9 +162,8 @@ class OutputValidator:
                 )
                 if similarity >= threshold:
                     duplicate_pairs.append((i, j, round(similarity, 2)))
-                    duplicates_to_remove.add(j)  # Sonraki tekrarı işaretle
+                    duplicates_to_remove.add(j)
 
-        # Temizlenmiş çıktı oluştur
         cleaned_paragraphs = [
             p for idx, p in enumerate(paragraphs)
             if idx not in duplicates_to_remove
@@ -197,15 +201,7 @@ class OutputValidator:
 
     @staticmethod
     def validate_rubric_score(output: str) -> Dict:
-        """Rubrik puanının doğru formatta olup olmadığını kontrol eder.
-
-        Returns:
-            dict: {
-                "score": int veya None,
-                "valid": bool,
-                "raw_match": str
-            }
-        """
+        """Rubrik puanının doğru formatta olup olmadığını kontrol eder."""
         puan_patterns = [
             r'[Pp]uan\s*[:\-]?\s*(\d)\s*/\s*5',
             r'[Pp]uan\s*[:\-]?\s*(\d)\b',
@@ -237,31 +233,21 @@ class OutputValidator:
 
     @staticmethod
     def verify_evidence(evidence_quote: str, context: str, min_ngram: int = 3) -> Dict:
-        """Kanıt alıntısının bağlamda gerçekten geçip geçmediğini kontrol eder.
-
-        Returns:
-            dict: {
-                "verified": bool,
-                "match_ratio": float (0-1),
-                "best_match": str
-            }
-        """
+        """Kanıt alıntısının bağlamda gerçekten geçip geçmediğini kontrol eder."""
         if not evidence_quote or not context:
             return {"verified": False, "match_ratio": 0.0, "best_match": ""}
 
-        # Alıntıdan kelime dizileri (n-gram) oluştur
         evidence_words = evidence_quote.lower().split()
         context_lower = context.lower()
 
         if len(evidence_words) < min_ngram:
-            # Çok kısa alıntılar doğrudan ara
+            found = evidence_quote.lower().strip("'\"") in context_lower
             return {
-                "verified": evidence_quote.lower().strip("'\"") in context_lower,
-                "match_ratio": 1.0 if evidence_quote.lower().strip("'\"") in context_lower else 0.0,
-                "best_match": evidence_quote if evidence_quote.lower().strip("'\"") in context_lower else "",
+                "verified": found,
+                "match_ratio": 1.0 if found else 0.0,
+                "best_match": evidence_quote if found else "",
             }
 
-        # N-gram eşleştirme
         matched_ngrams = 0
         total_ngrams = max(1, len(evidence_words) - min_ngram + 1)
 
@@ -278,6 +264,101 @@ class OutputValidator:
             "best_match": "",
         }
 
+    # ── Structured JSON Output Parser ─────────────────────────────────
+
+    @staticmethod
+    def parse_json_output(output: str) -> Optional[Dict[str, Any]]:
+        """LLM çıktısından JSON bloğu çıkarır ve parse eder.
+        ```json ... ``` blokları veya düz JSON destekler.
+        """
+        # 1. Markdown JSON bloğunu ara
+        json_block = re.search(r'```json\s*\n?(.*?)\n?\s*```', output, re.DOTALL)
+        if json_block:
+            try:
+                return json.loads(json_block.group(1).strip())
+            except json.JSONDecodeError:
+                pass
+
+        # 2. Düz JSON ara (ilk { ... } eşleşmesi)
+        brace_match = re.search(r'\{[^{}]*(?:\{[^{}]*\}[^{}]*)*\}', output, re.DOTALL)
+        if brace_match:
+            try:
+                return json.loads(brace_match.group(0))
+            except json.JSONDecodeError:
+                pass
+
+        logger.warning("JSON parse edilemedi — düz metin çıktı olarak işlenecek.")
+        return None
+
+    @staticmethod
+    def extract_sections_as_dict(output: str) -> Dict[str, str]:
+        """Markdown çıktısındaki ## başlıklarını sözlüğe dönüştürür.
+        '## 2. TEMEL BULGULAR\nİçerik...' → {'TEMEL BULGULAR': 'İçerik...'}
+        """
+        sections = {}
+        current_title = None
+        current_content = []
+
+        for line in output.split('\n'):
+            heading_match = re.match(r'^#{1,3}\s*\d*\.?\s*(.+)$', line.strip())
+            if heading_match:
+                if current_title:
+                    sections[current_title] = '\n'.join(current_content).strip()
+                current_title = heading_match.group(1).strip()
+                current_content = []
+            elif current_title is not None:
+                current_content.append(line)
+
+        if current_title:
+            sections[current_title] = '\n'.join(current_content).strip()
+
+        return sections
+
+    # ── Birim Kısaltma Doğrulama ──────────────────────────────────────
+
+    @staticmethod
+    def validate_birim_name(output: str, expected_birim: str = None) -> Dict:
+        """Çıktıdaki birim adının doğru olup olmadığını kontrol eder.
+        IIBF ≠ 'İleri Teknoloji Bilişim Fakültesi' gibi halüsinasyonları tespit eder.
+        """
+        from core.config import Config
+
+        wrong_names = []
+        if expected_birim and expected_birim in Config.BIRIM_FULL_NAMES:
+            correct_name = Config.BIRIM_FULL_NAMES[expected_birim]
+            # Bilinen yanlış adları kontrol et
+            known_wrong = {
+                "IIBF": [
+                    "İstatistik ve İnovasyon", "İç ve Dış İlişkiler",
+                    "İleri Teknoloji Bilişim", "İnsan ve İletişim",
+                ],
+                "ITBF": [
+                    "İdari Bilgi Sistemleri", "İleri Teknoloji Bilişim",
+                    "İletişim ve Toplum Bilimleri",
+                ],
+            }
+            for wrong in known_wrong.get(expected_birim, []):
+                if wrong.lower() in output.lower():
+                    wrong_names.append(wrong)
+
+        return {
+            "has_wrong_names": len(wrong_names) > 0,
+            "wrong_names": wrong_names,
+            "correct_name": Config.BIRIM_FULL_NAMES.get(expected_birim, expected_birim),
+        }
+
+    @staticmethod
+    def fix_birim_names(output: str, expected_birim: str) -> str:
+        """Yanlış birim adlarını doğru olanlarla değiştirir."""
+        result = OutputValidator.validate_birim_name(output, expected_birim)
+        if result["has_wrong_names"]:
+            for wrong in result["wrong_names"]:
+                output = output.replace(wrong, result["correct_name"])
+            logger.info(
+                f"Birim adı düzeltildi: {result['wrong_names']} → {result['correct_name']}"
+            )
+        return output
+
     # ── Bütünleşik Doğrulama ─────────────────────────────────────────
 
     @staticmethod
@@ -286,18 +367,23 @@ class OutputValidator:
         context: str,
         expected_sections: Optional[List[str]] = None,
         remove_duplicates: bool = True,
+        expected_birim: str = None,
     ) -> str:
-        """Tam doğrulama pipeline'ı: halüsinasyon + format + tekrar."""
+        """Tam doğrulama pipeline'ı: halüsinasyon + format + tekrar + birim."""
         result = output
 
         # 1. Tekrar kaldırma
         if remove_duplicates:
             result = OutputValidator.remove_repetitions(result)
 
-        # 2. Halüsinasyon uyarısı
+        # 2. Birim adı düzeltme
+        if expected_birim:
+            result = OutputValidator.fix_birim_names(result, expected_birim)
+
+        # 3. Halüsinasyon uyarısı
         result = OutputValidator.add_hallucination_warnings(result, context)
 
-        # 3. Format uyarısı
+        # 4. Format uyarısı
         if expected_sections:
             result = OutputValidator.add_missing_section_warnings(result, expected_sections)
 

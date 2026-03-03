@@ -43,7 +43,18 @@ class Config:
 
     # Model parametreleri
     TEMPERATURE = float(os.getenv("TEMPERATURE", "0.1"))
+    MOCK_TEMPERATURE = float(os.getenv("MOCK_TEMPERATURE", "0.3"))
     NUM_CTX = int(os.getenv("NUM_CTX", "32768"))
+
+    # Prompt caching — modeli bellekte tut (Ollama keep_alive)
+    OLLAMA_KEEP_ALIVE = os.getenv("OLLAMA_KEEP_ALIVE", "30m")
+
+    # Re-ranker modeli (CPU üzerinde çalışır, GPU ile çakışma yok)
+    RERANKER_MODEL = os.getenv("RERANKER_MODEL", "cross-encoder/ms-marco-MiniLM-L-6-v2")
+    RERANKER_ENABLED = os.getenv("RERANKER_ENABLED", "true").lower() == "true"
+
+    # Test sonuçları dizini
+    TEST_RESULTS_DIR = BASE_DIR / "Data" / "test_results"
 
     # YÖKAK Rubrik Kriterleri (Standart)
     RUBRIC_CRITERIA = {
@@ -93,6 +104,14 @@ class Config:
         ],
     }
 
+    # Birim kısaltma → tam ad eşleşmesi (halüsinasyon önleme)
+    BIRIM_FULL_NAMES = {
+        "Fen": "Fen Fakültesi",
+        "IIBF": "İktisadi ve İdari Bilimler Fakültesi",
+        "ITBF": "İnsan ve Toplum Bilimleri Fakültesi",
+        "Mimarlik": "Mimarlık Fakültesi",
+    }
+
     @classmethod
     def ensure_directories(cls):
         """Gerekli dizinleri oluşturur."""
@@ -100,3 +119,4 @@ class Config:
         cls.PROCESSED_DATA_DIR.mkdir(parents=True, exist_ok=True)
         cls.VECTOR_DB_DIR.mkdir(parents=True, exist_ok=True)
         cls.IMAGES_DIR.mkdir(parents=True, exist_ok=True)
+        cls.TEST_RESULTS_DIR.mkdir(parents=True, exist_ok=True)
