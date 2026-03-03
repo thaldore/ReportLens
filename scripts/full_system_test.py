@@ -16,6 +16,7 @@ import json
 import random
 import sys
 import time
+import requests
 from datetime import datetime
 from pathlib import Path
 
@@ -124,6 +125,68 @@ def get_available_reports() -> list:
     """Veritabanındaki raporları listeler."""
     md_files = list(Config.PROCESSED_DATA_DIR.glob("*.md"))
     return [f.name for f in md_files]
+
+
+def get_ollama_gpu_status() -> dict:
+    """Ollama servisinden GPU/model durumunu sorgular."""
+    base_url = Config.OLLAMA_BASE_URL
+    status = {
+        "gpu_available": False,
+        "device": "Bilinmiyor",
+        "loaded_models": [],
+        "gpu_layers": "Bilinmiyor",
+        "details": "",
+    }
+
+    try:
+        # Yüklü modelleri kontrol et
+        ps_resp = requests.get(f"{base_url}/api/ps", timeout=5)
+        if ps_resp.status_code == 200:
+            ps_data = ps_resp.json()
+            models = ps_data.get("models", [])
+            for m in models:
+                name = m.get("name", "?")
+                size = m.get("size", 0)
+                size_vram = m.get("size_vram", 0)
+                size_mb = size / (1024 * 1024)
+                vram_mb = size_vram / (1024 * 1024)
+
+                if size_vram > 0:
+                    status["gpu_available"] = True
+                    vram_pct = (size_vram / size * 100) if size > 0 else 0
+                    status["loaded_models"].append(
+                        f"{name} ({vram_mb:.0f} MB VRAM / {size_mb:.0f} MB toplam, GPU: %{vram_pct:.0f})"
+                    )
+                else:
+                    status["loaded_models"].append(
+                        f"{name} ({size_mb:.0f} MB, sadece CPU)"
+                    )
+
+        # Model detaylarını al (GPU katman bilgisi için)
+        show_resp = requests.post(
+            f"{base_url}/api/show",
+            json={"name": Config.MODEL_ID},
+            timeout=5,
+        )
+        if show_resp.status_code == 200:
+            show_data = show_resp.json()
+            details = show_data.get("details", {})
+            family = details.get("family", "")
+            param_size = details.get("parameter_size", "")
+            quant = details.get("quantization_level", "")
+            status["device"] = f"{family} {param_size} ({quant})" if family else "Bilinmiyor"
+
+        # GPU durumunu belirle
+        if not status["loaded_models"]:
+            # Henüz model yüklenmemiş, ilk sorgudan sonra yüklenecek
+            status["details"] = "Henüz model yüklenmemiş (ilk sorgu ile yüklenecek)"
+
+    except requests.exceptions.ConnectionError:
+        status["details"] = "⚠️ Ollama servisine bağlanılamadı!"
+    except Exception as e:
+        status["details"] = f"⚠️ GPU durumu alınamadı: {e}"
+
+    return status
 
 
 # ── Modül Test Fonksiyonları ──────────────────────────────────────
@@ -236,7 +299,14 @@ def run_oz_degerlendirme_tests(brain, collector: TestOutputCollector, count: int
 def run_rubrik_tests(brain, collector: TestOutputCollector, count: int = 8):
     """Rubrik Notlandırma — rapor bazlı rubrik analizi."""
     reports = get_available_reports()
-    oz_reports = [r for r in reports if "Oz_Degerlendirme" in r or "OZ" in r.upper()]
+    # Tüm öz değerlendirme raporu varyasyonlarını yakala:
+    # - Oz_Degerlendirme (Fen, IIBF, Mimarlik)
+    # - OZ_DEGERLENDIRME (ITBF büyük harfli)
+    oz_keywords = ["oz_degerlendirme", "ozdegerlendirme"]
+    oz_reports = [
+        r for r in reports
+        if any(kw in r.lower() for kw in oz_keywords)
+    ]
     if not oz_reports:
         oz_reports = reports[:count]
 
@@ -320,12 +390,49 @@ def main():
 
     print("\n🚀 ReportLens Kapsamlı Sistem Testi Başlatılıyor...")
     print(f"   Modül: {args.module}")
-    print(f"   Zaman: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
+    print(f"   Zaman: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
+
+    # GPU durumu göster
+    gpu_status = get_ollama_gpu_status()
+    if gpu_status["gpu_available"]:
+        print(f"   🟢 GPU: AKTİF — {gpu_status['device']}")
+        for model_info in gpu_status["loaded_models"]:
+            print(f"       Model: {model_info}")
+    else:
+        if gpu_status["loaded_models"]:
+            print(f"   🔴 GPU: KULLANILAMIYOR — Model CPU'da çalışıyor")
+            for model_info in gpu_status["loaded_models"]:
+                print(f"       Model: {model_info}")
+        else:
+            print(f"   🟡 GPU: {gpu_status.get('details', 'Henüz model yüklenmemiş')}")
+    print()
 
     # Brain başlat
     from core.brain import QualityBrain
     brain = QualityBrain()
     collector = TestOutputCollector()
+
+    # Warm-up: İlk sorgu ile modelleri GPU'ya yüklet
+    print("   ⏳ Model yükleniyor (warm-up)...")
+    try:
+        brain.analyze("test", birim="Fen")
+    except Exception:
+        pass  # Warm-up hatasını yoksay
+
+    # GPU durumunu tekrar kontrol et (artık model yüklü)
+    gpu_status = get_ollama_gpu_status()
+    if gpu_status["gpu_available"]:
+        print(f"   🟢 GPU: AKTİF — {gpu_status['device']}")
+        for model_info in gpu_status["loaded_models"]:
+            print(f"       Model: {model_info}")
+    else:
+        if gpu_status["loaded_models"]:
+            print(f"   🔴 GPU: KULLANILAMIYOR — Modeller sadece CPU'da çalışıyor")
+            for model_info in gpu_status["loaded_models"]:
+                print(f"       Model: {model_info}")
+        else:
+            print(f"   🔴 GPU: Model yüklenemedi!")
+    print()
 
     if args.module in ("all", "kalite"):
         print("\n📊 Modül 1: Kalite Analiz Uzmanı")

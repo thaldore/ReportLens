@@ -44,7 +44,7 @@ class Config:
     # Model parametreleri
     TEMPERATURE = float(os.getenv("TEMPERATURE", "0.1"))
     MOCK_TEMPERATURE = float(os.getenv("MOCK_TEMPERATURE", "0.3"))
-    NUM_CTX = int(os.getenv("NUM_CTX", "32768"))
+    NUM_CTX = int(os.getenv("NUM_CTX", "8192")) # 8192, 16384, 32768 şeklinde vram kullanımını artırıyor
 
     # Prompt caching — modeli bellekte tut (Ollama keep_alive)
     OLLAMA_KEEP_ALIVE = os.getenv("OLLAMA_KEEP_ALIVE", "30m")
