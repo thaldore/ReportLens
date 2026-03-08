@@ -27,7 +27,7 @@ yönergeleri okumalar gerektiği belir
 Karar No:
 20252: Aktif danışmanlık isteminin önemine değinilerek, bu s
 enciler
-hem deöğretm elemanları düşen sorumluluklar konusunda 
+hem deöğretm elemanları düşen sorumluluklar konusunda
 yapıl.
 Karar No: 2025/3: Öğrencilerin istek ve taleplerini Fakülteye iletirken hiyerarşi
 etmeleri

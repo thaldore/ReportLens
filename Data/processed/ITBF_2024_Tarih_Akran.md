@@ -2,7 +2,7 @@
 
 ws
 aS
-|
+
 AKRAN DEĞERLENDİRME RAPORU
 TARİH
 Prof. Dr. Ziya AVŞAR
@@ -37,12 +37,12 @@ Kurum, kurumsal dönüşümünü sağlayacak yönetişim
 modeline ship
 olmalı,
 il
-ulama ikale güvence mekanizmaların oluşturmalı ve kal güvence Kron 
+ulama ikale güvence mekanizmaların oluşturmalı ve kal güvence Kron
 ALL, Liderlik ve Kalite
 OLGUNLUK DÜZE
 FLYöncüşim
-modelive lariyapı | ‘1 | 2
-|X | 
+modelive lariyapı  ‘1  2
+|X 
 ALL, Liderlik veKalite
 ~~ OLGUNLUK DÜZ
 ALILider
@@ -63,7 +63,7 @@ Te al güvencesi mekanizmaları
 “77 TET
 A.L, Liderlik ve Kalite
 Ni
->
+
 OLGUNLUK DÜ
 ‘ALS.
 Kamuoyunu
@@ -83,7 +83,7 @@ A2. Misyon ve Siratejik Amaçlar
 
 AZ Misyon ve Stratejik Amaçlar (|
 OLGUNLUK DÜZE
-4.2.2. Stratgjik amaçveheder ÇT |? | XT
+4.2.2. Stratgjik amaçveheder ÇT |?  XT
 AZ. Misyon ve Stratejik Amaçlar.
 OLGUNLUK DÜZE
 AZI Performans yönetimi
@@ -91,18 +91,18 @@ TEE
 mi aİİ
 MN
 A. Yönetim Sistemleri
-Karum, srtejik hedeflerin ulaşmayı nitelik ve nicelik olarak gövence altına 
-ali, beşer ve bilgi kaynaklar ile süreçlerini yönetmek zer bir isteme sahip 
+Karum, srtejik hedeflerin ulaşmayı nitelik ve nicelik olarak gövence altına
+ali, beşer ve bilgi kaynaklar ile süreçlerini yönetmek zer bir isteme sahip
 A3, Yönetim
 Sistemleri
-|
+
 OLGUNLUK DÜ
 A3. Bilgi yönetim sistemi
 Li
-2 NEMİ 
-A3 Yönetim Sistemleri |
+2 NEMİ
+A3 Yönetim Sistemleri 
 OLGUNLUKDÜZE
-452 asan kaynakları yönetimi | TT | 3 |
+452 asan kaynakları yönetimi  TT  3 
 7 A3. Yönetim Sistemleri©
 OLGUNLUK DÜ
 “Ah. Finansalyonetim
@@ -124,7 +124,7 @@ ysy
 [AA Paydaş Kato
 ii
 OLGUNLUKDÜZE
-{
+
 4.4.3, Mezun ilişkileriyönetimi
 7
 2
@@ -157,33 +157,33 @@ L*|
 OLGUNLUK DÜZ
 4.5.2. Uluslararasilayma kaynakları
 ry?
-[as [
+[as 
 AS. Uluslararasilagma
 “OLGUNLUK DÜZE
 ASE Uuslararasilasma performansı
-|
-1 | 2
+
+1  2
 TE
-| 
+
 Lt
-|
+
 B.
 EĞİTİM VE ÖĞRETİM
-Kurum, öğretim programların Türkiye Yükseköğretim Yeterlilikleri Çerçevesi ile 
+Kurum, öğretim programların Türkiye Yükseköğretim Yeterlilikleri Çerçevesi ile
 amaçlarına ve öğrenme çıktılarına uygun olark tasrlamalı, öğrencilerin ve toplu
 ‘evap verdiğinden emin olmak çi periyodik oarak değerlendirmeli ve güncllemeld
 Bl, Programların Tasarımı, Değerlendirilmesi ve Güncellenmesi
 Bi.
 Programların
 Tasarımı,
-|
+
 OLGÜNLUKDÜZE
 
 ---
 
 ## Sayfa 5
 
-|
+
 (BA.Programfanm
 Tasarımı
 OLGUNLUKDÜ
@@ -191,32 +191,32 @@ Değerlendirilmesi ve Güncellenmesi
 Der kazanımlarının program
 MENEM
 elton uyum
-”
+
 N
 1“
 [BAL
 roşramların
 asarım |" OLGUNLUKDUZE
 Değerlendirmesi ve Gincellenmesi
-BIA. Öğrenci yüküm dayalıderi sarımı | 1
-| 2 | 3 | 
+BIA. Öğrenci yüküm dayalıderi sarımı  1
+ 2  3 
 Bi.
 Programların
-Tasarımı |
+Tasarımı 
 OLGUNLUK DÜZ
-|
+
 Değerlendirilmesi ve Güncellenmesi
 “BLS.
-Programların — izlenmesi
-© ve
+Programların  izlenmesi
+ ve
 ı
 2
 3
-|
+
 öncellenmesi
-|
-|
-|
+
+
+
 [Bi
 Programların
 Tasarımı,
@@ -226,12 +226,12 @@ TELE Tüm
 ve
 öğretim
 sürelerinin
-|
+
 7
 TA
 önetimi
 N
-|
+
 B2.
 Programların
 Yürütülmesi
@@ -241,7 +241,7 @@ Merkezli
 Değerlendirme)
 Kurum,
 hedeflediği nitelikli mezun yeterliklerine ulaşmak amacıyla öğren
-yetkinlik temeli öğretim, öçme ve değerlendirme yöntemlerini uygulamalıdır. 
+yetkinlik temeli öğretim, öçme ve değerlendirme yöntemlerini uygulamalıdır.
 kabulleri, diploma, derece ve diğer yeterliklerin tanınması ve srihalandırl
 açık hriteler
 belirlemeli;
@@ -251,10 +251,10 @@ kuraları
 uygulamalıdır
 BQ.
 Feopamların
-— Yürütümei |
+ Yürütümei 
 Öğrenci Merkezli Öğrenme, Öğretme
 OLGUNLUK DÜZ
-| ve Değerlendirme)
+ ve Değerlendirme)
 Ni
 V2.1. Öğretim şönlem ve teknikleri
 TT? 77
@@ -263,17 +263,17 @@ TT? 77
 
 ## Sayfa 6
 
-7B2 — Programların — Yürütülmesi
--
+7B2  Programların  Yürütülmesi
+
 Ni
 (Öğrenci Merkezli Öğrenme, Öğretme
 OLGUNLUK DÜZE
 ve Değerlendirme)
 [23 Örenci kabul öc öğrenmenin12
-İİ |
+İİ 
 tanınması ve kredilendrilmesi
-|
-|
+
+
 BE
 Programlanm
 Yürütülmesi|
@@ -282,8 +282,8 @@ OLGUNLUK DÜZ
 ve Değerlendirme)
 eğ eme) a TT
 31 Veterllikirin serifkalandinimass
-|
-5 | 3 | 3 | 
+
+5  3  3 
 vedios
 İİİ
 B.3. Öğrenme Kaynakları ve Akademik Destek Hizmetleri
@@ -310,19 +310,19 @@ Destek Hizmetleri
 1.3.2, Akademik destek hizmetleri
 7]?
 ;3
-|
+
 B3. Öğrenme Kaynakları ve Akademik
 7
 a
 [Boe
 N
-|
+
 OLGUNLUK DÜZ
 Destek Hizmetleri
-| 6.3.3, Tesis ve altyapılar.
+ 6.3.3, Tesis ve altyapılar.
 İNN
 3
-BE Öğrenme Kaynakları veAkademik |
+BE Öğrenme Kaynakları veAkademik 
 oF
 
 ---
@@ -340,11 +340,11 @@ Bal.Öğretim Kadrosu
 ~~ OLGUNLUK DÜZE
 Bal.
 Atama,
-— yikselme eae
+ yikselme eae
 la
 )3
-| görevlendirme kriterleri
-|
+ görevlendirme kriterleri
+
 [BA Öğretim Kadrosu
 OLGUNLUKD
 AZ Öğretim yetkinlikleri ve gelişimi
@@ -354,7 +354,7 @@ TA Öğren Kadr O OLGUNLUKD
 BA. Eğilim faliyellerine yönelik tee
 T
 mma
-ra l3 (
+ra l3 
 .C. ARAŞTIRMA VE GELİŞTİRME
 Kurumun arastrma sürecinindeğrlendirmesinin
 yapılması beklenmektedir. Arayurm
@@ -372,12 +372,12 @@ ve
 ## Sayfa 8
 
 ETAşar
-Sürelerinin Yörem |
+Sürelerinin Yörem 
 oneunzow DÜZ
 ve Araştırma Kaynakları
 b ZN
 KE
-| 
+
 sonrası imkanlar
 G2 Araştırma Yetkinliği, İş birlikler
 ve Destekler
@@ -386,13 +386,13 @@ reve
 m777777
 7777
 Destekler
--
+
 m
 C21. Araştırma yetkinlikleri ve gelişimi
-|
-7 |
-2? | 3
-| 
+
+7 
+2?  3
+
 [Ca Avajurma Vawiangs
 TA |ongunnux po
 Destekler
@@ -400,27 +400,27 @@ Destekler
 ve
 westararan orak
 7]
-2 | 3
+2  3
 programlar
 ve orak araştırma birimleri
-|
+
 |*
 G3. Araştırma Performansı
 C3. Araştırma Performansı
 T
 OLGUNLUK DÜZ
 E21 Armayağımı msi
-7 | 2 | X | 
-| degertendrimest
-”
+7  2  X 
+ degertendrimest
+
 [cs Araştırma Performansı
 OLGUNLUK DÜZ
 2, Ojretimelemanvarayurmact
 TT
 TAT
-| performansının değerlendirilmesi
+ performansının değerlendirilmesi
 7
-|
+
 D. TOPLUMSAL KATKI
 Kurum. aplumsal katk falyetern sahip oduğu hedefleri ve srs doğrultusund
 ve tsa kalkınma hedefleriyle uyumlu bir şekiizyürümelidir. Bufly
@@ -439,26 +439,26 @@ Katkı
 OLGUNLUK DÜZE
 Kaynakları
 N
-| Du Toplumsal
-arkı süreçlerininyönetimi | 1 | 2 | X |
+ Du Toplumsal
+arkı süreçlerininyönetimi  1  2  X 
 
 ---
 
 ## Sayfa 9
 
 Kurum,
-toplumsal Kak rates ve hedelei doğrusunda yrünüğü fier 
+toplumsal Kak rates ve hedelei doğrusunda yrünüğü fier
 ülemeli ve srekli iyileşme
 1.2. Toplumsal Katkı Performansı
 OLGUNLUK DÜZ
 zall
 has efem 1 |2]
-X | 
+X 
 idenmes ve değerlendirmesi
-|
+
 Prof. Dr. Ziya AVSAR
 QM Q
-|
+
 Prof. Dr. Bülent KARA
 ay
 Arş.

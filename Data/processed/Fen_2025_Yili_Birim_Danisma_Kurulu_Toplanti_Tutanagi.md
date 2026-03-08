@@ -1,7 +1,7 @@
 ## Sayfa 1
 
 rc,
-@
+
 NİĞDE ÖMER HALİSDEMİR ÜNİVERSİTESİ
 A
 FEN FAKÜLTESİ DEKANLIĞI
@@ -11,7 +11,7 @@ T
 40475749/050.04
 I
 Fakültemiz Birim Danışma Kurulu 25 Aralık 2025 tarihinde sat 15:00
-YALÇIN başkanlığında toplanarak gündemdeki konular görüşmüş ve 
+YALÇIN başkanlığında toplanarak gündemdeki konular görüşmüş ve
 almış.
 GÜNDEM MADDELERİ:
 1.
@@ -39,7 +39,7 @@ vizyonu ile öncü bir kurumdur.
 Fakültemizde akademik çalışmaların etknliginin ve kalitesinin a
 program ve dallarda akademikve fiziki yapılanmanın sağlanması ve eğtim-
 bölümlerde okutulan dersler ile ilgili öneriler toplumsal kati kapsamında S
-sektörle yapılacak faliyetler vb. görüşüldü ve aşağıdaki görüşlerde mutabık 
+sektörle yapılacak faliyetler vb. görüşüldü ve aşağıdaki görüşlerde mutabık
 1,
 Fen Fakültesinin Kurumlar ie olan ilişkilerinin tanıılması
 Kurumların
@@ -59,5 +59,5 @@ Hizmetler
 Erişilebilirl
 Fakültemizin erişilebilirlik açısından değerlendirmesi.
 4. Üniversitemiz Toplumsal Katkı Koordinatörlüğü, Fen Fak
-Aile ve Sosyal Hizmetler İl Müdürlüğü iş birliği çerçevesinde 
+Aile ve Sosyal Hizmetler İl Müdürlüğü iş birliği çerçevesinde
 Sosyal sorumluluk faliyetleri dizenlenmesi(decavanal bire

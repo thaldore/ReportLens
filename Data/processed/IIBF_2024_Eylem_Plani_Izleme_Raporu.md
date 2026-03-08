@@ -2,18 +2,13 @@
 
 **2024 YILI EYLEM PLANI İZLEME RAPORU**
 
-
 **2025**
-
 
 **2024 YILI EYLEM PLANI İZLEME RAPORU**
 
-
 İktisadi ve İdari Bilimler Fakültesi 2024 Yılı Eylem Planı’nda toplam 96 eylem planlanmış olup 82
 
-
 eylem gerçekleştirilmiştir.
-
 
 |BİRİM|PLANLANAN|GERÇEKLEŞTİRİLEN|
 |---|---|---|
@@ -27,43 +22,19 @@ eylem gerçekleştirilmiştir.
 |Yönetim Bilişim Sistemleri|1|1|
 |**TOPLAM**|96|82|
 
-
 **İKTİSADİ VE İDARİ BİLİMLER FAKÜLTESİ FAKÜLTESİ**
-
 
 **İŞLETME BÖLÜMÜ**
 
-
 **2024 YILI EYLEM PLANI İZLEME RAPORU**
-
 
 **2025**
 
-
 **2024 YILI EYLEM PLANI İZLEME RAPORU**
-
 
 İktisadi ve İdari Bilimler Fakültesi İşletme Bölümü 2024 Yılı Eylem Planı’nda toplam 4 eylem
 
-
 planlanmış olup 4 eylemin tamamı gerçekleştirilmiştir.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 |Col1|Col2|Ocak|Şubat|Mart|Nisan|Mayıs|Haziran|Temmuz|Ağustos|Eylül|Ekim|Kasım|Aralık|
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -71,7 +42,6 @@ planlanmış olup 4 eylemin tamamı gerçekleştirilmiştir.
 |2|Ulusal/Uluslarası öğrenci<br>hareketliliğini artıracak faaliyetler<br>yapılması|||||||||||**√**||
 |3|SSCI, SCI, AHCI kapsamında yapılan<br>yayın sayısını arttıracak faaliyetler<br>yapılması||||||||||||**√**|
 |4|Öğrenci motivasyonunu arttırıcı<br>etkinlik yapılması|||||**√**||||||||
-
 
 **KALBİS KANIT FORMU**
 
@@ -85,18 +55,9 @@ planlanmış olup 4 eylemin tamamı gerçekleştirilmiştir.
 |**Kanıt Görseli**||
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Bölüm Başkanı|
 
-
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 
-
 **KALBİS KANIT FORMU**
-
-
-
-
-
-
 
 |Faaliyetin Yapıldığı<br>Birim|İktisadi ve İdari Bilimler Fakültesi|
 |---|---|
@@ -108,9 +69,7 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 |**Kanıt Görseli**||
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Bölüm Başkanı|
 
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
-
 
 **KALBİS KANIT FORMU**
 
@@ -124,10 +83,7 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 |**Kanıt Görseli**||
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Bölüm Başkanı<br>|
 
-
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
-
 
 **KALBİS KANIT FORMU**
 
@@ -141,17 +97,12 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 |**Kanıt Görseli**|<br> <br> <br> <br> <br>|
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Bölüm Başkanı|
 
-
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
-
 
 **2024 YILI EYLEM PLANI İZLEME RAPORU**
 
-
 İktisadi ve İdari Bilimler Fakültesi 2024 Yılı Eylem Planı’nda toplam 4 eylem planlanmış olup 4
 Eylem gerçekleştirilmiştir.
-
 
 |BİRİM|PLANLANAN|GERÇEKLEŞTİRİLEN|
 |---|---|---|
@@ -160,45 +111,29 @@ Eylem gerçekleştirilmiştir.
 ||||
 |**TOPLAM**|4|4|
 
-
 **İKTİSADİ VE İDARİ BİLİMLER FAKÜLTESİ**
-
 
 **İKTİSAT BÖLÜMÜ**
 
-
 **2024 YILI EYLEM PLANI İZLEME RAPORU**
-
 
 **2025**
 
-
 **2024 YILI EYLEM PLANI İZLEME RAPORU**
-
 
 İktisadi ve İdari Bilimler Fakültesi İktisat Bölümü ve İktisat Ana Bilim Dalı 2024 Yılı Eylem
 
-
 Planı’nda toplam 2 eylem planlanmış olup tamamı gerçekleştirilmiştir.
-
-
-
-
-
 
 |1 Eğitim ortamlarının hazırlanmasına yönelik faaliyet yapılması    √|Col2|Col3|Col4|Col5|Col6|Col7|Col8|Col9|Col10|Col11|Col12|Col13|Col14|
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 |<br>2 <br>Eğitim-öğretim kalitesini arttırmak<br>amacıyla öğretim elemanları ile<br>toplantı düzenlenmesi<br> <br> <br> <br>**√**<br> <br> <br>**√**<br> <br> <br> <br> <br>|<br>2 <br>Eğitim-öğretim kalitesini arttırmak<br>amacıyla öğretim elemanları ile<br>toplantı düzenlenmesi<br> <br> <br> <br>**√**<br> <br> <br>**√**<br> <br> <br> <br> <br>|<br>2 <br>Eğitim-öğretim kalitesini arttırmak<br>amacıyla öğretim elemanları ile<br>toplantı düzenlenmesi<br> <br> <br> <br>**√**<br> <br> <br>**√**<br> <br> <br> <br> <br>|<br>2 <br>Eğitim-öğretim kalitesini arttırmak<br>amacıyla öğretim elemanları ile<br>toplantı düzenlenmesi<br> <br> <br> <br>**√**<br> <br> <br>**√**<br> <br> <br> <br> <br>|<br>2 <br>Eğitim-öğretim kalitesini arttırmak<br>amacıyla öğretim elemanları ile<br>toplantı düzenlenmesi<br> <br> <br> <br>**√**<br> <br> <br>**√**<br> <br> <br> <br> <br>|<br>2 <br>Eğitim-öğretim kalitesini arttırmak<br>amacıyla öğretim elemanları ile<br>toplantı düzenlenmesi<br> <br> <br> <br>**√**<br> <br> <br>**√**<br> <br> <br> <br> <br>|<br>2 <br>Eğitim-öğretim kalitesini arttırmak<br>amacıyla öğretim elemanları ile<br>toplantı düzenlenmesi<br> <br> <br> <br>**√**<br> <br> <br>**√**<br> <br> <br> <br> <br>|<br>2 <br>Eğitim-öğretim kalitesini arttırmak<br>amacıyla öğretim elemanları ile<br>toplantı düzenlenmesi<br> <br> <br> <br>**√**<br> <br> <br>**√**<br> <br> <br> <br> <br>|<br>2 <br>Eğitim-öğretim kalitesini arttırmak<br>amacıyla öğretim elemanları ile<br>toplantı düzenlenmesi<br> <br> <br> <br>**√**<br> <br> <br>**√**<br> <br> <br> <br> <br>|<br>2 <br>Eğitim-öğretim kalitesini arttırmak<br>amacıyla öğretim elemanları ile<br>toplantı düzenlenmesi<br> <br> <br> <br>**√**<br> <br> <br>**√**<br> <br> <br> <br> <br>|<br>2 <br>Eğitim-öğretim kalitesini arttırmak<br>amacıyla öğretim elemanları ile<br>toplantı düzenlenmesi<br> <br> <br> <br>**√**<br> <br> <br>**√**<br> <br> <br> <br> <br>|<br>2 <br>Eğitim-öğretim kalitesini arttırmak<br>amacıyla öğretim elemanları ile<br>toplantı düzenlenmesi<br> <br> <br> <br>**√**<br> <br> <br>**√**<br> <br> <br> <br> <br>|<br>2 <br>Eğitim-öğretim kalitesini arttırmak<br>amacıyla öğretim elemanları ile<br>toplantı düzenlenmesi<br> <br> <br> <br>**√**<br> <br> <br>**√**<br> <br> <br> <br> <br>|<br>2 <br>Eğitim-öğretim kalitesini arttırmak<br>amacıyla öğretim elemanları ile<br>toplantı düzenlenmesi<br> <br> <br> <br>**√**<br> <br> <br>**√**<br> <br> <br> <br> <br>|
 |3|Eğitim süreçlerinin iyileştirilmesine<br>yönelik faaliyet yapılması||||**√**|<br>||**√**||||||
 
-
-
 **2024 YILI EYLEM PLANI İZLEME RAPORU**
-
 
 İktisadi ve İdari Bilimler Fakültesi 2024 Yılı Eylem Planı’nda toplam 2 eylem planlanmış olup tamamı
 gerçekleştirilmiştir.
-
 
 |BİRİM PLANLANAN GERÇEKLEŞTİRİLEN|Col2|Col3|
 |---|---|---|
@@ -207,15 +142,9 @@ gerçekleştirilmiştir.
 |<br> <br>|<br> <br>|<br> <br>|
 |**TOPLAM**|2|2|
 
-
 **KALBİS KANIT FORMU**
 
-
-
-
-
-
-|Faaliyetin Yapıldığı<br>N.Ö.H.Ü. – İ.İ.B.F.<br>Birim|Col2|
+|Faaliyetin Yapıldığı<br>N.Ö.H.Ü.  İ.İ.B.F.<br>Birim|Col2|
 |---|---|
 |**Bölüm/Alt Birim**<br>İktisat Bölümü|**Bölüm/Alt Birim**<br>İktisat Bölümü|
 |**Gerçekleştirilen**<br>**Faaliyet Adı**<br>Yüksek Lisans Programı|**Gerçekleştirilen**<br>**Faaliyet Adı**<br>Yüksek Lisans Programı|
@@ -225,23 +154,9 @@ gerçekleştirilmiştir.
 |<br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>**Kanıt Görseli**<br>|<br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>**Kanıt Görseli**<br>|
 |**Sisteme**<br>**Yükleyen/Sorumlu**|<br>Bölüm Başkanı|
 
-
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 
-
 **KALBİS KANIT FORMU**
-
-
-
-
-
-
-
-
-
-
-
 
 |Faaliyetin Yapıldığı<br>İKTİSAT ANABİLİM DALI BAŞKANLIĞI<br>Birim|Col2|
 |---|---|
@@ -252,50 +167,24 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 |<br>**Gerçekleştirme**<br>**Açıklaması**<br>İktisat Anabilim Dalı bünyesinde Üniversitemiz Baki Avrasiya Üniversitesi ile<br>yapılan ikili anlaşmalar çerçevesinde Uluslararası Ortak Tezli Yüksek Lisans Eğitim -<br>Öğretim Programına İlişkin yapılan tüm eklerinde her iki tarafın yetkililerinin de<br>parafı ve tarih atılarak imzalanmış olan Protokolün kabul edilmiş ve karar Sosyal<br>Bilimler Enstitüsü Müdürlüğüne arz edilmiştir.|<br>**Gerçekleştirme**<br>**Açıklaması**<br>İktisat Anabilim Dalı bünyesinde Üniversitemiz Baki Avrasiya Üniversitesi ile<br>yapılan ikili anlaşmalar çerçevesinde Uluslararası Ortak Tezli Yüksek Lisans Eğitim -<br>Öğretim Programına İlişkin yapılan tüm eklerinde her iki tarafın yetkililerinin de<br>parafı ve tarih atılarak imzalanmış olan Protokolün kabul edilmiş ve karar Sosyal<br>Bilimler Enstitüsü Müdürlüğüne arz edilmiştir.|
 |<br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>**Kanıt Görseli**|<br> <br>|
 
-
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
-
 
 **KALBİS KANIT FORMU**
 
-
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
-
 
 **İKTİSADİ VE İDARİ BİLİMLER FAKÜLTESİ**
 
-
 **MALİYE BÖLÜMÜ**
 
-
 **2024 YILI EYLEM PLANI İZLEME RAPORU**
-
 
 **2025**
 
-
 **2024 YILI EYLEM PLANI İZLEME RAPORU**
-
 
 İktisadi ve İdari Bilimler Fakültesi, Maliye Bölümü 2024 Yılı Eylem Planı’nda toplam 7 eylem
 planlanmış olup 6 tanesi gerçekleştirilmiştir.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 |Col1|Col2|Ocak|Şubat|Mart|Nisan|Mayıs|Haziran|Temmuz|Ağustos|Eylül|Ekim|Kasım|Aralık|
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -306,20 +195,7 @@ planlanmış olup 6 tanesi gerçekleştirilmiştir.
 |5|2024-2025 Eğitim Öğretim döneminde Maliye Bölümü ne<br>yeni kayıt yaptıracak öğrencilerimize oryantasyon toplantısı<br>düzenlenmesi planlanmaktadır.||||||||||√|||
 |6|Bölümümüzde yapılmış olan SCI-E ve SSCI endeksli<br>yayınların yıl sonuna kadar toplam ortalama 3 (üç) atıf alması<br>hedeflenmektedir.||||||||||||√|
 
-
 **KALBİS KANIT FORMU**
-
-
-
-
-
-
-
-
-
-
-
-
 
 |Faaliyetin Yapıldığı<br>Birim|İktisadi ve İdari Bilimler Fakültesi|
 |---|---|
@@ -331,12 +207,9 @@ planlanmış olup 6 tanesi gerçekleştirilmiştir.
 |**Kanıt Görseli**|<br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>|
 |**Sisteme**<br>**Yükleyen/Sorumlu**<br>|Prof. Dr. Ali Eren ALPER|
 
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 
-
 Evrak Tarih ve Sayısı: 13/05/2024-506974
-
 
 T.C.
 NİĞDE ÖMER HALİSDEMİR ÜNİVERSİTESİ REKTÖRLÜĞÜ
@@ -344,26 +217,20 @@ NİĞDE ÖMER HALİSDEMİR ÜNİVERSİTESİ REKTÖRLÜĞÜ
 İktisadi ve İdari Bilimler Fakültesi Dekanlığı
 Maliye Bölüm Başkanlığı
 
-
 Sayı  :E-64330687-300-506974 13/05/2024
 Konu :Ders Verilmesi
 
-
 Sayın Arş. Gör. Ali Gökhan GÖLÇEK
-
 
 15.05.2024 Çarşamba günü saat 15:45'te bölümümüz 3. sınıf öğrencilerine "Akademik Yazım
 Teknikleri" dersi vermeniz hususunda;
 Gereğini rica ederim.
 
-
 Prof. Dr. Ali Eren ALPER
 
 Bölüm Başkanı
 
-
 Bu belge, güvenli elektronik imza ile imzalanmıştır.
-
 
 Adres:Merkez Yerleşke Bor Yolu 51240 Niğde Bilgi için: Remziye YILDIZ
 Telefon:3882252012 Faks:3882252014 Unvanı: Bölüm Sekreteri
@@ -371,18 +238,13 @@ e-Posta:iibf@ohu.edu.tr Web:www.ohu.edu.tr
 Tel No: 0 388 225 2053
 Kep Adresi:nohu@hs01.kep.tr
 
-
 **Bu belge, güvenli elektronik imza ile imzalanmıştır.**
-
 
 **Evrak Tarih ve Sayısı: 22/05/2024-510379**
 
-
 MALİYE BÖLÜM BAŞKANLIĞINA
 
-
-Konu : Bilimsel Hazırlık Dersi Verilmesi
-
+Konu  Bilimsel Hazırlık Dersi Verilmesi
 
 15.05.2024 Çarşamba günü saat 15.45'te Maliye Bölümü 3. Sınıf öğrencilerine yönelik
 302 nolu sınıfta Dr. Ali Gökhan Gölçek tarafından "Bilimsel Araştırma Yöntemleri" dersi
@@ -390,13 +252,11 @@ düzenlenmiştir. Derste bitirme tezine yönelik akademik yazım kuralları, eti
 etik ve intihal konularında bilgiler verilmiştir. Yapılan etkinliğe ait kanıtlar ekte yer almaktadır.
 Gereğini bilgilerinize arz ederim.
 
-
 Arş. Gör. Ali Gökhan GÖLÇEK
 
 Araştırma Görevlisi
 
 …………
-
 
 Ek:
 
@@ -404,9 +264,7 @@ Ek:
 2- BilimselHazırlık-2 (1 Sayfa)
 3- BilimselHazırlık-3 (1 Sayfa)
 
-
 Bu belge, güvenli elektronik imza ile imzalanmıştır.
-
 
 Bilgi için: Ali Gökhan GÖLÇEK
 
@@ -414,29 +272,13 @@ Unvanı: Araştırma Görevlisi
 
 Tel No: 0 388 225 4735
 
+Bu belge, güvenli elektronik imza ile imzalanmıştır.
 
 Bu belge, güvenli elektronik imza ile imzalanmıştır.
 
-
 Bu belge, güvenli elektronik imza ile imzalanmıştır.
-
-
-Bu belge, güvenli elektronik imza ile imzalanmıştır.
-
 
 **KALBİS KANIT FORMU**
-
-
-
-
-
-
-
-
-
-
-
-
 
 |Faaliyetin Yapıldığı<br>Birim|İktisadi ve İdari Bilimler Fakültesi|
 |---|---|
@@ -448,12 +290,9 @@ Bu belge, güvenli elektronik imza ile imzalanmıştır.
 |**Kanıt Görseli**|<br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>|
 |**Sisteme**<br>**Yükleyen/Sorumlu**<br>|Prof. Dr. Ali Eren ALPER|
 
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 
-
 **Evrak Tarih ve Sayısı: -510381**
-
 
 T.C.
 NİĞDE ÖMER HALİSDEMİR ÜNİVERSİTESİ REKTÖRLÜĞÜ
@@ -461,26 +300,20 @@ NİĞDE ÖMER HALİSDEMİR ÜNİVERSİTESİ REKTÖRLÜĞÜ
 İktisadi ve İdari Bilimler Fakültesi Dekanlığı
 Maliye Bölüm Başkanlığı
 
-
 Sayı  :E-64330687-399-510381 …………
 Konu :Bilgilendirme Toplantısı
 
-
 Sayın Dr. Öğr. Üyesi Erdem Utku EKE
-
 
 22.05.2024 saat 15.45'de Bölümümüz öğrencilerine başta KPSS olmak üzere kurum sınavları
 hakkında bilgilendirme toplantısı yapılması hususunda..
 Gereğini bilgilerinize rica ederim.
 
-
 Prof. Dr. Ali Eren ALPER
 
 Bölüm Başkanı
 
-
 Bu belge, güvenli elektronik imza ile imzalanmıştır.
-
 
 Adres:Merkez Yerleşke Bor Yolu 51240 Niğde Bilgi için: Remziye YILDIZ
 Telefon:3882252012 Faks:3882252014 Unvanı: Bölüm Sekreteri
@@ -488,24 +321,12 @@ e-Posta:iibf@ohu.edu.tr Web:www.ohu.edu.tr
 Tel No: 0 388 225 2053
 Kep Adresi:nohu@hs01.kep.tr
 
-
 **KALBİS KANIT FORMU**
-
 
 İİBF
 
-
-
-
-
 2024 yılı içerisinde Maliye Anabilim Dalında "Çevrimiçi Maliye Tezsiz Yüksek Lisans" p
 açılması.
-
-
-
-
-
-
 
 **Çevrimiçi Maliye Tezsiz Yüksek Lisans programı ile ilgili olarak dosya hazırlık**
 **tamamlanmış, program dosyası Sosyal Bilimler Enstitüsü ve Rektörlük Eğitim-Ö**
@@ -516,12 +337,9 @@ açılması.
 **UZAKTAN ÖĞRETİM TEZSİZ YÜKSEK LİSANS PROGRAMI AÇMAK İÇİN BA**
 **FORMATI**
 
-
 **1.** Program için Uzaktan Öğretim Sistemi Bilgi Derleme Formunu doldurunuz.
 
-
 **2.** Programın adını belirtiniz. MALİYE TEZSİZ YÜKSEK LİSANS PROGRAMI
-
 
 **3.** Online inceleme yapabilmek için programın ders içeriklerinin ilk dönemin 4 haftal
 
@@ -533,11 +351,9 @@ belirtiniz.
 Kullanıcı Adı:
 Şifre:
 
-
 **4.** Uzaktan Öğretim Programı Açılarak Öğrenci Alımı Teklifi ve Ders Verecek Öğret
 
 Bilgileri Formunu doldurunuz.
-
 
 **5.** Programın açılma gerekçesini somut olarak açıklayınız.
 
@@ -553,15 +369,9 @@ alanlarında birikime sahip olan ve bütçeleme, mali hukuk, mali iktisat ve mal
 kendini ilerletmek isteyen öğrencilere özel sektör ve kamu sektöründe çalışanların deneyim
 zenginleştirme fırsatı sunmaktadır.
 
-
-
-
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 
-
 **KALBİS KANIT FORMU**
-
 
 Bu program, öğrencilere maliye alanında uzmanlaşma şansı tanıyarak, eleştirel düşünce be
 sahip, evrensel ölçekte araştırma yapabilen, projeler üretebilen araştırmacılar ve bilim insa
@@ -571,19 +381,18 @@ yeteneklerini geliştirmeye ve araştırma yapma ile proje hazırlama konusunda 
 kazanmalarına odaklanmaktadır.
 Maliye Çevrimiçi Tezsiz Yüksek Lisans programında hedeflenen program çıktıları aşağıda
 
-          - Maliye disiplinine özgü mesleki ve bilimsel etik değerlerin bilincinde olma ve bunların
+           Maliye disiplinine özgü mesleki ve bilimsel etik değerlerin bilincinde olma ve bunların
 sürdürülmesinde gerekli duyarlılığın gösterilmesi.
 
-          - Maliye ile reel ve finansal sektör arasındaki bağların öğrenilmesi.
+           Maliye ile reel ve finansal sektör arasındaki bağların öğrenilmesi.
 
-          - Vergi sistemi ve optimum vergi yapılarının oluşturulması.
+           Vergi sistemi ve optimum vergi yapılarının oluşturulması.
 
-          - Maliye bilim dalının disiplinlerarası özelliği sayesinde Maliye, Hukuk ve İktisat ilişkisin
+           Maliye bilim dalının disiplinlerarası özelliği sayesinde Maliye, Hukuk ve İktisat ilişkisin
 anlaşılması.
 
-         - Vergi Hukuku, İktisadi Gelişme, Kamu Ekonomisi, Bütçe, Maliye Politikası, Borçlanma
+          Vergi Hukuku, İktisadi Gelişme, Kamu Ekonomisi, Bütçe, Maliye Politikası, Borçlanma
 konularda ulusal ve uluslararası düzeyde bilgi sahibi olunması.
-
 
 **6.** Açılması önerilen programa öğrenci talebi ile ilgili tahmini öğrenci sayıları
 **Tablo 1.** Maliye Tezsiz Yüksek Lisans Programı Tahmini Kontenjan Sayıları
@@ -597,18 +406,14 @@ konularda ulusal ve uluslararası düzeyde bilgi sahibi olunması.
 |4. Yıl|50|50|100|
 |Genel Toplam|200|200|400|
 
-
-
 **Not:** Tablodaki tahmini sayıların belirlenmesinde kullanılan varsayımlar, programın açılm
 gerekçeleriyle uyumlu olmalıdır. Varsa, civardaki üniversitelerde bulunan ve önerilen prog
 benzer yapıdaki yüksek lisans programlarına olan talepler belirtilmelidir.
 
-
 **7.** Önerilen programa öğrenci kabul koşullarını açıklayınız.
 
 Programa başvuracak öğrencilerin Niğde Ömer Halisdemir Üniversitesi Sosyal Bilimler E
-Lisansüstü Eğitim – Öğretim ve Sınav Yönetmeliğinde belirtilen koşulları sağlaması gerek
-
+Lisansüstü Eğitim  Öğretim ve Sınav Yönetmeliğinde belirtilen koşulları sağlaması gerek
 
 **8.** **Tezsiz Yüksek lisans derecesi almak için gerekli olan toplam kredi sayısı ile al**
 
@@ -618,19 +423,15 @@ _krediden ve 60 AKTS’den az olmamak kaydıyla en az on ders ile dönem projesi
 Bir öğrencinin Maliye Tezsiz Yüksek Lisans Programından mezun olabilmesi için aşağıda
 karşılaması gerekmektedir:
 
-             - Geçer not alarak 62 AKTS kredisini tamamlamak.
-
+              Geçer not alarak 62 AKTS kredisini tamamlamak.
 
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 
-
 **KALBİS KANIT FORMU**
 
+              4.00 üzerinden en az 2.50 genel not ortalamasına sahip olmak.
 
-             - 4.00 üzerinden en az 2.50 genel not ortalamasına sahip olmak.
-
-             - Dönem projesini hazırlayıp başarıyla sunmak.
-
+              Dönem projesini hazırlayıp başarıyla sunmak.
 
 8.1. AKTS Kredi Bilgileri
 **Tablo 2.** Maliye Tezsiz Yüksek Lisans Ders Listesi
@@ -648,8 +449,6 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 |MLU6009|Kamu Harcama Hukuku|Seçmeli|3|0|
 |MLU6011|Yerel Yönetimler ve Mali Sorunları|Seçmeli|3|0|
 
-
-
 **BAHAR YARIYILI**
 
 |Dersin<br>Kodu|Dersin Adı|Dersin<br>Türü|T|U|
@@ -661,8 +460,6 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 |MLU6008|Uluslararası Vergilendirme|Seçmeli|3|0|
 |MLU6010|Sermaye Piyasaları ve Menkul Değer<br>Analizi|Seçmeli|3|0|
 |MLU6012|Bütçe Hukuku|Seçmeli|3|0|
-
-
 
 *İkinci yarıyıl bahar döneminde öğrenci tarafından alınan dönem projesi dersinden başarıs
 olunursa, öğrenci üçüncü yarıyıl güz döneminde dönem projesi dersini almaya devam edec
@@ -679,12 +476,9 @@ sistemlerinin özellikleri.
 
 Vergi Usul Hukuku (6,3)
 
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 
-
 **KALBİS KANIT FORMU**
-
 
 Ders kapsamında Türk Vergi Sisteminde yer alan vergiler ile ilgili temel ve ortak kurallara
 kuralların vergi idaresi ve vergi mükelleflerine yüklediği görev ve sorumluluklara, görev v
@@ -735,12 +529,9 @@ sorgulanacaktır.
 Uluslararası Vergilendirme (6,3)
 Avrupa Birliği vergi uyumlaştırması ve uluslararası vergi sorunları öğrenilecektir.
 
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 
-
 **KALBİS KANIT FORMU**
-
 
 Sermaye Piyasaları ve Menkul Değer Analizi (6,3)
 Sermaye Piyasaları ve Menkul Değer Analizi dersi, sermaye piyasasının işleyişinde temel
@@ -749,7 +540,6 @@ korunmasına ilişkin getirilen düzenlemeleri kapsamaktadır.
 Bütçe Hukuku (6,3)
 Bütçelere ilişkin (kamu kaynağı kullanımı) tüm hukuki kurallar ve bütçe harcamalarını düz
 mevzuatı içeren kurallar sistemi bütçe hukukunun içeriğini oluşturmaktadır.
-
 
 **9.** Önerilen program için mevcut laboratuvarların adlarını, kaç metrekare olduklarını v
 
@@ -770,7 +560,6 @@ Ekonometri Laboratuvarı bulunmaktadır. Bu laboratuvarda bulunan bilgisayarlar 
 sayesinde öğrencilerimizin ihtiyacını karşılayacak düzeydedir ve elektronik ortamda var ol
 tabanlarını da kapsamaktadır. Programımız bünyesinde ihtiyaç duyulan EBSCO ve PROQ
 veri tabanları, öğrencilerimizin kullanımına açık bulunmaktadır. Hafta içi beş gün kullanım
-
 
 **11.** Lisansüstü öğrencilerin kullanımına açık terminal ve/veya kişisel bilgisayar sayılar
 
@@ -794,18 +583,13 @@ Hafta içi beş gün kullanıma açıktır.
 |**14.50-15.35**|Lisans|Lisans|Yüksek Lisans|Yüksek Lisans|
 |**15.45-16.30**|||Yüksek Lisans|Yüksek Lisans|
 
-
-
 **12.** Önerilen programla ilgili olarak üniversite ve/veya bölümünüz kütüphanesinde bul
 
 sürekli yayınların adları ile hangi yıldan itibaren mevcut olduklarını bir liste halind
 
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 
-
 **KALBİS KANIT FORMU**
-
 
 Önerilen programla ilgili üniversite ve fakülte kütüphanesinde bulunan kitaplar ve ünivers
 abone veritabanları aşağıdaki gibidir. Bölüm açıldığında kitaplar ve süreli yayınlarla ilgili
@@ -815,9 +599,9 @@ _18.YY’da Konya’nın Mali Yapısı ve Merkez Maliyesi ile İlişkisi_, Kaya,
 _2023 Türkiye İhracat Stratejisi ve Eylem Planı_, T.C. Ekonomi Bakanlığı, 2015
 _A Model for İslamic Development: An Approach in Islamic Moral Economy_, Jan, Shafiulla
 _ABD’de Kamu Malallarının Yönetimi_, Ozansoy, Ahmet, 2009
-_Akıllı Şehirler, Dijital Ülkeler : Dijital Kentsel Altyapı Yarının Kalabalık Dünyasında Nas_
+_Akıllı Şehirler, Dijital Ülkeler  Dijital Kentsel Altyapı Yarının Kalabalık Dünyasında Nas_
 _Bir Yaşam Sunabilir?,_ Herzberg, Caspar, 2017
-_Alternatif Para Politikası Stratejileri ve Enflasyon Hedefleme Stratejisi : Türkiye örneği_, A
+_Alternatif Para Politikası Stratejileri ve Enflasyon Hedefleme Stratejisi  Türkiye örneği_, A
 H.Akbaş, 2009
 _Anayasal İktisat Perspektifinden Para ve Maliye Politikaları,_ Dileyici, Dilek, 2005
 _Atatürk Dönemi Maliye Politikaları_, 2008
@@ -855,12 +639,9 @@ _Gelir ve Kurumlar Vergisi Beyanname Rehberi_, 2011
 _Gelişmekte Olan Ülkeler ve Türkiye’de Dış Borçlanmanın Belirleyicilerinin İncelenmesi: 1_
 Esener, Çağrı, 2013
 
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 
-
 **KALBİS KANIT FORMU**
-
 
 _Gerçek Kişilerde Para ve Sermaye Piyasası Araçlarından Elde Edilen Gelirlerin Vergilen_
 Sabuncu, Faruk, Keskin, Filiz, 2005
@@ -911,12 +692,9 @@ K _OBİ’lerde Maliyet Analizleri ve Firma Çapında Maliyet Düşürme Uygulam
 _Kontrol_ _Edilen Yabancı Kurum Kazançlarının Vergilendirilmesi_, Sağlam, Meltem, 2
 _Kurumlar Vergisi Kanunu Açısından Bölünme,_ Tan, Mustafa, 2010
 
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 
-
 **KALBİS KANIT FORMU**
-
 
 _Kurumsal Maliye Politikası, Ekonomi Politikası Yönetiminde Mali Kurallar ve Kur_
 Aktan, C.Can, Dileyici, Dilek, 2007
@@ -967,12 +745,9 @@ _Para Teorisi ve Politikası: Ders Notları,_ Eroğlu, Ömer, 2004
 _Piyasa Başarısızlığından Devletin Başarısızlığına: Kamu Ekonomisi_, Savaşan, Fatih, 2016
 _Performans Esaslı Bütçeleme Sistemi ve Türkiye’de Uygulanabilirliği,_ Özen, Ahm
 
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 
-
 **KALBİS KANIT FORMU**
-
 
 _Pre-Accession Economic Reform Program 2019-2021, 2019_
 _Public Policy Analysis in Turkey: Past, Present and Future,_ Kulaç, Onur, Akman, Elvettin
@@ -1023,12 +798,9 @@ _Vergi Uyuşmazlıklarından Doğan Davalarda Feragat ve Kabul_, Dursun, Hasan, 
 _Yatırım İkliminin Geliştirilmesinde Vergi Politikalarının Rolü: Türkiye Örneği_, Bulut, Mu
 _Yeni Maliye_, Aktan, C.Can, Kesik, Ahmet, Dileyici, Dilek, 2012
 
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 
-
 **KALBİS KANIT FORMU**
-
 
 _Yenilenebilir enerji ve Yeşil Enerji Açısından Vergi Politikası,_ Kaya, M.Göktuğ, 2018
 _Yerel Yönetimlerde Mali Reform Arayışları: Türkiye'de Belediyelerde Mali Özerkli_
@@ -1040,9 +812,9 @@ _Belediye Başkanlarının Mali Özerklik Algılaması,_ Türkoğlu, İrfan, 200
 
 **Abone Veritabanları**
 
-**-** Applied Science & Business Periodicals Retrospective: 1913-1983 (H.W. Wilson)
+**-** Applied Science  Business Periodicals Retrospective: 1913-1983 (H.W. Wilson)
 -EBSCO Business Periodicals Index Retrospective: 1913-1982
--EBSCO Central & Eastern European Academic Source
+-EBSCO Central  Eastern European Academic Source
 -EBSCO Discovery Service
 
 **-** EBSCO MasterFILE Complete
@@ -1059,7 +831,7 @@ Yönetim Bilgi Sistemleri)
 -iThenticate (Makaleler İçin İntihal Analiz Programı)
 -JSTOR
 -JSTOR Business Set 1-2 e-Kitapları (49 Adet)
--Library,Information Science & Technology Abstracts with Full Text
+-Library,Information Science  Technology Abstracts with Full Text
 -Newswires
 -Oxford Journals Online
 -Proquest Central
@@ -1069,66 +841,47 @@ Yönetim Bilgi Sistemleri)
 -ScienceDirect E-Kitap Koleksiyonları
 -Scopus
 -SOBİAD (Sosyal Bilimler Atıf Dizini)
--Springer Nature – Palgrave Macmillan Journals
--Springer Nature – SpringerLink Koleksiyonu
--Taylor & Francis Online Journals
--Taylor & Francis Seçme E-Kitaplar
+-Springer Nature  Palgrave Macmillan Journals
+-Springer Nature  SpringerLink Koleksiyonu
+-Taylor  Francis Online Journals
+-Taylor  Francis Seçme E-Kitaplar
 -Turcademy
 -ULAKBİM Ulusal Veri Tabanları (UVT)
 -Web of Science
--Web of Science – Book Citation Index
+-Web of Science  Book Citation Index
 -Wiley Online Journals
-
 
 **13.** Önerilen program disiplinlerarası (interdisipliner) nitelikte ise;
 
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
-
 
 **KALBİS KANIT FORMU**
 
-
 a) Bu programın,
 
-            - Üniversitede halen yürütülmekte olan diğer yüksek lisans programlarından farkları
+             Üniversitede halen yürütülmekte olan diğer yüksek lisans programlarından farkları
 
-            - Mevcut yüksek lisans programlarını zayıflatmadan nasıl yürütüleceği,
+             Mevcut yüksek lisans programlarını zayıflatmadan nasıl yürütüleceği,
 
-            - Mevcut imkanlara ek olarak yeni fiziki alan (sınıf, laboratuvar, vb.) gerektirip,
+             Mevcut imkanlara ek olarak yeni fiziki alan (sınıf, laboratuvar, vb.) gerektirip,
 gerektirmediği,
 
-            - Üniversiteye getireceği ek mali külfet ve bunun nasıl karşılanacağı,
+             Üniversiteye getireceği ek mali külfet ve bunun nasıl karşılanacağı,
 
-            - Programa başlayacak öğrencilerin farklı disiplinlerden gelmesi durumunda, bunlara
+             Programa başlayacak öğrencilerin farklı disiplinlerden gelmesi durumunda, bunlara
 Hazırlık Programı uygulanıp, uygulanmayacağı; uygulanacaksa, bu programın ne ş
 düzenleneceği
 somut olarak açıklanmalıdır.
-
 
 b) Programda görev alacak öğretim üyelerinin açılması istenilen disiplinlerarası
 
 program ile ilgili çalışmaları için aşağıdaki tablo doldurulmalıdır.
 
-
 Prof. Dr. Ali Eren Alper
-
 
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 
-
 **KALBİS KANIT FORMU**
-
-
-
-
-
-
-
-
-
-
-
 
 |Faaliyetin Yapıldığı<br>Birim|İktisadi ve İdari Bilimler Fakültesi|
 |---|---|
@@ -1139,17 +892,11 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 |**Gerçekleştirme**<br>**Açıklaması**|**Bölümümüzden Dr. Ali Gökhan GÖLÇEK tarafından 1 (bir) adet TÜBİTAK**<br>**1002-A Hızlı Destek Başvurusu yapılmıştır.**|
 |**Kanıt Görseli**||
 
-
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
-
 
 **KALBİS KANIT FORMU**
 
-
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
-
 
 **KALBİS KANIT FORMU**
 
@@ -1157,28 +904,14 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 |---|---|
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Prof. Dr. Ali Eren ALPER|
 
-
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
-
 
 **KALBİS KANIT FORMU**
 
-
 İktisadi ve İdari Bilimler Fakültesi
-
-
-
-
 
 2024-2025 Yılında Maliye Bölümüne yeni kayıt yaptıran öğrencilere oryantasyon program
 düzenlenmesi
-
-
-
-
-
-
 
 **2024-2025 Yılında Maliye Bölümüne yeni kayıt yaptıran öğrencilere oryantasyon**
 
@@ -1186,82 +919,46 @@ düzenlenmesi
 
 **toplantıları düzenlenmiştir.**
 
-
 **YENİ KAYIT YAPTIRAN ÖĞRENCİLER İÇİN YAPILAN ORYANTASYON**
 **PROGRAMI**
 
-
-
-
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 
-
 **KALBİS KANIT FORMU**
-
 
 **1.SINIF ÖĞRENCİLERİ İÇİN YAPILAN DANIŞMAN-ÖĞRENCİ TOPLANTISI**
 
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
-
 
 **KALBİS KANIT FORMU**
 
-
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 
-
 **KALBİS KANIT FORMU**
-
 
 **2.SINIF ÖĞRENCİLERİ İÇİN YAPILAN DANIŞMAN-ÖĞRENCİ TOPLANTISI**
 
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 
-
 **KALBİS KANIT FORMU**
-
 
 **3.SINIF ÖĞRENCİLERİ İÇİN YAPILAN DANIŞMAN-ÖĞRENCİ TOPLANTISI**
 
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 
-
 **KALBİS KANIT FORMU**
-
 
 **4.SINIF ÖĞRENCİLERİ İÇİN YAPILAN DANIŞMAN-ÖĞRENCİ TOPLANTISI**
 
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 
-
 **KALBİS KANIT FORMU**
-
 
 Prof. Dr. Ali Eren ALPER
 
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 
-
 **KALBİS KANIT FORMU**
-
-
-
-
-
-
-
-
-
-
-
-
 
 |Faaliyetin Yapıldığı<br>Birim|İİBF|
 |---|---|
@@ -1273,27 +970,19 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 |**Kanıt Görseli**|<br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>|
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Prof. Dr. Ali Eren ALPER|
 
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
-
 
 Environmental Science and Pollution Research (2023) 30:42873–42888
 
 https://doi.org/10.1007/s11356-022-18610-7
-
-
-
-
 
 **Testing the long‑run impact of economic growth, energy**
 **consumption, and globalization on ecological footprint: new evidence**
 **from Fourier bootstrap ARDL and Fourier bootstrap Toda–Yamamoto**
 **test results**
 
-
-Received: 4 August 2021 / Accepted: 6 January 2022 / Published online: 13 January 2022
-© The Author(s), under exclusive licence to Springer-Verlag GmbH Germany, part of Springer Nature 2022
-
+Received: 4 August 2021  Accepted: 6 January 2022  Published online: 13 January 2022
+ The Author(s), under exclusive licence to Springer-Verlag GmbH Germany, part of Springer Nature 2022
 
 **Abstract**
 The aim of this study is to investigate the impacts of economic growth, energy consumption, and the economic globalization process on ecological footprints in the top 10 countries that cause the highest carbon dioxide emissions in the world.
@@ -1314,18 +1003,12 @@ Governments should take action to reduce the negative effects of the climate cri
 widely expressed recently. Among these, increasing the use of renewable energy sources and new carbon-free technologies
 in the production process appears as important policy tools.
 
-
-**Keywords** Ecological footprint · Economic growth · Energy consumption · Economic globalization · Bootstrap ARDL
+**Keywords** Ecological footprint  Economic growth  Energy consumption  Economic globalization  Bootstrap ARDL
 approach with Fourier function
 
-
-**JEL Classification** C32 · C50 · Q57
-
+**JEL Classification** C32  C50  Q57
 
 Responsible Editor: Eyup Dogan
-
-
-
 
 Ali Eren Alper
 alierenalper@gmail.com
@@ -1339,8 +1022,6 @@ gozayturk@ohu.edu.tr
 Faruk Mike
 farukmike@hakkari.edu.tr
 
-
-
 1 Department of Public Finance, Nigde Omer Halisdemir
 University, Nigde, Turkey
 
@@ -1353,82 +1034,56 @@ Halisdemir University, Nigde, Turkey
 4 Department of Economics, Hakkari University, Hakkari,
 Turkey
 
-
 Vol.:(0123456789)1 3
-
 
 Received: 23 February 2023 Revised: 18 July 2023 Accepted: 11 August 2023
 
-
 DOI: 10.1111/1477-8947.12334
-
 
 A R T I C L E
 
 ##### Evaluating the determinants of load capacity factor in Japan: The impact of economic complexity and trade globalization
 
-
-
-
-
-
-
-
-|1Faculty of Economics, Administrative and<br>Social Science, Department of Economics,<br>Bahçes¸ehir Cyprus University, Mersin 10,<br>Turkey<br>2Department of Economics & Data Sciences,<br>New Uzbekistan University, Tashkent,<br>Uzbekistan<br>3Department of Business Administration,<br>Faculty of Economics and Administrative<br>Science, Cyprus International University,<br>Mersin, Turkey<br>4Faculty of Economic and Administrative<br>Sciences, Department of Banking and<br>Finance, European University of Lefke,<br>Lefke, Turkey<br>5Department of Accounting and Finance,<br>Palestine Polytechnic University-PPU,<br>Hebron, Palestine<br>6Department of Banking and Finance, Faculty<br>of Economics, Administrative and Social<br>Sciences, Bahçes¸ehir Cyprus University,<br>Nicosia, Turkey<br>7Department of Business Administration,<br>Abdul Haris College of Administrative<br>Sciences, Makassar, Indonesia<br>8Department of Business Administration,<br>Faculty of Management Sciences, ILMA<br>University, Karachi, Pakistan<br>9Faculty of Economics, Administrative and<br>Social Sciences, Department of Economics,<br>Nisantasi University, _Istanbul, Turkey<br>Correspondence<br>Dervis Kirikkaleli, Faculty of Economic and<br>Administrative Sciences, Department of|Abstract<br>Sustainable growth and the reduction of environmental<br>pressures are important priorities that are issues of concern<br>for both developed and developing countries. However,<br>while carbon emissions and ecological footprint are com-<br>monly used by researchers in the context of environmental<br>deterioration, a broader and more extensive metric for eco-<br>logical quality is considered necessary. From this perspec-<br>tive, the load capacity factor provides a more detailed<br>sustainable environment appraisal by simultaneously con-<br>sidering biocapacity and ecological footprint. Limited stud-<br>ies have examined the determinants of load capacity factor<br>(LCAP). This survey attempts to fill the gap, using the case<br>of Japan. Employing the dynamic ARDL approaches, the<br>present research investigates the effect of renewable<br>energy usage, economic growth, economic complexity,<br>financial development, and trade globalization on load<br>capacity factor in Japan for the period between 1980 and<br>2017. The empirical evidence indicates that economic com-<br>plexity, economic growth, and financial development<br>adversely impact LCAP, whereas renewable energy usage<br>and trade globalization positively affect LCAP. Hence, we<br>recommend that it is essential for Japan to attain self-<br>sufficiency in essential goods and minimize its reliance on<br>the rest of the world. Furthermore, policymakers should<br>capitalize on the benefits of trade globalization by adopting<br>additional measures aimed at facilitating trade liberalization.|Col3|
+|1Faculty of Economics, Administrative and<br>Social Science, Department of Economics,<br>Bahçes¸ehir Cyprus University, Mersin 10,<br>Turkey<br>2Department of Economics  Data Sciences,<br>New Uzbekistan University, Tashkent,<br>Uzbekistan<br>3Department of Business Administration,<br>Faculty of Economics and Administrative<br>Science, Cyprus International University,<br>Mersin, Turkey<br>4Faculty of Economic and Administrative<br>Sciences, Department of Banking and<br>Finance, European University of Lefke,<br>Lefke, Turkey<br>5Department of Accounting and Finance,<br>Palestine Polytechnic University-PPU,<br>Hebron, Palestine<br>6Department of Banking and Finance, Faculty<br>of Economics, Administrative and Social<br>Sciences, Bahçes¸ehir Cyprus University,<br>Nicosia, Turkey<br>7Department of Business Administration,<br>Abdul Haris College of Administrative<br>Sciences, Makassar, Indonesia<br>8Department of Business Administration,<br>Faculty of Management Sciences, ILMA<br>University, Karachi, Pakistan<br>9Faculty of Economics, Administrative and<br>Social Sciences, Department of Economics,<br>Nisantasi University, _Istanbul, Turkey<br>Correspondence<br>Dervis Kirikkaleli, Faculty of Economic and<br>Administrative Sciences, Department of|Abstract<br>Sustainable growth and the reduction of environmental<br>pressures are important priorities that are issues of concern<br>for both developed and developing countries. However,<br>while carbon emissions and ecological footprint are com-<br>monly used by researchers in the context of environmental<br>deterioration, a broader and more extensive metric for eco-<br>logical quality is considered necessary. From this perspec-<br>tive, the load capacity factor provides a more detailed<br>sustainable environment appraisal by simultaneously con-<br>sidering biocapacity and ecological footprint. Limited stud-<br>ies have examined the determinants of load capacity factor<br>(LCAP). This survey attempts to fill the gap, using the case<br>of Japan. Employing the dynamic ARDL approaches, the<br>present research investigates the effect of renewable<br>energy usage, economic growth, economic complexity,<br>financial development, and trade globalization on load<br>capacity factor in Japan for the period between 1980 and<br>2017. The empirical evidence indicates that economic com-<br>plexity, economic growth, and financial development<br>adversely impact LCAP, whereas renewable energy usage<br>and trade globalization positively affect LCAP. Hence, we<br>recommend that it is essential for Japan to attain self-<br>sufficiency in essential goods and minimize its reliance on<br>the rest of the world. Furthermore, policymakers should<br>capitalize on the benefits of trade globalization by adopting<br>additional measures aimed at facilitating trade liberalization.|Col3|
 |---|---|---|
 |Nat Resour Forum. 2024;48:743–762.<br>wileyonlinelibrary.com/journal/narf<br>© 2023 United Nations.|Nat Resour Forum. 2024;48:743–762.<br>wileyonlinelibrary.com/journal/narf<br>© 2023 United Nations.|743|
 
-
 760 AWOSUSI ET AL.
-
 
 matter. Furthermore, our findings might not apply to other developing countries. Therefore, it is suggested that the
 
-
 model be tested in different contexts to validate the results. Lastly, another limitation of the study is that we adopted
-
 
 five independent variables. Moreover, future research could further broaden the scope by including determinants
 
-
 such as technology innovation and public–private partnership investment for energy to evaluate the linkages
-
 
 between the variables.
 
-
 DATA AVAILABILITY STATEMENT
-
 
 The data that support the findings of this study are available from the corresponding author upon reasonable
 
-
 request.
-
 
 ORCID
 
-
 Abraham Ayobamiji Awosusi [https://orcid.org/0000-0002-3533-9181](https://orcid.org/0000-0002-3533-9181)
-
 
 Tomiwa Sunday Adebayo [https://orcid.org/0000-0003-0094-1778](https://orcid.org/0000-0003-0094-1778)
 
-
 Dervis Kirikkaleli [https://orcid.org/0000-0001-5733-5045](https://orcid.org/0000-0001-5733-5045)
-
 
 REFERENCES
 
-
-Acar, S., Altıntas¸, N., & Haziyev, V. (2023). The effect of financial development and economic growth on ecological footprint
+Acar, S., Altıntas¸, N.,  Haziyev, V. (2023). The effect of financial development and economic growth on ecological footprint
 in Azerbaijan: An ARDL bound test approach with structural breaks. Environmental and Ecological Statistics, 30(1), 41–59.
 
 [https://doi.org/10.1007/s10651-022-00551-6](https://doi.org/10.1007/s10651-022-00551-6)
 
 [AEC. (2017). The Atlas of Economic Complexity by @HarvardGrwthLab. https://atlas.cid.harvard.edu/](https://atlas.cid.harvard.edu/)
 
-Ahmad, M., Ahmed, Z., Yang, X., Hussain, N., & Sinha, A. (2022). Financial development and environmental degradation: Do
+Ahmad, M., Ahmed, Z., Yang, X., Hussain, N.,  Sinha, A. (2022). Financial development and environmental degradation: Do
 [human capital and institutional quality make a difference? Gondwana Research, 105, 299–310. https://doi.org/10.1016/](https://doi.org/10.1016/j.gr.2021.09.012)
 
 [j.gr.2021.09.012](https://doi.org/10.1016/j.gr.2021.09.012)
@@ -1436,24 +1091,24 @@ Ahmad, M., Ahmed, Z., Yang, X., Hussain, N., & Sinha, A. (2022). Financial devel
 Aladejare, S. A. (2022). Natural resource rents, globalisation and environmental degradation: New insight from 5 richest Afri
 [can economies. Resources Policy, 78, 102909. https://doi.org/10.1016/j.resourpol.2022.102909](https://doi.org/10.1016/j.resourpol.2022.102909)
 
-Alola, A. A., Özkan, O., & Usman, O. (2023). Role of non-renewable energy efficiency and renewable energy in driving envi
+Alola, A. A., Özkan, O.,  Usman, O. (2023). Role of non-renewable energy efficiency and renewable energy in driving envi
 ronmental sustainability in India: Evidence from the load capacity factor hypothesis. Energies, 16(6), 2847. [https://doi.](https://doi.org/10.3390/en16062847)
 
 [org/10.3390/en16062847](https://doi.org/10.3390/en16062847)
 
-Anton, S. G., & Afloarei Nucu, A. E. (2020). The effect of financial development on renewable energy consumption. A panel
+Anton, S. G.,  Afloarei Nucu, A. E. (2020). The effect of financial development on renewable energy consumption. A panel
 [data approach. Renewable Energy, 147, 330–338. https://doi.org/10.1016/j.renene.2019.09.005](https://doi.org/10.1016/j.renene.2019.09.005)
 
-Anwar, A., Sinha, A., Sharif, A., Siddique, M., Irshad, S., Anwar, W., & Malik, S. (2022). The nexus between urbanization,
+Anwar, A., Sinha, A., Sharif, A., Siddique, M., Irshad, S., Anwar, W.,  Malik, S. (2022). The nexus between urbanization,
 renewable energy consumption, financial development, and CO2 emissions: Evidence from selected Asian countries.
 [Environment, Development and Sustainability, 24(5), 6556–6576. https://doi.org/10.1007/s10668-021-01716-2](https://doi.org/10.1007/s10668-021-01716-2)
 
-Arogundade, S., Hassan, A. S., & Bila, S. (2022). Diaspora income, financial development and ecological footprint in Africa.
-International Journal of Sustainable Development & World Ecology, 29(5), 440–454. [https://doi.org/10.1080/13504509.](https://doi.org/10.1080/13504509.2022.2036855)
+Arogundade, S., Hassan, A. S.,  Bila, S. (2022). Diaspora income, financial development and ecological footprint in Africa.
+International Journal of Sustainable Development  World Ecology, 29(5), 440–454. [https://doi.org/10.1080/13504509.](https://doi.org/10.1080/13504509.2022.2036855)
 
 [2022.2036855](https://doi.org/10.1080/13504509.2022.2036855)
 
-Bashir, M. F., Ma, B., Hussain, H. I., Shahbaz, M., Koca, K., & Shahzadi, I. (2022). Evaluating environmental commitments to
+Bashir, M. F., Ma, B., Hussain, H. I., Shahbaz, M., Koca, K.,  Shahzadi, I. (2022). Evaluating environmental commitments to
 
 COP21 and the role of economic complexity, renewable energy, financial development, urbanization, and energy innovation: Empirical evidence from the RCEP countries. Renewable Energy, 184, 541–550. [https://doi.org/10.1016/j.](https://doi.org/10.1016/j.renene.2021.11.102)
 
@@ -1462,20 +1117,18 @@ BP global. (2021). Statistical Review of World Energy j Energy economics j Home.
 
 [energy-economics/statistical-review-of-world-energy.html](https://www.bp.com/en/global/corporate/energy-economics/statistical-review-of-world-energy.html)
 
-Chang, S., Chen, B., & Song, Y. (2023). Militarization, renewable energy utilization, and ecological footprints: Evidence from
+Chang, S., Chen, B.,  Song, Y. (2023). Militarization, renewable energy utilization, and ecological footprints: Evidence from
 
 [RCEP economies. Journal of Cleaner Production, 391, 136298. https://doi.org/10.1016/j.jclepro.2023.136298](https://doi.org/10.1016/j.jclepro.2023.136298)
 
-Dada, J. T., Adeiza, A., Noor, A. I., & Marina, A. (2022). Investigating the link between economic growth, financial develop
+Dada, J. T., Adeiza, A., Noor, A. I.,  Marina, A. (2022). Investigating the link between economic growth, financial develop
 ment, urbanization, natural resources, human capital, trade openness and ecological footprint: Evidence from Nigeria.
 [Journal of Bioeconomics, 24, 153–179. https://doi.org/10.1007/s10818-021-09323-x](https://doi.org/10.1007/s10818-021-09323-x)
 
-Dickey, D. A., & Fuller, W. A. (1979). Distribution of the estimators for autoregressive time series with a unit root. Journal of
+Dickey, D. A.,  Fuller, W. A. (1979). Distribution of the estimators for autoregressive time series with a unit root. Journal of
 [the American Statistical Association, 74(366a), 427–431. https://doi.org/10.1080/01621459.1979.10482531](https://doi.org/10.1080/01621459.1979.10482531)
 
-
 https://mjl.clarivate.com/journal-profile 1/3
-
 
 Journal of Economics and Administrative Sciences, 25(1): 14-26, 2024
 
@@ -1483,12 +1136,9 @@ DOI: 10.37880/cumuiibf.1332363
 
 ##### Journal of Economics and Administrative Sciences
 
-
 [│ esjournal.cumhuriyet.edu.tr │](http://esjournal.cumhuriyet.edu.tr/tr/) Founded: 2000 Available online, ISSN: 1303-1279 Publisher: Sivas Cumhuriyet Üniversitesi
 
-
 **The Effect of Globalization on Ecological Footprint: The Case of MIKTA Countries**
-
 
 **Merve Erkut** **[1,a,]** **, Eylül Kabakçı Günay** **[2,b]** **, Meltem İnce Yenilmez** **[3,c]** *****
 
@@ -1497,15 +1147,7 @@ _2İzmir Democracy University, Faculty of Economics and Administrative Sciences,
 _3İzmir Democracy University, Faculty of Economics and Administrative Sciences, Department of Economics, İzmir, Türkiye_
 _*Corresponding author_
 
-
-
-
-
-
-
 **Küreselleşme ve Ekolojik Ayak İzi Arasındaki İlişki: MIKTA Ülkeleri Örneği**
-
-
 
 _Süreç_
 
@@ -1519,46 +1161,35 @@ _Creative Commons Attribution-_
 _NonCommercial 4.0 International_
 _License_
 
-
-
-
-
 **a** _merveerkutt@outlook.com_ _0000-0002-1319-548X_ **b** _eylul.kabakci@idu.edu.tr_ _0000-0001-5547-4316_
 
 **c** _[melteminceyenilmez@gmail.com ]_ _[0000-0002-4689-3196 ]_
 
-
-
 **14**
 
-
-_Erkut et al / Journal of Economics and Administrative Sciences, 25(1): 14-26, 2024_
-
-
+_Erkut et al  Journal of Economics and Administrative Sciences, 25(1): 14-26, 2024_
 
 **Kaynakça**
 
-
-Abid, A., Majeed, M. T., & Luni, T. (2021). Analyzing ecological
+Abid, A., Majeed, M. T.,  Luni, T. (2021). Analyzing ecological
 
 footprint through the lens of globalization, financial
 development, natural resources, human capital and
 urbanization. _Pakistan Journal of Commerce and Social_
 _Sciences (PJCSS)_, _15_ (4), 765-795.
-Ahmed, Z., Wang, Z., Mahmood, F., Hafeez, M., & Ali, N. (2019).
+Ahmed, Z., Wang, Z., Mahmood, F., Hafeez, M.,  Ali, N. (2019).
 
 Does globalization increase the ecological footprint?
 Empirical evidence from Malaysia. _Environmental Science_
 _and_ _Pollution_ _Research_, _26_ (18), 18565-18582.
 https://doi.org/10.1007/s11356-019-05224-9
 
-
-Ansari, M. A., Ahmad, M. R., Siddique, S., & Mansoor, K. (2020).
+Ansari, M. A., Ahmad, M. R., Siddique, S.,  Mansoor, K. (2020).
 
 An environment Kuznets curve for ecological footprint:
 Evidence from GCC countries. _Carbon Management_, _11_ (4),
 355-368.
-Apaydın, Ş., Ursavaş, U., & Koç, Ü. (2021). The impact of
+Apaydın, Ş., Ursavaş, U.,  Koç, Ü. (2021). The impact of
 
 globalization on the ecological footprint: Do convergence
 clubs matter? _Environmental Science and Pollution Research_,
@@ -1567,13 +1198,13 @@ Apaydin, Ş. (2020). Küreselleşmenin ekolojik ayakizi üzerindeki
 
 etkileri: Türkiye örneği. _Ekonomi Politika ve Finans_
 _Araştırmaları Dergisi_, _5_ (1), 23-42.
-Awosusi, A. A., Adebayo, T. S., Kirikkaleli, D., & Altuntaş, M.
+Awosusi, A. A., Adebayo, T. S., Kirikkaleli, D.,  Altuntaş, M.
 
 (2022). Role of technological innovation and globalization in
 BRICS economies: Policy towards environmental
 sustainability. _International_ _Journal_ _of_ _Sustainable_
-_Development & World Ecology_, _29_ (7), 593-610.
-Bilgili, F., Ulucak, R., Koçak, E., & İlkay, S. Ç. (2020). Does
+_Development  World Ecology_, _29_ (7), 593-610.
+Bilgili, F., Ulucak, R., Koçak, E.,  İlkay, S. Ç. (2020). Does
 
 globalization matter for environmental sustainability?
 Empirical investigation for Turkey by Markov regime
@@ -1584,38 +1215,35 @@ Bucak, Ç. (2022). G8 ülkelerinde ve Türkiye’de ekonomik
 karmaşıklık ve ekolojik ayak izi ilişkisi: Toda-Yamamoto
 nedensellik testi analizi. _Sosyal Ekonomik Araştırmalar_
 _Dergisi_, _22_ (1), 1-16.
-Çeliköz, Y. S., Yıldız, T., Arslan, Ü., & Kırmızıoğlu, H. (2022). The
+Çeliköz, Y. S., Yıldız, T., Arslan, Ü.,  Kırmızıoğlu, H. (2022). The
 
 relationship between economic globalization and ecological
 footprint: Empirical evidence for developed and developing
 countries. _Agricultural_ _and_ _Resource_ _Economics:_
 _International Scientific E-Journal_, _8_ (4), 109-133.
-Figge, L., Oebels, K., & Offermans, A. (2017). The effects of
+Figge, L., Oebels, K.,  Offermans, A. (2017). The effects of
 
 globalization on Ecological Footprints: An empirical analysis.
 _Environment, Development and Sustainability_, _19_, 863-876.
-Gygli, S., Haelg, F., Potrafke, N., & Sturm, J.-E. (2019). The KOF
+Gygli, S., Haelg, F., Potrafke, N.,  Sturm, J.-E. (2019). The KOF
 
-globalisation index – revisited. _The Review of International_
+globalisation index  revisited. _The Review of International_
 _Organizations_, _14_ (3), 543-574. https://doi.org/ 10.1007
 /s11558-019-09344-2
-Ibrahiem, D. M., & Hanafy, S. A. (2020). Dynamic linkages
+Ibrahiem, D. M.,  Hanafy, S. A. (2020). Dynamic linkages
 
 amongst ecological footprints, fossil fuel energy
 consumption and globalization: An empirical analysis.
 _Management of Environmental Quality: An International_
 _Journal_, _31_ (6), 1549-1568.
-IEA. (2023). _CO2 Emissions in 2022_ . https:// www.iea.
+IEA. (2023). _CO2 Emissions in 2022_  https:// www.iea.
 
 org/news/global-co2-emissions-rose-less-than-initiallyfeared-in-2022-as-clean-energy-growth-offset-much-of-theimpact-of-greater-coal-and-oil-use
 Karaduman, C. (2022). The effects of economic globalization and
 
 productivity on environmental quality: Evidence from newly
 
-
 **25**
-
-
 
 industrialized countries. _Environmental Science and Pollution_
 _Research_, _29_ (1), 639-652.
@@ -1623,26 +1251,26 @@ Kardaslar, A. (2022). Ekonomik Büyüme, Enerji Tüketimi ve
 
 Küreselleşme Sürecinin Ekolojik Ayak İzi Üzerindeki Etkisi: Türkiye
 Örneği. _Business and Economics Research Journal_, _13_ (3), 385-401.
-Kırbaşoğlu, F., & Tüfekçi, Ö. (2019). Avrupa Birliği’nin Yükselen
+Kırbaşoğlu, F.,  Tüfekçi, Ö. (2019). Avrupa Birliği’nin Yükselen
 
 Güçler Politikası: BRICS ve MIKTA Ülkelerinin Meydan
 Okumaları. _Novus Orbis: Siyaset Bilimi ve Uluslararası İlişkiler_
 _Dergisi_, _2_ (1), 39-70.
-Kihombo, S., Vaseer, A. I., Ahmed, Z., Chen, S., Kirikkaleli, D., &
+Kihombo, S., Vaseer, A. I., Ahmed, Z., Chen, S., Kirikkaleli, D., 
 
 Adebayo, T. S. (2022). Is there a tradeoff between financial
 globalization, economic growth, and environmental
 sustainability? An advanced panel analysis. _Environmental_
 _Science and Pollution Research_, _29_, 3983-3993.
-Kirikkaleli, D., Adebayo, T. S., Khan, Z., & Ali, S. (2021). Does
+Kirikkaleli, D., Adebayo, T. S., Khan, Z.,  Ali, S. (2021). Does
 
 globalization matter for ecological footprint in Turkey?
 Evidence from dual adjustment approach. _Environmental_
 _Science and Pollution Research_, _28_ (11), 14009-14017.
 KOF İsviçre Ekonomi Enstitüsü. (2023, Haziran 2). _KOF_
 
-_Globalisation Index_ . https://kof.ethz.ch/en/forecasts-andindicators/indicators/kof-globalisation-index.html
-Langnel, Z., & Amegavi, G. B. (2020). Globalization, electricity
+_Globalisation Index_  https://kof.ethz.ch/en/forecasts-andindicators/indicators/kof-globalisation-index.html
+Langnel, Z.,  Amegavi, G. B. (2020). Globalization, electricity
 
 consumption and ecological footprint: An autoregressive
 distributive lag (ARDL) approach. _Sustainable Cities and_
@@ -1652,7 +1280,7 @@ Nathaniel, S. P. (2021). Economic complexity versus ecological
 footprint in the era of globalization: Evidence from ASEAN
 countries. _Environmental Science and Pollution Research_, _28_,
 64871-64881.
-Official Website of MIKTA. (2023). _Vision_ .
+Official Website of MIKTA. (2023). _Vision_ 
 http://mikta.org/about/vision/
 Özbek, S. (2023). Ekonomik Büyüme, Küreselleşme ve Ekolojik
 
@@ -1665,7 +1293,7 @@ consumption, economic complexity, CO 2 emissions, and
 ecological footprint in the USA: testing the EKC hypothesis
 with a structural break. _Environmental Science and Pollution_
 _Research_, _28_, 846-861.
-Pata, U. K., & Caglar, A. E. (2021). Investigating the EKC hypothesis
+Pata, U. K.,  Caglar, A. E. (2021). Investigating the EKC hypothesis
 
 with renewable energy consumption, human capital,
 globalization and trade openness for China: Evidence from
@@ -1679,131 +1307,101 @@ Pesaran, M. H. (2007). A Simple Panel Unit Root Test in the
 
 Presence of Cross‐section Dependence. _Journal of applied_
 _econometrics_, _22_ (2), 265-312.
-Pesaran, M. H., Ullah, A., & Yamagata, T. (2008). A bias‐adjusted
+Pesaran, M. H., Ullah, A.,  Yamagata, T. (2008). A bias‐adjusted
 
 LM test of error cross‐section independence. _The_
 _Econometrics_ _Journal_, _11_ (1), 105-127. https://doi.org
 /10.1111/j.1368-423X.2007.00227.x
-Pesaran, M. H., & Yamagata, T. (2008). Testing slope homogeneity
+Pesaran, M. H.,  Yamagata, T. (2008). Testing slope homogeneity
 
 in large panels. _Journal of econometrics_, _142_ (1), 50-93.
 https://doi.org/10.1016/j.jeconom.2007.05. 010
 Potrafke, N. (2015). The evidence on globalisation. _The World_
 
 _Economy_, _38_ (3), 509-552.
-Rudolph, A., & Figge, L. (2017). Determinants of ecological
+Rudolph, A.,  Figge, L. (2017). Determinants of ecological
 
 footprints: What is the role of globalization? _Ecological_
 _Indicators_, _81_, 348-361.
-Sabir, S., & Gorus, M. S. (2019). The impact of globalization on
+Sabir, S.,  Gorus, M. S. (2019). The impact of globalization on
 
 ecological footprint: Empirical evidence from the South
 
-
-6.01.2025 12:09 Cumhuriyet Üniversitesi İktisadi ve İdari Bilimler Dergisi » Dizinler
+6.01.2025 12:09 Cumhuriyet Üniversitesi İktisadi ve İdari Bilimler Dergisi  Dizinler
 
 ### **Cumhuriyet Üniversitesi İktisadi ve İdari Bilimler Dergisi**
 
 ###### **Dizinler**
 
-#  Her veri tabanından dergilerin dizin güncelliği kontrol edilmelidir. DergiPark sorumluluk almamaktadır.
-
+  Her veri tabanından dergilerin dizin güncelliği kontrol edilmelidir. DergiPark sorumluluk almamaktadır.
 
 **Atıf Dizinleri**
 
-
 [TR Dizin](https://search.trdizin.gov.tr/tr/dergi/detay/589)
-
 
 **Diğer Dizinler**
 
-
 [TR Dizin](https://search.trdizin.gov.tr/tr/dergi/detay/589/cumhuriyet-universitesi-iktisadi-ve-idari-bilimler-dergisi)
 
-
-[EBSCO - Business Source Ultimate](https://www.ebsco.com/m/ee/Marketing/titleLists/bsu-journals.htm)
-
+[EBSCO  Business Source Ultimate](https://www.ebsco.com/m/ee/Marketing/titleLists/bsu-journals.htm)
 
 [ERIH PLUS](https://kanalregister.hkdir.no/publiseringskanaler/erihplus/periodical/info.action?id=506330)
 
-
 [DOAJ: Directory of Open Access Journals](https://doaj.org/toc/2687-4032)
-
 
 Son Güncelleme Zamanı: **18.07.2024 10:23:23**
 
-
 Dergi Ana Sayfası
-
 
 Hakkında
 
-
 Amaç ve Kapsam
-
 
 Makale Gönder
 
-
 Dergi Kurulları
-
 
 İstatistikler
 
-
 Yazım Kuralları
-
 
 Etik İlkeler ve Yayın Politikası
 
-
 Ücret Politikası
-
 
 Dizinler
 
-
 esjournal.cumhuriyet.edu.tr/tr/pub/indexes 1/2
-
 
 **Enerji Muhasebesi Alanındaki Çalışmaların Bibliyometrik Analiz Yöntemi Aracılığıyla**
 **İncelenmesi**
 A Review of the Research in the Field of Energy Accounting Through the Bibliometric
 Analysis Method
 
-
-**Demet EVER** [a ]
+**Demet EVER** [a 
 
 a Osmaniye Korkut Ata Üniversitesi, Osmaniye Meslek Yüksekokulu, Muhasebe ve Vergi Bölümü, Osmaniye, Türkiye.
 [demetever@osmaniye.edu.tr](mailto:demetever@osmaniye.edu.tr)
 
-
 **MAKALE BİLGİSİ** **ÖZET**
 
-
-
 **Anahtar Kelimeler:**
-
 
 Muhasebe
 Enerji Muhasebesi
 Bibliyometrik Analiz
-
 
 Gönderilme Tarihi 30 Kasım
 2023
 Revizyon Tarihi 15 Mart 2024
 Kabul Tarihi 20 Mart 2024
 
-
 **Makale Kategorisi:**
 Araştırma Makalesi
 
-
-
 **Amaç –** Enerji, gerek sosyal gerek ekonomik kalkınma için önemli bir unsurudur. Öyle ki birçok ülke ve
 işletmeler için enerji kullanımına yönelik bilgilerin etkin bir şekilde yönetilmesi gerekmektedir. Bu
-bağlamda son yıllarda muhasebe alanında yeni bir yaklaşım olarak “ _Enerji Muhasebesi”_ ortaya çıkmıştır.
+bağlamda son yıllarda muhasebe alanında yeni bir yaklaşım olarak  _Enerji Muhasebesi”_ ortaya çıkmıştır.
 Bu doğrultuda bu çalışma ile enerji muhasebesi alanındaki bilimsel araştırmaları bibliyometrik analiz
 yöntemi incelemek amaçlanmıştır. Çalışmanın temel amacı; sosyal, ekonomik ve çevresel açıdan önem
 arz eden enerji konusunu muhasebe bilgi sistemi kapsamında ele alarak, enerji muhasebesi kavramına
@@ -1811,13 +1409,11 @@ dikkat çekmektir. Böylelikle literatürde yapılan çalışmalardan hareketle 
 çalışmaların bibliyometrik göstergeler aracılığı ile geniş bir perspektiften ortaya konulması
 hedeflenmektedir.
 
-
 **Yöntem –** Çalışmada, enerji muhasebesi alanında yapılan çalışmalar nitel araştırma yöntemlerinden
 bibliyometrik analiz yöntemi ile Web of Science (WoS) veri tabanı esas alınarak incelenmiştir. Çalışmada
 bibliyometrik veriler elde etmek amacıyla çalışmalar, konu (topic) ve “and” seçeneği kullanılarak anahtar
 kelimelerde “enerji muhasebesi” olarak analize tabi tutulmuştur. Yapılan araştırma sonucunda 340
 çalışmaya ulaşılmış olup, 1980-2023 yılları baz alınmıştır.
-
 
 **Bulgular –** Enerji muhasebesi alanında yapılan 340 çalışmanın en çok 2019 yılında yapıldığı tespit
 edilerek, çalışma sayılarında yıllar itibariyle dalgalı bir seyir halinde artış yaşandığı gözlemlenmiştir.
@@ -1827,36 +1423,26 @@ aittir. Çalışmalar çok çeşitli sayıda ülkelerde yapılmış olup, dünya
 dilinde yayımlanmıştır. Ayrıca çeşitli dillerde de çalışmalar mevcuttur. Enerji Muhasebesi alanında
 yapılan çalışmaların büyük bir kısmı ise mühendislik bilimlerini kapsamaktadır.
 
-
 **Tartışma –** Yapılan araştırma sonucunda farklı dillerde ve çok çeşitli sayıda ülkelerde enerji muhasebesi
 alanında yapılan çalışmalara ulaşılmıştır. Araştırma alanlarına bakıldığında ise enerji muhasebesinin çok
 çeşitli sayıda disiplinleri kapsadığı görülmüştür. Sosyal bilimlerde 14 çalışma ile en çok “işletme
 ekonomisi” alanında yapılan çalışmalara rastlanmasına rağmen, muhasebe alanında yapılan çalışmaların
 sayısı oldukça sınırlı sayıdadır.
 
-
-
 **ARTICLE INFO** **ABSTRACT**
 
-
-
 **Keywords:**
-
 
 Accounting
 Energy Accounting
 Bibliometric Analysis
 
-
 Received 30 November 2023
 Revised 15 March 2024
 Accepted 20 March 2024
 
-
 **Article Classification:**
 Research Article
-
-
 
 **Purpose –** Energy is an important component for both social and economic development. So that
 information on energy use needs to be managed effectively for many countries and companies. In this
@@ -1868,22 +1454,17 @@ environmental aspects, within the scope of the accounting information system. Th
 studies carried out in the literature, it is aimed to present the studies on energy accounting from a broad
 perspective through bibliometric indicators.
 
-
 **Design/Methodology/Approach –** In the study, studies in the field of energy accounting were examined
 based on the bibliometric analysis method, one of the qualitative research methods, and the Web of
 Science (WoS) database. In order to obtain bibliometric data for the study, the studies were analyzed as
 "energy accounting" in the keywords using the topic and "and" option. As a result of the research, 340
 studies were completed, and the years 1980–2023 were taken as the basis.
 
-
-
 **Önerilen Atıf/Suggested Citation**
 Ever, D. (2024). Enerji Muhasebesi Alanındaki Çalışmaların Bibliyometrik Analiz Yöntemi Aracılığıyla İncelenmesi, _İşletme Araştırmaları_
 _Dergisi_, 16 (1), 346-357.
 
-
 D. Ever 16/1 (2024) 346-357
-
 
 olup, bu yılda 3 çalışmaya rastlanmıştır. En çok çalışmanın yapıldığı yıl ise 27 çalışma ile 2019 yılı olarak tespit
 edilmiştir. 2023 yılına kadar ki süreçte ise çalışmaların dalgalı bir seyir halinde gittiği görülmektedir. Ancak
@@ -1895,13 +1476,12 @@ standardının ortaya çıkmasıyla birlikte muhasebe alanında yapılan çalı�
 ki yapılan çalışmalar enerji kullanıma ve enerji yönetimi hususunda muhasebeye duyulan ihtiyacı gözler
 önüne sermektedir.
 
-
 Görülmektedir ki yapılan çalışmaların büyük bir kısmı makalelerden oluşmaktadır. Bu alanda yapılan
 çalışmaların yazarlara göre dağılımı incelendiğinde ise en çok yayına sahip yazarlar olarak Wangjiraniran,
 Weerin” 5 çalışma ile ilk sırada yer almaktadır. Bu yazarları sırasıyla 5 çalışma ile ikinci sırada “Giampietro,
 Mario” ve üçüncü sırada 5 çalışma ile “Lei, Kampeng” takip etmektedir. Bu çalışmaların yayınevlerine göre
 dağılımı incelendiğinde ise “Elsevier” ilk sırada yer alırken, bunu sırasıyla “IEEE”, “Springer Nature”, “Mdpi
-(Multidisciplinary Digital Publishing Institute)” ve “ Wiley” takip etmektedir. Çalışmaların çalışma diline göre
+(Multidisciplinary Digital Publishing Institute)” ve  Wiley” takip etmektedir. Çalışmaların çalışma diline göre
 dağılımına bakıldığında ise, 340 çalışmanın 331’inin de dünyada yaygın bir dil olarak kabul edilen İngilizce
 dilinden oluştuğu tespit edilmiştir. Ayrıca çalışmalar İngilizce dilinin yanında Almanca, İspanyolca, Rusça ve
 Çince dillerinde de yazılmıştır. Bu durumda çalışmaların ülkelere göre dağılımını incelemek önemli
@@ -1910,7 +1490,6 @@ Bu doğrultuda en çok çalışmaların yer aldığı ülkelerden ilk sırada AB
 İngiltere, Almanya, İtalya, Fransa, Avustralya, Rusya, İspanya ve Kanada takip etmektedir. Bu çalışmaların
 aynı zamanda dünyada en çok enerji tüketiminin yoğun olduğu ülkelerde çalışılması enerji muhasebesine
 duyulan ihtiyacı ve önemi de gözler önüne sermektedir.
-
 
 Çalışmalar araştırma alanlarına göre incelendiğinde bu alanları Fen, Sağlık ve Sosyal bilimler olarak üç ayrı
 kategoride sınıflandırmak ve sıralamak mümkündür. Enerji muhasebesi ile ilgili literatür incelendiğinde enerji
@@ -1931,43 +1510,33 @@ coğrafyayı kapsamakta olup, muhasebenin de alt dallarında çalışma alanı b
 çalışmanın söz konusu literatürü değerlendirme açısından araştırma sonuçlarının gelecekteki araştırmacılara
 kılavuz niteliğinde olabileceği düşünülmektedir.
 
-
 **KAYNAKLAR**
 
-
-Almagtome, A. H., Al-Yasiri, A. J., Ali, R. S., Kadhim, H. L., & Bekheet H, N. (2020). Circular economy
+Almagtome, A. H., Al-Yasiri, A. J., Ali, R. S., Kadhim, H. L.,  Bekheet H, N. (2020). Circular economy
 
 initiatives through energy accounting and sustainable energy performance under integrated reporting
 framework. _International Journal of Mathematical, Engineering and Management Sciences_, _5_ (6), 1032-1045.
 [Doi:10.33889/IJMEMS.2020.5.6.079](https://doi.org/10.33889/IJMEMS.2020.5.6.079)
 
-
-Almagtome, A., & Abdlazez, M. (2021). Energy accounting and performance: A theoretical perspective. _Akkad_
+Almagtome, A.,  Abdlazez, M. (2021). Energy accounting and performance: A theoretical perspective. _Akkad_
 
 _Journal Of Contemporary Accounting Studies_, _1_ (4), 232-245.
 
-
-Alper, A. E., Alper, F. O., Özayturk, G., & Mike, F. (2022). Testing the long-run impact of economic growth,
+Alper, A. E., Alper, F. O., Özayturk, G.,  Mike, F. (2022). Testing the long-run impact of economic growth,
 
 energy consumption, and globalization on ecological footprint: New evidence from fourier bootstrap
 ARDL and fourier bootstrap Toda–Yamamoto test results. _Environmental Science and Pollution Research_,
 [1-16. Doi:10.1007/s11356-022-18610-7](https://doi.org/10.1007/s11356-022-18610-7)
 
-
 **İşletme Araştırmaları Dergisi                                                 Journal of Business Research-Turk** 356
 
-
-## **İŞLETME ARAŞTIRMALARI DERGİSİ** **Journal of Business Research - Türk**
+## **İŞLETME ARAŞTIRMALARI DERGİSİ** **Journal of Business Research  Türk**
 
 **ISSN: 1309-0712**
 
-
 **Cilt: 16              Sayı:4** **2024** **Vol.16               No.4**
 
-
 [www.isarder.org](http://www.isarder.org/)
-
-
 
 **DERGİ HAKKINDA**
 İşletme Araştırmaları Dergisi (Journal of
@@ -1982,8 +1551,6 @@ incelendikten sonra hakemlere gönderilir.
 Makaleler American Psychological Association
 (APA)’da belirtilen kurallara göre
 hazırlanmalıdır.
-
-
 
 **ABOUT THIS JOURNAL**
 Journal of Business Research-Türk is an
@@ -2003,13 +1570,10 @@ of writing specified in the book of “The
 Publication Manual of the American
 Psychological Association.
 
-
-
-**BAŞ EDİTÖR / EDITOR IN CHIEF**
+**BAŞ EDİTÖR  EDITOR IN CHIEF**
 [Dr. Melih TOPALOĞLU dergi@isarder.org](mailto:dergi@isarder.org)
 
-
-**EDİTÖRLER KURULU (ALAN EDİTÖRLERİ) / BOARD OF EDITORS**
+**EDİTÖRLER KURULU (ALAN EDİTÖRLERİ)  BOARD OF EDITORS**
 **Ali Akdemir**, Ph.D, Stratejik Yönetim ve Örgütsel Davranış, Arel Üniversitesi
 **Burhan Çil**, Ph.D, İşletmecilikte Araştırma Yöntemleri, İstanbul Gelişim Üniversitesi
 **Elbeyi Pelit**, Ph.D, Stratejik Yönetim ve Örgütsel Davranış, Afyon Kocatepe Üniversitesi
@@ -2029,13 +1593,11 @@ Psychological Association.
 
 **Pars Şahbaz**, Ph.D, Pazarlama ve Girişimcilik, Ankara Hacı Bayram Veli Üniversitesi
 
-
-**İLETİŞİM KOORDİNATÖRÜ / COMMUNICATIONS**
+**İLETİŞİM KOORDİNATÖRÜ  COMMUNICATIONS**
 
 [Orhan SAĞÇOLAK info@isader.org](mailto:info@isader.org)
 
-
-**ABSTRACTING & INDEXING**
+**ABSTRACTING  INDEXING**
 **EBSCO Business Source Corporate Plus**
 **ULAKBİM Sosyal Bilimler Veri Tabanı (TR Dizin)**
 **Central and Eastern European Online Library (CEEOL)**
@@ -2048,69 +1610,47 @@ Psychological Association.
 
 **J-Gate**
 
-
 İşletme Araştırmaları Dergisi         /2024/       Journal of Business Research-Türk
-
 
 Received: 18 August 2023 Revised: 28 October 2023 Accepted: 12 December 2023
 
-
 DOI: 10.1111/1477-8947.12392
-
 
 A R T I C L E
 
 ##### The symbiotic effects of energy consumption, globalization, and combustible renewables and waste on ecological footprint in the United Kingdom
 
-
-Kehinde O. Olusoga [3] | Ruth Oluyemi Bamidele [4]
-
-
+Kehinde O. Olusoga [3]  Ruth Oluyemi Bamidele [4]
 
 1Department of Economics, Faculty of
 
-
 Business and Economics, Eastern
-
 
 Mediterranean University, Famagusta,
 
-
 NorthCyprus, Mersin, Turkey
-
 
 2Department of Business Administration,
 
-
 Faculty of Economics Administrative and
-
 
 Social Sciences, Cyprus West University,
 
-
 Famagusta, Northern Cyprus, Turkey
-
 
 3Department of Accounting and Finance,
 
-
 Cyprus International University, Mersin,
-
 
 Turkey
 
-
 4Department of Tourism, Faculty of
-
 
 Economics Administrative and Social Sciences,
 
-
 Cyprus West University, Famagusta, Northern
 
-
 Cyprus, Turkey
-
 
 Correspondence
 
@@ -2128,10 +1668,7 @@ Famagusta, Northern Cyprus, via Mersin
 
 [edu.tr](mailto:Babatunde.Sunday.Eweade@emu.edu.tr)
 
-
-
 Abstract
-
 
 This study aims to investigate the effects of energy consump
 
@@ -2139,40 +1676,29 @@ tion, globalization, and combustible renewable waste con
 
 sumption on the ecological footprint in the United Kingdom.
 
-
 The study utilizes data from 1970 to 2015 using economet
 
 rics techniques, including the Fourier autoregressive Distribu
 
 tive Lag (Fourier ADL) co-integration test, autoregressive
 
-
 distributive lag (ARDL), and co-integrating regression. The
-
 
 results of the Fourier ADL and ARDL bounds tests indicate a
 
-
 long-term relationship among the variables examined. The
-
 
 outcomes of the ARDL model and co-integrating regression
 
-
 tests demonstrate that globalization, energy consumption,
-
 
 and economic growth contribute positively to the ecological
 
-
 footprint. However, there is a negative impact of combustible
-
 
 renewable waste on the ecological footprint. Furthermore,
 
-
 the gradual shift causality test identifies a one-way causal
-
 
 relationship between the ecological footprint and the investi
 
@@ -2180,123 +1706,105 @@ gated variables. The study acclaims that the British govern
 
 ment should prioritize implementing policies to transition to
 
-
 sustainable and renewable energy sources.
 
-
 K E Y W O R D S
-
 
 combustible renewables and waste, ecological footprint, energy
 consumption, Fourier ADL, globalization, United Kingdom
 
-
-
-
 [The copyright line for this article was changed on 22 January 2024 after original online publication]
 
-
-274 © 2024 United Nations. [wileyonlinelibrary.com/journal/narf](http://wileyonlinelibrary.com/journal/narf) Nat Resour Forum. 2024;48:274–291.
-
+274  2024 United Nations. [wileyonlinelibrary.com/journal/narf](http://wileyonlinelibrary.com/journal/narf) Nat Resour Forum. 2024;48:274–291.
 
 EWEADE ET AL. 289
 
-
-Alola, A. A., Bekun, F. V., & Sarkodie, S. A. (2019). Dynamic impact of trade policy, economic growth, fertility rate, renewable
+Alola, A. A., Bekun, F. V.,  Sarkodie, S. A. (2019). Dynamic impact of trade policy, economic growth, fertility rate, renewable
 
 and non-renewable energy consumption on ecological footprint in Europe. Science of the Total Environment, 685,
 702–709.
 
-Alola, A. A., Doganalp, N., & Obekpa, H. O. (2023). The influence of renewable energy and economic freedom aspects on
+Alola, A. A., Doganalp, N.,  Obekpa, H. O. (2023). The influence of renewable energy and economic freedom aspects on
 ecological sustainability in the G7 countries. Sustainable Development, 31(2), 716–727.
 
-Apergis, N., & Ozturk, I. (2015). Testing environmental Kuznets curve hypothesis in Asian countries. Ecological Indicators, 52,
+Apergis, N.,  Ozturk, I. (2015). Testing environmental Kuznets curve hypothesis in Asian countries. Ecological Indicators, 52,
 [16–22. https://doi.org/10.1016/j.ecolind.2014.11.026](https://doi.org/10.1016/j.ecolind.2014.11.026)
 
-Awosusi, A. A., Adebayo, T. S., Kirikkaleli, D., & Altuntas¸, M. (2022). Role of technological innovation and globalization in
+Awosusi, A. A., Adebayo, T. S., Kirikkaleli, D.,  Altuntas¸, M. (2022). Role of technological innovation and globalization in
 
-BRICS economies: Policy towards environmental sustainability. International Journal of Sustainable Development & World
+BRICS economies: Policy towards environmental sustainability. International Journal of Sustainable Development  World
 Ecology, 29(7), 593–610.
 
-Bakari, S., & Tiba, S. (2021). The impact of combustible renewables and waste on economic growth and environmental qual
+Bakari, S.,  Tiba, S. (2021). The impact of combustible renewables and waste on economic growth and environmental qual
 ity in Tunisia.
-Banerjee, P., Arcabiˇ �c, V., & Lee, H. (2017). Fourier ADL cointegration test to approximate smooth breaks with new evidence
+Banerjee, P., Arcabiˇ �c, V.,  Lee, H. (2017). Fourier ADL cointegration test to approximate smooth breaks with new evidence
 from crude oil market. Economic Modelling, 67, 114–124.
 
 Ben Jebli, M. (2016). On the causal links between health indicator, output, combustible renewables and waste consumption,
 rail transport, and CO2 emissions: The case of Tunisia. Environmental Science and Pollution Research, 23, 16699–16715.
-Ben Jebli, M., & Ben Youssef, S. (2015). Economic growth, combustible renewables and waste consumption, and CO2 emissions in North Africa. Environmental Science and Pollution Research, 22, 16022–16030.
-Ben Jebli, M., & Ben Youssef, S. (2019). Combustible renewables and waste consumption, agriculture, CO2 emissions and
+Ben Jebli, M.,  Ben Youssef, S. (2015). Economic growth, combustible renewables and waste consumption, and CO2 emissions in North Africa. Environmental Science and Pollution Research, 22, 16022–16030.
+Ben Jebli, M.,  Ben Youssef, S. (2019). Combustible renewables and waste consumption, agriculture, CO2 emissions and
 economic growth in Brazil. Carbon Management, 10(3), 309–321.
 
-Bibi, M., Khan, M. K., Tufail, M. M. B., Godil, D. I., Usman, R., & Faizan, M. (2023). How ICT and globalization interact with
+Bibi, M., Khan, M. K., Tufail, M. M. B., Godil, D. I., Usman, R.,  Faizan, M. (2023). How ICT and globalization interact with
 the environment: a case of the Chinese economy. Environmental Science and Pollution Research, 30(3), 8207–8225.
 
-Bozatli, O., & Akca, H. (2023). The effects of environmental taxes, renewable energy consumption and environmental tech
+Bozatli, O.,  Akca, H. (2023). The effects of environmental taxes, renewable energy consumption and environmental tech
 nology on the ecological footprint: Evidence from advanced panel data analysis. Journal of Environmental Management,
 
 345, 118857.
-Çetin, M., Aslan, A., & Sarıgül, S. S. (2022). Analysis of the dynamics of environmental degradation for 18 upper middleincome countries: The role of financial development. Environmental Science and Pollution Research, 29(43), 64647–
+Çetin, M., Aslan, A.,  Sarıgül, S. S. (2022). Analysis of the dynamics of environmental degradation for 18 upper middleincome countries: The role of financial development. Environmental Science and Pollution Research, 29(43), 64647–
 
 64664.
-Çetin, M., & Ecevit, E. (2015). Urbanization, energy consumption and CO2 emissions in sub-Saharan countries: A panel
+Çetin, M.,  Ecevit, E. (2015). Urbanization, energy consumption and CO2 emissions in sub-Saharan countries: A panel
 cointegration and causality analysis. Journal of Economics and Development Studies, 3(2), 66–76.
 
-Cetin, M., & Ecevit, E. (2017). The impact of financial development on carbon emissions under the structural breaks: Empirical evidence from Turkish economy. International Journal of Economic Perspectives, 11(1), 64–78.
+Cetin, M.,  Ecevit, E. (2017). The impact of financial development on carbon emissions under the structural breaks: Empirical evidence from Turkish economy. International Journal of Economic Perspectives, 11(1), 64–78.
 
-Cetin, M., Ecevit, E., & Yucel, A. G. (2018). The impact of economic growth, energy consumption, trade openness, and finan
+Cetin, M., Ecevit, E.,  Yucel, A. G. (2018). The impact of economic growth, energy consumption, trade openness, and finan
 cial development on carbon emissions: Empirical evidence from Turkey. Environmental Science and Pollution Research,
 25(36), 36589–36603.
-Çetin, M., Sarıgül, S. S., Topcu, B. A., Alvarado, R., & Karataser, B. (2023). Does globalization mitigate environmental degrada
+Çetin, M., Sarıgül, S. S., Topcu, B. A., Alvarado, R.,  Karataser, B. (2023). Does globalization mitigate environmental degrada
 tion in selected emerging economies? Assessment of the role of financial development, economic growth, renewable
 energy consumption and urbanization. Environmental Science and Pollution Research, 30, 1–20.
 
-Dada, J. T., Ajide, F. M., & Al-Faryan, M. A. S. (2023). Economic complexity and ecological degradation in Africa: Does global[ization matter? The International Trade Journal, 1–29. https://doi.org/10.1080/08853908.2023.2243328](https://doi.org/10.1080/08853908.2023.2243328)
+Dada, J. T., Ajide, F. M.,  Al-Faryan, M. A. S. (2023). Economic complexity and ecological degradation in Africa: Does global[ization matter? The International Trade Journal, 1–29. https://doi.org/10.1080/08853908.2023.2243328](https://doi.org/10.1080/08853908.2023.2243328)
 
-Destek, M. A., & Sinha, A. (2020). Renewable, non-renewable energy consumption, economic growth, trade openness and
+Destek, M. A.,  Sinha, A. (2020). Renewable, non-renewable energy consumption, economic growth, trade openness and
 
 ecological footprint: Evidence from organisation for economic Co-operation and development countries. Journal of
 
 Cleaner Production, 242, 118537.
 
-Dickey, D. A., & Fuller, W. A. (1979). Distribution of the estimators for autoregressive time series with a unit root. Journal of
+Dickey, D. A.,  Fuller, W. A. (1979). Distribution of the estimators for autoregressive time series with a unit root. Journal of
 the American Statistical Association, 74(366a), 427–431.
 
-Enders, W., & Jones, P. (2016). Grain prices, oil prices, and multiple smooth breaks in a VAR. Studies in Nonlinear Dynamics &
+Enders, W.,  Jones, P. (2016). Grain prices, oil prices, and multiple smooth breaks in a VAR. Studies in Nonlinear Dynamics 
 Econometrics, 20(4), 399–419.
-Enders, W., & Lee, J. (2012). The flexible Fourier form and Dickey-Fuller type unit root tests. Economic Letters, 117, 196–
+Enders, W.,  Lee, J. (2012). The flexible Fourier form and Dickey-Fuller type unit root tests. Economic Letters, 117, 196–
 
 [199. https://doi.org/10.1016/j.econlet.2012.04.081](https://doi.org/10.1016/j.econlet.2012.04.081)
 
-Eregha, P. B., Nathaniel, S. P., & Vo, X. V. (2023). Economic growth, environmental regulations, energy use, and ecological
+Eregha, P. B., Nathaniel, S. P.,  Vo, X. V. (2023). Economic growth, environmental regulations, energy use, and ecological
 
-footprint linkage in the Next-11 countries: Implications for environmental sustainability. Energy & Environment, 34(5),
+footprint linkage in the Next-11 countries: Implications for environmental sustainability. Energy  Environment, 34(5),
 1327–1347.
 
-Ertugrul, H. M., Cetin, M., Seker, F., & Dogan, E. (2016). The impact of trade openness on global carbon dioxide emissions:
+Ertugrul, H. M., Cetin, M., Seker, F.,  Dogan, E. (2016). The impact of trade openness on global carbon dioxide emissions:
 Evidence from the top ten emitters among developing countries. Ecological Indicators, 67, 543–555.
 
-
 https://mjl.clarivate.com/journal-profile 1/3
-
 
 Environmental Science and Pollution Research (2024) 31:31424–31442
 https://doi.org/10.1007/s11356-024-33059-6
 
-
-
-
-
 **Trade openness, human capital, natural resource, and carbon emission**
 **nexus: a CS‑ARDL assessment for Central Asian economies**
 
-
 **Meng Qing Feng** **[1]** **· Otsile Morake** **[1]** **· Agyemang Kwasi Sampene** **[1]** **[· Fredrick Oteng Agyeman](http://orcid.org/0000-0002-0475-7700)** **[1]**
 
-
-Received: 2 December 2023 / Accepted: 20 March 2024 / Published online: 17 April 2024
-© The Author(s), under exclusive licence to Springer-Verlag GmbH Germany, part of Springer Nature 2024
-
+Received: 2 December 2023  Accepted: 20 March 2024  Published online: 17 April 2024
+ The Author(s), under exclusive licence to Springer-Verlag GmbH Germany, part of Springer Nature 2024
 
 **Abstract**
 There is a call for global efforts to preserve the ecological systems that can sustain economies and people’s lives. However,
@@ -2311,13 +1819,9 @@ study proposes that to support ecological stability in these regions, policy-mak
 capital, investing in renewable energy sources, and utilizing contemporary technologies to harness natural resources in the
 economies of Central Asia.
 
-
-**Keywords** Energy uses · Natural resource · Human capital · Trade openness · Environmental sustainability
-
-
+**Keywords** Energy uses  Natural resource  Human capital  Trade openness  Environmental sustainability
 
 **Introduction**
-
 
 In contemporary times, one of the economic blocs where
 there has been rampant growth in economic development
@@ -2326,9 +1830,7 @@ Thus, there has been an exponential rise of about 55% in
 economic development in the last decades. As a result, these
 economies face environmental degradation challenges that
 
-
 Responsible Editor: Eyup Dogan
-
 
 Otsile Morake
 otsilemorake@stmail.ujs.edu.cn; oteemorake@yahoo.com
@@ -2345,10 +1847,7 @@ fredrickotengagyeman2@gmail.com
 1 School of Management, Jiangsu University,
 Zhenjiang 212013, Jiangsu, China
 
-
 Vol:.(1234567890)
-
-
 
 need to be addressed by stakeholders and policy-makers
 (Isiksal et al. 2022). Historically, the Central Asia economies have been characterized by rich resources and heavily
@@ -2369,34 +1868,24 @@ Carbon emission (CEM) has recently been among the
 most significant global problems. Thus, ­CO2 emission poses
 a danger to environmental sustainability and ecological
 
-
 Environmental Science and Pollution Research (2024) 31:31424–31442 31439
-
-
 
 **Author contribution** Otsile Morake drafted the whole manuscript.
 Feng supervised the data analysis and conclusion. Agyemang Kwasi
 Sampene and Fredrick Oteng Agyeman revised the whole manuscript.
 
-
 **Data availability** The data that support the findings of this study are
 available from the corresponding author upon reasonable request.
 
-
 **Declarations**
-
 
 **Ethics approval and consent to participate** Not applicable **.**
 
-
 **Consent for publication** Not applicable.
-
 
 **Competing interests** The authors declare no competing interests.
 
-
 **References**
-
 
 Agbede EA, Bani Y, Azman-Saini WNW, Naseem NAM (2021)
 The impact of energy consumption on environmental quality: empirical evidence from the MINT countries. Environ
@@ -2429,10 +1918,8 @@ the novel dynamic simulations method. J Environ Manage
 [112865](https://doi.org/10.1016/j.jenvman.2021.112865)
 Andersone L, Stacenko S, Imasheva B, Muravska T (2021) EU–Central Asia partnership for conducive business environment and
 decent work. Eur Stud 8(1):83–103
-Anwar, A., Younis, M., & Ullah, I. (2020). Impact of urbanization
+Anwar, A., Younis, M.,  Ullah, I. (2020). Impact of urbanization
 and economic growth on CO2 emission: a case of far east
-
-
 
 Asian countries. International Journal of Environ Res Public
 [Health, 17(7). https://​doi.​org/​10.​3390/​ijerp​h1707​2531](https://doi.org/10.3390/ijerph17072531)
@@ -2440,13 +1927,13 @@ Astratova, G., Klimuk, V., Rushitskaya, O., Ivliev, I., Ruchkin,
 A., Yurchenko, N., Yatsenko, I. V, Zapara, S. I., Zon, G. A.,
 Ivanovskaya, L. B., Klochko, A. M., Pîrvu, R., Abdelnaser, O.,
 Ha, H., Kaur, H., Grabara, J., Katsoni, V., Kot, S., Lekishvili,
-N., … Ungureanu, L. (2020). The role of human capital in
+N.,  Ungureanu, L. (2020). The role of human capital in
 ensuring food security of the region. J Environ Manage Tour,
 [11(1), 139–144. https://​doi.​org/​10.​14505//​JEMT.​11.​1(41).​16](https://doi.org/10.14505//JEMT.11.1(41).16)
 Azam M, Liu L, Ahmad N (2021a) Impact of institutional quality on
 environment and energy consumption: evidence from develop[ing world. Environ Dev Sustain 23(2):1646–1667. https://​doi.​](https://doi.org/10.1007/s10668-020-00644-x)
 [org/​10.​1007/​s10668-​020-​00644-x](https://doi.org/10.1007/s10668-020-00644-x)
-Azam, M., Ur, Z., & Yusnidah, R. (2021b). Openness, and carbon emissions: empirical evidence from OPEC economies.
+Azam, M., Ur, Z.,  Yusnidah, R. (2021b). Openness, and carbon emissions: empirical evidence from OPEC economies.
 [Environ Dev Sustain, 0123456789. https://​doi.​org/​10.​1007/​](https://doi.org/10.1007/s10668-021-02019-2)
 [s10668-​021-​02019-2](https://doi.org/10.1007/s10668-021-02019-2)
 Balsalobre-Lorente D, Ibáñez-Luzón L, Usman M, Shahbaz M
@@ -2461,7 +1948,7 @@ environment: nexus between CO2 emissions, resource rent,
 renewable and nonrenewable energy in 16-EU countries. Sci
 [Total Environ 657:1023–1029. https://​doi.​org/​10.​1016/j.​scito​](https://doi.org/10.1016/j.scitotenv.2018.12.104)
 [tenv.​2018.​12.​104](https://doi.org/10.1016/j.scitotenv.2018.12.104)
-Brenya R, Zhu J (2023) Agricultural extension and food security –
+Brenya R, Zhu J (2023) Agricultural extension and food security 
 [the case of Uganda. Glob Food Sec 36:100678. https://​doi.​org/​](https://doi.org/10.1016/J.GFS.2023.100678)
 [10.​1016/J.​GFS.​2023.​100678](https://doi.org/10.1016/J.GFS.2023.100678)
 Brenya R, Akomea-Frimpong I, Ofosu D, Adeabah D (2022) Barriers
@@ -2490,25 +1977,17 @@ Chudik A, Pesaran MH (2015) Common correlated effects estimation of heterogeneou
 exogenous regressors. J Econ 188(2):393–420
 Danish Ulucak R, Khan SUD (2020) Determinants of the ecological footprint: role of renewable energy, natural resources, and
 
-
 Soft Computing (2024) 28:1743–1764
 [https://doi.org/10.1007/s00500-023-09449-2](https://doi.org/10.1007/s00500-023-09449-2) (0123456789().,-volV)(0123456789().,- volV)
-
-
-
-
 
 Integrating eco-environment impact and eco-tourism using deep
 neural network algorithms in the GIoT environment
 
-
 Hui Li [1]
 
+Accepted: 8 November 2023  Published online: 7 December 2023
 
-Accepted: 8 November 2023 / Published online: 7 December 2023
-
-- The Author(s), under exclusive licence to Springer-Verlag GmbH Germany, part of Springer Nature 2023
-
+ The Author(s), under exclusive licence to Springer-Verlag GmbH Germany, part of Springer Nature 2023
 
 Abstract
 The incorporation of Internet of Things (IoT) expertise into eco-friendly environments and eco-tourism has profoundly
@@ -2526,13 +2005,9 @@ coordination. The DNN algorithm achieved a remarkable 95% accuracy, surpassing t
 demonstrated the most robust coordination, while southern Shaanxi showed consistently high levels, indicating rapid
 advancement.
 
-
-Keywords Green Internet of Things (IoT) - Artificial intelligence - Ecological environment - Eco-tourism Industrial integration - Empirical research - Deep neural network
-
-
+Keywords Green Internet of Things (IoT)  Artificial intelligence  Ecological environment  Eco-tourism Industrial integration  Empirical research  Deep neural network
 
 1 Introduction
-
 
 The dawn of the twenty-first century ushered in a new era
 of technological advancement that has revolutionized life,
@@ -2544,15 +2019,11 @@ our daily lives. IoT, in its essence, is the interconnection of
 everyday objects and devices to the Internet, enabling them
 to collect and exchange data, perform tasks, and respond to
 
-
-& Hui Li
+ Hui Li
 gkylihui@163.com
-
 
 1 School of Tourism, Guangdong Polytechnic of Science and
 Technology, Zhuhai 519090, Guangdong, China
-
-
 
 commands autonomously. This interplay between the digital and physical worlds has catalyzed innovations across
 various industries, from healthcare and transportation to
@@ -2568,13 +2039,9 @@ intelligent through an adjustable communication system,
 computation, evaluation, and storage. Sensors, cameras,
 radio frequency, actuators, robots, mobile phones, and
 
-
 123
 
-
 Integrating eco-environment impact and eco-tourism… 1763
-
-
 
 ecologically conscious and economically thriving area. The
 proposed study achieved a remarkable milestone with the
@@ -2588,29 +2055,22 @@ scalability, and exploring additional features and data
 sources to augment the model’s capabilities further. Doing
 so can pave the way for a more sustainable and environmentally conscious future in the eco-tourism industry.
 
-
 Funding This study was funded by Research on the innovation and
 development of digital immersive cultural tourism in Guangzhou
 from the perspective of interactive narrative (2023GZGJ37).
 
-
 Declarations
-
 
 Conflict of interest The authors declare that they have no conflict of
 interest.
 
-
 Consent to participate This article does not contain any studies with
 human participants or animals performed by any of the authors.
-
 
 Consent for publication Authors give consent to the journal to publish
 their article.
 
-
 References
-
 
 Ahmad N, Youjin L, Hdia M (2022) The role of innovation and
 tourism in sustainability: why is environment-friendly tourism
@@ -2633,8 +2093,6 @@ Bibri SE, Alexandre A, Sharifi A, Krogstie J (2023) Environmentally
 sustainable smart cities and their converging AI, IoT, and big
 data technologies and solutions: an integrated approach to an
 extensive literature review. Energy Inform 6(1):9
-
-
 
 Chen Z (2019) Observer-based dissipative output feedback control for
 network T-S fuzzy systems under time delays with mismatch
@@ -2696,27 +2154,18 @@ river water quality. Sci Total Environ 878:162559
 Liu X, Li Z, Fu X, Yin Z, Liu M, Yin L, Zheng W (2023) Monitoring
 house vacancy dynamics in the pearl river delta region: a method
 
-
 123
-
 
 Environmental Science and Pollution Research (2024) 31:37777–37789
 https://doi.org/10.1007/s11356-024-33671-6
 
-
-
-
-
 **Reshaping energy horizon of Iran: investigating economic sanctions,**
 **export diversification, and environmental resilience**
 
-
 **Bahareh Oryani** **[1]** **· Heshmatullah Asgari** **[2]** **· Ali Moridian** **[3]** **· Vahid Reza Nasrollahi** **[4]** **· Shahabaldin Rezania** **[5]**
 
-
-Received: 18 October 2023 / Accepted: 9 May 2024 / Published online: 24 May 2024
-© The Author(s), under exclusive licence to Springer-Verlag GmbH Germany, part of Springer Nature 2024
-
+Received: 18 October 2023  Accepted: 9 May 2024  Published online: 24 May 2024
+ The Author(s), under exclusive licence to Springer-Verlag GmbH Germany, part of Springer Nature 2024
 
 **Abstract**
 Employing robust methodologies, including principal component analysis, autoregressive moving average, Fourier bootstrap
@@ -2731,10 +2180,7 @@ but contributing to long-term degradation. Frequency-domain causality analysis h
 long-term causes of EF, ESI, and TOP as medium- to long-term causes and RGDPpc as a long-term cause. These findings
 emphasize the need for sustainable policies, stringent environmental standards, and a balanced approach to fostering economic growth while preserving the environment.
 
-
-**Keywords** Export diversification · Economic sanction index · Ecological footprint · FARDL · BC causality test · Iran
-
-
+**Keywords** Export diversification  Economic sanction index  Ecological footprint  FARDL  BC causality test  Iran
 
 **Abbreviations**
 APEC Asia-Pacific Economic Cooperation
@@ -2755,13 +2201,9 @@ EXD Export diversification
 FADF Fourier augmented Dicky–Fuller
 FARDL Fourier autoregressive distributed lag
 
-
 Responsible Editor: Ilhan Ozturk
 
-
 Extended author information available on the last page of the article
-
-
 
 GMM Generalized method of moments
 HHI Herfindahl–Hirschman index
@@ -2775,9 +2217,7 @@ RGDPpc Real GDP per capita
 SDGs Sustainable Development Goals
 TOP Trade openness
 
-
 **Introduction**
-
 
 The worldwide endeavor to achieve economic development
 continuously encounters challenges posed by environmental
@@ -2785,42 +2225,30 @@ sustainability goals, a multifaceted convergence of interests
 that nations struggle with (Pata et al. 2022). Export diversification (EXD) is a notable strategy that involves expanding the range of commodities and markets that a country
 exports. This strategy, supported by prominent International
 
-
 Vol.:(0123456789)
 
-
 Environmental Science and Pollution Research (2024) 31:37777–37789 37787
-
-
 
 **Author contribution** Conceptualization and writing—original draft
 preparation: B.O.; resources and visualization: H.A; methodology:
 A.M; writing—review and editing, V.R.N.; formal analysis and investigation: S.R.
-
 
 **Data availability** The data used in this study are derived from multiple sources, which have been detailed in the paper. All data sets are
 publicly available and can be accessed through the respective organizations’ websites. For further information on data access, please refer
 to the “dаtа соllесtiоn аnd dеsсriptiоn” or contact the corresponding
 author.
 
-
 **Declarations**
-
 
 **Ethical approval** Not applicable.
 
-
 **Consent to participate** Not applicable.
-
 
 **Consent for publication** Not applicable.
 
-
 **Competing interests** The authors declare no competing interests.
 
-
 **References**
-
 
 Adewuyi AO, Awodumi OB (2016) Analysis of the Environmental pollution effect of Nigeria’s export diversification drive. In: Annual
 Conference of the Nigerian Economic Society, Holding in Abuja,
@@ -2845,8 +2273,6 @@ Time Series Database. (2021). Central Bank of the Islamic Repub[lic of Iran webs
 Breitung J, Candelon B (2006) Testing for short-and long-run causality: a frequency-domain approach. Journal of Econometrics
 132(2):363–378
 Can M, Dogan B, Saboori B (2020) Does trade matter for environmental degradation in developing countries? New evidence in
-
-
 
 the context of export product diversification. Environ Sci Pollut
 Res 27:14702–14710
@@ -2906,18 +2332,14 @@ Sci Pollut Res 29:10908–10927
 Li M, Ahmad M, Fareed Z, Hassan T, Kirikkaleli D (2021) Role of
 trade openness, export diversification, and renewable electricity
 
-
 **Energy consumption, economic growth and Ecological**
 **footprint relationship in the top Russian energy importers:**
 **a panel data analysis**
 
-
 **Abidin Öncel** **[1]** **· Ali Kabasakal** **[1]** **[· Aziz Kutlar](http://orcid.org/0000-0003-1254-3566)** **[1]** **· Samet Acar** **[1]**
 
-
-Received: 22 February 2023 / Accepted: 20 June 2023 / Published online: 6 July 2023
-© The Author(s), under exclusive licence to Springer Nature B.V. 2023
-
+Received: 22 February 2023  Accepted: 20 June 2023  Published online: 6 July 2023
+ The Author(s), under exclusive licence to Springer Nature B.V. 2023
 
 **Abstract**
 This study examines the relationship between renewable and non-renewable energy consumption, economic growth, and ecological footprint for the top 14 Russian-energyimporting countries in 2000–2018. Through PVAR analysis, this study calculates the
@@ -2935,10 +2357,8 @@ Russian fuel export increases the elasticity of economic growth by 1%. However, 
 in the DOLS model, it was found to be 0.023 in the FMOLS model. The elasticity value of
 the economic growth variable was found to be 0.69 in the FMOLS model.
 
-
-**Keywords** Ecological footprint · Economic growth · Non-renewable and renewable
-energy · PVAR
-
+**Keywords** Ecological footprint  Economic growth  Non-renewable and renewable
+energy  PVAR
 
 Ali Kabasakal
 kabasakal@sakarya.edu.tr
@@ -2954,14 +2374,11 @@ sametacar@sakarya.edu.tr
 
 1 Department of Economics, Sakarya University, Sakarya, Turkey
 
-
 Vol.:(0123456789)
 
 1 3
 
-
 21048 A. Öncel et al.
-
 
 **Availability of Data and Materials** All of the data used in the study were collected from publicly available
 [data from the institutions’ websites listed below. BP Statistical Review (https://​www.​bp.​com/​en/​global/​](https://www.bp.com/en/global/corporate/energy-economics/statistical-review-of-world-energy.html)
@@ -2971,75 +2388,60 @@ Vol.:(0123456789)
 
 **Declarations**
 
-
 **Conflict of interest** The authors declare that they have no known competing financial interests or personal
 relationships that could have appeared to influence the work reported in this paper.
-
 
 **Ethical Approval** This manuscript has not been published and is not under consideration for publication elsewhere. We have no conflict of interest to disclose. We have not submitted the manuscript to a preprint server
 before submitting it to ESPR.
 
-
 **Consent to Participate** Not applicable.
-
 
 **Consent to Publish** Not applicable.
 
-
 **References**
-
 
 Abdollahi, H. (2020). Investigating energy use, environment pollution, and economic growth in developing countries. _Environmental and Climate Technologies,_ _24_ (1), 275–293. [https://​doi.​org/​10.​2478/​](https://doi.org/10.2478/rtuect-2020-0016)
 [rtuect-​2020-​0016](https://doi.org/10.2478/rtuect-2020-0016)
-Acaravcı, A., & Erdoğan, S. (2018). Renewable energy, environment and economic growth nexus: an empirical analyses for selected countriess. _Eskişehir Osmangazi Üniversitesi İİBF Dergisi,_ _13_ (1), 53–64.
-Ahmed, Z., Ahmad, M., Rjoub, H., Kalugina, O.A., & Hussain, N. (2021). Economic growth, renewable
+Acaravcı, A.,  Erdoğan, S. (2018). Renewable energy, environment and economic growth nexus: an empirical analyses for selected countriess. _Eskişehir Osmangazi Üniversitesi İİBF Dergisi,_ _13_ (1), 53–64.
+Ahmed, Z., Ahmad, M., Rjoub, H., Kalugina, O.A.,  Hussain, N. (2021). Economic growth, renewable
 energy consumption, and ecological footprint: Exploring the role of environmental regulations and
 democracy in sustainable development. _Sustainable Development_, 1–11. [https://​doi.​org/​10.​1002/​sd.​](https://doi.org/10.1002/sd.2251)
 [2251](https://doi.org/10.1002/sd.2251)
-Allard, A., Takman, J., Uddin, G. S., & Ahmed, A. (2018). The N-shaped environmental Kuznets curve: an
+Allard, A., Takman, J., Uddin, G. S.,  Ahmed, A. (2018). The N-shaped environmental Kuznets curve: an
 empirical evaluation using a panel quantile regression approach. _Environmental Science and Pollution_
 _Research,_ _25_ (6), 5848–5861.
-Alola, A. A., Bekun, F. V., & Sarkodie, S. A. (2019). Dynamic impact of trade policy, economic growth,
+Alola, A. A., Bekun, F. V.,  Sarkodie, S. A. (2019). Dynamic impact of trade policy, economic growth,
 fertility rate, renewable and non-renewable energy consumption on ecological footprint in Europe. _Sci-_
 
 _Policy,_ _37_ (8), 3282–3286.
-Armeanu, D. Ş, Gherghina, ŞC., & Pasmangiu, G. (2019). Exploring the causal nexus between energy
+Armeanu, D. Ş, Gherghina, ŞC.,  Pasmangiu, G. (2019). Exploring the causal nexus between energy
 consumption, environmental pollution and economic growth: empirical evidence from Central and
 Eastern Europe. _Energies,_ _12_ (19), 3704.
-Armeanu, D. S., Joldes, C. C., Gherghina, S. C., & Andrei, J. V. (2021). Understanding the multidimensional linkages among renewable energy, pollution, economic growth and urbanization in contemporary economies: Quantitative assessments across different income countries’ groups. _Renewable_
+Armeanu, D. S., Joldes, C. C., Gherghina, S. C.,  Andrei, J. V. (2021). Understanding the multidimensional linkages among renewable energy, pollution, economic growth and urbanization in contemporary economies: Quantitative assessments across different income countries’ groups. _Renewable_
 _and Sustainable Energy Reviews,_ _142_, 110818.
-Ashraf, S., Sekar, T. R., & Abraham, J. (2020). Relationships among environmental pollution, energy
+Ashraf, S., Sekar, T. R.,  Abraham, J. (2020). Relationships among environmental pollution, energy
 use and economic growth: A global perspective. _OPEC Economic Review,_ _44_ (4), 511–534.
 Aydın, M. (2019). The effect of biomass energy consumption on economic growth in BRICS countries:
 A country-specific panel data analysis. _Renewable Energy,_ _138_, 620–627.
-Bai, J., & Ng, S. (2004). A panic attack on unit roots and cointegration. _Econometrica,_ _72_ (4), 1127–
+Bai, J.,  Ng, S. (2004). A panic attack on unit roots and cointegration. _Econometrica,_ _72_ (4), 1127–
 [1177. https://​doi.​org/​10.​1111/j.​1468-​0262.​2004.​00528.x](https://doi.org/10.1111/j.1468-0262.2004.00528.x)
-
 
 1 3
 
-
 https://mjl.clarivate.com/journal-profile 1/4
 
-
-Received: 25 February 2024 | Revised: 1 June 2024 | Accepted: 3 June 2024
-
+Received: 25 February 2024  Revised: 1 June 2024  Accepted: 3 June 2024
 
 DOI: 10.1111/ecpo.12301
-
 
 O R I G I N A L A R T I C L E
 
 ##### The catalyzing role of financial inclusion in decoding environmental challenges and fostering a sustainable future in BRICS‐T
 
-
 Bilgehan Tekin
-
-
 
 Department of Business, Çankırı
 Karatekin University, Çankırı, Turkey
-
 
 Correspondence
 Bilgehan Tekin, Department of Business,
@@ -3047,26 +2449,21 @@ Bilgehan Tekin, Department of Business,
 Turkey.
 Email: [bilgehantn@outlook.com](mailto:bilgehantn@outlook.com)
 
-
-
 Abstract
 
 Environmental degradation poses a significant chal
 
 lenge globally, exhibiting diverse manifestations across
 
-
 regions and ecosystems. This study aims to decipher
 
 the factors contributing to environmental degradation,
-
 
 with a specific focus on Brazil, Russia, India, China,
 
 South Africa, and Türkiye countries, spanning the
 
 period of 1990–2018. This investigation revealed
-
 
 intricate interdependencies among financial institu
 tions, market dynamics, energy utilization, demo
@@ -3077,13 +2474,10 @@ the findings of studies based on Durbin‐Hausman,
 Westerlund, CS‐ARDL cointegration, Juodis, Karavias,
 and Sarafidis and Dumitrescu‐Hurlin causality tests,
 
-
 policies that encourage financial inclusion and energy
-
 
 efficiency should be developed to prevent environ
 mental degradation. On the other hand, attention has
-
 
 been given to the impact of population growth on
 
@@ -3091,92 +2485,80 @@ environmental policy decisions. This research contri
 
 butes valuable information to the ongoing discourse on
 
-
 the interrelationship between financial inclusion, the
 
 energy population, and environmental protection.
 
-
 K E Y W O R D S
-
 
 ecological footprint, energy, financial inclusion, population,
 sustainable development
 
-
-
-1572 | © 2024 John Wiley & Sons Ltd. [wileyonlinelibrary.com/journal/ecpo](https://wileyonlinelibrary.com/journal/ecpo) Economics Politics. 2024;36:1572–1603.
-
+1572   2024 John Wiley  Sons Ltd. [wileyonlinelibrary.com/journal/ecpo](https://wileyonlinelibrary.com/journal/ecpo) Economics Politics. 2024;36:1572–1603.
 
 1596 TEKIN
-|
 
 
 REFERENCES
 
-Abbasi, F., & Riaz, K. (2016). CO2 emissions and financial development in an emerging economy: An
+Abbasi, F.,  Riaz, K. (2016). CO2 emissions and financial development in an emerging economy: An
 augmented VAR approach. Energy Policy, 90, 102–114. [https://doi.org/10.1016/j.enpol.2015.12.017](https://doi.org/10.1016/j.enpol.2015.12.017)
 Acheampong, A. O. (2019). Modelling for insight: Does financial development improve environmental quality?
 Energy Economics, 83, 156–179. [https://doi.org/10.1016/j.eneco.2019.06.025](https://doi.org/10.1016/j.eneco.2019.06.025)
-Adebayo, T. S., & Kirikkaleli, D. (2021). Impact of renewable energy consumption, globalization, and
+Adebayo, T. S.,  Kirikkaleli, D. (2021). Impact of renewable energy consumption, globalization, and
 technological innovation on environmental degradation in Japan: Application of wavelet tools.
 Environment, Development and Sustainability, 23, 16057–16082. [https://doi.org/10.1007/s10668-021-](https://doi.org/10.1007/s10668-021-01322-2)
 [01322-2](https://doi.org/10.1007/s10668-021-01322-2)
-Adebayo, T. S., Pata, U. K., & Akadiri, S. S. (2024). A comparison of CO2 emissions, load capacity factor, and
+Adebayo, T. S., Pata, U. K.,  Akadiri, S. S. (2024). A comparison of CO2 emissions, load capacity factor, and
 ecological footprint for Thailand's environmental sustainability. Environment, Development and
 Sustainability, 26, 2203–2223. [https://doi.org/10.1007/s10668-022-02810-9](https://doi.org/10.1007/s10668-022-02810-9)
-Ahmad, M., & Satrovic, E. (2023). Relating fiscal decentralization and financial inclusion to environmental
+Ahmad, M.,  Satrovic, E. (2023). Relating fiscal decentralization and financial inclusion to environmental
 [sustainability: Criticality of natural resources. Journal of Environmental Management, 325, 116633. https://](https://doi.org/10.1016/j.jenvman.2022.116633)
 [doi.org/10.1016/j.jenvman.2022.116633](https://doi.org/10.1016/j.jenvman.2022.116633)
-Ahmad, M., Jiang, P., Majeed, A., Umar, M., Khan, Z., & Muhammad, S. (2020). The dynamic impact of natural
+Ahmad, M., Jiang, P., Majeed, A., Umar, M., Khan, Z.,  Muhammad, S. (2020). The dynamic impact of natural
 resources, technological innovations and economic growth on ecological footprint: An advanced panel data
 estimation. Resources Policy, 69, 101817. [https://doi.org/10.1016/j.resourpol.2020.101817](https://doi.org/10.1016/j.resourpol.2020.101817)
-Ahmad, M. H., Azhar, U., Wasti, S. A., Inam, Z., & Ghani, N. (2005). Interaction between population and
+Ahmad, M. H., Azhar, U., Wasti, S. A., Inam, Z.,  Ghani, N. (2005). Interaction between population and
 environmental degradation [with Comments]. The Pakistan development review, 44(4), 1135–1150. [https://](https://www.jstor.org/stable/41261148)
 [www.jstor.org/stable/41261148](https://www.jstor.org/stable/41261148)
-Ahmed, Z., Asghar, M. M., Malik, M. N., & Nawaz, K. (2020). Moving towards a sustainable environment: The
+Ahmed, Z., Asghar, M. M., Malik, M. N.,  Nawaz, K. (2020). Moving towards a sustainable environment: The
 dynamic linkage between natural resources, human capital, urbanization, economic growth, and ecological
 footprint in China. Resources Policy, 67, 101677. [https://doi.org/10.1016/j.resourpol.2020.101677](https://doi.org/10.1016/j.resourpol.2020.101677)
-Ahmed, Z., & Wang, Z. (2019). Investigating the impact of human capital on the ecological footprint in India: An
+Ahmed, Z.,  Wang, Z. (2019). Investigating the impact of human capital on the ecological footprint in India: An
 empirical analysis. Environmental Science and Pollution Research, 26, 26782–26796. [https://doi.org/10.](https://doi.org/10.1007/s11356-019-05911-7)
 [1007/s11356-019-05911-7](https://doi.org/10.1007/s11356-019-05911-7)
-Ahmed, Z., Wang, Z., Mahmood, F., Hafeez, M., & Ali, N. (2019). Does globalization increase the ecological
+Ahmed, Z., Wang, Z., Mahmood, F., Hafeez, M.,  Ali, N. (2019). Does globalization increase the ecological
 footprint? Empirical evidence from Malaysia. Environmental Science and Pollution Research, 26,
 18565–18582. [https://doi.org/10.1007/s11356-019-05224-9](https://doi.org/10.1007/s11356-019-05224-9)
-Ahmed, Z., Zhang, B., & Cary, M. (2021a). Linking economic globalization, economic growth, financial
+Ahmed, Z., Zhang, B.,  Cary, M. (2021a). Linking economic globalization, economic growth, financial
 development, and ecological footprint: Evidence from symmetric and asymmetric ARDL. Ecol. Indic. 121,
 107060. [https://doi.org/10.1016/j.ecolind.2020.107060](https://doi.org/10.1016/j.ecolind.2020.107060)
-Ahmed, Z., Zhang, B., & Cary, M. (2021b). Linking economic globalization, economic growth, financial
+Ahmed, Z., Zhang, B.,  Cary, M. (2021b). Linking economic globalization, economic growth, financial
 development, and ecological footprint: Evidence from symmetric and asymmetric ARDL. Ecol. Indic. 121,
 107060. [https://doi.org/10.1016/j.ecolind.2020.107060](https://doi.org/10.1016/j.ecolind.2020.107060)
 
-Alvarado, R., Ponce, P., Criollo, A., Córdova, K., & Khan, M. K. (2018). Environmental degradation and real per
+Alvarado, R., Ponce, P., Criollo, A., Córdova, K.,  Khan, M. K. (2018). Environmental degradation and real per
 capita output: New evidence at the global level grouping countries by income levels. Journal of Cleaner
 Production, 189, 13–20. [https://doi.org/10.1016/j.jclepro.2018.04.064](https://doi.org/10.1016/j.jclepro.2018.04.064)
-Amin, N., Song, H., & Khan, Z. A. (2022). Dynamic linkages of financial inclusion, modernization, and
+Amin, N., Song, H.,  Khan, Z. A. (2022). Dynamic linkages of financial inclusion, modernization, and
 environmental sustainability in South Asia: A panel data analysis. Environmental Science and Pollution
 Research, 29, 16588–16596. [https://doi.org/10.1007/s11356-021-16648-7](https://doi.org/10.1007/s11356-021-16648-7)
-Asamoah, M. E., Alagidede, I. P., & Adu, F. (2022). Exchange rate uncertainty and foreign direct investment in
+Asamoah, M. E., Alagidede, I. P.,  Adu, F. (2022). Exchange rate uncertainty and foreign direct investment in
 [Africa: Does financial development matter? Review of Development Economics, 26, 878–898. https://doi.org/](https://doi.org/10.1111/rode.12858)
 [10.1111/rode.12858](https://doi.org/10.1111/rode.12858)
-Ashraf, A., Nguyen, C. P., & Doytch, N. (2022). The impact of financial development on ecological footprints of
+Ashraf, A., Nguyen, C. P.,  Doytch, N. (2022). The impact of financial development on ecological footprints of
 nations. Journal of Environmental Management, 322, 116062. [https://doi.org/10.1016/j.jenvman.2022.](https://doi.org/10.1016/j.jenvman.2022.116062)
 [116062](https://doi.org/10.1016/j.jenvman.2022.116062)
 
-
 https://mjl.clarivate.com/journal-profile 1/3
 
-
 [Heliyon 10 (2024) e40829](https://doi.org/10.1016/j.heliyon.2024.e40829)
-
 
 Contents lists available at ScienceDirect
 
 Heliyon
 
-
 [journal homepage: www.cell.com/heliyon](https://www.cell.com/heliyon)
-
 
 Research article
 
@@ -3189,10 +2571,7 @@ a _School of Economics and Management, Wuhan University, 299 Bayi Road, Wuchang 
 b _Department of Tourism Management, National Kaohsiung University of Science and Technology, No.58, Shenzhong Rd., Yanchao Dist., Kaohsiung_
 _City, 824004, Taiwan_
 
-
-
 A R T I C L E I N F O
-
 
 _Keywords:_
 Sustainable development
@@ -3202,13 +2581,9 @@ Green energy
 Environmental conservation
 ARDL model
 
-
 **1.** **Introduction**
 
-
-
 A B S T R A C T
-
 
 Southeast Asia’s booming tourism and rapid economic growth create a unique setting to explore
 the interplay between economic development, tourism, and environmental sustainability. This
@@ -3227,8 +2602,6 @@ Policy implications emphasize the need for sustainable tourism practices and ren
 integration. This research location’s specific focus on Southeast Asia provides critical insights for
 policymakers aiming to balance economic growth with environmental conservation.
 
-
-
 Emerging in the late 20th century, sustainable development has become an imperative objective for nations globally. The ultimate
 goal of sustainable development is to achieve enduring economic and environmental stability. This can only be realized by integrating
 and acknowledging economic, environmental, and social factors throughout the decision-making process [1,2]. This is particularly
@@ -3236,12 +2609,10 @@ pertinent in Southeast Asia, a region marked by rapid economic growth, cultural 
 to decipher the intricate relationship between tourism development, financial development, and environmental conservation in
 Southeast Asia with a focus on green energy, CO2 emissions, and ecological footprints.
 
-
- - Corresponding author.
+  Corresponding author.
 ** Corresponding author.
 _E-mail addresses:_ [2022171050006@whu.edu.cn](mailto:2022171050006@whu.edu.cn) [(T. Ha Van), lichang@nkust.edu.tw](mailto:lichang@nkust.edu.tw) [(L. Lichang), i110167115@nkust.edu.tw](mailto:i110167115@nkust.edu.tw) (T. Dang Thanh
 Quoc).
-
 
 [https://doi.org/10.1016/j.heliyon.2024.e40829](https://doi.org/10.1016/j.heliyon.2024.e40829)
 Received 25 January 2024; Received in revised form 27 November 2024; Accepted 28 November 2024
@@ -3250,11 +2621,7 @@ Available online 29 November 2024
 2405-8440/© 2024 The Authors. Published by Elsevier Ltd. This is an open access article under the CC BY-NC license
 [( http://creativecommons.org/licenses/by-nc/4.0/ ).](http://creativecommons.org/licenses/by-nc/4.0/)
 
-
 _T. Ha Van et al.                                                                                                    Heliyon_ _10_ _(2024)_ _e40829_
-
-
-
 
 [95] Y. Wang, S. Fahad, L. Wei, B. Luo, J. Luo, Assessing the role of financial development and financial inclusion to enhance environmental sustainability: do
 [financial inclusion and eco-innovation promote sustainable development? Front. Environ. Sci. 10 (2022) 1056478 https://doi.org/10.3389/](https://doi.org/10.3389/FENVS.2022.1056478/BIBTEX)
@@ -3350,20 +2717,15 @@ _T. Ha Van et al.                                                               
 [127] [C.C. Lee, M.P. Chen, Ecological footprint, tourism development, and country risk: international evidence, J. Clean. Prod. 279 (2021) 123671, https://doi.org/](https://doi.org/10.1016/J.JCLEPRO.2020.123671)
 [10.1016/J.JCLEPRO.2020.123671.](https://doi.org/10.1016/J.JCLEPRO.2020.123671)
 
-
 19
 
-
 [Energy and Climate Change 5 (2024) 100122](https://doi.org/10.1016/j.egycc.2023.100122)
-
 
 Contents lists available at ScienceDirect
 
 Energy and Climate Change
 
-
 [journal homepage: www.sciencedirect.com/journal/energy-and-climate-change](https://www.sciencedirect.com/journal/energy-and-climate-change)
-
 
 Full Length Article
 
@@ -3371,16 +2733,13 @@ Environmental degradation in geopolitical risk and uncertainty contexts for
 India: A comparison of ecological footprint, CO2 emissions, and load
 capacity factor
 
-Muhammed Ashiq Villanthenkodath [a][,][*], Shreya Pal [b][,][c ]
+Muhammed Ashiq Villanthenkodath [a][,][*], Shreya Pal [b][,][c 
 
 a _Department of Economics and Business Environment, Indian Institute of Management Bodh Gaya (IIM Bodh Gaya), Bodh Gaya, Bihar, 824234, India_
 b _Department of Humanities and Social Sciences, Indian Institute of Technology Kharagpur, West Bengal, India_
 c _School of Business and Management, Christ University (Deemed to be University), Bengaluru, 560029, Karnataka, India_
 
-
-
 A R T I C L E I N F O
-
 
 _Keywords:_
 CO2 emissions
@@ -3391,13 +2750,9 @@ Geopolitical risk
 Uncertainty
 India
 
-
 **1.** **Introduction**
 
-
-
 A B S T R A C T
-
 
 This study assesses the role of geopolitical risk and uncertainty in the degradation of the environment by forming
 the functions for ecological footprint, CO2 emissions, and load capacity factor for the period 1990–2019 in India.
@@ -3410,8 +2765,6 @@ load capacity factor. Furthermore, the uncertainty improves the environmental qu
 emissions and ecological footprint, but the reduced load capacity factor due to uncertainty implies the degra­
 dation of environmental quality in India. Given these findings, the study proposes different environmental
 conservation policies.
-
-
 
 Studying the environmental degradation determinants can never be
 too numerous or prodigious. Thus, in the industrialized world that we
@@ -3431,17 +2784,13 @@ and economic factors.
 In this vein, many studies explore the role of different social and
 economic forces in the degrading of the quality of the environment. For
 
-
- - Corresponding author.
+  Corresponding author.
 _E-mail address:_ [muhammedashiqv55@gmail.com (M.A. Villanthenkodath).](mailto:muhammedashiqv55@gmail.com)
 
 [https://doi.org/10.1016/j.egycc.2023.100122](https://doi.org/10.1016/j.egycc.2023.100122)
 
-
 Available online 2 January 2024
 2666-2787/© 2023 Elsevier Ltd. All rights reserved.
-
-
 
 example, economic growth [7–10], consumption of renewable energy
 
@@ -3464,10 +2813,7 @@ policy debate, has emerged in national politics and the subsequent
 collapse of the government. In this line, a few studies noted the GPR
 impact on tourism [21], tourism, and economic growth [22]. However,
 
-
 _M.A. Villanthenkodath and S. Pal                                                                                                      Energy and Climate Change 5 (2024) 100122_
-
-
 
 [leading complex and renewable energy economies, Renew. Energy 171 (2021)](http://refhub.elsevier.com/S2666-2787(23)00029-6/sbref0080)
 [360–370.](http://refhub.elsevier.com/S2666-2787(23)00029-6/sbref0080)
@@ -3491,7 +2837,7 @@ FDI, and financial development on CO2 emission: evidence from the G8 countries,
 [s11356-021-15993-x.](https://doi.org/10.1007/s11356-021-15993-x)
 
 [19] Z. Wang, T.L.H. Pham, K. Sun, B. Wang, Q. Bui, A. Hashemizadeh, The moderating
-role of financial development in the renewable energy consumption - CO2
+role of financial development in the renewable energy consumption  CO2
 emissions linkage: the case study of next-11 countries, Energy 254 (2022) 124386,
 [https://doi.org/10.1016/j.energy.2022.124386.](https://doi.org/10.1016/j.energy.2022.124386)
 
@@ -3542,7 +2888,7 @@ K. Feng, K. Hubacek, Burden of the global energy price crisis on households, Nat
 [30] [A. Kumar, S. Nagar, S. Anand, Climate change and existential threats. Global](http://refhub.elsevier.com/S2666-2787(23)00029-6/sbref0045)
 [Climate Change, Elsevier, 2021, pp. 1–31.](http://refhub.elsevier.com/S2666-2787(23)00029-6/sbref0045)
 
-[31] Narayan, S., Len, C., & Kapur, R. (Eds.). (2019). Sustainable energy transition in
+[31] Narayan, S., Len, C.,  Kapur, R. (Eds.). (2019). Sustainable energy transition in
 South Asia: challenges and opportunities.
 
 [32] U.K. Pata, A. Samour, Do renewable and nuclear energy enhance environmental
@@ -3580,8 +2926,6 @@ print).
 
 [39] [Y. Huang, M.A. Villanthenkodath, M. Haseeb, The nexus between eco-friendly](http://refhub.elsevier.com/S2666-2787(23)00029-6/optSQnxpuLKSh)
 [technology and environmental degradation in India: Does the N or inverted N-](http://refhub.elsevier.com/S2666-2787(23)00029-6/optSQnxpuLKSh)
-
-
 
 [shape load capacity curve(LCC) hypothesis hold? Nat. Resour. Forum 47 (2) (2023)](http://refhub.elsevier.com/S2666-2787(23)00029-6/optSQnxpuLKSh)
 [276–297.](http://refhub.elsevier.com/S2666-2787(23)00029-6/optSQnxpuLKSh)
@@ -3689,28 +3033,21 @@ international studies.
 [66] [D.I. Stern, The rise and fall of the environmental Kuznets curve, World Dev. 32 (8)](http://refhub.elsevier.com/S2666-2787(23)00029-6/sbref0071)
 [(2004) 1419–1439.](http://refhub.elsevier.com/S2666-2787(23)00029-6/sbref0071)
 
-
-
 14
 
-
 https://mjl.clarivate.com/journal-profile 1/3
-
 
 #### **_applied_** **_sciences_**
 
 _Article_
 ##### **Re-Imagining Trade Policy and Energy Efficiency:** **Groundbreaking Pathways to Strengthen Environmental** **Sustainability in South Korea**
 
-
 **Dongxue Wang** **[1]** **and Yugang He** **[2,]** *****
-
 
 1 Department of International Trade, Woosuk University, Jeonju 55338, Republic of Korea
 2 Department of Chinese Trade and Commerce, Sejong University, Seoul 05006, Republic of Korea
 
 ***** Correspondence: 1293647581@jbnu.ac.kr
-
 
 **Abstract:** This study explores the long-term interplay between trade policy, energy efficiency, and
 carbon dioxide (CO2) emissions in South Korea, using data spanning from 1985 to 2023. By applying
@@ -3729,75 +3066,50 @@ recommending strategies that could enable South Korea to reduce its CO2 emission
 while maintaining economic competitiveness, offering valuable insights into the balance between
 sustainable development and industrial growth.
 
-
-
 **Citation:** Wang, D.; He, Y.
-
 
 Re-Imagining Trade Policy and
 
-
 Energy Efficiency: Groundbreaking
-
 
 Pathways to Strengthen
 
-
 Environmental Sustainability in South
-
 
 Korea. _Appl._ _Sci._ **2024**, _14_, 9443.
 
-
 [https://doi.org/10.3390/app14209443](https://doi.org/10.3390/app14209443)
-
 
 Academic Editor: Tymon Zieli´nski
 
-
 Received: 26 September 2024
-
 
 Revised: 11 October 2024
 
-
 Accepted: 15 October 2024
-
 
 Published: 16 October 2024
 
-
-**Copyright:** © 2024 by the authors.
-
+**Copyright:**  2024 by the authors.
 
 Licensee MDPI, Basel, Switzerland.
 
-
 This article is an open access article
-
 
 distributed under the terms and
 
-
 conditions of the Creative Commons
-
 
 Attribution (CC BY) license [(https://](https://creativecommons.org/licenses/by/4.0/)
 
-
 [creativecommons.org/licenses/by/](https://creativecommons.org/licenses/by/4.0/)
 
-
 4.0/).
-
-
 
 **Keywords:** trade policy; energy efficiency; carbon dioxide emissions; foreign direct investment;
 environmental sustainability
 
-
 **1.** **Introduction**
-
 
 Addressing climate change has become increasingly urgent, particularly in highly
 industrialized nations such as South Korea, where balancing rapid economic growth
@@ -3817,13 +3129,9 @@ efficiency standards into trade agreements presents a viable strategy to mitigat
 negative externalities. By adopting stringent environmental regulations and promoting
 energy-efficient technologies, South Korea can lower the carbon intensity of its exports,
 
-
-
 _Appl._ _Sci._ **2024**, _14_, 9443. [https://doi.org/10.3390/app14209443](https://doi.org/10.3390/app14209443) [https://www.mdpi.com/journal/applsci](https://www.mdpi.com/journal/applsci)
 
-
 _Appl._ _Sci._ **2024**, _14_, 9443 17 of 18
-
 
 53. Kim, T.-J.; Tromp, N. Analysis of Carbon Emissions Embodied in South Korea’s International Trade: Production-Based and
 Consumption-Based Perspectives. _J. Clean._ _Prod._ **2021**, _320_, 128839. [[CrossRef]](https://doi.org/10.1016/j.jclepro.2021.128839)
@@ -3872,7 +3180,7 @@ Carbon-Neutrality Pledges? A Developing Country Perspective Using Dynamic ARDL S
 73. Misila, P.; Winyuchakrit, P.; Limmeechokchai, B. Thailand’s Long-Term GHG Emission Reduction in 2050: The Achievement of
 Renewable Energy and Energy Efficiency beyond the NDC. _Heliyon_ **2020**, _6_, e05720. [[CrossRef] [PubMed]](https://doi.org/10.1016/j.heliyon.2020.e05720)
 74. Park, D.U.; Park, H.; Kim, Y.; Baek, S.; Lee, D.; Jang, Y.; Jung, T.; Rodriguez, F.S. _The Role of Science, Technology and Innovation_
-_Policies in the Industrialization of Developing Countries_ ; STEPI: Sejong-si, Republic of Korea, 2021.
+_Policies in the Industrialization of Developing Countries_  STEPI: Sejong-si, Republic of Korea, 2021.
 75. Tan, X.; Wang, R.; Choi, Y.; Lee, H. Does Korea’s Carbon Emissions Trading Scheme Enhance Efficiency for Sustainable Energy
 and Utilities? _Util._ _Policy_ **2024**, _88_, 101752. [[CrossRef]](https://doi.org/10.1016/j.jup.2024.101752)
 76. Brockway, P.E.; Sorrell, S.; Semieniuk, G.; Heun, M.K.; Court, V. Energy Efficiency and Economy-Wide Rebound Effects: A Review
@@ -3885,36 +3193,28 @@ the Green Growth Strategy? _Energy Econ._ **2019**, _81_, 308–326. [[CrossRef]
 79. Saqib, N.; Dincă, G. Exploring the Asymmetric Impact of Economic Complexity, FDI, and Green Technology on Carbon Emissions:
 Policy Stringency for Clean-Energy Investing Countries. _Geosci._ _Front._ **2024**, _15_, 101671. [[CrossRef]](https://doi.org/10.1016/j.gsf.2023.101671)
 
-
 https://mjl.clarivate.com/journal-profile 1/4
 
-
 [Cleaner and Responsible Consumption 13 (2024) 100196](https://doi.org/10.1016/j.clrc.2024.100196)
-
 
 Contents lists available at ScienceDirect
 
 Cleaner and Responsible Consumption
 
-
 [journal homepage: www.journals.elsevier.com/cleaner-and-responsible-consumption](https://www.journals.elsevier.com/cleaner-and-responsible-consumption)
-
 
 How does the government’s sustainable consumption policy enkindle
 sustainable consumption behaviors in the consumer public?
 
 Muhammad Zafar Yaqub [a][,] [*], Rana Muhammad Shahid Yaqub [b], Sadia Yaqub Khan [c],
-Muhammad Murad [d ]
+Muhammad Murad [d 
 
 a _Department of Business Administration, Faculty of Economics and Administration, King Abdulaziz University, Jeddah, Saudi Arabia_
 b _Department of Marketing and International Business, The Islamia University of Bahawalpur, Pakistan_
 c _Department of Business Administration, College of Business, Jackson State University, USA_
 d _School of Business Management, Universiti Utara Malaysia, Malaysia_
 
-
-
 A R T I C L E I N F O
-
 
 _Keywords:_
 Sustainable consumption behaviors
@@ -3924,13 +3224,9 @@ Environmental knowledge
 Consumer attitudes
 Government’s sustainable consumption policy
 
-
 **1.** **Introduction**
 
-
-
 A B S T R A C T
-
 
 Sustainable consumption is increasingly considered critical for the sustainable growth of developing countries.
 Consequently, these countries exert significant efforts to foster sustainable consumption behaviors among the
@@ -3951,8 +3247,6 @@ and public policymakers to transmogrify sustainable consumption behaviors by inf
 enhancing their environmental knowledge and social media enabled discourse enkindled by an efficacious
 sustainable consumption policy put in place by the government.
 
-
-
 Lim (2016, 2017) propounds that current patterns, levels, and
 practices of both production and consumption at consumer, firm, and
 societal levels are not sustainable and could have severe consequences
@@ -3962,8 +3256,6 @@ especially during tempestuous times (Welch and Warde, 2015; Yaqub,
 sumers due to the resultant inflation, unemployment, and shortage of
 necessities (Dar et al., 2022). During such times, the appurtenance and
 role of sustainable consumption behaviors (hereafter SCBs) and
-
-
 
 practices become especially critical for the economic survival, let alone
 (sustainable) growth of society (Su et al., 2022). With paltry readiness
@@ -3977,10 +3269,7 @@ not only during turbulent economic times but even under normality
 (Islam et al., 2021). For example, sustainability in food consumption is
 widely considered a potent precursor for the survival of human beings
 
-
-
-
- - Corresponding author.
+  Corresponding author.
 _E-mail_ _addresses:_ [mzyaqoub@kau.edu.sa](mailto:mzyaqoub@kau.edu.sa) (M.Z. Yaqub), [shahid.yaqub@iub.edu.pk](mailto:shahid.yaqub@iub.edu.pk) (R.M.S. Yaqub), [sadia.y.khan@jsums.edu](mailto:sadia.y.khan@jsums.edu) (S.Y. Khan),
 [muhammadmuradjoiya@gmail.com (M. Murad).](mailto:muhammadmuradjoiya@gmail.com)
 
@@ -3991,10 +3280,7 @@ Available online 29 May 2024
 2666-7843/© 2024 The Authors. Published by Elsevier Ltd. [This is an open access article under the CC BY-NC-ND license (http://creativecommons.org/licenses/by-](http://creativecommons.org/licenses/by-nc-nd/4.0/)
 [nc-nd/4.0/).](http://creativecommons.org/licenses/by-nc-nd/4.0/)
 
-
 _M.Z. Yaqub et al.                                                                                                                Cleaner and Responsible Consumption 13 (2024) 100196_
-
-
 
 developing vs developed countries) could provide valuable insights into
 the limitations and situational elements that influence these
@@ -4024,9 +3310,7 @@ moderators in the sustainable consumption behaviors-sustainable
 development link by appealing to diverse theories from multiple disci­
 plines such as economics, sociology, cultural anthropology, ecology, etc.
 
-
 _5.6._ _Concluding Remarks_
-
 
 While appealing to sustainable consumption and stakeholder the­
 ories, this study examined the efficacy of consumer attitudes, pro­
@@ -4046,53 +3330,40 @@ reduction, etc. All these efforts from the relevant stakeholders can yield
 significant results if they are enabled by strong government support by
 harboring an effective, sustainable consumption policy.
 
-
 **Declaration**
-
 
 All the authors declare no conflict of interest.
 
-
 **CRediT authorship contribution statement**
 
-
-**Muhammad Zafar Yaqub:** Writing  - review & editing, Writing  original draft, Project administration, Methodology, Investigation,
+**Muhammad Zafar Yaqub:** Writing   review  editing, Writing  original draft, Project administration, Methodology, Investigation,
 Funding acquisition, Formal analysis, Data curation, Conceptualization.
-**Rana Muhammad Shahid Yaqub:** Writing – review & editing, Writing
+**Rana Muhammad Shahid Yaqub:** Writing  review  editing, Writing
 
-- original draft, Methodology, Investigation, Conceptualization. **Sadia**
-**Yaqub Khan:** Writing - review & editing, Writing - original draft,
-Visualization, Conceptualization. **Muhammad Murad:** Writing – review
-& editing, Writing – original draft, Validation, Software, Methodology,
+ original draft, Methodology, Investigation, Conceptualization. **Sadia**
+**Yaqub Khan:** Writing  review  editing, Writing  original draft,
+Visualization, Conceptualization. **Muhammad Murad:** Writing  review
+ editing, Writing  original draft, Validation, Software, Methodology,
 Investigation, Formal analysis, Data curation, Conceptualization.
 
-
-
 **Declaration of competing interest**
-
 
 The authors declare that they have no known competing financial
 interests or personal relationships that could have appeared to influence
 the work reported in this paper.
 
-
 **Data availability**
-
 
 Data will be made available on request.
 
-
 **Funding Acknowledgement**
-
 
 This research work was funded by Institutional Fund Project under
 grant no. (IFPIP: 1348-120-1443). The authors gratefully acknowledge
 technical and financial support provided by the Ministry of Education
 and King Abdulaziz University, DSR, Jeddah, Saudi Arabia
 
-
 **References**
-
 
 [Ahn, J., Kwon, J., 2022. The role of trait and emotion in cruise customers’ impulsive](http://refhub.elsevier.com/S2666-7843(24)00029-9/sref1)
 [buying behavior: an empirical study. J. Strat. Market. 30 (3), 320–333.](http://refhub.elsevier.com/S2666-7843(24)00029-9/sref1)
@@ -4104,7 +3375,7 @@ green consumer behaviour: the mediating role of consumer attitudes towards
 [relationship between content marketing and green purchase intention. Management](http://refhub.elsevier.com/S2666-7843(24)00029-9/sref3)
 [Science Letters 10 (8), 1701–1708.](http://refhub.elsevier.com/S2666-7843(24)00029-9/sref3)
 [Ali, M., Malik, M., Yaqub, M.Z., Chiapetta Jabbour, C.J., de Sousa Jabbour, A.B.L.,](http://refhub.elsevier.com/S2666-7843(24)00029-9/sref4)
-[Hengky, L., 2023. Green means long live - green competencies for corporate](http://refhub.elsevier.com/S2666-7843(24)00029-9/sref4)
+[Hengky, L., 2023. Green means long live  green competencies for corporate](http://refhub.elsevier.com/S2666-7843(24)00029-9/sref4)
 [sustainability performance: a moderated mediation model of green organizational](http://refhub.elsevier.com/S2666-7843(24)00029-9/sref4)
 [culture and top management support. J. Clean. Prod. 427 (11), 139174.](http://refhub.elsevier.com/S2666-7843(24)00029-9/sref4)
 Al Naim, A.F., Sobaih, A.E.E., Elshaer, I.A., 2023. Enhancing green electronic word-ofmouth in the Saudi tourism industry: an integration of the ability, motivation, and
@@ -4113,7 +3384,7 @@ Al Naim, A.F., Sobaih, A.E.E., Elshaer, I.A., 2023. Enhancing green electronic w
 [growth: evidence from asymmetric causality. Renew. Sustain. Energy Rev. 60,](http://refhub.elsevier.com/S2666-7843(24)00029-9/sref7)
 [953–959.](http://refhub.elsevier.com/S2666-7843(24)00029-9/sref7)
 [Ameels, A., Bruggeman, W., Scheipers, G., 2003. Value-based management control](http://refhub.elsevier.com/S2666-7843(24)00029-9/sref8)
-[Processes to create value through integration - a literature review. Recent Trends in](http://refhub.elsevier.com/S2666-7843(24)00029-9/sref8)
+[Processes to create value through integration  a literature review. Recent Trends in](http://refhub.elsevier.com/S2666-7843(24)00029-9/sref8)
 [Valuation: from Strategy to Value, pp. 87–150.](http://refhub.elsevier.com/S2666-7843(24)00029-9/sref8)
 [Anderson, E.W., Fornell, C., Lehmann, D.R., 1994. Customer satisfaction, market share,](http://refhub.elsevier.com/S2666-7843(24)00029-9/sref9)
 [and profitability: findings from Sweden. J. Market. 58 (July), 53–66.](http://refhub.elsevier.com/S2666-7843(24)00029-9/sref9)
@@ -4134,7 +3405,7 @@ manufacturers towards adoption of halal food supply chain in Malaysia: Explorato
 Banbury, C., Stinerock, R., Subrahmanyan, S., 2012. Sustainable consumption:
 [Introspecting across multiple lived cultures. J. Bus. Res. 65 https://doi.org/10.1016/](https://doi.org/10.1016/j.jbusres.2011.02.028)
 [j.jbusres.2011.02.028.](https://doi.org/10.1016/j.jbusres.2011.02.028)
-Banyte, J., ˙ Sal [ˇ] ˇciuviene, L., Dovalien˙ [e, A., Piligrimien˙](http://refhub.elsevier.com/S2666-7843(24)00029-9/sref15) e, ˙ Z., Sroka, W., 2020. Sustainable [ˇ]
+Banyte, J.,  Sal [ˇ] ˇciuviene, L., Dovalien˙ [e, A., Piligrimien˙](http://refhub.elsevier.com/S2666-7843(24)00029-9/sref15) e,  Z., Sroka, W., 2020. Sustainable [ˇ]
 [consumption behavior at home and in the workplace: Avenues for innovative](http://refhub.elsevier.com/S2666-7843(24)00029-9/sref15)
 [solutions. Sustainability 12 (16), 6564.](http://refhub.elsevier.com/S2666-7843(24)00029-9/sref15)
 [Barakat, M.A., 2019. A proposed model for factors affecting consumers’ impulsive](http://refhub.elsevier.com/S2666-7843(24)00029-9/sref16)
@@ -4150,18 +3421,13 @@ Banyte, J., ˙ Sal [ˇ] ˇciuviene, L., Dovalien˙ [e, A., Piligrimien˙](http:/
 [consumption of Generation Y. IOP Conf. Ser. Mater. Sci. Eng. 459 (1), 012089 (IOP](http://refhub.elsevier.com/S2666-7843(24)00029-9/sref19)
 [Publishing).](http://refhub.elsevier.com/S2666-7843(24)00029-9/sref19)
 
-
-
 10
 
-
 https://mjl.clarivate.com/journal-profile 1/3
-
 
 Original Article
 
 ##### Toward sustainable environment in Italy: The role of trade globalization, human capital, and renewable energy consumption
-
 
 Min Zhang [1], Tomiwa Sunday Adebayo [2],
 Abraham Ayobamiji Awosusi [3],
@@ -4169,15 +3435,11 @@ Muhammad Ramzan [4,5], Caner Otrakçı [6]
 
 and Dervis Kirikkaleli [7]
 
-
-
-© The Author(s) 2022
+ The Author(s) 2022
 Article reuse guidelines:
 [sagepub.com/journals-permissions](https://us.sagepub.com/en-us/journals-permissions)
 DOI: 10.1177/0958305X221146941
 [journals.sagepub.com/home/eae](https://journals.sagepub.com/home/eae)
-
-
 
 Abstract
 The current study evaluates the effect of financial development (FD), economic growth (GDP),
@@ -4189,7 +3451,6 @@ to explore these associations, the present research utilizes autoregressive dist
 (ARDL) to catch both long and short-run associations between ecological footprint and its drivers. Furthermore, we use dynamic OLS (DOLS) and fully modified OLS (FMOLS) long-run estimators as robustness checks. Lastly, causality at different frequencies is captured using the
 frequency domain causality test. The outcomes of the ARDL estimator disclose that (a) a
 
-
 1School of Economics, Shandong University, Jinan, Shandong, China
 2Department of Economics, Faculty of Economics and Administrative Science, Cyprus International University, Nicosia,
 Turkey
@@ -4200,15 +3461,12 @@ Turkey
 7Department of Banking and Finance, Faculty of Economics and Administrative Sciences, European University of Lefke,
 Mersin, Turkey
 
-
 Corresponding author:
 Tomiwa Sunday Adebayo, Department of Economics, Faculty of Economics and Administrative Science, Cyprus
 International University, Nicosia, 99040, Turkey.
 Email: [tadebayo@ciu.edu.tr](mailto:tadebayo@ciu.edu.tr)
 
-
-2082 Energy & Environment 35(4)
-
+2082 Energy  Environment 35(4)
 
 25. Ahmed Z, Zafar MW, Ali S, et al. Linking urbanization, human capital, and the ecological footprint in G7
 countries: an empirical analysis. Sustainable Cities and Society 2020; 55: 102064.
@@ -4254,34 +3512,26 @@ Renewable Energy 2022; 190: 664–674.
 42. Akadiri SS, Alkawfi MM, Ug ural S, et al. Towards achieving environmental sustainability target in Italy.
 The role of energy, real income and globalization. Sci Total Environ 2019; 671: 1293–1301.
 
-
 https://mjl.clarivate.com/journal-profile 1/4
 
-
 [Resources Policy 88 (2024) 104393](https://doi.org/10.1016/j.resourpol.2023.104393)
-
 
 Contents lists available at ScienceDirect
 
 Resources Policy
 
-
 [journal homepage: www.elsevier.com/locate/resourpol](https://www.elsevier.com/locate/resourpol)
-
 
 How geopolitical risk and economic policy uncertainty impact coal, natural
 gas, and oil rent? Evidence from China
 
-Bingjun Zhou [a], Yan Huang [b], Ke Gao [a], Chunyang Luo [c][,][* ]
+Bingjun Zhou [a], Yan Huang [b], Ke Gao [a], Chunyang Luo [c][,][* 
 
-a _School of Economics and Management, Guangxi Science & Technology Normal University, Laibin 546199, Guangxi, China_
+a _School of Economics and Management, Guangxi Science  Technology Normal University, Laibin 546199, Guangxi, China_
 b _China Institute for Reform and Development, Haikou 570100, Hainan, China_
 c _Xiamen University, Xiamen 361005, Fujian, China_
 
-
-
 A R T I C L E I N F O
-
 
 _Keywords:_
 Economic policy uncertainty
@@ -4289,13 +3539,9 @@ Geopolitical risk
 Natural resources rent
 Fourier ARDL
 
-
 **1.** **Introduction**
 
-
-
 A B S T R A C T
-
 
 While numerous studies have delved into the determinants of natural resource rents, the influence of economic
 policy uncertainty and geopolitical risk on coal, natural gas, and oil rents remains underexplored. Addressing this
@@ -4308,8 +3554,6 @@ policy uncertainty, geopolitical risk, and economic growth was observed. Economi
 rents, it is imperative for policymakers to mitigate economic policy uncertainty, thereby invigorating the coal
 and natural gas sectors. Concurrently, the promotion of economic growth can augment coal rent, but the natural
 gas sector demands innovative strategies due to its divergent response.
-
-
 
 In the current era of globalization, commonly referred to the “third
 wave”, the world has embarked on a transformative phase of develop­
@@ -4329,8 +3573,6 @@ oil, coal, gold, forests, and minerals, play a key part in the economic
 prosperity of nations. However, the abundance of these resources alone
 is not enough to ensure sustained development. Efficient and proper
 utilization of these resources is vital, as their mismanagement can have
-
-
 
 adverse influences on the growth and prosperity of a region or economy.
 Conversely, when economies effectively manage such scarce resources,
@@ -4353,10 +3595,7 @@ tionally, it ensures environmental stability. However, the detrimental
 role of geopolitical risks concerning natural resources can adversely
 affect their global significance. Geopolitical uncertainties diminish
 
-
-
-
- - Corresponding author.
+  Corresponding author.
 _E-mail addresses:_ [202105001@gxstnu.edu.cn (B. Zhou), yhuangaa@outlook.com (Y. Huang), gaokefrank@163.com (K. Gao), ylj123452023@126.com (C. Luo).](mailto:202105001@gxstnu.edu.cn)
 
 [https://doi.org/10.1016/j.resourpol.2023.104393](https://doi.org/10.1016/j.resourpol.2023.104393)
@@ -4365,13 +3604,9 @@ Received 31 May 2023; Received in revised form 28 October 2023; Accepted 5 Novem
 Available online 24 November 2023
 0301-4207/© 2023 Elsevier Ltd. All rights reserved.
 
-
 _B. Zhou et al.                                                                                                                  Resources Policy 88 (2024) 104393_
 
-
-
 **Author statement**
-
 
 All authors contributed to the study conception and design.
 **Bingjun Zhou:** Conceptualization; first draft writeup; editing;
@@ -4380,23 +3615,17 @@ revision.
 **Ke Gao:** Data collection and analysis; editing.
 **Chunyang Luo:** Conceptualization; supervision; writeup.
 
-
 **Declaration of competing interest**
-
 
 The authors declare that they have no known competing financial
 interests or personal relationships that could have appeared to influence
 the work reported in this paper.
 
-
 **Data availability**
-
 
 Data will be made available on request.
 
-
 **References**
-
 
 [Addai, K., Kirikkaleli, D., 2023. Insights from Poland on the long-run effect of energy](http://refhub.elsevier.com/S0301-4207(23)01104-2/sref1)
 [productivity on environmental degradation: a Fourier ARDL-based approach.](http://refhub.elsevier.com/S0301-4207(23)01104-2/sref1)
@@ -4451,8 +3680,6 @@ deterioration and economic policy uncertainty: evidence from fragile countries.
 [Cui, W., Yang, Y., Dai, J., 2023. Evaluating the resource curse hypothesis and the](http://refhub.elsevier.com/S0301-4207(23)01104-2/sref20)
 [interplay of financial development, human development, and political stability in](http://refhub.elsevier.com/S0301-4207(23)01104-2/sref20)
 [seven emerging economies. Environ. Sci. Pollut. Control Ser. 1–12.](http://refhub.elsevier.com/S0301-4207(23)01104-2/sref20)
-
-
 
 [Dakhlaoui, I., Aloui, C., 2016. The interactive relationship between the US economic](http://refhub.elsevier.com/S0301-4207(23)01104-2/sref21)
 [policy uncertainty and BRIC stock markets. Int. Econ. 146, 141–157.](http://refhub.elsevier.com/S0301-4207(23)01104-2/sref21)
@@ -4540,18 +3767,13 @@ Gallant, A.R., Souza, G., 1991. On the asymptotic normality of Fourier flexible 
 [Liu, H., Anwar, A., Razzaq, A., Yang, L., 2022. The key role of renewable energy](http://refhub.elsevier.com/S0301-4207(23)01104-2/sref54)
 [consumption, technological innovation and institutional quality in formulating the](http://refhub.elsevier.com/S0301-4207(23)01104-2/sref54)
 
-
-
 8
 
-
 Brought to you by ÖMER HALİSDEMİR ÜNİVERSİTESİ
-
 
 Empowering discovery since 2004
 
 ### Source details
-
 
 Resources Policy
 
@@ -4563,142 +3785,80 @@ ISSN: 0301-4207
 
 Subject area: Social Sciences: Law Social Sciences: Sociology and Political Science
 
-
 Economics, Econometrics and Finance: Economics and Econometrics
-
 
 Environmental Science: Management, Monitoring, Policy and Law
 
 Source type: Journal
 
+View all documents  Set document alert   Save to source list] [Locate full-text(opens in a new window)](https://www.scopus.com/redirect/linking.uri?targetURL=http%3a%2f%2flinksource.ebsco.com%2flinking.aspx%3fsid%3dElsevier%3aScopus%26genre%3dj%26issn%3d03014207%26isbn%3d%26volume%3d%26issue%3d%26spage%3d%26epage%3d%26pages%3d%26artnum%3d%26id%3ddoi%3a%26date%3d%26title%3dResources%2bPolicy%26atitle%3d%26aufirst%3d%26auinit%3d%26auinit1%3d%26aulast%3d&locationID=8&categoryID=6&eid=&issn=03014207&linkType=TemplateLinking&year=&zone=outwardlinks&dig=7479e7932fb165c749d476aec9ddfef4)
 
-View all documents ▻ Set document alert  [ Save to source list] [Locate full-text(opens in a new window)](https://www.scopus.com/redirect/linking.uri?targetURL=http%3a%2f%2flinksource.ebsco.com%2flinking.aspx%3fsid%3dElsevier%3aScopus%26genre%3dj%26issn%3d03014207%26isbn%3d%26volume%3d%26issue%3d%26spage%3d%26epage%3d%26pages%3d%26artnum%3d%26id%3ddoi%3a%26date%3d%26title%3dResources%2bPolicy%26atitle%3d%26aufirst%3d%26auinit%3d%26auinit1%3d%26aulast%3d&locationID=8&categoryID=6&eid=&issn=03014207&linkType=TemplateLinking&year=&zone=outwardlinks&dig=7479e7932fb165c749d476aec9ddfef4)
-
-
-CiteScore CiteScore rank & trend Scopus content coverage
-
-
+CiteScore CiteScore rank  trend Scopus content coverage
 
 CiteScore 2023
 13.4
 
-
 SJR 2023
 2.063
-
 
 SNIP 2023
 2.083
 
 
 
-
 
-
-
-
-
-
 
 
 
 CiteScore
 
-
 [=]
 ### 13.4
 
+2023 
 
+34.181 Citations 2020  2023
 
-2023 
-
-
-34.181 Citations 2020 - 2023
-
-
-2.546 Documents 2020 - 2023
-
-
+2.546 Documents 2020  2023
 
 CiteScoreTracker 2024
-
-
-
 
 [=]
 ### 16.2
 
 
 
-
-
-
-
 [51.552 Citations to date](https://www.scopus.com/source/citedby.uri?sourceId=110031&docType=ar,re,cp,dp,ch&citedYear=2024,2023,2022,2021&years=2024,2023,2022,2021&pubstageExclusions=aip)
-
 
 [3.178 Documents to date](https://www.scopus.com/source/search/docType.uri?sourceId=110031&years=2024,2023,2022,2021&docType=ar,re,cp,dp,ch&pubstageExclusions=aip)
 
-
-
 Calculated on 05 May, 2024
-
 
 CiteScore rank 2023
 
-
-
-Last updated on 05 December, 2024 • Updated monthly
-
-
-
-
+Last updated on 05 December, 2024  Updated monthly
 
 
 
 Category Rank Percentile
 
-
-
-
-
-
-
-View CiteScore methodology - [CiteScore FAQ](https://www.scopus.com/standard/help.uri?topic=14880) - Add CiteScore to your site 🔗
-
+View CiteScore methodology  [CiteScore FAQ](https://www.scopus.com/standard/help.uri?topic=14880)  Add CiteScore to your site 
 
 **İKTİSADİ VE İDARİ BİLİMLER FAKÜLTESİ**
-
 
 **SİYASET BİLİMİ VE ULUSLARARASI**
 
 **İLİŞKİLER BÖLÜMÜ**
 
-
 **2024 YILI EYLEM PLANI İZLEME RAPORU**
-
 
 **2025**
 
-
 **2024 YILI EYLEM PLANI İZLEME RAPORU**
-
 
 İktisadi ve İdari Bilimler Fakültesi Siyaset Bilimi ve Uluslararası İlişkiler Bölümü 2024 Yılı Eylem
 
-
 Planı’nda toplam 4 eylem planlanmış olup 4 adet eylem gerçekleştirilmiştir.
-
-
-
-
-
-
-
-
-
-
-
 
 |Col1|Col2|Ocak|Şubat|Mart|Nisan|Mayıs|Haziran|Temmuz|Ağustos|Eylül|Ekim|Kasım|Aralık|
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -4707,65 +3867,39 @@ Planı’nda toplam 4 eylem planlanmış olup 4 adet eylem gerçekleştirilmişt
 |3|Öğrencilerin bilimsel araştırma,<br>inceleme ve bilimsel toplantılara<br>katılması için destek sağlanması||**√**|**√**|**√**|**√**||||||**√**||
 |4|Birim internet sayfalarının güncel<br>tutulması|**√**|**√**|**√**|**√**|**√**|**√**|**√**|**√**|**√**|**√**|**√**|**√**|
 
-
 Evrak Tarih ve Sayısı: **03/05/2024-50** 43393063
 
-
 **KALBİS KANIT FORMU**
-
-
-
-
-
 
 |Faaliyetin Yapıldığı<br>Birim|İktisadi ve İdari Bilimler Fakültesi|
 |---|---|
 |**Bölüm/Alt Birim**|Siyaset Bilimi ve Uluslararası İlişkiler Bölümü|
 |**Gerçekleştirilen**<br>**Faaliyet Adı**|Öğrenci Kulüp Faaliyetlerinin Desteklenmesi|
-|**Faaliyet Dönemi**|2024 Mayıs – Ekim – Kasım- Aralık|
+|**Faaliyet Dönemi**|2024 Mayıs  Ekim  Kasım- Aralık|
 |||
 |**Gerçekleştirme**<br>**Açıklaması**|<br>Uluslararası İlişkiler Kulübü ile bölüm öğretim üyelerinin destekleri sonucunda<br>toplantılar ve etkinlikler gerçekleştirilmiştir.<br>1. Bölüm öğretim üyeleri ve Uluslararası İlişkiler Kulübü öğrencileri ile<br>“Sokak Hayvanları Yasası Tartışma Simülasyonu” gerçekleştirilmiştir.<br>22.05.2024<br>2. Niğde Gençlik ve Spor İl Müdürlüğü bünyesinde gerçekleştirilen Münazara<br>Ligi’nde Uluslararası İlişkiler Kulübü ödül almıştır. 19.10.2024.<br>3. Dr. Şeyda Güdek-Gölçek ve Dr. Günseli Durmaz aracılığıyla Uluslararası<br>İlişkiler Kulübü bünyesinde “Kadın Hakları ve Toplumsal Dönüşüm” adlı<br>konferans gerçekleşmiştir. 24.10.2024.<br>4. Dr. Melih Nadi Tutan aracılığıyla Uluslararası İlişkiler Kulübü bünyesinde<br>“Akademik Dil” adlı konferans gerçekleşmiştir. 10.11.2024.<br>5. Doç. Dr. Yasin Atlıoğlu aracılığıyla Uluslararası İlişkiler bünyesinde<br>“Lübnan: Çatışma ve Krizlerin Gölgesinde” adlı konferans gerçekleşmiştir.<br>17.12.2024<br>6. Doç. Dr. Çiğdem Şahin aracılığıyla Uluslararası İlişkiler Kulübü<br>bünyesinde “Türkiye’nin Enerji Politikası ve Tabii Kaynaklar Bakanlığı<br>Uzmanlık Kariyeri” adlı etkinlik gerçekleştirilmiştir. 25.12.2024|
 
-
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
-
 
 **Bu belge, güvenli elektronik imza ile imzalanmıştır.**
 
-
 Evrak Tarih ve Sayısı: **03/05/2024-50** 43393063
-
-
 
 **KALBİS KANIT FORMU**
 
-
-
-
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
-
 
 **Bu belge, güvenli elektronik imza ile imzalanmıştır.**
 
-
 Evrak Tarih ve Sayısı: **03/05/2024-50** 43393063
 
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
-
-
 
 **KALBİS KANIT FORMU**
 
-
-
 **Bu belge, güvenli elektronik imza ile imzalanmıştır.**
 
-
 Evrak Tarih ve Sayısı: **03/05/2024-50** 43393063
-
 
 **KALBİS KANIT FORMU**
 
@@ -4773,21 +3907,11 @@ Evrak Tarih ve Sayısı: **03/05/2024-50** 43393063
 |---|---|
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Bölüm Başkanı|
 
-
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
-
 
 **Bu belge, güvenli elektronik imza ile imzalanmıştır.**
 
-
 Evrak Tarih ve Sayısı: **03/05/2024-50** 43393063
-
-
-
-
-
-
 
 |Faaliyetin Yapıldığı<br>Birim|İktisadi ve İdari Bilimler Fakültesi|
 |---|---|
@@ -4798,25 +3922,15 @@ Evrak Tarih ve Sayısı: **03/05/2024-50** 43393063
 |**Gerçekleştirme**<br>**Açıklaması**|Bölüm öğretim elemanları ile yıl boyu eğitim-öğretim kalitesinin arttırılması<br>amacıyla toplantılar gerçekleştirilmiştir.|
 |**Kanıt Görseli**|<br>Bu belge, güvenli elektronik imza ile imzalanmıştır.<br>Belge Doğrulama Kodu: BSCNUEUJTJ<br>Bilgi için: Tülin KÜÇÜKKAHRAMAN<br>Unvanı: Bölüm Sekreteri<br>Adres:Merkez Yerleşke Bor Yolu 51240 Niğde<br>Telefon:3882252012 Faks:3882252014<br>e-Posta:iibf@ohu.edu.tr Web:www.ohu.edu.tr<br>Kep Adresi:nohu@hs01.kep.tr<br>Tel No: 0 388 225 4730<br>T.C.<br>NİĞDE ÖMER HALİSDEMİR ÜNİVERSİTESİ REKTÖRLÜĞÜ<br>İktisadi ve İdari Bilimler Fakültesi Dekanlığı<br>Siyaset Bilimi ve Uluslararası İlişkiler Bölüm Başkanlığı<br>Sayı  :E-47098917-300-592080<br>10/12/2024<br>Konu :Toplantı Yapılması<br>DAĞITIM YERLERİNE<br>12.12.2024 Perşembe günü saat 15:45'de Bölüm Akretitasyon Komisyonu Siyaset Bilimi ve<br>Uluslararası İlişkiler Bölümü toplantı salonunda toplanacaktır.<br>Gereğini rica ederim.<br>Prof. Dr. Mehmet Serkan TAFLIOĞLU<br>Bölüm Başkanı V.<br>Ek:Gündem (1 Sayfa)<br>Dağıtım:<br>Doç. Dr. Çiğdem ŞAHİN<br>Dr. Öğr. Üyesi Şeyda GÜDEK GÖLÇEK<br>Arş. Gör. Günseli DURMAZ<br>Arş. Gör. Aybüke İNAN ŞİMŞEK<br>Arş. Gör. Melih Nadi TUTAN<br>**Evrak Tarih ve Sayısı: 10/12/2024-592080**|
 
-
 **Bu belge, güvenli elektronik imza ile imzalanmıştır.**
-
 
 |Col1|Evrak Tarih ve Sayısı: 10/12/2024-592120<br>T.C.<br>NİĞDE ÖMER HALİSDEMİR ÜNİVERSİTESİ REKTÖRLÜĞÜ<br>İktisadi ve İdari Bilimler Fakültesi Dekanlığı<br>Siyaset Bilimi ve Uluslararası İlişkiler Bölüm Başkanlığı<br>Sayı :E-47098917-300-592120 10/12/2024<br>Konu :Bölüm Akreditasyon Komisyonu<br>Toplantısı Yapılması<br>DAĞITIM YERLERİNE<br>12.12.2024 Perşembe günü saat 15:45'te Bölüm Akreditasyon Komisyonu Siyaset Bilimi ve<br>Uluslararası İlişkiler Bölümü toplantı salonunda toplanacaktır.<br>Gereğini rica ederim.<br>Prof. Dr. Mehmet Serkan TAFLIOĞLU<br>Bölüm Başkanı V.<br>Ek:Gündem (1 Sayfa)<br>Dağıtım:<br>Doç. Dr. Çiğdem ŞAHİN<br>Dr. Öğr. Üyesi Şeyda GÜDEK GÖLÇEK<br>Arş. Gör. Günseli DURMAZ<br>Arş. Gör. Aybüke İNAN ŞİMŞEK<br>Arş. Gör. Melih Nadi TUTAN<br>Bu belge, güvenli elektronik imza ile imzalanmıştır.<br>Belge Doğrulama Kodu: BS4NU7HLNJ<br>Adres:Merkez Yerleşke Bor Yolu 51240 Niğde Bilgi için: Tülin KÜÇÜKKAHRAMAN<br>Telefon:3882252012 Faks:3882252014 Unvanı: Bölüm Sekreteri<br>e-Posta:iibf@ohu.edu.tr Web:www.ohu.edu.tr Tel No: 0 388 225 4730<br>Kep Adresi:nohu@hs01.kep.tr|
 |---|---|
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Bölüm Başkanı|
 
-
 **Bu belge, güvenli elektronik imza ile imzalanmıştır.**
 
-
 Evrak Tarih ve Sayısı: **03/05/2024-50** 43393063
-
-
-
-
-
-
 
 |Faaliyetin Yapıldığı<br>Birim|İktisadi ve İdari Bilimler Fakültesi|
 |---|---|
@@ -4828,9 +3942,7 @@ Evrak Tarih ve Sayısı: **03/05/2024-50** 43393063
 |**Kanıt Görseli**||
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Bölüm Başkanı|
 
-
 **Bu belge, güvenli elektronik imza ile imzalanmıştır.**
-
 
 |Faaliyetin Yapıldığı<br>Birim|İktisadi ve İdari Bilimler Fakültesi|
 |---|---|
@@ -4842,66 +3954,29 @@ Evrak Tarih ve Sayısı: **03/05/2024-50** 43393063
 |**Kanıt Görseli**||
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Bölüm Başkanı|
 
-
 **Bu belge, güvenli elektronik imza ile imzalanmıştır.**
-
 
 **İKTİSADİ VE İDARİ BİLİMLER FAKÜLTESİ**
 
-
 **KAMU YÖNETİMİ (KAM) BÖLÜMÜ**
 
-
 **2024 YILI EYLEM PLANI İZLEME RAPORU**
-
 
 **2025**
 
-
 **2024 YILI EYLEM PLANI İZLEME RAPORU**
-
 
 İktisadi ve İdari Bilimler Fakültesi Kamu Yönetimi Bölümü (KAM) 2024 Yılı Eylem Planı’nda
 
-
 toplam 63 eylem planlanmış olup bunlardan 57’si gerçekleştirilmiş, 6’sı ise
-
 
 gerçekleştirilememiştir. Lisans Programı özelinde planlanan 19 hedefin tamamı gerçekleştirilmiş,
 
-
 Yüksek Lisans Programı özelinde ise planlanan 46 hedefin 40 tanesi gerçekleştirilmiş, 6 tanesi ise
-
 
 gerçekleştirilememiştir. 1-13 arasındaki hedefler Kamu Yönetimi Lisans Programı için, 14-46
 
-
 arasındaki hedefler ise Kamu Yönetimi Tezli Yüksek Lisans Programı içindir.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 |Col1|Col2|Ocak|Şubat|Mart|Nisan|Mayıs|Haziran|Temmuz|Ağustos|Eylül|Ekim|Kasım|Aralık|
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -4916,7 +3991,6 @@ arasındaki hedefler ise Kamu Yönetimi Tezli Yüksek Lisans Programı içindir.
 |9|Eğitim-öğretim kalitesini arttırmak<br>amacıyla bölüm öğretim elemanları ile<br>toplantı düzenlenmesi||**√**||||||||**√**|||
 |10|Öğrencilerin bilimsel araştırma,<br>inceleme ve bilimsel toplantılara<br>katılması için destek sağlanması<br> <br>||||||||||**√**|||
 |11|Staj ve mesleki uygulamaların<br>değerlendirilmesine yönelik faaliyetler<br>yapılması<br>||||**√**|||||||||
-
 
 |12|Öğrenci kulüp faaliyetlerinin<br>desteklenmesi|Col3|√|Col5|Col6|Col7|Col8|Col9|Col10|Col11|√|Col13|Col14|
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -4938,7 +4012,6 @@ arasındaki hedefler ise Kamu Yönetimi Tezli Yüksek Lisans Programı içindir.
 |28|Mezunlara ilişkin faaliyetlerin<br>yapılması<br>|||||||**√**||||||
 |29|Öğrencilerin araştırma projelerine<br>katılımına yönelik etkinlik yapılması<br> <br>||||||||||**√**|||
 
-
 |30|Öğrencilere yönelik kariyer etkinliği<br>ve teknik gezilerin düzenlenmesi|Col3|Col4|Col5|√|Col7|Col8|Col9|Col10|Col11|Col12|Col13|Col14|
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 |31|Öğrenci motivasyonunu artırıcı<br>etkinlik düzenlenmesi|||**√**|||||||**√**|||
@@ -4958,52 +4031,31 @@ arasındaki hedefler ise Kamu Yönetimi Tezli Yüksek Lisans Programı içindir.
 |45|Eğiticilerin eğitimi faaliyetlerinin<br>planlanması ve yapılması<br>|||**√**||||||||||
 |46|Eğitim-öğretim kalitesini arttırmak<br>amacıyla bölüm öğretim elemanları ile<br>toplantı düzenlenmesi||**√**||||||||**√**|||
 
-
 ### **İKTİSADİ VE İDARİ BİLİMLER FAKÜLTESİ**
 
 **ULUSLARARASI TİCARET**
 
-
 **VE LOJİSTİK (UTL) BÖLÜMÜ**
 
-
 **2024 YILI EYLEM PLANI İZLEME RAPORU**
-
 
 **2025**
 
-
 **2024 YILI EYLEM PLANI İZLEME RAPORU**
-
 
 İktisadi ve İdari Bilimler Fakültesi Uluslararası Ticaret ve Lojistik Bölümünün 2024 Yılı Eylem
 
-
 Planı çerçevesinde 5 eylem planlanmış olup 3 eylem gerçekleştirilmiştir. Bunlar: “Yeni
-
 
 bölüm/program açılmasının teşvik edilmesi-Uluslararası Ticaret ve Lojistik Yönetimi Doktora
 
-
 Programı Açılmasına Yönelik Başvuru”, “Ulusal/Uluslararası öğrenci hareketliliğini artıracak
-
 
 faaliyetler yapılması- Erasmus Bilgilendirme Toplantısı”, “Çevresel duyarlılığın artırılmasına
 
-
 yönelik faaliyetlerin gerçekleştirilmesi-Sınırda Karbon Uygulaması Semineri” şeklindedir. İlgili
 
-
 faaliyetler aşağıda kanıtlarıyla birlikte eklenmiştir:
-
-
-
-
-
-
-
-
-
 
 |Col1|Col2|Ocak|Şubat|Mart|Nisan|Mayıs|Haziran|Temmuz|Ağustos|Eylül|Ekim|Kasım|Aralık|
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -5011,25 +4063,11 @@ faaliyetler aşağıda kanıtlarıyla birlikte eklenmiştir:
 |2|Ulusal/Uluslararası<br>öğrenci<br>hareketliliğini<br>artıracak faaliyetler<br>yapılması||||**√**|||||||||
 |3|Çevresel<br>duyarlılığın<br>artırılmasına<br>yönelik<br>faaliyetlerin<br>gerçekleştirilmesi|||||**√**||||||||
 
-
 **KALBİS KANIT FORMU**
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 |Faaliyetin Yapıldığı<br>Birim|İktisadi ve İdari Bilimler Fakültesi|
 |---|---|
-|**Bölüm / Alt Birim**|Uluslararası Ticaret ve Lojistik|
+|**Bölüm  Alt Birim**|Uluslararası Ticaret ve Lojistik|
 |**Gerçekleştirilen**<br>**Faaliyet Adı**|Yeni bölüm/program açılmasının teşvik edilmesi-Uluslararası Ticaret<br>ve Lojistik Yönetimi Doktora Programı Açılmasına Yönelik Başvuru|
 |**Faaliyet Dönemi**|2024 Haziran|
 |||
@@ -5037,25 +4075,11 @@ faaliyetler aşağıda kanıtlarıyla birlikte eklenmiştir:
 |**Kanıt Görseli**||
 |**Sisteme Yükleyen /**<br>**Sorumlu**|Bölüm Başkanı|
 
-
 **KALBİS KANIT FORMU**
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 |Faaliyetin Yapıldığı<br>Birim|İktisadi ve İdari Bilimler Fakültesi|
 |---|---|
-|**Bölüm / Alt Birim**|Uluslararası Ticaret ve Lojistik|
+|**Bölüm  Alt Birim**|Uluslararası Ticaret ve Lojistik|
 |**Gerçekleştirilen**<br>**Faaliyet Adı**|Ulusal/Uluslararası öğrenci hareketliliğini artıracak faaliyetler<br>yapılması-Erasmus Bilgilendirme Toplantısı|
 |**Faaliyet Dönemi**|2024 Mayıs|
 |||
@@ -5063,25 +4087,11 @@ faaliyetler aşağıda kanıtlarıyla birlikte eklenmiştir:
 |**Kanıt Görseli**||
 |**Sisteme Yükleyen /**<br>**Sorumlu**|Bölüm Başkanı|
 
-
 **KALBİS KANIT FORMU**
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 |Faaliyetin Yapıldığı<br>Birim|İktisadi ve İdari Bilimler Fakültesi|
 |---|---|
-|**Bölüm / Alt Birim**|Uluslararası Ticaret ve Lojistik|
+|**Bölüm  Alt Birim**|Uluslararası Ticaret ve Lojistik|
 |**Gerçekleştirilen**<br>**Faaliyet Adı**|Çevresel duyarlılığın artırılmasına yönelik faaliyetlerin<br>gerçekleştirilmesi-Sınırda Karbon Uygulaması Semineri|
 |**Faaliyet Dönemi**|2024 Mart|
 |||
@@ -5089,39 +4099,21 @@ faaliyetler aşağıda kanıtlarıyla birlikte eklenmiştir:
 |**Kanıt Görseli**||
 |**Sisteme Yükleyen /**<br>**Sorumlu**|Bölüm Başkanı|
 
-
 **İKTİSADİ VE İDARİ BİLİMLER FAKÜLTESİ**
-
 
 **FİNANS VE BANKACILIK BÖLÜMÜ**
 
-
 **2024 YILI EYLEM PLANI İZLEME RAPORU**
-
 
 **2025**
 
-
 Evrak Tarih ve Sayısı: **03/05/2024-50** 43393063
-
 
 **2024 YILI EYLEM PLANI İZLEME RAPORU**
 
-
 İktisadi ve İdari Bilimler Fakültesi Finans ve Bankacılık Bölümü 2024 Yılı Eylem Planı’nda toplam
 
-
 10 adet eylem planlanmış olup 5 adet eylem gerçekleştirilmiştir.
-
-
-
-
-
-
-
-
-
-
 
 |Col1|Col2|Ocak|Şubat|Mart|Nisan|Mayıs|Haziran|Temmuz|Ağustos|Eylül|Ekim|Kasım|Aralık|
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -5136,25 +4128,9 @@ Evrak Tarih ve Sayısı: **03/05/2024-50** 43393063
 |9|Öğrencilerin araştırma projelerine<br>katılımına<br>yönelik<br>etkinlik<br>yapılması||||||||||**√**|||
 |10|Staj ve mesleki uygulamaların<br>değerlendirilmesine yönelik<br>faaliyetler yapılması||||||||||**√**|||
 
-
 **Bu belge, güvenli elektronik imza ile imzalanmıştır.**
 
-
-
-
 **KALBİS KANIT FORMU**
-
-
-
-
-
-
-
-
-
-
-
-
 
 |Faaliyetin Yapıldığı<br>Birim|İktisadi ve İdari Bilimler Fakültesi|
 |---|---|
@@ -5166,23 +4142,9 @@ Evrak Tarih ve Sayısı: **03/05/2024-50** 43393063
 |**Kanıt Görseli**||
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Bölüm Başkanı|
 
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 
-
 **KALBİS KANIT FORMU**
-
-
-
-
-
-
-
-
-
-
-
-
 
 |Faaliyetin Yapıldığı<br>Birim|İktisadi ve İdari Bilimler Fakültesi|
 |---|---|
@@ -5194,23 +4156,9 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 |**Kanıt Görseli**||
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Bölüm Başkanı|
 
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 
-
 **KALBİS KANIT FORMU**
-
-
-
-
-
-
-
-
-
-
-
-
 
 |Faaliyetin Yapıldığı<br>Birim|İktisadi ve İdari Bilimler Fakültesi|
 |---|---|
@@ -5222,23 +4170,9 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 |**Kanıt Görseli**||
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Bölüm Başkanı|
 
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 
-
 **KALBİS KANIT FORMU**
-
-
-
-
-
-
-
-
-
-
-
-
 
 |Faaliyetin Yapıldığı<br>Birim|İktisadi ve İdari Bilimler Fakültesi|
 |---|---|
@@ -5250,17 +4184,9 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 |**Kanıt Görseli**||
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Bölüm Başkanı|
 
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 
-
 **KALBİS KANIT FORMU**
-
-
-
-
-
-
 
 |Faaliyetin Yapıldığı<br>Birim|İktisadi ve İdari Bilimler Fakültesi|
 |---|---|
@@ -5272,23 +4198,9 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 |**Kanıt Görseli**||
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Bölüm Başkanı|
 
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 
-
 **KALBİS KANIT FORMU**
-
-
-
-
-
-
-
-
-
-
-
-
 
 |Faaliyetin Yapıldığı<br>Birim|İktisadi ve İdari Bilimler Fakültesi|
 |---|---|
@@ -5300,23 +4212,9 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 |**Kanıt Görseli**||
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Bölüm Başkanı|
 
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 
-
 **KALBİS KANIT FORMU**
-
-
-
-
-
-
-
-
-
-
-
-
 
 |Faaliyetin Yapıldığı<br>Birim|İktisadi ve İdari Bilimler Fakültesi|
 |---|---|
@@ -5328,17 +4226,9 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 |**Kanıt Görseli**||
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Bölüm Başkanı|
 
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 
-
 **KALBİS KANIT FORMU**
-
-
-
-
-
-
 
 |Faaliyetin Yapıldığı<br>Birim|İktisadi ve İdari Bilimler Fakültesi|
 |---|---|
@@ -5350,23 +4240,9 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 |**Kanıt Görseli**||
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Bölüm Başkanı|
 
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 
-
 **KALBİS KANIT FORMU**
-
-
-
-
-
-
-
-
-
-
-
-
 
 |Faaliyetin Yapıldığı<br>Birim|İktisadi ve İdari Bilimler Fakültesi|
 |---|---|
@@ -5378,23 +4254,9 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 |**Kanıt Görseli**|<br>|
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Bölüm Başkanı|
 
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 
-
 **KALBİS KANIT FORMU**
-
-
-
-
-
-
-
-
-
-
-
-
 
 |Faaliyetin Yapıldığı<br>Birim|İktisadi ve İdari Bilimler Fakültesi|
 |---|---|
@@ -5406,51 +4268,26 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 |**Kanıt Görseli**||
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Bölüm Başkanı|
 
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
-
 
 **İKTİSADİ VE İDARİ BİLİMLER FAKÜLTESİ**
 
-
 **YÖNETİM BİLİŞİM SİSTEMLERİ BÖLÜMÜ**
 
-
 **2024 YILI EYLEM PLANI İZLEME RAPORU**
-
 
 **2025**
 
-
 **2024 YILI EYLEM PLANI İZLEME RAPORU**
-
 
 İktisadi ve İdari Bilimler Fakültesi Yönetim Bilişim Sistemleri Bölümü 2024 Yılı Eylem Planı’nda toplam 1 eylem
 planlanmış olup gerçekleştirilmiştir.
-
-
-
-
-
 
 |Col1|Col2|Ocak|Şubat|Mart|Nisan|Mayıs|Haziran|Temmuz|Ağustos|Eylül|Ekim|Kasım|Aralık|
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 |1|Bölümümüzde yapılmış olan SCI,<br>SCIExp, SSCI veya AHCI kapsamında<br>yayınlar için ortalama 30 (otuz) atıf<br>hedeflenmektedir.||||||||||||** √**|
 
-
 **KALBİS KANIT FORMU**
-
-
-
-
-
-
-
-
-
-
-
-
 
 |Faaliyetin Yapıldığı<br>Birim|İİBF|
 |---|---|
@@ -5462,7 +4299,4 @@ planlanmış olup gerçekleştirilmiştir.
 |<br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>**Kanıt Görseli**|https://www.tandfonline.com/doi/abs/10.1080/09737766.2021.2007037 <br>https://www.ingentaconnect.com/contentone/tsp/jrm/2021/00000009/00000008/art00009 <br>https://hrcak.srce.hr/206368 <br>https://www.ajol.info/index.php/ajb/article/view/60366 <br>https://acikerisim.bartin.edu.tr/handle/11772/2454 <br>https://www.mdpi.com/1422-0067/9/4/626 <br>https://www.mdpi.com/1420-3049/13/5/1135|
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Prof. Dr. Alper AYTEKİN|
 
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
-
-

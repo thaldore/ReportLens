@@ -1,4 +1,4 @@
-## **ÖZ DEĞERLENDİRME RAPORU** **[MİMARLIK FAKÜLTESİ]** **[NİĞDE ÖMER HALİSDEMİR ÜNİVERSİTESİ]** [ Niğde Ömer Halisdemir Üniversitesi, Mimarlık Fakültesi Merkez Kampüs, 51240 Niğde ] **[2022]** **A. GENEL BİLGİLER**
+## **ÖZ DEĞERLENDİRME RAPORU** **[MİMARLIK FAKÜLTESİ]** **[NİĞDE ÖMER HALİSDEMİR ÜNİVERSİTESİ]**  Niğde Ömer Halisdemir Üniversitesi, Mimarlık Fakültesi Merkez Kampüs, 51240 Niğde  **[2022]** **A. GENEL BİLGİLER**
 
 **A.1. İletişim Bilgileri**
 
@@ -7,8 +7,6 @@ Yerleşkesi’nde bulunmakta olup resmi internet sayfasından
 [(https://www.ohu.edu.tr/mimarlikfakultesi) detaylı iletişim bilgilerine ulaşılabilir.](https://www.ohu.edu.tr/mimarlikfakultesi)
 
 **A.2. Birimdeki Lisans Programları Hakkında Bilgi, Kısa Tarihçe ve Değişikler**
-
-
 
 Mimarlık Fakültesi 01.06.2010 tarihinde 27627 sayılı Resmi Gazetede yayımlanan kararla
 birlikte Mühendislik Fakültesi’nden ayrılarak, müstakil bir fakülte olarak faaliyetlerine devam
@@ -20,57 +18,37 @@ bölümler ve anabilim dalları aşağıda sunulmuştur.
 
 **1-** **Mimarlık Bölümü**
 
+     Yapı Bilgisi Anabilim Dalı
 
+     Bina Bilgisi Anabilim Dalı
 
+     Restorasyon Anabilim Dalı
 
-    - Yapı Bilgisi Anabilim Dalı
-
-    - Bina Bilgisi Anabilim Dalı
-
-    - Restorasyon Anabilim Dalı
-
-    - Mimarlık Tarihi Anabilim Dalı
+     Mimarlık Tarihi Anabilim Dalı
 
 **2- İç Mimarlık Bölümü**
 
-
-
-
-- İç Mimarlık Anasanat Dalı
-
-
-
+ İç Mimarlık Anasanat Dalı
 
 `o` İç Mekân Tasarımı Sanat Dalı
 
 `o` Mobilya Tasarımı Sanat Dalı
 
-
 **3- Peyzaj Mimarlığı Bölümü**
 
+     Peyzaj Planlama ve Tasarımı Anabilim Dalı
 
+     Peyzaj Teknikleri Anabilim Dalı
 
-
-    - Peyzaj Planlama ve Tasarımı Anabilim Dalı
-
-    - Peyzaj Teknikleri Anabilim Dalı
-
-    - Bitki Materyali ve Yetiştirme Tekniği Anabilim Dalı
+     Bitki Materyali ve Yetiştirme Tekniği Anabilim Dalı
 
 **4- Şehir ve Bölge Planlama Bölümü**
 
+ Şehircilik Anabilim Dalı
 
-
-
-- Şehircilik Anabilim Dalı
-
-- Bölge Planlama Anabilim Dalı
-
-
+ Bölge Planlama Anabilim Dalı
 
 **Tablo 1. Birimdeki Lisans Programları**
-
-
 
 |Lisans Programının Adı|Türü (Normal /II.<br>Öğretim; Eğitim Dili vs.)|Lisans Programının Süresi|Kayıtlı Öğrenci Sayısı|
 |---|---|---|---|
@@ -88,9 +66,7 @@ teknolojinin sunduğu olanakların çeşitli platformlarda yararlanılması, mes
 durulması, akademik kadronun güçlendirilmesi ve laboratuvar imkânlarının artırılması şeklinde
 çalışmalar yapılmaktadır.
 
-
 **B.1. Misyon, Stratejik Amaç ve Hedefler, Performans Yönetimi**
-
 
 Niğde Ömer Halisdemir Üniversitesi Mimarlık Fakültesi’ndeki eğitim ve öğretimin amacı,
 çağdaş bilgi ile donanımlı, toplumun ve ülkenin gerçeklerinden haberdar, araştırmacı bireyler
@@ -100,39 +76,37 @@ sunabilme becerisini gösteren kişiler olması beklenmektedir.
 
 **Kullanılan Eğitim-Öğretim Yöntemlerinden Örnekler**
 
+   Ders  Sınıf İçi Etkinlikler
 
-  - Ders & Sınıf İçi Etkinlikler
+   Arazi Çalışması
 
-  - Arazi Çalışması
+   Grup Çalışması
 
-  - Grup Çalışması
+   Okuma
 
-  - Okuma
+   Ödev
 
-  - Ödev
+   Proje Hazırlama
 
-  - Proje Hazırlama
+   Seminer
 
-  - Seminer
+   Staj
 
-  - Staj
+   Teknik Gezi
 
-  - Teknik Gezi
+   Web Tabanlı Öğrenme
 
-  - Web Tabanlı Öğrenme
+   Uygulama
 
-  - Uygulama
+   Yerinde Uygulama
 
-  - Yerinde Uygulama
+   Mesleki Faaliyet
 
-  - Mesleki Faaliyet
+   Sosyal Faaliyet
 
-  - Sosyal Faaliyet
+   Alan Çalışması
 
-  - Alan Çalışması
-
-  - Rapor Yazma
-
+   Rapor Yazma
 
 **STRATEJİK AMAÇ** **(1) Fakültenin eğitim öğretim kalitesini geliştirmek.**
 **Stratejik Hedef** **(1.1)** Eğitim-Öğretim Planlarını çağın gereklerine uygun olarak
@@ -152,9 +126,9 @@ uluslararası tanınırlığını artırmak.
 **Stratejik Hedef** **(3.1)** Fakültemiz bölümlerinin lisansüstü eğitime başlamasını
 sağlamak.
 
-**STRATEJİK AMAÇ** **(4) Ulusal / Uluslararası öğrenci-öğretim elemanı değişim**
+**STRATEJİK AMAÇ** **(4) Ulusal  Uluslararası öğrenci-öğretim elemanı değişim**
 **programlarını geliştirerek sürdürmek.**
-**Stratejik Hedef** **(4.1)** Yurt içindeki / Yurt dışındaki üniversitelerle iş birliklerini
+**Stratejik Hedef** **(4.1)** Yurt içindeki  Yurt dışındaki üniversitelerle iş birliklerini
 artırmak ve yeni iş birlikleri yapmak.
 
 **STRATEJİK AMAÇ** **(5) Bilimsel yayın ve etkinlikleri artırmak.**
@@ -192,34 +166,30 @@ danışmanlık hizmetleri sunmak.
 **STRATEJİK AMAÇ** **(11) Niğde’nin sahip olduğu sosyo-kültürel varlıkları, eğitim-**
 **öğretim kaynakları olarak kullanmak.**
 
-
 **Stratejik Hedef** **(11.1)** Niğde’nin sosyo-kültürel varlıklarını eğitim öğretimde
 kullanarak kentin tanıtımına katkıda bulunmak ve kentsel sorunlarına
 çözüm üretmek.
 
-# **Fakültemizin Öncelikli Hedefleri**
+ **Fakültemizin Öncelikli Hedefleri**
 
 Fakültemizin öncelikli hedefleri, stratejik planımız ile uyumlu olarak aşağıda belirtilmiştir.
 
-
-➢ Akreditasyon başvurusu yapılması
-➢ Fakültemiz tanıtımının farklı platformlarda yapılarak zenginleştirilmesi
-➢ Eğitim-öğretim planının çağın gereklerine uygun olarak sürekli güncelleştirilmesi
-➢ Henüz lisans eğitimine başlamayan bölümlerin lisans eğitimine başlatılabilmesi
-➢ Öğretim üyesi başına düşen bilimsel yayın sayısının artırılması
-➢ Üretime yönelik proje sayılarının artırılması
-➢ Eğitim-öğretim ve idari amaçlı mevcut kapalı alanların etkin kullanımın sağlanması
-➢ Fakültemiz akademik ve idari kadrosunun güçlendirilmesi
-➢ Fakülte çalışanları arasında yardımlaşma, dayanışma ve akademik işbirliğinin
+ Akreditasyon başvurusu yapılması
+ Fakültemiz tanıtımının farklı platformlarda yapılarak zenginleştirilmesi
+ Eğitim-öğretim planının çağın gereklerine uygun olarak sürekli güncelleştirilmesi
+ Henüz lisans eğitimine başlamayan bölümlerin lisans eğitimine başlatılabilmesi
+ Öğretim üyesi başına düşen bilimsel yayın sayısının artırılması
+ Üretime yönelik proje sayılarının artırılması
+ Eğitim-öğretim ve idari amaçlı mevcut kapalı alanların etkin kullanımın sağlanması
+ Fakültemiz akademik ve idari kadrosunun güçlendirilmesi
+ Fakülte çalışanları arasında yardımlaşma, dayanışma ve akademik işbirliğinin
 güçlendirilmesi
-➢ Toplumun ihtiyaçlarına yönelik eğitim-öğretim ve araştırma faaliyetlerinin artırılması
-➢ Fakültemiz bölümlerinin toplum ve sanayi ile ilişki ve iş birliğinin artırılması
+ Toplumun ihtiyaçlarına yönelik eğitim-öğretim ve araştırma faaliyetlerinin artırılması
+ Fakültemiz bölümlerinin toplum ve sanayi ile ilişki ve iş birliğinin artırılması
 
 ## **C. EĞİTİM VE ÖĞRETİM**
 
-
 **Birimin eğitim-öğretim politikası**
-
 
 Mimarlık Fakültesi yapısı altında bulunan Mimarlık, Şehir ve Bölge Planlama, Peyzaj
 Mimarlığı ve İç Mimarlık gibi tasarım disiplinleri, insanca yaşanacak yapı ve çevresinin sağlıklı bir
@@ -231,74 +201,60 @@ görünür bir kültür mirası birikimine sahiptir. Bu miras, çağdaş tasarı
 bütünleşerek gelişmesi, geleceğe aktarılacak nitelikte bir kültür ve uygarlık birikimi yaratması,
 temel amaçlarımızdandır.
 
-
 Tasarım disiplinlerinin gelişimi, yerel kültür birikiminin ve küresel değerlerin bütünleşmesi
 ile sağlanabilir. Bu gelişim sürecinde, tasarımcıların daha iyi sorun çözücü ve daha iyi kuram
 geliştirici olabilmeleri için tüm bilgi ve donanıma sahip akademisyen veya meslek adamları
 olmalarının yanında araştırmacı, eleştirel ve yaratıcı düşünmenin yöntemlerine de sahip olmaları
 gerekmektedir.
 
-
 Bu amaçlar doğrultusunda, fakültemizde çağdaş tasarım anlayışına ve kuramsal altyapı
 zenginliğine sahip, teknolojideki ilerlemeleri kullanabilen ve toplumla ve hizmet götürdüğü kesimle
 iletişim içinde mimarların, şehir ve bölge plancılarının, peyzaj mimarı ve iç mimarların yetişmesi en
 büyük hedefimizdir.
 
-
 **C.2. Öğrenci İş Yüküne Dayalı Ders Tasarımı, Ölçme ve Değerlendirme**
 
-
-  - AKTS ders bilgi paketlerine verilen linkten erişilebilir.
+   AKTS ders bilgi paketlerine verilen linkten erişilebilir.
 [(https://www.ohu.edu.tr/mimarlikfakultesi/mimarlik/dersplani)https://www.ohu.edu.tr/mima](https://www.ohu.edu.tr/mimarlikfakultesi/mimarlik/dersplani)
 rlikfakultesi/peyzajmimarligi/dersplani
 
-
-  - Bölümlerin web sayfasında ilgili ders planlarına bakıldığında öğrenci iş yükü kredisinin
+   Bölümlerin web sayfasında ilgili ders planlarına bakıldığında öğrenci iş yükü kredisinin
 mesleki uygulamalar, değişim programları, staj ve projeler için tanımlandığını gösteren
 kanıtlara erişilebilir.
 
-  - Bölümlerin web sayfasında ilgili ders planlarına bakıldığında iş yükü temelli kredilerin
+   Bölümlerin web sayfasında ilgili ders planlarına bakıldığında iş yükü temelli kredilerin
 transferi ve tanınmasına ilişkin tanımlı süreçleri içeren belgeler görülebilir.
 
-  - Bölümlerin web sayfasında ilgili ders planlarına Bölüm web sayfamızdan ilgili ders
+   Bölümlerin web sayfasında ilgili ders planlarına Bölüm web sayfamızdan ilgili ders
 planlarına programlarda öğrenci İş yükünün belirlenmesinde öğrenci katılımının
 sağlandığına ilişkin belgeler ve mekanizmalar görülebilir.
 
-  - Bölümlerin web sayfasında ilgili ders planlarına bakıldığında istenilen dersle ilgili ölçme ve
+   Bölümlerin web sayfasında ilgili ders planlarına bakıldığında istenilen dersle ilgili ölçme ve
 değerlendirme sistemine ilişkin ilke ve kurallara erişilebilir (Uzaktan ve karma eğitim
 süreçleri dâhil).
 
-  - Çevrimiçi sınavlar genel olarak çoktan seçmeli olacak şekilde yapılmaktadır.
+   Çevrimiçi sınavlar genel olarak çoktan seçmeli olacak şekilde yapılmaktadır.
 
-  - Çevrimiçi sınavlarda sınav süreleri mümkün olduğunca kısa tutularak özellikle çevrimiçi
+   Çevrimiçi sınavlarda sınav süreleri mümkün olduğunca kısa tutularak özellikle çevrimiçi
 sınavlarda kopyanın önüne geçilmeye çalışılmaktadır. Uygulama ödevi şeklinde olan
 sınavlarda ise intihal programları kullanılarak kopyalama bilgiyi doğrudan yapıştırma
 şeklinde kullanmanın kontrolü sağlanmaya çalışılmaktadır.
 
-  - Ölçme ve değerlendirme sürecinde dersin ilgili hocası kendisine uygun ölçme ve
+   Ölçme ve değerlendirme sürecinde dersin ilgili hocası kendisine uygun ölçme ve
 değerlendirme biçimini kabul ederek sınavın gelen değerlendirilmesi neticesinde
 iyileştirmeleri ve revizeleri yapmaktadır.
 
 **C.3. Öğrenci Kabulü ve Gelişimi**
 
-  - Merkezi yerleştirmeyle gelen öğrenci grupları dışında kalan yatay geçiş, yabancı uyruklu
+   Merkezi yerleştirmeyle gelen öğrenci grupları dışında kalan yatay geçiş, yabancı uyruklu
 öğrenci sınavı (YÖS), çift anadal programı (ÇAP), yandal öğrenci kabullerinde uygulanan
 kriterler
 Niğde Ömer Halisdemir Üniversitesi’nin belirlediği yönergeler esas alınmaktadır
 [(https://www.ohu.edu.tr/oidb/sayfa/yonetmelikler).](https://www.ohu.edu.tr/oidb/sayfa/yonetmelikler)
 
-
 **Tablo 2. Lisans Öğrencilerinin YKS Derecelerine İlişkin Bilgi**
 
 **Mimarlık Bölümü**
-
-
-
-
-
-
-
-
 
 |Akademik<br>Yıl|Kontenjan|Kayıt Yaptıran Öğrenci<br>Sayısı|YKS Puanı|Col5|YKS Başarı Sırası|Col7|
 |---|---|---|---|---|---|---|
@@ -307,20 +263,7 @@ Niğde Ömer Halisdemir Üniversitesi’nin belirlediği yönergeler esas alınm
 |2020-2021|70|34|436.264|301.970|66541|249636|
 |2019-2020|70|52|355.186|275.871|105658|249278|
 
-
 **Peyzaj Mimarlığı Bölümü**
-
-
-
-
-
-
-
-
-
-
-
-
 
 |Akademik<br>Yıl|Kontenjan|Kayıt Yaptıran Öğrenci<br>Sayısı|YKS Puanı|Col5|YKS Başarı Sırası|Col7|
 |---|---|---|---|---|---|---|
@@ -329,112 +272,43 @@ Niğde Ömer Halisdemir Üniversitesi’nin belirlediği yönergeler esas alınm
 |2020-2021|60|62|-|227.715|-|554637|
 |2019-2020|-|-|-|-|-|-|
 
-
 **C.4. Öğrenci Merkezli Öğrenme, Öğretme ve Değerlendirme, Akademik Danışmanlık**
 
-
-
-
-
-
-- Bölümlerin web sayfasından ilgili ders planlarına bakıldığında ders bilgi paketlerinde
+ Bölümlerin web sayfasından ilgili ders planlarına bakıldığında ders bilgi paketlerinde
 öğrenci merkezli öğretim yöntemlerinin varlığına ilişkin kanıtlara erişilebilir.
 
-- Uzaktan eğitime özgü olarak sesli power point sunular, örnek ders paylaşım ve kaynak ders
+ Uzaktan eğitime özgü olarak sesli power point sunular, örnek ders paylaşım ve kaynak ders
 notu linkleri ile öğretim materyalleri öğrenci öğretme odaklı zenginleştirilip çeşitlendirilmiş
 ve uzaktan eğitimde dezavantaj oluşturulabilecek her durumun önüne geçilmeye
 çalışılmıştır.
 
-- Biriminizde aktif olarak derslerin canlı ve cansız bölümleri oluşturulmuş, öğrenci cansız
+ Biriminizde aktif olarak derslerin canlı ve cansız bölümleri oluşturulmuş, öğrenci cansız
 derste sesli sunumu dinleyerek dersin canlı kısmına hazırlıklı olarak gelmesi amaçlanmış ve
 bu canlı kısımda da öğrenci ile diyalog arttırılarak etkileşim arttırılması hedeflenmiştir.
 
-
-  - Örgün/uzaktan/karma derslerde kullanılan sınav örnekleri; çevrimiçi sınav ve uygulama
+   Örgün/uzaktan/karma derslerde kullanılan sınav örnekleri; çevrimiçi sınav ve uygulama
 ödevi şeklindedir.
 
-  - Bölüm web sayfamızdan ilgili ders planlarına bakıldığında
+   Bölüm web sayfamızdan ilgili ders planlarına bakıldığında
 [(https://www.ohu.edu.tr/mimarlikfakultesi/mimarlik/dersplani) ölçme ve değerlendirme](https://www.ohu.edu.tr/mimarlikfakultesi/mimarlik/dersplani)
 uygulamalarının ders kazanımları ve program yeterlilikleriyle ilişkilendirildiğini, öğrenci iş
 yükünü temel aldığını gösteren ders bilgi paketi örneklerine erişilebilir.
-
 
 **C.5. Öğretim Elemanları** (atama, yükseltme ve görevlendirme kriterleri, öğretim yetkinliği,
 
 teşvik ve ödüllendirme)
 
-  - Akademik kadronun uzmanlık alanı ile yürüttükleri ders arasında uyum sağlanacak şekilde
+   Akademik kadronun uzmanlık alanı ile yürüttükleri ders arasında uyum sağlanacak şekilde
 ders dağılımlarımız yapılmaktadır. Yeni seçmeli derslerin açılması hedeflenerek ders
 paketlerimiz uzmanlık alanlarına göre zenginleştirilecektir.
 
-  - Akademik kadroda bulunan hocaların eğitim-öğretim performansları ve dersin devamlılığı
+   Akademik kadroda bulunan hocaların eğitim-öğretim performansları ve dersin devamlılığı
 bölüm başkanlığınca izlenmektedir.
 
-  - Çevrimiçi ders yapan öğretim elemanları her hafta işlediği dersleri tarih ve sürelerini
+   Çevrimiçi ders yapan öğretim elemanları her hafta işlediği dersleri tarih ve sürelerini
 belirterek “Haftalık ders izlence formaları” nı doldurarak bölüm başkanlığına iletmektedir.
 
-
-
 **Tablo 3. Birimin Öğretim Kadrosu**
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 |Bölüm|Öğretim Elemanının<br>Unvanı ve Adı|Mezun<br>Olduğu<br>Son Kurum ve<br>Mezuniyet Yılı|Deneyim Süresi|Col5|Col6|Ders Yükü<br>(Haftalık Ders|Col8|
 |---|---|---|---|---|---|---|---|
@@ -455,19 +329,16 @@ belirterek “Haftalık ders izlence formaları” nı doldurarak bölüm başka
 |<br> <br>Şehir ve Bölge<br>Planlama<br>Bölümü|Dr. Öğr. Üyesi Burcu<br>İmren GÜZEL|Gazi<br>Üniversitesi/2021|-|18|3|2|4|
 |İç Mimarlık<br>Bölümü|-|-|-|-|-|-|-|
 
-
 **C.6. Öğrenme Kaynakları**
 
-
-  - OGRIS üzerinden öğrencilere sunulan hizmetlerle ilgili öğrenci geri bildirim amaçlı ders
+   OGRIS üzerinden öğrencilere sunulan hizmetlerle ilgili öğrenci geri bildirim amaçlı ders
 anketleri yapılmaktadır.
 
-  - Fakültede öğrencilerin dersleri için gerekli atölyeler, bilgisayar laboratuvarları, bilişim
+   Fakültede öğrencilerin dersleri için gerekli atölyeler, bilgisayar laboratuvarları, bilişim
 sınıfları yeterli düzeyde olup öğrencilerin bu alanlara erişimi ile ilgili herhangi bir fiziki
 engel bulunmamaktadır.
 
 ## **D. ARAŞTIRMA VE GELİŞTİRME**
-
 
 Fakültemizde Mimarlık Bölümü Yapı Malzemesi Laboratuvarı bulunmaktadır. Laboratuvar,
 Yapı Bilgisi Anabilim dalı dersleri ile akademik çalışmaların yürütülmesinde gerekli olan
@@ -477,5 +348,3 @@ mevcuttur. Ayrıca Mimarlık Bölümünde, Yapı Fiziği alanındaki derslerde k
 ısıl performans ve aydınlatma performanslarının belirlenmesine yönelik cihazlar bulunmaktadır.
 Fakültemiz ortaklığında ulusal ve uluslararası düzeyde kongreler düzenlenerek öğrencilerin ve
 akademisyenlerin ortak noktada buluşması sağlanmaktadır.
-
-

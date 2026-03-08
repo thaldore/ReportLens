@@ -1,7 +1,7 @@
 ## Sayfa 1
 
 an
->
+
 F/
 aa"
 AKRAN DEĞERLENDİRME RAPORU
@@ -24,7 +24,7 @@ pi
 7T
 performansinindefertendrines!
 x
-|
+
 D. TOPLUMSAL KATKI
 Kurum,
 toplmsel katı fslielerni
@@ -42,7 +42,7 @@ OLGUNLUK DÜZ
 Kaynakları
 57
 Dutt Toplumsal
-a sürelerini yönetimi | 1 | 2
+a sürelerini yönetimi  1  2
 ŞE
 Dil. Toplumsal
 Katha
@@ -51,24 +51,24 @@ ek lin
 OLGUNLUK DÜZ
 la
 2 l
-| .12. Kanala
+ .12. Kanala
 kl
-|
+
 —İ
 —1
 1.2. Toplumsal Katkı Performan
-Kurum, toplumsal kaka strats ve heder doğrultusunda yürcnüğü faliyetleri 
+Kurum, toplumsal kaka strats ve heder doğrultusunda yürcnüğü faliyetleri
 ölmeli ve srekli ies
 02. Toplumsal Katkı Performansıo
 |OLGUNLUKDÜZ
 D21Toplumal
 kala
 performansnn|
-pi | 2 | 2
-|
+pi  2  2
+
 lemme ve değerlendirmesi
 x
-|
+
 er
 
 ---
@@ -98,7 +98,7 @@ belirlendiği,
 araştırma faclyeerinin gerçekleştirdiği.
 hede
 nicelik olarak Elenerek değerlendirildi
-ve ulaşılan sonuçların konrol edilerek 
+ve ulaşılan sonuçların konrol edilerek
 iyileştirmelerin yapıldığı bir sre olarak ele almalıdır.
 Ci, Araştırma Süreçlerinin Yönetimi ve Araştırma Kaynakları
 Gi. Araştırma Süreçlerinin Yönetimi ve
@@ -106,15 +106,15 @@ OLGUNLUK DÜZ
 Araştırma Kaynakları
 5
 CLA. Araştırma süreçlerinin yönetimi
-|
+
 2
 x
 Gi,Araştırma Süreçlerinin Yönetimi ve
 DEGONLUKDÜR
 Araştırma Kaynakları
-,
-,
-]
+
+
+
 5
 1.2.İç vedaş kaynaklar
 ray)
@@ -123,16 +123,16 @@ OLGUNLUK DÜZ
 Araştırma
 Kaynakları
 GLA Doktora programları
-we doktora |
+we doktora 
 Oy
-|
+
 2
-”
+
 sonressikanlar
-|
+
 x
 C2 Araştırma Yetkinliği, İş birlikleri ve Destekler
-C2 Araştırma Vetkinlgi, fy Birliklerive |
+C2 Araştırma Vetkinlgi, fy Birliklerive 
 OLGUNLUK DÜZ
 Destekler
 —j
@@ -141,29 +141,29 @@ TT
 por
 ya
 C2Arastirma Yetkinliği,
-Birlikleri e |
+Birlikleri e 
 onguNLUK DOZ
 Destekler
--
+
 22
 Ulemal
 ye
 otustararan ork
 |p
 |p
-| P|
+ P|
 prorat eor arş
 birimler
 x
-|
+
 
 ---
 
 ## Sayfa 4
 
 WE Öğrenme Kaynakları ve Akademik
-|
-|
+
+
 OLGUNLUK DÜZ
 Destek Hizmetleri
 em 0
@@ -177,13 +177,13 @@ OLGUNLUK DÜZ
 BAL, Atama, yükseltmeve
 görevlendirme|
 TT T
-°
+
 “a
 7
 2
 Ariterleri
 Xx
-|
+
 B.4. Öğretim Kadrosu
 “OLGUNLUK DÜZ
 DRE
@@ -200,7 +200,7 @@ A. Eği
 faişeler
 Şönelk
 eşi
-TIT 
+TIT
 am
 J
 a
@@ -208,7 +208,7 @@ a
 2
 ve ödüllendirme
 x
-1yi > BMS
+1yi  BMS
 
 ---
 
@@ -216,12 +216,12 @@ x
 
 BE Programların Vürülülmesi Öğrendi
 Merkezli
-© Öğrenme,
-© Öğretme
+ Öğrenme,
+ Öğretme
 ve
 OLGUNLUK DÜZ
 Değerlendirme)
-.
+
 B24, Velerlliklerin seriikalanırılması ve
 |,
 ||
@@ -239,24 +239,24 @@ BA. Öğrenme Kaynakları ve Akademik
 OLGUNLUK DÜZ
 Destek Hizmetleri
 NN
-.
+
 —_
 3.1. Öğrenme ortam ve kaynakları
 LA
 BA. Öğrenme Kaynakları ve Akademik
 7
-»
-|
+
+
 OLGUNLUK DÜZ
 Destek Hizmetleri
-|
+
 Tt
 T
 B.3.2. Akademik destek hizmetleri
 ui
 2
 3
-|
+
 1.3. Öğrenme Kaynakları ve Akademik
 OLGUNLUK DÜZ
 Destek Hizmetleri
@@ -266,9 +266,9 @@ ITR
 Ni
 1
 3
-Öğrenme Kaynakları ve Akademie |
+Öğrenme Kaynakları ve Akademie 
 OLGUNLUK DÜZ
-| Destek Hizmetleri
+ Destek Hizmetleri
 
 ---
 
@@ -294,9 +294,9 @@ DÜZ
 Değerlendirilmesi ve Güncellenmesi
 BL Eğim
 ve öğretim
-süreçlerinin | 7 | 2 | 3 | 
+süreçlerinin  7  2  3 
 yönetimi
-|
+
 B2.
 Programların
 Yürütülmesi
@@ -317,20 +317,20 @@ ilan
 edilmiş
 kuraları
 TEZProgramların Yürütülmesi
-Öğren |
-Merkezli © Öğrenme, oÖğretme | ve
+Öğren 
+Merkezli  Öğrenme, oÖğretme  ve
 OLGUNLUK DÜZ
-| Değerlendirme)
+ Değerlendirme)
 0
-|
-]
+
+
 1.21. Öğretim yontem ve sekileri
 2
 )3
-BE Programların Yürülülmesi Öğren |
+BE Programların Yürülülmesi Öğren 
 Merkezli
 Öğrenme,
-© Öğretme
+ Öğretme
 ve
 OLGUNLUK DÜZ
 Değerlendirme)
@@ -338,7 +338,7 @@ T
 B.2.2. Ölçme ve değerlendirme
 2
 3
-|
+
 1
 
 ---
@@ -366,36 +366,36 @@ BLT. Program sam ve önay
 7
 PTF
 pay
-|
-|
-—
-|
+
+
+
+
 1
 BA
 Programların
 Tasarımı,
 OLGUNLUK DÜ
 Değerlendirilmesi ve Güncellenmesi
-İZ Programın der dağılımdengi | 1 [2 | T
-|
+İZ Programın der dağılımdengi  1 [2  T
+
 N
 (RA.
 Programfarm Tasarımı
-|
+
 OLGUN
 DÜ
 Değerlendirilmesi ve Güncellenmesi
 BLDerskacammlarmn
-program |1 | 2 | 3 |
+program |1  2  3 
 sakarya uyumu
 [BAProgramların
 Tasarımı |OLGUNEUK DÜ
 Değerlendirilmesi ve Güncellenmesi
 BLA.Öğrenci yüküne dayali der takarım
-|
+
 1]
 2
-|
+
 3[
 
 ---
@@ -411,20 +411,20 @@ xl
 Ad Payday Katılımı
 Kurum, iç ve di paydaşların srteik kararları ve seer katılımını sağ
 AA. Payday Katılımı
-OLGUNLUK 
+OLGUNLUK
 ai İçe paylaş kalım
 TT
-pr 
-|
+pr
+
 x
 ‘Ad, Paydaş Katılımı
-|
+
 OLGUNLUK DÜZ
 442 Öğrenci
 gri bildirimleri
-(ÇT | 2
+(ÇT  2
 TET
-|
+
 “Ad. Paydaş
 Katlamı
 OLGUNLUK DÜ
@@ -469,38 +469,38 @@ Miyom, vizyon ve politikalar
 ry
 ?2ysy
 x
-|
-A.Z. Misyon ve Stratejik Amaçlar =
+
+A.Z. Misyon ve Stratejik Amaçlar 
 [|
 OLGUNLUK DÜZ
 A.22. Siralejik amaç ve hedefler
 2]
-3 [
+3 
 x
-|
+
 TAZ Misyon veStrateik Amaşlar
 OLGUNLUK DÜZE
 A.2.3. Performans yönetimi
 Li
 273
-|
+
 x
-|
+
 A3. Yönetim Sistemleri
-al beer ve bigi kaynaklar ile srelrn yönetmek üzere bir siteme sap 
+al beer ve bigi kaynaklar ile srelrn yönetmek üzere bir siteme sap
 A3. Yönetim Sistemleri
-]
+
 OLGUNLUK DÜZ
 A.3.1, Bilgi yönetim sistemi
 i
 273
-[
+
 l
 x
 Tas Yesim sian
 TTOLĞİNLUK D
 4.32. İnsan kaynakları yönetimi
->
+
 1 i” T
 
 ---
@@ -543,7 +543,7 @@ OLGUNLUK DÜ
 ee
 [ALE Yönetişim modeli ve idariyapı
 TT
-|
+
 [ALLiderlikve
 Kale
 OLGUNLUK DÜZ
@@ -551,7 +551,7 @@ TALE Tülerlik
 TT?
 TE
 T
-*
+
 [AL Üüderlk
 ve Kale
 OLGUNLUKDÜZ
@@ -565,11 +565,11 @@ OLGUNLUK DÜZ
 (ALA.İç
 kalitegüvencesi mekanizmaları
 7,2 Tİ
-|
+
 |_|
 A.L. Liderlikve Kalite
 OLGUNLUK DÜ
-A.L. Kamuoyunu bilgilendirme ve hesap |
+A.L. Kamuoyunu bilgilendirme ve hesap 
 1
 2
 ay

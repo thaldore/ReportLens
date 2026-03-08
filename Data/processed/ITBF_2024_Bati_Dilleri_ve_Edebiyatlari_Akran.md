@@ -23,47 +23,47 @@ hayala geçirmek tere sratilerni nas belirlediğin,
 uyguladığını,
 izlediğin
 öylşirdiğie işin yöntemini bu kısımda anlaması beklenmektedir. Kurum. iç v
-Aalite güvencesi sistemine katılımını ve kat vermesini sağlamalıdır. Kurun, 
+Aalite güvencesi sistemine katılımını ve kat vermesini sağlamalıdır. Kurun,
 sratjsi ve hedefleri doğrulusında yürümüğü faaliyetleri periyodik olarak i
 bilestirmeliir
 A Liderlik ve Kalite
 Kurum, kurumsal dönüşümünü sağlayacak yönetişim modeline ship oma, lider y
 yalamalı iç kalite güvence mekanizmaların oluşturmalı ve kat güvence Katana
 |Auk Liderlik ve Kalite
--
+
 OLGUNLUK DÜ
 ALL. Yönetişim
 modeli ve idari yapı
 lal al
-|
-| |
+
+ 
 A1. Liderlik ve Kalite
 OLGUNLUKDÜZ
 amanda
-— |
--
+ 
+
 TAL Liderlik
 ral
 a
-—
-il |
+
+il 
 ‘Ail. Liderlik ve Kalite
 OLGUNLUK DÜZ
 ALL. Kurumsal dönüşüm kapasitesi
 =|
 <1)
 <2)
-«3 |
+«3 
 x
 [ALL Liderlikve Katte
 OLGUNLUK DÜZ
-4.14. İç halite güvencesi mekanizmalar | 1 | 2
-|
-3 |
+4.14. İç halite güvencesi mekanizmalar  1  2
+
+3 
 A.L. Liderlik ve Kalite
 OLGUNLUK DÜZ
 ALS. Kamuoyunu bilgilendirme ve
-1 | 2 | 3 |
+1  2  3 
 
 ---
 
@@ -78,7 +78,7 @@ OLGUNLUK DÜ
 A2. Misyon ve Stratejik Amaçlar.
 OLGUNLUK DÜ
 4.2.3. Performans yönetimi
-/
+
 2
 3
 A3. Yönetim Sistemleri,
@@ -104,19 +104,19 @@ OLGUNLUK DÜ
 ## Sayfa 4
 
 Evrak Tarih ve Sayısı: 03/01/2025-601858
-|
+
 oo
 “ssLe
 Ack İç ve diy paydaş katılımı
 rye
 ps
-| A4. PaydaşKate
+ A4. PaydaşKate
 ği
 OLGUNLUK DÜ
 aaÖğrenci geri bildirimleri
 L747],
 2
-| ‘AA. Paydaş Katılımı
+ ‘AA. Paydaş Katılımı
 OLGUNLUK DÜ
 AS. Uluslararasılaşma
 N
@@ -154,9 +154,9 @@ OLGUNLUK DÜ
 7
 [2
 3
-|
+
 nts
-x |
+x 
 B. EĞİTİM VE ÖĞRETİM
 Kurum, öğretim programlarını Türkiye Yükseköğretim Yeterlilikleri Çerçevesi il
 amaçlara ve öğrenme çıktılarına uygun olark tasarlmalı, öğrencilerin ve topl
@@ -179,8 +179,8 @@ Programların
 Tasarımı
 OLGUNLUK DÜ
 Değerlendirilmesi
-ve Güncellenmesi ©
-|
+ve Güncellenmesi 
+
 EL Ders kazanımlarının proğram
 Ta
 Ta T
@@ -192,11 +192,11 @@ Tasarım
 OLGUNLUK DÜ
 Değerlendirilmesi
 ve Güncellenmesi
-B.1.4. Öğrenci iş yüküne dayalı derstasarımı |
+B.1.4. Öğrenci iş yüküne dayalı derstasarımı 
 1
 2
 3
-|
+
 x
 Bal.
 Programların
@@ -205,7 +205,7 @@ OLGUNLUK DÜ
 Değerlendirilmesi
 ve Güncellenmesi
 B.1.5.
-— Programların
+ Programların
 izlenmesi
 ve)
 2
@@ -218,17 +218,17 @@ Tasarım
 OLGUNLUK DÜ
 Değerlendirilmesi
 ve Güncellenmesi
-B.1.6. Eğitim veöğretim © süreçlerinin
-| 7
-|
-2 | 3 |
+B.1.6. Eğitim veöğretim  süreçlerinin
+ 7
+
+2  3 
 Yönetimi
-|
+
 82.
-Programların ©
+Programların 
 Yürütülmesi (Öğrenci
-© Merkezli —
-Öğretme © ve Değerlendirme)
+ Merkezli 
+Öğretme  ve Değerlendirme)
 Kurun, hedeflediği nitelikli mezun yeterliklerine ulaşmak amacıyla öğr
 yetkinlik temelli öğretm, Gçme ve değerlendirme yöniemlerni uygulamalıdır
 kabuller, diploma, derece ve diğer yeterliliklerin tanınması ve seriikaland
@@ -237,12 +237,12 @@ tanımlanmış ve
 ilan edilmiş karla
 yalamalı
 B.2. Programların Yürütülmesi (Öğrenci
-|
+
 Merkezli Öğrenme, Öğretme
-|
+
 OLGUNLUK DÜ
 ve Değerlendirme)
-|
+
 
 ---
 
@@ -264,10 +264,10 @@ OLGUNLUK DÜ
 Öğrenme, Öğretme ve Değerlendirme)
 8.24 Yeterllikerin serikalandırlması ve
 diploma
-|
+
 7 |?
-|
-{
+
+
 B.3.
 Öğrenme Kaynakları ve Akademik Destek Hizmetleri
 Kurum, hedelediği nil mezun yeterliklerine ulaşmak ve eğtim. öğ
@@ -276,15 +276,15 @@ tüm öğrenciler işin yeleli ve erişilebilir olmasını güvence alına almal
 akademik gelişimi ve kariyer planlamasına yönelik desek hizmetleri sağlamalı
 B3. Öğrenme Kaynakları
 ve Akademik||
-|
+
 Destek Hizmetleri
-|
+
 OLGUNLUK DÜ
 B.3.1. Öğrenme ortam ve kaynakları
 1
 2/3
 x
-| B3. Öğrenme Kaynakları ve Akademik
+ B3. Öğrenme Kaynakları ve Akademik
 Destek Hizmetleri
 OLGUNLUK DÜ
 a
@@ -294,7 +294,7 @@ TE TE T
 Detek Hizmetleri
 OLGUNLUK DÜ
 B.3.3. Tesis ve altyapılar
-ala la 
+ala la
 ee
 x
 13. Öğrenme Kaynakları ve Akademik
@@ -317,7 +317,7 @@ sunmalıdır.
 7:4.Öğretim Kadrosu
 OLGUNLUK DÜ
 AK
-|
+
 Wi
 la
 l3
@@ -328,13 +328,13 @@ ziÖğretim Kadrosu
 OLGUNLUK DÜZ
 B.4.2, Öğretim yetkinlikleri
 ve gelişimi
-/
+
 2
 3
 pe Öğretim Kadrosu
 OLGUNLUKDÜZ
 ‘BA. Eğilim faaliyetlerine yönelik teşvik
-]
+
 e ödüllendirme
 ras
 C.ARAŞTIRMA VE GELİŞTİRME
@@ -356,7 +356,7 @@ ii A..
 x
 [Sharma Sirianni ve)
 yn po
-C12 İç ve daşkaynaklar | i fa l
+C12 İç ve daşkaynaklar  i fa l
 oe
 se
 
@@ -369,7 +369,7 @@ C2 Araştırma Yetkinliği, İş birlikleri ve Destekler.
 C2 Araştırma Yetkinliği, İş birlikleri ve
 OLGUNLUK DÜZ
 Semmes EA ENES
-:
+
 (C2 Araştırma Yetkinliği, İş birlikleri ve
 OLGUNLUK DÜZ
 C33. Araştırma Performansı
@@ -388,8 +388,8 @@ O Katkı
 OLGUNLUKDÜZ
 mere
 ENEK
-:
-önetimi o ve o Toplumsal © Katkı
+
+önetimi o ve o Toplumsal  Katkı
 OLGUNLUKDÜZ
 i
 
@@ -398,8 +398,8 @@ i
 ## Sayfa 9
 
 Evrak Tarih ve Sayısı: 03/01/2025-601858
-İD21.Toplamsal © katkı
-performansinn |
+İD21.Toplamsal  katkı
+performansinn 
 Bmm
 ee
 [a
@@ -408,5 +408,5 @@ msl PL
 an Bİ
 onsov
 (Komisyon Uyeleri)
-Berkant YETUT ( 4. Sınıf Lisans Öğren
+Berkant YETUT  4. Sınıf Lisans Öğren
 LOC

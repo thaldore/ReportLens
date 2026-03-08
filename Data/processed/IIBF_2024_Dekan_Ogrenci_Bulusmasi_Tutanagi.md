@@ -58,5 +58,5 @@ Karar No: 2024/6: Öğrencilerimizin ilgi alanları ve öğrenci kulüpleri hakk
 “Öğrenciler bölüm tercihlerini yaparken önceki mezunların tavsiye
 “Öğrencilerimiz akademik ortamın huzurlu olmasından ve akademik k
 f
-‘
+
 you

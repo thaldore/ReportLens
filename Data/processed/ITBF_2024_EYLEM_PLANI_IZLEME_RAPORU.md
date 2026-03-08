@@ -2,24 +2,10 @@
 
 #### **2025**
 
-
 #### **2024 YILI EYLEM PLANI İZLEME RAPORU**
 
 İnsan ve Toplum Bilimleri Fakültesi 2024 Yılı Eylem Planı’nda toplam 8 eylem planlamış olup 7
 tanesini gerçekleştirmiştir.
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 |BİRİM|PLANLANAN|GERÇEKLEŞTİRİLEN|
 |---|---|---|
@@ -34,26 +20,17 @@ tanesini gerçekleştirmiştir.
 |Tarih Bölümü|3|3|
 |**TOPLAM**|57|55|
 
-
-# **İNSAN VE TOPLUM BİLİMLERİ FAKÜLTESİ**
+ **İNSAN VE TOPLUM BİLİMLERİ FAKÜLTESİ**
 
 ## **2024 YILI EYLEM PLANI İZLEME RAPORU**
 
 #### **2025**
 
-
 #### **2024 YILI EYLEM PLANI İZLEME RAPORU**
 
 İnsan ve Toplum Bilimleri Fakültesi Mütercim ve Tercümanlık Bölümü 2024 Yılı Eylem Planı’nda
 
-
 toplam 3 eylem planlanmış olup 3 eylem gerçekleştirilmiştir.
-
-
-
-
-
-
 
 |BİRİM|PLANLANAN|GERÇEKLEŞTİRİLEN|
 |---|---|---|
@@ -62,27 +39,21 @@ toplam 3 eylem planlanmış olup 3 eylem gerçekleştirilmiştir.
 |Akademik Kurul toplantılarının<br>yapılması|Eylül 2024|Eylül 2024**√**|
 |**TOPLAM**|3|3|
 
-
 Bölüm Başkan V.
-
 
 Dr. Öğr. Üyesi Görkem Neşe ŞENEL
 
-
-# **İNSAN VE TOPLUM BİLİMLERİ FAKÜLTESİ** **SOSYOLOJİ**
+ **İNSAN VE TOPLUM BİLİMLERİ FAKÜLTESİ** **SOSYOLOJİ**
 
 ## **2024 YILI EYLEM PLANI İZLEME RAPORU**
 
 #### **2025**
 
-
 #### **2024 YILI EYLEM PLANI İZLEME RAPORU**
 
 Fakültesi 2024 Yılı Eylem Planı’nda toplam 3 eylem planlanmış olup 3 eylem
 
-
 gerçekleştirilmiştir.
-
 
 |BİRİM|PLANLANAN|GERÇEKLEŞTİRİLEN|
 |---|---|---|
@@ -91,40 +62,17 @@ gerçekleştirilmiştir.
 ||||
 |**TOPLAM**|||
 
-
 **2024 YILI EYLEM PLANI İZLEME RAPORU**
 
 İTBF, Sosyoloji Bölümü 2024 Yılı Eylem Planı’nda toplam 3 eylem planlanmış olup tamamı
 gerçekleştirilmiştir.
-
-
-
-
-
-
-
-
-
 
 |Col1|Col2|Ocak|Şubat|Mart|Nisan|Mayıs|Haziran|Temmuz|Ağustos|Eylül|Ekim|Kasım|Aralık|
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 |1|Bölüme yeni kayıt yapan öğrencilere<br>yönelik eğitsel uyum etkinliği<br>yapılması|||||**√**||||||||
 |2|Eğitim süreçlerinin iyileştirilmesine<br>yönelik faaliyet yapılması|||||**√**|||||**√**|||
 
-
 #### **KALBİS KANIT FORMU**
-
-
-
-
-
-
-
-
-
-
-
-
 
 |Faaliyetin Yapıldığı<br>Birim|FEN EDEBİYAT FAKÜLTESİ|
 |---|---|
@@ -136,23 +84,9 @@ gerçekleştirilmiştir.
 |**Kanıt Görseli**|<br> <br> <br> <br> <br> <br>|
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Bölüm Başkanı Prof. Dr. Bülent KARA|
 
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 
-
 #### **KALBİS KANIT FORMU**
-
-
-
-
-
-
-
-
-
-
-
-
 
 |Faaliyetin Yapıldığı<br>Birim|FEN EDEBİYAT FAKÜLTESİ|
 |---|---|
@@ -164,23 +98,9 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 |**Kanıt Görseli**|<br> <br>|
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Bölüm Başkanı Prof. Dr. Bülent KARA|
 
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 
-
 #### **KALBİS KANIT FORMU**
-
-
-
-
-
-
-
-
-
-
-
-
 
 |Faaliyetin Yapıldığı<br>Birim|FEN EDEBİYAT FAKÜLTESİ|
 |---|---|
@@ -192,26 +112,16 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 |**Kanıt Görseli**|<br> <br>|
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Bölüm Başkanı Prof. Dr. Bülent KARA|
 
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 
-
-# **İNSAN VE TOPLUM BİLİMLERİ FAKÜLTESİ**
+ **İNSAN VE TOPLUM BİLİMLERİ FAKÜLTESİ**
 
 ## **BATI DİLLERİ VE EDEBİYATLARI** **BÖLÜMÜ** **İNGİLİZ DİLİ VE EDEBİYATI ANA BİLİM DALI** **2024 YILI EYLEM PLANI İZLEME RAPORU** **2025**
-
 
 #### **2024 YILI EYLEM PLANI İZLEME RAPORU**
 
 İnsan ve Toplum Bilimleri Fakültesi 2024 Yılı Eylem Planı’nda toplam 11 eylem planlanmış olup
 11 eylem gerçekleştirilmiştir.
-
-
-
-
-
-
-
 
 |BİRİM|PLANLANAN|GERÇEKLEŞTİRİLEN|
 |---|---|---|
@@ -225,16 +135,7 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 ||Ulusal öğrenci<br>memnuniyet düzeyini<br>artırmaya yönelik<br>faaliyetler|Haziran/Aralık 2024|
 |**TOPLAM**|11|11|
 
-
 #### **KALBİS KANIT FORMU**
-
-
-
-
-
-
-
-
 
 |Faaliyetin Yapıldığı<br>Birim|Batı Dilleri ve Edebiyatları|
 |---|---|
@@ -245,9 +146,7 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 |Gerçekleştirme<br>Açıklaması|Bölümümüz akademik personeline yönelik anket yapılmıştır.|
 |**Kanıt Görseli**|<br> <br>|
 
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
-
 
 #### **KALBİS KANIT FORMU**
 
@@ -255,23 +154,9 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 |---|---|
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Bölüm Başkanı|
 
-
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 
-
 #### **KALBİS KANIT FORMU**
-
-
-
-
-
-
-
-
-
-
-
 
 |Faaliyetin Yapıldığı<br>Birim|Batı Dilleri ve Edebiyatları|
 |---|---|
@@ -282,10 +167,7 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 |**Gerçekleştirme**<br>**Açıklaması**|Bölüm öğrencilerimizin memnuniyet düzeyini ölçmeye yönelik anket faaliyetinde<br>bulunulmuştur.|
 |**Kanıt Görseli**|<br>|
 
-
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
-
 
 #### **KALBİS KANIT FORMU**
 
@@ -293,58 +175,26 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 |---|---|
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Bölüm Başkanı|
 
-
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
-
 
 #### **KALBİS KANIT FORMU**
 
 Batı Dilleri ve Edebiyatları
 
-
-
-
-
 Bölüme yeni kayıt yapan öğrencilere yönelik eğitsel uyum etkinliği yapmak
-
-
-
-
-
-
 
 Yeni kayıt yapan öğrencilere yönelik bölüm/fakülte/üniversite/şehir tanıtımı amacıyla
 adaptasyon etkinliği düzenlemek.
 
-
-
-
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
-
 
 #### **KALBİS KANIT FORMU**
 
 Bölüm Başkanı
 
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 
-
 #### **KALBİS KANIT FORMU**
-
-
-
-
-
-
-
-
-
-
-
-
 
 |Faaliyetin Yapıldığı<br>Birim|Batı Dilleri ve Edebiyatları|
 |---|---|
@@ -356,22 +206,9 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 |**Kanıt Görseli**|<br> <br>|
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Doç. Dr. Kerim Can YAZGÜNOĞLU|
 
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 
-
 #### **KALBİS KANIT FORMU**
-
-
-
-
-
-
-
-
-
-
-
 
 |Faaliyetin Yapıldığı<br>Birim|Batı Dilleri ve Edebiyatları|
 |---|---|
@@ -382,10 +219,7 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 |**Gerçekleştirme**<br>**Açıklaması**|Erasmus+ programıyla bölümümüze ders vermek üzere Dzemal Bijedic University of<br>Mostar’dan gelen öğretim üyesi Aida Džiho-Šator bir seminer gerçekleştirmiştir.|
 |**Kanıt Görseli**|<br> <br> <br> <br> <br> <br> <br>|
 
-
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
-
 
 #### **KALBİS KANIT FORMU**
 
@@ -393,23 +227,9 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 |---|---|
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Doç. Dr. Kerim Can YAZGÜNOĞLU|
 
-
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 
-
 #### **KALBİS KANIT FORMU**
-
-
-
-
-
-
-
-
-
-
-
 
 |Faaliyetin Yapıldığı<br>Birim|Batı Dilleri ve Edebiyatları|
 |---|---|
@@ -420,10 +240,7 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 |**Gerçekleştirme**<br>**Açıklaması**|Yeni kayıt yaptıran öğrencilere üniversiteyi, şehri, bölümü tanıtmak için toplantı<br>yapılmıştır.|
 |**Kanıt Görseli**||
 
-
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
-
 
 #### **KALBİS KANIT FORMU**
 
@@ -431,23 +248,9 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 |---|---|
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Doç. Dr. Kerim Can YAZGÜNOĞLU|
 
-
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 
-
 #### **KALBİS KANIT FORMU**
-
-
-
-
-
-
-
-
-
-
-
 
 |Faaliyetin Yapıldığı<br>Birim|Batı Dilleri ve Edebiyatları|
 |---|---|
@@ -458,10 +261,7 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 |**Gerçekleştirme**<br>**Açıklaması**|Bölüm öğrencilerimizin memnuniyet düzeyini ölçmeye yönelik anket faaliyetlerinde<br>bulunulmuştur.|
 |**Kanıt Görseli**||
 
-
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
-
 
 #### **KALBİS KANIT FORMU**
 
@@ -469,24 +269,9 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 |---|---|
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Doç. Dr. Kerim Can YAZGÜNOĞLU|
 
-
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 
-
 #### **KALBİS KANIT FORMU**
-
-
-
-
-
-
-
-
-
-
-
-
 
 |Faaliyetin Yapıldığı<br>Birim|Batı Dilleri ve Edebiyatları|
 |---|---|
@@ -498,22 +283,9 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 |**Kanıt Görseli**|<br> <br> <br> <br>|
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Bölüm Başkanı|
 
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 
-
 #### **KALBİS KANIT FORMU**
-
-
-
-
-
-
-
-
-
-
-
 
 |Faaliyetin Yapıldığı<br>Birim|Batı Dilleri ve Edebiyatları|
 |---|---|
@@ -524,10 +296,7 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 |**Gerçekleştirme**<br>**Açıklaması**|Mezun Öğrencilerin tecrübelerinden faydalanmak ve kariyer gibi amaçlarla<br>mezunlara yönelik bir görüşme yapılmıştır.|
 |**Kanıt Görseli**|<br> <br>|
 
-
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
-
 
 #### **KALBİS KANIT FORMU**
 
@@ -535,18 +304,9 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 |---|---|
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Bölüm Başkanı|
 
-
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 
-
 #### **KALBİS KANIT FORMU**
-
-
-
-
-
-
 
 |Faaliyetin Yapıldığı<br>Birim|Batı Dilleri ve Edebiyatları|
 |---|---|
@@ -558,9 +318,7 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 |**Kanıt Görseli**|<br> <br>|
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Doç. Dr. Kerim Can YAZGÜNOĞLU|
 
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
-
 
 |Col1|KALBİS KANIT FORMU|Col3|
 |---|---|---|
@@ -568,12 +326,6 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 ||KALBİS KANIT FORMU||
 ||KALBİS KANIT FORMU||
 ||KALBİS KANIT FORMU||
-
-
-
-
-
-
 
 |KALBİS KANIT FORMU|Col2|
 |---|---|
@@ -586,60 +338,17 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 |Kanıt Görseli||
 |Sisteme Yükleyen/<br>Sorumlu|Doç. Dr. Kerim Can YAZGÜNOĞLU|
 
-
 Niğde Ömer Halisdemir Üniversitesi Kanıt Formu
-
 
 ## **İNSAN VE TOPLUM BİLİMLERİ FAKÜLTESİ** **SANAT TARİHİ BÖLÜMÜ** **2024 YILI EYLEM PLANI İZLEME RAPORU**
 
 #### **2025**
 
-
 #### **2024 YILI EYLEM PLANI İZLEME RAPORU**
 
 İnsan ve Toplum Bilimleri Fakültesi Sanat Tarihi Bölümü 2024 Yılı Eylem Planı’nda toplam 9
 
-
 eylem planlanmış olup tamamı gerçekleştirilmiştir.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 |Col1|Col2|Oca<br>k|Şuba<br>t|Mart|Nisa<br>n|May<br>ıs|Hazi<br>ran|Tem<br>muz|Ağu<br>stos|Eylü<br>l|Eki<br>m|Kası<br>m|Aralı<br>k|
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -650,15 +359,7 @@ eylem planlanmış olup tamamı gerçekleştirilmiştir.
 |7|Bologna ders bilgi paketlerinin güncel<br>tutulmasının sağlanması||||||||||**√ **|||
 |8|Bölüme yeni kayıt yapan öğrencilere<br>yönelik eğitsel uyum etkinliği<br>yapılması||||||||||**√ **|||
 
-
 #### **KALBİS KANIT FORMU**
-
-
-
-
-
-
-
 
 |Faaliyetin Yapıldığı<br>Birim|İnsan ve Toplum Bilimleri Fakültesi|
 |---|---|
@@ -670,15 +371,7 @@ eylem planlanmış olup tamamı gerçekleştirilmiştir.
 |**Kanıt Görseli**||
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Bölüm Başkanı|
 
-
 #### **KALBİS KANIT FORMU**
-
-
-
-
-
-
-
 
 |Faaliyetin Yapıldığı<br>Birim|İnsan ve Toplum Bilimleri Fakültesi|
 |---|---|
@@ -690,9 +383,7 @@ eylem planlanmış olup tamamı gerçekleştirilmiştir.
 |**Kanıt Görseli**||
 |**Sisteme**<br>**Yükleyen/Sorumlu**|<br>Bölüm Başkanı|
 
-
 #### **KALBİS KANIT FORMU**
-
 
 |Faaliyetin Yapıldığı<br>Birim|İnsan ve Toplum Bilimleri Fakültesi|
 |---|---|
@@ -704,15 +395,7 @@ eylem planlanmış olup tamamı gerçekleştirilmiştir.
 |**Kanıt Görseli**||
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Bölüm Başkanı|
 
-
 #### **KALBİS KANIT FORMU**
-
-
-
-
-
-
-
 
 |Faaliyetin Yapıldığı<br>Birim|İnsan ve Toplum Bilimleri Fakültesi|
 |---|---|
@@ -724,9 +407,7 @@ eylem planlanmış olup tamamı gerçekleştirilmiştir.
 |**Kanıt Görseli**||
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Bölüm Başkanı|
 
-
 #### **KALBİS KANIT FORMU**
-
 
 |Faaliyetin Yapıldığı<br>Birim|İnsan ve Toplum Bilimleri Fakültesi|
 |---|---|
@@ -738,9 +419,7 @@ eylem planlanmış olup tamamı gerçekleştirilmiştir.
 |**Kanıt Görseli**|<br>|
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Bölüm Başkanı|
 
-
 #### **KALBİS KANIT FORMU**
-
 
 |Faaliyetin Yapıldığı<br>Birim|İnsan ve Toplum Bilimleri Fakültesi|
 |---|---|
@@ -752,17 +431,14 @@ eylem planlanmış olup tamamı gerçekleştirilmiştir.
 |**Kanıt Görseli**||
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Bölüm Başkanı|
 
-
 ## **İNSAN VE TOPLUM BİLİMLERİ FAKÜLTESİ** **COĞRAFYA BÖLÜMÜ** **2024 YILI EYLEM PLANI İZLEME RAPORU**
 
 #### **2025**
-
 
 #### **2024 YILI EYLEM PLANI İZLEME RAPORU**
 
 Coğrafya Bölümü 2024 Yılı Eylem Planı’nda toplam 8 eylem planlamış olup 7 tanesini
 gerçekleştirmiştir.
-
 
 |BİRİM|PLANLANAN|GERÇEKLEŞTİRİLEN|
 |---|---|---|
@@ -776,7 +452,6 @@ gerçekleştirmiştir.
 |Coğrafya|Eğitim süreçlerinin iyileştirilmesine yönelik<br>faaliyetlerin yapılması|Gerçekleştirilemedi|
 |**TOPLAM**|8|7|
 
-
 |Col1|Col2|Ocak|Şubat|Mart|Nisan|Mayıs|Haziran|Temmuz|Ağustos|Eylül|Ekim|Kasım|Aralık|
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 |1|Bölüme yeni kayıt yapan öğrencilere<br>yönelik eğitsel uyum etkinliği yapmak||||||||||**√**|||
@@ -786,7 +461,6 @@ gerçekleştirmiştir.
 |5|Öğrencilerin araştırma projelerine<br>katılımına yönelik etkinlik yapılması|||**√**|||||||**√ **|||
 |6|Mezunlara ilişkin faaliyet yapılması|||||||||||**√**||
 |7|Birim akademik kurul toplantılarının<br>yapılması.|||||||||||**√**||
-
 
 |Faaliyetin Yapıldığı<br>Birim|İnsan ve Toplum Bilimleri Fakültesi|
 |---|---|
@@ -798,7 +472,6 @@ gerçekleştirmiştir.
 |**Kanıt Görseli**||
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Bölüm başkanı|
 
-
 |Faaliyetin Yapıldığı<br>Birim|İnsan ve Toplum Bilimleri Fakültesi|
 |---|---|
 |**Bölüm**|Coğrafya|
@@ -808,7 +481,6 @@ gerçekleştirmiştir.
 |**Açıklama**|Özellikle Ekim ve Şubat aylarında bölüme kayıt yaptıran öğrenci sayılarında değişim<br>olduğu için bölümümüz Arş. Gör. Tarafından web sayfasında güncellemeler<br>gerçekleştirilmektedir. Genellikle Mayıs ayında yapılan arazi çalışmaları ile ilgili bilgileri<br>aktarmak, ders programı ve sınav takviminin öğrencilerle paylaşılması için web sayfası<br>düzenli olarak güncellenmektedir.|
 |**Kanıt Görseli**||
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Bölüm başkanı|
-
 
 |Faaliyetin Yapıldığı<br>Birim|İnsan ve Toplum Bilimleri Fakültesi|
 |---|---|
@@ -820,7 +492,6 @@ gerçekleştirmiştir.
 |**Kanıt Görseli**||
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Bölüm başkanı|
 
-
 |Faaliyetin Yapıldığı<br>Birim|İnsan ve Toplum Bilimleri Fakültesi|
 |---|---|
 |**Bölüm**|Coğrafya|
@@ -830,7 +501,6 @@ gerçekleştirmiştir.
 |**Açıklama**|Öğrencinin doğayı ve bulunduğu mekanın coğrafyasını daha iyi anlayabilmesi, coğrafya<br>bölümüne aidiyet duygusu geliştirebilmesi için Ekim, Kasım ve Aralık aylarında toplamda 3<br>farklı lokasyona arazi çalışmaları düzenlenmiştir.|
 |**Kanıt Görseli**||
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Bölüm başkanı|
-
 
 |Faaliyetin Yapıldığı Birim|İnsan ve Toplum Bilimleri Fakültesi|
 |---|---|
@@ -842,7 +512,6 @@ gerçekleştirmiştir.
 |**Kanıt Görseli**||
 |**Sisteme Yükleyen/Sorumlu**|Bölüm başkanı|
 
-
 |Faaliyetin Yapıldığı<br>Birim|İnsan ve Toplum Bilimleri Fakültesi|
 |---|---|
 |**Bölüm**|Coğrafya|
@@ -852,7 +521,6 @@ gerçekleştirmiştir.
 |**Açıklama**|Mezunların tecrübelerinden ve önerilerinden faydalanmak, kurumsal aidiyet geliştirmek için<br>mzeun öğrencilerimizle online toplantı yapılmıştır.|
 |**Kanıt Görseli**||
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Bölüm başkanı|
-
 
 |Faaliyetin Yapıldığı Birim|İnsan ve Toplum Bilimleri Fakültesi|
 |---|---|
@@ -864,17 +532,14 @@ gerçekleştirmiştir.
 |**Kanıt Görseli**|Görsel bulunmamaktadır.|
 |**Sisteme Yükleyen/Sorumlu**|Bölüm başkanı|
 
-
 ## **İNSAN VE TOPLUM BİLİMLERİ FAKÜLTESİ** **TÜRK DİLİ VE EDEBİYATI BÖLÜMÜ** **2024 YILI EYLEM PLANI İZLEME RAPORU**
 
 #### **2025**
-
 
 #### **2024 YILI EYLEM PLANI İZLEME RAPORU**
 
 İnsan ve Toplum Bilimleri Fakültesi 2024 Yılı Eylem Planı’nda toplam 3 eylem planlanmış
 olup 3 Eylem gerçekleştirilmiştir.
-
 
 |BİRİM|PLANLANAN|GERÇEKLEŞTİRİLEN|
 |---|---|---|
@@ -883,44 +548,11 @@ olup 3 Eylem gerçekleştirilmiştir.
 ||||
 |**TOPLAM**|||
 
-
 #### **2024 YILI EYLEM PLANI İZLEME RAPORU**
 
 İnsan ve Toplum Bilimleri Fakültesi Türk Dili ve Edebiyatı Bölümü 2024 Yılı Eylem Planı’nda
 
-
 toplam 3 eylem planlanmış olup tamamı gerçekleştirilmiştir.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 |Col1|Col2|Ocak|Şubat|Mart|Nisan|Mayıs|Haziran|Temmuz|Ağustos|Eylül|Ekim|Kasım|Aralık|
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -937,39 +569,11 @@ toplam 3 eylem planlanmış olup tamamı gerçekleştirilmiştir.
 |11|Bölüme yeni kayıt yapan öğrencilere<br>yönelik eğitsel uyum etkinliği<br>yapılması||||||||||**√ **|||
 |12|Eğitim süreçlerinin iyileştirilmesine<br>yönelik faaliyet yapılması|||||||||||||
 
-
 #### **KALBİS KANIT FORMU**
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 
-
 #### **KALBİS KANIT FORMU**
-
-
-
-
-
-
-
-
-
-
-
-
 
 |Faaliyetin Yapıldığı<br>Niğde Üniversitesi İnsan ve Toplum Bilimleri Fakültesi<br>Birim|Col2|
 |---|---|
@@ -981,22 +585,9 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 |**Kanıt Görseli** <br> <br> <br> <br> <br> <br>|**Kanıt Görseli** <br> <br> <br> <br> <br> <br>|
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Prof. Dr. Ziya AVŞAR|
 
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 
-
 #### **KALBİS KANIT FORMU**
-
-
-
-
-
-
-
-
-
-
-
 
 |Faaliyetin Yapıldığı<br>Niğde Ömer Halisdemir Üniversitesi İnsan ve Toplum Bilimleri Fakültesi<br>Birim|Col2|
 |---|---|
@@ -1007,29 +598,13 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 |**Gerçekleştirme**<br>**Açıklaması**<br>**Türk Dili ve Edebiyatı bölümü Bölüm Başkanı Sayın Prof. Dr. Ziya AVŞAR**<br>**tarafından Mesnevi Sohbetleri programının ikincisi mart ayında**<br>**gerçekleştirilmiştir.**|**Gerçekleştirme**<br>**Açıklaması**<br>**Türk Dili ve Edebiyatı bölümü Bölüm Başkanı Sayın Prof. Dr. Ziya AVŞAR**<br>**tarafından Mesnevi Sohbetleri programının ikincisi mart ayında**<br>**gerçekleştirilmiştir.**|
 |**Kanıt Görseli**|<br> <br> <br> <br> <br> <br>|
 
-
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
-
 
 #### **KALBİS KANIT FORMU**
 
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 
-
 #### **KALBİS KANIT FORMU**
-
-
-
-
-
-
-
-
-
-
-
-
 
 |Faaliyetin Yapıldığı<br>Niğde Ömer Halisdemir Üniversitesi İnsan ve Toplum Bilimleri Fakültesi<br>Birim|Col2|
 |---|---|
@@ -1041,121 +616,41 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 |**Kanıt Görseli** <br> <br> <br> <br>|**Kanıt Görseli** <br> <br> <br> <br>|
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Prof. Dr. Ziya AVŞAR|
 
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
-
-
-#### **KALBİS KANIT FORMU**
-
-
-
-
-
-
-
-
-
-
-
-
-
-_Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
-
-
-#### **KALBİS KANIT FORMU**
-
-
-
-
-
-_Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
-
-
-#### **KALBİS KANIT FORMU**
-
-
-
-_Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
-
 
 #### **KALBİS KANIT FORMU**
 
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 
-
 #### **KALBİS KANIT FORMU**
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
-
 
 #### **KALBİS KANIT FORMU**
 
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 
-
 #### **KALBİS KANIT FORMU**
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 
-
 #### **KALBİS KANIT FORMU**
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 
+#### **KALBİS KANIT FORMU**
+
+_Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 
 #### **KALBİS KANIT FORMU**
 
+_Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 
+#### **KALBİS KANIT FORMU**
 
+_Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 
-
-
-
-
+#### **KALBİS KANIT FORMU**
 
 |Faaliyetin Yapıldığı<br>Niğde Üniversitesi İnsan ve Toplum Bilimleri Fakültesi<br>Birim|Col2|
 |---|---|
@@ -1166,66 +661,25 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 |<br>**Gerçekleştirme**<br>**Açıklaması**<br>2023-2024 Eğitim-Öğretim yılında mezun olacak öğrencilere yönelik mezuniyet<br>programı düzenlenmiştir.|<br>**Gerçekleştirme**<br>**Açıklaması**<br>2023-2024 Eğitim-Öğretim yılında mezun olacak öğrencilere yönelik mezuniyet<br>programı düzenlenmiştir.|
 |<br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>**Kanıt Görseli**|<br>|
 
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 
-
-
-
 #### **KALBİS KANIT FORMU**
-
 
 |Col1|Col2|
 |---|---|
 |**Sisteme**<br>**Yükleyen/Sorumlu**|<br>Prof. Dr. Ziya AVŞAR|
 
-
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
-
 
 ## **İNSAN VE TOPLUM BİLİMLERİ FAKÜLTESİ** **ÇAĞDAŞ TÜRK LEHÇELERİ VE EDEBİYATLARI (ÇTLE)** **BÖLÜMÜ** **2024 YILI EYLEM PLANI İZLEME RAPORU**
 
 #### **2025**
 
-
 #### **2024 YILI EYLEM PLANI İZLEME RAPORU**
 
 Çağdaş Türk Lehçeleri ve Edebiyatları Bölümü (ÇTLE) 2024 Yılı Eylem Planı’nda toplam 17
 
-
 eylem planlanmış olup 16’sı gerçekleştirilmiştir.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 |Col1|Col2|Ocak|Şubat|Mart|Nisan|Mayıs|Haziran|Temmuz|Ağustos|Eylül|Ekim|Kasım|Aralık|
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -1243,26 +697,12 @@ eylem planlanmış olup 16’sı gerçekleştirilmiştir.
 |12|Lisans ve lisansüstü yabancı uyruklu<br>öğrenci sayılarının arttırılması için<br>faaliyetler düzenlemek||||||||||||**√**|
 |13|Öğrenci motivasyonunu artırıcı etkinlik<br>düzenlenmesi|<br>|||**√**||||||**√**|||
 
-
 |14|Engelli öğrenci memnuniyet düzeyini<br>artırmaya yönelik faaliyetler|√|Col4|Col5|Col6|Col7|Col8|Col9|Col10|Col11|Col12|√|Col14|
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 |15|Ulusal öğrenci memnuniyet düzeyini<br>artırmaya yönelik faaliyetler|**√**|**√**|**√**|**√**|**√**|**√**|**√**|**√**|**√**|**√**|**√**|**√**|
 |16|Uluslararası öğrenci memnuniyet<br>düzeyini artırmaya yönelik faaliyetler||**√**|**√**|**√**|**√**||||||||
 
-
 #### **KALBİS KANIT FORMU**
-
-
-
-
-
-
-
-
-
-
-
-
 
 |Faaliyetin Yapıldığı<br>Birim|İnsan ve Toplum Bilimleri Fakültesi|
 |---|---|
@@ -1274,23 +714,9 @@ eylem planlanmış olup 16’sı gerçekleştirilmiştir.
 |**Kanıt Görseli**|<br> <br> <br> <br> <br> <br> <br> <br> <br> <br>|
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Arş. Gör. Merve Nur ERTEM|
 
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 
-
 #### **KALBİS KANIT FORMU**
-
-
-
-
-
-
-
-
-
-
-
-
 
 |Faaliyetin Yapıldığı<br>Birim|İnsan ve Toplum Bilimleri Fakültesi|
 |---|---|
@@ -1302,23 +728,9 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 |**Kanıt Görseli**|<br>|
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Arş. Gör. Merve Nur ERTEM|
 
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 
-
 #### **KALBİS KANIT FORMU**
-
-
-
-
-
-
-
-
-
-
-
-
 
 |Faaliyetin Yapıldığı<br>Birim|İnsan ve Toplum Bilimleri Fakültesi|
 |---|---|
@@ -1330,17 +742,9 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 |**Kanıt Görseli**|<br>|
 |**Sisteme**<br>**Yükleyen/Sorumlu**|<br>Arş. Gör. Merve Nur ERTEM|
 
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 
-
 #### **KALBİS KANIT FORMU**
-
-
-
-
-
-
 
 |Faaliyetin Yapıldığı<br>Birim|İnsan ve Toplum Bilimleri Fakültesi|
 |---|---|
@@ -1352,23 +756,9 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 |**Kanıt Görseli**|<br>|
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Arş. Gör. Merve Nur ERTEM|
 
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 
-
 #### **KALBİS KANIT FORMU**
-
-
-
-
-
-
-
-
-
-
-
-
 
 |Faaliyetin Yapıldığı<br>Birim|İnsan ve Toplum Bilimleri Fakültesi|
 |---|---|
@@ -1380,23 +770,9 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 |**Kanıt Görseli**|<br> <br> <br>|
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Arş. Gör. Merve Nur ERTEM|
 
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 
-
 #### **KALBİS KANIT FORMU**
-
-
-
-
-
-
-
-
-
-
-
-
 
 |Faaliyetin Yapıldığı<br>Birim|İnsan ve Toplum Bilimleri Fakültesi|
 |---|---|
@@ -1408,17 +784,9 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 |**Kanıt Görseli**|<br>|
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Arş. Gör. Merve Nur ERTEM|
 
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 
-
 #### **KALBİS KANIT FORMU**
-
-
-
-
-
-
 
 |Faaliyetin Yapıldığı<br>Birim|İnsan ve Toplum Bilimleri Fakültesi|
 |---|---|
@@ -1430,37 +798,19 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 |**Kanıt Görseli**|<br>|
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Arş. Gör. Merve Nur ERTEM|
 
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
-
 
 #### **KALBİS KANIT FORMU**
 
 İnsan ve Toplum Bilimleri Fakültesi
 
-
 Birim/Bölüm Akademik kurul toplantılarının yapılması
-
-
-
-
-
-
-
-
 
 Arş. Gör. Merve Nur ERTEM
 
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 
-
 #### **KALBİS KANIT FORMU**
-
-
-
-
-
 
 |Faaliyetin Yapıldığı<br>Birim|İnsan ve Toplum Bilimleri Fakültesi|
 |---|---|
@@ -1471,10 +821,7 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 |**Gerçekleştirme**<br>**Açıklaması**|Bölümümüzün internet sayfası periyodik olarak güncellenmiş, faaliyetler ve duyurular<br>internet sayfamızda yer almıştır.|
 |**Kanıt Görseli**||
 
-
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
-
 
 #### **KALBİS KANIT FORMU**
 
@@ -1482,10 +829,7 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 |---|---|
 |**Sisteme**<br>**Yükleyen/Sorumlu**|<br>Arş. Gör. Merve Nur ERTEM|
 
-
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
-
 
 #### **KALBİS KANIT FORMU**
 
@@ -1499,18 +843,9 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 |**Kanıt Görseli**|<br> <br> <br> <br>|
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Arş. Gör. Merve Nur ERTEM|
 
-
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 
-
 #### **KALBİS KANIT FORMU**
-
-
-
-
-
-
 
 |Faaliyetin Yapıldığı<br>Birim|İnsan ve Toplum Bilimleri Fakültesi|
 |---|---|
@@ -1522,23 +857,9 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 |**Kanıt Görseli**|<br>|
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Arş. Gör. Merve Nur ERTEM|
 
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 
-
 #### **KALBİS KANIT FORMU**
-
-
-
-
-
-
-
-
-
-
-
-
 
 |Faaliyetin Yapıldığı<br>Birim|İnsan ve Toplum Bilimleri Fakültesi|
 |---|---|
@@ -1550,40 +871,21 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 |**Kanıt Görseli**|<br> <br> <br> <br> <br> <br> <br> <br> <br> <br>|
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Arş. Gör. Merve Nur ERTEM|
 
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
-
 
 #### **KALBİS KANIT FORMU**
 
 İnsan ve Toplum Bilimleri Fakültesi
 
-
 Öğrenci motivasyonunu artırıcı etkinlik düzenlenmesi
-
-
-
-
 
 Değişim programlarıyla gelen yabancı uyruklu öğrencilerin uyum sağlamasını kolaylaştırmak ve motivasyonunu artırmak amacıyla tanışma yemeği
 
-
-
-
-
 Arş. Gör. Merve Nur ERTEM
-
 
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 
-
 #### **KALBİS KANIT FORMU**
-
-
-
-
-
-
 
 |Faaliyetin Yapıldığı<br>Birim|İnsan ve Toplum Bilimleri Fakültesi|
 |---|---|
@@ -1595,47 +897,27 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 |**Kanıt Görseli**|<br>|
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Arş. Gör. Merve Nur ERTEM|
 
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
-
 
 #### **KALBİS KANIT FORMU**
 
 İnsan ve Toplum Bilimleri Fakültesi
 
-
 Ulusal öğrenci memnuniyet düzeyini artırmaya yönelik faaliyetler
-
-
-
-
 
 Öğrencilerin memnuniyetini artırmak amacıyla bölüm ve üniversite yaşamına dair soru, sorun,
 talep ve görüşleri dikkate alınacak, bunun için de danışman-öğrenci iletişimi kolaylaştırılarak yü
 yüze ve çevrimiçi iletişim olanaklarından faydalanılacaktır.
 
-
-
-
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
-
 
 #### **KALBİS KANIT FORMU**
 
 Arş. Gör. Merve Nur ERTEM
 
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 
-
 #### **KALBİS KANIT FORMU**
-
-
-
-
-
-
 
 |Faaliyetin Yapıldığı<br>Birim|İnsan ve Toplum Bilimleri Fakültesi|
 |---|---|
@@ -1647,57 +929,20 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 |**Kanıt Görseli**|<br>|
 |**Sisteme**<br>**Yükleyen/Sorumlu**|<br>Arş. Gör. Merve Nur ERTEM|
 
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
-
 
 ## **İNSAN VE TOPLUM BİLİMLERİ FAKÜLTESİ** **TARİH** **BÖLÜMÜ** **2024 YILI EYLEM PLANI İZLEME RAPORU**
 
 #### **2025**
 
-
 #### **2024 YILI EYLEM PLANI İZLEME RAPORU**
 
 İnsan ve Toplum Bilimleri Fakültesi Tarih Bölümü 2024 Yılı Eylem Planı’nda toplam 3 eylem
 
-
 planlanmış olup 3 tanesi gerçekleştirilmiştir.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 |Col1|Col2|O<br>c<br>a<br>k|Ş<br>u<br>b<br>a<br>t|M<br>a<br>r<br>t|N<br>i<br>s<br>a<br>n|M<br>a<br>y<br>ı<br>s|H<br>a<br>z<br>i<br>r<br>a<br>n|T<br>e<br>m<br>m<br>u<br>z|A<br>ğ<br>u<br>s<br>t<br>o<br>s|E<br>y<br>l<br>ü<br>l|E<br>k<br>i<br>m|K<br>a<br>s<br>ı<br>m|A<br>r<br>a<br>l<br>ı<br>k|
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 |1|2024-2025 Eğitim-Öğretim Yılı<br>Oryantasyon Programı||||||||||**√**|||
 |2|2024-2025 Eğitim-Öğretim Yılı<br>Danışman-Öğrenci Toplantıları||||||||||**√**|||
 |3|Tarih Bölümü 2024 Yılı Öz<br>Değerlendirme Raporu’nun<br>hazırlanması<br>||||||||||||**√**|
-
-

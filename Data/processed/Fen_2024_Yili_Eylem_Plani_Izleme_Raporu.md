@@ -4,35 +4,17 @@
 
 ### **2025**
 
-
 ### **2024 YILI EYLEM PLANI İZLEME RAPORU**
 
 Fen Fakültesi 2024 Yılı Eylem Planı’nda toplam 42 eylem planlanmış olup 25 eylem
 
-
 gerçekleştirilmiştir.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# **FEN FAKÜLTESİ** **BİYOLOJİ BÖLÜMÜ**
+ **FEN FAKÜLTESİ** **BİYOLOJİ BÖLÜMÜ**
 
 ## **2024 YILI EYLEM PLANI İZLEME RAPORU**
 
 ### **2024**
-
 
 ### **KALBİS KANIT FORMU**
 
@@ -46,9 +28,7 @@ gerçekleştirilmiştir.
 |4 <br>Akademik Kurul Toplantısı<br>**√** <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>|4 <br>Akademik Kurul Toplantısı<br>**√** <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>|4 <br>Akademik Kurul Toplantısı<br>**√** <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>|4 <br>Akademik Kurul Toplantısı<br>**√** <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>|4 <br>Akademik Kurul Toplantısı<br>**√** <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>|4 <br>Akademik Kurul Toplantısı<br>**√** <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>|4 <br>Akademik Kurul Toplantısı<br>**√** <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>|4 <br>Akademik Kurul Toplantısı<br>**√** <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>|4 <br>Akademik Kurul Toplantısı<br>**√** <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>|4 <br>Akademik Kurul Toplantısı<br>**√** <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>|4 <br>Akademik Kurul Toplantısı<br>**√** <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>|4 <br>Akademik Kurul Toplantısı<br>**√** <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>|4 <br>Akademik Kurul Toplantısı<br>**√** <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>|4 <br>Akademik Kurul Toplantısı<br>**√** <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>|
 |5|Stratejik Plan Yıllık Değerlendirmesi|**√**||||||||||||
 
-
 ### **2024 YILI EYLEM PLANI İZLEME RAPORU**
-
 
 Fen Fakültesi Biyoloji Bölümü 2024 Yılı Eylem Planı’nda toplam 5 eylem planlanmış
 olup 5 eylem gerçekleştirilmiştir.
@@ -62,108 +42,49 @@ olup 5 eylem gerçekleştirilmiştir.
 |Biyoloji Bölümü Stratejik Plan Yıllık Değerlendirmesi<br>Gerçekleşti|Biyoloji Bölümü Stratejik Plan Yıllık Değerlendirmesi<br>Gerçekleşti|Biyoloji Bölümü Stratejik Plan Yıllık Değerlendirmesi<br>Gerçekleşti|
 |**TOPLAM**|5|5|
 
-
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
-
 
 ### **KALBİS KANIT FORMU**
 
-
-
-
-
-
-
-
-
-
-
-
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
-
 
 ### **KALBİS KANIT FORMU**
 
-
-
-
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
-
 
 ### **KALBİS KANIT FORMU**
 
-
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 
-
 ### **KALBİS KANIT FORMU**
-
 
 |Col1|Col2|
 |---|---|
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Bölüm Başkanı|
 
-
-
-
-
-
-
-
-
-
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 
-
 ### **KALBİS KANIT FORMU**
-
 
 |Kanıt Görseli|Col2|
 |---|---|
 |**Sisteme Yükleyen/Sorumlu**|Bölüm Başkanı|
 
-
-
-
-
-
-
-
-
-
-
-
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 
-
 ### **KALBİS KANIT FORMU**
-
 
 |Kurumsal akreditasyon programı için değerlendirme<br>Gerçekleştirme Açıklaması<br>yapılmıştır.|Col2|
 |---|---|
 |**Kanıt Görseli**|**Kanıt Görseli**|
 |**Sisteme Yükleyen/Sorumlu**|Bölüm Başkanı|
 
-
-
-
-
-
 |Faaliyetin Yapıldığı<br>Fen Fakültesi<br>Birim|Col2|
 |---|---|
 |**Bölüm/Alt Birim**<br>Biyoloji Bölümü|**Bölüm/Alt Birim**<br>Biyoloji Bölümü|
 |**Gerçekleştirilen**<br>**Faaliyet Adı**|Stratejik Plan Yıllık Değerlendirmesi|
 
-
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
-
 
 ### **KALBİS KANIT FORMU**
 
@@ -173,10 +94,7 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 |**Gerçekleştirme**<br>**Açıklaması**<br>2024-2028 Stratejik Plan Yıllık Değerlendirmesi yapılmıştır.|**Gerçekleştirme**<br>**Açıklaması**<br>2024-2028 Stratejik Plan Yıllık Değerlendirmesi yapılmıştır.|
 |**Kanıt Görseli**||
 
-
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
-
 
 ### **KALBİS KANIT FORMU**
 
@@ -189,10 +107,7 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 |**Gerçekleştirme Açıklaması**<br>Akademik Kurul Toplantısı gerçekleştirilmiştir.|**Gerçekleştirme Açıklaması**<br>Akademik Kurul Toplantısı gerçekleştirilmiştir.|
 |**Kanıt Görseli**||
 
-
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
-
 
 ### **KALBİS KANIT FORMU**
 
@@ -200,82 +115,32 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 |---|---|
 |**Sisteme Yükleyen/Sorumlu**|Bölüm Başkanı|
 
-
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 
-
-# **FEN FAKÜLTESİ** **BİYOTEKNOLOJİ BÖLÜMÜ**
+ **FEN FAKÜLTESİ** **BİYOTEKNOLOJİ BÖLÜMÜ**
 
 ## **2024 YILI EYLEM PLANI İZLEME RAPORU**
 
 ### **2024**
 
-
 Biyoteknoloji Bölümü 2024 Yılı Eylem Planında 5 eylem planlanmış olup 5 eylem
 gerçekleştirilmiştir.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 ### **2024 YILI EYLEM PLANI İZLEME RAPORU**
 
 Fen Fakültesi Biyoteknoloji Bölümü 2024 Yılı Eylem Planı’nda toplam 5 eylem
 
-
 planlanmış olup 5 eylem gerçekleştirilmiştir.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 |Faaliyetin Yapıldığı<br>Fen Fakültesi<br>Birim|Col2|
 |---|---|
 |**Bölüm/Alt Birim**<br>Biyoteknoloji<br>|**Bölüm/Alt Birim**<br>Biyoteknoloji<br>|
 |**Gerçekleştirilen**<br>**Faaliyet Adı**<br>Birim internet sayfalarının güncel tutulması|**Gerçekleştirilen**<br>**Faaliyet Adı**<br>Birim internet sayfalarının güncel tutulması|
-|<br>**Faaliyet Dönemi**<br>Şubat - Ekim 2024|<br>**Faaliyet Dönemi**<br>Şubat - Ekim 2024|
+|<br>**Faaliyet Dönemi**<br>Şubat  Ekim 2024|<br>**Faaliyet Dönemi**<br>Şubat  Ekim 2024|
 |||
 |<br>**Gerçekleştirme**<br>**Açıklaması**<br>Bölümümüz web sayfası sürekli olarak güncel tutulmuş ve öğrencilere gerekli<br>duyuru ve bilgilendirmeler yapılmıştır|<br>**Gerçekleştirme**<br>**Açıklaması**<br>Bölümümüz web sayfası sürekli olarak güncel tutulmuş ve öğrencilere gerekli<br>duyuru ve bilgilendirmeler yapılmıştır|
 |<br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>**Kanıt Görseli**<br> <br>|<br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>**Kanıt Görseli**<br> <br>|
 |**Sisteme**<br>**Yükleyen/Sorumlu**|<br>Bölüm Başkanı|
-
 
 |Faaliyetin Yapıldığı<br>Fen Fakültesi<br>Birim|Col2|
 |---|---|
@@ -287,7 +152,6 @@ planlanmış olup 5 eylem gerçekleştirilmiştir.
 |<br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>**Kanıt Görseli**<br> <br>|<br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>**Kanıt Görseli**<br> <br>|
 |**Sisteme**<br>**Yükleyen/Sorumlu**|<br>Bölüm Başkanı|
 
-
 |Faaliyetin Yapıldığı<br>Fen Fakültesi<br>Birim|Col2|
 |---|---|
 |**Bölüm/Alt Birim**<br>Biyoteknoloji|**Bölüm/Alt Birim**<br>Biyoteknoloji|
@@ -297,11 +161,9 @@ planlanmış olup 5 eylem gerçekleştirilmiştir.
 |**Gerçekleştirme**<br>**Açıklaması**<br>Bölüm öğrencilerine oryantasyon programı yapılmıştır.|**Gerçekleştirme**<br>**Açıklaması**<br>Bölüm öğrencilerine oryantasyon programı yapılmıştır.|
 |<br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>**Kanıt Görseli**|<br> <br> <br>|
 
-
 |Col1|Col2|
 |---|---|
 |**Sisteme**<br>**Yükleyen/Sorumlu**|<br>Bölüm Başkanı|
-
 
 |Faaliyetin Yapıldığı<br>Fen Fakültesi<br>Birim|Col2|
 |---|---|
@@ -313,7 +175,6 @@ planlanmış olup 5 eylem gerçekleştirilmiştir.
 |<br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>**Kanıt Görseli**<br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>|<br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>**Kanıt Görseli**<br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>|
 |**Sisteme**<br>**Yükleyen/Sorumlu**|<br>Bölüm Başkanı|
 
-
 |Faaliyetin Yapıldığı<br>Fen Fakültesi<br>Birim|Col2|
 |---|---|
 |**Bölüm/Alt Birim**<br>Biyoteknoloji|**Bölüm/Alt Birim**<br>Biyoteknoloji|
@@ -324,41 +185,20 @@ planlanmış olup 5 eylem gerçekleştirilmiştir.
 |<br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>**Kanıt Görseli**<br> <br>|<br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>**Kanıt Görseli**<br> <br>|
 |**Sisteme**<br>**Yükleyen/Sorumlu**|<br>Bölüm Başkanı|
 
-
 ## **FEN FAKÜLTESİ** **FİZİK BÖLÜMÜ** **2024 YILI EYLEM PLANI İZLEME RAPORU**
 
 ### **2025**
-
 
 ### **2024 YILI EYLEM PLANI İZLEME RAPORU**
 
 Fen Fakültesi Fizik Bölümü 2024 Yılı Eylem Planı’nda toplam 8 eylem planlanmış olup 6 eylem
 
-
 gerçekleştirilmiştir.
-
 
 |BİRİM PLANLANAN GERÇEKLEŞTİRİLEN|Col2|Col3|
 |---|---|---|
 |Fizik<br>8 <br>6|Fizik<br>8 <br>6|Fizik<br>8 <br>6|
 |**TOPLAM**|8|6|
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 |Tübitak projesi kabul gören öğretim<br>2 üyemizin Fizik bölümü web χ<br>sayfasında ilan edilmesi|Col2|Col3|Col4|Col5|Col6|Col7|Col8|Col9|Col10|Col11|Col12|Col13|Col14|
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -369,13 +209,7 @@ gerçekleştirilmiştir.
 |<br>7 <br>Ulusal öğrenciler için dönem sonunda<br>Bölüm memnuniyet anketi<br>yapılacaktır.<br> <br> <br> <br> <br> <br> <br> <br>**√ **<br> <br> <br> <br> <br>|<br>7 <br>Ulusal öğrenciler için dönem sonunda<br>Bölüm memnuniyet anketi<br>yapılacaktır.<br> <br> <br> <br> <br> <br> <br> <br>**√ **<br> <br> <br> <br> <br>|<br>7 <br>Ulusal öğrenciler için dönem sonunda<br>Bölüm memnuniyet anketi<br>yapılacaktır.<br> <br> <br> <br> <br> <br> <br> <br>**√ **<br> <br> <br> <br> <br>|<br>7 <br>Ulusal öğrenciler için dönem sonunda<br>Bölüm memnuniyet anketi<br>yapılacaktır.<br> <br> <br> <br> <br> <br> <br> <br>**√ **<br> <br> <br> <br> <br>|<br>7 <br>Ulusal öğrenciler için dönem sonunda<br>Bölüm memnuniyet anketi<br>yapılacaktır.<br> <br> <br> <br> <br> <br> <br> <br>**√ **<br> <br> <br> <br> <br>|<br>7 <br>Ulusal öğrenciler için dönem sonunda<br>Bölüm memnuniyet anketi<br>yapılacaktır.<br> <br> <br> <br> <br> <br> <br> <br>**√ **<br> <br> <br> <br> <br>|<br>7 <br>Ulusal öğrenciler için dönem sonunda<br>Bölüm memnuniyet anketi<br>yapılacaktır.<br> <br> <br> <br> <br> <br> <br> <br>**√ **<br> <br> <br> <br> <br>|<br>7 <br>Ulusal öğrenciler için dönem sonunda<br>Bölüm memnuniyet anketi<br>yapılacaktır.<br> <br> <br> <br> <br> <br> <br> <br>**√ **<br> <br> <br> <br> <br>|<br>7 <br>Ulusal öğrenciler için dönem sonunda<br>Bölüm memnuniyet anketi<br>yapılacaktır.<br> <br> <br> <br> <br> <br> <br> <br>**√ **<br> <br> <br> <br> <br>|<br>7 <br>Ulusal öğrenciler için dönem sonunda<br>Bölüm memnuniyet anketi<br>yapılacaktır.<br> <br> <br> <br> <br> <br> <br> <br>**√ **<br> <br> <br> <br> <br>|<br>7 <br>Ulusal öğrenciler için dönem sonunda<br>Bölüm memnuniyet anketi<br>yapılacaktır.<br> <br> <br> <br> <br> <br> <br> <br>**√ **<br> <br> <br> <br> <br>|<br>7 <br>Ulusal öğrenciler için dönem sonunda<br>Bölüm memnuniyet anketi<br>yapılacaktır.<br> <br> <br> <br> <br> <br> <br> <br>**√ **<br> <br> <br> <br> <br>|<br>7 <br>Ulusal öğrenciler için dönem sonunda<br>Bölüm memnuniyet anketi<br>yapılacaktır.<br> <br> <br> <br> <br> <br> <br> <br>**√ **<br> <br> <br> <br> <br>|<br>7 <br>Ulusal öğrenciler için dönem sonunda<br>Bölüm memnuniyet anketi<br>yapılacaktır.<br> <br> <br> <br> <br> <br> <br> <br>**√ **<br> <br> <br> <br> <br>|
 |<br>8|Uluslararası öğrenciler için Bölüm<br>memnuniyet anketi yapılacaktır.|||||||χ||||||
 
-
 ### **KALBİS KANIT FORMU**
-
-
-
-
-
 
 |Faaliyetin Yapıldığı FEN BİLİMLERİ ENSTİTÜSÜ<br>Birim|Col2|
 |---|---|
@@ -387,23 +221,9 @@ gerçekleştirilmiştir.
 |<br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>**Kanıt Görseli**<br> <br> <br> <br> <br> <br> <br> <br>|<br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>**Kanıt Görseli**<br> <br> <br> <br> <br> <br> <br> <br>|
 |**Sisteme**<br>**Yükleyen/Sorumlu**|<br>Prof. Dr. Orhan YALÇIN|
 
-
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 
-
 ### **KALBİS KANIT FORMU**
-
-
-
-
-
-
-
-
-
-
-
 
 |Faaliyetin Yapıldığı FEN FAKÜLTESİ<br>Birim|Col2|
 |---|---|
@@ -415,23 +235,9 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 |<br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>**Kanıt Görseli**<br> <br> <br> <br> <br> <br> <br> <br>|<br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>**Kanıt Görseli**<br> <br> <br> <br> <br> <br> <br> <br>|
 |**Sisteme**<br>**Yükleyen/Sorumlu**|<br>Prof. Dr. Orhan YALÇIN|
 
-
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 
-
 ### **KALBİS KANIT FORMU**
-
-
-
-
-
-
-
-
-
-
-
 
 |Faaliyetin Yapıldığı FEN FAKÜLTESİ<br>Birim|Col2|
 |---|---|
@@ -443,23 +249,9 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 |<br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>**Kanıt Görseli**<br> <br> <br> <br> <br> <br> <br>|<br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>**Kanıt Görseli**<br> <br> <br> <br> <br> <br> <br>|
 |**Sisteme**<br>**Yükleyen/Sorumlu**|<br>Prof. Dr. Orhan YALÇIN|
 
-
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 
-
 ### **KALBİS KANIT FORMU**
-
-
-
-
-
-
-
-
-
-
-
 
 |Faaliyetin Yapıldığı FEN FAKÜLTESİ<br>Birim|Col2|
 |---|---|
@@ -470,49 +262,25 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 |<br>**Gerçekleştirme**<br>**Açıklaması**<br>**Öğrencilerimize TÜBİTAK projeleri ve Bursları konusunda bilgilendirme**<br>**toplantısı yapıldı.**|<br>**Gerçekleştirme**<br>**Açıklaması**<br>**Öğrencilerimize TÜBİTAK projeleri ve Bursları konusunda bilgilendirme**<br>**toplantısı yapıldı.**|
 |<br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>**Kanıt Görseli**|<br>|
 
-
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
-
 
 ### **KALBİS KANIT FORMU**
 
-
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
-
 
 ### **KALBİS KANIT FORMU**
 
-
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 
-
 ### **KALBİS KANIT FORMU**
-
 
 |Col1|Col2|
 |---|---|
 |**Sisteme**<br>**Yükleyen/Sorumlu**|<br>Prof. Dr. Orhan YALÇIN|
 
-
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 
-
 ### **KALBİS KANIT FORMU**
-
-
-
-
-
-
-
-
-
-
-
 
 |Faaliyetin Yapıldığı FEN FAKÜLTESİ<br>Birim|Col2|
 |---|---|
@@ -523,43 +291,25 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 |<br>**Gerçekleştirme**<br>**Açıklaması**<br>**Öğrencilerimize KPSS, ALES, Formasyon eğitimi ve fizikteki iş imkanları**<br>**konusunda bilgilendirme toplantısı yapıldı.**|<br>**Gerçekleştirme**<br>**Açıklaması**<br>**Öğrencilerimize KPSS, ALES, Formasyon eğitimi ve fizikteki iş imkanları**<br>**konusunda bilgilendirme toplantısı yapıldı.**|
 |<br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>**Kanıt Görseli**|<br>|
 
-
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
-
 
 ### **KALBİS KANIT FORMU**
 
-
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
-
 
 ### **KALBİS KANIT FORMU**
 
-
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 
-
 ### **KALBİS KANIT FORMU**
-
 
 |Col1|Col2|
 |---|---|
 |**Sisteme**<br>**Yükleyen/Sorumlu**|<br>Prof. Dr. Orhan YALÇIN|
 
-
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 
-
 ### **KALBİS KANIT FORMU**
-
-
-
-
-
 
 |Faaliyetin Yapıldığı FEN FAKÜLTESİ<br>Birim|Col2|
 |---|---|
@@ -570,58 +320,25 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 |<br>**Gerçekleştirme**<br>**Açıklaması**<br> <br>**Ulusal öğrenciler için dönem sonunda Bölüm memnuniyet anketi yapıldı.**|<br>**Gerçekleştirme**<br>**Açıklaması**<br> <br>**Ulusal öğrenciler için dönem sonunda Bölüm memnuniyet anketi yapıldı.**|
 |<br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>**Kanıt Görseli**|<br> <br> <br> <br>|
 
-
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 
-
 ### **KALBİS KANIT FORMU**
-
 
 |Col1|Col2|
 |---|---|
 |**Sisteme**<br>**Yükleyen/Sorumlu**|<br>Prof. Dr. Orhan YALÇIN|
 
-
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
-
 
 ## **FEN FAKÜLTESİ** **KİMYA BÖLÜMÜ** **2024 YILI EYLEM PLANI İZLEME RAPORU**
 
 ### **2025**
 
-
 **2024 YILI EYLEM PLANI İZLEME RAPORU**
-
 
 Fen Fakültesi Kimya Bölümü 2024 Yılı Eylem Planı’nda toplam 22 eylem planlanmış olup 7’si
 
-
 gerçekleştirilmiştir.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 |1 Programların tanıtımına yönelik aday öğrencilere ve diğer paydaşlara etkinlik yapılması|Col2|Col3|Col4|Col5|Col6|Col7|Col8|Col9|Col10|Col11|Col12|Col13|Col14|
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -638,7 +355,6 @@ gerçekleştirilmiştir.
 |12<br>Öğrenci<br>kulüp<br>faaliyetlerinin<br>desteklenmesi<br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>|12<br>Öğrenci<br>kulüp<br>faaliyetlerinin<br>desteklenmesi<br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>|12<br>Öğrenci<br>kulüp<br>faaliyetlerinin<br>desteklenmesi<br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>|12<br>Öğrenci<br>kulüp<br>faaliyetlerinin<br>desteklenmesi<br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>|12<br>Öğrenci<br>kulüp<br>faaliyetlerinin<br>desteklenmesi<br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>|12<br>Öğrenci<br>kulüp<br>faaliyetlerinin<br>desteklenmesi<br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>|12<br>Öğrenci<br>kulüp<br>faaliyetlerinin<br>desteklenmesi<br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>|12<br>Öğrenci<br>kulüp<br>faaliyetlerinin<br>desteklenmesi<br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>|12<br>Öğrenci<br>kulüp<br>faaliyetlerinin<br>desteklenmesi<br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>|12<br>Öğrenci<br>kulüp<br>faaliyetlerinin<br>desteklenmesi<br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>|12<br>Öğrenci<br>kulüp<br>faaliyetlerinin<br>desteklenmesi<br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>|12<br>Öğrenci<br>kulüp<br>faaliyetlerinin<br>desteklenmesi<br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>|12<br>Öğrenci<br>kulüp<br>faaliyetlerinin<br>desteklenmesi<br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>|12<br>Öğrenci<br>kulüp<br>faaliyetlerinin<br>desteklenmesi<br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>|
 |13|Akademik ve idari personeller için<br>hizmet içi eğitimler düzenlenmesi|||||||||||||
 
-
 |Birim internet sayfalarının güncel<br>14 √<br>tutulması|Col2|Col3|Col4|Col5|Col6|Col7|Col8|Col9|Col10|Col11|Col12|Col13|Col14|
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 |15<br>Mezunlara<br>ilişkin<br>faaliyetlerin<br>yapılması<br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>|15<br>Mezunlara<br>ilişkin<br>faaliyetlerin<br>yapılması<br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>|15<br>Mezunlara<br>ilişkin<br>faaliyetlerin<br>yapılması<br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>|15<br>Mezunlara<br>ilişkin<br>faaliyetlerin<br>yapılması<br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>|15<br>Mezunlara<br>ilişkin<br>faaliyetlerin<br>yapılması<br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>|15<br>Mezunlara<br>ilişkin<br>faaliyetlerin<br>yapılması<br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>|15<br>Mezunlara<br>ilişkin<br>faaliyetlerin<br>yapılması<br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>|15<br>Mezunlara<br>ilişkin<br>faaliyetlerin<br>yapılması<br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>|15<br>Mezunlara<br>ilişkin<br>faaliyetlerin<br>yapılması<br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>|15<br>Mezunlara<br>ilişkin<br>faaliyetlerin<br>yapılması<br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>|15<br>Mezunlara<br>ilişkin<br>faaliyetlerin<br>yapılması<br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>|15<br>Mezunlara<br>ilişkin<br>faaliyetlerin<br>yapılması<br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>|15<br>Mezunlara<br>ilişkin<br>faaliyetlerin<br>yapılması<br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>|15<br>Mezunlara<br>ilişkin<br>faaliyetlerin<br>yapılması<br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>|
@@ -650,13 +366,7 @@ gerçekleştirilmiştir.
 |21<br>Öğrenci<br>motivasyonunu<br>artırıcı<br>etkinlik düzenlenmesi<br> <br> <br>**√** <br> <br>**√** <br> <br> <br> <br> <br> <br> <br>|21<br>Öğrenci<br>motivasyonunu<br>artırıcı<br>etkinlik düzenlenmesi<br> <br> <br>**√** <br> <br>**√** <br> <br> <br> <br> <br> <br> <br>|21<br>Öğrenci<br>motivasyonunu<br>artırıcı<br>etkinlik düzenlenmesi<br> <br> <br>**√** <br> <br>**√** <br> <br> <br> <br> <br> <br> <br>|21<br>Öğrenci<br>motivasyonunu<br>artırıcı<br>etkinlik düzenlenmesi<br> <br> <br>**√** <br> <br>**√** <br> <br> <br> <br> <br> <br> <br>|21<br>Öğrenci<br>motivasyonunu<br>artırıcı<br>etkinlik düzenlenmesi<br> <br> <br>**√** <br> <br>**√** <br> <br> <br> <br> <br> <br> <br>|21<br>Öğrenci<br>motivasyonunu<br>artırıcı<br>etkinlik düzenlenmesi<br> <br> <br>**√** <br> <br>**√** <br> <br> <br> <br> <br> <br> <br>|21<br>Öğrenci<br>motivasyonunu<br>artırıcı<br>etkinlik düzenlenmesi<br> <br> <br>**√** <br> <br>**√** <br> <br> <br> <br> <br> <br> <br>|21<br>Öğrenci<br>motivasyonunu<br>artırıcı<br>etkinlik düzenlenmesi<br> <br> <br>**√** <br> <br>**√** <br> <br> <br> <br> <br> <br> <br>|21<br>Öğrenci<br>motivasyonunu<br>artırıcı<br>etkinlik düzenlenmesi<br> <br> <br>**√** <br> <br>**√** <br> <br> <br> <br> <br> <br> <br>|21<br>Öğrenci<br>motivasyonunu<br>artırıcı<br>etkinlik düzenlenmesi<br> <br> <br>**√** <br> <br>**√** <br> <br> <br> <br> <br> <br> <br>|21<br>Öğrenci<br>motivasyonunu<br>artırıcı<br>etkinlik düzenlenmesi<br> <br> <br>**√** <br> <br>**√** <br> <br> <br> <br> <br> <br> <br>|21<br>Öğrenci<br>motivasyonunu<br>artırıcı<br>etkinlik düzenlenmesi<br> <br> <br>**√** <br> <br>**√** <br> <br> <br> <br> <br> <br> <br>|21<br>Öğrenci<br>motivasyonunu<br>artırıcı<br>etkinlik düzenlenmesi<br> <br> <br>**√** <br> <br>**√** <br> <br> <br> <br> <br> <br> <br>|21<br>Öğrenci<br>motivasyonunu<br>artırıcı<br>etkinlik düzenlenmesi<br> <br> <br>**√** <br> <br>**√** <br> <br> <br> <br> <br> <br> <br>|
 |22|SSCI,<br>SCI,<br>AHCI<br>kapsamında<br>yapılan yayın sayısını arttıracak<br>faaliyetler yapılması|||||||||**√**||||
 
-
 ### **KALBİS KANIT FORMU**
-
-
-
-
-
 
 |Faaliyetin Yapıldığı<br>Fen Fakültesi<br>Birim|Col2|
 |---|---|
@@ -667,44 +377,21 @@ gerçekleştirilmiştir.
 |<br>**Gerçekleştirme**<br>**Açıklaması**<br> <br>Hem yeni kayıt yaptıran öğrenciler hem de mevcut öğrenciler ile danışman öğrenci<br>toplantıları yapılmıştır. İlgili bilgi Dekanlık makamına 23/10/2024-574019 yazımızla<br>bildirilmiştir.|<br>**Gerçekleştirme**<br>**Açıklaması**<br> <br>Hem yeni kayıt yaptıran öğrenciler hem de mevcut öğrenciler ile danışman öğrenci<br>toplantıları yapılmıştır. İlgili bilgi Dekanlık makamına 23/10/2024-574019 yazımızla<br>bildirilmiştir.|
 |<br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>**Kanıt Görseli**|<br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>|
 
-
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
-
 
 ### **KALBİS KANIT FORMU**
 
-
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
-
 
 ### **KALBİS KANIT FORMU**
 
-
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
-
 
 ### **KALBİS KANIT FORMU**
 
-
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 
-
 ### **KALBİS KANIT FORMU**
-
-
-
-
-
-
-
-
-
-
-
 
 |Faaliyetin Yapıldığı<br>Fen Fakültesi<br>Birim|Col2|Col3|
 |---|---|---|
@@ -715,37 +402,17 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 |<br>**Gerçekleştirme**<br>**Açıklaması**<br>2024-2025 Eğitim Öğretim Yılı için 15 Kasım 2024 tarihine kadar Bologna veri girişi<br>açılmış olup ders bilgi paketlerinde öğretim üyeleri güncelleme yapabilmiştir.<br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>|<br>**Gerçekleştirme**<br>**Açıklaması**<br>2024-2025 Eğitim Öğretim Yılı için 15 Kasım 2024 tarihine kadar Bologna veri girişi<br>açılmış olup ders bilgi paketlerinde öğretim üyeleri güncelleme yapabilmiştir.<br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>|<br>**Gerçekleştirme**<br>**Açıklaması**<br>2024-2025 Eğitim Öğretim Yılı için 15 Kasım 2024 tarihine kadar Bologna veri girişi<br>açılmış olup ders bilgi paketlerinde öğretim üyeleri güncelleme yapabilmiştir.<br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>|
 |<br>**Gerçekleştirme**<br>**Açıklaması**<br>2024-2025 Eğitim Öğretim Yılı için 15 Kasım 2024 tarihine kadar Bologna veri girişi<br>açılmış olup ders bilgi paketlerinde öğretim üyeleri güncelleme yapabilmiştir.<br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>|<br>||
 
-
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 
-
 ### **KALBİS KANIT FORMU**
-
 
 |Kanıt Görseli|Col2|
 |---|---|
 |**Sisteme**<br>**Yükleyen/Sorumlu**|<br>Bölüm Başkan v.|
 
-
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 
-
 ### **KALBİS KANIT FORMU**
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 |Faaliyetin Yapıldığı<br>Fen Fakültesi<br>Birim|Col2|
 |---|---|
@@ -757,25 +424,9 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 |<br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>**Kanıt Görseli**<br> <br> <br> <br>|<br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>**Kanıt Görseli**<br> <br> <br> <br>|
 |**Sisteme**<br>**Yükleyen/Sorumlu**|<br>Bölüm Başkan v.|
 
-
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 
-
 ### **KALBİS KANIT FORMU**
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 |Faaliyetin Yapıldığı<br>Fen Fakültesi<br>Birim|Col2|
 |---|---|
@@ -786,35 +437,17 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 |**Gerçekleştirme**<br>**Açıklaması**<br> <br>Üç (3) Öğrencinin staj dosyası ilgili komisyon tarafından değerlendirilmiştir.|**Gerçekleştirme**<br>**Açıklaması**<br> <br>Üç (3) Öğrencinin staj dosyası ilgili komisyon tarafından değerlendirilmiştir.|
 |**Kanıt Görseli**|<br> <br> <br> <br> <br> <br> <br> <br> <br>|
 
-
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 
-
 ### **KALBİS KANIT FORMU**
-
 
 |Col1|Col2|
 |---|---|
 |**Sisteme**<br>**Yükleyen/Sorumlu**|<br>Bölüm Başkan v.|
 
-
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 
-
 ### **KALBİS KANIT FORMU**
-
-
-
-
-
-
-
-
-
-
-
 
 |Faaliyetin Yapıldığı<br>Fen Fakültesi<br>Birim|Col2|
 |---|---|
@@ -826,18 +459,9 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 |<br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>**Kanıt Görseli**||
 |**Sisteme**<br>**Yükleyen/Sorumlu**<br>|<br>   Bölüm Başkan v.|
 
-
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 
-
 ### **KALBİS KANIT FORMU**
-
-
-
-
-
-
 
 |Faaliyetin Yapıldığı<br>Fen Fakültesi<br>Birim|Col2|
 |---|---|
@@ -848,55 +472,29 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 |<br>**Gerçekleştirme**<br>**Açıklaması**<br>|<br>**Gerçekleştirme**<br>**Açıklaması**<br>|
 |<br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>**Kanıt Görseli**||
 
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
-
 
 ### **KALBİS KANIT FORMU**
 
-
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
-
 
 ### **KALBİS KANIT FORMU**
 
-
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
-
 
 ### **KALBİS KANIT FORMU**
 
-
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 
-
 ### **KALBİS KANIT FORMU**
-
 
 |Col1|Col2|
 |---|---|
 |**Sisteme**<br>**Yükleyen/Sorumlu**|<br>Bölüm Başkan v.|
 
-
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 
-
 ### **KALBİS KANIT FORMU**
-
-
-
-
-
-
-
-
-
-
-
 
 |Faaliyetin Yapıldığı<br>Fen Fakültesi<br>Birim|Col2|
 |---|---|
@@ -907,48 +505,26 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 |<br>**Gerçekleştirme**<br>**Açıklaması**<br> <br>Öğrenci motivasyonunu artırmak amacıyla, Lisans öğrencilerinin bitirme tezlerinde<br>yaptıkları çalışmaları sundukları Birinci NÖHÜ Kimya Öğrenci sempozyumu<br>düzenlenerek, öğrencilerimizin bilimsel etkinliklere katılımı sağlandı ve bilimsel<br>etkinliklerin akademik gelişim sürecindeki önemi anlatıldı. Ayrıca öğrencilerimizi<br>kimya ve bu bilim dalının önemini vurgulamak amacıyla Tarım ve Kromozomlar<br>konulu seminer düzenlendi.|<br>**Gerçekleştirme**<br>**Açıklaması**<br> <br>Öğrenci motivasyonunu artırmak amacıyla, Lisans öğrencilerinin bitirme tezlerinde<br>yaptıkları çalışmaları sundukları Birinci NÖHÜ Kimya Öğrenci sempozyumu<br>düzenlenerek, öğrencilerimizin bilimsel etkinliklere katılımı sağlandı ve bilimsel<br>etkinliklerin akademik gelişim sürecindeki önemi anlatıldı. Ayrıca öğrencilerimizi<br>kimya ve bu bilim dalının önemini vurgulamak amacıyla Tarım ve Kromozomlar<br>konulu seminer düzenlendi.|
 |<br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>**Kanıt Görseli**|<br> <br>ETKİNLİK-1<br> <br>|
 
-
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
-
 
 ### **KALBİS KANIT FORMU**
 
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 
-
 ### **KALBİS KANIT FORMU**
-
 
 |ETKİNLİK-2<br>https://www.ohu.edu.tr/fenfakultesi/kimya/etkinlik/955|Col2|
 |---|---|
 |**Sisteme**<br>**Yükleyen/Sorumlu**|<br>Bölüm Başkan v.|
 
-
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
-
 
 ## **FEN FAKÜLTESİ** **MATEMATİK** **BÖLÜMÜ** **2024 YILI EYLEM PLANI İZLEME RAPORU**
 
 ### **2025**
 
-
 ### **2024 YILI EYLEM PLANI İZLEME RAPORU**
 
 Fen Fakültesi Matematik Bölümü 2024 Yılı Eylem Planı’nda toplam 2 eylem planlanmış
 
-
 olup tamamı gerçekleştirilmiştir.
-
-
-
-
-
-
-
-
-
-
-
-

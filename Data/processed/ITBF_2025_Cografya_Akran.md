@@ -52,7 +52,7 @@ ekin liderlik uygulamaları bulunmaktadır.
 AL,Liderlik
 ve Kalite
 ts
-|
+
 x
 Kurumda değişim yönetimi yaklaşımı kurumun geneline yayılmış
 ve bütüncül o
@@ -60,7 +60,7 @@ yürütülmektedir.
 ‘Add. Liderlikve Kalite
 OLGUNLUK DÜZEY
 ATAİç kal
-güvencesi mekanizmaları | 1 | 2 | 3 | 4
+güvencesi mekanizmaları  1  2  3  4
 ed
 ME
 Ig Kal güvencesi sistem Kurumun genelin yayılmış şef ve bülünclol
@@ -80,7 +80,7 @@ ry?
 7
 x
 Kurumun genelinde misyon, vizyon ve politikalarla uyumlu uygulamalar bulun
-|
+
 A.22.Stratejik amaç ve hedefler
 ry?
 x
@@ -93,13 +93,13 @@ fali
 x
 Kurumun geneline yayılmış performans yönetimi uygulamaları bulunmaktadır.
 A3. Yönetim Sistemleri
-Kurum, stratjk hedeflerine ulaşmayı nitelik ve nicelik olrak gövence altın 
+Kurum, stratjk hedeflerine ulaşmayı nitelik ve nicelik olrak gövence altın
 al, bye ve bilgi kaynaklar ie sürelerini yönetmek üzer bir isteme sahip o
 A3. Yönetim Sistemleri
 OLGUNLUKDÜZEY
 Ack. Bilgi yönetim sistemi
 i
-] TT
+ TT
 se]
 x
 Kurum genelinde temel süreçler eğtim ve öğretim, araştırma ve geliştirme, to
@@ -118,14 +118,14 @@ OLGUNLUK DÜZEY
 2
 5
 x
-Kurumun genelinde finansal kaynakların yönetime ilişkin uygulamalar tanımlı 
+Kurumun genelinde finansal kaynakların yönetime ilişkin uygulamalar tanımlı
 uygun biçimde yürütülmektedir.
 A3.Yönetim Sistemleri
 OLGUNLUK DÜZEY
 ABA, Süreçyönetimi
 a7]
 a
-[
+
 x
 Kurumun genelinde tam süreçler yönetilmektedir
 Ad. Paydaş Katılımı
@@ -133,7 +133,7 @@ Kurum, ig ve dış paydaşların stratejik kararlara ve sürelere katılımını
 bilimlerini almak, yanıtlamak ve kararlarında kullanmak için grek sistemler
 yönetmelidir.
 Ad. İç ve de paydaş katılımı
-/
+
 374)
 x
 “Tam Süreleri PURO katmanlarına paydaş kaımın sağlamak üzere Kurumun ge
@@ -150,7 +150,7 @@ alınmaktadır.
 4.45, Mezun ilişkileryönetimi
 Ty?
 73
-]
+
 x
 
 ---
@@ -182,7 +182,7 @@ OLGUNLUK DÜZ
 MEN
 Kurumun geneline yayılmış uluslararasilgma faliyeter bulunmaktadr
 B. EĞİTİM VE ÖĞRETİM
-Kurun, öğretim programları Türkiye Yükseköğretim Yeterlilikleri Çerçevesi ile 
+Kurun, öğretim programları Türkiye Yükseköğretim Yeterlilikleri Çerçevesi ile
 amaçlarına ve öğrenme çıktılarına uygun oarak tasarlama, öğrencilerin ve toplum
 vap verdiğinden emin olmak içim periyodik olarak değerlendirmeli ve güncellemelidi
 B.1. Programların Tasarımı, Değerlendirilmes ve Güncellenmesi
@@ -192,7 +192,7 @@ Tasarımı,
 OLGUNLUK DÜZEY
 Değerlendirilmesi ve Güncellenmesi
 BLL. Program tasarımı ve onayı
-©
+
 7
 3
 a
@@ -212,7 +212,7 @@ Değerlendirilmesi ve Güncellenmesi.
 (BA.
 Programların
 Tasarımı,
-|
+
 OLGUNLUK DÜZE
 Değerlendirilmesi ve Güncellenmesi
 EI Des alarm rogram
@@ -228,7 +228,7 @@ OLGUNLUK DÜZ
 Değerlendirilmesi ve Güncellenmesi.
 B.A Öğrenci
 iş yüküne dayalı
-ders tasarımı |
+ders tasarımı 
 T
 7
 3
@@ -240,7 +240,7 @@ Tasarımı,
 OLGUNLUK DÜZ
 Değerlendirilmesi ve Güncellenmesi
 BLS.
-Programların © izlenmesi © ve
+Programların  izlenmesi  ve
 Fe
 ime
 be
@@ -249,7 +249,7 @@ iranlı geninde prank
 enmesn vegelmes
 i
 ekim seme
-™
+
 BI.
 Programların.
 Tasarımı,
@@ -258,7 +258,7 @@ Değerlendirmesi ve Günclenmesi
 E.L&.
 Eğitim
 ve öğretim
-süreçlerinin |
+süreçlerinin 
 7
 2
 3
@@ -283,7 +283,7 @@ kaul, pln, derce ve dier yeli anması ve serka
 
 ## Sayfa 7
 
-B2. Programların © Yürütülmesi
+B2. Programların  Yürütülmesi
 I
 (Öğrenci Merkezli Öğrenme, Öğretme
 OLGUNLUK DÜZE
@@ -302,7 +302,7 @@ yGntem
 teknikleri
 ta
 doğrultusunda uygulanmaktadır.
-B2. — Programların © Yürütülmesi
+B2.  Programların  Yürütülmesi
 7
 7
 (Öğrenci Merkezli Öğrenme, Öğretme
@@ -312,29 +312,29 @@ ve Değerlendirme)
 28.2.2 Ölçme ve değerlendirme
 ria;
 V
-Programların genelinde öğrenci merkezli ve çeşilendirimiş ölçme ve 
+Programların genelinde öğrenci merkezli ve çeşilendirimiş ölçme ve
 uygulamaları bulunmaktadır.
-B2. © Programların — Yürütülmesi
+B2.  Programların  Yürütülmesi
 (Öğrenci Merkezli Öğrenme, Öğretme
 OLGUNLUK DÜZE
 ve Değerlendirme)
 N
 823, Öğrenci kabulü, önceki öğrenmenin
-|, | 2 | 3
-|
+|,  2  3
+
 arınması ve kredilemdirlmesi
 x
 Kurumun genelinde öğrenci kabulü, önceki öğrenmenin tanınması ve kredi
 ilişkin planlar dahilinde uygulamalar bulunmaktadır.
 BZ.
-Programların © Yürütülmesi
+Programların  Yürütülmesi
 Öğrenci Merkezli Öğrenme, Öğretme
 OLGUNLUK DÜZE
 ve Değerlendirme)
 _
 NN
 B24, Yeterliliklerin sertifkalandinimas
-|, | 2 | 9
+|,  2  9
 ve diploma
 x
 Kurumun genelinde diploma onayı ve diğer yeterliklerin sertifikalandinim
@@ -380,7 +380,7 @@ N
 Kurumun genelinde tesis ve alyap eilbilidr ve bunlarda firsat eşitliğin
 yararamlmakindır.
 B.3.
-Öğrenme Kaynakları ve Akademik |
+Öğrenme Kaynakları ve Akademik 
 OLGUNLUK DÜZ
 Destek Hizmetleri
 ZN
@@ -397,7 +397,7 @@ OLGUNLUKDÜZ
 Destek Hizmeleri
 e
 7
-B35. Sosyal, külürel, sporti faliyetler | 7
+B35. Sosyal, külürel, sporti faliyetler  7
 x
 Kurumun genelinde sosyal, kaltirel ve sprüf faliyetler erigilebilrir ve b
 
@@ -415,9 +415,9 @@ ve
 Ni
 la
 görevlendirme kriterleri
-|
+
 x
-Kurumun tüm alanlar için tanımlı ve paydaslarca bilinen alama, yakselime ve 
+Kurumun tüm alanlar için tanımlı ve paydaslarca bilinen alama, yakselime ve
 kriterleri
 uygulanmakta
 ve
@@ -431,17 +431,17 @@ B.4.
 ii
 OLGUNLUK DÜZEY
 4842 Öğreimyine
-vegelişimi |
-1 | 2 |
-|
+vegelişimi 
+1  2 
+
 4
-Kurumun genelinde — öğretim elemanlarının öğretim
+Kurumun genelinde  öğretim elemanlarının öğretim
  yekinliğini.
 geli
 uygulamalar varır.
 B.4.
 Öğretim Kadrosu
-©
+
 OLGUNLUK
 DÜZE
 ‘BAS. Eğimfaaliyelerin yönel teşvik
@@ -467,16 +467,16 @@ hedeflerim
 kim
 gerçeklşirilceğinn belirlendiği,
 araştırma faaliyelrinin gerçekleştirildi, hede
-celik olarak izlenerek değerlendiril ve ulaşılan soruların konrol ederek 
+celik olarak izlenerek değerlendiril ve ulaşılan soruların konrol ederek
 inilesirmelerin yapıldığı Br süreç olarak ee almalıdır
 Cl. Araştırma Süreçlerinin Yönetimi ve Araştırma Kaynakları
-GX. Arastirma Süreşlerinin Yönetimi | © OLGUNLUKDÜZEY
+GX. Arastirma Süreşlerinin Yönetimi   OLGUNLUKDÜZEY
 ve Araştırma Kaynakları
--
+
 3
 Kurumun genelinde raşırma Süreçlerin yönetimi ve organizasyon
 yapısı ku
-|
+
 
 ---
 
@@ -488,20 +488,20 @@ ve Araştırma Kaynakdary
 000000 [0
 C13.
 Doktora programları ve dokwora|
-|
+
 2
 a
 4
 Sonrası imkanlar
 x
 Karum raja polkas, ede vestige ie ml ve desielTey
-;
+
 programları ve doktora sonrası imkanlar yürütülmektedir.
 .C2 Araştırma Yetkinliği, İş birlikleri ve Destekler
 C2 Arajrma Yanl
 İş Brie
 GLGÜNLUK DÜZE
-|
+
 5
 C21. Araştırma yetkinlikleri ve gelişimi
 a
@@ -510,7 +510,7 @@ x
 4
 Kurumun genelinde öğretim elemanlarının araştırma yetkinliginin geliştiril
 ygulamalar yürümek.
-“
+
 helin
 C2 Arastrma Yetkilsi
 İç Birler
@@ -562,14 +562,14 @@ Del, Toplumsal Katkı Süreçlerinin Yönetimi ve Toplumsal Katkı Kaynakl
 Dil. Toplumsal
 Kathi Süreçlerinin|
 ow,
-|
+
 Yönetimi
 ve
-Toplumsal Kath |
+Toplumsal Kath 
 OLGUNLUK DÜZEY
-|
-Kaymakları ©
-—
+
+Kaymakları 
+
 5
 Kurumun. genelinde toplumsal Kalı süreçlerinin yönelimi ve organiza
 kurumsal
@@ -581,13 +581,13 @@ Toplumsal
 Katı
 Süreçlerinin
 Yönetimi e
-Toplumsal oe |
+Toplumsal oe 
 OLGUNLUK DÜZEY
 Kaynaklan
-—
-|
+
+
 5
-| 0.1.2, Kaynaklar
+ 0.1.2, Kaynaklar
 ola
 lçl
 LL
@@ -595,14 +595,14 @@ ____j| _|_|*
 Kurum Toplumsal Katla kaynaklarını toplumsal Katka sie ve birimler
 gözeterek yönetmektedir.
 D2. Toplumsal Katkı Performansı
-Kurum, toplumsal katkı strats ve hedefler doğrultusunda yürünüğü Galilei 
+Kurum, toplumsal katkı strats ve hedefler doğrultusunda yürünüğü Galilei
 izlemeli ve sürekli iyileştirme.
-/ 52. Toplumsal Katkı Performansı©
+ 52. Toplumsal Katkı Performansı©
 OLGUNLUK DÜZEY
 |pa
 e
 EN
-| b2t.Toptumsat
+ b2t.Toptumsat
 katkı
 performansın
 2
@@ -611,7 +611,7 @@ lenmesi ve değerlendirilme
 x
 Kurumun genelinde toplumsal kalka performansını izlenmek ve değerlendirmek
 oluşturulan mekanizmalar kullanılmaktadır.
-|
+
 Bids
 kg
 Doç.Dt Ferdi KIRAÇ

@@ -1,8 +1,8 @@
 ## Sayfa 1
 
 TC
-|
-@
+
+
 NİĞDE ÖMERHALİSDEMİR ÜNİVERSİTESİ
 yİNSAN VETOPLUM BİLİMLERİ FAKÜLTESİ DEKANLIĞ
 x
@@ -10,7 +10,7 @@ BİRİM DANIŞMA KURULU KARARI
 Toplama Tari
 Rimi Dona No
 2s Fylar20s
-|
+
 6srs9sionso0a |or
 Fakiltemiz Birim Danışma Kurulu 25 Eyl 2025 tarihinde sat 14.00'da P
 TOPAL başkanlığında toplanarak gündemdeki konular görüşmüş
@@ -37,7 +37,7 @@ Dehan Ataner KOÇAK
 Üye
 2 Muttalip ATA
 Raponür
-$ Levent ŞENEL, - Fakülte Sekreteri
+ Levent ŞENEL,  Fakülte Sekreteri
 GÜNDEM MADDELERİ:
 1.
 Bir önceki toplantıda alınan kararların imzalanması.
@@ -48,7 +48,7 @@ Dilek ve temeni
 KARAR NO:202501
 Kurumsal Akreditasyon Program (KAP) kapsamında görüş ve öneriler;
 İnsan ve Toplum Bilimleri Fakes! ülkemizin temel değerleri ve rteji
-uyun eğitim-öğretim sunan, evensel düşünebilen ve tüm dünyada geçerliği 
+uyun eğitim-öğretim sunan, evensel düşünebilen ve tüm dünyada geçerliği
 beceriler ile danatlmış bireyler yetiştirmektir. Ülkemizin ve dünyanın bilim
 arka
 sağlayan. ülkede ve dünyada uygulama alanı
@@ -63,7 +63,7 @@ sponüf gelişimin katkı sağlayacak organizasyonlara bulunmaktadır
 ## Sayfa 2
 
 1
-@
+
 NIGDE ÖMER HALISDEMIR ÜNİVERSİTESİ
 Gs VETOPLUM BİLİMLERİ FAKÜLTESİ DEKANLIĞ
 x
@@ -86,8 +86,8 @@ iki ek alyp ve mal kayakla oşurulmasnda score bulu
 ## Sayfa 3
 
 TC
-|
-@
+
+
 NİĞDE ÖMER HALİSDEMİR ÜNİVERSİTESİ
 İÜsan VETOPLUM BİLİMLERİ FAKÜLTESİ DEKANLIĞ
 N
@@ -97,29 +97,29 @@ Kümeye
 2s
 ul 2008
 ‘carsgsionsonn
-|
+
 Prot De Neva TOPAL
 Dekan V
-/
+
 Oye
 Dehan
 tamer KOÇAK
 i.
-.
+
 Serkan GEDİ
 atladı)
 Ahmet KAFA
 Üye
 Recdp
 Al
->
+
 ğe Sağlık Müdürlüğü
 Sk
 Niğde Ömer Halisdemir
 TE
 ADEM
 Oniversites Eğitm ve Araştırma
--
+
 Oye
 Hastansi-dar ve Mal Ilr Müdürü
 Oye

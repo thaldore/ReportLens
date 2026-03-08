@@ -2,8 +2,7 @@
 
 ## **İKTİSADİ VE İDARİ BİLİMLER FAKÜLTESİ** **BİRİM KALİTE KOMİSYONU** **ÖZ DEĞERLENDİRME RAPORU** **2019**
 
-
-# İÇİNDEKİLER
+ İÇİNDEKİLER
 
 **1) EĞİTİM-ÖĞRETİM** **3**
 
@@ -20,9 +19,7 @@
 
 **EK-KANITLAR** **8**
 
-
 2
-
 
 **1) EĞİTİM-ÖĞRETİM**
 
@@ -43,7 +40,6 @@ bölümleri bulunmaktadır.
 
 Bölümlere göre öğretim elemanı dağılımı Tablo 1’de yer almaktadır.
 
-
 **Tablo 1. Öğretim Elemanı Sayısı ve Dağılımı**
 
 |Bölüm|Profesör|Doçent|Dr. Öğr. Üyesi|Öğr. Gör.|Arş. Gör.|Toplam|
@@ -57,14 +53,10 @@ Bölümlere göre öğretim elemanı dağılımı Tablo 1’de yer almaktadır.
 |Uluslararası Ticaret ve<br>Lojistik|-|2|2|-|2|6|
 |Toplam|16|15|30|1|19|81|
 
-
-
 İktisadi ve İdari Bilimler Fakültesi bünyesinde yer alan yedi bölümde 2018-2019 Eğitim-Öğretim
 Yılına ait öğrenci sayıları Tablo 2’de belirtilmiştir.
 
-
 3
-
 
 **Tablo 2. 2018-2019 Akademik Yılında Toplam Öğrenci Sayısı**
 
@@ -77,8 +69,6 @@ Yılına ait öğrenci sayıları Tablo 2’de belirtilmiştir.
 |Maliye|5|356|
 |Bankacılık ve Finans|11|267|
 |Uluslararası Ticaret ve Lojistik<br>Yönetimi|9|244|
-
-
 
 2018-2019 Eğitim-Öğretim Yılı güz ve bahar yarıyıllarında Erasmus Değişim Programı kapsamında
 Kamu Yönetimi Bölümü kapsamında iki öğrencimiz Universty Of Wroclaw’a, bir öğrencimiz Radom
@@ -98,9 +88,7 @@ kapsamında ders vermek üzere bulunmuştur.
 2018-2019 Eğitim-Öğretim Yılı sonunda Fakültemiz bölümlerinden toplam 857 öğrenci mezun
 olmuştur.
 
-
 **1.2. Program Tasarımı ve Güncellenmesi**
-
 
 Fakültemizde bölümlere ilk defa öğrenci alımı ilgili mevzuat çerçevesinde gerçekleştirilmektedir.
 Fakültemiz Uluslararası Ticaret ve Lojistik Yönetimi Bölümü 2018-19 eğitim-öğretim döneminde bir
@@ -113,9 +101,7 @@ Eğitim Standartlarının belirlenmesine yönelik çalışmaların yapıldığı
 programda iyileştirmeler yapılmaktadır. Fakültemiz Maliye Bölümü ders planının güncellenmesi
 sürecinde Niğde Serbest Muhasebeci ve Mali Müşavirler Odası ve Niğde Defterdarlığı’ndan paydaş
 
-
 4
-
 
 görüşleri alınmış ve bölüm müfredatında yapılan değişiklikle hukuk dersleri ve sayısal derslerin ağırlığı
 arttırılmıştır.
@@ -135,18 +121,9 @@ dil hazırlık eğitimi verilmektedir.
 
 **1.3. Öğretim Süreci**
 
-
 Fakültemizin derslik ve laboratuvar alanlarına ilişkin kapasiteler Tablo 3 ve Tablo 4’te verilmiştir.
 
-
 **Tablo 3. Dersliklerin Donanımı ve Öğrenci Kapasitesi**
-
-
-
-
-
-
-
 
 |Derslik|Kapasitesi|Adet|
 |---|---|---|
@@ -158,18 +135,13 @@ Fakültemizin derslik ve laboratuvar alanlarına ilişkin kapasiteler Tablo 3 ve
 |B-K3-13 No’lu Sınıf|42|42|
 |7 Adet Amfi|96|672|
 
-
-
 5
-
 
 **Tablo 4. Mevcut Laboratuvar Alanı (m** **[2]** **) Kapasitesi**
 
 |Lab. alanı|Alan bilgisi|Beraber çalışabilen<br>öğrenci sayısı|
 |---|---|---|
 |Bilgisayar lab.|2102,02 m2|168 kişi|
-
-
 
 Öğrencilerimiz merkez kütüphaneden faydalanmaktadır. Ayrıca Fakültemizde yenilikçi eğitim
 uygulamaları kapsamında 2018 yılında Borsa İstanbul işbirliği ile kurulmuş olan
@@ -201,16 +173,13 @@ alan iki öğretim üyemiz ve bir öğretim elemanımız bulunmaktadır
 
 **1.** **4. Sosyal, Kültürel ve Sportif Faaliyetler**
 
-
 Fakültemiz bölüm ve kulüp faaliyetleri kapsamında yıl içinde sosyal ve kültürel faaliyetler
 düzenlemektedirler. Örneğin Uluslararası Ticaret ve Lojistik Kulübü lojistik günleri kapsamında lojistik
 sohbeti, liman gezisi (Aygaz Dolum Terminali ve Samsunport Liman Gezisi), kulüp tanışma
 organizasyonu, öğrenciler arası sinerjiyi ve motivasyonu arttırmak için kahvaltı ve piknik eğlencesi
 faaliyetleri düzenlemiştir [(https://twitter.com/OhuLojistik/status/1122760555931082753). Bankacılık](https://twitter.com/OhuLojistik/status/1122760555931082753)
 
-
 6
-
 
 ve Finans Bölümü öğrencilerinin bilgi ve becerilerini artırmak amacıyla Türkiye Cumhuriyet Merkez
 Bankası (TCMB)’na teknik gezi düzenlemişlerdir.
@@ -233,13 +202,10 @@ uluslararası katılımcı ve konuşmacıların da konuk edildiği 6. Uluslarara
 Araştırmaları Kongresi (ICAFR), 23-25 Ekim 2019 tarihleri arasında Niğde Ömer Halisdemir
 Üniversitesi ev sahipliğinde Niğde'de düzenlenmiştir [(http://www.ohu.edu.tr/iibf/manset/12177).](http://www.ohu.edu.tr/iibf/manset/12177)
 
-
 Fakültemiz öğretim üyelerinin yurt içi ve yurt dışı üniversitelerdeki araştırmacılar ile ortak
 çalışmaları bulunmaktadır (Tablo 5).
 
-
 **Tablo 5. Yayın Sayıları (2019)**
-
 
 **3) TOPLUMSAL KATKI**
 
@@ -261,17 +227,13 @@ kimliğinin belirlenmesi ile kentin tüm paydaşlarına (mülki idare, yerel yö
 üretim ile uğraşan özel sektör, sivil toplum örgütleri, yerel medya gibi) kent markasının
 konumlandırılmasına yönelik öneriler geliştirilmiş, vatandaşlar dahil her kesimde marka kent
 
-
 7
-
 
 farkındalığının geliştirilmesine yönelik ilk adımlar atılmıştır. Proje çıktılarının ve geliştirilen önerilerin
 uygulanması ile Niğde’nin uzun dönemde ekonomik ve sosyal gelişimine katkı sağlanması
 beklenmektedir [(https://twitter.com/MarkaKentNigde/status/1142117161886003202/photo/3).](https://twitter.com/MarkaKentNigde/status/1142117161886003202/photo/3)
 
-
 **4) KURUMSAL İŞLEYİŞ**
-
 
 Fakültemiz yönetim ve idari yapısı Üniversitemizin ilgili mevzuatına göre yapılandırılmış olup iş ve
 görev tanımları web sayfamızda yayınlanmaktadır.
@@ -290,15 +252,11 @@ dikkat edilmiştir.
 Fakültemizde düzenli olarak dönem başlarında Akademik Kurul toplantıları gerçekleştirilmektedir.
 Bu toplantılarda mevcut durum analizi yapılmakta ve öğretim üyelerinin talepleri değerlendirilmektedir.
 
-
 8
-
 
 **EK-KANITLAR**
 
-
 **1.** **Eğitim-Öğretim Kanıtları**
-
 
 1.1. Birim ile İlgili Bilgiler
 
@@ -311,24 +269,16 @@ Bu toplantılarda mevcut durum analizi yapılmakta ve öğretim üyelerinin tale
 
 1.3. Öğretim Süreci
 
-
 1.4. Sosyal, Kültürel ve Sportif Faaliyetler
 [1.4. Bankacılık ve Finans Bölümü Merkez Bankası Teknik Gezi](http://static.ohu.edu.tr/uniweb/media/kanitlar/iibf/Bankacılık%20ve%20Finans%20Bölümü%20Merkez%20Bankası%20Teknik%20Gezi.pdf)
 [1.5. Uluslararası Ticaret ve Lojistik Kulübü Lojistik Günleri-3](http://static.ohu.edu.tr/uniweb/media/kanitlar/iibf/3.1.%20Lojistik%20Sohbet%20Afişi.png)
 
-
 **2.** **Ar-Ge Kanıtları**
-
 
 **3.** **Toplumsal Katkı Kanıtları**
 
 [3.1.Marka Kent projesi ile ilgili kanıt](http://static.ohu.edu.tr/uniweb/media/kanitlar/iibf/Marka_Kent_Proje_08042020.pdf)
 
-
 **4.** **Kurumsal İşleyiş Kanıtları**
 
-
-
 9
-
-

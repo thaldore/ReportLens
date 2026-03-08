@@ -2,7 +2,6 @@
 **NİĞDE ÖMER HALİSDEMİR ÜNİVERSİTESİ**
 **FEN FAKÜLTESİ DEKANLIĞI**
 
-
 Fakültemiz Birim Danışma Kurulu 26 Aralık 2024 tarihinde saat 14:30’de Prof. Dr. Orhan
 YALÇIN başkanlığında toplanarak gündemdeki konuları görüşmüş ve aşağıdaki kararları
 almıştır.
@@ -18,12 +17,10 @@ Astranova Tarım Ticaret ve Sanayi A.Ş.
 Türk Hava Kurumu Niğde Şube Başkanlığı
 Mezun Öğrenci
 
-
 **GÜNDEM MADDELERİ:**
 1. Bir önceki toplantıda alınan kararların imzalanması.
 2. Kurumsal Akreditasyon Programı (KAP) kapsamında görüş ve önerilerin bildirilmesi.
 3. Dilek ve temenniler.
-
 
 **KARAR NO:2024/01**
 
@@ -46,7 +43,6 @@ program ve dallarda akademik ve fiziki yapılanmanın sağlanması ve eğitim-ö
 bölümlerde okutulan dersler ile ilgili öneriler toplumsal katkı kapsamında STK, kamu ve özel
 sektörle yapılacak faaliyetler vb. görüşüldü ve aşağıdaki görüşlerde mutabık kalındı.
 
-
 1. Fen Fakültesi mezunlarının iş imkanları ve mezun öğrenci takibi.
 2. Fen Fakültesinin Kurumlar ile olan ilişkilerinin tanıtılması, Kurumlar ile olan ilişkilerin
 iyileştirilmesi ve Kurumların ziyaret edilmesi,
@@ -63,5 +59,3 @@ konularda Fakülte-Özel Sektör ile ortak proje yürütülmesi.
 8. Yoğunlaştırılmış iş ve meslek danışmanlığı hizmeti olan iş kulübü faaliyetlerinin İŞKUR
 vasıtasıyla Fakültemizde de yapılması.
 9. 2024-2025 Eğitim Öğretim Yılı Bahar Yarıyılı sonunda yeni bir toplantı yapılması.
-
-

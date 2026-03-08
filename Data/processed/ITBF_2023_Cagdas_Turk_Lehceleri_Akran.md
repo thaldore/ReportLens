@@ -3,7 +3,7 @@
 AKRAN DEĞERLENDİRME RAPORU
 (AKRAN DEĞERLENDİRMESİ YAPILAN BİRİM
 Çağdaş Türk Lehçeleri ve Edebiyatları Bölümü
-lAkran Değerlendirmesi Yapan Birim ve Komisyon 
+lAkran Değerlendirmesi Yapan Birim ve Komisyon
 Fizik Bölümü-Prof. Dr. Emin Çadırlı E
 Türk Dili ve Edebiyatı Bölümü-Prof. Dr. Ziya Avşar
 Çağdaş Türk Lehçeleri ve Edebiyatları Bölümü Öğrenci
@@ -32,7 +32,7 @@ elemeli vesürekli bileytirmelidr.
 Ai. Liderlik ve Kalite
 Kurum, kurumsal dönüşümünü
 sağlıyacak yöceişim modeline ship olmalı t
-“lama, içale güvence mekanizmaların oluşturmalı ve kale güvence karan 
+“lama, içale güvence mekanizmaların oluşturmalı ve kale güvence karan
 LL
 NN ENAMTET
 AL. Tülerik ve Rete
@@ -45,7 +45,7 @@ ANNE B
 AT. Tülerlik
 ve Kali
 OLGUNLUK DÜZ
-li ML KK 
+li ML KK
 verebilirlik
 A2. Misyon ve Stratejik Amaçlar.
 Kurum; vizyon, misyon ve amacını gerçekleşirmek üzere politikaları doğrultu
@@ -107,7 +107,7 @@ OLGUNLUK DÜZ
 Killaa [TT
 B. EĞİTİM
 VE ÖĞRETİM
-Kurum, öğretim programlarını Türkiye Yükseköğretim Yeterlikleri Çerçevesi ie 
+Kurum, öğretim programlarını Türkiye Yükseköğretim Yeterlikleri Çerçevesi ie
 amaçlarına ve öğrenme çıktılarına uygun olarak tasarlamalı, öğrencilerin ve toplu
 Snap verdiğinden emin olmak ginperyodik
 olarak değerlendirmeli vegüncellemeli
@@ -132,12 +132,12 @@ KLAN HELAK
 K
 bala
 ola
-[Bex anma a an LAN MEAN MEAN 
+[Bex anma a an LAN MEAN MEAN
 upon
 lm
 KLAN EL KA E
 [iat
-ye rem ie | TT TT T
+ye rem ie  TT TT T
 B2.
 Programların
 Yürütülmesi
@@ -145,16 +145,16 @@ Yürütülmesi
 Merkezli
 Öğrenme,
 ele
-Sa areree vie 
+Sa areree vie
 (Öğrenci Merkezli Öğrenme, Öğretme
 OLGUNLUK DÜZE
 Kal
 [R24 Öşmimyine mii TT TE TE
-Merkezli — Öğrenme, | Öğretme | ve
+Merkezli  Öğrenme,  Öğretme  ve
 OLGUNLUK DÜZ
 eee
 (aa Omer
-| TET T
+ TET T
 
 ---
 
@@ -162,8 +162,8 @@ eee
 
 SE paraml
 Merkezli
-© Öğrenme,
-© Öğretme
+ Öğrenme,
+ Öğretme
 ve
 OLGUNLUK DÜZ
 Heal
@@ -179,7 +179,7 @@ OLGUNLUK DÜZ
 EE
 LANEANNE AE
 İmane
-| TL?
+ TL?
 T
 Destek Hizmetleri
 OLGUNLUKDÜZ
@@ -197,14 +197,14 @@ Ba. Öğretim Kadrosu
 OLGUNLUK DÜZ
 ST nmyükselme
 ve görelim
-|
+
 5
 hileleri
 Çeymm
 onconnu n
 BAS.
 Eğim falipelerineyöne eşe
-|
+
 ve
 ödüllendirme
 .C. ARAŞTIRMA VE GELİŞTİRME
@@ -220,13 +220,13 @@ bu
 hedlerm
 kim
 Berçeklşirileceğinin belirlendiği, arasarma faaliyetlerinin gerçekleştiği, hede
-eek olarak izlenerek değerlendirildi ve aşılan sonuçların konrol lerek 
+eek olarak izlenerek değerlendirildi ve aşılan sonuçların konrol lerek
 ilşirmelerin yapıldığı bir süreç olarak el alınmalı.
 Cl, Araştırma Süreşlerinin Yönetimive Araştırma Kaynakları
 Gi Arş Sürelerinin nein ve
 OLGUNLUKDÜZ
 Garra
-öm | ‘T| 2 TE T
+öm  ‘T| 2 TE T
 CL Araştırma Süreçlerinin Yönetimi ve
 OLGUNLUK DÜZ
 Araştırma Kaynakları
@@ -257,7 +257,7 @@ Araş Performanst
 OLGUNLUK DOZ
 Ci, Aryarmaperormansinn
 m
-} I]
+ I]
 TET
 ‘ederim
 C3. Araştırma Performansı
@@ -287,9 +287,9 @@ OLGUNLUK DÜZ
 Kaynaklar
 EE 7
 NN
-HELE KLANTT 
+HELE KLANTT
 D2. Toplumsal Kata Performansı
-Kurum, toplumsal katkı strats ve hedeleri doğrultusunda yürümağ faliyetleri 
+Kurum, toplumsal katkı strats ve hedeleri doğrultusunda yürümağ faliyetleri
 ilemi ve stoi linet
 D2Toplumsal Kats Performan
 OLGUNLUK DÜZE
@@ -310,7 +310,7 @@ Gereğini bilgilerinize arz ederiz.
 Üye
 Prot
 -re Bp And
-Raf Pr: 
+Raf Pr:
 Türk Dili ve Edebiyatı Bölümü Öğr. Üyesi
 Fizik Bölüm
 Çağdaş Türk Lehçeleri ve Edebiyatları Bölümü Öğrencisi

@@ -10,7 +10,7 @@ LİSANS PROGRAMI
 Prof. Dr. Mehmet EKİZ
 M
 Dr. Öğr. Üyesi Ahmet Selim BAYSAL
-(
+
 Arş. Gör. Dr. Emre KAYMAKÇI 47/7
 Türk Dili ve Edebiyatı Bölümü Öğrencisi:
 Bai
@@ -30,7 +30,7 @@ OLGUNLUK DUZE
 EE
 TETE
 AZ Yönetim Sistemleri
-Kuram, jik bdesine ulaşmayı nt ve nik olark güvene lua 
+Kuram, jik bdesine ulaşmayı nt ve nik olark güvene lua
 yal,bei veig kaynakları esürelerönek üzereisesipo
 AS Yönetim Sitemleri
 OLGUNLUK DÜZEN
@@ -50,7 +50,7 @@ TET
 Kran,
 ve dy paydaşlarının sek arta ve sree hatin sağl
 girileri ama, yal ve kararlarda ulanmak iç gri stele
-—
+
 
 ---
 
@@ -65,7 +65,7 @@ ELE Der kazanımlarının program
 TY]?
 TE
 (suai
-|
+
 EĞ Te T
 Bi.
 Programiana
@@ -73,7 +73,7 @@ Tasarımı,
 OLGUNLUK DÜZEY
 Değerlendirilmesi ve Güncellenmesi
 ra
-| TTF TTT
+ TTF TTT
 Bi.
 Programların
 Tasarum,
@@ -85,7 +85,7 @@ izlenmesi
 ve
 TT
 la
-ini NCA NC KAN KE 
+ini NCA NC KAN KE
 Bi.
 Programların
 Tasarımı,
@@ -101,13 +101,13 @@ Merkezli
 Öğrenme,
 Değerlendirme)
 Kurum, hedeflediği itelikli mezun yeterliliklerine ulaşmak amacıyla öğren
-yetkinlik temel öğretim, ölme ve değerlendirme yöntemlerini uygulamalıdır. 
+yetkinlik temel öğretim, ölme ve değerlendirme yöntemlerini uygulamalıdır.
 abileri, diploma, derece ve diğer yeterliklerin tanınması ve serfikalandırı
 açık kitler belirlemeli; önceden tanımlanmış ve
-ilan edilmiş kuralar 
+ilan edilmiş kuralar
 uygulamalıdır
 B2
-Programların — Yürütülmesi
+Programların  Yürütülmesi
 Öğrenci Merkezli Öğrenme, Öğretme
 OLGUNLUK DÜZEY
 ve Değerlendirme)
@@ -131,16 +131,16 @@ Bal.
 ama,
 ölme
 ve
-|
+
 5
 görevlendirme kriterleri
 Ba, Öğretim Kadroww
 OLGUNLUK DÜZEY
 AZ
-rimel eri | TT TİTA
+rimel eri  TT TİTA
 ‘BA. Eğimflyer
 yönel eyi
-|
+
 fee
 ve
 ödüllendirme
@@ -163,7 +163,7 @@ bu
 hedeflerin
 kim
 gerçekleştrleceğinin belirlendiği araştırma falyelrinin gerçekleşir. hede
-nicelik olarak izlenerek değerlendirdiği ve ulaşılan sonuçların kontrol edilerek 
+nicelik olarak izlenerek değerlendirdiği ve ulaşılan sonuçların kontrol edilerek
 ‘legtrmelern yapıldığı bi süreç olarak el alınmalıdır.
 Cil. Araştırma Süreçlerinin Yönetimi
 ve Araştırma Kaynakları
@@ -174,7 +174,7 @@ OLGUNLUK DÜZE
 
 ## Sayfa 5
 
-Kurum, toplama katı sitesi ve hedefleri doğrultusunda yar fiy 
+Kurum, toplama katı sitesi ve hedefleri doğrultusunda yar fiy
 izlemeli ve sei yeti
 D.2. Toplumsal Katkı Performansı
 OLGUNLUK DÜZEY
@@ -183,9 +183,9 @@ EM EMEMEN
 Prof. Dr. Mehmet EKİZ:
 he
 Esq: Umer
-Dr. Öğr Üyesi Ahmet Selim BAYSAL: |
+Dr. Öğr Üyesi Ahmet Selim BAYSAL: 
 ueteseus
 ‘Ary. Gür. Dr. Emre
 rareaxcr day
-&
+
 Türk Dil ve Edebiyatı Bölümü Öğrenci

@@ -1,6 +1,6 @@
 ## Sayfa 1
 
-©
+
 AKRAN DEĞERLENDİRME RAPORU
 ISANAT TARİHİ BÖLÜMÜ)
 Prof. Dr. Teoman KANKILIÇve Prof. Dr. Hikmet
@@ -19,12 +19,12 @@ Fr ee a
 [taur
 voze
 amam
-— İri:
+ İri:
 g
 4.13, Kurumsal dönüşüm kapasitesi
 717)
 [7
-4.1.4, İç kalite güvencesi mekanizmalart LPT? ]
+4.1.4, İç kalite güvencesi mekanizmalart LPT? 
 [*
 Tr
 TRUE DUFF
@@ -74,7 +74,7 @@ EEE 7
 Krş
 Çam
 EE |TT?
-—
+
 
 ---
 
@@ -82,7 +82,7 @@ EE |TT?
 
 EL
 saumsse
-a ARNNEN - “
+a ARNNEN  
 uramun luslararslaşma Kaynaklon birimler aras denge gözetilerek yöneül
 ASUs
 ae
@@ -116,7 +116,7 @@ OLGUNLUK
 DÜZE
 Değerlendirilmesi ve Güncellenmesi
 grmen
-TT? |
+TT? 
 
 ---
 
@@ -126,7 +126,7 @@ Delme Ol
 (amam
 ei İİİ
 [iar
-me | TT
+me  TT
 a
 B.2.
 Programların
@@ -144,7 +144,7 @@ OLGUNLUK DÜZEY
 Gees
 [21
 Oeimyonemscniati
-|
+
 T[3
 (Öğrenci Merkezli Öğrenme, Öğretme
 OLGUNLUK DÜZEY
@@ -158,7 +158,7 @@ TT?
 ## Sayfa 7
 
 BE
-Programlar — Yür
+Programlar  Yür
 (Öğrenci Merkezli Öğrenme, Öğretme
 OLGUNLUK DÜZE
 ve Değerlendirme)
@@ -176,7 +176,7 @@ Kaynakları ve Akademi
 eye
 OLGUNLUK DÖZE
 Destek Hizmetleri
-[B31 Öğrenme orum vekaynakları | TT? | Fe
+[B31 Öğrenme orum vekaynakları  TT?  Fe
 Öğrenme kaynaklarına gerilmesine ve kulanımı yönel leme ve
 bapılmakıdır,
 BS. Öğrenme
@@ -187,7 +187,7 @@ OLGUNLUK DOZEY
 Destek Hizmetleri
 (A Adem dek meri
 7 TE Tİ a
-Kurumda öğrencilerin akademik gelimi ve kariyer planlamasina Tüşkin 
+Kurumda öğrencilerin akademik gelimi ve kariyer planlamasina Tüşkin
 İlenmekie
 ve
 öğrencilerin atılmılaylşrlmekedir
@@ -233,8 +233,8 @@ Kadrosu
 OLGUNLUK DUZE
 242
 Öğretim ekinleri
-ve gelişimi | 7 | 7
-«
+ve gelişimi  7  7
+
 Kurumun
 genelinde
 öğreim
@@ -276,13 +276,13 @@ n
 CZ Araştırma Yetkinliği, İş birlikleri ve Destekler.
 Sr
 EET
-| |? 7
+ |? 7
 Gram Yenİ
-|
+
 ani
 Sar
-| şam Trk m im
-> “
+ şam Trk m im
+ 
 3. Arar aram
 5
 m gal mee aims lek
@@ -290,7 +290,7 @@ emi
 Ça ArneFevoman ——_|___OEGUNTURD
 3
 3
-| mann a | |? A “
+ mann a  |? A 
 SS
 
 ---
@@ -302,11 +302,11 @@ Topluma
 Kata
 Süreçlerinin
 Yönetimi
-“ve > Toplumsal> Katkı
+“ve  Toplumsal> Katkı
 OLGUNLUK DÜZE
 yaakları
 D.L. Topluma kal sirctrninyoncind |!
-| 2
+ 2
 rumun
 genelinds
 toplumsal kalk
@@ -326,9 +326,9 @@ Toplumsal© Katkı
 OLGUNLUK DÜZE
 maken
 [p1.2-Kemar
-| tT?
-|
-kurum toplumsal Kas Kaynaklarını toplumsal Kala siri ve birimler 
+ tT?
+
+kurum toplumsal Kas Kaynaklarını toplumsal Kala siri ve birimler
 özeterk
 yönetmektedir.
 1.2. Toplumsal Katkı Performanss

@@ -4,21 +4,10 @@
 
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 
-
 **MİMARLIK BÖLÜMÜ 2024 YILI EYLEM PLANI İZLEME RAPORU**
-
 
 Mimarlık Fakültesi Mimarlık Bölümü 2024 Yılı Eylem Planı’nda toplam 14 eylem planlanmış
 olup 14 eylem gerçekleştirilmiştir.
-
-
-
-
-
-
-
-
-
 
 |Col1|Üst Süreç|Planlanan|Gerçekleştirilen|
 |---|---|---|---|
@@ -30,13 +19,11 @@ olup 14 eylem gerçekleştirilmiştir.
 |6|Eğitim-<br>Öğretim|Bölüm öğretim elemanları ile bölüm<br>eğitim planının kalitesinin artırılması<br>için toplantı yapılarak fikir<br>alışverişinde bulunulması|Mimarlık Bölümü öğretim elemanları ile<br>Haziran ayında akademik kurul toplantısı<br>gerçekleştirilerek bölüm eğitim-öğretim<br>faaliyetleri hakkında görüşler paylaşıldı.|
 |7|Eğitim-<br>Öğretim|Mimarlık Bölümü eğitim öğretim<br>planını güncellemek amacıyla dış<br>paydaş görüşlerinin alınması|Mimarlık Bölümü Eğitim-Öğretim<br>Planında yapılması planlanan değişiklik<br>konusunda dış paydaş olarak Mimarlar<br>Odası Niğde Temsilciliği ve Çevre,<br>Şehircilik ve İklim değişikliği İl<br>Müdürlüğünden görüş alınmıştır.|
 
-
 |8|Eğitim-<br>Öğretim|Mimari Proje ve Restorasyon<br>derslerinde teknik gezi yapılması|Mimari Proje VIII dersi kapsamında<br>NOHU Ağız ve Diş Sağlığı Merkezine<br>teknik gezi düzenlenmiştir.<br>Restorasyon ve Koruma İlkeleri dersleri<br>kapsamında Niğde ilindeki tarihi yapıları<br>konu alan teknik gezi düzenlenmiştir.|
 |---|---|---|---|
 |9|Topluma<br>Hizmet|Niğde ve çevresindeki tarihi eserlerin<br>korunmasına yönelik rölöve ve/veya<br>restorasyon projelerinin hazırlanması|Tyana Antik Kenti Arkeolojik Kazı ve<br>Restorasyon Çalışması (Proje No:<br>CK015102, 2023) kapsamında,<br>Kemerhisar Kasabasında bulunan<br>Abdullah Hadepoğlu Konağının<br>Restorasyon Projesi bölümümüz öğretim<br>üyelerince hazırlanarak Kemerhisar<br>Belediyesine gönderilmiştir.|
 |10|Topluma<br>Hizmet|Milli Eğitime bağlı okullara mimarlık<br>mesleğini tanıtıcı bilgiler verilmesi|1) İmam Hatip Lisesi öğrencilerine<br>fakülte binamız gezdirilerek meslek<br>tanıtımı yapıldı (14 Şubat 2024)<br>2) Necip Fazıl Kısakürek İlkokulu<br>öğrencilerine mimarlık mesleği tanıtıldı<br>ve "Deprem ve Konutlarımız" konulu<br>söyleşi gerçekleştirildi (17 Mayıs 2024).|
 |11|Topluma<br>Hizmet|Valilik, Belediye ve diğer kamu kurum<br>ve kuruluşlarının kurduğu Niğde<br>konulu komisyonlarda görev alınması|Niğde Belediyesi tarafından Niğde<br>Merkez ilçede yer alan tarihi çeşmeleri<br>koruma ve yenileme projesi kapsamında<br>sürece yönelik çalışmaların belirlenip,<br>proje detaylarının kararlaştırılması<br>amacıyla Mimarlık Bölümü öğretim<br>üyelerinin bulunduğu Proje Uygulama<br>Komisyonu kurulmuştur.|
-
 
 |Faaliyetin Yapıldığı<br>Birim|Mimarlık Fakültesi|
 |---|---|
@@ -48,7 +35,6 @@ olup 14 eylem gerçekleştirilmiştir.
 |**Kanıt Görseli**|<br>|
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Mimarlık Bölüm Başkanı|
 
-
 |Faaliyetin Yapıldığı<br>Birim|Mimarlık Fakültesi|
 |---|---|
 |**Bölüm/Alt Birim**|Mimarlık Bölümü|
@@ -58,7 +44,6 @@ olup 14 eylem gerçekleştirilmiştir.
 |**Gerçekleştirme**<br>**Açıklaması**|Mimarlık Bölümü öğrencileri tarafından hazırlanan 1919B012332866 numaralı  proje<br>TÜBİTAK 2209-A Üniversite Ögrencileri Arastırma Projeleri Destekleme Programı<br>2023 yılı 2. dönem kapsamında destek almaya hak kazanmıstır.|
 |**Kanıt Görseli**|<br>|
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Mimarlık Bölüm Başkanı|
-
 
 |Faaliyetin Yapıldığı<br>Birim|Mimarlık Fakültesi|
 |---|---|
@@ -70,7 +55,6 @@ olup 14 eylem gerçekleştirilmiştir.
 |**Kanıt Görseli**|<br> <br> <br> <br>|
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Mimarlık Bölüm Başkanı|
 
-
 |Faaliyetin Yapıldığı<br>Birim|Mimarlık Fakültesi|
 |---|---|
 |**Bölüm/Alt Birim**|Mimarlık Bölümü|
@@ -80,7 +64,6 @@ olup 14 eylem gerçekleştirilmiştir.
 |**Gerçekleştirme**<br>**Açıklaması**|23 Mayıs 2024 tarihinde Mimarlık Bölümü Staj Komisyonu tarafından öğrencilere<br>yönelik staj bilgilendirme toplantısı yapılmıştır.|
 |**Kanıt Görseli**|<br> <br>|
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Mimarlık Bölüm Başkanı|
-
 
 |Faaliyetin Yapıldığı<br>Birim|Mimarlık Fakültesi|
 |---|---|
@@ -92,7 +75,6 @@ olup 14 eylem gerçekleştirilmiştir.
 |**Kanıt Görseli**|<br> <br>|
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Mimarlık Bölüm Başkanı|
 
-
 |Faaliyetin Yapıldığı<br>Birim|Mimarlık Fakültesi|
 |---|---|
 |**Bölüm/Alt Birim**|Mimarlık Bölümü|
@@ -102,11 +84,9 @@ olup 14 eylem gerçekleştirilmiştir.
 |**Gerçekleştirme**<br>**Açıklaması**|Mimarlık Bölümü Eğitim-Öğretim Planında yapılması planlanan değişiklik<br>konusunda dış paydaş olarak Mimarlar Odası Niğde Temsilciliği ve Çevre, Şehircilik<br>ve İklim değişikliği İl Müdürlüğünden görüş alınmıştır.|
 |**Kanıt Görseli**|<br> <br> <br>|
 
-
 |Col1|Col2|
 |---|---|
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Mimarlık Bölüm Başkanı|
-
 
 |Faaliyetin Yapıldığı<br>Birim|Mimarlık Fakültesi|
 |---|---|
@@ -117,11 +97,9 @@ olup 14 eylem gerçekleştirilmiştir.
 |**Gerçekleştirme**<br>**Açıklaması**|Mimari Proje VIII dersi kapsamında NOHU Ağız ve Diş Sağlığı Merkezine teknik<br>gezi düzenlenmiştir.<br>Restorasyon ve Koruma İlkeleri dersleri kapsamında Niğde ilindeki tarihi yapıları<br>konu alan teknik gezi düzenlenmiştir.|
 |**Kanıt Görseli**|Mimari Proje VIII Teknik Gezisi:<br> <br> <br>|
 
-
 |Col1|Restorasyon ve Koruma İlkeleri Teknik Gezisi:|
 |---|---|
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Mimarlık Bölüm Başkanı|
-
 
 |Faaliyetin Yapıldığı<br>Birim|Mimarlık Fakültesi|
 |---|---|
@@ -133,32 +111,17 @@ olup 14 eylem gerçekleştirilmiştir.
 |**Kanıt Görseli**|<br>|
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Mimarlık Bölüm Başkanı|
 
-
-# **MİMARLIK FAKÜLTESİ** **PEYZAJ MİMARLIĞI BÖLÜMÜ** **2024 YILI EYLEM PLANI İZLEME RAPORU**
+ **MİMARLIK FAKÜLTESİ** **PEYZAJ MİMARLIĞI BÖLÜMÜ** **2024 YILI EYLEM PLANI İZLEME RAPORU**
 
 ## **Ocak 2025**
 
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 
-
 ## **2024 YILI EYLEM PLANI İZLEME RAPORU**
 
 Mimarlık Fakültesi Peyzaj Mimarlığı Bölümü 2024 Yılı Eylem Planında toplam 3 eylem planlanmış
 
-
 olup 2 eylem gerçekleştirilmiştir.
-
-
-
-
-
-
-
-
-
-
-
-
 
 |Col1|BİRİM EYLEM PLANI|Ocak|Şubat|Mart|Nisan|Mayıs|Haziran|Temmuz|Ağustos|Eylül|Ekim|Kasım|Aralık|
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -166,22 +129,9 @@ olup 2 eylem gerçekleştirilmiştir.
 |<br>2|Çift Anadal ve Yandal programlarının<br>açılmasına yönelik çalışmalar<br>yapılması<br>|||<br>|<br>|||<br>|<br>|||<br>**√ **||
 |3|Eğitim-öğretim programlarının<br>güncellenmesine yönelik yapılan<br>çalışmalar<br>|||<br>|<br>|||<br>|<br>||||<br>**√**|
 
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 
-
-
-
 ## **KALBİS KANIT FORMU**
-
-
-
-
-
-
-
-
-
 
 |Faaliyetin Yapıldığı<br>Birim|Mimarlık Fakültesi|
 |---|---|
@@ -193,21 +143,9 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 |**Kanıt Görseli**||
 |**Sisteme**<br>**Yükleyen/Sorumlu**|<br>Bölüm Başkanı|
 
-
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 
-
 ## **KALBİS KANIT FORMU**
-
-
-
-
-
-
-
-
-
 
 |Faaliyetin Yapıldığı<br>Birim|Mimarlık Fakültesi|
 |---|---|
@@ -219,21 +157,9 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 |**Kanıt Görseli**||
 |**Sisteme**<br>**Yükleyen/Sorumlu**|<br>Bölüm Başkanı|
 
-
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 
-
 ## **KALBİS KANIT FORMU**
-
-
-
-
-
-
-
-
-
 
 |Faaliyetin Yapıldığı<br>Birim|Mimarlık Fakültesi|
 |---|---|
@@ -245,23 +171,9 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 |**Kanıt Görseli**||
 |**Sisteme**<br>**Yükleyen/Sorumlu**|<br>Bölüm Başkanı|
 
-
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 
-
 ## **KALBİS KANIT FORMU**
-
-
-
-
-
-
-
-
-
-
-
 
 |Faaliyetin Yapıldığı<br>Birim|Mimarlık Fakültesi|
 |---|---|
@@ -273,21 +185,15 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 |**Kanıt Görseli**||
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Bölüm Başkanı|
 
-
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 
+ **MİMARLIK FAKÜLTESİ** **ŞEHİR ve BÖLGE PLANLAMA BÖLÜMÜ** **2024 YILI EYLEM PLANI İZLEME RAPORU** **2025**
 
-# **MİMARLIK FAKÜLTESİ** **ŞEHİR ve BÖLGE PLANLAMA BÖLÜMÜ** **2024 YILI EYLEM PLANI İZLEME RAPORU** **2025**
-
-
-# **2024 YILI EYLEM PLANI İZLEME RAPORU**
+ **2024 YILI EYLEM PLANI İZLEME RAPORU**
 
 Mimarlık Fakültesi Şehir ve Bölge Planlama 2024 Yılı Eylem Planı’nda toplam 16 eylem planlanmış olup
 
-
 tamamı gerçekleştirilmiştir.
-
 
 |BİRİM|PLANLANAN|GERÇEKLEŞTİRİLEN|
 |---|---|---|
@@ -295,15 +201,6 @@ tamamı gerçekleştirilmiştir.
 ||||
 ||||
 |**TOPLAM**|16|16|
-
-
-
-
-
-
-
-
-
 
 |Col1|Col2|Ocak|Şubat|Mart|Nisan|Mayıs|Haziran|Temmuz|Ağustos|Eylül|Ekim|Kasım|Aralık|
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -313,7 +210,6 @@ tamamı gerçekleştirilmiştir.
 |4|Bisiklet<br>kullanıcılarına<br>yönelik<br>trafikteki<br>kazaları<br>önlemek<br>için<br>otobüs<br>şoförlerinin<br>bilgilendirilmesine yönelik görüşme<br>yapılması|<br> <br> <br> <br>||||**√**||||||||
 |<br>5|Tarih ve kültürel miras alanlarına<br>yönelik<br>teknik<br>gezilerin<br>düzenlenmesi||||**√**|||||||||
 |6|Göç çalışmalarının teşvik edilmesine<br>yönelik<br>seminer<br>faaliyetinin<br>yapılması|||||**√**||||||||
-
 
 |7|SCI makale sayısını arttırmaya<br>yönelik makale yazılması ve<br>yayınlanması|Col3|√|Col5|Col6|Col7|Col8|Col9|Col10|Col11|Col12|Col13|Col14|
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -327,14 +223,7 @@ tamamı gerçekleştirilmiştir.
 |15|Bölüm bazlı çift anadal ve yandal<br>programlarının oluşturulması için<br>toplantıların yapılması|||**√**||**√**||||||||
 |16|Bölüme yeni başlayacak öğrencilere<br>oryantasyon<br>etkinliğinin<br>düzenlenmesi||<br>||||||||**√**|||
 
-
 ## **KALBİS KANIT FORMU**
-
-
-
-
-
-
 
 |Faaliyetin Yapıldığı<br>Birim|Mimarlık Fakültesi|
 |---|---|
@@ -346,17 +235,9 @@ tamamı gerçekleştirilmiştir.
 |**Kanıt Görseli**|<br> <br> <br>|
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Araş. Gör. Fatma Gül ERYILDIZ ŞENVARDAR|
 
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 
-
 ## **KALBİS KANIT FORMU**
-
-
-
-
-
-
 
 |Faaliyetin<br>Yapıldığı Birim|Mimarlık Fakültesi|
 |---|---|
@@ -368,17 +249,9 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 |**Kanıt Görseli**|<br> <br> <br>|
 |**Sisteme** <br>**Yükleyen/Sorumlu**|Araş. Gör. Fatma Gül ERYILDIZ ŞENVARDAR|
 
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 
-
 ## **KALBİS KANIT FORMU**
-
-
-
-
-
-
 
 |Faaliyetin Yapıldığı<br>Birim|Mimarlık Fakültesi|
 |---|---|
@@ -390,17 +263,9 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 |**Kanıt Görseli**|<br> <br> <br> <br> <br>|
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Arş. Gör. Şerife Betül GÜREL|
 
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 
-
 ## **KALBİS KANIT FORMU**
-
-
-
-
-
-
 
 |Faaliyetin Yapıldığı<br>Birim|Mimarlık Fakültesi|
 |---|---|
@@ -412,17 +277,9 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 |**Kanıt Görseli**|<br> <br> <br> <br> <br>|
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Arş. Gör. Şerife Betül GÜREL|
 
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 
-
 ## **KALBİS KANIT FORMU**
-
-
-
-
-
-
 
 |Faaliyetin Yapıldığı<br>Birim|Mimarlık Fakültesi|
 |---|---|
@@ -434,17 +291,9 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 |**Kanıt Görseli**|<br> <br> <br>|
 |**Sisteme** <br>**Yükleyen/Sorumlu**|Araş. Gör. Fatma Gül ERYILDIZ ŞENVARDAR|
 
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 
-
 ## **KALBİS KANIT FORMU**
-
-
-
-
-
-
 
 |Faaliyetin Yapıldığı<br>Birim|Mimarlık Fakültesi|
 |---|---|
@@ -456,9 +305,7 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 |**Kanıt Görseli**|<br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>|
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Arş. Gör. Şerife Betül GÜREL|
 
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
-
 
 ## **KALBİS KANIT FORMU**
 
@@ -472,10 +319,7 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 |**Kanıt Görseli**|<br> <br> <br>|
 |**Sisteme** <br>**Yükleyen/Sorumlu**|Araş. Gör. Fatma Gül ERYILDIZ ŞENVARDAR|
 
-
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
-
 
 ## **KALBİS KANIT FORMU**
 
@@ -489,18 +333,9 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 |**Kanıt Görseli**|<br> <br> <br>|
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Araş. Gör. Fatma Gül ERYILDIZ ŞENVARDAR|
 
-
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 
-
 ## **KALBİS KANIT FORMU**
-
-
-
-
-
-
 
 |Faaliyetin Yapıldığı<br>Birim|Mimarlık Fakültesi|
 |---|---|
@@ -512,9 +347,7 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 |**Kanıt Görseli**|<br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>|
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Arş. Gör. Şerife Betül GÜREL|
 
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
-
 
 ## **KALBİS KANIT FORMU**
 
@@ -528,18 +361,9 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 |**Kanıt Görseli**|<br> <br> <br> <br> <br>|
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Arş. Gör. Şerife Betül GÜREL|
 
-
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 
-
 ## **KALBİS KANIT FORMU**
-
-
-
-
-
-
 
 |Faaliyetin Yapıldığı<br>Birim|Mimarlık Fakültesi|
 |---|---|
@@ -551,17 +375,9 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 |**Kanıt Görseli**|<br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>|
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Arş. Gör. Şerife Betül GÜREL|
 
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 
-
 ## **KALBİS KANIT FORMU**
-
-
-
-
-
-
 
 |Faaliyetin Yapıldığı<br>Birim|Mimarlık Fakültesi|
 |---|---|
@@ -573,17 +389,9 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 |**Kanıt Görseli**|<br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>|
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Arş. Gör. Şerife Betül GÜREL|
 
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 
-
 ## **KALBİS KANIT FORMU**
-
-
-
-
-
-
 
 |Faaliyetin Yapıldığı<br>Birim|Mimarlık Fakültesi|
 |---|---|
@@ -595,9 +403,7 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 |**Kanıt Görseli**|<br> <br> <br>|
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Araş. Gör. Fatma Gül ERYILDIZ ŞENVARDAR|
 
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
-
 
 ## **KALBİS KANIT FORMU**
 
@@ -611,10 +417,7 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 |**Kanıt Görseli**|<br> <br> <br>|
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Araş. Gör. Fatma Gül ERYILDIZ ŞENVARDAR|
 
-
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
-
 
 ## **KALBİS KANIT FORMU**
 
@@ -628,63 +431,34 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 |**Kanıt Görseli**|<br> <br> <br>|
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Araş. Gör. Fatma Gül ERYILDIZ ŞENVARDAR|
 
-
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
-
 
 ## **KALBİS KANIT FORMU**
 
 Mimarlık Fakültesi
-
 
 SCI makale sayısını arttırmaya yönelik makale yazılması ve yayınlanması
 
-
 Gerçekleşti
-
-
-
-
 
 Araş. Gör. Fatma Gül ERYILDIZ ŞENVARDAR
 
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
-
 
 ## **KALBİS KANIT FORMU**
 
 Mimarlık Fakültesi
-
-
-
-
 
 Karar alma süreçlerine öğrencilerin katılımına yönelik bilgilendirme toplantılarının
 yapılması
 
-
-
 Gerçekleşti
-
-
-
-
 
 Araş. Gör. Fatma Gül ERYILDIZ ŞENVARDAR
 
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 
-
 ## **KALBİS KANIT FORMU**
-
-
-
-
-
-
 
 |Faaliyetin Yapıldığı<br>Birim|Mimarlık Fakültesi|
 |---|---|
@@ -696,17 +470,9 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 |**Kanıt Görseli**|<br> <br> <br>|
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Arş. Gör. Şerife Betül GÜREL|
 
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 
-
 ## **KALBİS KANIT FORMU**
-
-
-
-
-
-
 
 |Faaliyetin Yapıldığı<br>Birim|Mimarlık Fakültesi|
 |---|---|
@@ -718,17 +484,9 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 |**Kanıt Görseli**|<br> <br> <br>|
 |**Sisteme** <br>**Yükleyen/Sorumlu**|Araş. Gör. Fatma Gül ERYILDIZ ŞENVARDAR|
 
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 
-
 ## **KALBİS KANIT FORMU**
-
-
-
-
-
-
 
 |Faaliyetin Yapıldığı<br>Birim|Mimarlık Fakültesi|
 |---|---|
@@ -740,17 +498,9 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 |**Kanıt Görseli**|<br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>|
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Arş. Gör. Şerife Betül GÜREL|
 
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 
-
 ## **KALBİS KANIT FORMU**
-
-
-
-
-
-
 
 |Faaliyetin<br>Yapıldığı Birim|Mimarlık Fakültesi|
 |---|---|
@@ -762,17 +512,9 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 |**Kanıt Görseli**|<br> <br> <br>|
 |**Sisteme** <br>**Yükleyen/Sorumlu**|Araş. Gör. Fatma Gül ERYILDIZ ŞENVARDAR|
 
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 
-
 ## **KALBİS KANIT FORMU**
-
-
-
-
-
-
 
 |Faaliyetin Yapıldığı<br>Birim|Mimarlık Fakültesi|
 |---|---|
@@ -784,42 +526,22 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 |**Kanıt Görseli**|<br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>|
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Arş. Gör. Şerife Betül GÜREL|
 
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
-
 
 ## **KALBİS KANIT FORMU**
 
 Mimarlık Fakültesi
 
-
-
-
-
 Eğitim öğretim faaliyetlerinin geliştirilmesine yönelik bölüm akademik kurul toplantılarını
 yapılması
 
-
-
 Gerçekleşti
-
-
-
-
 
 Araş. Gör. Fatma Gül ERYILDIZ ŞENVARDAR
 
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 
-
 ## **KALBİS KANIT FORMU**
-
-
-
-
-
-
 
 |Faaliyetin Yapıldığı<br>Birim|Mimarlık Fakültesi|
 |---|---|
@@ -831,17 +553,9 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 |**Kanıt Görseli**|<br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>|
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Arş. Gör. Şerife Betül GÜREL|
 
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 
-
 ## **KALBİS KANIT FORMU**
-
-
-
-
-
-
 
 |Faaliyetin Yapıldığı<br>Birim|Mimarlık Fakültesi|
 |---|---|
@@ -853,17 +567,9 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 |**Kanıt Görseli**|<br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>|
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Arş. Gör. Şerife Betül GÜREL|
 
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 
-
 ## **KALBİS KANIT FORMU**
-
-
-
-
-
-
 
 |Faaliyetin Yapıldığı<br>Birim|Mimarlık Fakültesi|
 |---|---|
@@ -875,17 +581,9 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 |**Kanıt Görseli**|<br> <br> <br>|
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Araş. Gör. Fatma Gül ERYILDIZ ŞENVARDAR|
 
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 
-
 ## **KALBİS KANIT FORMU**
-
-
-
-
-
-
 
 |Faaliyetin Yapıldığı<br>Birim|Mimarlık Fakültesi|
 |---|---|
@@ -897,17 +595,9 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 |**Kanıt Görseli**|<br> <br> <br> <br>|
 |**Sisteme** <br>**Yükleyen/Sorumlu**|Araş. Gör. Fatma Gül ERYILDIZ ŞENVARDAR|
 
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 
-
 ## **KALBİS KANIT FORMU**
-
-
-
-
-
-
 
 |Faaliyetin Yapıldığı<br>Birim|Mimarlık Fakültesi|
 |---|---|
@@ -919,17 +609,9 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 |**Kanıt Görseli**|<br> <br> <br> <br> <br> <br>|
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Arş. Gör. Şerife Betül GÜREL|
 
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 
-
 ## **KALBİS KANIT FORMU**
-
-
-
-
-
-
 
 |Faaliyetin Yapıldığı<br>Birim|Mimarlık Fakültesi|
 |---|---|
@@ -941,17 +623,9 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 |**Kanıt Görseli**|<br> <br> <br>|
 |**Sisteme** <br>**Yükleyen/Sorumlu**|Araş. Gör. Fatma Gül ERYILDIZ ŞENVARDAR|
 
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 
-
 ## **KALBİS KANIT FORMU**
-
-
-
-
-
-
 
 |Faaliyetin Yapıldığı<br>Birim|Mimarlık Fakültesi|
 |---|---|
@@ -963,9 +637,7 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 |**Kanıt Görseli**|<br> <br> <br>|
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Araş. Gör. Fatma Gül ERYILDIZ ŞENVARDAR|
 
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
-
 
 ## **KALBİS KANIT FORMU**
 
@@ -979,8 +651,4 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 |**Kanıt Görseli**|<br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>|
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Arş. Gör. Şerife Betül GÜREL|
 
-
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
-
-

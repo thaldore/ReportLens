@@ -6,7 +6,7 @@ NİĞDE ÖMER HALİSDEMİR ÜNİVERSİTESİ
 DEKAN DANIŞMA KURULU TOPLANTI TUTANAĞI
 Toplantı Tarihi ve Saati 2412 2025-1430
 Toplantıya Katılanlar: Niğde Valiligi, Niğde Belediyesi, Niğde Serbest M
-Müşavirler Odası Başkanlığı, Ahiler Kalkınma Ajansı Niğde Yatinm Destek 
+Müşavirler Odası Başkanlığı, Ahiler Kalkınma Ajansı Niğde Yatinm Destek
 Sanayi Odası Yönetim Kurulu Başkanlığı, Türk Ocakları Niğde Şubesi Baş
 Öğrenci
 Toplantının Amacı: Fakültemiz bölümlerine ilişkin gelişmelerin takibi ve
@@ -22,13 +22,13 @@ başlamıştır. Dış paydaşlara Fakül ile ilgil güncel durum, ihiyaçlar ie
 Katılımcılar, kendi sektörlerinde
 paylaşmışlar ve taleplerin dil getirmişlerdir.
 Öne Çıkan Konular:
-+
+
 Dispaydaslar, öğrencilerin tork bilgilerinin
 yeterli olduğunu, ancakb
 yanstamadıklarına deginmislerdir. Bu nedenle öğrencilerin kariyer p
 Vizyonuna katkı sağlamaya yönelik üniversite ie sektöre işbirliklerin
 getirilmesi gerektiğini vurgulamışlardı.
-*
+
 Öğrencilerin staj olanaklarını artırmak için yeni projelerin başlatıl
 
 ---
@@ -45,7 +45,7 @@ birliğinin güçlendirilmesi gerektiği vurgulanmıştır.
 Öğrencilerin vizyonuna katkı sağlaması ve girişimcilik ruhunun geli
 mezun öğrencilerin ve iş dünyasından kişilerin öğrencilerle buluşması
 Sayısının, finansal kısıtlar da dikkate alınarak artırılması planlanmıştır.
-Toplantının — Kapanışı: o Toplantı,
+Toplantının  Kapanışı: o Toplantı,
 Dekanın
 katılımcılara
 teşekkür

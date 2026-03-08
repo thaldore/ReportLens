@@ -3,7 +3,7 @@
 sawb
 ia a
 i
-=
+
 =e
 2.
 ve
@@ -45,13 +45,13 @@ A
 Tülerik
 TET
 TK
-(Add. Liderlik ve Kalite |
+(Add. Liderlik ve Kalite 
 OLGUNLUK DÜZE
 74.13, Kurumsal dönüşüm kapasitesi a NiİNEN yxy
 AL. Lier ve Kale
 OLGUNLUK DÜZE
-ALA İç kalite güvencesimekanizmaları | 1
-| 2
+ALA İç kalite güvencesimekanizmaları  1
+ 2
 TAX
 AL. Liderlikve Kalite
 OLGUNLUK DÜZE
@@ -59,7 +59,7 @@ ALS Kamuoyunu Büğilendirme
 ve}
 1]
 2
-| 3]
+ 3]
 4
 hesap
 verebilirlik
@@ -72,11 +72,11 @@ A2. Misyon ve Stratejik Amaçlar
 
 Çep
 Misyon ve Sürk Amaçlar
-|
+
 OLGUNLUK D
 A.22. Siratejik amaç ve hedefler
 [7
-zs | 
+zs 
 TAE Miyom ve Sürk Amaçlar 7
 OLGUNLUKDÜZ
 az Performan ntni
@@ -85,7 +85,7 @@ JET
 A3. Yönetim Sistemleri
 ‘AG. Yönetim Sistemleri
 [eeDÜZ
-|
+
 i yöne
 sistent
 “Typ?
@@ -93,7 +93,7 @@ TNT
 432 İmsan kaynakları yönetimi
 ||?
 TEXT
-A3. Yönetim Sistemleri ©
+A3. Yönetim Sistemleri 
 OLGUNLUK DÜ
 7433 Finansal
 yönelim OUT
@@ -110,7 +110,7 @@ Ad Paydaş Katılımı
 A42. Öğrenci geri bildirimleri
 7 ?[*
 [Aa Payday Kata
-©
+
 OLGUNLUK DÜZ
 4.4.3, Mezun ilişkileri yönetimi
 N
@@ -136,11 +136,11 @@ TAS Uluslararasılaşma
 TT
 OLGUNLUK DÜZ
 [Astmlm
-|g |
+|g 
 Ta
-| panei
-|
-ASUlulararanlaşma |
+ panei
+
+ASUlulararanlaşma 
 OLGUNEUR DUZ
 4.5.2, Uluslararasılaşma kaynakları
 ry
@@ -153,7 +153,7 @@ OLGUNEUR DUZ
 TAE Claslararastagna peformanss
 TET wip
 B. EĞİTİM VE ÖĞRETİM
-Kurum, öğretim programların Türkiye Yükseköğretim Yeterlilikleri Çerçevesi ie 
+Kurum, öğretim programların Türkiye Yükseköğretim Yeterlilikleri Çerçevesi ie
 amaçlarına ve öğrenme çıktılarına uygun olrak tasarlmal, öğrencilerin ve toplu
 evap verdiğinden emin olmak içn perv larak değerlendirmelive güncellemeli
 Bl. Programların Tasarımı, Değerlendirmesi ve Güncellenmesi
@@ -174,31 +174,31 @@ B.1.3. Ders kazanımlarının program
 Try?
 3
 ‘chiara usu
-|
+
 Bi
 Programların.
-Tasarımı, |
+Tasarımı, 
 OLGUNLUK DÜZ
 Değerlendirilmesi ve Güncellenmesi
 RIA Öğrenci yüküne dayali er arm TE Tİ
 i
-—
+
 m
 TAProgramların
 Tasarımı,
 OLGUNLUK DÜZ
 Değerlendirilmesi ve Güncellenmesi
-(BLSProgramlann — izlenmesi ve
-| güncellenmesi
->
+(BLSProgramlann  izlenmesi ve
+ güncellenmesi
+
 [BA
 Programların ©Tasarımı,
 OLGUNLUK DÜZ
-| Değerlendirilmesi ve Güncellenmesi
+ Değerlendirilmesi ve Güncellenmesi
 TELA Eğitim ve öğreim
 süreçlerinin
 İTE
-TN |
+TN 
 i><
 İİ
 B2.
@@ -219,7 +219,7 @@ belirlemeli;
 ilan
 edilmiş karalar
 uygulamalıdır
-B2. © Programların © Yürütülmesi
+B2.  Programların  Yürütülmesi
 Öğrenci Merkezli Öğrenme, Öğretme
 OLGUNLUK DÜZ
 veDegerlendirme)
@@ -233,18 +233,18 @@ B.2.1. Öğretimyöntem ve teknikleri
 ## Sayfa 6
 
 BL.
-Programların © Yürütülmesi
-|
+Programların  Yürütülmesi
+
 SSS
 Öğrenci Merkezli Öğrenme, Öğretme
 OLGUNLUK DÜZ
 ve Değerlendirme)
--
+
 EZ
 Öğrenci kabul, önceki öğrenmenin yy
-| yg 
+ yg
 Ltanmmasivekredilendiiness
-©
+
 i
 BE
 Programların—
@@ -258,8 +258,8 @@ Veteriiklerinserifkalndinimawve|)||g
 lala
 Lu
 MN
-|} 
-|
+|}
+
 B3. Öğrenme Kaynakları ve Akademik Destek Hizmetleri
 Kurum, hedeflediği ntlikli mezun yeterliklerin ulaşmak ve eğtim- öğret
 yürütmek için uygun alyapıya,kaymaklr ve ortamlar sahip olmal ve öğren
@@ -270,10 +270,10 @@ mi
 çağ
 OLGUNLUK DÜZE
 Destek Hizmetleri
-B.3.1. Öğrenme ortam ve kaynakları |
+B.3.1. Öğrenme ortam ve kaynakları 
 1
-| 2
-| 3X T
+ 2
+ 3X T
 BS. Öğrenme Kaynakları ve Akademik|
 CUM
 URDI
@@ -285,15 +285,15 @@ B.3.2. Akademik destek hizmetleri,
 72
 ay a
 EN Öğrenme Kaynakları
-ve Akademik |
+ve Akademik 
 Bez
 OLGUNLUK DÜZE
 [Det Hizmetleri
 B33. Tesisvealyapiar
-arTET [
+arTET 
 3.ÖğrenmeKaynakları
 ve Akademik
-|
+
 me
 
 ---
@@ -307,31 +307,31 @@ Bal.
 Alama,
 yükselme
 ve
-|
+
 r[2ilaxl
 (BA. Öğretim Kadrosu
-|
+
 OLGUNLUKDÜZ
 BAZ Öğretim
 yerkinlikleri
 ve gelişimi
-| TT
+ TT
 TE TA
 BAÖğretim Kadrosu
-©
+
 OLGUNLUK DÜZ
 B.4.3. Eğitim faaliyetlerine yönelik teşvik
 T
 Şii
 faali
 yön
-»
+
 7
 2
 3
 C. ARAŞTIRMA
 VE GELİŞTİRME
-[CA Araşurma Süreçlerinin Yönetimi |
+[CA Araşurma Süreçlerinin Yönetimi 
 OLGUNLUKDÜZE
 
 ---
@@ -354,34 +354,34 @@ C.2 Araştırma Yetkinliği, İş birlikleri ve Destekler
 İş rükleri ve
 OLGUNLUK DÜZ
 Destekler
-“
-Gk Aryanyiveni |
-TETİK | 
-|
+
+Gk Aryanyiveni 
+TETİK 
+
 C2 Aragirma Vetkinii Isbirilerive
 OLGUNLUK DÜZE
 Destekler.
-|
+
 RK|
 7]
 2]
-ax] 
+ax]
 programlar
 ve orak aratrma birimleri
-|
+
 C3. Araştırma Performansı
-© OLGUNLUK DÜZE
+ OLGUNLUK DÜZE
 Cİ. Araştırmaperformansinin
-lenmesi e |
+lenmesi e 
 7
-?
+
 Dax
 iğrenme
 .C.3. Araştırma Performansı
 “OLGUNLUK DÜZ
 EZ Ojretinclemanvarayirmacs
-| 7 | 2
-| ax | 
+ 7  2
+ ax 
 elarmansınn
 değerlendirmesi
 D. TOPLUMSAL KATKI
@@ -394,17 +394,17 @@ Toplumsal
 Katkı
 Süreçlerinin
 Yönetimi
-ve — Toplumsal © Katkı
+ve  Toplumsal  Katkı
 OLGUNLUK DÜZ
 Kaynakları
--
+
 N
 Dhl Topluma kaksürelerinin
-yönetimi | 1 | ? | 3
+yönetimi  1    3
 Di
 Toplamsal
 Katia
-Süreçlerinin |
+Süreçlerinin 
 Tani
 lee
 OLGUNLUK DÜZ
@@ -413,15 +413,15 @@ OLGUNLUK DÜZ
 
 ## Sayfa 9
 
-| D2. Toplumsal Katkı Performansı
+ D2. Toplumsal Katkı Performansı
 OLGUNLUK DÜZ
 deme veemme!
 ee
 TT
-[
+
 N
-|
-Dr. Öğretim Üyesi Namık Aslan © LOM Z—
+
+Dr. Öğretim Üyesi Namık Aslan  LOM Z—
 Dr Öğretim Üyesi Gem Akay Ding
 Q\
 Dr. Öğretim Üyesi Kaya Yam (20

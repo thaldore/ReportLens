@@ -2,8 +2,8 @@
 
 iihlelk ie
 b
-‘ aie
-© AKRAN DEGERLENDIRME RAPORU 
+ aie
+ AKRAN DEGERLENDIRME RAPORU
 atk tea
 İİ ÖTÜRKDİLİ
 VE EDEBİYATI
@@ -11,7 +11,7 @@ KAİ
 pain Mehmet EKİZ
 4
 hed aoe amar DOĞAN
-:
+
 
 ---
 
@@ -25,7 +25,7 @@ ol ered
 i
 A alm ağammi
 is
-il ie me nz re yam 
+il ie me nz re yam
 Vk bikere
 PS
 Le ei [ny OEGUNLURDO
@@ -42,7 +42,7 @@ L
 ## Sayfa 3
 
 erikli
-|
+
 fs
 lag
 feb
@@ -52,8 +52,8 @@ Mites
 elf ar
 ae
 H
->
-.
+
+
 b
 ji
 7 OLGUNLUK D
@@ -63,8 +63,8 @@ ney)
 Şe
 3x
 EĞ
-KE EZ 
-:
+KE EZ
+
 eeeeee
 ağ
 i
@@ -76,13 +76,13 @@ Yametim Sgt)
 k
 Aen öl elem
 ob i tr oer
-|
+
 fe
 Sail
 u
-'
+
 Het
-,
+
 “OLGUNLUK
 ZLE
 eae ea
@@ -93,8 +93,8 @@ ti
 1
 Saari
 a
-:
-+
+
+
 TEE
 i
 İh
@@ -119,7 +119,7 @@ a
 dy
 e
 fieMN pee tH
-!
+
 P
 
 ---
@@ -128,19 +128,19 @@ P
 
 iri
 EH
-|
-.
+
+
 b
 eb
 e
-'
+
 ee
-| SORTED
+ SORTED
 AGE
 i
 Hee
 “Li
-ol esert |
+ol esert 
 Ml
 Seti
 para,
@@ -149,8 +149,8 @@ TARE
 Pp
 Karam, ülüslararağlaşma srtjisi
 ve" hödelri dograttusundssrepé
-!
-| expmizasyélel yaplahmasnı oluşuma ve sonuçlarımı periyodik 
+
+ expmizasyélel yaplahmasnı oluşuma ve sonuçlarımı periyodik
 il 0 mlm ayal
 TT TE T
 4
@@ -168,10 +168,10 @@ i
 ldommpm,vey
 i
 b mek etna
-,
+
 iiBre
 ffir,Değerlendirmesi
-ve Günelenmesi ©
+ve Günelenmesi 
 i
 in fon
 racer
@@ -182,17 +182,17 @@ OLGUNEURD
 
 ## Sayfa 6
 
-:
+
 i
 Ht
-:
+
 Ni
 ip
 Percent
 |rn
 |eee
-:
-i 
+
+i
 Se
 EME
 feeas ee
@@ -214,7 +214,7 @@ e
 
 My ue
 Leth ll
-| ii 
+ ii
 lax: ili
 Öğrenme, Öğretme
 i
@@ -227,28 +227,28 @@ i iz sözi mam
 1
 m
 alli ic apoe
-|
+
 e
 il
 1 Tt ALEM veAkca
 ikDes
 ung
-ve m; 
+ve m;
 4
-| yin, hedi
+ yin, hedi
 a,
 kaşar
 ee alıma a At
 oo iz zi
-:
-|
+
+
 ani
 e
 i eres
 mi oa
 ee
 E
-©
+
 est
 izi ekel
 si
@@ -268,8 +268,8 @@ HI
 iliie
 bee
 Lİ
-|
-:
+
+
 i
 “E
 pi
@@ -280,16 +280,16 @@ ERAT
 ENMNİI fey
 Hos
 TE
-|
+
 oe lal
 [___ OLGUNLUK Bü
 bio e
-ece |
-: a
+ece 
+ a
 İNME Ki İİ
 ‘OLGUNLUK DO
 oekr nae!
-alan e lr erp vk ve 
+alan e lr erp vk ve
 on enRl oeCrracem
 Beliğ ogre
  şonuların.
@@ -299,7 +299,7 @@ Se
 e
 aig
 Steere
-Vo | |
+Vo  
 4
 cat ee
 İml
@@ -315,11 +315,11 @@ TA?
 I: M
 Pon
 li
-:
+
 gu
 b
 e
-|
+
 celioomete
 ee aaaBEİ
 yon ine
@@ -348,5 +348,5 @@ Prof. Dr. Mehmet EKİZ,
 ledi
 Dr, Öğretim Üyesi Ahmet Selim BAYSAL,
 Ary. Gör, Dr. Emre KAYMAKÇI
-=
+
 Elemnur DOĞAN

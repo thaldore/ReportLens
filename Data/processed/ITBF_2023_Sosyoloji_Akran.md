@@ -2,7 +2,7 @@
 
 SN
 EY
-i >
+i 
 AKRAN DEĞERLENDİRME RAPORU
 ISOSYOLOJİ BÖLÜMÜ|
 [Dog. Dr. Demet OZKIR]
@@ -26,24 +26,24 @@ mali
 Ler
 ve Katte
 ALI. Yönetişim modeli
-ve idari yapı [7]? ]
+ve idari yapı [7]? 
 un mT oT
 a
 in ve an
 Sure oaaecle
 A.L, Liderlik
 ve Kalite
->
-OLGUNLUK 
+
+OLGUNLUK
 ALZ Liderlik
 T
 3
-—
+
 7
 xX
 zi e
 AL DE
-OTGENLUK 
+OTGENLUK
 lm
 LA E
 H
@@ -62,7 +62,7 @@ AI. Liderlik ve Kalite
 OLGUNLUK DÜ
 ALS. Kamuoyunu
 bilgilendirme
-ve |
+ve 
 1
 a
 
@@ -73,7 +73,7 @@ a
 ‘Az yon ve Strateik Amaglar
 OLGUNLUK DÜZ
 [aaa Siratjik ama ve hedefler
-°
+
 x
 Kuru Bürünen Gemi ve Falları il
 veb planyla yeruygalamaian varr
@@ -87,13 +87,13 @@ A3. Yönetim Sistemleri
 4.3.1, Bilgi yönetim sistemi
 7
 7
-H 
+H
 Kurum genelinde temel süreçleri (eğitim ve öğretim, araştırma
 ve geliştirme
 kalyövencesi)deseklyen emer bilgiyönetim
 istemiişemek.
 EEE
-1 TTP TE 
+1 TTP TE
 Kurumun genelinde insan kaynakları yönetimi doğrultusunda uygulamalar
 tygun bir çimde yörüülmektedr
 A3. Yönetim Sistemleri,
@@ -107,7 +107,7 @@ gerin rans Kayaların yönelme in uygulamalar tanım
 biçimde
 yürütülmektedir
 AZ Yanim Simleri
-OLGUNLUK 
+OLGUNLUK
 “AB. Süreç yönetimi
 LE
 IK,
@@ -127,7 +127,7 @@ sonu
 sürelerine yanstılmaktadı.
 "Aa. Payday Kats
 OLGUNLUK DÜZ
-—
+
 444.3, Mezun ilişkileri yönetimi
 Mezun eme sitemi uygulamaları zlenmelie ve hüyaşlar dogritusu
 güncellemeler yapılmaktadır.
@@ -171,14 +171,14 @@ B. EĞİTİM VE ÖĞRETİM
 Bi.
 Programların.
 Tasarımı,
-|
+
 OLGUNLUK DÜ
 Değerlendirmesi
 ve Güneelenmesi
 Mz Rapmrlriğimiemi—İTT
 TİZ
-|
-ix 
+
+ix
 Programlarda des dağılım dengesi izlenmek ve eşime.
 Bi. Programların. =|
 ~~ OLGUNLUK
@@ -191,7 +191,7 @@ TET
 L
 Der kazanımlarının program çıkılan uyumu ilenmekte ve işime
 Bi. Programların
-Tasarımı |
+Tasarımı 
 OLGUNLUK DÜ
 Değerlendirmesi
 ve Güncellenmesi
@@ -202,7 +202,7 @@ Tarım
 ‘OLGUNLUK DU
 Değerlendirlmes
 ve Güneslenmesi
-BIS__Prerenlane — lem
+BIS__Prerenlane  lem
 e
 PTs
 güncellenmesi
@@ -220,7 +220,7 @@ Tasarımı
 0:
 Değerlendirmesi
 ve Güncellenmesi
-ETE Em ve öğren ürer |
+ETE Em ve öğren ürer 
 7]
 7
 yüzen
@@ -249,7 +249,7 @@ Programların
 Yürütülmesi
 Öğrenci Merkezli Öğrenme, Öğretme
 OLGUNLUK DÜ
-| ve Değerlendirme)
+ ve Değerlendirme)
 _
 B22, Ölçme ve değerlendirme.
 TT
@@ -265,10 +265,10 @@ ve
 uygulamaları bulunmaktadır.
 [B2.
 Pralin
-Yürümesi |
-| (Öğrenci Merkezli Öğrenme, Öğretme
+Yürümesi 
+ (Öğrenci Merkezli Öğrenme, Öğretme
 OLGUNLUK DÜ
-| ve Değerlendirme)
+ ve Değerlendirme)
 EE
 Öğrenci
 kab önel öğrenmen
@@ -281,11 +281,11 @@ genelinde öğrenci Kabul, önceki öğrenmenin tanınması ve kredile
 planlar dahilinde uygulamalar bulunmaktadır.
 TEE
 Programların
-— Yürülülmesi
+ Yürülülmesi
 ——
-| Öğrenci Merkezli Öğrenme, Öğretme
+ Öğrenci Merkezli Öğrenme, Öğretme
 OLGUNLUK DÜ
-| ve Değerlendirme)
+ ve Değerlendirme)
 PO
 [REE erkein elaman
 79
@@ -304,9 +304,9 @@ Destek
 Hizmetleri
 B.3.1. Öğrenme ortam ve kaynakları
 7
-|
+
 2
-|
+
 3
 Öğrenme kaynaklarının geçilmesine ve kullanımına yönclk lemeve yile
 yapılmaktadır.
@@ -324,14 +324,14 @@ Destek
 
 B3. Öğrenme Kaynakları
 ve Akademik
-»
+
 OLGUNLUK DÜZ
 Destek Hizmetleri
-B34. Dezavantajlı gruplar | I 2
-[ >T
+B34. Dezavantajlı gruplar  I 2
+ >T
 ne
 im
-|
+
 —__|_X_|_
 Dezavantj gaplana etm olanların eşimin in uyalamalar yür
 1B
@@ -340,7 +340,7 @@ ve Akademik
 LR BE
 Destek Hizmetleri
 BES Sosyal kühürelporütmiyeer
-| 7
+ 7
 [2]
 3
 Sosyal,Ke ve apr alya mekanizmalı meki palatal
@@ -357,16 +357,16 @@ BAI,
 Atama, çük
 we}
 1]
-2? |
+2? 
 göreülendime ilerler
-Atama, yükseltme ve görevlendirme uygulamalarının sonuçları izlenmekte ve 
+Atama, yükseltme ve görevlendirme uygulamalarının sonuçları izlenmekte ve
 değerlendirerek
 önlemle alınmaktadır.
 BA,
 Öğretim Kadrosu
 ü
 B.4.2.Öğretimyetkinlikleri
-ve gelişimi [7 [? ]
+ve gelişimi [7 [? 
 3x
 Kuruman erene öğr erman ei Şekli geek ze
 B.A.
@@ -382,9 +382,9 @@ BAK
 Eğim
 fall
 yönel eş
-|
-|
-y |
+
+
+y 
 ve ödülendrme
 x
 “Teqvik
@@ -396,7 +396,7 @@ x
 Ci, Araştırma Süreçlerinin Yönetimi
 OEGUNLOR DUZ
 Kurumun genelinde araştırma süreçlerin yönetimi ve organizasyonel yapısı ku
-veAraştırma Kaynakları ©
+veAraştırma Kaynakları 
 Kurum araştırmave geliştirme kaynaklarını araştırma stratejisi ve birimler arası
 Kurumda araşlırma politikast, hedefleri ve siraejileri
 ile uyumlu ve de
@@ -407,7 +407,7 @@ a
 TEZ Araştırma Yetkinliği, İş birliklerive
 OLGUNLUK DÜ
 Destekler...
-—
+
 
 ---
 
@@ -425,19 +425,19 @@ ve Toplumsal Katkı Kayna
 Katla
 Süreçlerinin
 ww
-| Yönetimi ve
+ Yönetimi ve
 Toplumsal >Katkı
 OLGUNLUK DÜZ
 Kaynakları
 _
 Dul. Toplumsal
-katk süreçlerinin yönetimi | T
-| EL
+katk süreçlerinin yönetimi  T
+ EL
 Kurumun genelinde toplumsal Kalı süreçlerinin yönetimi ve organizasyon
 tercihler yönünde uygulanmaktadır.
 Di. Toplama
 Katla  Söreşlerinin|
->
+
 Yönetimi!
 “ve
 Toplumsal
@@ -453,7 +453,7 @@ D2. Toplumsal Katkı Performansı
 Kurum,
 toplumsal kal sais ve heder doğrultusunda yürürü felipe
 ölemeli ve sürekli iyileştrmelii.
-/ 52. Toplumsal Katha Performansı
+ 52. Toplumsal Katha Performansı
 OLGUNLUK DÜ
 DZLTaplamsal
 batts peğermamn 7]

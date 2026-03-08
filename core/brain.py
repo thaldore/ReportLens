@@ -207,10 +207,10 @@ class QualityBrain:
         birim_full = self._get_birim_full_name(birim)
         
         criteria_analyses = []
-        for criterion_id, info in Config.RUBRIC_CRITERIA.items():
+        for criterion_id, criterion_desc in Config.RUBRIC_CRITERIA.items():
             logger.info(f"  ⏳ Kriter analiz ediliyor: {criterion_id}")
             context = self.vector_store.search(
-                f"{info['title']} {info['desc']}", 
+                f"{criterion_id} {criterion_desc}", 
                 birim=birim, 
                 yil=yil, 
                 k=Config.MAX_CONTEXT_CHUNKS
@@ -218,14 +218,14 @@ class QualityBrain:
             
             prompt = (
                 f"Birim: {birim_full} ({birim})\nYıl: {yil if yil else 'Tümü'}\n"
-                f"Kalite Kriteri: {info['title']}\n"
-                f"Açıklama: {info['desc']}\n\n"
+                f"Kalite Kriteri: {criterion_id}\n"
+                f"Açıklama: {criterion_desc}\n\n"
                 f"Veri Bağlamı:\n{context}\n\n"
                 "GÖREV: Bu kriter için Güçlü Yanlar ve Gelişim Alanlarını somut verilerle analiz et."
             )
             response = self.analyzer.run(prompt)
             # Uzun analizleri özetleyerek sentez ajanına gönder (Context overflow önlemi)
-            criteria_analyses.append(f"### {info['title']}\n{response.content[:2000]}")
+            criteria_analyses.append(f"### {criterion_id}\n{response.content[:2000]}")
 
         # 2. Sentez Raporu Oluştur (Report Writer)
         logger.info(f"  📝 {birim} için rapor sentezleniyor...")

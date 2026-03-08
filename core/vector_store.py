@@ -50,10 +50,14 @@ class VectorStore:
 
     def _ensure_collection(self):
         """Koleksiyonun var olduğundan emin olur, yoksa oluşturur."""
-        collections = self.client.get_collections().collections
-        exists = any(c.name == self.collection_name for c in collections)
-
-        if not exists:
+        try:
+            # Doğrudan kontrol (exists check yerine get_collection daha güvenilirdir)
+            self.client.get_collection(self.collection_name)
+            return
+        except Exception:
+            logger.info(f"Koleksiyon bulunamadı, oluşturuluyor: {self.collection_name}")
+            
+            # Vektör boyutunu tespit et (EMBEDDING_MODEL'e göre)
             test_embedding = self.embeddings.embed_query("test")
             vector_size = len(test_embedding)
 
@@ -110,6 +114,9 @@ class VectorStore:
         """Markdown dosyalarını indeksler. Artımlı indeksleme destekler.
         Returns: İndekslenen toplam chunk sayısı.
         """
+        # Koleksiyonun varlığından emin ol (özellikle force_reprocess sonrası için kritik)
+        self._ensure_collection()
+        
         md_files = list(Config.PROCESSED_DATA_DIR.glob("**/*.md"))
 
         if not md_files:

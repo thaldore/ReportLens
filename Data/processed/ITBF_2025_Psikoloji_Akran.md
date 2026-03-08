@@ -16,7 +16,7 @@ Arş. Gör, Dr. Ayberk KURTGEL
 A. LİDERLİK, YÖNETİŞİM VE KALİTE
 Kurumun, sratjik yönetim sürecinin bir parçası olarak kale güvencesi po
 politikaları hayata geçirmek zere sratileini nas belirlediğim, pyuldığın l
-ral bileşirdiğine ilişkin yöntemini bu kisomda anlaması beklenmelidir. 
+ral bileşirdiğine ilişkin yöntemini bu kisomda anlaması beklenmelidir.
 paydaşların kale gönencesi sistemine katılmım
 ve kalı vermesin’ Sağ
 hulararaslaşma statist ve hedefleri doğrultusunda yürümğü cl yelriperiyo
@@ -37,14 +37,14 @@ Coe
 x
 Kurumun yönetişim modeli veorganizasyonel yapılanması birim ve alanların ge
 şekilde faaliyet göstermektedir.
-[ A. Liderlik ve Kalite
+ A. Liderlik ve Kalite
 T
 OLGUNLUK DÜZ
 ALZ Liderlik
-| T
-?
+ T
+
 IT
-|
+
 xX
 Kurumun
 geneline yayılmış kalite güvencesi sitemi ve kültürünün gelişimini
@@ -53,12 +53,12 @@ liderlik uygulamaları bulunmaktadır.
 OLGUNLUK DÜ
 74.13.
 Kurumsal dönüşüm kapasitesi
-|
+
 7
 7
 3
 x
-Kurumda değişim yOnetimi yaklaşımı kurumun geneline Yayılmış Ve 
+Kurumda değişim yOnetimi yaklaşımı kurumun geneline Yayılmış Ve
 yürütülmektedir.
 ‘All. Liderlik
 veKale
@@ -75,7 +75,7 @@ ve Kale
 TO olsünkü
 pez
 ALS.
-Kamuoyunu bilgilendirme ve | 1
+Kamuoyunu bilgilendirme ve  1
 2773
 (hesap
 
@@ -86,7 +86,7 @@ Kamuoyunu bilgilendirme ve | 1
 EE Misyonve Stratejik Amaçlar.
 OLGUNLUK DÜ
 A22. Siratejik amaç ve hedefler
-|
+
 TT TE
 a
 —|__| _
@@ -99,18 +99,18 @@ OLGUNLUK DÜ
 ‘A2.3. Performans yönetimi
 TT]?
 TİT
-—
+
 —İ
 x
 Kurumun genelin yayılmış palm önümü yalama bakidir
 A3, Yönetim Sitemleri
 Kurun, rk heee ulaşmayı nik ve nicelik olark güvence alna
 ali, eive bgkaymaklr ilesree yönetmek Üzer birseme sahip
-| A3. Yönetim Sistemleri
+ A3. Yönetim Sistemleri
 T
 OLGUNLUK DÜZ
 mmm ——3131
-| ASL. Bilgi yönetim sistemi
+ ASL. Bilgi yönetim sistemi
 7
 2
 3
@@ -120,7 +120,7 @@ kale güvencesi destekleyen emer bigi yönetim itemİşledi
 OLGUNLUK DÜZ
 442 sankayla
 OT TB
-Kurumun genelinde insan kaynakları yönetimi doğrultusunda uygulamalar 
+Kurumun genelinde insan kaynakları yönetimi doğrultusunda uygulamalar
 uygun bir Biçimde yürümek
 A3. Yönetim Sistemleri
 OLGUNLUK DÜZ
@@ -147,7 +147,7 @@ OLGUNLUK BÖ
 ‘A42, Öğrenci geri bildirimleri
 7]?
 Tİ
-—
+
 x_|
 Tüm programlarda Öğrenci geri Bllrimlrinin alınmasına ilişkin uygulama
 Öğrenci katılımına dayalı biçimde iyleşirilmektedir.
@@ -156,12 +156,12 @@ bildirim
 sonu
 süreçlerine yansiulmaktadr
 AA, Payday Katılımı
-©
+
 OLGUNLUK DÜ
-| 4d Mecenisieriyinind TT
+ 4d Mecenisieriyinind TT
 Mezun
 izlem
-‘
+
 do
 ezun İzleme Sistemi uygulamalar izlenmekte ve iiyaşlar doğrüllü
 güncellemeler yapılmaktadır.
@@ -182,7 +182,7 @@ sorularını
 periyodik
 değerlendirmeldir
 A Ülararaılaşıma
-|
+
 maustextz
 ASI. Uslararastagmasirecerinn
 ÇİŞ
@@ -217,15 +217,15 @@ B. EĞİTİM VE ÖĞRETİM
 Programların anımı|
 OLGUNLUR D
 Değerlendirilmesi ve Güncellenmesi
-| B12. Progaman dedim desi TTT
+ B12. Progaman dedim desi TTT
 gin
 İSekeee
-x | |
+x  
 1
 Programlarda ders dağılım. dengesi izlenmekte ve iyileştirilmektedir.
 [BA Programlarım
 Tasaram| ~~ OLGUNEUK DO
-{ Değerlendirilmesi ve Güncellenmesi,
+ Değerlendirilmesi ve Güncellenmesi,
 KD amman program İT
 2
 I
@@ -238,19 +238,19 @@ Değerlendirilmesi
 ve Güncellenmesi
 ELA Öğren yüküne aya ders sarım TE
 O.
-—
-|
+
+
 X
-|
+
 1
 Programlarda öğrenci iş yükü emmek ve ban göre des tsar glncellea
 Bi.
 Programların
-Tasarımı | OZGÜNLUKDÜ
+Tasarımı  OZGÜNLUKDÜ
 Deerlendirilmesi
 ve Güncellenmesi
 (RIS
-Programların — lenmesi
+Programların  lenmesi
 ve İTE
 Süncelenmesi
 İki (*(*
@@ -262,7 +262,7 @@ ve gürce
 mekanizmalar işletilmektedir
 BA. Programların
 Tasarımı
-|
+
 OLGUNLUK DÜZ
 Değerlendirilmesi
 ve Güncellenmesi
@@ -288,27 +288,27 @@ yetkinlik temelli öğretim, ölme ve değerlendirme yönemlerii uygulamalıdır
 ## Sayfa 6
 
 7BZ.© Programların
-— ürütülme
+ ürütülme
 (Öğrenci
 Merkezli Öğrenme, Öğretme
 OLGUNLUK D
 ve Değerlendirme).
 İ22 Okme edeğeimüirme
-TET 
+TET
 eee
 Lx
 Programların genelinde öğrenci
 merkezli
 ve  Çeşilendirimi
-ölçme 
+ölçme
 uygulamaları bulunmaktadır.
 Ni
 B2. Programların Yürüme|
-|
+
 Öğrenci Merkezli Öğrenme, Öğrenme
 OLGUNLUK DÜ
-| ve Değerlendirme)
-82.3. Öğrenci kabul, öncel öğrenmenin |
+ ve Değerlendirme)
+82.3. Öğrenci kabul, öncel öğrenmenin 
 775757
 tanınması vekrediendirilmesi
 zl?)
@@ -317,12 +317,12 @@ planla dahilinde uyarlamalar bulunmaktadır
 EE
 Programların
 Yürütülmesi|
-—
+
 (Öğrenci
 Merkezli Öğrenme, Öğretme
 OLGUNLUK DÜ
-| ve Değerlendirme)
-| 0
+ ve Değerlendirme)
+ 0
 224 lele slime
 7 TET
 ao
@@ -334,11 +334,11 @@ Yürümek için uygun yapıya, kaymalar ve ortamlar sahip olmal ve Oğre
 üm öğrenciler şi yeterli ve erişilebilir olmasın güvence alına almalıdır. Ku
 akademik gelişimi ve kariyer planlamasına yönelik desek hizmetleri sağlamalıd
 TESÖğrenmeKaymaklan veAkademik
--
-™
+
+
 OLGUNLUK DÜZ
 Destek Hizmetleri,
-|
+
 "B31. Öğrenme
 ortam ve kaynakları
 TT IE
@@ -360,11 +360,11 @@ ve Akademik
 Destek
 Hizmetleri
 OLGUNLUK DÜ
-| Ba Devamı
+ Ba Devamı
 raylar
 a
 |x
-di 
+di
 Pezavantajt
 gruplarıniin olanaklarına erişimine iin gamalı Şürü
 BS. Öğrenme Kaynakları
@@ -372,10 +372,10 @@ ve Akademik
 orcun D
 Destek
 Hizmetleri
-|
-OLGUNLUK 
+
+OLGUNLUK
 (83 sopalar ir
-| 2) Fs
+ 2) Fs
 LL.
 _
 —X
@@ -389,7 +389,7 @@ igi öm süreçlerde adil ve aşık olmalıdır. Hedelncn nitelikli mezun yeterl
 amacıyla, öğretm elemanların eğitim-öğretim yetkinliklerini sürekli gelm
 sunmalıdır.
 TA Öğretim Kadrosu
-|
+
 eteuxtex poz
 BEL, Alama, yükselme ve
 ET
@@ -402,9 +402,9 @@ OLGUNLUK DÜZ
 B42, Öğreimyine
 vegelişimi
 TE TE
--
+
 İİ
-İKİ |
+İKİ 
 Kurumun
 genelinde öğretim elemanlarının öğretim yetkinliğini Glişürmek üzer
 vardır
@@ -427,7 +427,7 @@ Gİ. Araştırma Süreçlerinin Yönetimi ve Araştırma Kaynakları
 CL Araştırma Süreçlerinin Yöncümü
 LGUNLA
 GA. Araştırma süreçlerinin yönetimi
-/
+
 237
 L
 MER
@@ -435,7 +435,7 @@ yönün
 gn eagua ürer önemi ve oganizasjonel Şap K
 yönünde
 uygulanmaktadır
-| Gl. Araşürma Sireslerinn Yönünü
+ Gl. Araşürma Sireslerinn Yönünü
 UNLU D
 İl
 OLGUNLUK
@@ -448,23 +448,23 @@ yaam
 veeme aym
 arama ve rm am
 yönetmektedir.
-| C1.Araştırma Süreçlerinin Yönetimi 7 OLGUNLUK DÜ
+ C1.Araştırma Süreçlerinin Yönetimi 7 OLGUNLUK DÜ
 se Araştırma Kaynakları
-|
+
 (CLS. Dokur programları
 ve ölür
 T
 sr tn
 İTE EN
-|
-|
+
+
 bam aim polis. deeri ve siniri e ojala ve e
 programları ve doktora sonrası imkanlar yürütülmektedir
 (C2 Araştırma Yetkinliği, İş birlikleri veDestekler
-| C2 Araştırma Yetkinliği, İş birikleri ve | OLGUNLUK DÜ
+ C2 Araştırma Yetkinliği, İş birikleri ve  OLGUNLUK DÜ
 er 0|
 OR
-|
+
 C21, Araştırma yetkinlikleri ve gelişimi
 My
 2
@@ -474,15 +474,15 @@ izlenmekte
 ve izlem sonuçları öğretim elemanlar
 ile bilikte değerlend
 alınmaktadır
-C2 Araştırma Yetkinliği, İşbirlikleri ve | Girik BÖ
+C2 Araştırma Yetkinliği, İşbirlikleri ve  Girik BÖ
 Destekler
-|
+
 C22,
 Ulusal
 ve
 uluslararsı
 ortak
-|
+
 a
 2
 3
@@ -506,18 +506,18 @@ P-L. Toplumsal Katkı Süreçlerinin Yönetimi
 ve Toplumsal Kathe Keya
 DA.
 Toplumsal KatlaSürelerinin
-|
+
 [Fiena
 Toplumsal
 Katkı
 OLGUNLUK DÜ
-| Kaynakları
+ Kaynakları
 e
-|
+
 Dill. Toplumsal katı süreçlerinin yönetimi
-| <I]
+ <I]
 2
-| EE
+ EE
 Karum
 genelinde pla Tak slain önüm We onic yon
 tercihler yönünde uygulanmaktadır.
@@ -526,12 +526,12 @@ Toplumsal
 “Katkı
 Süreçlerinin|
 Yönetimi
-ve o Toplumsal © Katkı
+ve o Toplumsal  Katkı
 OLGUNLUK DÜ
 Kaynakları
 i
-=
--
+
+
 DL. Kaynaklar
 TT?
 73s
@@ -542,14 +542,14 @@ yönetmektedir
 D2. Toplumsal Katkı Performansı
 Kurum. toplumsal kak statis ve hedefleri doğrultusunda yürümüğü fete
 örlemeli vesürekli iileşirmeldir
-| DzTopluma
+ DzTopluma
 Kath Pararmamı
-|
+
 OLGUNLUKBO
 EZToplama hats performansnn
 ET
 ‘clenmest ve değerlendirmesi
-|
+
 N
 Kurumun
 genelinde toplumsal Kats performansını izlenmek ve değerlendirmek

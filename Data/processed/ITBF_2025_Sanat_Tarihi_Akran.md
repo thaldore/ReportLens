@@ -2,7 +2,7 @@
 
 j
 is
-> >
+ 
 AKRAN DEĞERLENDİRME RAPORU
 SANAT TARİHİ
 Değerlendirme Komisyonu
@@ -33,13 +33,13 @@ katkı
 vermesini
 sağlama
 halaarasılaşma reisi ve hedefleri doğrulnsunda yard
-fliyeleri periyod 
+fliyeleri periyod
 e sürekli iletirmelidi
 Al. Liderlik ve Kalite
 Kurum, kurumsal dönüşümünü sağlayacak yönetişim
 modeline sahip olmal,
 fi
-‘ypu, i alte güvence mekanizmaların oluştur ve kalitegence kürünü 
+‘ypu, i alte güvence mekanizmaların oluştur ve kalitegence kürünü
 TAI Tüderlk veKale
 OLGUNLUKDÜZE
 ALI Yönetişim model
@@ -59,7 +59,7 @@ TT
 TE
 x
 A. Lierlkve Kale
-ALA İç halitegüvencesi mekanizmaları |
+ALA İç halitegüvencesi mekanizmaları 
 7
 77s
 [AL
@@ -67,9 +67,9 @@ Liderlik
 ve Kal
 OLGUNLUKDÜ
 ALS. Kamuoyunu bilgilendirme
-we | 1
+we  1
 [2
-|
+
 3]
 
 ---
@@ -91,19 +91,19 @@ z
 V
 4.23. Performansyönetimi
 ilali
-|
+
 kaman
-| 4.3.1. Bilgi yönetim sistemi
+ 4.3.1. Bilgi yönetim sistemi
 7
 2
 3
-|
+
 A3. Yönetim Sistemleri
 OLGUNLUK DÜZE
 4.12. Tasan kaynaklarıyönetimi
 TT]?
 İET
-|
+
 
 ---
 
@@ -116,7 +116,7 @@ OLGUNLUK DÜZEY
 A4. Paydaş Katılımı
 AA. İç ve dış paydaş katılımı
 3
-‘
+
 "hk Payday Kets
 OLGUNLUKDÜZE
 A4.2 Öğrenci geri bildirimleri
@@ -128,7 +128,7 @@ L
 2
 3
 q
-;
+
 (AS.1. Uluslararasılaşma süreçlerinin.
 2
 3
@@ -162,7 +162,7 @@ TS
 T
 Bi,
 Programların
-Tasarımı, | OLGUNLURDUZEY
+Tasarımı,  OLGUNLURDUZEY
 Değerlendirilmesi ve Güncellenmesi
 ELE Programın ders dağılımdr
 7
@@ -177,7 +177,7 @@ ET Der kazananların program
 TT
 ST
 çaktılarıyla uyumu.
-|
+
 <<
 İ
 BA.
@@ -198,7 +198,7 @@ OLGUNLUK DÜZEY
 Değerlendirmesi
 ve Güncelermesi
 B.1.5.
-Programların © izlenmesi
+Programların  izlenmesi
 O ve
 7
 2
@@ -210,7 +210,7 @@ Programların
 Tasarımı,
 OLGUNLUK DÜZEY
 Değerlendirilmesi ve Güncellenmesi.
-|
+
 FER,
 B.2.
 Programların
@@ -235,7 +235,7 @@ Se Dağarndie)
 B2.
 Programların.
 Yürütülmesi
-~
+
 
 ---
 
@@ -243,8 +243,8 @@ Yürütülmesi
 
 (Öğrenci Merkezli Öğrenme, Öğretme
 OLGUNLUK DÜZEY
-224 Yetrilerinsertiklandırimanve | 5 | 2 | a
-| 4
+224 Yetrilerinsertiklandırimanve  5  2  a
+ 4
 B.3. Öğrenme Kaynakları ve Akademik Destek Hizmetleri
 5
 LL Öğrenme ortam ve kaynakları
@@ -253,7 +253,7 @@ A
 7B3. Öğrenme Kaynakları
 ve Akademik
 pa
-Dü; 
+Dü;
 Destek Hizmetleri,
 FONG
 Se
@@ -265,7 +265,7 @@ ve
 ‘BS.Öğrenme Kaynakları
 ve Akademik
 Sicil
-ya 
+ya
 Destek Hizmetleri
 NLUKDÜZETİ
 
@@ -283,14 +283,14 @@ Bal.
 ama,
 yle
 ve
-|
+
 ST
 görevlendirme krierlri
 "BAS. Eğimaneen
-yönel eşe |
+yönel eşe 
 TE
 TİÇ
-| ve ödüllendirme
+ ve ödüllendirme
 x
 C. ARASTIRMA VE GELISTIRME
 Kurumun aratrma sürecinin değerlendirmesnin yapılmaı beklenmektedir. Ara
@@ -314,7 +314,7 @@ Se kaşınma Kaynakları
 G13.
 Doktora programları
 ve doktora
-|
+
 u
 2
 3
@@ -350,10 +350,10 @@ ve orakaşırma birimleri
 3. Araştırma Performansı
 OLGUNLUK DÜZEY
 C3. Aras Performan
-C31. Araştırma performansının izlenmesive | 1 | 2 | 3 | 4
+C31. Araştırma performansının izlenmesive  1  2  3  4
 ‘eterna
 .C.3. Araştırma Performansı
-©
+
 OLGUNLUK DÜZEY
 3.2 Öğretim elemandarastirmact
 alalal?
@@ -377,25 +377,25 @@ Kada
 Süreçlerinin
 Yönetimi
 ve
-Toplumsal © Katkı
+Toplumsal  Katkı
 OLGUNLUK DÜZ
-|
+
 DLL Toplumsal arısüreçlerinin
-yönetimi | 1 | 2 | 8
-|
+yönetimi  1  2  8
+
 Da Toplumeal
-Karla Süreçlerinin |
+Karla Süreçlerinin 
 mm
 Yönetimi
 ve
-Toplumsal © Katkı
+Toplumsal  Katkı
 OLGUNLUK DÜZ
 Kaynakları
 7
 TJ
 x|
-|
-|
+
+
 D2. Toplumsal Katkı Performan
 Karum, toplami katkı Sratejsi ve bedelleri doğrultusunda yürünüğü faliyleri
 leme ve sürekli yileimeldir
@@ -404,7 +404,7 @@ OLGUNLUK DÜZ
 D.21.Toplumsal
 katkı
 performansının
-|
+
 713i
 İzlenmesi ve değerlendirmesi
 x

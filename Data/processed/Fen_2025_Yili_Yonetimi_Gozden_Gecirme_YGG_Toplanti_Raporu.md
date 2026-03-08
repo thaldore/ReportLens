@@ -1,43 +1,28 @@
 **YÖNETİM GÖZDEN GEÇİRME (YGG) TOPLANTI RAPORU-2025**
 
-
-
-
-
 |YGG DÖNEMİ 2025 Yılı|Col2|
 |---|---|
 |**BİRİM YGG TOPLANTI TARİHİ**<br>-|**BİRİM YGG TOPLANTI TARİHİ**<br>-|
 |**YGG TOPLANTI KATILIMCILARI**|Dekan V. Prof. Dr. Orhan YALÇIN<br>Dekan Yardımcısı Prof. Dr. Yavuz SÜRME<br>Dekan Yardımcısı Dr. Öğr. Üyesi Aliye KAHYAOĞLU|
 
-
 **GİRİŞ**
-
 
 **Amaç:** Üniversitemiz kalite çalışmaları kapsamında birimlerimizin Yönetim Gözden Geçirme
 
 (YGG) toplantılarını yapmak ve YGG raporunu hazırlamaktır.
 
-
 **Kapsam:** YGG rapor dönemi 01.01.2025-31.12.2025 tarihleri ile akademik ve idari birimlerin
 
 tamamını kapsar.
-
 
 **Hedefler:** Kalite güvence sistemi kapsamında, birimlerimizin ve üniversitemizin performans
 
 sonuçlarını ortaya koymak, analiz etmek ve bu analizler doğrultusunda iyileştirme hedeflerini
 net bir şekilde tanımlamaktır.
 
-
 **1.** **Kalite Yönetim Sistemi ile İlgili İç ve Dış Hususlardaki Değişimler**
 
 **(Eğitim ve Öğretim/Liderlik, Yönetim ve Kalite)**
-
-
-
-
-
-
 
 |Değişim Alanları 2024 2025 Bir Önceki Yıla Göre Değişim<br>Oranı|Col2|Col3|Col4|
 |---|---|---|---|
@@ -52,65 +37,37 @@ net bir şekilde tanımlamaktır.
 |Program Sayısı<br>5<br>5<br>-|Program Sayısı<br>5<br>5<br>-|Program Sayısı<br>5<br>5<br>-|Program Sayısı<br>5<br>5<br>-|
 |Akred൴te Olan Program Sayısı|-|-|-|
 
-
 **İyileştirme Faaliyetleri**
-
 
 **2.** **Paydaş Memnuniyeti ve İlgili Taraflardan Gelen Geri Bildirimler**
 
 **(Liderlik, Yönetim ve Kalite)**
-
 
 |Öğrenci Memnuniyet Oranı|Col2|Col3|
 |---|---|---|
 |**2024**<br>**2025**<br>**Bir Önceki Yıla Göre Değişim Oranı**|**2024**<br>**2025**<br>**Bir Önceki Yıla Göre Değişim Oranı**|**2024**<br>**2025**<br>**Bir Önceki Yıla Göre Değişim Oranı**|
 |**- **|**%72,5**|**- **|
 
-
-
-
-
-
 |Çalışan Memnuniyet Oranı (Varsa)|Col2|Col3|
 |---|---|---|
 |**2024**<br>**2025**<br>**Bir Önceki Yıla Göre Değişim Oranı**|**2024**<br>**2025**<br>**Bir Önceki Yıla Göre Değişim Oranı**|**2024**<br>**2025**<br>**Bir Önceki Yıla Göre Değişim Oranı**|
 |**- **|**İdari çalışan**<br>**memnuniyet oranı:**<br>**%77,85**|**- **|
-
 
 |Dış Paydaş (Mezun/Danışma Kurulu…) Memnuniyet Anketi Uygulanma Durumu (Uygulandı/Uygulanmadı)|Col2|
 |---|---|
 |**2024**<br>**2025**|**2024**<br>**2025**|
 |**- **|**Matematik Bölümü-Fizik Bölümü**<br>**uygunlandı. Biyoloji, Biyoteknoloji, Kimya**<br>**Bölümünde uygulanmadı.**|
 
-
 |Paydaş Memnuniyeti İçin Gerçekleştirilen Toplantı Sayısı|Col2|
 |---|---|
 |**2024**<br>**2025**|**2024**<br>**2025**|
 |**11**|**12**|
 
-
 **İyileştirme Faaliyetleri**
-
 
 **3.** **Öğrenci Memnuniyeti ve İlgili Taraflardan Gelen Geri Bildirimler**
 
 **(Eğitim ve Öğretim/Liderlik, Yönetim ve Kalite)**
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 |Bildirim Türü 2024 2025 Bir Önceki Yıla Göre Değişim Oranı|Col2|Col3|Col4|
 |---|---|---|---|
@@ -119,23 +76,9 @@ net bir şekilde tanımlamaktır.
 |Danışman-Öğrenci Toplantısı<br>Sayısı<br> 20<br>59<br>%195<br>Aktif Danışmanlık Toplantı Sayısı21<br>24<br>%14,28|Danışman-Öğrenci Toplantısı<br>Sayısı<br> 20<br>59<br>%195<br>Aktif Danışmanlık Toplantı Sayısı21<br>24<br>%14,28|Danışman-Öğrenci Toplantısı<br>Sayısı<br> 20<br>59<br>%195<br>Aktif Danışmanlık Toplantı Sayısı21<br>24<br>%14,28|Danışman-Öğrenci Toplantısı<br>Sayısı<br> 20<br>59<br>%195<br>Aktif Danışmanlık Toplantı Sayısı21<br>24<br>%14,28|
 |**TOPLAM**|844|687||
 
-
 **İyileştirme Faaliyetleri**
 
-
 **4.** **Bilimsel/Sanatsal Faaliyetler (Ar-Ge/Toplumsal Katkı)**
-
-
-
-
-
-
-
-
-
-
-
-
 
 |İzleme ve Ölçme Alanları 2024 2025 Bir Önceki Yıla Göre Değişim<br>Oranı|Col2|Col3|Col4|
 |---|---|---|---|
@@ -146,24 +89,11 @@ net bir şekilde tanımlamaktır.
 |**Sanatsal Faaliyet Sayısı**<br>-<br>2<br>%200<br>**Birim Tarafından Düzenlenen**<br>**Bilimsel Toplantı Sayısı**<br>**(Panel/Sempozyum/Kongre vb.)**<br>2<br>-<br>-%100|**Sanatsal Faaliyet Sayısı**<br>-<br>2<br>%200<br>**Birim Tarafından Düzenlenen**<br>**Bilimsel Toplantı Sayısı**<br>**(Panel/Sempozyum/Kongre vb.)**<br>2<br>-<br>-%100|**Sanatsal Faaliyet Sayısı**<br>-<br>2<br>%200<br>**Birim Tarafından Düzenlenen**<br>**Bilimsel Toplantı Sayısı**<br>**(Panel/Sempozyum/Kongre vb.)**<br>2<br>-<br>-%100|**Sanatsal Faaliyet Sayısı**<br>-<br>2<br>%200<br>**Birim Tarafından Düzenlenen**<br>**Bilimsel Toplantı Sayısı**<br>**(Panel/Sempozyum/Kongre vb.)**<br>2<br>-<br>-%100|
 |**Sanatsal Faaliyet Sayısı**<br>-<br>2<br>%200<br>**Birim Tarafından Düzenlenen**<br>**Bilimsel Toplantı Sayısı**<br>**(Panel/Sempozyum/Kongre vb.)**<br>2<br>-<br>-%100|2|-|-%100|
 
-
 **İyileştirme Faaliyetleri**
-
 
 **…**
 
-
-
-
 **5.** **İzleme ve Ölçme Sonuçları**
-
-
-
-
-
-
-
-
 
 |İzleme ve Ölçme Alanları 2024 2025 Bir Önceki Yıla Göre Değişim Oranı|Col2|Col3|Col4|
 |---|---|---|---|
@@ -173,26 +103,11 @@ net bir şekilde tanımlamaktır.
 |Mezun Öğrencilere Yönelik<br>Gerçekleştirilen Faaliyet Sayısı<br>1<br>2<br>%100<br>Bakım ve Kalibrasyona Tabi<br>Cihazlara Yönelik Uygulama<br>Sayıları<br>0<br>3<br>%300|Mezun Öğrencilere Yönelik<br>Gerçekleştirilen Faaliyet Sayısı<br>1<br>2<br>%100<br>Bakım ve Kalibrasyona Tabi<br>Cihazlara Yönelik Uygulama<br>Sayıları<br>0<br>3<br>%300|Mezun Öğrencilere Yönelik<br>Gerçekleştirilen Faaliyet Sayısı<br>1<br>2<br>%100<br>Bakım ve Kalibrasyona Tabi<br>Cihazlara Yönelik Uygulama<br>Sayıları<br>0<br>3<br>%300|Mezun Öğrencilere Yönelik<br>Gerçekleştirilen Faaliyet Sayısı<br>1<br>2<br>%100<br>Bakım ve Kalibrasyona Tabi<br>Cihazlara Yönelik Uygulama<br>Sayıları<br>0<br>3<br>%300|
 |Mezun Öğrencilere Yönelik<br>Gerçekleştirilen Faaliyet Sayısı<br>1<br>2<br>%100<br>Bakım ve Kalibrasyona Tabi<br>Cihazlara Yönelik Uygulama<br>Sayıları<br>0<br>3<br>%300|0|3|%300|
 
-
 **İyileştirme Faaliyetleri**
 
-
 **…**
-
-
-
-
-
-
-
-
-
-
-
 
 |6. Üniversitemizin Kalite Yönetim Sisteminin Değerlendirilmesi|Col2|Col3|
 |---|---|---|
 |**Güçlü Yönler**<br>**İyileştirmeye Açık Yönler**<br>**Öneriler**|**Güçlü Yönler**<br>**İyileştirmeye Açık Yönler**<br>**Öneriler**|**Güçlü Yönler**<br>**İyileştirmeye Açık Yönler**<br>**Öneriler**|
 |***Fakültemiz Bölümlerinin**<br>**tamamı FEDEK akreditasyon**<br>**başvurusu yapmıştır.** <br>***Danışman başına düşen**<br>**öğrenci sayısı bakımından,**<br>**öğretim üyesinin öğrencilerle**<br>**ilgilenebileceği ve yeterli vakit**<br>**ayırabileceği kadar öğrenci**<br>**verilmesi danışmanlık**<br>**hizmetinin düzgün**<br>**yürütülebilmesi** <br>***Eğitim kadrosu bakımından**<br>**öğretim üyesi kademesinde**<br>**deneyimli bir alt yapıya sahip**<br>**olması.**|***Bölümlerimizin dış paydaşları**<br>**ile yapılan çalışmaları**<br>**geliştirilebilir.** <br>***Erasmus, Mevlana vb.**<br>**programlar yardımıyla öğrenci**<br>**hareketliliğine katılacak öğrenci**<br>**sayısı artırılabilir.** <br>***Teknolojik aletlerin**<br>**yenilenmesi (bilgisayar,**<br>**projeksiyon, vs.)**|***Araştırma**<br>**Görevlilerinin**<br>**Bölümdeki  Anabilim**<br>**Dallarına göre alınarak**<br>**sayıca artırılması.** <br>***Öğrencilerin ve**<br>**Akademisyenlerin ayrı**<br>**ve ortak kullanılacak**<br>**sosyal alanlar**<br>**oluşturulması.**|
-
-

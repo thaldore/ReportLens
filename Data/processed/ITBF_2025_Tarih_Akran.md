@@ -1,6 +1,6 @@
 ## Sayfa 1
 
-©
+
 eği
 AKRAN DEĞERLENDİRME RAPORU
 TARİH BÖLÜMÜ
@@ -39,25 +39,25 @@ Kale|
 OLGUNLUK DÜZE
 [rztek
 LS
-| Ad. Liderlik
+ Ad. Liderlik
 ve Kalite
 OLGUNLUK DUZE}
 ALEKuruma nüşüm Kapali
 “TTTEK
 TAITülek
-ve alte |
+ve alte 
 OLGUNLUK
 DÜZ
 (ataTe kalite güvencesimekanizmaları
-| 1
-| 2
+ 1
+ 2
 ID
 T*
 (AT.Tülek
 ve Kale OLGUNLU
 DÜZE
 AISKamuosunu igiemdirme ve
-1 | 2
+1  2
 T
 A2. Misyon ve Stratejik Amaçlar
 
@@ -78,17 +78,17 @@ A.2.3, Performans yönetimi
 7]?
 ]77)
 A3. Yönetim Sistemleri
-Kurum,stratgjk hedeflerine ulaşmayı nitelik ve nicelik olarak govence alına 
+Kurum,stratgjk hedeflerine ulaşmayı nitelik ve nicelik olarak govence alına
 ali, beşeri
-ve ilgi kaynakları ile süreçlerini yönetmek üzere br siteme sahip 
+ve ilgi kaynakları ile süreçlerini yönetmek üzere br siteme sahip
 A.3. Yönetim Sistemleri
 “OLGUNLUK DÜZE
-(ABI. Bilgi yönetim sistemi (((OTTTETE 
+(ABI. Bilgi yönetim sistemi (((OTTTETE
 a
 Mal
 ||“
 AB. Yönetim Sistemleri
-©
+
 OLGUNLUK DÜZ
 4.3.2. İmsan kaynakları yönetimi
 (| TT2) 3 Te
@@ -132,14 +132,14 @@ AS. Uluslararasılaşma
 OLGUNLUK DÜZE
 Hlaslararasılaşma
 süreçlerinin
-|
-|
+
+
 ASI.
 Uuslrurastayma
 sre
 7)2)3 a
 yönetimi
-|
+
 TAS Uluslararasılaşma
 7
 OLGUNLUKDÜZEY
@@ -164,7 +164,7 @@ ve Güncellenmesi
 Bi.
 Programların
 Tasarımı,
-|
+
 OLGUNLUK
 DÜZ
 ve Güncellenmesi
@@ -176,10 +176,10 @@ ve Güncellenmesi
 
 (Ri.
 Programların
-Tasarım |
+Tasarım 
 OLGUNLUK DÜZE
 Değerlendirilmesi ve Güncellenmesi
-| BS.Derrlazmınlarnıı program
+ BS.Derrlazmınlarnıı program
 Tp?
 ps T
 alara yam
@@ -191,10 +191,10 @@ OLGUNLUK DÜZE
 Değerlendirilmes ve Güncellenmesi
 RIA Öğren
 ne aş den mi TT
-S| 
+S|
 BI.
 Programianm
-Tasan, |
+Tasan, 
 OLGUNLUK DÜZ
 Değerlendrilmesi
 ve Güncellenmesi
@@ -207,15 +207,15 @@ göncelenmesi
 A
 (Bi.
 Programların
-Tasarımı | OLGUN
+Tasarımı  OLGUN
 DÜZ
-| Değerlendirilmesi
+ Değerlendirilmesi
 ve Güncellenmesi
-TELE Eğim ve öğretim süreçlerinin |
+TELE Eğim ve öğretim süreçlerinin 
 ETE TA
 önemi,
 4
-—
+
 B.2.
 Programların
 Yürütülmesi
@@ -236,7 +236,7 @@ ve
 ilan
 edilmiş
 kuralları
-B.2. © Programların© Yürütülmesi ©
+B.2.  Programların© Yürütülmesi 
 a
 (Öğrenci Merkezli Öğrenme, Öğretme
 OLGUNLUK DÜZE
@@ -261,16 +261,16 @@ ve Değerlendirme)
 a [ae
 [anmmas'vekredieadinimed
 ||
-2 |
+2 
 ‘B2.
-Programların © Yürütülmesi
-| (Öğrenci Merkezli Öğrenme, Öğretme
+Programların  Yürütülmesi
+ (Öğrenci Merkezli Öğrenme, Öğretme
 OLGUNLUK DÜZE
 _ ve Değerlendirme)
--
+
 ze erikler verimine EMENEN K
 edem
-erener |?LY | 
+erener |?LY 
 B.3. Öğrenme KaynaklarıveAkademik Destek Hizmetleri
 Kurum, bedeli nl meni eine ulaşmak ve ği Sin
 zem eni etriye plan yön esek Name sağanak.
@@ -282,8 +282,8 @@ TF L
 EL
 eres
 oymakları| 7
-|
-|
+
+
 BX
 Öğre Kayalar
 ve Alemi
@@ -302,7 +302,7 @@ N
 An
 OLGUNLUK DÜZE
 Denek Hizmeleri
-|
+
 m
 EEE
 öm Kaplar
@@ -341,13 +341,13 @@ gelişimi
 7) 2)
 4
 [B42Öğretimyrknleri
-vegelişimi |
-| 2İL
+vegelişimi 
+ 2İL
 “BA Dürüm Kad
 OLGUNLUK DÜZ
 TEE Eğimliyönelik
-| |, İŞ
-| «
+ |, İŞ
+ 
 lm
 fani
 EL
@@ -382,7 +382,7 @@ CİA. Doktora programları ve dokiora
 ax]
 İİ PT
 C2 Araştırma Yetkinliği,İş birlikleri ve Destekler.
-7G Araştırma Yetknlği, İş birliklerive |
+7G Araştırma Yetknlği, İş birliklerive 
 GZGENLEK DÖZ
 Derd
 0
@@ -391,7 +391,7 @@ Aayurma ethinineveganini
 ||?)
 TEZ AraştırmaVetkinii
 işbriklerive
-| ZERB
+ ZERB
 Destekler
 C22.”
 Ulan
@@ -402,27 +402,27 @@ G3. Araştırma Performansı
 OLGUNLUK DÜZE
 7 CRT Araştırma performansının izlenmesi ve
 Tx
-| değerlendirme
-”
+ değerlendirme
+
 Hİ
 LA
 2
 (C3. Araştırma Performansı
--
+
 OLGUNLUK DÜZE
 "C82 Ojretin cemanvarasarmacs
 133g
 Lecrformonsinndeğerlendirmesi
-|
-| © |’ |
+
+  |’ 
 D. TOPLUMSAL KATKI
 Kurum, topluma kak faliveerin sahipolduu hedefleri ve sates doğrultusunda
 ve ulusal kalkınma hedeferise uyumlu bir şeklde yrürmelidr. Bualiye çin u
 ve mal kaynaklar oluşturmalı ve bunlar erkin şekilde kullarını sağlamalıdır
 D1. Toplumsal Katkı Süreçlerinin Yönetimi ve Toplumsal Katkı Kaynakl
-7D. Toplumsal Katkı Süreçlerinin |
+7D. Toplumsal Katkı Süreçlerinin 
 Yönetimi
-“ve © Taplamssl Kada
+“ve  Taplamssl Kada
 OLGUNLUKDÜZ
 Kaynakları
 
@@ -432,12 +432,12 @@ Kaynakları
 
 Kurum. toplumsal katkı states ve hedefleri doğrusunda yörürüğü fale
 ölemel ve sürekli iyileştrmeliir.
-| D2. Toplumsal Katkı Performan
+ D2. Toplumsal Katkı Performan
 OLGUNLUK DÜ
 D2.1Toplumsal —Kai pms)
 ae
 lenmesive değerlendirmeyerme
-!
+
 71*]¢
 Prof. Dr. Ziya AVSAR
 ov

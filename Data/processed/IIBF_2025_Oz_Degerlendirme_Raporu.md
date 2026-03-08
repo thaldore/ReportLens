@@ -4,7 +4,7 @@ TC
 NİĞDE ÖMER HALİSDEMİR ÜNİVERSİTESİ
 İKTİSADİ VE İDARİ BİLİMLER FAKÜLTESİ
 KALİTE KOMİSYONU KARARI
-|
+
 “Toplantı Tarihi
 ir
 Kimlik/Dosya No 31733388/050.04
@@ -26,15 +26,15 @@ KALİTE KOMİSYONU KARARI
 Toplam Tar
 oy,
 SB
-|
+
 |S
 “Veas™
-|
+
 OZDEĞERLENDİRME RAPORU
-|
+
 İKTİSADİ VE İDARİ BİLİMLER FAKÜLTESİ
 NİĞDE ÖMER HALİSDEMİR ÜNİVERSİTESİ
-|
+
 12025)
 
 ---
@@ -70,14 +70,14 @@ Niğde Ömer Halisdemir Üniversitesi'ne bağlanmasıyla birlikte hızlı
 bir ge
 İktisadi ve İdari Bilimler Fakültesinde bugün tam zamanlı 33 Profesör, 20 Doçe
 Öğretim Üyesi,
-1 Öğretim Görevlisi ve 17 Araştırma görevli ile İşletme, 
+1 Öğretim Görevlisi ve 17 Araştırma görevli ile İşletme,
 Yönetimi, Siyaset Bilimi ve Uluslararası İlişkiler, Maliye, Finans ve Bankacılı
 Ticaret ve Lojisik ve Yönetim Bilişim Sistemleri Bölümlerinde eğitim-öğ
 ilmektedir (tips ohu edu iri)
 Tablo 1. Birimdeki Programlar
 Programın Adı
 Türü (Normal/
-Programın Süresi | Ka
+Programın Süresi  Ka
 11,
 
 ---
@@ -95,7 +95,7 @@ Kiyase ilmi ve
 rma Öğretim Türçe yy
 Tes
 lustararast Ticaret ve
-İNormal Öğretim - Türkçe |, yy
+İNormal Öğretim  Türkçe |, yy
 237
 Yönetim Bilişim.
 Vormal Öğretim- Türkçe
@@ -120,19 +120,19 @@ personele yOnelik memnuniyet ankeleri yapılmakta ve elde edilecek olan so
 olarak gerekli oan izleme ve iyileştirme çalışmalar titizlikle südürülmektedir
 Kalite Komisyonu,
 kalite değerlendirme ve kalite güvencesi
-kapsamında, 
+kapsamında,
 yürütmektedir.
 (tps/vaswcohu
 edu efibsayf/komisyon-karrlari).
 Mev
 programlarının ilerletilmesi ve süreli iyileştirilmesi, eğitim-öğretim niteliğinin g
 alınması ve kalite güvence sistemini tüm paydaşların katılımıyla yapılandır
-|
+
 Fakültemiz İşletme bölümü 2021 yılında akreditasyon sürecine başlamış, gere
-|
+
 tamamlanması ile 2022 yılında Sosyal
 ve Beşeri veTemel Bilimleralanında Akre
-|
+
 ik devlet üniversitesi olmuştur (ips. ohu sd ibmanss/25322)
 Bu
 2024 yl itibariyle Fakültemizde Siyaset Bilimi ve Uluslararas lişkilr, Kamu
@@ -142,12 +142,12 @@ akreditasyon
 için
 gerekli
 hazırlıkları
-yapmaya 
+yapmaya
 ps oh edu tibsivasthilimi/duyury/74223).
 AA. Kurumsal dönüşüm kapasitesi
 Fakültemizde değişimin sistematik olarak yönetilebilmesi için gerekli tüm s
 kritikler, değişiklik performansını izlenmesi ve etkileşimli üm süreçlerin değ
-|
+
 için etkili bir farkındalığın sağlanması amaçlanmakta olup bu doğrultuda
 sürdürülebilir adımlar atılmaktadır. Örneğin, Fakültemiz İşletme bölümünün a
 süreci Fakültemizde açılım sağlayarak diğer bölümlerimizde de farkındalığ
@@ -173,7 +173,7 @@ birimlerce
 Üniversitemiz
 kalite
 süreçlerin
-politikalar özümsenmiş ve içsellşirilmiştr. Fakültemize yeni kayıt yaptıran 
+politikalar özümsenmiş ve içsellşirilmiştr. Fakültemize yeni kayıt yaptıran
 için Bölüm Başkanlıkları tarafindan oryantasyon programlarının uygulanması, b
 dilek ve temennilerin
 lişkin ger bildirimlerle igili konularn görüşüld
@@ -212,13 +212,13 @@ Prof.
 Dr.
 M
 ÖZTÜRK, Dekan Yardımcıları Prof. Dr. Okyay UÇAN ve Prof. Dr. Fındık Ö
-tarafndan Dekan:Öğrenci Buluşması etkinliği gerçekleşirlmiyir. Buluşmada 
+tarafndan Dekan:Öğrenci Buluşması etkinliği gerçekleşirlmiyir. Buluşmada
 ve aktif danışmanlık sistemi ile ilgli genel bilgilendirme yapılarak öğrenci
 şikayetlerine
 yer
 verilmiştir
 (plandan duyu
-pati, ohu edu sr/niweh/media/porallaib/sayfalar42004/mma0Sony 
+pati, ohu edu sr/niweh/media/porallaib/sayfalar42004/mma0Sony
 İç
 kalite güvencesi mekanizmaları olarak Üniversitemiz
 Kalite Yönetim
@@ -237,8 +237,8 @@ NİĞDE ÖMER HALİSDEMİR ÜNİVERSİTESİ,
 KALİTE KOMİSYONU KARARI
 Toplantı Tarihi
 7
-|
-| ee
+
+ ee
 Kimlt/Dosya
 No 31738388080.04
 Topla
@@ -256,8 +256,8 @@ NİĞDE ÖMER HALİSDEMİR ÜNİVERSİTESİ
 İKTİSADİ VE İDARİ BİLİMLER FAKÜLTESİ
 KALİTE KOMİSYONU KARARI
 gerçekleşme
-düzeyi — Üniversitemiz . kalite
-süreçleri » kapsamında — 
+düzeyi  Üniversitemiz  kalite
+süreçleri  kapsamında 
 tips ew ohedu
 sayfakalt- raporlar.
 15, Kamuoyunu bilgilendirme ve hesap verebilirlik
@@ -285,7 +285,7 @@ teknolojiye
 uyuml
 sürdürülebiliriğinin sağlanması için olup Üniversitemiz tüm birimlerinde Kur
 Koordintörlüğüne bağlı olan Birim İletşim Temsilciler Organı oluşturulmas
-teşkil edecek şekilde Birim İletişim Koordinatörlüğü kurulmuştur. Böylelikle 
+teşkil edecek şekilde Birim İletişim Koordinatörlüğü kurulmuştur. Böylelikle
 bilgilerin duyurulması ve sosyal medya içeriklerinin düzenlenmesi ve takib il
 karumsalaşırlmıştır.
 Aynca Fakültemizde gerçekleştirecek
@@ -293,9 +293,9 @@ olan akadem
 etkinlikler, eğitim-öğretime yönelik bilgiler Fakültemizde bulunan duyur
 ekranlarından paylaşılmaktadır.
 am
-|
-a 
-—
+
+a
+
 
 ---
 
@@ -328,7 +328,7 @@ vizyon
 ve
 misyonu
 dhtps:/onww ohu ed r/iblisletme sayfa/misyon:ve vizyonumuz
-tp hud /bsiyassbilimi/sayfavizyonumuz.ve:misyonumuz). 
+tp hud /bsiyassbilimi/sayfavizyonumuz.ve:misyonumuz).
 politikaların ve stratilern geliştirilmesi ve değerlendirlmesi süreçlerine pa
 dahil edilmektedir.
 422. Stratejik amaç ve hedefler
@@ -341,7 +341,7 @@ Planın izlemekte ve performans göstergelerine ulaşılmasına katkı sağlamak
 
 ## Sayfa 10
 
-|
+
 NİĞDE ÖMER HALİSDEMİR ÜNİVERSİTESİ
 İKTİSADİ VE İDARİ BİLİMLER FAKÜLTESİ
 KALİTE KOMİSYONU KARARI
@@ -362,13 +362,13 @@ stratejik
 hedeflerine ulaşmak amacıyla
 mali,
 beşeri ve
-bilgi 
+bilgi
 süreçlerini yönetmek üzere bir sisteme sahiptir.
 AZ.I, Bilgi yönetim sistemi
 Fakültemizin akademik
 ve
 idari süreçlerinde
-ihtiyaç duyulan yazılımların 
+ihtiyaç duyulan yazılımların
 geliştirilen
 yazılımların
 güncellenmesi
@@ -379,10 +379,10 @@ Bilgi
 Daire
 sağlanmaktadır. Personel özlük işlemlerini Personel Otomasyon Sistemi (PEO
 öğrenci özlük ve ölçme değerlendirme süreçleri Öğrenci İşleri Otomasyonu (OGR
-yürütülmektedir. Akademik personelin bilimsel araştırma projeleri ve yönetim 
+yürütülmektedir. Akademik personelin bilimsel araştırma projeleri ve yönetim
 Araştırma Projesi (BAP) otomasyonu, Akademik Değerlendirme Kurul İşlemleri
 Teşvik işlemleri ise AKAPEDİA modülü üzerinden yürütülmektedir.
-Bilgi 
+Bilgi
 güvenilirliğini
 sağlamaya
 yönelik
@@ -398,7 +398,7 @@ Fakültemizde, insan kaynakları yönetimi kapsamında Akademik Persone isti
 
 ## Sayfa 11
 
-|
+
 NİĞDE ÖMER HALİSDEMİR ÜNİVERSİTESİ
 İKTİSADİ VE İDARİ BİLİMLER FAKÜLTESİ
 KALİTE KOMİSYONU KARARI
@@ -414,7 +414,7 @@ Memnuniyet Anketi ve İdari Personel Memnuniyet Anketi) ile degerlendirilmek
 Fakültemizde yürüülen proj sayısını artırmak ve bukonuda danışmanlık oluştur
 Proje Koordinatörü görevlendirmesi yapılmıştır
 AAS. Finansal yönetim
-Fakültemizin temel gelir ve gider kalemleri tanımlanmış olup yıllar içinde 
+Fakültemizin temel gelir ve gider kalemleri tanımlanmış olup yıllar içinde
 Fakültemize
 verilen
 ödenekler,
@@ -423,12 +423,12 @@ Plan
 doğrultusunda
 oluşturula
 programları
-ile Fakültemiz hedefleri dâhilinde şeffaf ve hesap verilebilirlik 
+ile Fakültemiz hedefleri dâhilinde şeffaf ve hesap verilebilirlik
 olarak ilgili kalemlere tahsis edilmektedir. Ayrıca, $018 sayılı Kamu Mali Yönet
 Kanunu çerçevesinde finansal kaynakların ekonomik, verimli ve etki kullanıl
-diş denetim Sayıştay tarafından, iç denetim ise Kurum İç Denetçileri tarafından 
+diş denetim Sayıştay tarafından, iç denetim ise Kurum İç Denetçileri tarafından
 ASA. Süreç yönetimi
-Fakültemize ait süreçler ve alt süreçler tanımlı olup bu süreçlerdeki sorumlular 
+Fakültemize ait süreçler ve alt süreçler tanımlı olup bu süreçlerdeki sorumlular
 yönetim yazılı olup tüm Akademik ve İdari Personel tarafindan igsellestirilmistir
 süreç yönetimimize paydaşlarımız da katılım sağlamaktadır
 hupsd/wwow ohu edu b sayfisakis. sureleri)
@@ -452,7 +452,7 @@ yöneticileri tarafindan kayıt altına alınarak gerekli iyileştirmeler yapıl
 yaptıran öğrencilere bölüm, kütüphane, yemekhane, kampüs içeresindeki al
 kongre merkezi, spor merkezi, otobüs durak ve güzergahları vb.
 konulard
-programı © düzenlenmiş
+programı  düzenlenmiş
 ve
 danışmamöğrenci
 toplamları
@@ -461,7 +461,7 @@ A42. Öğrenci gri bildirimleri
 Öğrenci geri bildirimleri (ders, dersin öğretim elemanı, diploma programı, h
 memnuniyet seviyesi, vb.) sistematik olarak (her yarıyıl ya da her akademi
 alınmaktadır (Gğrenci-memnuniyeti
-anket pd). Bunun yanında, iç paydaş (
+anket pd). Bunun yanında, iç paydaş 
 Bildirim formlar aracılığıyla sistematik veri toplanmakta ve bu veriler değerlen
 hâlinde analiz edilerek eğitim-öğretim süreçlerinin iyileştirilmesinde kullanılmak
 kalite temsilcileri ise bu sürecin kurumsallaşmasın sağlayarak Gğrencler ile b
@@ -469,10 +469,10 @@ arasında düzenli iletişim ve temsil mekanizması oluşturmaktadır. Bu yapı,
 güşlendiren ve gri bildirimlerin somut iyileştirme adımlarına dönüştürülmes
 ips sai oh edu ini wehimedi oralar iyascbiimi/sayfalar 42796 p
 bildirimlerini alabilmek için iki farklı yol izlenmektedir. Bunlardan birincisi
-Halisdemir Üniversitesi Öğrenci Otomasyonu'nda bulunan İstek Yönetim 
+Halisdemir Üniversitesi Öğrenci Otomasyonu'nda bulunan İstek Yönetim
 zerinden Üniversite'nin her birimine daiistek, şikayet
 ve önerilerini iletebilece
-|
+
 
 ---
 
@@ -480,7 +480,7 @@ ve önerilerini iletebilece
 
 NİĞDE ÖMER HALİSDEMİR NİVERSİTESİ
 İKTİSADİ VE İDARİ BİLİMLER FAKÜLTESİ
-|
+
 KALİTE KOMİSYONU KARARI
 yürütücüsü öğretim elemanların doğrudan e-posta veya sosyal medya uygula
 A4.3. Mezun ilişkileri yönetimi.
@@ -525,12 +525,12 @@ iilmanse 26278),
 i
 'NİĞDE ÖMER HALİSDEMİR ÜNİVERSİTESİ
 İKTİSADİ VE İDARİ BİLİMLER FAKÜLTESİ
-|
+
 KALITE KOMİSYONU KARARI
 Uluslararaslaşma
 faaliyetleri Üniversitemiz Uluslararası
 İlişkiler Koordina
-|
+
 alında Erasmus Koordinatörlüğü, Mevlana Koordinatörlüğü ve Orhun Ko
 güncel
 haberler
@@ -541,7 +541,7 @@ Koordinatörlüğü
 tarafından
 d
 Üniversitemiz ağ sayfasında kamuoyu ile paylaşılmaktadır.
-|
+
 alanlarından ve deneyimlerinden faydalanılmaktadır.
 edilerek, yurt
 dışı deneyimlerini Fakültemize dahil etme ve Üniversitem
@@ -562,7 +562,7 @@ KALİTE KOMİSYONU KARARI
 Bul. Program tasarımı ve onayı
 Birimimizde Yükseköğretim Kurulu onaylı uzaktan öğretim programları bulun
 (uzaktanegitim-yonetmelik pdf), 2025-2026 Eğitim-Öğretim yılı ön lisans, lisan
-|
+
 düzeydeki programlar yüz yüze yürütülmektedir. Üniversitemiz Kalite Komisyo
 2024-2025 Eğitim Öğretim yılı işin bütün akademik birimlerin müfredat g
 yönelik planlama yapmaları ve Üniversitemiz Danışma Kurulu velveya ilgili
@@ -573,12 +573,12 @@ güncellemelerinin
 yapılması
 istenmişti.
 B
-bölümlerimiz planlamaların yapmaktadır. Bu amaçla Fakültemiz di paydaşlar 
+bölümlerimiz planlamaların yapmaktadır. Bu amaçla Fakültemiz di paydaşlar
 tarihinde toplantı yapılmıştır. Niğde Valiliği, Niğde Belediyesi, Niğde Serbes
 Mali Müşavirler
 Odası Başkanlığı, Ahiler Kalkınma Ajansı Niğde Yatırım Destek
 ve Sanayi Odası Yönetim Kurulu Başkanlığı, Türk Ocakları Niğde Şubesi Başk
-|
+
 Öğrencimizin katıldığı toplantıda Fakültemiz bölümlerine ilişkin gelişmelerin t
 öğretim planlarının bu gelişmelere uyumunun sağlanmasına yönelik dış pa
 alışverişinde bulunmak,
@@ -618,14 +618,14 @@ sistematik
 olarak
 izlenmekte,
 paydaşl
-değerlendirilerek önlemler alınmaktadır. Fakültemizin her programına st ders 
+değerlendirilerek önlemler alınmaktadır. Fakültemizin her programına st ders
 bölüm/program çıktılarıyla uyumu ağ sayfalarında yayınlanmaktadır.
 Geçmi
 programların amaçları ve öğrenme çıktılarının TYYÇ il ilişkisi, program çı
 kazanımlarının ilişkilendirlmesi ve iş yükü kredilerinin tanımlanması grçekleşti
-programların, amaçları ve çıktıları ile TYYÇ ilişki matrisleri ağ sayfalarında 
+programların, amaçları ve çıktıları ile TYYÇ ilişki matrisleri ağ sayfalarında
 olup TYYÇ ile uyumlarının yüksek düzeyde olması sağlanmaktadır. Mevcut
-TYYÇ uyumluluklar ise bölümler ve programlar düzeyinde değerlendirerek 
+TYYÇ uyumluluklar ise bölümler ve programlar düzeyinde değerlendirerek
 kamuoyuyla paylaşmaktadır. Der ieneeeri, her dönem başında bli birsür
 aşılarak
 öğretm
@@ -635,8 +635,8 @@ güneelenerek;
 dinamik
 bir
 yapı
-geliştirilmektedir. Öğrencilerimiz için her zaman ulaşabilecekleri şekilde bölüm 
-güncel ©
+geliştirilmektedir. Öğrencilerimiz için her zaman ulaşabilecekleri şekilde bölüm
+güncel 
 program
 ve
 ders
@@ -656,10 +656,10 @@ BAA,
 İKTİSADİ VE İDARİ BİLİMLER FAKÜLTESİ
 KALİTE KOMİSYONU KARARI
 Toplantı Tarihi
--
-"
+
+
 Öğrencilerimiz. için her zaman ulaşabilecekleri şekilde bölüm web sayfala
-Fakültemiz Finans ve Bankacılık, İşletme ve Uluslararası Ticaret ve Lojistik 
+Fakültemiz Finans ve Bankacılık, İşletme ve Uluslararası Ticaret ve Lojistik
 Öğrenciler
 her dönemin
 sonunda tüm dersler
@@ -688,7 +688,7 @@ içeriklerinde güncellemeler yapılmıştır.
 BAG.
 Etim ve öğretim süreçlerinin yönetimi
 Fakülemiz, eğtim ve öğretim süreçlerini bütüncül olrak ee alan bir organiz
-|
+
 sie Boan bu organizasyon yapım yöne görev ve sorunllkl fke
 birimler
 düzeyinde
@@ -707,7 +707,7 @@ doğrulusunda
  gerçekleştirlmektedir. Buna uygun
 düzeyindeki eğitim-öğretim süreçleri bölüm kurulu ve komisyonlar aracılığıyl
 unvan değişikliğidurumların göre gerekli hallerde bölüm komisyonları güncel
-|
+
 B2. Programların Yürütülmesi (Öğrenci Merkezli Öğrenme, Öğretme
 Değerlendirme)
 Bal.
@@ -719,7 +719,7 @@ Bal.
 
 NİĞDEÖMER HALİSDEMİR ÜNİVERSİTESİ
 İKTİSADİ VE İDARİ BİLİMLER FAKÜLTESİ
-|
+
 KALİTE KOMİSYONU KARARI
 (UZEM)
 tarafindan
@@ -753,8 +753,8 @@ olsalar da, öğretim üyeleri de bu süreçte öğrencilere motivasyon sağlaya
 genel olarak bi ara sınav ve bir genel sınav yapılmaktadır. Fakültemizde sına
 yapılmaktadır.
 Feaktltemiz programlarının ağ sayfalarında genel bilgiler kısmında ders ve sınıf
-proje tabanlı öğrenme, seminer, tez hazırlama, alan çalışması, rapor yazma 
-eğitim öğretim yöntemleri açık olarak paydaşlarmıza duyurulmaktadır. 
+proje tabanlı öğrenme, seminer, tez hazırlama, alan çalışması, rapor yazma
+eğitim öğretim yöntemleri açık olarak paydaşlarmıza duyurulmaktadır.
 uygulamalar
 birimlerin
 ders
@@ -763,7 +763,7 @@ doğrultusunda
 gerçekleştirlmekted
 yürütülmesinde
 klasik ders anlatımının yanı sıra seminerler,
-çalıştaylar, 
+çalıştaylar,
 danışmanlık
 toplantıları
 ve
@@ -785,9 +785,9 @@ NİĞDE ÖMER HALİSDEMİR NİVERSİTESİ
 KALİTE KOMİSYONU KARARI
 Öğrenci anketleri dersin sorumlulanyla paylaşılarak geri bildirim sunulmakta
 birlikte, öğrencilerimiz ile etkileşimi artırmak için görüşme saatlerinden yarara
-|
-B22. © Ölçmevedeğerlendirme
-|
+
+B22.  Ölçmevedeğerlendirme
+
 Fakültemizde ölçme ve değerlendirme süreçler, Ön Lisans, Lisans ve Lisa
 Öğretim ve Sınav Yönetmelikleri ile Başarı Ölçme ve Değerlendirme Esaslar
 göre gerçekleşirilmektedir. Devamı veya sınava girmeyi engelleyen haklı ve geçe
@@ -798,17 +798,17 @@ birimlerde
 oluşturulmuş.
 komisyonların
 kontrolüyl
-Koşullarına dair süreç ve düzenlemeler ilgili yönetmelik ve yönergelerde 
+Koşullarına dair süreç ve düzenlemeler ilgili yönetmelik ve yönergelerde
 yürütülmektedir
 pst, hu edu trniweb media/portalar/oidb/sayfalar/2087/voOhspi3.pdf;
 hitps vw mevzuat gov. t/mevzuat? MevzuatNo=93928Mevzuat ur=8&Mevzu
-B23. © Öğrenci kabulü, önceki öğrenmenin tanınması ve kredilendirilm
+B23.  Öğrenci kabulü, önceki öğrenmenin tanınması ve kredilendirilm
 Üniversitemize öğrenci kabulü;
 Yükseköğretim Kurumları Sınavına (YKS),
 Sınavı (DGS), Mühendislik Tamamlama Programı, Lisans Tamamlama (sağlı
 Yatay Geçiş, Çift Anadal Programı (ÇAP), Yandal Programı, Özel Yetenek Sına
 Değişim Programları, Niğde Ömer Halisdemir Üniversitesi Önlisans ve Lisans
-Yönergesi, Ön Lisans ve Lisans Düzeyinde Yurt Dışından Öğrenci Kabul 
+Yönergesi, Ön Lisans ve Lisans Düzeyinde Yurt Dışından Öğrenci Kabul
 yapılmaktadır. Fakültemiz de Üniversitemiz Rektörlüğü tarafından uygulanan
 almaktadır.
 Uygulamaların tanımlı süreçler
@@ -820,14 +820,14 @@ prosedürler ve sonuçlar igili web sayfalarında ilan edilmektedir.
 
 ## Sayfa 21
 
-|
+
 NIGDeÖMERHALİSDEMİR ONİVERSİTESİ
 İKTİSADİ VE İDARİ BİLİMLER FAKÜLTESİ
 KALİTE KOMİSYONU KARARI
-|
+
 Fakültemizde tüm öğrencilere der ve kariyer planlamaların destek vermek
 eğitim-öğretim yl başlangıcında sın düzeyinde Bölüm Başkanlıklarına göre
-|
+
 akademik danışman anmaktdır. Geçmiş yılarda kuğu gbi202-202 Eğti
 fz yayılı başında Fakültemiz bölümleri kapsamında yüzyüze olmak üzeredan
 toplarlar
@@ -837,7 +837,7 @@ bits: hu edu
 sib iyastbilim
 duyuru 74950, Üniversite genelinde O
 paftasında öğrencilerin danışmanlar le anı iletişim kurmalarını sağlayan direk
-|
+
 başlatılmıştır.
 Oniversitemiade öğrencilerin akademik ve kasiyer gelişin
 danışmanlık sağlamak, iş yaşamına katılım öncesi gerekli eğitim ve bilgile
@@ -847,7 +847,7 @@ faaliyetler İktisadi ve İdari Bilimler Fakültesi kulüpleri, Niğde Ömer Hal
 kulüpleri (Niğde Ömer Halisdemir. Üniversitesi Öğrenci Kulüpleri Öğrenc
 Toplulukları
 (ohu.edu.tr) ve Niğde Ömer Halisdemir Üniversitesi Gençlik Dan
-;
+
 Koordinatörlüğü
 (Niğde
 Ömer
@@ -857,15 +857,15 @@ Gençlik
 Danı
 Koardintörüğü
 GDM nin Amacı (hued) flier ile sağlanmaktadır.
-;
+
 Üniversite içinden veya diğer üniversitelerden Üniversite birimlerine yatay geçiş
 tarihli e 27561 sayılı Resmi Gazete'de yayımlanan Yükseköğretim Kurumların
-|
+
 nn Dns boga Arna Ge, i Aa Dal Yan Dal ile K
 Kredi Transferi Yapılması Esaslarına İlişkin Yönetmelik hükümlerine ve Senato
 esaslara göre yapılır. Dikey geçişler ise; 197272002 tarihli ve 24676 say Re
 yayımlanan Meslek Yüksekokulları ve Açıköğretim Ön Lisans Programları
-|
+
 
 ---
 
@@ -875,7 +875,7 @@ re
 NİĞDE ÖMER HALİSDEMİR ÜNİVERSİTESİ
 İKTİSADİ VE İDARİ BİLİMLER FAKÜLTESİ
 KALİTE KOMİSYONU KARARI
-ants Tarihi üm Derya No 31733348/50.04 [Toplans 
+ants Tarihi üm Derya No 31733348/50.04 [Toplans
 Tablo 2. Ön Lisans/Lisans Öğrencilerinin YKS Dereelerine İlişkin
 Yaptıran
 in
@@ -886,7 +886,7 @@ gram Adı.
 an
 a
 şe e ir
-Kanı — pozsame fH
+Kanı  pozsame fH
 T2958 psozum bes
 he
 param ps
@@ -920,7 +920,7 @@ ojistk
 KALİTE KOMİSYONU KARARI
 B.3. Öğrenme Kaynakları ve Akademik Destek Hizmetleri
 B.3.1, Öğrenme ortam ve kaynakları
-|
+
 
 ---
 
@@ -932,7 +932,7 @@ KALİTE KOMİSYONU KARARI
 tarafından İYS üzerinde yapılan işlemler hem e-postaile iletilmekte hemde öğre
 TYS üzerinden izlenebilmektedir.
 Öğrencilerin danışmanlara erişimine ve öğrencilerin katılımına ilşkin, öğrenci
-danışmanlarına hem OGRIS messilaşma modülü yolu ile hem de e-mail, 
+danışmanlarına hem OGRIS messilaşma modülü yolu ile hem de e-mail,
 araçlarını
 kullanarak
 ulaşabilmektedir.
@@ -941,7 +941,7 @@ eğitime geçilmesiyle
 bi
 akademik danışmalar değil, Fakülte bünyesindeki tüm öğretim üyeleri tarafınd
 yönelik ofis görüşme saatleri belirlenmiş ve ofis kapılarına asılmıştır.
-Bu 
+Bu
 öğrenciler kendilerine yakın gördükleri öğretim üyeleriyle rahatlıkla iletişime geç
 Fakültemizde her eğitim-öğretim yılı başında öğrencilere bölüm başkanlıklarınc
 anmakla birlike, tanımlı herhangi bir üreç bulunmamaktadır. Fakültemizde u
@@ -958,9 +958,9 @@ adet
 Finans
 (BİSTLAB) bulunmaktadır. Bu laboratuvarda bulunan bilgisayarlar, gerek inte
 yapılacak araştırmalar gerekse üniversitemiz kütüphanesinde varolan veri taba
-|
+
 öğrencilerimizin ihtiyacını karşılayacak düzeydedir. Hafta igi beş gün kullanıma
-|
+
 Fakültemiz bünyesinde öğrencilere yönelik özel çalışma alanları mevcutur. U
 için ise ÖYSve MS Teams altyaplan bulunmakta
 ve aktifolarak derslerde kull
@@ -977,7 +977,7 @@ gösteren
 bulunmaktadır.
 Lisans ve
 lisansistt düzeyinde akademik danışmanlıklar ö
-tarafindan © sağlanmaktadır.
+tarafindan  sağlanmaktadır.
 (psn ohucduribiisletme/sayfa/ogre
 
 ---
@@ -1012,7 +1012,7 @@ emel
 alanları
 oluşturmaktadır.
 D
-Fakaltemiede > öğrencilerimize
+Fakaltemiede  öğrencilerimize
 akademik denek
 anlamında.
 farklı. e
@@ -1025,7 +1025,7 @@ ib)
 
 NİĞDE ÖMER HALİSDEMİR NİVERSİTESİ
 İKTİSADİ VE İDARİ BİLİMLER FAKÜLTESİ
-|
+
 KALİTE KOMİSYONU KARARI
 3.3. Tesis ve aliyapılar
 Inboratuvanyla öğrencilerimize
@@ -1044,7 +1044,7 @@ sosyall
 sunulmaktadır. Uzaktan eğitim dönemlerinde ise Üniversitemizin sağladığı Mic
 ve Office 365 altyapisindan yararlanılmış, ders kayıtları ÖYS sistemine k
 sınavlarda buradan yürütülmüştür.
-|
+
 B.34, Dezavantajlı gruplar.
 Fakültemiz engelli öğrencilere yönelik gest farkındalık etkinlikleri (konferan
 gösterimi vb) düzenleyip, ihtiyaç duyan öğrencilere destek sunmaktadır. Öğre
@@ -1073,7 +1073,7 @@ organizasyon
 (başvuruları
 OGRİS
 üzerinden U elektr
-|
+
 gerçeklştrilmektedir. Bunun yanı sıra üniversitemiz öğrencilerinin ilgi alanl
 zamanlarını değerlendirmeler, yeni
 ilgi alanları edinerek birlike dinlenme
@@ -1100,9 +1100,9 @@ tose. ohu
 du
 ibsiyastbilimiduyuru/74475)
 Bat. Öğretim Kadrosu
-|
+
 BAL. Atama, yükseltme ve görevlendirme kriterleri
-Üniversitemizde öğretim üyeliğine atama ve yükselme ölçüler tanımlıdır. 
+Üniversitemizde öğretim üyeliğine atama ve yükselme ölçüler tanımlıdır.
 atamave yükselme süreçlerinde bu kriterler kularlmaktadır
 
 ---
@@ -1113,15 +1113,15 @@ NİĞDE ÖMER HALİSDEMİR ÜNİVERSİTESİ
 İKTİSADİ VE İDARİ BİLİMLER FAKÜLTESİ
 KALİTE KOMİSYONU KARARI
 (Qupsd/ ww mevzuat gov trmevzust? MevzuatNo=101558MevzustTur-7&Mevz
-»
+
 Fakültemiz bölümlerinde ders görevlendiilmeleri
-ve danışmanlık atamaları 
+ve danışmanlık atamaları
 alışma alanlar dikkat alınarak anabilim dal kararının lgili bölümbaşkanlığına
 başlamaktadır. Bölümlerimiz ana bilim dallarından gelen kararları bölüm kur
 Dekanlığımıza göndermektedirler. Fakülte Yönetim Kurulu tarafından nihai ka
 sonra kararlar Rektörlüğümüze iletilmektedir. Fakühemiz bölümlerinde öğret
 görevlendirilmesi
-ihtiyaç balinde diğer birimlerden veya kurum dışından 
+ihtiyaç balinde diğer birimlerden veya kurum dışından
 Kurumda dişandan ders vermek
 üzere öğretim elemanı görevlendirmeleri
 Yükseköğretim Kanunu'nun 31. maddesi gereğince yapılmaktadır.
@@ -1174,9 +1174,9 @@ NİĞDE ÖMER HALİSDEMİR ÜNİVERSİTESİ
 İKTİSADİ VE İDARİ BİLİMLER FAKÜLTESİ
 KALİTE KOMİSYONU KARARI
 Toplantı Tarim
-:
+
 plantsPi
-Üümlik/Dosya No 31733388/080.04 [Toplant 
+Üümlik/Dosya No 31733388/080.04 [Toplant
 Tablo 3. Birimin Öğretim Kadrosu
 İŞLETME BÖLÜMÜ
 e
@@ -1185,12 +1185,12 @@ Oi
 iste
 Deneyim Süresi
 mami
-ve AürSoya | SonKaram ye
+ve AürSoya  SonKaram ye
 Mente Yü
-Sat | öğretim kanundaki
+Sat  öğretim kanundaki
 vi
-| Dewy (bee
-Deneyi | mii) (a)
+ Dewy (bee
+Deneyi  mii) (a)
 aio
 Fal De
 Bane
@@ -1205,7 +1205,7 @@ oi
 Prof. Dr. Haluk BENGÜ
 (Sakarya
 Universes?
->
+
 zone
 Rza
 Ga
@@ -1217,16 +1217,16 @@ pe
 bs
 Tab
 İLE
->
+
 be
 OzULUCAN
 es
-|
-|
+
+
 Kan
 Dai
 Jmepuseemciex
-| ry
+ ry
 ore
 emen Bn FT
 al
@@ -1239,7 +1239,7 @@ NİĞDE ÖMER HALİSDEMİR ÜNİVERSİTESİ
 İKTİSADİ VE İDARİ BİLİMLER FAKÜLTESİ
 KALİTE KOMİSYONU KARARI
 eğer
-Kimlik/Dosya No 31733388/050.04|Toplantı 
+Kimlik/Dosya No 31733388/050.04|Toplantı
 Prof Dr. Onur KÖKSAL
 Eyes Ünivenilesi
 is
@@ -1254,11 +1254,11 @@ Nitde Omer
 KARAGELEBI
 Halisdemir
 Arş, Gör. Nida EMİRZE
-—
+
 3
 3
 poem
-rp 
+rp
 İKTİSAT BÖLÜMÜ
 
 ---
@@ -1274,22 +1274,22 @@ EE
 ar
 RENNE
 la
-|e HEMME | = 
+|e HEMME  
 e
 A Eİ
 a
 KnEE
 mil
-mean | ERİ
-Dr Op. OyMama | Nile
+mean  ERİ
+Dr Op. OyMama  Nile
 Omer
 b
 KASIM
 Üniversitesi-2019.
 Or Dys
 BUDAK
-|
-;
+
+
 BİÇER
 Onireilsi2018
 EM
@@ -1298,11 +1298,11 @@ ar
 AKTEKİN
 Oniversitesi-2019
 KAMU YÖNETİMİ BÖLÜMÜ
-|
+
 Öğretim Elemanının
-ezun Olduğu Sonio 
+ezun Olduğu Sonio
 ve Adı.
-.
+
 Sanayi
 Öğretim
 d
@@ -1318,10 +1318,10 @@ N
 'NİĞDE ÖMER HALİSDEMİR ÜNİVERSİTESİ
 İKTİSADİ VE İDARİ BİLİMLER FAKÜLTESİ
 KALİTE KOMİSYONU KARARI
-—
+
 ee
 Soo
-:
+
 m
 cee
 a
@@ -1336,10 +1336,10 @@ Dr. Abdullah AYDIN
 Mustafa Kemal
 al
 sa a
-ome |
+ome 
 fT
-|
-=
+
+
 Cooter?
 Pr
 ae
@@ -1348,7 +1348,7 @@ et
 tt
 m
 comer m
->
+
 eel
 ional
 E
@@ -1360,7 +1360,7 @@ FİNANS VE BANKACILIK BÖLÜMÜ
 eee
 MINN
 sms
-=
+
 m
 İmer
 
@@ -1372,7 +1372,7 @@ NİĞDE ÖMER HALİSDEMİR ÜNİVERSİTESİ
 İKTİSADİ VE İDARİ BİLİMLER FAKÜLTESİ
 KALİTE KOMİSYONU KARARI
 aca
-|
+
 sont
 yalak,
 
@@ -1394,22 +1394,22 @@ Gl a
 perte
 rey
 las
-|
+
 MALİYE BÖLÜMÜ
 öz
 Ot]
 ninSr
 Sama
 Nona
-|
+
 Sooo |Ben
 a
-omar — ar
+omar  ar
 ay
 Carers.
 ac bce
 İçe
-|
+
 Jenİğne ><
 Me Ocara
 Rese
@@ -1417,9 +1417,9 @@ Rese
 Sor BTEOEN Pane
 YL
 L
-mop —
+mop 
 1NY.
-‘Dr. Öğretim Üyesi Erkan | İstanbul
+‘Dr. Öğretim Üyesi Erkan  İstanbul
 kiri
 e
 di öy
@@ -1428,7 +1428,7 @@ benm
 Sint FSU
 |Bent
 og asa İç —T
-|
+
 NA K
 Gane
 cbeeak |bunts
@@ -1448,34 +1448,34 @@ NİĞDE ÖMER HALİSDEMİR ÜNİVERSİTESİ
 İKTİSADİ VE İDARİ BİLİMLER FAKÜLTESİ
 KALİTE KOMİSYONU KARARI
 Tp
-Kl oya No 3173556005004 epi 
+Kl oya No 3173556005004 epi
 SİYASET BİLİMİ VE ULUSLARARASI İLİŞKİLER
 N
 an
 Crane Aa
 Shin
-ave | KSM | opti | kurumdaki | 20
-|
+ave  KSM  opti  kurumdaki  20
+
 in
 em
-SN | ow | a
-| Prof. Dr. Mi Serkan
+SN  ow  a
+ Prof. Dr. Mi Serkan
 Hacettepe
 Soi
 ram
 Hee
 ae
-Bema — İm
+Bema  İm
 m
 vin
->
+
 oor
 İn
 ‘Dr. Öğr. Üyesi Uğur
 “Ankara
 a.
 a
-[soca | + | > [+ |
+[soca     [+ 
 Sor SO
 ar az
 
@@ -1488,7 +1488,7 @@ NİĞDE ÖMER HALİSDEMİR ÜNİVERSİTESİ
 KALİTE KOMİSYONU KARARI
 ULUSLARARASI TİCARET VE LOJİSTİK.
 talon
-Sanayi | Deneyim | ki
+Sanayi  Deneyim  ki
 202
 yet
 igi
@@ -1499,15 +1499,15 @@ ell
 ral
 YONETIM BİLİŞİM SİSTEMLERİ
 vel
-| emi |
+ emi 
 öğle
 Olduğu
 Tani
-eman | SomKurumve | KEM
-| Öğretim | Kurumdaki |
+eman  SomKurumve  KEM
+ Öğretim  Kurumdaki 
 yanı
 ve Adi
-| Mezuniyetih | S681 | Deneyimi | Deneyimi |
+ Mezuniyetih  S681  Deneyimi  Deneyimi 
 da)
 a)
 ow
@@ -1544,7 +1544,7 @@ Bu kapsamda kurum öğretim üyeleri tarafindan öncelikli alanlarımızdan ener
 kalkınma hedeflerine yönelik çalışmalar yapılmakta ve çeşiti kongre, s
 galıştaylar katılım sağlanmaktadır
 C.13. Doktora programları ve doktora sonrası imkanlar
-Fakültemizde doktoru ve doktora sonrası imkanların çıktıları düzenli olarak 
+Fakültemizde doktoru ve doktora sonrası imkanların çıktıları düzenli olarak
 iyleştirilmektedir.
 Fakültemizin İşleme, İktisat, Finans ve Bankacılık, Siya
 Uluslararas İlişkiler
@@ -1559,7 +1559,7 @@ bursunu kazanarak, 2025 yılnda İngiltere'ye gitmiştir
 
 NİĞDE ÖMER HALİSDEMİR ONİVERSİTESİ
 İKTİSADİ VEİDARİ BİLİMLER FAKÜLTESİ
-|
+
 KALİTE KOMİSYONU KARARI
 Üniversitemiz. öğretim
 elemanlarının
@@ -1596,7 +1596,7 @@ Getirileri
 ve
 Haber
 Akış
-Anomalilerine Etkisi * başlıklı proje TÜBİTAK ARDEB 3501 - Kariyer Geli
+Anomalilerine Etkisi  başlıklı proje TÜBİTAK ARDEB 3501  Kariyer Geli
 kapsamında desteklenmeye hak kazandı. (tips ahu edin bimansev/
 
 ---
@@ -1617,7 +1617,7 @@ Tablo 4.2024 Yılında Tamamlanan Proje Bilgileri
 (ören Tre vortocia
 reina
 Proje Bees
-Sördürleir iel |
+Sördürleir iel 
 Eğim kapsamında
 151900123
 İletme Bölümü
@@ -1631,21 +1631,21 @@ Sektöründe
 5
 har, Donar
 AKISI
-| Prof Dr arcu BERKE FOEOoms
+ Prof Dr arcu BERKE FOEOoms
 76.666,7171
 Fim
 Gelmenin
-i 20231 | Prof Dr. Burcu BERKE | Getir Dağılma Eiri]
+i 20231  Prof Dr. Burcu BERKE  Getir Dağılma Eiri]
 31.1764 TL
 zerine Bir Aaşrma
 T9H9BOTESI|
 ProfDe Arzum
 Ulas
-Tear ve |
+Tear ve 
 9.00071.
-9382 | BÖYÜKKEKLİK | aj Eğitiminde
+9382  BÖYÜKKEKLİK  aj Eğitiminde
 Öğrencilerin Dj
-|
+
 Danişman)
 Oyunlara gil
 Görüşleri NOHO
@@ -1663,7 +1663,7 @@ ve Ptamsye
 KökleriniGok
 rel Karr eme
 Yöntemleriyle
-|
+
 Değerlendirmesi
 D. TOPLUMSAL KATKI
 Üniversitemiz 2024-2028 Siratjik Planındaki dört amaçtan biri
@@ -1682,14 +1682,14 @@ odaklı yaklaşımlar sunmaktadır.
 Fakültemiz.
 tarafindan düzenlenen çeşitli
 faliyetler ve etkinlikler aracılığı
-gerçekleştirilen ekinler ile faküle ile halk arasında güçlü bir ckileşim 
+gerçekleştirilen ekinler ile faküle ile halk arasında güçlü bir ckileşim
 sağlanmaktadır. Bu etkinlikle, sadece akademik çevre ile sıl kalmayarak,
 yerel toplumunda katılımını teşvik ederek Üniversitemizin toplumsal etki alanı
 hedeflemektedir.
 Böylece,
 Fakültemiz sadece bilimsel alandaki
 başarıları
-|
+
 zamanda
 toplumla
 cikileşim
@@ -1700,7 +1700,7 @@ de
 çıkan
 bir
 Kurum
-|
+
 ilerlemektedir.
 toplumsal katıların denetlemektedir. Bu rapora, Fakülemizin yürünüğü çe
 ayranlı bir şekildebelgeemekte
@@ -1750,7 +1750,7 @@ Dr.
 Öğr.
 Uyesi
 Özlem (O TÜMER
-(tarafindan © gerç
+(tarafindan  gerç
 (https://www, ohu. edu tr/ibimaliye/duyuru/75474).
 Aynca
 Niğde
@@ -1799,7 +1799,7 @@ Ok
 ‘ln Bana
 ‘oni ig Se
 Bta
-‘ois 
+‘ois
 ec Merc
 Dest Ysa. GÖKTEN
 ot Em

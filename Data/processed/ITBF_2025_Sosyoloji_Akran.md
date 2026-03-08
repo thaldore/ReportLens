@@ -25,7 +25,7 @@ katkı
 vermesini sağlama
 lslararasılaşma
 strates ve hedefleridoğrultusundayürürüğüfaliyetleri periyodi
-|
+
 vesürek ileştmelidr
 ALL Liderlik ve Kalite
 Kurum, kurumsal döcüşümünü sağlayacak yönetişim modeline sahip olmalı, id
@@ -39,11 +39,11 @@ OLGUNLUK DÜ,
 “AL. Liderlikve Kalite
 OLGUNLUK DÜZ
 KEkn EE
-TS | 
+TS 
 Aileyle VI TAT
 TI
 TTT
-.
+
 hesap verebilirlik
 AZ. Misyon ve Stratejik Amaçlar
 
@@ -55,7 +55,7 @@ gözüme eğ [T
 TE T
 alyan
 İYTE TATE
-—
+
 A3. Yönetim Sistemleri
 OLGUNLUK DÜZE
 eee
@@ -79,7 +79,7 @@ ee tg fe
 
 442. Öğrenci
 geribildirimleri LA
-1 
+1
 ‘Ad. Payday Katılımı
 OLGUNLUK DÜZ
 A.S. Uluslararasılaşma
@@ -145,7 +145,7 @@ Değerlendirilmes ve Güncellenmesi
 BIS
 Programların
 lenmesi
-ve | 7
+ve  7
 2]
 3X
 Fl
@@ -162,7 +162,7 @@ ve
 wT
 SF
 sind
-[7 |
+[7 
 B2.
 Programların
 Yürütülmesi
@@ -172,13 +172,13 @@ Merkezli
 Değerlendirme)
 Kurum, hedeflediği
 nitelikli mezun yeterliklerin ulaşmak. amacıyla öğrenc
-yetkinlik temeli öğretim, ölçme ve değerlendirme yöntemlerini uygulamalıdır. 
+yetkinlik temeli öğretim, ölçme ve değerlendirme yöntemlerini uygulamalıdır.
 kabulleri, diploma, derece ve diğer yeteliilrn tanınması ve setifkalandini
 çık hitler belirlemeli; önceden tanımlanmış ve
 ilan edilmiş kuralları
 yanlama
 EE
-Programların — Yürüümesi
+Programların  Yürüümesi
 Öğrenci Merkezli Öğrenme, Öğretme
 OLGUNLUK DÜZE
 ve Değerlendirme)
@@ -190,11 +190,11 @@ T
 ## Sayfa 6
 
 EZ.
-Programların — Yürütülmesi
+Programların  Yürütülmesi
 Öğrenci Merkezli Öğrenme, Öğretme
 OLGUNLUK DÜZ
 ve Değerlendirme)
-EZ. Öğrenci kabul, önceki öğrenmenin |
+EZ. Öğrenci kabul, önceki öğrenmenin 
 7
 7
 tanınması
@@ -219,7 +219,7 @@ OLGUNLUK DÜZE
 Destek Hizmetleri
 BiOrme
 oan ela
-| T ET
+ T ET
 B3.Öğrenme Kaynakları
 ve Akademik
 OLGUNLUK DÜZE
@@ -253,7 +253,7 @@ BAL
 Hama
 yükselme
 ve
-|
+
 görevlendirme kriterleri
 BA Öğretim Kadrosu
 OLGUNLUK
@@ -265,7 +265,7 @@ C. ARAŞTIRMA VE GELİŞTİRME
 Kurumun araştırma sürecini değerlendirmesnin yapılması beklenmektedir. Araş
 sürekli gelişim odağı
 ile hedeflerinin ve bu hedeflerin kimler taraindan gerçe
-belirlendiği, arastrma faalivederinin gerçekleştirdiği, hedeflerin nelik ve nicelik 
+belirlendiği, arastrma faalivederinin gerçekleştirdiği, hedeflerin nelik ve nicelik
 değerlendirildi ve ulaşılan sonuçların konrol edilerek Unie, dayalı ileşrmele
 süreç olarak el amal.
 Ci. Araştırma Süreşlerinin Yönetimi ve Araştırma Kaynakları
@@ -297,10 +297,10 @@ a
 EZ
 .C3. Araştırma Performansı
 C3. Araştırma Performan
-|
+
 OEGUNEUK
 EEamm EMEN ZA
-|
+
 .C.3. Araştırma Performansı
 OLGUNLUK
 Ez
@@ -318,11 +318,11 @@ Toplama
 Kali
 Süreçlerinin
 Yönetimi
-ve — Toplumsal
-| Katkı
+ve  Toplumsal
+ Katkı
 OLGUNLUK DÜZE
 saklar
-[ts Toplumsal at süresinin yönetimi | T |? | FT 
+[ts Toplumsal at süresinin yönetimi  T |?  FT
 DI
 Toplama
 Kala
@@ -337,15 +337,15 @@ OLGUNLUK DÜZE
 ## Sayfa 9
 
 eS
-e le öner 
-[2.Tophameal KatkıPerforman |
+e le öner
+[2.Tophameal KatkıPerforman 
 OEGÜNLUKD
 eee
-|
+
 e
 Dog. Dr. Ahmet BOYOKAKKAS An,
 Dog. Dr. Meryem ARSLAN (Meze?
-|
+
 ‘Ay. Gat. Reyyan ÖZKİLİÇ A
-/
+
 snon #

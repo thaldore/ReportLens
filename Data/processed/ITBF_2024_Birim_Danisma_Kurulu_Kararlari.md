@@ -13,7 +13,7 @@ eorsgsiousoo2
 İ
 Fakültemiz Birim Danışma Kurulu 26 Aralık 2024 tarihinde saat 1
 Nevzat TOPAL başkanlığında toplanarak gündemdeki konular görüşmüş ve a
-|
+
 almıştır.
 i
 TOPLANTIYA KATILANLAR:
@@ -33,9 +33,9 @@ Ahmet KAFA
 Elif Belkis BAŞTÜRK.
 Üye
 Muttalip ATA
-|
+
 Raponür
-Levent ŞENEL - Fakülte Sekreteri
+Levent ŞENEL  Fakülte Sekreteri
 GÜNDEM MADDELERİ:
 1.
 Bir önceki toplantıda alınan kararların imzalanması
@@ -43,7 +43,7 @@ Bir önceki toplantıda alınan kararların imzalanması
 Kurumsal Akreditasyon Programı (KAP) kapsamında görüş ve önerileri
 3.
 Dilek ve temenniler.
-|
+
 KARAR NO:212401
 İnsan ve Toplum Bilimleri Fakültesi ülkemizin temel değerleri ve st
 uygun eğitim-öğretim sunan, evrensel düşünebilen ve tüm dünyada geçerli
@@ -70,7 +70,7 @@ il
 İNSAN VETOPLUM BİLİMLERİ FAKÜLTESİ DEKANLI
 x
 BİRİM DANIŞMA KURULU KARARI
-e aral znz |
+e aral znz 
 eerspsionsem
 e
 4. Faktemizin sol medyaaracılığıyla
@@ -84,7 +84,7 @@ deneme
 sınavlarının
 bazıların
 yaplmas
-|
+
 1.
 Fakthemzin tanıtım eyt ve am beşinin halama Gel
 öğretim kurumlarına gönderilmesinin sağlanması.
@@ -103,7 +103,7 @@ döğerendirime
 13 Niğde'de bulman turistik ve akademi yerrin diğe hire tantıl
 14. Yoğunlaştırılmış iş ve meslek danışmanlığı hizmeti olan iş kulübü faali
 prelayla
-15. Eğitim öğretim, aşırma gelişime topluma hizmet ve yönetimce iş 
+15. Eğitim öğretim, aşırma gelişime topluma hizmet ve yönetimce iş
 biçimde yürütülmesini sağlamak amacıyla, fakülte ile diğer kurumlar a
 güçlendirmek ve işbirliklerini geliştirmek için tavsiyelerde ve girişimle
 16, İğ öğrprg bpaya canpe mGv ex
@@ -131,19 +131,19 @@ pe
 Dekan V.
 7
 A
->
+
 da
 yeağ
 (Ak
 BiKGüL
 EmirhanÖZDEM
-|
+
 e
 Oye
 Ne
 İŞEKER
 Siya
-|
+
 i
 ‘Oye
 Mei?
@@ -158,7 +158,7 @@ Hastanesi dar ve Mal İşler Müdürü
 Üye
 Katılmadı
 Katılmadı)
->
+
 Hizmetler İl Müdürlüğü-
 Üye
 Ti Müdür Yardımcısı Vekili

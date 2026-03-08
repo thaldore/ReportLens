@@ -41,11 +41,11 @@ kurumsal dönüşümünü sağlayacak yönetişim
 modeline sahip
 olmalı,
 ie
-uyulamaı, iç kali güvence mekanizmaların oluşturmalı ve kalite govence kühürünü 
-|
+uyulamaı, iç kali güvence mekanizmaların oluşturmalı ve kalite govence kühürünü
+
 AL Tülerlik ve Kalite
 “OLGUNLUK DÜZE
-|
+
 ALI, Yönetişim
 modeli ve idari yapı, TET
 ALL. Liderlik ve Kate
@@ -56,12 +56,12 @@ a
 A.L3, Kurumsal dönüşüm kapasitesi
 ALL. Liderlik ve Kale
 OLGUNLUK DÜZE
-ALA İç kali güvencesi mekanizmaları | 7 | 2 | 3 | a
+ALA İç kali güvencesi mekanizmaları  7  2  3  a
 AI Lierlk veKale
 ©OLGUNLUK DÜZE
 ALS. Kamuoyunu Bilgilendirme
 ve)
-1 | 2)
+1  2)
 3
 hesap verebilirlik
 AZ, Misyon ve Stratejik Amaçlar
@@ -92,7 +92,7 @@ OLGUNLUK DÜZ
 442. Öğrenci gri bildirimleri
 TTP TT
 A4. Paydaş Katılımı
-|
+
 OLGUNLUK DÜZE
 443, Mezun ilişkileri yönetimi
 JE
@@ -117,28 +117,28 @@ OLGUNLUK DÜZ
 [ase Uluslararasılaşma süreçlerinin
 rials
 yönetimi
-|
+
 AS. Uluslararasılaşma
 OLGUNLUK DÜZE
 4.5.2. Uluslararasılaşma kaynakları
 i
 2)
 3
-| AS, Uluslararasılaşma
+ AS, Uluslararasılaşma
 7
 OLGUNLUK DÜZE
 TASI Uluslararasilayma performanss
 ÇT
 73
 B. EĞİTİM VE ÖĞRETİM
-Kurum, öğretim programların Türkiye Yükseköğretim Yeterlilikleri Çerçevesi ile 
+Kurum, öğretim programların Türkiye Yükseköğretim Yeterlilikleri Çerçevesi ile
 amaçlarına ve öğrenme çıktılarına uygun olark tasarlamalı öğrencilerin ve toplu
 sevap verdiğinden emin olmak işin periyodik olarak değerlendirmel
 ve göncellemelid
 Bal, Programların Tasarımı, Değerlendirilmesi ve Güncellenmesi
 BA.
 Programların
-Tasarımı, |
+Tasarımı, 
 OLGUNLUK DÜZ
 
 ---
@@ -148,7 +148,7 @@ OLGUNLUK DÜZ
 |BIB. Ders kazanımlarının program
 7
 2
-|
+
 çaktıarıyla uyumu
 N
 BA.
@@ -162,8 +162,8 @@ Programların
 Tasarımı,
 OLGUNLUK DÜZE
 ‘BLS.
-Programların © izlenmesi
-ve |
+Programların  izlenmesi
+ve 
 7
 2,
 3
@@ -187,7 +187,7 @@ wi
 B2.
 Programların
 Yürütülmesi
-|
+
 (Öğrenci Merkezli Öğrenme, Öğretme
 OLGUNLUK DÜZE
 Keli
@@ -201,7 +201,7 @@ TET TA
 B.2.— Programların
 Yürütülmesi.
 Öğrenci Merkezli Öğrenme, Öğretme
-|
+
 OLGUNLUK DÜZ
 ve Değerlendirme)
 3
@@ -210,7 +210,7 @@ ve Değerlendirme)
 T
 tanınması ve kredilendirilmesi
 BE
-Programlann — Yürümesi
+Programlann  Yürümesi
 (Öğrenci Merkezli Öğrenme, Öğretme
 OLGUNLUK DÜZ
 ve Değerlendirme)
@@ -251,7 +251,7 @@ TT
 BE
 Öğrenme Kayak
 veAkai
-|
+
 o
 Destek
 
@@ -278,7 +278,7 @@ ve
 görevlendirme krierlri
 TB Öğretim Kadrosu
 OLGUNLUK DÜZE
-|
+
 BA Öğreim Kadro
 OLGUNLUK DÜ
 Bİ
@@ -289,7 +289,7 @@ Eğim
 falyelerine
 yönelik
 teşek
-|
+
 xl
 ve
 ödüllendirme
@@ -299,10 +299,10 @@ yapılması beklenmektedir. Ar
 sürekli geliim odağı
 ile hedeflerinin
 ve bu hedeflerin kiler tarafndan gerçe
-belirlendiği, araşürma fclyelrinin gerçekleştirildi, hedeflerin nitelik ve nicelik 
+belirlendiği, araşürma fclyelrinin gerçekleştirildi, hedeflerin nitelik ve nicelik
 değerlendirildi ve ulaşılan sonuçların konrol edilerek ihiyoç duyulan iyileştirmele
 süreç olarak ele almalıdır.
-|
+
 CaAraştırma Süreçlerinin Yönetimi
 veAraştırma Kaynakları
 
@@ -318,35 +318,35 @@ OLGUNLUK DÜZ
 ve
 Araştırma Kaynakları
 (ÖZ bar yem e
-Dokura programları ve dokiora | 7
+Dokura programları ve dokiora  7
 Tİ
 sonras imkanlar
 (C2 Araştırma Yetkinliği, İş birliklerve Destekler
 TEZAraştırma Yetkinliği İş birileri ve
 OLGUNLUK DÜZ
-| Destekler
+ Destekler
 Mi
 (G2, Araştırma yetkinlikleri
-ve gelişimi | 7 | 2
-| 3X
+ve gelişimi  7  2
+ 3X
 ra
 Yan Bee
-|
+
 OLGUNLUE DOZ
 Destekler
 C22.
 Unsal
-ve uhslrarasortak | 7 |
+ve uhslrarasortak  7 
 >|
 ax
 programlar ve ortak araştırma birimleri
-|
+
 C3. Araştırma Performansı
 C3. Araştırma Performansı
 OLGUNLUK DÜZE
 GAL Arasirmaperformansının
-lenmesive | 7 |
-|
+lenmesive  7 
+
 GX
 değerlendirmesi
 1
@@ -371,7 +371,7 @@ Yönetimi
 “e
 Toplumsal© Katkı
 OLGUNLUK DÜZE
-| Kaynakları
+ Kaynakları
 kth süreçlerinin yönetimi
 2
 [x
@@ -385,7 +385,7 @@ leme ve srekli yleşirmeliir
 GE CÜNLEE DÜZ
 D2
 Toplumsal
-kathy — pefarmansmı
+kathy  pefarmansmı
 İzm
 ine
 EAEE

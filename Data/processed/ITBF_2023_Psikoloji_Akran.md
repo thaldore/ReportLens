@@ -27,8 +27,8 @@ periyodik
 vere işime
 yeri pri
 ALL. Liderlik ve Kalite
-Karum, kurumsal dönüşümünü sağlayacak yönetişim modelin sahip olmalı ider 
-uygulamalı, ig kale güvence mekanizmanın oluşturmalı ve kal güvence kürünü 
+Karum, kurumsal dönüşümünü sağlayacak yönetişim modelin sahip olmalı ider
+uygulamalı, ig kale güvence mekanizmanın oluşturmalı ve kal güvence kürünü
 AT vn edir [TT
 TE T
 ALE. Lier
@@ -37,11 +37,11 @@ OLGUNLUK DÜZ
 (aaa ——— İİ
 Aaram
 şa ep
-| TTF TA
+ TTF TA
 ALE Iç kali güvencesi mekakımala
-| T | 2 | X3 | 
+ T  2  X3 
 Çarmarke
-J — — orcnrnüze
+J   orcnrnüze
 ALS.
 Kamazyumı
 Bilgilendirme
@@ -58,7 +58,7 @@ A2, Misyon ve Stratejik Amaçlar
 A2. Misyon ve Stratejik Amaçlar.
 Ü
 e
-—
+
 [eevee
 TT
 kn Sm
@@ -84,12 +84,12 @@ de el th
 
 eb)
 "Ac. Paydaş Katılımı
-~
+
 OLGUNLUK DÜZ
 4.4.3, Mezun ilişkileri yönetimi
 T
-|
-ae | 
+
+ae 
 Orak)
 AS. Uluslararasılaşıma
 Karum,
@@ -119,9 +119,9 @@ A
 NK
 C
 ASAÜl
-yolan | TTAT T
+yolan  TTAT T
 B. EĞİTİM VE ÖĞRETİM
-Kurum, öğretim programların Türkiye Yükseköğretim Yeterlikleri Çerçevesi ie 
+Kurum, öğretim programların Türkiye Yükseköğretim Yeterlikleri Çerçevesi ie
 amaçların ve öğrenme çıktılarına uygun olrak tasarlama, öğrencilerin ve toplu
 sevap verdiğinden emin olmak içn periydik olarak değerlendirmeli ve gücetlemeld
 Bal, Programların Tasarımı, Değerlendirilmesi ve Güncellenmesi
@@ -171,7 +171,7 @@ Tarim
 OLGUNLUK DUZ
 Değerlendrilmesi
 ve Güneilenmesi
-ELE Eğim ve öğren süreçlerinin |
+ELE Eğim ve öğren süreçlerinin 
 7
 cc)
 amm
@@ -184,7 +184,7 @@ Merkedi
 Öğrenme,
 Değerlendirme)
 Kurun, hedi ilikli meron yelleri ulaşmak amacıyla öğe
-Yeti temel öğretim, me ve değerlendirme yöntemlerin uygulamalıdır. 
+Yeti temel öğretim, me ve değerlendirme yöntemlerin uygulamalıdır.
 kabül, dplma, derce ve diğe yeelilklrn tanınması ve setftalandi
 açık kirler belle; önceden
 tanımlanmış ve ian diy kuraları
@@ -215,7 +215,7 @@ Yürüümel
 (Öğrenci Merkezli Öğrenme, Öğretme
 OLGUNLUK DÜZ
 ve Değerlendirme)
-B24. Yeteriiklerin seriikalandinimasive |
+B24. Yeteriiklerin seriikalandinimasive 
 7
 diploma
 B3, Öğrenme Kaynakları ve Akademik Destek Hizmetleri
@@ -226,7 +226,7 @@ akademik gelişimi ve kariyer planlamasına yönelik desek hizmetler sağlamalı
 LE Öğren
 aklarıve
 Akademi
-»
+
 mal
 OLGUNLUK DÜZ
 Destek
@@ -251,7 +251,7 @@ DT
 13. Öğrenme
 Kaynakları
 ve Akademik
-—
+
 OLGUNLUK DÜZ
 
 ---
@@ -277,7 +277,7 @@ x2
 görevlendirme kriterleri
 Çor
 onanren z
-(EE İle yeri vegelimi | TT 2 TET
+(EE İle yeri vegelimi  TT 2 TET
 BLI
 Eğim
 faaliylerine
@@ -285,7 +285,7 @@ yönelik erik
 lin
 falipelerine
 yönel
-eşik |
+eşik 
 TT
 ve ödüllendirme
 C. ARAŞTIRMA VE GELİŞTİRME
@@ -325,8 +325,8 @@ nm
 ve
 lar
 ora
-Loregnmtarveorakarasermabrintes™| 7 | 7 |
-[ 
+Loregnmtarveorakarasermabrintes™| 7  7 
+
 C3. Arayurma Performansı
 BESEDİ
 ‘C2.Arata prformansinn
@@ -338,7 +338,7 @@ NAME
 ener
 TEE Öğreleman
 Ümmi
-| * | ? | * |
+      
 D. TOPLUMSAL KATKI
 Kumun plankafeleri hipoldu hedefleri vesatelağrı
 ve
@@ -354,7 +354,7 @@ ve"
 Toplumml Kata
 OLGUNLUK DÜZ
 Kaynakları
-Di opçiy | 1 [PA
+Di opçiy  1 [PA
 Dil.
 Toplumsal
 Kali Sürer
@@ -367,7 +367,7 @@ anni
 .D.2. Toplumsal Katkı Performansı
 OLGUNLU
 D.2I.Toplumsal
-(kadı © performansının
+(kadı  performansının
 3
 melve ğer
-monn) xT | 2 V3
+monn) xT  2 V3

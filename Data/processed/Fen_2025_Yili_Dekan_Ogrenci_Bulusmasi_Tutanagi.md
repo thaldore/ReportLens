@@ -3,11 +3,9 @@
 
 **FEN FAKÜLTESİ**
 
-
 **DEKAN-ÖĞRENCİ BULUŞMASI TOPLANTI TUTANAĞI**
 
 **06.11.2025**
-
 
 Fakültemizin en önemli paydaşlarından olan öğrencilerimizin görüş düşünce öneri ve
 beklentilerini almak için Dekanlık Makamının 05.11.2025 tarih ve 733363 sayılı yazısı ile
@@ -16,9 +14,7 @@ Konferans Salonunda Dekan-Öğrenci Buluşma toplantısı Fakültemiz Dekanı Pr
 YALÇIN, Dekan Yardımcılarımız Prof.Dr. Yavuz SÜRME, Dr. Öğr. Üyesi Aliye
 KAHYAOĞLU ve Öğrencilerimizin katılımıyla gerçekleşmiştir.
 
-
 **Öğrencilerimizin dilek ve temennileri:**
-
 
 **1.** Fakültemizin kuzey cephesinde bulunan sınıfların yeterince ısınmadığı söylendi.
 **2.** Laboratuvar malzemelerinin eksik olduğu ve mevcut cihazlara da düzenli olarak bakım
@@ -56,5 +52,3 @@ edildi.
 öğrencilere yemekhane fişi veya ulaşım ücreti olarak fayda sağlanması istendi.
 **20.** Fakültemiz sınıflarında bulunan lambaların çok ses yaptığı söylendi.
 **21.** Açık alanda üstü kapalı sigara içme alanı talep edildi.
-
-

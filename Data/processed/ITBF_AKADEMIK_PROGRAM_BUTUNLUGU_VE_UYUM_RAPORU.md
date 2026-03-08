@@ -1,11 +1,11 @@
 ## Sayfa 1
 
-,
+
 m
 Eee
 pi
 8
-FEE an *
+FEE an 
 ERG
 ŞE
 fee Br
@@ -13,18 +13,18 @@ re
 fet
 OF
 Sg?
-|
+
 Söz
 E
 gir
 EB
-|
+
 ee
 oF
 aby
 8
 Eig
-©
+
 vi
 2
 ER
@@ -32,7 +32,7 @@ ER
 e?
 ğ
 RE
-£
+
 de
 3
 
@@ -43,20 +43,20 @@ de
 rev
 e
 e
-|
+
 e
-| H
+ H
 BlKl a)
 ö
 ikm Sani
 Fl
-oka oem) |) 
+oka oem) |)
 Mümin
 e ie e)
-|
+
 Rt
 ts
-gesm)| |
+gesm)| 
 
 ---
 
@@ -64,13 +64,13 @@ gesm)| |
 
 i
 birini
-li eml 
+li eml
 aad
 diki
-PEA) | meli
+PEA)  meli
 gili
 kiii
-|
+
 est
 it
 
@@ -107,7 +107,7 @@ e
 Og sr
 LOMB Ae een SOY Ap trGTA
 G
-|
+
 e OL
 im GrGn BAYNOR An Gr AeKURT
 a Gr Kg NCE

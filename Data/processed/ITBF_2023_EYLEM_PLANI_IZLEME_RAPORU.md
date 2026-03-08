@@ -4,14 +4,11 @@
 
 #### **2024**
 
-
 #### **2023 YILI EYLEM PLANI İZLEME RAPORU**
 
 Niğde Ömer Halisdemir Üniversitesi İnsan ve Toplum Bilimleri  Fakültesi 2023 Yılı Eylem
 
-
 Planı’nda toplam 37 eylem planlanmış olup 35 eylem gerçekleştirilmiştir.
-
 
 |BİRİM|PLANLANAN|GERÇEKLEŞTİRİLEN|
 |---|---|---|
@@ -23,47 +20,15 @@ Planı’nda toplam 37 eylem planlanmış olup 35 eylem gerçekleştirilmiştir.
 |Türk Dili ve Edebiyatı Bölümü|4|2|
 |**TOPLAM**|37|35|
 
-
 ### **FEN EDEBİYAT FAKÜLTESİ** **ÇAĞDAŞ TÜRK LEHÇELERİ VE EDEBİYATLARI** **BÖLÜMÜ** **2023 YILI EYLEM PLANI İZLEME RAPORU**
 
 #### **2024**
-
 
 #### **2023 YILI EYLEM PLANI İZLEME RAPORU**
 
 Fen Edebiyat Fakültesi, Çağdaş Türk Lehçeleri ve Edebiyatları Bölümü 2023 Yılı Eylem
 
-
 Planı’nda toplam 7 eylem planlanmış olup tamamı gerçekleştirilmiştir.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 |Col1|Col2|Ocak|Şubat|Mart|Nisan|Mayıs|Haziran|Temmuz|Ağustos|Eylül|Ekim|Kasım|Aralık|
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -80,14 +45,7 @@ Planı’nda toplam 7 eylem planlanmış olup tamamı gerçekleştirilmiştir.
 |11|Bölüme yeni kayıt yapan öğrencilere<br>yönelik eğitsel uyum etkinliği<br>yapılması||||||||||**√**|||
 |12|Eğitim süreçlerinin iyileştirilmesine<br>yönelik faaliyet yapılması|||||||||||**√**||
 
-
 #### **KALBİS KANIT FORMU**
-
-
-
-
-
-
 
 |Faaliyetin Yapıldığı<br>Birim|Fen Edebiyat Fakültesi|
 |---|---|
@@ -99,9 +57,7 @@ Planı’nda toplam 7 eylem planlanmış olup tamamı gerçekleştirilmiştir.
 |**Kanıt Görseli**||
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Bölüm Başkanı|
 
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
-
 
 #### **KALBİS KANIT FORMU**
 
@@ -115,10 +71,7 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 |**Kanıt Görseli**||
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Bölüm Başkanı|
 
-
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
-
 
 #### **KALBİS KANIT FORMU**
 
@@ -132,18 +85,9 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 |**Kanıt Görseli**||
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Bölüm Başkanı|
 
-
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 
-
 #### **KALBİS KANIT FORMU**
-
-
-
-
-
-
 
 |Faaliyetin Yapıldığı<br>Birim|Fen Edebiyat Fakültesi|
 |---|---|
@@ -155,9 +99,7 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 |**Kanıt Görseli**||
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Bölüm Başkanı|
 
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
-
 
 #### **KALBİS KANIT FORMU**
 
@@ -171,10 +113,7 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 |**Kanıt Görseli**|<br>|
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Bölüm Başkanı|
 
-
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
-
 
 #### **KALBİS KANIT FORMU**
 
@@ -188,10 +127,7 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 |**Kanıt Görseli**||
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Bölüm Başkanı|
 
-
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
-
 
 #### **KALBİS KANIT FORMU**
 
@@ -205,49 +141,17 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 |**Kanıt Görseli**||
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Bölüm Başkanı|
 
-
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
-
 
 ### **FEN EDEBİYAT FAKÜLTESİ** **SANAT TARİHİ BÖLÜMÜ** **2023 YILI EYLEM PLANI İZLEME RAPORU**
 
 #### **2024**
 
-
 #### **2023 YILI EYLEM PLANI İZLEME RAPORU**
 
 Fen Edebiyat Fakültesi Sanat Tarihi Bölümü 2023 Yılı Eylem Planı’nda toplam 9 eylem planlanmış
 
-
 olup tamamı gerçekleştirilmiştir.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 |Col1|Col2|Ocak|Şubat|Mart|Nisan|Mayıs|Haziran|Temmuz|Ağustos|Eylül|Ekim|Kasım|Aralık|
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -261,14 +165,7 @@ olup tamamı gerçekleştirilmiştir.
 |8|Bölüme yeni kayıt yapan öğrencilere<br>yönelik eğitsel uyum etkinliği<br>yapılması||||||||||**√ **|||
 |9|Eğitim süreçlerinin iyileştirilmesine<br>yönelik faaliyet yapılması|||||||||**√**||||
 
-
 #### **KALBİS KANIT FORMU**
-
-
-
-
-
-
 
 |Faaliyetin Yapıldığı<br>Birim|Fen Edebiyat Fakültesi|
 |---|---|
@@ -280,17 +177,9 @@ olup tamamı gerçekleştirilmiştir.
 |**Kanıt Görseli**||
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Bölüm Başkanı|
 
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 
-
 #### **KALBİS KANIT FORMU**
-
-
-
-
-
-
 
 |Faaliyetin Yapıldığı<br>Birim|Fen Edebiyat Fakültesi|
 |---|---|
@@ -302,9 +191,7 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 |**Kanıt Görseli**||
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Bölüm Başkanı|
 
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
-
 
 #### **KALBİS KANIT FORMU**
 
@@ -318,18 +205,9 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 |**Kanıt Görseli**||
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Bölüm Başkanı|
 
-
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 
-
 #### **KALBİS KANIT FORMU**
-
-
-
-
-
-
 
 |Faaliyetin Yapıldığı<br>Birim|Fen Edebiyat Fakültesi|
 |---|---|
@@ -341,9 +219,7 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 |**Kanıt Görseli**||
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Bölüm Başkanı|
 
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
-
 
 #### **KALBİS KANIT FORMU**
 
@@ -357,18 +233,9 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 |**Kanıt Görseli**||
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Bölüm Başkanı|
 
-
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 
-
 #### **KALBİS KANIT FORMU**
-
-
-
-
-
-
 
 |Faaliyetin Yapıldığı<br>Birim|Fen Edebiyat Fakültesi|
 |---|---|
@@ -380,9 +247,7 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 |**Kanıt Görseli**||
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Bölüm Başkanı|
 
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
-
 
 #### **KALBİS KANIT FORMU**
 
@@ -396,10 +261,7 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 |**Kanıt Görseli**|<br>|
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Bölüm Başkanı|
 
-
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
-
 
 #### **KALBİS KANIT FORMU**
 
@@ -413,10 +275,7 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 |**Kanıt Görseli**||
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Bölüm Başkanı|
 
-
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
-
 
 #### **KALBİS KANIT FORMU**
 
@@ -430,27 +289,16 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 |**Kanıt Görseli**||
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Bölüm Başkanı|
 
-
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
-
 
 ## **FEN-EDEBİYAT FAKÜLTESİ**
 
 ### **BATI DİLLERİ VE EDEBİYATLARI** **BÖLÜMÜ** **İNGİLİZ DİLİ VE EDEBİYATI ANA BİLİM DALI** **2023 YILI EYLEM PLANI İZLEME RAPORU**
 
-
 #### **2024** **2023 YILI EYLEM PLANI İZLEME RAPORU**
 
 Fen-Edebiyat Fakültesi 2023 Yılı Eylem Planı’nda toplam 5 eylem planlanmış olup tamamı
 gerçekleştirilmiştir.
-
-
-
-
-
-
-
 
 |BİRİM|PLANLANAN|GERÇEKLEŞTİRİLEN|
 |---|---|---|
@@ -460,40 +308,13 @@ gerçekleştirilmiştir.
 ||Akademik Kurul<br>toplantılarının<br>yapılması|Ocak/Eylül 2023|
 |**TOPLAM**|5|5|
 
-
 ### **FEN-EDEBİYAT FAKÜLTESİ** **COĞRAFYA BÖLÜMÜ** **2023 YILI EYLEM PLANI İZLEME RAPORU**
 
 #### **2024**
 
-
 #### **2023 YILI EYLEM PLANI İZLEME RAPORU**
 
 Coğrafya Bölümü 2023 Yılı Eylem Planı’nda toplam 9 eylem planlanmış olup tamamı
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 |gerçekleştirilmiştir.|Col2|Col3|Col4|Col5|Col6|Col7|Col8|Col9|Col10|Col11|Col12|Col13|Col14|
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -508,7 +329,6 @@ Coğrafya Bölümü 2023 Yılı Eylem Planı’nda toplam 9 eylem planlanmış o
 |8|Bölüme yeni kayıt yapan öğrencilere<br>yönelik eğitsel uyum etkinliği<br>yapılması|||||||||**√**|**√**|||
 |9|Eğitim süreçlerinin iyileştirilmesine<br>yönelik faaliyet yapılması|||**√**||||||||||
 
-
 |Faaliyetin Yapıldığı Birim|Fen-Edebiyat Fakültesi|
 |---|---|
 |**Bölüm**|Coğrafya|
@@ -518,7 +338,6 @@ Coğrafya Bölümü 2023 Yılı Eylem Planı’nda toplam 9 eylem planlanmış o
 |**Açıklama**|CBS sınıfındaki 40 bilgisayarın Windows 10 işletim sistemine dönüşümlerinin yapılması<br>ve<br>bilgisayarların NÖHÜ dizinine kaydedilmesi.|
 |**Kanıt Görseli**||
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Bölüm başkanı|
-
 
 |Faaliyetin Yapıldığı Birim|Fen-Edebiyat Fakültesi|
 |---|---|
@@ -530,7 +349,6 @@ Coğrafya Bölümü 2023 Yılı Eylem Planı’nda toplam 9 eylem planlanmış o
 |**Kanıt Görseli**||
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Bölüm başkanı|
 
-
 |Faaliyetin Yapıldığı Birim|Fen-Edebiyat Fakültesi|
 |---|---|
 |**Bölüm**|Coğrafya|
@@ -540,7 +358,6 @@ Coğrafya Bölümü 2023 Yılı Eylem Planı’nda toplam 9 eylem planlanmış o
 |**Açıklama**|Güz dönemi başlamadan önce rektörümüzün de katılımıyla gerçekleştirilen akademik<br>kurul toplantısı.|
 |**Kanıt Görseli**||
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Bölüm başkanı|
-
 
 |Faaliyetin Yapıldığı Birim|Fen-Edebiyat Fakültesi|
 |---|---|
@@ -552,7 +369,6 @@ Coğrafya Bölümü 2023 Yılı Eylem Planı’nda toplam 9 eylem planlanmış o
 |**Kanıt Görseli**||
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Bölüm başkanı|
 
-
 |Faaliyetin Yapıldığı Birim|Fen-Edebiyat Fakültesi|
 |---|---|
 |**Bölüm**|Coğrafya|
@@ -562,7 +378,6 @@ Coğrafya Bölümü 2023 Yılı Eylem Planı’nda toplam 9 eylem planlanmış o
 |**Açıklama**|Mezun öğrencilerimizle toplantı yapıldı. Öğrencilerimizin hangi meslekleri icra ettikleri<br>ve üniversitemizden talepleri hakkında görüşüldü.|
 |**Kanıt Görseli**||
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Bölüm başkanı|
-
 
 |Faaliyetin Yapıldığı Birim|Fen-Edebiyat Fakültesi|
 |---|---|
@@ -574,7 +389,6 @@ Coğrafya Bölümü 2023 Yılı Eylem Planı’nda toplam 9 eylem planlanmış o
 |**Kanıt Görseli**|Görsel bulunmamaktadır.|
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Bölüm başkanı|
 
-
 |Faaliyetin Yapıldığı Birim|Fen-Edebiyat Fakültesi|
 |---|---|
 |**Bölüm**|Coğrafya|
@@ -584,7 +398,6 @@ Coğrafya Bölümü 2023 Yılı Eylem Planı’nda toplam 9 eylem planlanmış o
 |**Açıklama**|İlgili öğretim üyesi tarafından Bologna ders bilgi paketleri her sene başında<br>güncellenmektedir.|
 |**Kanıt Görseli**||
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Bölüm başkanı|
-
 
 |Faaliyetin Yapıldığı Birim|Fen-Edebiyat Fakültesi|
 |---|---|
@@ -596,7 +409,6 @@ Coğrafya Bölümü 2023 Yılı Eylem Planı’nda toplam 9 eylem planlanmış o
 |**Kanıt Görseli**||
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Bölüm başkanı|
 
-
 |Faaliyetin Yapıldığı Birim|Fen-Edebiyat Fakültesi|
 |---|---|
 |**Bölüm**|Coğrafya|
@@ -607,27 +419,15 @@ Coğrafya Bölümü 2023 Yılı Eylem Planı’nda toplam 9 eylem planlanmış o
 |**Kanıt Görseli**||
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Bölüm başkanı|
 
-
 ### **FEN EDEBİYAT FAKÜLTESİ** **SOSYOLOJİ BÖLÜMÜ** **2023 YILI EYLEM PLANI İZLEME RAPORU**
 
 #### **2024**
-
 
 #### **2023 YILI EYLEM PLANI İZLEME RAPORU**
 
 Fen Edebiyat Fakültesi, Sosyoloji Bölümü 2023 Yılı Eylem Planı’nda toplam 3 eylem planlanmış
 
-
 olup tamamı gerçekleştirilmiştir.
-
-
-
-
-
-
-
-
-
 
 |Col1|Col2|Ocak|Şubat|Mart|Nisan|Mayıs|Haziran|Temmuz|Ağustos|Eylül|Ekim|Kasım|Aralık|
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -635,20 +435,7 @@ olup tamamı gerçekleştirilmiştir.
 |2|Öğrenci kulüp faaliyetlerinin<br>desteklenmesi|||||**√**||||||||
 |3|Öğrenci kulüp faaliyetlerinin<br>desteklenmesi||||||||||**√**|||
 
-
 #### **KALBİS KANIT FORMU**
-
-
-
-
-
-
-
-
-
-
-
-
 
 |Faaliyetin Yapıldığı<br>Birim|FEN EDEBİYAT FAKÜLTESİ|
 |---|---|
@@ -660,23 +447,9 @@ olup tamamı gerçekleştirilmiştir.
 |**Kanıt Görseli**|<br> <br> <br> <br> <br> <br>|
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Bölüm Başkanı Prof. Dr. Bülent KARA|
 
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 
-
 #### **KALBİS KANIT FORMU**
-
-
-
-
-
-
-
-
-
-
-
-
 
 |Faaliyetin Yapıldığı<br>Birim|FEN EDEBİYAT FAKÜLTESİ|
 |---|---|
@@ -688,23 +461,9 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 |**Kanıt Görseli**|<br> <br>|
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Bölüm Başkanı Prof. Dr. Bülent KARA|
 
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 
-
 #### **KALBİS KANIT FORMU**
-
-
-
-
-
-
-
-
-
-
-
-
 
 |Faaliyetin Yapıldığı<br>Birim|FEN EDEBİYAT FAKÜLTESİ|
 |---|---|
@@ -716,7 +475,4 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 |**Kanıt Görseli**|<br> <br>|
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Bölüm Başkanı Prof. Dr. Bülent KARA|
 
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
-
-

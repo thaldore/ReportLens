@@ -1,6 +1,6 @@
 ## Sayfa 1
 
-‘
+
 AKRAN DEĞERLENDİRME RAPORU
 MÜTERCİM TERCÜMANLIK BÖLÜMÜ
 Akran Değerlendirmesi Yapan Birim ve Komisyon
@@ -19,20 +19,20 @@ lr hala geçirmek zere sree mal elledi. meade li
 yolar ie tin yöntemini bu kinda anlaması beklenmektedir. Kur
 Tal ke gönencesi sitemine kallmım ve att ermesini sağ
 paydaşların
-Ki js ve hedefleri doğrultusunda yürümüğü faliyelri periyod 
+Ki js ve hedefleri doğrultusunda yürümüğü faliyelri periyod
 Add. Liderlik ve Kalite
 urun, kurumsal dönüşümünü sağlayacak yönetişim modelin sahip olmal, der
 yalamalı ale görece mekanizmaların oluşturmalı vebal gövencekral i
-(amaaa — — e
+(amaaa   e
 FEET. Yönetişim modeli ve Wariyapı
-arman —
+arman 
 T
 mami Iİ
 Çaman  —ye
 ŞE
 GE GEN H
-Çamamra ———ç —
- 
+Çamamra ———ç 
+
 TEES. Kanayan Bilgilendirme
 ve DEF
 hesap verebilirlik
@@ -171,7 +171,7 @@ EE NE
 C.2 Araştırma Yetkinliği, İş birlikleri ve Destekler
 (amam İLİ
 2
-|
+
 ENİ ERİ
 ENNE
 EAA

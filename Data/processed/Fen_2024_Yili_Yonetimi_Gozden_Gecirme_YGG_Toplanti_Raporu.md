@@ -1,46 +1,30 @@
 **NİĞDE ÖMER HALİSDEMİR ÜNİVERSİTESİ**
 
-
 **YÖNETİM GÖZDEN GEÇİRME (YGG) TOPLANTI RAPORU-2024**
-
-
-
-
 
 |YGG DÖNEMİ 2024 Yılı|Col2|
 |---|---|
 |**BİRİM YGG TOPLANTI TARİHİ**<br>19.02.2025|**BİRİM YGG TOPLANTI TARİHİ**<br>19.02.2025|
 |**YGG TOPLANTI KATILIMCILARI**|Dekan V. Prof. Dr. Orhan YALÇIN<br>Dekan Yardımcısı Prof. Dr. Yavuz SÜRME<br>Dekan Yardımcısı Dr. Öğr. Üyesi Aliye KAHYAOĞLU|
 
-
 **GİRİŞ**
-
 
 **Amaç:** Üniversitemiz kalite çalışmaları kapsamında birimlerimizin Yönetim Gözden Geçirme
 
 (YGG) toplantılarını yapmak ve YGG raporunu hazırlamaktır.
 
-
 **Kapsam:** YGG rapor dönemi 01.01.2024-31.12.2024 tarihleri ile akademik ve idari birimlerin
 
 tamamını kapsar.
-
 
 **Hedefler:** Kalite güvence sistemi kapsamında, birimlerimizin ve üniversitemizin performans
 
 sonuçlarını ortaya koymak, analiz etmek ve bu analizler doğrultusunda iyileştirme hedeflerini
 net bir şekilde tanımlamaktır.
 
-
 **1.** **Kalite Yönetim Sistemi ile İlgili İç ve Dış Hususlardaki Değişimler**
 
 **(Eğitim ve Öğretim/Liderlik, Yönetim ve Kalite)**
-
-
-
-
-
-
 
 |Değişim Alanları 2023 2024 Bir Önceki Yıla Göre Değişim<br>Oranı|Col2|Col3|Col4|
 |---|---|---|---|
@@ -55,69 +39,37 @@ net bir şekilde tanımlamaktır.
 |Program Sayısı<br>12<br>5<br>-%58,33|Program Sayısı<br>12<br>5<br>-%58,33|Program Sayısı<br>12<br>5<br>-%58,33|Program Sayısı<br>12<br>5<br>-%58,33|
 |Akred൴te Olan Program Sayısı|-|-|-|
 
-
 **İyileştirme Faaliyetleri**
-
 
 **2.** **Paydaş Memnuniyeti ve İlgili Taraflardan Gelen Geri Bildirimler**
 
 **(Liderlik, Yönetim ve Kalite)**
-
 
 |Öğrenci Memnuniyet Oranı|Col2|Col3|
 |---|---|---|
 |**2023**<br>**2024**<br>**Bir Önceki Yıla Göre Değişim Oranı**|**2023**<br>**2024**<br>**Bir Önceki Yıla Göre Değişim Oranı**|**2023**<br>**2024**<br>**Bir Önceki Yıla Göre Değişim Oranı**|
 |**- **|**- **|**- **|
 
-
 |Çalışan Memnuniyet Oranı (Varsa)|Col2|Col3|
 |---|---|---|
 |**2023**<br>**2024**<br>**Bir Önceki Yıla Göre Değişim Oranı**|**2023**<br>**2024**<br>**Bir Önceki Yıla Göre Değişim Oranı**|**2023**<br>**2024**<br>**Bir Önceki Yıla Göre Değişim Oranı**|
 |**- **|**- **|**- **|
-
 
 |Dış Paydaş (Mezun/Danışma Kurulu…) Memnuniyet Anketi Uygulanma Durumu (Uygulandı/Uygulanmadı)|Col2|
 |---|---|
 |**2023**<br>**2024**|**2023**<br>**2024**|
 |**- **|**- **|
 
-
 |Paydaş Memnuniyeti İçin Gerçekleştirilen Toplantı Sayısı|Col2|
 |---|---|
 |**2023**<br>**2024**|**2023**<br>**2024**|
-|**2 **|**10 (Fizik) + 1 (Fen Fakültesi)**|
-
+|**2 **|**10 (Fizik)  1 (Fen Fakültesi)**|
 
 **İyileştirme Faaliyetleri**
-
 
 **3.** **Öğrenci Memnuniyeti ve İlgili Taraflardan Gelen Geri Bildirimler**
 
 **(Eğitim ve Öğretim/Liderlik, Yönetim ve Kalite)**
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 |Bildirim Türü 2023 2024 Bir Önceki Yıla Göre Değişim<br>Oranı|Col2|Col3|Col4|
 |---|---|---|---|
@@ -129,13 +81,9 @@ net bir şekilde tanımlamaktır.
 |Aktif Danışmanlık Toplantı<br>Sayısı<br>1<br>**21**<br>%2000|Aktif Danışmanlık Toplantı<br>Sayısı<br>1<br>**21**<br>%2000|Aktif Danışmanlık Toplantı<br>Sayısı<br>1<br>**21**<br>%2000|Aktif Danışmanlık Toplantı<br>Sayısı<br>1<br>**21**<br>%2000|
 |**TOPLAM**|3727|**844**|-%77,35|
 
-
 **İyileştirme Faaliyetleri**
 
-
 **4.** **Bilimsel/Sanatsal Faaliyetler (Ar-Ge/Toplumsal Katkı)**
-
-
 
 |İzleme ve Ölçme Alanları 2023 2024 Bir Önceki Yıla Göre Değişim<br>Oranı|Col2|Col3|Col4|
 |---|---|---|---|
@@ -150,33 +98,16 @@ net bir şekilde tanımlamaktır.
 |**Sanatsal Faaliyet Sayısı**<br> -<br>**- **<br>-|**Sanatsal Faaliyet Sayısı**<br> -<br>**- **<br>-|**Sanatsal Faaliyet Sayısı**<br> -<br>**- **<br>-|**Sanatsal Faaliyet Sayısı**<br> -<br>**- **<br>-|
 |**Birim Tarafından Düzenlenen**<br>**Bilimsel Toplantı Sayısı**<br>**(Panel/Sempozyum/Kongre vb.)**|<br>5|**2 (Kimya**<br>**Biyoteknoloji)**|-%60|
 
-
 **İyileştirme Faaliyetleri**
-
 
 **…**
 
-
 **5.** **İzleme ve Ölçme Sonuçları**
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 |İzleme ve Ölçme Alanları 2023 2024 Bir Önceki Yıla Göre Değişim Oranı|Col2|Col3|Col4|
 |---|---|---|---|
-|Danışma Kurulu Toplantı Sayısı<br>** - **<br>**2 **<br>-|Danışma Kurulu Toplantı Sayısı<br>** - **<br>**2 **<br>-|Danışma Kurulu Toplantı Sayısı<br>** - **<br>**2 **<br>-|Danışma Kurulu Toplantı Sayısı<br>** - **<br>**2 **<br>-|
+|Danışma Kurulu Toplantı Sayısı<br>**  **<br>**2 **<br>-|Danışma Kurulu Toplantı Sayısı<br>**  **<br>**2 **<br>-|Danışma Kurulu Toplantı Sayısı<br>**  **<br>**2 **<br>-|Danışma Kurulu Toplantı Sayısı<br>**  **<br>**2 **<br>-|
 |Kalite Komisyonu Toplantı<br>Sayısı|-|**1 **|-|
-
 
 |Birimde Yapılan Anket Sayısı 1 %98,36<br>61|Col2|Col3|Col4|
 |---|---|---|---|
@@ -186,26 +117,11 @@ net bir şekilde tanımlamaktır.
 |Mezun Öğrencilere Yönelik<br>Gerçekleştirilen Faaliyet Sayısı<br>**8 **<br>**1 **<br>-87,5|Mezun Öğrencilere Yönelik<br>Gerçekleştirilen Faaliyet Sayısı<br>**8 **<br>**1 **<br>-87,5|Mezun Öğrencilere Yönelik<br>Gerçekleştirilen Faaliyet Sayısı<br>**8 **<br>**1 **<br>-87,5|Mezun Öğrencilere Yönelik<br>Gerçekleştirilen Faaliyet Sayısı<br>**8 **<br>**1 **<br>-87,5|
 |Bakım ve Kalibrasyona Tabi<br>Cihazlara Yönelik Uygulama<br>Sayıları|-|**- **|-|
 
-
 **İyileştirme Faaliyetleri**
 
-
 **…**
-
-
-
-
-
-
-
-
-
-
-
 
 |6. Üniversitemizin Kalite Yönetim Sisteminin Değerlendirilmesi|Col2|Col3|
 |---|---|---|
 |**Güçlü Yönler**<br>**İyileştirmeye Açık Yönler**<br>**Öneriler**|**Güçlü Yönler**<br>**İyileştirmeye Açık Yönler**<br>**Öneriler**|**Güçlü Yönler**<br>**İyileştirmeye Açık Yönler**<br>**Öneriler**|
-|*Fakültede farklı araştırma<br>alanlarında yetkin ve donanımlı<br>akademik personelin olması<br>* Nitelikli yayın ve proje<br>sayısının yüksek olması<br>* Akademik düzeyde uluslararası<br>güçlü işbirliği<br>* Uluslararası öğrenci-öğretim<br>elemanı değişim programlarında<br>aktif olunması<br>* Nitelikli ve özverili idari<br>personelin olması<br>*Atama ve yükseltme<br>kriterlerinin yürürlükte olması|*Sosyal olanakların yetersiz<br>olması<br>*Üniversite-sanayi işbirliğinin<br>yetersiz olması sorunu<br>*Fakültemizin Fiziki alan ve alt<br>yapı olanaklarının ( spor<br>alanları, sosyal tesisler vb.)<br>yetersiz olması<br>*Öğrenci Kulüplerinin sayıca<br>azlığı ve faaliyetlerinin<br>yetersizliği<br>*Fakültemizin akademik<br>personeli ve öğrencileri için<br>gerekli olan sosyal mekanlarının<br>henüz tam anlamıyla|*Fakültede bulunan<br>Bölümlerin daha verimli<br>çalışabilmesin için<br>Bölümlere alınan<br>Araştırma Görevlilerinin<br>Bölüm ihtiyaçlarına göre<br>tamamlatılan Yüksek<br>Lisanslarının yine bu<br>ihtiyaç doğrultusunda<br>Doktorlarının da Fakülte<br>bünyesinde<br>tamamlatılarak hem<br>mevcut akademik kadro<br>ile hem de öğrencilerle<br>iyi bir uyum içerisinde|
-
-
+|*Fakültede farklı araştırma<br>alanlarında yetkin ve donanımlı<br>akademik personelin olması<br>* Nitelikli yayın ve proje<br>sayısının yüksek olması<br>* Akademik düzeyde uluslararası<br>güçlü işbirliği<br>* Uluslararası öğrenci-öğretim<br>elemanı değişim programlarında<br>aktif olunması<br>* Nitelikli ve özverili idari<br>personelin olması<br>*Atama ve yükseltme<br>kriterlerinin yürürlükte olması|*Sosyal olanakların yetersiz<br>olması<br>*Üniversite-sanayi işbirliğinin<br>yetersiz olması sorunu<br>*Fakültemizin Fiziki alan ve alt<br>yapı olanaklarının  spor<br>alanları, sosyal tesisler vb.)<br>yetersiz olması<br>*Öğrenci Kulüplerinin sayıca<br>azlığı ve faaliyetlerinin<br>yetersizliği<br>*Fakültemizin akademik<br>personeli ve öğrencileri için<br>gerekli olan sosyal mekanlarının<br>henüz tam anlamıyla|*Fakültede bulunan<br>Bölümlerin daha verimli<br>çalışabilmesin için<br>Bölümlere alınan<br>Araştırma Görevlilerinin<br>Bölüm ihtiyaçlarına göre<br>tamamlatılan Yüksek<br>Lisanslarının yine bu<br>ihtiyaç doğrultusunda<br>Doktorlarının da Fakülte<br>bünyesinde<br>tamamlatılarak hem<br>mevcut akademik kadro<br>ile hem de öğrencilerle<br>iyi bir uyum içerisinde|

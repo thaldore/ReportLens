@@ -1,6 +1,5 @@
 **Evrak Tarih ve Sayısı: 13/01/2026-765778**
 
-
 T.C.
 NİĞDE ÖMER HALİSDEMİR ÜNİVERSİTESİ REKTÖRLÜĞÜ
 
@@ -8,85 +7,52 @@ Mimarlık Fakültesi Dekanlığı
 
 Mimarlık Bölüm Başkanlığı
 
-
 Sayı  :E-17583459-060-765778 13/01/2026
 Konu :2025 Yılı Eylem Planı İzleme ve
 Değerlendirme Raporu
 
-
 DEKANLIK MAKAMINA
 
-
-İlgi : a) Kalite Koordinatörlüğünün 05/01/2026 tarihli ve E-65407296-060-760764 sayılı yazısı.
+İlgi  a) Kalite Koordinatörlüğünün 05/01/2026 tarihli ve E-65407296-060-760764 sayılı yazısı.
 
 b) 09/01/2026 tarihli ve E-68262884-060-763937 sayılı yazınız.
-
 
 Bölümümüz tarafından 2025 yılı eylem planlarının izleme ve değerlendirilmesine yönelik
 hazırlanan rapor yazımız ekinde sunulmuştur.
 
-
 Gereğini arz ederim.
-
 
 Dr. Öğr. Üyesi Emel EFE YAVAŞCAN
 
 Bölüm Başkanı V.
-
 
 Ek:
 
 1- Eylem Planı İzleme ve Değerlendirme Raporu (3 Sayfa)
 2- Kanıtlar (25 Sayfa)
 
-
 Bu belge, güvenli elektronik imza ile imzalanmıştır.
 
-
 Belge Doğrulama Kodu: BSPAHHM6V9
-
 
 Adres:Merkez Yerleşke Bor Yolu 51240 Niğde Bilgi için: Abdussamet OZAN
 Telefon:0 388 225 42 29 Faks:0 388 225 42 29 Unvanı: Bölüm Sekreteri
 e-Posta:mimf@ohu.edu.tr Web:http://www.ohu.edu.tr/mimarlikfakultesi/mimarlik
 Kep Adresi:nohu@hs01.kep.tr
 
-
 **Evrak Tarih ve Sayısı: 13/01/2026-765778**
 
-# **MİMARLIK FAKÜLTESİ** **MİMARLIK BÖLÜMÜ** **2025 YILI EYLEM PLANI İZLEME RAPORU**
+ **MİMARLIK FAKÜLTESİ** **MİMARLIK BÖLÜMÜ** **2025 YILI EYLEM PLANI İZLEME RAPORU**
 
 ## **2025**
-
 
 **Evrak Tarih ve Sayısı: 13/01/2026-765778**
 
 ## **2025 YILI EYLEM PLANI İZLEME RAPORU**
 
-
 Mimarlık Fakültesi Mimarlık Bölümü 2025 Yılı Eylem Planı’nda toplam 17 eylem planlanmış olup
 
-
 14’ü gerçekleştirilmiştir.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 |Col1|Col2|Ocak|Şubat|Mart|Nisan|Mayıs|Haziran|Temmuz|Ağustos|Eylül|Ekim|Kasım|Aralık|
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -104,35 +70,17 @@ Mimarlık Fakültesi Mimarlık Bölümü 2025 Yılı Eylem Planı’nda toplam 1
 |12|Danışman-öğrenci toplantılarının<br>yapılması||||||||||**√**|||
 |13|Staj bilgilendirme toplantısının<br>yapılması|||**√**||||||||||
 
-
 **Evrak Tarih ve Sayısı: 13/01/2026-765778**
 
-
-
 14
-
-
 
 Mimari Proje derslerinden yüksek
 puanla başarılı olan öğrencilerin
 ödüllendirilmesi
 
-
 ### **√**
 
-
 ## **KALBİS KANIT FORMU**
-
-
-
-
-
-
-
-
-
-
-
 
 |Faaliyetin Yapıldığı<br>Birim|Mimarlık Fakültesi|
 |---|---|
@@ -143,15 +91,11 @@ puanla başarılı olan öğrencilerin
 |**Gerçekleştirme**<br>**Açıklaması**|MIM3005 RÖLÖVE UYGULAMA TEKNİKLERİ, MIM3004 RESTORASYON VE<br>KORUMA İLKELERİ, MIM1001 MİMARİ PROJE I, MIM1002 MİMARİ PROJE<br>II, MIM2001 MİMARİ PROJE III, MIM2002 MİMARİ PROJE IV, MIM3001<br>MİMARİ PROJE V, MIM3002 MİMARİ PROJE VI, MIM3002 MİMARİ PROJE VI,<br>MIM4001 MİMARİ PROJE VII, MIM4002 MİMARİ PROJE VIII kodlu derslerde<br>proje çalışması yapılmış olup. Teknik geziler düzenlenmiştir.|
 |**Kanıt Görseli**|https://www.ohu.edu.tr/mimarlikfakultesi/mimarlik/manset/25846<br>https://www.ohu.edu.tr/mimarlikfakultesi/mimarlik/manset/25700<br>https://www.ohu.edu.tr/mimarlikfakultesi/mimarlik/manset/25847|
 
-
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
-
 
 ## **KALBİS KANIT FORMU**
 
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
-
 
 ## **KALBİS KANIT FORMU**
 
@@ -159,18 +103,9 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 |---|---|
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Bölüm başkanı|
 
-
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 
-
 ## **KALBİS KANIT FORMU**
-
-
-
-
-
-
 
 |Faaliyetin Yapıldığı<br>Birim|Mimarlık Fakültesi|
 |---|---|
@@ -181,9 +116,7 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 |**Gerçekleştirme**<br>**Açıklaması**|Proje derslerinin ara ve genel sınavlarının jüri sunumu şeklinde gerçekleştirilmiştir.|
 |**Kanıt Görseli**|https://www.ohu.edu.tr/mimarlikfakultesi/mimarlik/manset/25695<br>https://www.ohu.edu.tr/mimarlikfakultesi/mimarlik/manset/25123|
 
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
-
 
 ## **KALBİS KANIT FORMU**
 
@@ -191,23 +124,9 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 |---|---|
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Bölüm başkanı|
 
-
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 
-
 ## **KALBİS KANIT FORMU**
-
-
-
-
-
-
-
-
-
-
-
 
 |Faaliyetin Yapıldığı<br>Birim|Mimarlık Fakültesi|
 |---|---|
@@ -218,10 +137,7 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 |**Gerçekleştirme**<br>**Açıklaması**|Mimarlık Bölümümüzde, 12 Mayıs 2025 tarihinde Niğde Mimarlar Odası ve Mimarlık<br>Bölümü Eskiz Külübü iş birliğinde Prof. Dr. Havva Alkan Bala ile Mimarlıkta Güncel<br>Konular isimli söyleşi gerçekleştirilmiş ve 100 öğrenci etkinliğe katılmıştır.|
 |**Kanıt Görseli**|https://www.ohu.edu.tr/mimarlikfakultesi/mimarlik/manset/25522|
 
-
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
-
 
 ## **KALBİS KANIT FORMU**
 
@@ -229,24 +145,9 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 |---|---|
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Bölüm başkanı|
 
-
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 
-
 ## **KALBİS KANIT FORMU**
-
-
-
-
-
-
-
-
-
-
-
-
 
 |Faaliyetin Yapıldığı<br>Birim|Mimarlık Fakültesi|
 |---|---|
@@ -258,23 +159,9 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 |**Kanıt Görseli**|TAŞTAN HASAN., (2025). )."Bisiklet Turizmi Bağlamında Niğde Kültürel Miras<br>Rotalarının Oluşturulması ve Türkiye Ulusal Bisiklet Yolu Ağına Entegrasyonu ", TURK-<br>COSE 2025: VII. Uluslararası Türk Dünyası Fen Bilimleri ve Mühendislik Kongresi,<br>13.11.2025-15.11.2025.<br>SÖZLEŞEN FATİH, EFE YAVAŞCAN EMEL.,(2025)."Kültür Turizmi Bağlamında<br>Ortahisar Geleneksel Evinin Belgeleme Çalışmaları", 7. Uluslararası Akdeniz Bilimsel<br>Araştırmalar ve İnovasyon Kongresi, Antalya, TÜRKİYE, 19.04.2025-20.04.2025.<br>SÜZER ÇAĞLAR, EFE YAVAŞCAN EMEL.,(2025)."Taşınmaz Kültür Varlıklarının<br>Sürdürülebilir Kültürel Miras Yönetimi İle Korunması: Kapadokya Hasaköy Rum Okulu Ve<br>Rum Kilisesi", 15. Uluslararası Mühendislik, Mimarlık Ve Tasarım Kongresi, İstanbul,<br>TÜRKİYE, 21.06.2025-22.06.2025.<br>TAŞTAN HASAN.,(2025)."Design Studio Experiences İn The Context Of A New Building<br>İn A Historic Environment: The Example Of Fertek Hammam", 4th International Civil<br>Engineering &amp; Architecture Conference, Trabzon, TÜRKİYE.<br>UĞURLU CAVİT, EFE YAVAŞCAN EMEL.,(2025)."Anıtsal Yapıların Sürdürülebilir<br>Korunması İçin İşlev Araştırması: Kapadokya/Konaklı Rum Kilisesi", 7th International<br>Symposium on Innovation in Architecture, Planning and Design, Gaziantep, TÜRKİYE,<br>27.06.2025-28.06.2025.|
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Bölüm başkanı|
 
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 
-
 ## **KALBİS KANIT FORMU**
-
-
-
-
-
-
-
-
-
-
-
-
 
 |Faaliyetin Yapıldığı<br>Birim|Mimarlık Fakültesi|
 |---|---|
@@ -283,25 +170,12 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 |**Faaliyet Dönemi**|2025|
 |||
 |**Gerçekleştirme**<br>**Açıklaması**|Bölüm öğretim elemanları tarafından bölgesel kalkınmaya yönelik 3 adet makale<br>yayımlanmıştır.|
-|**Kanıt Görseli**|DOĞRUER MERYEM SEVDE, ÖZEN YAVUZ ARZU.,(2025)."Niğde 19. Yüzyıl<br>Kiliselerinin Biçim Grameri Bazlı Tipomorfolojik Analizi", GRID - Mimarlık Planlama ve<br>Tasarım Dergisi, vol.8, no.1, pp.32-32.<br>EFE YAVAŞCAN EMEL,URAK ZEHRA GEDİZ.,(2025)."Selçuklu Kültür Katmanının<br>Güncel Yaşama Katılması: Niğde Tarihî Kent Merkezi Örneği", Art-Sanat, vol.0, no.24,<br>pp.83-83.<br>İNAN GÜNAYDIN TUĞBA.,(2025)."Investigation of Structural Irregularities in Malatya<br>Province After the February 6 Kahramanmaraş Earthquakes in Turkey", Online Journal of<br>Art and Design, vol.13, no.2, pp.1-1.|
+|**Kanıt Görseli**|DOĞRUER MERYEM SEVDE, ÖZEN YAVUZ ARZU.,(2025)."Niğde 19. Yüzyıl<br>Kiliselerinin Biçim Grameri Bazlı Tipomorfolojik Analizi", GRID  Mimarlık Planlama ve<br>Tasarım Dergisi, vol.8, no.1, pp.32-32.<br>EFE YAVAŞCAN EMEL,URAK ZEHRA GEDİZ.,(2025)."Selçuklu Kültür Katmanının<br>Güncel Yaşama Katılması: Niğde Tarihî Kent Merkezi Örneği", Art-Sanat, vol.0, no.24,<br>pp.83-83.<br>İNAN GÜNAYDIN TUĞBA.,(2025)."Investigation of Structural Irregularities in Malatya<br>Province After the February 6 Kahramanmaraş Earthquakes in Turkey", Online Journal of<br>Art and Design, vol.13, no.2, pp.1-1.|
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Bölüm başkanı|
-
 
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 
-
 ## **KALBİS KANIT FORMU**
-
-
-
-
-
-
-
-
-
-
-
 
 |Faaliyetin Yapıldığı<br>Birim|Mimarlık Fakültesi|
 |---|---|
@@ -312,10 +186,7 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 |**Gerçekleştirme**<br>**Açıklaması**|Mimarlık Bölümümüzde, 12 Mayıs 2025 tarihinde Niğde Mimarlar Odası ve Mimarlık<br>Bölümü Eskiz Külübü iş birliğinde  Prof. Dr. Havva Alkan Bala ile Mimarlıkta Güncel<br>Konular isimli söyleşi gerçekleştirilmiş ve 100 öğrenci etkinliğe katılmıştır.|
 |**Kanıt Görseli**||
 
-
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
-
 
 ## **KALBİS KANIT FORMU**
 
@@ -323,23 +194,9 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 |---|---|
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Bölüm başkanı|
 
-
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 
-
 ## **KALBİS KANIT FORMU**
-
-
-
-
-
-
-
-
-
-
-
 
 |Faaliyetin Yapıldığı<br>Birim|Mimarlık Fakültesi|
 |---|---|
@@ -350,10 +207,7 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 |**Gerçekleştirme**<br>**Açıklaması**|Ankara Kızılay Genel Merkezi Türk Kızılay Genç Birimince yürütülen “Çocuk<br>Üniversitesi Projesi” kapsamında Üniversitemiz Kızılay Kulübü eşliğinde, Aktaş<br>Şehit Yüksel Kabaca Ortaokulu öğrencilerine Mimarlık Fakültesi tanıtılmıştır.|
 |**Kanıt Görseli**|https://www.ohu.edu.tr/mimarlikfakultesi/manset/26259|
 
-
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
-
 
 ## **KALBİS KANIT FORMU**
 
@@ -361,23 +215,9 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 |---|---|
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Bölüm başkanı|
 
-
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 
-
 ## **KALBİS KANIT FORMU**
-
-
-
-
-
-
-
-
-
-
-
 
 |Faaliyetin Yapıldığı<br>Birim|Mimarlık Fakültesi|
 |---|---|
@@ -388,15 +228,11 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 |**Gerçekleştirme**<br>**Açıklaması**|Mimari proje dersleri kapsamında Niğde ve çevresinin tarihsel ve sosyo-kültürel<br>değerlerini kapsayan proje konuları çalışılmıştır.<br>2024-2025 Bahar yarıyılında Mimari Proje I, Mimari Proje II, Mimari Proje V, Mimari<br>Proje VI ve Mimari Proje VIII’de bu kapsamda konular verilmiştir.<br>2025-2026 Güz yarıyılında ise Mimari Proje V ve Mimari Proje VI’da bu kapsamda<br>konular verilmiştir.|
 |**Kanıt Görseli**|https://www.ohu.edu.tr/mimarlikfakultesi/mimarlik/duyuru/73969<br>https://static.ohu.edu.tr/uniweb/media/portallar/mimarlik/duyurular/73969/dngfpgtl.pdf<br>https://static.ohu.edu.tr/uniweb/media/portallar/mimarlik/duyurular/73969/s1avrvst.pdf<br>https://static.ohu.edu.tr/uniweb/media/portallar/mimarlik/duyurular/73969/dwdlj0ii.pdf<br>https://static.ohu.edu.tr/uniweb/media/portallar/mimarlik/duyurular/73969/1so1gpj4.pdf<br>https://static.ohu.edu.tr/uniweb/media/portallar/mimarlik//duyurular/73969/3ib45310.pdf<br>|
 
-
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
-
 
 ## **KALBİS KANIT FORMU**
 
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
-
 
 ## **KALBİS KANIT FORMU**
 
@@ -404,18 +240,9 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 |---|---|
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Bölüm başkanı|
 
-
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 
-
 ## **KALBİS KANIT FORMU**
-
-
-
-
-
-
 
 |Faaliyetin Yapıldığı<br>Birim|Mimarlık Fakültesi|
 |---|---|
@@ -426,9 +253,7 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 |**Gerçekleştirme**<br>**Açıklaması**|Çeşitli derslerde Niğde ve çevresine yönelik teknik ve kültür gezisi düzenlenmiştir.|
 |**Kanıt Görseli**|https://www.ohu.edu.tr/mimarlikfakultesi/mimarlik/manset/25846<br>https://www.ohu.edu.tr/mimarlikfakultesi/mimarlik/manset/25700<br>https://www.ohu.edu.tr/mimarlikfakultesi/mimarlik/manset/25847|
 
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
-
 
 ## **KALBİS KANIT FORMU**
 
@@ -436,24 +261,9 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 |---|---|
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Bölüm başkanı|
 
-
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 
-
 ## **KALBİS KANIT FORMU**
-
-
-
-
-
-
-
-
-
-
-
-
 
 |Faaliyetin Yapıldığı<br>Birim|Mimarlık Fakültesi|
 |---|---|
@@ -465,23 +275,9 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 |**Kanıt Görseli**||
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Bölüm başkanı|
 
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 
-
 ## **KALBİS KANIT FORMU**
-
-
-
-
-
-
-
-
-
-
-
-
 
 |Faaliyetin Yapıldığı<br>Birim|Mimarlık Fakültesi|
 |---|---|
@@ -493,22 +289,9 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 |**Kanıt Görseli**|https://www.ohu.edu.tr/mimarlikfakultesi/mimarlik/manset/25803|
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Bölüm başkanı|
 
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 
-
 ## **KALBİS KANIT FORMU**
-
-
-
-
-
-
-
-
-
-
-
 
 |Faaliyetin Yapıldığı<br>Birim|Mimarlık Fakültesi|
 |---|---|
@@ -517,12 +300,9 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 |**Faaliyet Dönemi**|2025|
 |||
 |**Gerçekleştirme**<br>**Açıklaması**|Mimarlık bölümü lisans öğrencileri ile danışman-öğrenci toplantılarının yapılması|
-|**Kanıt Görseli**|Evrak no: E-17583459-199-732506<br>Konu : Danışman Öğrenci Toplantısı|
-
-
+|**Kanıt Görseli**|Evrak no: E-17583459-199-732506<br>Konu  Danışman Öğrenci Toplantısı|
 
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
-
 
 ## **KALBİS KANIT FORMU**
 
@@ -530,24 +310,9 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 |---|---|
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Bölüm başkanı|
 
-
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 
-
 ## **KALBİS KANIT FORMU**
-
-
-
-
-
-
-
-
-
-
-
-
 
 |Faaliyetin Yapıldığı<br>Birim|Mimarlık Fakültesi|
 |---|---|
@@ -559,22 +324,9 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 |**Kanıt Görseli**|https://www.ohu.edu.tr/mimarlikfakultesi/mimarlik/manset/25256|
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Bölüm başkanı|
 
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 
-
 ## **KALBİS KANIT FORMU**
-
-
-
-
-
-
-
-
-
-
-
 
 |Faaliyetin Yapıldığı<br>Birim|Mimarlık Fakültesi|
 |---|---|
@@ -585,10 +337,7 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 |**Gerçekleştirme**<br>**Açıklaması**|02.10.2025 tarihinde 2024-2025 Bahar Dönemi Mimari Proje derslerinden ödüle layık<br>görülen projeler için sergi ve ödül töreni gerçekleştirilmiştir.|
 |**Kanıt Görseli**|https://www.ohu.edu.tr/mimarlikfakultesi/mimarlik/manset/25742|
 
-
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
-
 
 ## **KALBİS KANIT FORMU**
 
@@ -596,13 +345,9 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 |---|---|
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Bölüm başkanı|
 
-
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 
-
 **Evrak Tarih ve Sayısı: 09/01/2026-764459**
-
 
 T.C.
 NİĞDE ÖMER HALİSDEMİR ÜNİVERSİTESİ REKTÖRLÜĞÜ
@@ -610,38 +355,28 @@ NİĞDE ÖMER HALİSDEMİR ÜNİVERSİTESİ REKTÖRLÜĞÜ
 Mimarlık Fakültesi Dekanlığı
 Peyzaj Mimarlığı Bölüm Başkanlığı
 
-
 Sayı  :E-38660237-060-764459 09/01/2026
 Konu :2025 Yılı Eylem Planı İzleme ve
 Değerlendirme Raporları
 
-
 DEKANLIK MAKAMINA
 
-
-İlgi : 09/01/2026 tarihli ve E-68262884-060-763937 sayılı yazınız.
-
+İlgi  09/01/2026 tarihli ve E-68262884-060-763937 sayılı yazınız.
 
 Bölümümüzün 2025 Yılı Eylem Planı İzleme ve Değerlendirme Raporu hazırlanarak yazımız
 ekinde sunulmuştur.
 
-
 Gereğini arz ederim.
-
 
 Dr. Öğr. Üyesi Barış KAHVECİ
 
 Bölüm Başkanı
 
-
 Ek:Rapor (19 Sayfa)
-
 
 Bu belge, güvenli elektronik imza ile imzalanmıştır.
 
-
 Belge Doğrulama Kodu: BSCAHN4R1R
-
 
 Adres:Merkez Yerleşke Bor Yolu 51240 Niğde Bilgi için: Serdar ŞEHİRLİ
 Telefon:0 388 225 42 29 Faks:0 388 225 42 29 Unvanı: Bölüm Sekreteri
@@ -649,35 +384,21 @@ e-Posta:mimf@ohu.edu.tr Web:http://www.ohu.edu.tr/mimarlikfakultesi/peyzajmimarl
 Tel No: 0 388 225 4527
 Kep Adresi:nohu@hs01.kep.tr
 
-
 **Evrak Tarih ve Sayısı: 09/01/2026-764459**
 
-# **MİMARLIK FAKÜLTESİ** **PEYZAJ MİMARLIĞI BÖLÜMÜ** **2025 YILI EYLEM PLANI İZLEME RAPORU**
+ **MİMARLIK FAKÜLTESİ** **PEYZAJ MİMARLIĞI BÖLÜMÜ** **2025 YILI EYLEM PLANI İZLEME RAPORU**
 
 ## **2026**
 
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
-
 
 **Evrak Tarih ve Sayısı: 09/01/2026-764459**
 
 ## **2025 YILI EYLEM PLANI İZLEME RAPORU**
 
-
 Mimarlık Fakültesi Peyzaj Mimarlığı Bölümü 2025 Yılı Eylem Planında toplam 5 eylem planlanmış
 
-
 olup 5 eylem gerçekleştirilmiştir.
-
-
-
-
-
-
-
-
-
 
 |Col1|BİRİM EYLEM PLANI|Ocak|Şubat|Mart|Nisan|Mayıs|Haziran|Temmuz|Ağustos|Eylül|Ekim|Kasım|Aralık|
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -687,29 +408,13 @@ olup 5 eylem gerçekleştirilmiştir.
 |4|Öğretim üyesi başına düşen SCI, SCIExp,<br>SSCI veya AHCI kapsamındaki yayın<br>sayısını artırmaya yönelik faaliyetler|||||**√**||||||**√**||
 |5|Eğitim ortamlarının hazırlanmasına<br>yönelik faaliyet yapılması|||||**√**|**√**||||||**√**|
 
-
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
-
 
 **Evrak Tarih ve Sayısı: 09/01/2026-764459**
 
-
-**BİRİM EYLEM PLANI - 1**
-
+**BİRİM EYLEM PLANI  1**
 
 ## **KALBİS KANIT FORMU**
-
-
-
-
-
-
-
-
-
-
-
 
 |Faaliyetin Yapıldığı<br>Birim|Mimarlık Fakültesi|
 |---|---|
@@ -721,29 +426,13 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 |**Kanıt Görseli**||
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Bölüm Başkanı|
 
-
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
-
 
 **Evrak Tarih ve Sayısı: 09/01/2026-764459**
 
-
-**BİRİM EYLEM PLANI - 1**
-
+**BİRİM EYLEM PLANI  1**
 
 ## **KALBİS KANIT FORMU**
-
-
-
-
-
-
-
-
-
-
-
 
 |Faaliyetin Yapıldığı<br>Birim|Mimarlık Fakültesi|
 |---|---|
@@ -755,29 +444,13 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 |**Kanıt Görseli**||
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Bölüm Başkanı|
 
-
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
-
 
 **Evrak Tarih ve Sayısı: 09/01/2026-764459**
 
-
-**BİRİM EYLEM PLANI - 1**
-
+**BİRİM EYLEM PLANI  1**
 
 ## **KALBİS KANIT FORMU**
-
-
-
-
-
-
-
-
-
-
-
 
 |Faaliyetin Yapıldığı<br>Birim|Mimarlık Fakültesi|
 |---|---|
@@ -789,29 +462,13 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 |**Kanıt Görseli**||
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Bölüm Başkanı|
 
-
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
-
 
 **Evrak Tarih ve Sayısı: 09/01/2026-764459**
 
-
-**BİRİM EYLEM PLANI - 1**
-
+**BİRİM EYLEM PLANI  1**
 
 ## **KALBİS KANIT FORMU**
-
-
-
-
-
-
-
-
-
-
-
 
 |Faaliyetin Yapıldığı<br>Birim|Mimarlık Fakültesi|Col3|Col4|Col5|
 |---|---|---|---|---|
@@ -825,29 +482,13 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 |**Kanıt Görseli**|||||
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Bölüm Başkanı|Bölüm Başkanı|Bölüm Başkanı|Bölüm Başkanı|
 
-
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
-
 
 **Evrak Tarih ve Sayısı: 09/01/2026-764459**
 
-
-**BİRİM EYLEM PLANI - 2**
-
+**BİRİM EYLEM PLANI  2**
 
 ## **KALBİS KANIT FORMU**
-
-
-
-
-
-
-
-
-
-
-
 
 |Faaliyetin Yapıldığı<br>Birim|Mimarlık Fakültesi|
 |---|---|
@@ -859,27 +500,13 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 |**Kanıt Görseli**||
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Bölüm Başkanı|
 
-
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
-
 
 **Evrak Tarih ve Sayısı: 09/01/2026-764459**
 
-
-**BİRİM EYLEM PLANI - 2**
-
+**BİRİM EYLEM PLANI  2**
 
 ## **KALBİS KANIT FORMU**
-
-
-
-
-
-
-
-
-
 
 |Faaliyetin Yapıldığı<br>Birim|Mimarlık Fakültesi|
 |---|---|
@@ -891,27 +518,13 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 |**Kanıt Görseli**||
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Bölüm Başkanı|
 
-
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
-
 
 **Evrak Tarih ve Sayısı: 09/01/2026-764459**
 
-
-**BİRİM EYLEM PLANI - 2**
-
+**BİRİM EYLEM PLANI  2**
 
 ## **KALBİS KANIT FORMU**
-
-
-
-
-
-
-
-
-
 
 |Faaliyetin Yapıldığı<br>Birim|Mimarlık Fakültesi|
 |---|---|
@@ -923,31 +536,13 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 |**Kanıt Görseli**||
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Bölüm Başkanı|
 
-
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
-
 
 **Evrak Tarih ve Sayısı: 09/01/2026-764459**
 
-
-**BİRİM EYLEM PLANI - 2**
-
+**BİRİM EYLEM PLANI  2**
 
 ## **KALBİS KANIT FORMU**
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 |Faaliyetin Yapıldığı<br>Birim|Mimarlık Fakültesi|
 |---|---|
@@ -959,67 +554,31 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 |**Kanıt Görseli**||
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Bölüm Başkanı|
 
-
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
-
 
 **Evrak Tarih ve Sayısı: 09/01/2026-764459**
 
-
-**BİRİM EYLEM PLANI - 2**
-
+**BİRİM EYLEM PLANI  2**
 
 ## **KALBİS KANIT FORMU**
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 |Faaliyetin Yapıldığı<br>Birim|Mimarlık Fakültesi|
 |---|---|
 |**Bölüm/ Alt Birim**|Peyzaj Mimarlığı Bölümü|
-|**Gerçekleştirilen**<br>**Faaliyet Adı**<br>|Proje II dersi kapsamında Niğde Kömürcü Köyü - Göllüdağ çevresine<br>teknik gezi<br>|
+|**Gerçekleştirilen**<br>**Faaliyet Adı**<br>|Proje II dersi kapsamında Niğde Kömürcü Köyü  Göllüdağ çevresine<br>teknik gezi<br>|
 |**Faaliyet Dönemi**|Mayıs 2025|
 |||
-|**Gerçekleştirme**<br>**Açıklaması**|Proje II dersi kapsamında Niğde Kömürcü Köyü - Göllüdağ<br>çevresine Dr. Öğr. Üyesi Nuriye Ebru YILDIZ, Dr. Öğr. Üyesi Barış<br>KAHVECİ<br>ve<br>öğrencilerimizin<br>katılımlarıyla<br>teknik<br>gezi<br>düzenlenmiştir. Doğal, kültürel ve tarihi yapının incelenmesi<br>amacıyla köy merkezinden Tarihi Tabal Krallığı yerleşimine yürüyüş<br>düzenlenmiş ve zirveye ulaşılmıştır. Zorlu yürüyüş rotası üzerinde<br>doğal ve tarihi güzellikler yerinde görülmüş ve öğrencilerimizle bilgi<br>paylaşımında bulunulmuştur. Teknik gezi devamında Niğde Kent<br>Merkezinde bulunan Gebere Barajı Mesire alanına gidilmiş ve mesire<br>alanı peyzaj tasarımı kapsamında yerinde değerlendirmelerle<br>sonlandırılmıştır.|
+|**Gerçekleştirme**<br>**Açıklaması**|Proje II dersi kapsamında Niğde Kömürcü Köyü  Göllüdağ<br>çevresine Dr. Öğr. Üyesi Nuriye Ebru YILDIZ, Dr. Öğr. Üyesi Barış<br>KAHVECİ<br>ve<br>öğrencilerimizin<br>katılımlarıyla<br>teknik<br>gezi<br>düzenlenmiştir. Doğal, kültürel ve tarihi yapının incelenmesi<br>amacıyla köy merkezinden Tarihi Tabal Krallığı yerleşimine yürüyüş<br>düzenlenmiş ve zirveye ulaşılmıştır. Zorlu yürüyüş rotası üzerinde<br>doğal ve tarihi güzellikler yerinde görülmüş ve öğrencilerimizle bilgi<br>paylaşımında bulunulmuştur. Teknik gezi devamında Niğde Kent<br>Merkezinde bulunan Gebere Barajı Mesire alanına gidilmiş ve mesire<br>alanı peyzaj tasarımı kapsamında yerinde değerlendirmelerle<br>sonlandırılmıştır.|
 |**Kanıt Görseli**||
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Bölüm Başkanı|
 
-
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
-
 
 **Evrak Tarih ve Sayısı: 09/01/2026-764459**
 
-
-**BİRİM EYLEM PLANI - 2**
-
+**BİRİM EYLEM PLANI  2**
 
 ## **KALBİS KANIT FORMU**
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 |Faaliyetin Yapıldığı<br>Birim|Mimarlık Fakültesi|
 |---|---|
@@ -1031,31 +590,13 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 |**Kanıt Görseli**||
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Bölüm Başkanı|
 
-
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
-
 
 **Evrak Tarih ve Sayısı: 09/01/2026-764459**
 
-
-**BİRİM EYLEM PLANI - 2**
-
+**BİRİM EYLEM PLANI  2**
 
 ## **KALBİS KANIT FORMU**
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 |Faaliyetin Yapıldığı<br>Birim|Mimarlık Fakültesi|
 |---|---|
@@ -1067,111 +608,49 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 |**Kanıt Görseli**||
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Bölüm Başkanı|
 
-
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
-
 
 **Evrak Tarih ve Sayısı: 09/01/2026-764459**
 
-
-**BİRİM EYLEM PLANI - 3**
-
+**BİRİM EYLEM PLANI  3**
 
 ## **KALBİS KANIT FORMU**
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 |Faaliyetin Yapıldığı<br>Birim|Mimarlık Fakültesi|
 |---|---|
 |**Bölüm/ Alt Birim**|Peyzaj Mimarlığı Bölümü|
 |**Gerçekleştirilen**<br>**Faaliyet Adı**<br>|Öğrencilerin bilimsel araştırma, inceleme ve bilimsel toplantılara katılması<br>için destek sağlanması<br>|
-|**Faaliyet Dönemi**|2025 Yılı (Ocak - Eylül)|
+|**Faaliyet Dönemi**|2025 Yılı (Ocak  Eylül)|
 |||
 |**Gerçekleştirme**<br>**Açıklaması**|Öğrencilerin bilimsel araştırma yapmaya yönelik projelere teşvik edilmesi.|
-|**Kanıt Görseli**|**Prof. Dr. Tülay EZER:**<br>**1.**<br>**YEDEP:** Yaşayan Duvar Sistemlerinde Yenilikçi Biyomateryal<br>Olarak<br>Briyofitlerin<br>Kullanım<br>Potansiyelinin<br>İncelenmesi<br>(05.11.2025-) –<br>**2.**<br>**TÜBİTAK 2209-A:** Niğde Ömer Halisdemir Üniversitesi Kampüsü<br>Karayosunu Florası - Furkan Aydın (Lisans öğrencisi)<br>**Durumu:** Devam etmekte<br>**3.**<br>**TÜBİTAK 1001:** Bolkar Dağları Briyofit Florası (Tamamlandı) –<br>Züleyha Aslan Ergenekon (Arş. Gör.) (Lisansüstü Öğrenci)<br>**Prof. Dr. Gülden SANDAL ERZURUMLU**<br>1.<br>Nisanur<br>ALACA<br>(Lisans<br>Öğrencisi)<br>- <br>Lamiaceae<br>(ballıbabagiller)Türlerinin Peyzaj Tasarımında Kullanım Olanakları<br>(TURJAF_2025)<br>**Doç. Dr. Gülbin ÇETİNKALE DEMİRKAN**<br>1.<br>Habibe ATAK (YL Öğrenci) - Child-Friendly Street Designs in<br>Urban Areas - V. International Architectural Sciences Congress<br>(IArcSC-2025)<br>2.<br>İpek İPEKLİ (YL Öğrenci) - Therapeutic Garden Designs as Support<br>in Oncology Hospitals - V. International Architectural Sciences<br>Congress (IArcSC-2025)|
+|**Kanıt Görseli**|**Prof. Dr. Tülay EZER:**<br>**1.**<br>**YEDEP:** Yaşayan Duvar Sistemlerinde Yenilikçi Biyomateryal<br>Olarak<br>Briyofitlerin<br>Kullanım<br>Potansiyelinin<br>İncelenmesi<br>(05.11.2025-) –<br>**2.**<br>**TÜBİTAK 2209-A:** Niğde Ömer Halisdemir Üniversitesi Kampüsü<br>Karayosunu Florası  Furkan Aydın (Lisans öğrencisi)<br>**Durumu:** Devam etmekte<br>**3.**<br>**TÜBİTAK 1001:** Bolkar Dağları Briyofit Florası (Tamamlandı) –<br>Züleyha Aslan Ergenekon (Arş. Gör.) (Lisansüstü Öğrenci)<br>**Prof. Dr. Gülden SANDAL ERZURUMLU**<br>1.<br>Nisanur<br>ALACA<br>(Lisans<br>Öğrencisi)<br>- <br>Lamiaceae<br>(ballıbabagiller)Türlerinin Peyzaj Tasarımında Kullanım Olanakları<br>(TURJAF_2025)<br>**Doç. Dr. Gülbin ÇETİNKALE DEMİRKAN**<br>1.<br>Habibe ATAK (YL Öğrenci)  Child-Friendly Street Designs in<br>Urban Areas  V. International Architectural Sciences Congress<br>(IArcSC-2025)<br>2.<br>İpek İPEKLİ (YL Öğrenci)  Therapeutic Garden Designs as Support<br>in Oncology Hospitals  V. International Architectural Sciences<br>Congress (IArcSC-2025)|
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Bölüm Başkanı|
-
-
 
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 
-
 **Evrak Tarih ve Sayısı: 09/01/2026-764459**
 
-
-**BİRİM EYLEM PLANI - 3**
-
+**BİRİM EYLEM PLANI  3**
 
 ## **KALBİS KANIT FORMU**
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 |Faaliyetin Yapıldığı<br>Birim|Mimarlık Fakültesi|
 |---|---|
 |**Bölüm/ Alt Birim**|Peyzaj Mimarlığı Bölümü|
 |**Gerçekleştirilen**<br>**Faaliyet Adı**<br>|Öğrencilerin bilimsel araştırma, inceleme ve bilimsel toplantılara katılması<br>için destek sağlanması<br>|
-|**Faaliyet Dönemi**|2025 Yılı (Kasım - Aralık)|
+|**Faaliyet Dönemi**|2025 Yılı (Kasım  Aralık)|
 |||
 |**Gerçekleştirme**<br>**Açıklaması**|Öğrencilerin bilimsel araştırma yapmaya yönelik projelere teşvik edilmesi.|
-|**Kanıt Görseli**|**Dr. Öğr. Üyesi Barış KAHVECİ:**<br>**1.**<br>**TÜBİTAK 2209-A:** İklim Değişikliğine Uyum Sürecinde Uzaktan<br>Algılama Yöntem Teknikleriyle Eğirdir Gölü Su Yüzeyinin Alansal<br>Değişimin Belirlenmesi – Ela Naz TÜFEKÇİ (Lisans öğrencisi)<br>**Durumu:** Başvuru yapıldı (Kasım 2025)<br>**Dr. Öğr. Nuriye Ebru YILDIZ:**<br>**1.**<br>**TÜBİTAK 2209-A:** İklim Değişikliğine Uyum Sürecinde Coğrafi<br>Bilgi Sistemleri Tabanlı Çığ Riski Analizi: Demirkazık Dağı (Niğde)<br>Örneği - Şevval CERAN, İrem YAZICI (Lisans öğrencisi)<br>**Durumu:** Başvuru yapıldı (Kasım 2025)<br>**2.**<br>**TÜBİTAK 2209-A:** Kuraklık Dirençli Kıyı Peyzaj Modeli: Akkaya<br>Barajı Örneği (Niğde Ömer Halisdemir Üniversitesi Kampüsü) –<br>Ahmet Gazi KUZULUK (Lisans öğrencisi)<br>**Durumu:** Başvuru yapıldı (Kasım 2025)|
+|**Kanıt Görseli**|**Dr. Öğr. Üyesi Barış KAHVECİ:**<br>**1.**<br>**TÜBİTAK 2209-A:** İklim Değişikliğine Uyum Sürecinde Uzaktan<br>Algılama Yöntem Teknikleriyle Eğirdir Gölü Su Yüzeyinin Alansal<br>Değişimin Belirlenmesi  Ela Naz TÜFEKÇİ (Lisans öğrencisi)<br>**Durumu:** Başvuru yapıldı (Kasım 2025)<br>**Dr. Öğr. Nuriye Ebru YILDIZ:**<br>**1.**<br>**TÜBİTAK 2209-A:** İklim Değişikliğine Uyum Sürecinde Coğrafi<br>Bilgi Sistemleri Tabanlı Çığ Riski Analizi: Demirkazık Dağı (Niğde)<br>Örneği  Şevval CERAN, İrem YAZICI (Lisans öğrencisi)<br>**Durumu:** Başvuru yapıldı (Kasım 2025)<br>**2.**<br>**TÜBİTAK 2209-A:** Kuraklık Dirençli Kıyı Peyzaj Modeli: Akkaya<br>Barajı Örneği (Niğde Ömer Halisdemir Üniversitesi Kampüsü) –<br>Ahmet Gazi KUZULUK (Lisans öğrencisi)<br>**Durumu:** Başvuru yapıldı (Kasım 2025)|
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Bölüm Başkanı|
-
-
 
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 
-
 **Evrak Tarih ve Sayısı: 09/01/2026-764459**
 
-
-**BİRİM EYLEM PLANI - 4**
-
+**BİRİM EYLEM PLANI  4**
 
 ## **KALBİS KANIT FORMU**
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 |Faaliyetin Yapıldığı<br>Birim|Mimarlık Fakültesi|
 |---|---|
@@ -1180,35 +659,16 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 |**Faaliyet Dönemi**|2025 Yılı|
 |||
 |**Gerçekleştirme**<br>**Açıklaması**|Öğretim üyesi başına düşen SCI, SCIExp, SSCI veya AHCI kapsamındaki<br>yayın sayısını artırmaya yönelik faaliyetler kanıt bölümünde listelenmiştir.<br>Peyzaj Mimarlığı Bölümü Öğretim Elemanlarının 2025 yılı içinde toplam<br>8 adet SCI, SCIExp, SSCI veya AHCI kapsamında yayınlanmış akademik<br>çalışma mevcuttur.|
-|**Kanıt Görseli**|•<br>**Ezer, T**., Aslan, G., Özenoğlu, H., & Kırmacı, M. (2025). The epiphytic<br>bryophyte succession of_Olea europaea_ trees in Aydın Province and its<br>surroundings (Turkey)._Comprehensive Plant Biology, 49_(2), 253–265.<br>https://doi.org/10.2298/CPB2502253E<br>•<br>ERATA H., BATAN N., ALATAŞ M. &**EZER T.** (2025). Three<br>remarkable moss species new to Türkiye and Southwest Asia.<br>Cryptogamie,<br>Bryologie<br>2025<br>(6):<br>51-59.<br>https://doi.org/10.5252/cryptogamie-bryologie2025v46a6.<br>http://cryptogamie.com/bryologie/46/6<br>•<br>Nevzat Batan, Özcan, O.,**Ezer, T.** et al. The Epiphytic Bryophyte<br>Vegetation of the Karçal Mountains (Artvin, Türkiye). Biol Bull Russ<br>Acad Sci 52, 38 (2025). https://doi.org/10.1134/S1062359024606992<br>•<br>**Ezer, T.,** Aslan Ergenekon, Z., Uygur, A., Keskin, A., Alataş, M., &<br>Batan, N. (2025). Two new moss records for Turkey and Southwest Asia.<br>Plant Biosystems - An International Journal Dealing with All Aspects of<br>Plant<br>Biology,<br>159(2),<br>341–346.<br>https://doi.org/10.1080/11263504.2025.2466602<br>•<br>**Yıldız, N.E., Kahveci, B.** Carbon storage and emission potential in<br>relation to population dynamics: the case of Niğde City, Turkey._Environ_<br>_Monit Assess_ 197, 780 (2025).https://doi.org/10.1007/s10661-025-<br>14242-9<br>•<br>Soydan, O., &**Tekinalp, M. F.** (2025). GIS-Based Framework for<br>Integrating Urban Heritage and Lighting Planning._Buildings_, _15_(24),<br>4435.<br>•<br>https://doi.org/10.3390/buildings15244435<br>•<br>**Zeğerek Altunbey, P.,** & Balta, S. (2025)._Spatio-temporal dynamics of_<br>_land use effects on surface temperature in a Mediterranean city: A case_<br>_study._ **_International Journal of Global Warming, 35_**(1), 33–50.<br>https://doi.org/10.1504/IJGW.2025.143851<br>•<br>**Zeğerek Altunbey, P.,** & Çaliş Zeğerek, E. (2025). Cinematic<br>representations of rural space as cultural discourse: a semiotic approach<br>to<br>the<br>‘Yusuf<br>Trilogy.’<br>_Visual_<br>_Studies_, <br>1–21.<br>https://doi.org/10.1080/1472586X.2025.2570292|
+|**Kanıt Görseli**|•<br>**Ezer, T**., Aslan, G., Özenoğlu, H.,  Kırmacı, M. (2025). The epiphytic<br>bryophyte succession of_Olea europaea_ trees in Aydın Province and its<br>surroundings (Turkey)._Comprehensive Plant Biology, 49_(2), 253–265.<br>https://doi.org/10.2298/CPB2502253E<br>•<br>ERATA H., BATAN N., ALATAŞ M. &**EZER T.** (2025). Three<br>remarkable moss species new to Türkiye and Southwest Asia.<br>Cryptogamie,<br>Bryologie<br>2025<br>(6):<br>51-59.<br>https://doi.org/10.5252/cryptogamie-bryologie2025v46a6.<br>http://cryptogamie.com/bryologie/46/6<br>•<br>Nevzat Batan, Özcan, O.,**Ezer, T.** et al. The Epiphytic Bryophyte<br>Vegetation of the Karçal Mountains (Artvin, Türkiye). Biol Bull Russ<br>Acad Sci 52, 38 (2025). https://doi.org/10.1134/S1062359024606992<br>•<br>**Ezer, T.,** Aslan Ergenekon, Z., Uygur, A., Keskin, A., Alataş, M., &<br>Batan, N. (2025). Two new moss records for Turkey and Southwest Asia.<br>Plant Biosystems  An International Journal Dealing with All Aspects of<br>Plant<br>Biology,<br>159(2),<br>341–346.<br>https://doi.org/10.1080/11263504.2025.2466602<br>•<br>**Yıldız, N.E., Kahveci, B.** Carbon storage and emission potential in<br>relation to population dynamics: the case of Niğde City, Turkey._Environ_<br>_Monit Assess_ 197, 780 (2025).https://doi.org/10.1007/s10661-025-<br>14242-9<br>•<br>Soydan, O., &**Tekinalp, M. F.** (2025). GIS-Based Framework for<br>Integrating Urban Heritage and Lighting Planning._Buildings_, _15_(24),<br>4435.<br>•<br>https://doi.org/10.3390/buildings15244435<br>•<br>**Zeğerek Altunbey, P.,**  Balta, S. (2025)._Spatio-temporal dynamics of_<br>_land use effects on surface temperature in a Mediterranean city: A case_<br>_study._ **_International Journal of Global Warming, 35_**(1), 33–50.<br>https://doi.org/10.1504/IJGW.2025.143851<br>•<br>**Zeğerek Altunbey, P.,**  Çaliş Zeğerek, E. (2025). Cinematic<br>representations of rural space as cultural discourse: a semiotic approach<br>to<br>the<br>‘Yusuf<br>Trilogy.’<br>_Visual_<br>_Studies_, <br>1–21.<br>https://doi.org/10.1080/1472586X.2025.2570292|
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Bölüm Başkanı|
-
-
 
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 
-
 **Evrak Tarih ve Sayısı: 09/01/2026-764459**
 
-
-**BİRİM EYLEM PLANI - 5**
-
+**BİRİM EYLEM PLANI  5**
 
 ## **KALBİS KANIT FORMU**
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 |Faaliyetin<br>Yapıldığı Birim|Mimarlık Fakültesi|Col3|Col4|
 |---|---|---|---|
@@ -1216,35 +676,17 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 |**Gerçekleştirilen**<br>**Faaliyet Adı**|Eğitim ortamlarının hazırlanmasına yönelik faaliyet yapılması|Eğitim ortamlarının hazırlanmasına yönelik faaliyet yapılması|Eğitim ortamlarının hazırlanmasına yönelik faaliyet yapılması|
 |**Faaliyet Dönemi**|2025 Yılı (Mayıs)|2025 Yılı (Mayıs)|2025 Yılı (Mayıs)|
 |||||
-|**Gerçekleştirme**<br>**Açıklaması**|Eğitim ortamlarının iyileştirilmesine yönelik faaliyetler. (İyileştirmeye<br>yönelik başvuru – Dilekçe)|Eğitim ortamlarının iyileştirilmesine yönelik faaliyetler. (İyileştirmeye<br>yönelik başvuru – Dilekçe)|Eğitim ortamlarının iyileştirilmesine yönelik faaliyetler. (İyileştirmeye<br>yönelik başvuru – Dilekçe)|
+|**Gerçekleştirme**<br>**Açıklaması**|Eğitim ortamlarının iyileştirilmesine yönelik faaliyetler. (İyileştirmeye<br>yönelik başvuru  Dilekçe)|Eğitim ortamlarının iyileştirilmesine yönelik faaliyetler. (İyileştirmeye<br>yönelik başvuru  Dilekçe)|Eğitim ortamlarının iyileştirilmesine yönelik faaliyetler. (İyileştirmeye<br>yönelik başvuru  Dilekçe)|
 |**Kanıt Görseli**||||
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Bölüm Başkanı|Bölüm Başkanı|Bölüm Başkanı|
 
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
-
 
 **Evrak Tarih ve Sayısı: 09/01/2026-764459**
 
-
-**BİRİM EYLEM PLANI - 5**
-
+**BİRİM EYLEM PLANI  5**
 
 ## **KALBİS KANIT FORMU**
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 |Faaliyetin Yapıldığı<br>Birim|Mimarlık Fakültesi|
 |---|---|
@@ -1252,32 +694,15 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 |**Gerçekleştirilen**<br>**Faaliyet Adı**|Eğitim ortamlarının hazırlanmasına yönelik faaliyet yapılması|
 |**Faaliyet Dönemi**|2025 Yılı (Haziran)|
 |||
-|**Gerçekleştirme**<br>**Açıklaması**|Eğitim ortamlarının iyileştirilmesine yönelik faaliyetler. (İyileştirmeye<br>yönelik başvuru – Dilekçe)|
+|**Gerçekleştirme**<br>**Açıklaması**|Eğitim ortamlarının iyileştirilmesine yönelik faaliyetler. (İyileştirmeye<br>yönelik başvuru  Dilekçe)|
 |**Kanıt Görseli**||
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Bölüm Başkanı|
 
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
-
 
 **Evrak Tarih ve Sayısı: 09/01/2026-764459**
 
-
 ## **KALBİS KANIT FORMU**
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 |BİRİM EYLEM PLANI|- 5|
 |---|---|
@@ -1290,12 +715,9 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 |**Kanıt Görseli**||
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Bölüm Başkanı|
 
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 
-
 **Evrak Tarih ve Sayısı: 15/01/2026-768369**
-
 
 T.C.
 NİĞDE ÖMER HALİSDEMİR ÜNİVERSİTESİ REKTÖRLÜĞÜ
@@ -1303,38 +725,28 @@ NİĞDE ÖMER HALİSDEMİR ÜNİVERSİTESİ REKTÖRLÜĞÜ
 Mimarlık Fakültesi Dekanlığı
 Şehir ve Bölge Planlama Bölüm Başkanlığı
 
-
 Sayı  :E-47389172-060-768369 15/01/2026
 Konu :2025 Yılı Eylem Planı İzleme ve
 Değerlendirme Raporları(ŞBP)
 
-
 DEKANLIK MAKAMINA
 
-
-İlgi : 09/01/2026 tarihli ve E-68262884-060-763937 sayılı yazınız.
-
+İlgi  09/01/2026 tarihli ve E-68262884-060-763937 sayılı yazınız.
 
 Bölümümüzün 2025 Yılı Eylem Planı İzleme ve Değerlendirme Raporu hazırlanarak yazımız
 ekinde sunulmuştur.
 
-
 Gereğini arz ederim.
-
 
 Doç. Dr. Ayşe AKBULUT BAŞAR
 
 Bölüm Başkanı V.
 
-
 Ek:Rapor (20 Sayfa)
-
 
 Bu belge, güvenli elektronik imza ile imzalanmıştır.
 
-
 Belge Doğrulama Kodu: BSUARE3379
-
 
 Adres:Merkez Yerleşke Bor Yolu 51240 Niğde Bilgi için: Serdar ŞEHİRLİ
 Telefon:0 388 225 42 29 Faks:0 388 225 42 29 Unvanı: Bölüm Sekreteri
@@ -1342,22 +754,17 @@ e-Posta:mimf@ohu.edu.tr Web:http://www.ohu.edu.tr/mimarlikfakultesi/sehirbolgepl
 Tel No: 0 388 225 4527
 Kep Adresi:nohu@hs01.kep.tr
 
+**Evrak Tarih ve Sayısı: 15/01/2026-768369**
+
+ **MİMARLIK FAKÜLTESİ** **ŞEHİR ve BÖLGE PLANLAMA BÖLÜMÜ** **2025 YILI EYLEM PLANI İZLEME RAPORU** **2026**
 
 **Evrak Tarih ve Sayısı: 15/01/2026-768369**
 
-# **MİMARLIK FAKÜLTESİ** **ŞEHİR ve BÖLGE PLANLAMA BÖLÜMÜ** **2025 YILI EYLEM PLANI İZLEME RAPORU** **2026**
-
-
-**Evrak Tarih ve Sayısı: 15/01/2026-768369**
-
-# **2025 YILI EYLEM PLANI İZLEME RAPORU**
-
+ **2025 YILI EYLEM PLANI İZLEME RAPORU**
 
 Mimarlık Fakültesi Şehir ve Bölge Planlama 2025 Yılı Eylem Planı’nda toplam 17 eylem planlanmış olup
 
-
 tamamı gerçekleştirilmiştir.
-
 
 |BİRİM|PLANLANAN|GERÇEKLEŞTİRİLEN|
 |---|---|---|
@@ -1365,15 +772,6 @@ tamamı gerçekleştirilmiştir.
 ||||
 ||||
 |**TOPLAM**|17|17|
-
-
-
-
-
-
-
-
-
 
 |Col1|Col2|Ocak|Şubat|Mart|Nisan|Mayıs|Haziran|Temmuz|Ağustos|Eylül|Ekim|Kasım|Aralık|
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -1384,11 +782,7 @@ tamamı gerçekleştirilmiştir.
 |<br>5|Bölüm<br>kulüp<br>faaliyetlerinin<br>desteklenmesi için toplantılarının<br>yapılması||||||||||**√**|||
 |6|Bölüm<br>kariyer<br>tanıtım<br>günü<br>düzenlenmesi||||||||**√**|||||
 
-
 **Evrak Tarih ve Sayısı: 15/01/2026-768369**
-
-
-
 
 |7|Bölüm web sayfasına güncel<br>bilgilerin girilmesi|Col3|√|Col5|Col6|Col7|Col8|Col9|Col10|Col11|√|Col13|Col14|
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -1400,14 +794,7 @@ tamamı gerçekleştirilmiştir.
 |13|Eğitim-öğretim<br>faaliyetlerinin<br>geliştirilmesine<br>yönelik<br>bölüm<br>akademik toplantılarının yapılması|||**√**|||||||**√**|||
 |14|Bölümümüz Arama ve Kurtarma<br>Kulübü ile Kızılay iş birliği ile<br>afetlerde insani yardım konuları<br>üzerine eğitim ve toplantı yapmak||||**√ **|||||||||
 
-
 ## **KALBİS KANIT FORMU**
-
-
-
-
-
-
 
 |Faaliyetin Yapıldığı<br>Birim|Mimarlık Fakültesi|
 |---|---|
@@ -1419,17 +806,9 @@ tamamı gerçekleştirilmiştir.
 |**Kanıt Görseli**|<br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>|
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Arş. Gör. Şerife Betül GÜREL|
 
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 
-
 ## **KALBİS KANIT FORMU**
-
-
-
-
-
-
 
 |Faaliyetin Yapıldığı<br>Birim|Mimarlık Fakültesi|
 |---|---|
@@ -1441,17 +820,9 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 |**Kanıt Görseli**|<br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>|
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Arş. Gör. Şerife Betül GÜREL|
 
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 
-
 ## **KALBİS KANIT FORMU**
-
-
-
-
-
-
 
 |Faaliyetin Yapıldığı<br>Birim|Mimarlık Fakültesi|
 |---|---|
@@ -1463,17 +834,9 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 |**Kanıt Görseli**|<br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>|
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Arş. Gör. Şerife Betül GÜREL|
 
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 
-
 ## **KALBİS KANIT FORMU**
-
-
-
-
-
-
 
 |Faaliyetin Yapıldığı<br>Birim|Mimarlık Fakültesi|
 |---|---|
@@ -1485,17 +848,9 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 |**Kanıt Görseli**|<br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>|
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Arş. Gör. Şerife Betül GÜREL|
 
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 
-
 ## **KALBİS KANIT FORMU**
-
-
-
-
-
-
 
 |Faaliyetin Yapıldığı<br>Birim|Mimarlık Fakültesi|
 |---|---|
@@ -1507,17 +862,9 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 |**Kanıt Görseli**|<br> <br> <br> <br> <br> <br> <br> <br>|
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Arş. Gör. Şerife Betül GÜREL|
 
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 
-
 ## **KALBİS KANIT FORMU**
-
-
-
-
-
-
 
 |Faaliyetin Yapıldığı<br>Birim|Mimarlık Fakültesi|
 |---|---|
@@ -1529,17 +876,9 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 |**Kanıt Görseli**|<br>|
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Arş. Gör. Şerife Betül GÜREL|
 
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 
-
 ## **KALBİS KANIT FORMU**
-
-
-
-
-
-
 
 |Faaliyetin Yapıldığı<br>Birim|Mimarlık Fakültesi|
 |---|---|
@@ -1551,17 +890,9 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 |**Kanıt Görseli**|<br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>|
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Arş. Gör. Şerife Betül GÜREL|
 
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 
-
 ## **KALBİS KANIT FORMU**
-
-
-
-
-
-
 
 |Faaliyetin Yapıldığı<br>Birim|Mimarlık Fakültesi|
 |---|---|
@@ -1573,17 +904,9 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 |**Kanıt Görseli**|<br> <br> <br> <br> <br>|
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Arş. Gör. Şerife Betül GÜREL|
 
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 
-
 ## **KALBİS KANIT FORMU**
-
-
-
-
-
-
 
 |Faaliyetin Yapıldığı<br>Birim|Mimarlık Fakültesi|
 |---|---|
@@ -1595,17 +918,9 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 |**Kanıt Görseli**|<br> <br> <br> <br> <br>|
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Arş. Gör. Şerife Betül GÜREL|
 
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 
-
 ## **KALBİS KANIT FORMU**
-
-
-
-
-
-
 
 |Faaliyetin Yapıldığı<br>Birim|Mimarlık Fakültesi|
 |---|---|
@@ -1617,17 +932,9 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 |**Kanıt Görseli**|<br> <br> <br> <br> <br> <br>|
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Arş. Gör. Şerife Betül GÜREL|
 
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 
-
 ## **KALBİS KANIT FORMU**
-
-
-
-
-
-
 
 |Faaliyetin Yapıldığı<br>Birim|Mimarlık Fakültesi|
 |---|---|
@@ -1639,17 +946,9 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 |**Kanıt Görseli**|<br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>|
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Arş. Gör. Şerife Betül GÜREL|
 
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 
-
 ## **KALBİS KANIT FORMU**
-
-
-
-
-
-
 
 |Faaliyetin Yapıldığı<br>Birim|Mimarlık Fakültesi|
 |---|---|
@@ -1661,17 +960,9 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 |**Kanıt Görseli**|<br> <br> <br> <br> <br> <br>|
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Arş. Gör. Şerife Betül GÜREL|
 
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 
-
 ## **KALBİS KANIT FORMU**
-
-
-
-
-
-
 
 |Faaliyetin Yapıldığı<br>Birim|Mimarlık Fakültesi|
 |---|---|
@@ -1683,17 +974,9 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 |**Kanıt Görseli**|<br> <br> <br> <br> <br> <br>|
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Arş. Gör. Şerife Betül GÜREL|
 
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 
-
 ## **KALBİS KANIT FORMU**
-
-
-
-
-
-
 
 |Faaliyetin Yapıldığı<br>Birim|Mimarlık Fakültesi|
 |---|---|
@@ -1705,17 +988,9 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 |**Kanıt Görseli**|<br> <br> <br> <br> <br> <br>|
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Arş. Gör. Şerife Betül GÜREL|
 
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 
-
 ## **KALBİS KANIT FORMU**
-
-
-
-
-
-
 
 |Faaliyetin Yapıldığı<br>Birim|Mimarlık Fakültesi|
 |---|---|
@@ -1727,17 +1002,9 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 |**Kanıt Görseli**|<br> <br> <br> <br> <br> <br>|
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Arş. Gör. Şerife Betül GÜREL|
 
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 
-
 ## **KALBİS KANIT FORMU**
-
-
-
-
-
-
 
 |Faaliyetin Yapıldığı<br>Birim|Mimarlık Fakültesi|
 |---|---|
@@ -1749,17 +1016,9 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 |**Kanıt Görseli**|<br> <br> <br> <br> <br> <br>|
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Arş. Gör. Şerife Betül GÜREL|
 
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 
-
 ## **KALBİS KANIT FORMU**
-
-
-
-
-
-
 
 |Faaliyetin Yapıldığı<br>Birim|Mimarlık Fakültesi|
 |---|---|
@@ -1771,7 +1030,4 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 |**Kanıt Görseli**|<br> <br>|
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Arş. Gör. Şerife Betül GÜREL|
 
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
-
-

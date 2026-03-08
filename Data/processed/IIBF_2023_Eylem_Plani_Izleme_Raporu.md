@@ -4,14 +4,11 @@
 
 ### **2024**
 
-
 ### **2023 YILI EYLEM PLANI İZLEME RAPORU**
 
 İktisadi ve İdari Bilimler Fakültesi 2023 Yılı Eylem Planı’nda toplam 26 eylem planlanmış olup 20
 
-
 eylem gerçekleştirilmiştir.
-
 
 |BİRİM|PLANLANAN|GERÇEKLEŞTİRİLEN|
 |---|---|---|
@@ -24,23 +21,12 @@ eylem gerçekleştirilmiştir.
 |Finans ve Bankacılık|2|1|
 |**TOPLAM**|26|20|
 
-
 ## **İKTİSADİ VE İDARİ BİLİMLER FAKÜLTESİ** **İŞLETME BÖLÜMÜ** **2023 YILI EYLEM PLANI İZLEME RAPORU**
 
 ### **2024** **2023 YILI EYLEM PLANI İZLEME RAPORU**
 
-
 İktisadi ve İdari Bilimler Fakültesi _İşletme Bölümü_ 2023 Yılı Eylem Planı’nda toplam **5** eylem planlanmış olup
 **tamamı** gerçekleştirilmiştir.
-
-
-
-
-
-
-
-
-
 
 |FAALİYETLER|Col2|OCAK|ŞUBAT|MART|NİSAN|MAYIS|HAZİRAN|TEMMUZ|AĞUSTOS|EYLÜL|EKİM|KASIM|ARALIK|
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -50,7 +36,6 @@ eylem gerçekleştirilmiştir.
 |4|Bologna ders bilgi paketlerinin güncel<br>tutulmasının sağlanması||||||||||<br>|||
 |5|Bölüme yeni kayıt yapan öğrencilere<br>yönelik eğitsel uyum etkinliği<br>yapılması||||||||||<br>|||
 
-
 |Faaliyetin Yapıldığı Birim|İktisadi ve İdari Bilimler Fakültesi|
 |---|---|
 |Bölüm/Alt Birim|İşletme|
@@ -58,7 +43,6 @@ eylem gerçekleştirilmiştir.
 |Faaliyet Dönemi|Mart 2023|
 |Gerçekleştirme<br>Açıklaması|Öz değerlendirme raporunun hazırlanması|
 |<br> <br> <br> <br>**Kanıt Görseli** <br>||
-
 
 |Faaliyetin Yapıldığı<br>Birim|İktisadi ve İdari Bilimler Fakültesi|
 |---|---|
@@ -68,7 +52,6 @@ eylem gerçekleştirilmiştir.
 |Gerçekleştirme<br>Açıklaması|Üniversitemiz Rektörü Prof. Dr. Sn. Hasan Uslu’nun katılımlarıyla<br>akademik kurul toplantısı gerçekleştirilmiştir.|
 |<br> <br> <br> <br>**Kanıt Görseli** <br>|<br>|
 
-
 |Faaliyetin<br>Yapıldığı Birim|İktisadi ve İdari Bilimler Fakültesi|
 |---|---|
 |Bölüm/Alt<br>Birim|İşletme|
@@ -76,7 +59,6 @@ eylem gerçekleştirilmiştir.
 |Faaliyet<br>Dönemi|Kasım 2023|
 |Gerçekleştirm<br>e Açıklaması|TÜBİTAK 2209-A kapsamında öğrenciler ile yapılması planlanan projeler kabul<br>almıştır.|
 |<br> <br> <br> <br>**Kanıt Görseli** <br>||
-
 
 |Faaliyetin<br>Yapıldığı Birim|İktisadi ve İdari Bilimler Fakültesi|
 |---|---|
@@ -86,7 +68,6 @@ eylem gerçekleştirilmiştir.
 |Gerçekleştirm<br>e Açıklaması|Bologna ders bilgi paketleri her yıl güncellenmesi için sistem, öğretim üyelerine<br>açılmaktadır.|
 |<br> <br> <br> <br>**Kanıt Görseli** <br>||
 
-
 |Faaliyetin Yapıldığı<br>Birim|İktisadi ve İdari Bilimler Fakültesi|
 |---|---|
 |Bölüm/Alt Birim|İşletme|
@@ -95,9 +76,7 @@ eylem gerçekleştirilmiştir.
 |Gerçekleştirme<br>Açıklaması|Yeni kayıt yaptıran öğrencilere yönelik uyum programı ve bilgilendirme<br>gerçekleştirildi.|
 |<br> <br> <br> <br>**Kanıt Görseli** <br>|<br> <br> <br>|
 
-
 ### **2023 YILI EYLEM PLANI İZLEME RAPORU**
-
 
 |İktisadi ve İdari Bilimler Fakültesi gerçekleştirilmiştir.|2023 Yılı Eylem Planı’nda toplam|5 eylem planlanmış olup 5 eylem|
 |---|---|---|
@@ -111,40 +90,17 @@ eylem gerçekleştirilmiştir.
 ||||
 |**TOPLAM**|||
 
-
 ## **İKTİSADİ VE İDARİ BİLİMLER FAKÜLTESİ** **İKTİSAT BÖLÜMÜ** **2023 YILI EYLEM PLANI İZLEME RAPORU**
 
 ### **2024**
-
 
 ### **2023 YILI EYLEM PLANI İZLEME RAPORU**
 
 İktisadi ve İdari Bilimler Fakültesin İktisat Bölümü 2023 Yılı Eylem Planı’nda toplam 3 eylem
 
-
 planlanmış olup tamamı gerçekleştirilmiştir.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ### **KALBİS KANIT FORMU**
-
-
-
-
-
 
 |Faaliyetin Yapıldığı<br>İktisadi ve İdari Bilimler Fakültesi<br>Birim|Col2|
 |---|---|
@@ -156,23 +112,9 @@ planlanmış olup tamamı gerçekleştirilmiştir.
 |<br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>**Kanıt Görseli**<br> <br>|<br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>**Kanıt Görseli**<br> <br>|
 |**Sisteme**<br>**Yükleyen/Sorumlu**|<br>Bölüm Başkanı|
 
-
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 
-
 ### **KALBİS KANIT FORMU**
-
-
-
-
-
-
-
-
-
-
-
 
 |Faaliyetin Yapıldığı<br>İktisadi ve İdari Bilimler Fakültesi<br>Birim|Col2|
 |---|---|
@@ -184,17 +126,9 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 |<br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>**Kanıt Görseli**<br> <br> <br>|<br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>**Kanıt Görseli**<br> <br> <br>|
 |**Sisteme**<br>**Yükleyen/Sorumlu**|<br>Bölüm Başkanı|
 
-
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 
-
 ### **KALBİS KANIT FORMU**
-
-
-
-
-
 
 |Faaliyetin Yapıldığı<br>İktisadi ve İdari Bilimler Fakültesi<br>Birim|Col2|
 |---|---|
@@ -206,57 +140,17 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 |<br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>**Kanıt Görseli**<br> <br> <br> <br>|<br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>**Kanıt Görseli**<br> <br> <br> <br>|
 |**Sisteme**<br>**Yükleyen/Sorumlu**|<br>Bölüm Başkanı|
 
-
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
-
 
 ## **İKTİSADİ VE İDARİ BİLİMLER** **FAKÜLTESİ** **MALİYE BÖLÜMÜ** **2023 YILI EYLEM PLANI İZLEME** **RAPORU**
 
 ### **2024**
 
-
 ### **2023 YILI EYLEM PLANI İZLEME** **RAPORU**
 
 İktisadi ve İdari Bilimler Fakültesi Maliye Bölümü Bölümü 2023 Yılı Eylem
 
-
 Planı’nda toplam 5 adet eylem planlanmış olup bu eylemler anılan gerekçelerle
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 |gerçekleştirilememiştir.|Col2|Col3|Col4|Col5|Col6|Col7|Col8|Col9|Col10|Col11|Col12|Col13|Col14|
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -274,15 +168,7 @@ Planı’nda toplam 5 adet eylem planlanmış olup bu eylemler anılan gerekçel
 |11|Bölüme yeni kayıt yapan<br>öğrencilere yönelik eğitsel uyum<br>etkinliği<br>yapılması|||||||||||||
 |12|Eğitim süreçlerinin<br>iyileştirilmesine yönelik faaliyet<br>yapılması||<br>**√**|||||||||||
 
-
 ### **KALBİS KANIT FORMU**
-
-
-
-
-
-
-
 
 |Faaliyetin Yapıldığı<br>Birim|İktisadi ve İdari Bilimler Fakültesi|
 |---|---|
@@ -293,7 +179,6 @@ Planı’nda toplam 5 adet eylem planlanmış olup bu eylemler anılan gerekçel
 |**Gerçekleştirme**<br>**Açıklaması**|Şubat- Haziran döneminde, ülkemizde yaşanan 6 Şubat deprem<br>felaketinden dolayı, uzaktan eğitime geçtiğimiz için faaliyet planımız<br>gerçekleşememiştir.|
 |**Kanıt Görseli**||
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Bölüm Başkanı|
-
 
 |Col1|KALBİS KANIT FORMU|
 |---|---|
@@ -306,7 +191,6 @@ Planı’nda toplam 5 adet eylem planlanmış olup bu eylemler anılan gerekçel
 |**Kanıt Görseli**||
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Bölüm Başkanı|
 
-
 |Col1|KALBİS KANIT FORMU|
 |---|---|
 |**Faaliyetin Yapıldığı**<br>**Birim**|İktisadi ve İdari Bilimler Fakültesi|
@@ -317,7 +201,6 @@ Planı’nda toplam 5 adet eylem planlanmış olup bu eylemler anılan gerekçel
 |**Gerçekleştirme**<br>**Açıklaması**|Şubat- Haziran döneminde, ülkemizde yaşanan 6 Şubat deprem<br>felaketinden dolayı, uzaktan eğitime geçtiğimiz için faaliyet planımız<br>gerçekleşememiştir.|
 |**Kanıt Görseli**||
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Bölüm Başkanı|
-
 
 |Col1|KALBİS KANIT FORMU|
 |---|---|
@@ -330,7 +213,6 @@ Planı’nda toplam 5 adet eylem planlanmış olup bu eylemler anılan gerekçel
 |**Kanıt Görseli**||
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Bölüm Başkanı|
 
-
 |Col1|KALBİS KANIT FORMU|
 |---|---|
 |**Faaliyetin Yapıldığı**<br>**Birim**|İktisadi ve İdari Bilimler Fakültesi|
@@ -342,55 +224,33 @@ Planı’nda toplam 5 adet eylem planlanmış olup bu eylemler anılan gerekçel
 |**Kanıt Görseli**||
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Bölüm Başkanı|
 
-
-# **İKTİSADİ VE İDARİ BİLİMLER FAKÜLTESİ**
+ **İKTİSADİ VE İDARİ BİLİMLER FAKÜLTESİ**
 
 ## **ULUSLARARASI TİCARET** **VE LOJİSTİK BÖLÜMÜ** **2023 YILI EYLEM PLANI İZLEME RAPORU**
 
 ### **2024**
 
-
 ### **2023 YILI EYLEM PLANI İZLEME RAPORU**
 
 İktisadi ve İdari Bilimler Fakültesi Uluslararası Ticaret ve Lojistik Bölümünün 2023 Yılı Eylem
 
-
 Planı sehven ilgili dönemde sisteme girilememiştir. Ancak eylem planı olarak sistemde
-
 
 olmamasına rağmen, Üniversitemiz Stratejik Planına katkı sağlayacak şekilde 2023 yılı içerisinde
 
-
 de faaliyetler gerçekleştirilmiştir. Bunlar: “Yeni Eğitim-Öğretim Dönemi Değerlendirme
-
 
 Toplantısı”, “Oryantasyon Eğitimi ve Danışman Öğrenci Toplantısı”, “Erasmus Ders Verme
 
-
 Hareketliliği”, “Mezun Öğrenci Buluşması Etkinliği”, “Sektör Sohbetleri” şeklindedir. İlgili
-
 
 faaliyetler aşağıda kanıtlarıyla birlikte eklenmiştir:
 
-
 **KALBİS KANIT FORMU**
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 |Faaliyetin Yapıldığı<br>Birim|İktisadi ve İdari Bilimler Fakültesi|
 |---|---|
-|**Bölüm / Alt Birim**|Uluslararası Ticaret ve Lojistik|
+|**Bölüm  Alt Birim**|Uluslararası Ticaret ve Lojistik|
 |**Gerçekleştirilen**<br>**Faaliyet Adı**|Yeni Eğitim-Öğretim Dönemi<br>Değerlendirme Toplantısı|
 |**Faaliyet Dönemi**|2023 Ekim|
 |||
@@ -398,19 +258,11 @@ faaliyetler aşağıda kanıtlarıyla birlikte eklenmiştir:
 |**Kanıt Görseli**||
 |**Sisteme Yükleyen /**<br>**Sorumlu**|Bölüm Başkanı|
 
-
 **KALBİS KANIT FORMU**
-
-
-
-
-
-
-
 
 |Faaliyetin Yapıldığı<br>Birim|İktisadi ve İdari Bilimler Fakültesi|
 |---|---|
-|**Bölüm / Alt Birim**|Uluslararası Ticaret ve Lojistik|
+|**Bölüm  Alt Birim**|Uluslararası Ticaret ve Lojistik|
 |**Gerçekleştirilen**<br>**Faaliyet Adı**|Oryantasyon Eğitimi ve Danışman Öğrenci Toplantısı|
 |**Faaliyet Dönemi**|2023 Ekim|
 |||
@@ -418,45 +270,23 @@ faaliyetler aşağıda kanıtlarıyla birlikte eklenmiştir:
 |**Kanıt Görseli**||
 |**Sisteme Yükleyen /**<br>**Sorumlu**|Bölüm Başkanı|
 
-
 **KALBİS KANIT FORMU**
-
-
-
-
-
-
-
 
 |Faaliyetin Yapıldığı<br>Birim|İktisadi ve İdari Bilimler Fakültesi|
 |---|---|
-|**Bölüm / Alt Birim**|Uluslararası Ticaret ve Lojistik|
+|**Bölüm  Alt Birim**|Uluslararası Ticaret ve Lojistik|
 |**Gerçekleştirilen**<br>**Faaliyet Adı**|Erasmus Ders Verme Hareketliliği|
 |**Faaliyet Dönemi**|2023 Ekim|
 |||
-|**Gerçekleştirme**<br>**Açıklaması**|Bölümümüz Dr. Öğr. Üyesi Gül SENİR 16-20 Ekim 2023 tarihleri<br>arasında Erasmus + Personel Ders Verme Hareketliliği kapsamında<br>Universum International Collage (Kosova) Üniversitesine katılım<br>sağlamıştır.|
+|**Gerçekleştirme**<br>**Açıklaması**|Bölümümüz Dr. Öğr. Üyesi Gül SENİR 16-20 Ekim 2023 tarihleri<br>arasında Erasmus  Personel Ders Verme Hareketliliği kapsamında<br>Universum International Collage (Kosova) Üniversitesine katılım<br>sağlamıştır.|
 |**Kanıt Görseli**||
 |**Sisteme Yükleyen /**<br>**Sorumlu**|Bölüm Başkanı|
 
-
 **KALBİS KANIT FORMU**
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 |Faaliyetin Yapıldığı<br>Birim|İktisadi ve İdari Bilimler Fakültesi|
 |---|---|
-|**Bölüm / Alt Birim**|Uluslararası Ticaret ve Lojistik|
+|**Bölüm  Alt Birim**|Uluslararası Ticaret ve Lojistik|
 |**Gerçekleştirilen**<br>**Faaliyet Adı**|Mezun Öğrenci Buluşması Etkinliği|
 |**Faaliyet Dönemi**|2023 Kasım|
 |||
@@ -464,19 +294,11 @@ faaliyetler aşağıda kanıtlarıyla birlikte eklenmiştir:
 |**Kanıt Görseli**||
 |**Sisteme Yükleyen /**<br>**Sorumlu**|Bölüm Başkanı|
 
-
 **KALBİS KANIT FORMU**
-
-
-
-
-
-
-
 
 |Faaliyetin Yapıldığı<br>Birim|İktisadi ve İdari Bilimler Fakültesi|
 |---|---|
-|**Bölüm / Alt Birim**|Uluslararası Ticaret ve Lojistik|
+|**Bölüm  Alt Birim**|Uluslararası Ticaret ve Lojistik|
 |**Gerçekleştirilen**<br>**Faaliyet Adı**|Sektör Sohbetleri|
 |**Faaliyet Dönemi**|2023 Aralık|
 |||
@@ -484,37 +306,15 @@ faaliyetler aşağıda kanıtlarıyla birlikte eklenmiştir:
 |**Kanıt Görseli**||
 |**Sisteme Yükleyen /**<br>**Sorumlu**|Bölüm Başkanı|
 
-
 ## **İKTİSADİ VE İDARİ BİLİMLER FAKÜLTESİ** **SİYASET BİLİMİ VE ULUSLARARASI** **İLİŞKİLER BÖLÜMÜ** **2023 YILI EYLEM PLANI İZLEME RAPORU**
 
 ### **2024**
-
 
 ### **2023 YILI EYLEM PLANI İZLEME RAPORU**
 
 İktisadi ve İdari Bilimler Fakültesi Siyaset Bilimi ve Uluslararası İlişkiler Bölümü 2023 Yılı Eylem
 
-
 Planı’nda toplam 6 eylem planlanmış olup 6 adet eylem gerçekleştirilmiştir.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 |Col1|Col2|Ocak|Şubat|Mart|Nisan|Mayıs|Haziran|Temmuz|Ağustos|Eylül|Ekim|Kasım|Aralık|
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -525,55 +325,36 @@ Planı’nda toplam 6 eylem planlanmış olup 6 adet eylem gerçekleştirilmişt
 |5|Bölüme yeni kayıt yapan öğrencilere<br>yönelik eğitsel uyum etkinliği<br>yapılması||||||||||**√**|||
 |6|Öğrenci kulüp faaliyetlerinin<br>desteklenmesi||||||||||||**√**|
 
-
 Evrak Tarih ve Sayısı: **03/05/2024-50** 43393063
 
 ### **KALBİS KANIT FORMU**
-
-
-
-
-
 
 |Faaliyetin Yapıldığı<br>Birim|İktisadi ve İdari Bilimler Fakültesi|
 |---|---|
 |**Bölüm/Alt Birim**|Siyaset Bilimi ve Uluslararası İlişkiler Bölümü|
 |**Gerçekleştirilen**<br>**Faaliyet Adı**|Bölümün Uluslararasılaşma Performansına Katkıda Bulunmak|
-|**Faaliyet Dönemi**|2023 Mart – Eylül- Ekim|
+|**Faaliyet Dönemi**|2023 Mart  Eylül- Ekim|
 |||
 |**Gerçekleştirme**<br>**Açıklaması**|<br>Erasmus hareketliliğinden faydalanan öğrenci, Orhun değişim programından<br>faydalanan öğrenci, Orhun değişim programı kapsamında gelecek akademik<br>personel ve Erasmus+ personel hareketliliğinden faydalanan akademik personel<br>yazıları|
 |**Kanıt Görseli**||
 
-
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 
-
 **Bu belge, güvenli elektronik imza ile imzalanmıştır.**
-
 
 Evrak Tarih ve Sayısı: **03/05/2024-50** 43393063
 
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
-
 
 ### **KALBİS KANIT FORMU**
 
-
-
 **Bu belge, güvenli elektronik imza ile imzalanmıştır.**
-
 
 Evrak Tarih ve Sayısı: **03/05/2024-50** 43393063
 
-
 ### **KALBİS KANIT FORMU**
 
-
-
 **Bu belge, güvenli elektronik imza ile imzalanmıştır.**
-
 
 Evrak Tarih ve Sayısı: **03/05/2024-50** 43393063
 
@@ -583,20 +364,11 @@ Evrak Tarih ve Sayısı: **03/05/2024-50** 43393063
 |---|---|
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Bölüm Başkanı|
 
-
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
-
 
 **Bu belge, güvenli elektronik imza ile imzalanmıştır.**
 
-
 Evrak Tarih ve Sayısı: **03/05/2024-50** 43393063
-
-
-
-
-
 
 |Faaliyetin Yapıldığı<br>Birim|İktisadi ve İdari Bilimler Fakültesi|
 |---|---|
@@ -607,24 +379,17 @@ Evrak Tarih ve Sayısı: **03/05/2024-50** 43393063
 |**Gerçekleştirme**<br>**Açıklaması**|Bölüm müfredatının küresel güncel gelişmeler ışığında yeniden değerlendirilmesi ve<br>müfredata 5 adet yeni ders eklenmesi ile ilgili bölüm kurul kararı ve 2 adet dış paydaş<br>görüşü|
 |**Kanıt Görseli**||
 
-
+**Bu belge, güvenli elektronik imza ile imzalanmıştır.**
 
 **Bu belge, güvenli elektronik imza ile imzalanmıştır.**
 
-
 **Bu belge, güvenli elektronik imza ile imzalanmıştır.**
-
-
-**Bu belge, güvenli elektronik imza ile imzalanmıştır.**
-
 
 |Col1|Col2|
 |---|---|
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Bölüm Başkanı|
 
-
 **Bu belge, güvenli elektronik imza ile imzalanmıştır.**
-
 
 |Faaliyetin Yapıldığı<br>Birim|İktisadi ve İdari Bilimler Fakültesi|
 |---|---|
@@ -636,9 +401,7 @@ Evrak Tarih ve Sayısı: **03/05/2024-50** 43393063
 |**Kanıt Görseli**||
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Bölüm Başkanı|
 
-
 **Bu belge, güvenli elektronik imza ile imzalanmıştır.**
-
 
 |Faaliyetin Yapıldığı<br>Birim|İktisadi ve İdari Bilimler Fakültesi|
 |---|---|
@@ -649,18 +412,13 @@ Evrak Tarih ve Sayısı: **03/05/2024-50** 43393063
 |**Gerçekleştirme**<br>**Açıklaması**|Sürdürülebilirlik ve Sürdürülebilir Kampüs çalışmaları kapsamında bölümümüz<br>derslerin Bologna bilgi paketlerinin güncellendiğine dair bölüm yazısı|
 |**Kanıt Görseli**||
 
-
-
 **Bu belge, güvenli elektronik imza ile imzalanmıştır.**
-
 
 |Col1|Col2|
 |---|---|
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Bölüm Başkanı|
 
-
 **Bu belge, güvenli elektronik imza ile imzalanmıştır.**
-
 
 |Faaliyetin Yapıldığı<br>Birim|İktisadi ve İdari Bilimler Fakültesi|
 |---|---|
@@ -671,21 +429,15 @@ Evrak Tarih ve Sayısı: **03/05/2024-50** 43393063
 |**Gerçekleştirme**<br>**Açıklaması**|Bölüme yeni kayıt yapan öğrencilere yönelik oryantasyon programı ve uyum<br>etkinliğine yönelik gerekli fotoğraf ve evraklar|
 |**Kanıt Görseli**||
 
-
-
 **Bu belge, güvenli elektronik imza ile imzalanmıştır.**
 
-
 **Bu belge, güvenli elektronik imza ile imzalanmıştır.**
-
 
 |Col1|Col2|
 |---|---|
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Bölüm Başkanı|
 
-
 **Bu belge, güvenli elektronik imza ile imzalanmıştır.**
-
 
 |Faaliyetin Yapıldığı<br>Birim|İktisadi ve İdari Bilimler Fakültesi|
 |---|---|
@@ -697,46 +449,26 @@ Evrak Tarih ve Sayısı: **03/05/2024-50** 43393063
 |**Kanıt Görseli**||
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Bölüm Başkanı|
 
-
 **Bu belge, güvenli elektronik imza ile imzalanmıştır.**
-
 
 ## **İKTİSADİ VE İDARİ BİLİMLER FAKÜLTESİ** **FİNANS VE BANKACILIK BÖLÜMÜ** **2023 YILI EYLEM PLANI İZLEME RAPORU**
 
 ### **2024**
 
-
 ### **2023 YILI EYLEM PLANI İZLEME RAPORU**
 
 İktisadi ve İdari Bilimler Fakültesi Finans ve Bankacılık Bölümü 2023 Yılı Eylem Planı’nda toplam 2
 
-
 eylem planlanmış olup 1 adet eylem gerçekleştirilmiştir.
-
-
-
-
-
-
-
-
-
 
 |Col1|Col2|Ocak|Şubat|Mart|Nisan|Mayıs|Haziran|Temmuz|Ağustos|Eylül|Ekim|Kasım|Aralık|
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 |1|Öğrencilerin araştırma projelerine<br>katılımına yönelik etkinlik<br>yapılması||||<br>**  √** <br>|||||||||
 |2|Birim/Bölüm Akademik Kurul<br>toplantılarının yapılması|||||||||||||
 
-
 Evrak Tarih ve Sayısı: **03/05/2024-50** 43393063
 
 ### **KALBİS KANIT FORMU**
-
-
-
-
-
-
 
 |Faaliyetin Yapıldığı<br>Birim|İktisadi ve İdari Bilimler Fakültesi|
 |---|---|
@@ -748,12 +480,9 @@ Evrak Tarih ve Sayısı: **03/05/2024-50** 43393063
 |**Kanıt Görseli**||
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Bölüm Başkanı|
 
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 
-
 **Bu belge, güvenli elektronik imza ile imzalanmıştır.**
-
 
 Evrak Tarih ve Sayısı: **03/05/2024-50** 43393063
 
@@ -767,8 +496,4 @@ Evrak Tarih ve Sayısı: **03/05/2024-50** 43393063
 |**Kanıt Görseli**||
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Bölüm Başkanı|
 
-
-
 **Bu belge, güvenli elektronik imza ile imzalanmıştır.**
-
-

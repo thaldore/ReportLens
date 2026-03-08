@@ -1,42 +1,20 @@
 Evrak Tarih ve Sayısı: 13/05/2024-506657
 
-# **MİMARLIK FAKÜLTESİ**
+ **MİMARLIK FAKÜLTESİ**
 
 ## **2023 YILI EYLEM PLANI İZLEME RAPORU**
 
 ### **2024**
 
-
 **Bu belge, güvenli elektronik imza ile imzalanmıştır.**
-
 
 Evrak Tarih ve Sayısı: 13/05/2024-506657
 
 ### **2023 YILI EYLEM PLANI İZLEME RAPORU**
 
-
 Mimarlık Fakültesi 2023 Yılı Eylem Planında toplam 13 eylem planlanmış olup 6 eylem
 
-
 gerçekleştirilmiştir.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 |Col1|MİMARLIK FAKÜLTESİ|PLANLANAN|GERÇEKLEŞTİRİLEN|
 |---|---|---|---|
@@ -54,9 +32,7 @@ gerçekleştirilmiştir.
 |12|Kurum ve kuruluşlarla işbirliği çerçevesinde yapılan<br>kurumsal/toplumsal sorumluluk proje sayısı.|-|-|
 |13|Yapılan tanıtım faaliyeti sayısı|1|1|
 
-
 **Bu belge, güvenli elektronik imza ile imzalanmıştır.**
-
 
 Evrak Tarih ve Sayısı: 13/05/2024-506657
 
@@ -64,54 +40,17 @@ Evrak Tarih ve Sayısı: 13/05/2024-506657
 
 ### **2024**
 
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 
-
 **Bu belge, güvenli elektronik imza ile imzalanmıştır.**
-
 
 Evrak Tarih ve Sayısı: 13/05/2024-506657
 
 ### **2023 YILI EYLEM PLANI İZLEME RAPORU**
 
-
 Mimarlık Fakültesi Mimarlık Bölümü 2023 Yılı Eylem Planında toplam 12 eylem planlanmış
 
-
 olup 5 eylem gerçekleştirilmiştir.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 |Col1|EYLEM (MİMARLIK BÖLÜMÜ)|Ocak|Şubat|Mart|Nisan|Mayıs|Haziran|Temmuz|Ağustos|Eylül|Ekim|Kasım|Aralık|
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -128,28 +67,13 @@ olup 5 eylem gerçekleştirilmiştir.
 |11|Bölüme yeni kayıt yapan öğrencilere<br>yönelik eğitsel uyum etkinliği<br>yapılması||||||||||**√**|||
 |12|Eğitim süreçlerinin iyileştirilmesine<br>yönelik faaliyet yapılması|||**√**|||||||**√**|||
 
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
-
 
 **Bu belge, güvenli elektronik imza ile imzalanmıştır.**
 
-
 Evrak Tarih ve Sayısı: 13/05/2024-506657
 
-
-
-
 ### **KALBİS KANIT FORMU**
-
-
-
-
-
-
-
-
-
 
 |Faaliyetin Yapıldığı<br>Birim|Mimarlık Fakültesi|
 |---|---|
@@ -161,29 +85,13 @@ Evrak Tarih ve Sayısı: 13/05/2024-506657
 |**Kanıt Görseli**||
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Bölüm Başkanı|
 
-
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
-
 
 **Bu belge, güvenli elektronik imza ile imzalanmıştır.**
 
-
 Evrak Tarih ve Sayısı: 13/05/2024-506657
 
-
-
-
 ### **KALBİS KANIT FORMU**
-
-
-
-
-
-
-
-
-
 
 |Faaliyetin Yapıldığı<br>Birim|Mimarlık Fakültesi|
 |---|---|
@@ -195,27 +103,13 @@ Evrak Tarih ve Sayısı: 13/05/2024-506657
 |**Kanıt Görseli**||
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Bölüm Başkanı|
 
-
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
-
 
 **Bu belge, güvenli elektronik imza ile imzalanmıştır.**
 
-
 Evrak Tarih ve Sayısı: 13/05/2024-506657
 
-
-
-
 ### **KALBİS KANIT FORMU**
-
-
-
-
-
-
-
 
 |Faaliyetin Yapıldığı<br>Birim|Mimarlık Fakültesi|
 |---|---|
@@ -227,29 +121,13 @@ Evrak Tarih ve Sayısı: 13/05/2024-506657
 |**Kanıt Görseli**||
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Bölüm Başkanı|
 
-
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
-
 
 **Bu belge, güvenli elektronik imza ile imzalanmıştır.**
 
-
 Evrak Tarih ve Sayısı: 13/05/2024-506657
 
-
-
-
 ### **KALBİS KANIT FORMU**
-
-
-
-
-
-
-
-
-
 
 |Faaliyetin Yapıldığı<br>Birim|Mimarlık Fakültesi|
 |---|---|
@@ -261,24 +139,13 @@ Evrak Tarih ve Sayısı: 13/05/2024-506657
 |**Kanıt Görseli**||
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Bölüm Başkanı|
 
-
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
-
 
 **Bu belge, güvenli elektronik imza ile imzalanmıştır.**
 
-
 Evrak Tarih ve Sayısı: 13/05/2024-506657
 
-
-
-
 ### **KALBİS KANIT FORMU**
-
-
-
-
 
 |Faaliyetin Yapıldığı<br>Birim|Mimarlık Fakültesi|
 |---|---|
@@ -289,45 +156,23 @@ Evrak Tarih ve Sayısı: 13/05/2024-506657
 |**Gerçekleştirme**<br>**Açıklaması**|Eğitim süreçlerinin iyileştirilmesine yönelik faaliyet yapılmasına<br>yönelik “Yapı malzemesi olarak endüstriyel kenevir” ve<br>“Depremlere dirençli toplum” adlı faaliyetler gerçekleştirildi.|
 |**Kanıt Görseli**||
 
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
-
 
 **Bu belge, güvenli elektronik imza ile imzalanmıştır.**
 
-
 Evrak Tarih ve Sayısı: 13/05/2024-506657
-
-
-
-
-
 
 |Col1|Col2|
 |---|---|
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Bölüm Başkanı|
 
-
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
-
 
 **Bu belge, güvenli elektronik imza ile imzalanmıştır.**
 
-
 Evrak Tarih ve Sayısı: 13/05/2024-506657
 
-
-
-
 ### **KALBİS KANIT FORMU**
-
-
-
-
-
-
-
 
 |Faaliyetin Yapıldığı<br>Birim|Mimarlık Fakültesi|
 |---|---|
@@ -339,26 +184,11 @@ Evrak Tarih ve Sayısı: 13/05/2024-506657
 |**Kanıt Görseli**||
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Bölüm Başkanı|
 
-
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
-
 
 **Bu belge, güvenli elektronik imza ile imzalanmıştır.**
 
-
 Evrak Tarih ve Sayısı: 13/05/2024-506657
-
-
-
-
-
-
-
-
-
-
-
 
 |Faaliyetin Yapıldığı<br>Birim|Mimarlık Fakültesi|
 |---|---|
@@ -370,13 +200,9 @@ Evrak Tarih ve Sayısı: 13/05/2024-506657
 |**Kanıt Görseli**||
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Bölüm Başkanı|
 
-
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 
-
 **Bu belge, güvenli elektronik imza ile imzalanmıştır.**
-
 
 ## **MİMARLIK FAKÜLTESİ** **PEYZAJ MİMARLIĞI BÖLÜMÜ** **2023 YILI EYLEM PLANI İZLEME RAPORU**
 
@@ -384,41 +210,11 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 
-
 ### **2023 YILI EYLEM PLANI İZLEME RAPORU**
 
 Mimarlık Fakültesi Peyzaj Mimarlığı Bölümü 2023 Yılı Eylem Planında toplam 12 eylem
 
-
 planlanmış olup 6 eylem gerçekleştirilmiştir.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 |Col1|EYLEM (MİMARLIK BÖLÜMÜ)|Ocak|Şubat|Mart|Nisan|Mayıs|Haziran|Temmuz|Ağustos|Eylül|Ekim|Kasım|Aralık|
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -435,22 +231,9 @@ planlanmış olup 6 eylem gerçekleştirilmiştir.
 |11|Bölüme yeni kayıt yapan öğrencilere<br>yönelik eğitsel uyum etkinliği<br>yapılması|||||||||||||
 |12|Eğitim süreçlerinin iyileştirilmesine<br>yönelik faaliyet yapılması||||||||||**√**|||
 
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 
-
 ### **KALBİS KANIT FORMU**
-
-
-
-
-
-
-
-
-
-
-
 
 |Faaliyetin Yapıldığı<br>Birim|Mimarlık Fakültesi|
 |---|---|
@@ -462,23 +245,9 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 |**Kanıt Görseli**||
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Bölüm Başkanı|
 
-
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 
-
 ### **KALBİS KANIT FORMU**
-
-
-
-
-
-
-
-
-
-
-
 
 |Faaliyetin Yapıldığı<br>Birim|Mimarlık Fakültesi|
 |---|---|
@@ -490,21 +259,9 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 |**Kanıt Görseli**||
 |**Sisteme**<br>**Yükleyen/Sorumlu**|<br>Bölüm Başkanı|
 
-
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 
-
 ### **KALBİS KANIT FORMU**
-
-
-
-
-
-
-
-
-
 
 |Faaliyetin Yapıldığı<br>Birim|Mimarlık Fakültesi|
 |---|---|
@@ -516,23 +273,9 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 |**Kanıt Görseli**||
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Bölüm Başkanı|
 
-
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 
-
 ### **KALBİS KANIT FORMU**
-
-
-
-
-
-
-
-
-
-
-
 
 |Faaliyetin Yapıldığı<br>Birim|Mimarlık Fakültesi|
 |---|---|
@@ -544,23 +287,9 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 |**Kanıt Görseli**||
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Bölüm Başkanı|
 
-
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 
-
 ### **KALBİS KANIT FORMU**
-
-
-
-
-
-
-
-
-
-
-
 
 |Faaliyetin Yapıldığı<br>Birim|Mimarlık Fakültesi|
 |---|---|
@@ -572,25 +301,19 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 |**Kanıt Görseli**|<br>|
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Bölüm Başkanı|
 
-
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Formu_
 
-
-# **MİMARLIK FAKÜLTESİ**
+ **MİMARLIK FAKÜLTESİ**
 
 ## **2023 YILI EYLEM PLANI İZLEME RAPORU**
 
 ### **2024**
 
-
 ### **2023 YILI EYLEM PLANI İZLEME RAPORU**
 
 Mimarlık Fakültesi 2023 Yılı Eylem Planı’nda toplam eylem planlanmış olup eylem
 
-
 gerçekleştirilmiştir.
-
 
 |BİRİM|PLANLANAN|GERÇEKLEŞTİRİLEN|
 |---|---|---|
@@ -599,31 +322,15 @@ gerçekleştirilmiştir.
 ||||
 |**TOPLAM**|||
 
-
 ## **MİMARLIK FAKÜLTESİ** **ŞEHİR VE BÖLGE PLANLAMA (ŞBP) BÖLÜMÜ** **2023 YILI EYLEM PLANI İZLEME RAPORU**
 
 ### **2024**
-
 
 ### **2023 YILI EYLEM PLANI İZLEME RAPORU**
 
 Mimarlık Fakültesi Şehir ve Bölge Planlama (ŞBP) 2023 Yılı Eylem Planı’nda toplam 5 eylem
 
-
 planlanmış olup tamamı gerçekleştirilmiştir.
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 |Col1|Col2|Ocak|Şubat|Mart|Nisan|Mayıs|Haziran|Temmuz|Ağustos|Eylül|Ekim|Kasım|Aralık|
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -632,7 +339,6 @@ planlanmış olup tamamı gerçekleştirilmiştir.
 |3|Bağımlılıkla Mücadele Oryantasyon<br>Etkinliği|||||||||||**√**||
 |4|Dekan Öğrenci Buluşması Etkinliği|||||||||||**√**||
 |5|Niğde Kalesi ve Çevresine Teknik<br>Gezi<br>||||||||||||**√**|
-
 
 |Col1|KALBİS KANIT FORMU|
 |---|---|
@@ -645,9 +351,7 @@ planlanmış olup tamamı gerçekleştirilmiştir.
 |**Kanıt Görseli**||
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Araş. Gör. Fatma Gül ERYILDIZ ŞENVARDAR|
 
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt F_
-
 
 |Col1|KALBİS KANIT FORMU|
 |---|---|
@@ -660,9 +364,7 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt F_
 |||
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Araş. Gör. Fatma Gül ERYILDIZ ŞENVARDAR|
 
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Fo_
-
 
 |Col1|KALBİS KANIT FORMU|
 |---|---|
@@ -675,9 +377,7 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt Fo_
 |**Kanıt Görseli**||
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Araş. Gör. Fatma Gül ERYILDIZ ŞENVARDAR|
 
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Fo_
-
 
 |Col1|KALBİS KANIT FORMU|
 |---|---|
@@ -690,9 +390,7 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt Fo_
 |**Kanıt Görseli**||
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Araş. Gör. Fatma Gül ERYILDIZ ŞENVARDAR|
 
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt Fo_
-
 
 |Col1|KALBİS KANIT FORMU|
 |---|---|
@@ -705,7 +403,4 @@ _Niğde Ömer Halisdemir Üniversitesi Kanıt Fo_
 |**Kanıt Görseli**||
 |**Sisteme**<br>**Yükleyen/Sorumlu**|Araş. Gör. Fatma Gül ERYILDIZ ŞENVARDAR|
 
-
 _Niğde Ömer Halisdemir Üniversitesi Kanıt F_
-
-

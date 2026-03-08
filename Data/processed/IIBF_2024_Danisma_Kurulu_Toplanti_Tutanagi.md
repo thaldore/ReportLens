@@ -11,7 +11,7 @@ Taplantıya Katılanlar: Niğde Valiliği, Niğde Belediyes, Niğde Serbest Mu
 Müşavirler Odas Başkanlığı, Ahiler Kalkınma Ajansı Niğde Yatırım Destek O
 Sanayi Odası Yönetim Kurulu Başkanlığı, İ Defterdarlığı, Halk Bankası iğd
 Ocaklar Niğde Şubesi Başkanlığı, Mezun Öğrenci
-Toplantının Amacı: Fakltemiz bölümlerine ilişkin gelişmelerin takibi ve 
+Toplantının Amacı: Fakltemiz bölümlerine ilişkin gelişmelerin takibi ve
 planlarının bu gelişmelere uyumunun sağlanmasına yönelik dı paydaşlarla fi
 bulunmak, görüşlerin almak ve ortak çalışmalar içn stratejiler geliştirmektir
 Gündem Maddeleri;
@@ -23,10 +23,10 @@ başlamış. Dış paydaşlarla Fakül ile lili güncel durum, ihtiyaçlarle fir
 zerine değrlendirmelerde bulunulmuştur. Katılımcılar, kendi sektörlerindeki
 paylaşmışlar ve taleplerin die getirmişlerdir.
 Öne Çıkan Konular:
-*
+
 Dış paydaşlar, öğrencilerin vizyonuna katkı sağlamaya yönclik ünivers
 işbirliklerinin daha sıkı hale getirilmesi gerektiğini vagulamışlrdır.
-*
+
 Öğrencilerin staj olanaklarını artırmak için yeni projelerin başlatılma
 
 ---
@@ -55,7 +55,7 @@ sonlandırılmıştır.
 Katılımcılar, toplantının verimli geçtiğini ve ileride daha
 yapılabileceği konusunda olumlu görüşlerini bildirmişlerdir
 i
-\
+
 Prof. Dr. Mutlu
 ÖZTÜRK
 ğa

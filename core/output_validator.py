@@ -149,8 +149,8 @@ class OutputValidator:
     # ── Tekrar Dedektörü ──────────────────────────────────────────────
 
     @staticmethod
-    def detect_repetitions(output: str, threshold: float = 0.6) -> Dict:
-        """Tekrarlı bölümleri ve cümleleri tespit eder (Cosine Similarity ile)."""
+    def remove_repetitions(output: str, threshold: float = 0.6) -> str:
+        """Tekrarlı bölümleri ve cümleleri tespit eder ve kaldırır (Cosine Similarity ile)."""
         # 1. Paragraf düzeyinde kontrol
         paragraphs = [p.strip() for p in output.split('\n\n') if len(p.strip()) > 50]
         duplicates_to_remove = set()
@@ -195,10 +195,7 @@ class OutputValidator:
         if len(cleaned_sentences) < len(sentences):
             cleaned_output = ' '.join(cleaned_sentences)
 
-        return {
-            "duplicate_count": len(duplicates_to_remove) + (len(sentences) - len(cleaned_sentences)),
-            "cleaned_output": cleaned_output,
-        }
+        return cleaned_output
 
     @staticmethod
     def _cosine_similarity(text1: str, text2: str) -> float:

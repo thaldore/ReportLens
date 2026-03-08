@@ -22,7 +22,7 @@ z
 Kurumun geneline yayılmış, kale güvencesi sistemi
 ve kültürünün gelişimini d
 mala mai KNEE
-:
+
 (io
 LL E
 z
@@ -46,7 +46,7 @@ OLGUNLUK DÜZE
 harmana TT
 TR E
 Kurumun
-bütünsel, tüm birimleri tarafından benimsenmiş ve paydaşlarınca 
+bütünsel, tüm birimleri tarafından benimsenmiş ve paydaşlarınca
 planı ve bu planıyla uyumlu uygulamaları vardır.
 TT
 Kurumun geneline yayılmış performans yOnetimi uygulamaları bulunmaktadır.
@@ -54,7 +54,7 @@ A.3. Yönetim Sistemleri,
 OLGUNLUK DÜZE
 Barman
 İTİTR
-Kurum genelinde temel süreçleri (eğitim ve öğretim, araştırma ve geliştirme, 
+Kurum genelinde temel süreçleri (eğitim ve öğretim, araştırma ve geliştirme,
 4.3.2. İnsan kaynakları yönetimi
 7
 A3. Yönetim Sistemleri
@@ -83,7 +83,7 @@ ve
 Bedefleri
 doğrultusunda.
 süreçler
-organizasyonel | yapılanmasını oluşturmalı ve sonuçlarımı periyodik ol
+organizasyonel  yapılanmasını oluşturmalı ve sonuçlarımı periyodik ol
 değelendirmeldir.
 ASL Utuslararasilayma süreçlerinin
 A
@@ -92,7 +92,7 @@ x
 Uluslararasılaşma Kurumda uluslararaslagma süreçlerinin yönetimine İlişkin org
 yapılanma tamamlanmış olup: fat, kapsaytcı ve kame biçimde işlemektedir
 143tatoo
-|]? |
+|]? 
 Kurumun uluslararaslaşma kaynakları birimler arası denge gözetilerek yönetilme
 ae
 PE
@@ -139,7 +139,7 @@ Tasarımı,
 OLGUNLUK
 D
 Değerlendirilmesi ve Güncellenmesi
-‘BIA. Öğrenci iş yüküne dayali ders tasarımı | “7
+‘BIA. Öğrenci iş yüküne dayali ders tasarımı  “7
 I
 7 Li c
 x
@@ -153,12 +153,12 @@ Değerlendirilmesi ve Güncellenmesi
 BIS
 Programların
 lenmesi
-ve | 7 | 2 | 3
-|
+ve  7  2  3
+
 güncellenmesi —......
 a
 xl
-Programların genelinde program  çıkılannın — izlenmesine
+Programların genelinde program  çıkılannın  izlenmesine
 ve güncelle
 mekanizmalar işletilmektedir.
 Bl.
@@ -166,7 +166,7 @@ Programların
 Tasarımı
 OLGUNLUK DÜZE
 Değerlendirilmesi ve Güncellenmesi
-ELE Fim ve öğretim süreçlerinin | 7 | 2 | 3
+ELE Fim ve öğretim süreçlerinin  7  2  3
 zönetimi
 x
 Programların genelinde öğrenci merkezli Görem yörüem tekler tanımlı Sürel
@@ -192,7 +192,7 @@ B2.
 Programların
 Yürütülmesi
 mi
--
+
 (Öğrenci Merkezli Öğrenme, Öğretme
 OLGUNLUK DÜZE
 ve Değerlendirme)
@@ -238,7 +238,7 @@ akademik gelişim ve kariyer panamasıa
 yönelik destek hizmetleri sağlamalı.
 EZ
 Öğrenme Kaynaklanve Akademik
-"
+
 OLGUNLUK DÜZE
 Destek Hizmetleri
 ‘B31. Öğrenme ortam vekaynakları:
@@ -253,7 +253,7 @@ birimler
 ## Sayfa 7
 
 BE Öğrenme Kaynaklarıve Akademik
-™
+
 OLGUNLUKDÜZE
 Destek Hizmetleri
 Kurumun genelinde tesis ve allyap eişilebilrdir ve barlardan frat eşiğine d
@@ -323,7 +323,7 @@ Tör Aragtirma Süreç Yüncü
 OEGUMEK DİZ
 ye Araştırma Kayaları
 Cia Delis
-pranlr ve dole | 7]
+pranlr ve dole  7]
 Sones irklar
 i
 Kurunda aragirma pala eğe ve Faili He uyumlu ve dste
@@ -352,7 +352,7 @@ C32Öğretim elemanvarasnrmact
 7
 3
 arama
-:
+
 D. TOPLUMSAL KATKI
 D..
 Toplumsal
@@ -363,7 +363,7 @@ Yönetimi “Ye
 Toplumsal Kath
 OLGUNLUK DÜZE
 Du Toplumsal
-karı süreçlerininyönetimi | 7
+karı süreçlerininyönetimi  7
 |?
 |S [7
 Kurumda toplumsal
@@ -373,20 +373,20 @@ Toplumsal
 Katkı
 Süreçlerinin
 m
-| Yönetimi
+ Yönetimi
 ve
-Toplumsal © Katkı
+Toplumsal  Katkı
 OLGUNLUK DÜZE
 m
 D2. Toplumsal
-Katkı Performan —— |
+Katkı Performan —— 
 OZGÜNLUKDÜZEY
 D31Toplumsal
 kathy
-performansının |
+performansının 
 7
-?
-|
+
+
 3
 m een
 iE
@@ -397,10 +397,10 @@ Kurumda toplumsal katkı performansının izlenmesine ve degerlendirmesine yöne
 ## Sayfa 10
 
 DEĞERLENDİRME VE SONUÇ:
-Akran Değerlendirme Komisyonu (Dr. Öğr. Üyesi Ferdi Kıraç, Dr. Öğr. 
+Akran Değerlendirme Komisyonu (Dr. Öğr. Üyesi Ferdi Kıraç, Dr. Öğr.
 nan ia
 ml Seteben Yo son
-Edebiyatları Bölümü tarafından hazırlanan Kurum İç Değerlendirme Raporu'nu 
+Edebiyatları Bölümü tarafından hazırlanan Kurum İç Değerlendirme Raporu'nu
 Senso alo lam
 Orhun) ve komisyonlarının (Eğitim-Öğretim, Mezuniyet, Akademik Teşv
 Paydaşlar ve Tanıtım, Akreditasyon, Stratejik Plan Hazırlama, İzleme ve
@@ -412,7 +412,7 @@ a oni Lr my a
 e nonin ach yin pgm A
 tsar At seyeSb van
 bilgilendirme amaçlı güncel bilgiler mevcuttur.
-başvurduğu gözlenmiştir. İl Milli Eğitim Müdürlüğü, İl Gençlik ve Spor 
+başvurduğu gözlenmiştir. İl Milli Eğitim Müdürlüğü, İl Gençlik ve Spor
 Kültür ve Turizm Müdürlüğü, ODTÜ Koleji bölümün dış paydaşları; OH
 Yüksek Okulu, OHU Eğitim Fakültesi İngiliz Dili Eğitimi Bölümü ise bö
 pisdaman ER
@@ -447,6 +447,6 @@ bölümlerden biridir. Bölümde,3Öğretim Üyesi (1 Doçeni, 2 Dr. Öğreti
 fi 0
 a.
 Dr. Öğr. Üyesi Ferdi KIRAÇ
-Dr. Öğr. Üyesi. 
+Dr. Öğr. Üyesi.
 (Komisyon Üyesi)
 (Komisyon

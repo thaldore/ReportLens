@@ -2,7 +2,7 @@
 
 po
 is.
-|
+
 jad
 AKRAN DEĞERLENDİRME RAPORU
 [TORK DİLİ VE EDEBİYATI BÖLÜMÜ|
@@ -29,21 +29,21 @@ ve
 Azı
 vermesini
 sağla
-Tlararaılaşmatis ve hedefleri doğrusunayarfaber periyod 
+Tlararaılaşmatis ve hedefleri doğrusunayarfaber periyod
 ve sürekli bileğirmelidir.
 A Liderlikve Kalite
-Kurum, hurumsl dönüşümünü sağlayacak yöncüşim modeline sahip olmalı ider 
+Kurum, hurumsl dönüşümünü sağlayacak yöncüşim modeline sahip olmalı ider
 yalama
 hale güvence mekanizmaların laura
-ve kale görecekart 
+ve kale görecekart
 (AL Liderik
 ve Kali
 T
 OLGUNLUK DÜZ
 AL Yönelim modelive lariyapi
-|
+
 1
-|
+
 2
 ET
 eae
@@ -68,23 +68,23 @@ sistemi ve Kültürünün gelişimi
 lider uygulamaları bulunmaktadır.
 A.I. Liderlik
 ve Kalite
-|
+
 OLGUNLUK DÜZ
 (ALS Kurumsal dönüşüm apassi
 ÇT
-|
-2 | 3
-|
+
+2  3
+
 Kurumda
-değişim yöncümü yaklaşımı Kuruman geneline yayılmış ve 
-yürürülmektedir. © © 0
+değişim yöncümü yaklaşımı Kuruman geneline yayılmış ve
+yürürülmektedir.   0
 ‘Ad. Liderlik ve Kale
 OLGUNLUK DÜZ
 |Add İçkalegürenccsi mekanizmaları
-| 173TEA
-İç Kale güvencesi sistem kurumun geneline yayılmış. şefve 
+ 173TEA
+İç Kale güvencesi sistem kurumun geneline yayılmış. şefve
 yürütülmektedir.
-©
+
 ‘Al. Liderlik
 ve Kale
 T
@@ -92,10 +92,10 @@ OLGUNLUK DÜZ
 TALS. Kamuoyunu bilgilendirme
 ve
 VT
-| 3
-|
+ 3
+
 hesap verebilirlik
-—
+
 1
 1
 Kurumun kamuoyunu bilgilendirme ve hesap verebilirlik mekanizmaları izle
@@ -113,20 +113,20 @@ A22 Strath amaç ve hedefler
 LA
 LA E
 Kurumun bitinsel, tüm birimleri tarafindan benimsenmiş
-ve paydaglarinca 
+ve paydaglarinca
 plan ve bu planıyla uyumlu uygulamaları vardır
 TAE Misyon ve Siratejik Amaçlar
 OLGUNLUK DÜZE
 4.2.3. Performans yönetimi
 7
-‘
+
 2
 3
-|
+
 Kurumun geneline yayılmış performans yonetimi uygulamaları bulunmaktadır
 A. Yönetim Sistemleri
-Kurum, srtjk hedeflerine ulaşmayı ek ve niceli olarak govence alma 
-mali, beer ve bili kaymaklı ie süreçlerini yönetmek üzer bi sisteme sahip 
+Kurum, srtjk hedeflerine ulaşmayı ek ve niceli olarak govence alma
+mali, beer ve bili kaymaklı ie süreçlerini yönetmek üzer bi sisteme sahip
 A3 Yönetim Sistemleri
 T
 OLGUNLUK DÜZ
@@ -137,15 +137,15 @@ T3T
 Kurum genelinde temel süreleri eğitim ve öğretim, araşırma ve gelişirme,
 kalite güvencesi) destekleyen entegre bilgi yönetim sistemi işletilmektedir.
 A3. Yönetim Sistemleri
-|
+
 OLGUNLUK DÜZ
-| ARZ İnsan kaynakları yönetimi _
+ ARZ İnsan kaynakları yönetimi _
 TY]?
 3
-Kurumun genelinde insan kaymakları yöncüm doğrultusuna uygulamar 
+Kurumun genelinde insan kaymakları yöncüm doğrultusuna uygulamar
 uygun bir biçimde yürütülmektedir.
 A3 Yönetim Sistemleri
-©
+
 7
 OLGUNLUK DÜZ
 A.3.3. Finansal yönetim
@@ -154,8 +154,8 @@ A.3.3. Finansal yönetim
 l
 Kurumun genelinde finansal kaynakların yonetime ilişkin uygulamalar tanıml
 içimde yürütülmektedir
-| A3. Yönetim Sistemleri
-|
+ A3. Yönetim Sistemleri
+
 OLGUNLUK DÜZ
 [ASA
 Süreç onetime
@@ -191,8 +191,8 @@ TT?
 zun
 ilişkileri
 yönet
-[
-[
+
+
 Mezan
 leme
 Sistemi
@@ -207,7 +207,7 @@ ve
 hedefleri
 doğrultusunda.
 süreçle
-organizasyonel | yapılanmasını oluşturmalı
+organizasyonel  yapılanmasını oluşturmalı
 ve. sonuçlarımı periyodik o
 değerlendirmeliir
 AS. Uluslararasılaşma
@@ -218,8 +218,8 @@ A.S Uluslararasılaşma süreçlerinin
 mala
 ER
 yönetimi
-|
-Uluslararsılaşma > süreçlerinin.
+
+Uluslararsılaşma  süreçlerinin.
 yöncüsel
 ve organizasyonel yapılanması
 iyileştiilmektedir
@@ -229,14 +229,14 @@ or
 A52, Umsararasiigymabaynation
 =|
 F
-|
-2? | 3 |
+
+2?  3 
 Kurumda uluslararasilagma kaynaklarının dağılımı izlenmekteve iyleştirilmekt
 TAS Ulaslararanılaşma
 OLGUNLUK DÜZ
 ‘A.S.3. Uluslararasılaşma performansı
 7
-| 2 |3J
+ 2 |3J
 Kurumda uluslararasılaşma faaliyeileri izlenmekte ve iyiestirlmektedir.
 B. EĞİTİM VE ÖĞRETİM
 
@@ -272,7 +272,7 @@ Değerlendirilmesi ve Güncellenmesi
 Öğrenci
 üküme dayalı der tasarımı
 1
-| 2? | 3 | 
+ 2?  3 
 Programlarda öğrenci iş yükü izlenmekte ve buna göre ders tasarımı gincellenme
 B.A.
 Programların
@@ -281,9 +281,9 @@ OLGUNLUK DÜZ
 Değerlendirilmes ve Güncellenmesi
 BIS
 Programların izlewmesi
-ve |
+ve 
 7
-| 2
+ 2
 3
 Programların
 genelinde
@@ -331,7 +331,7 @@ yetkinlik temeli öğretim, ölme ve değerlendirme yöntemlerini uygulamalıdı
 ## Sayfa 6
 
 B2 —Programların
-Yürütülmesi |
+Yürütülmesi 
 7
 Öğrenci Merkezi Öğrenme, Öğretme
 OLGUNLUK DÜZ
@@ -349,13 +349,13 @@ Biçme
 ve
 uygulamaları bulunmaktadır.
 TEEraaramların
-— Yürümesi|
-—
+ Yürümesi|
+
 Öğrenci Merkezli Öğrenme, Öğretme
 OLGUNLUK DÜZ
 veDeferlendirme)
 -_
-|
+
 İTE Öğrendi ebeliği İİ İT
 tanınması ve kedilendirlmesi
 ||
@@ -379,7 +379,7 @@ vekariyer planlamasına yolk denek hizmetleri sağlamak
 BS. Öğrenme Kaynakları ve Akademik
 rene
 Kayı
-|
+
 OLGUNLUK DÜZ
 Destek Hizmetleri
 İsikömemmenrimai
@@ -394,13 +394,13 @@ BA Öğrenme Kaynaklanve Akademik|
 
 TB ÖğrenmeKaynakları
 ve Akademik
-|
+
 Wi
 DE
 a
-]
+
 OLGUNLUK DÜZE
-| Destek Hizmetleri
+ Destek Hizmetleri
 İri Deaasantajvgropar ETE TETA
 Dezavantaj gruplann eğitimolanaklarına erişimine ilişkin uygulamalar Yürürül
 (53Öğrenme Kaynakları
@@ -408,12 +408,12 @@ ve Akademik
 N
 ee
 OLGUNLUK DÜZ
-| Destek Hizmetleri
-[BSS Sonyal, Kültürel,sport faaliyetler |
-7 | 2
-|
+ Destek Hizmetleri
+[BSS Sonyal, Kültürel,sport faaliyetler 
+7  2
+
 3
-|
+
 Sosyal, Kültüre vesporüf Taliyet mekanizmaları izlenmekte. inüyaçlarlalepler
 faaliyetle çeşilendirilmekte ve İyleştrlmektedir
 B.4. Öğretim Kadrosu
@@ -431,7 +431,7 @@ ime
 ve
 T
 ane
-,
+
 2
 3
 görevlendirme kritrteri
@@ -442,9 +442,9 @@ T
 ‘OLGUNLUK DÜZ
 BAZ Opretimyetkinitterive
 gelişimi
-|
+
 7 |3| 3
-| 
+
 Kurumun genelinde retin elemanlarının öğretim yetRinlifinipligiemek üze
 vardır
 (BA. Öğretim Kadro
@@ -455,15 +455,15 @@ Eğim faaliyelerine
 şönclk
 eşik|
 TT
-|
+
 nema
 aan
 1
 2
-|
+
 3
 ve ödüllendirme
-|
+
 
 ---
 
@@ -479,9 +479,9 @@ CAA, Araştırma süreçlerinin yönetimi
 3,
 Kurumun genelinde araştırma Sürelerin yöncüümi ve organizasyonel yapısı kuru
 Yönünde uy gulanmaktadır
-| CA. Aragtirma Süreçlerinin Yönetimi
+ CA. Aragtirma Süreçlerinin Yönetimi
 —oreuniukpoze
-| ve Araştırma Kaşmakları
+ ve Araştırma Kaşmakları
 m
 C12 İç vedy kaynaklar
 TT?
@@ -508,7 +508,7 @@ Destekler
 [cas Araştırma yelkeni ve işimi
 |?
 |?
-| 3 |
+ 3 
 Kurumda, öğretim elemanlarının aragirma yeikinlginin geliştirmesine yön
 üzlenmekie ve
 izlem
@@ -526,7 +526,7 @@ se
 alarm e
 ET
 peogramlar
-ve orak ram Bimer |
+ve orak ram Bimer 
 Kurumun.
 genelde;
 ulunl
@@ -536,7 +536,7 @@ dizeyde rü
 programlar ve
 faaliyetler yürütülmektedir
 G3. Araştırma Performansı
-| G3. Araştırma Performanst
+ G3. Araştırma Performanst
 OLGUNLUK DÜZ
 VEE Araştırma performansının lenmesive
 T
@@ -557,25 +557,25 @@ paydaglarla
 
 pa. Toplumsal Kathy Süreçlerinin Yönetimi ve Toplumsal Katkı aymakl
 Dü Taplam Kal
-Sürelerinin |
+Sürelerinin 
 Yönetimi
 ve o Toplumsal
-© Katkı
+ Katkı
 OLGUNLUK DÜZE
-(Kaynakları ©
-©
+(Kaynakları 
+
 Dk Toplama
 ttssirectrinnynetni
-|? | 2? | 3 | 
-Kurun genelinde toplumsal Kı sürelerinin Yöncü Ve organizayonel 
+|?  2?  3 
+Kurun genelinde toplumsal Kı sürelerinin Yöncü Ve organizayonel
 tercihler yönünde uyyulanmaktdır
 DE
 Toplama
 KakSüreçlerinin|
-Yönetimi © ve
-Toplumsal | Katkı
+Yönetimi  ve
+Toplumsal  Katkı
 OLGUNLUK DÜZ
-Kaynakları ©
+Kaynakları 
 Ni
 D.1.2. Kaynaklar.
 Uy
