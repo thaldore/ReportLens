@@ -325,20 +325,25 @@ with tabs[5]:
                            help="Tutarsız: Kasıtlı yanlış veriler içerir | Tutarlı: Rapor ile örtüşen veriler | Karmaşık: Karışık")
             
             if st.button("📋 Örnek Veri Üret"):
-                if target_file:
-                    with st.spinner("Örnek veri üretiliyor (anket tablosu + metin beyanları)..."):
+                if target_file and target_file != "Tümü":
+                    with st.spinner("Örnek veri üretiliyor..."):
                         mock_data = brain.generate_mock_data(target_file, mode)
-                        # Anket ve metin bölümlerini ayırmaya çalış
-                        if "BOLUM 2" in mock_data or "BÖLÜM 2" in mock_data:
-                            parts = mock_data.split("BOLUM 2") if "BOLUM 2" in mock_data else mock_data.split("BÖLÜM 2")
-                            st.session_state["survey_text"] = parts[0].strip()
-                            st.session_state["comparison_text"] = ("BÖLÜM 2" + parts[1]).strip() if len(parts) > 1 else ""
+                        
+                        # Regex ile BOLUM 1 ve BOLUM 2 ayrımı (Türkçe karakter ve başlık seviyesi bağımsız)
+                        import re
+                        parts = re.split(r'#{1,3}\s*B[OÖ]L[UÜ]M\s*2.*', mock_data, flags=re.IGNORECASE | re.DOTALL)
+                        
+                        if len(parts) > 1:
+                            # Bölüm 1 temizle (Bölüm 1 başlığını kaldır)
+                            b1_clean = re.sub(r'^#{1,3}\s*B[OÖ]L[UÜ]M\s*1.*', '', parts[0], flags=re.IGNORECASE).strip()
+                            st.session_state["survey_text"] = b1_clean
+                            st.session_state["comparison_text"] = parts[1].strip()
                         else:
                             st.session_state["comparison_text"] = mock_data
                             st.session_state["survey_text"] = ""
                         st.rerun()
                 else:
-                    st.warning("Lütfen veri üretmek için önce bir rapor seçin.")
+                    st.warning("Lütfen veri üretmek için önce bir rapor seçin (Tümü seçeneği ile veri üretilemez).")
 
         with col2:
             st.subheader("📊 Anket Verileri")

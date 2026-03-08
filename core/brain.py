@@ -205,69 +205,46 @@ class QualityBrain:
         Multi-step LLM: Her kriter ayrı çağrı + birleştirme.
         """
         birim_full = self._get_birim_full_name(birim)
-        criteria = [
-            ("Liderlik ve Yonetim", "Misyon vizyon stratejik plan karar alma yonetim sistemi kalite guvence paydas katilimi"),
-            ("Egitim ve Ogretim", "Program mufredat ogrenci sayisi AKTS ders ogrenci merkezli ogretim olcme degerlendirme sinav memnuniyet anketi"),
-            ("Arastirma ve Gelistirme", "Arastirma AR-GE yayin proje TUBITAK BAP uluslararasi performans YOKSIS AKAPEDiA"),
-            ("Toplumsal Katki", "Toplumsal katki staj sanayi isbirligi etkinlik seminer sosyal sorumluluk dis paydas"),
-            ("Ogrenci Memnuniyeti", "Ogrenci memnuniyeti anket geri bildirim degerlendirme sonuc puan"),
-            ("Kalite Guvence", "Kalite guvence PUKO dongusu iyilestirme ic denetim dis degerlendirme akreditasyon"),
-        ]
-
-        analyses = []
-        for criterion_name, search_terms in criteria:
-            search_query = f"{birim} {search_terms}"
-            context = self.vector_store.search(search_query, birim=birim, yil=yil, k=12)
-
-            if not context.strip() or not self._is_valid_context(context):
-                analyses.append(f"### {criterion_name}\n\nBu kriter icin veritabaninda veri bulunamadi.")
-                continue
-
-            analysis_prompt = (
-                f"BIRIM: {birim_full} ({birim})\n\n"
-                f"Baglam Verileri:\n{context}\n\n"
-                f"GOREV: '{birim_full}' birimi icin '{criterion_name}' kriterini degerlendir.\n"
-                f"ONCE baglamdaki somut verileri listele (sayilar, tarihler, isimler).\n"
-                f"SONRA bu verilerle 2-3 paragraf yaz.\n\n"
-                f"CIKTI YAPISI:\n"
-                f"1. Mevcut Durum (en az 3 somut veri noktasi ile — ornegin: ogrenci sayisi, proje sayisi)\n"
-                f"2. Guclu Yonler (kanit ile)\n"
-                f"3. Gelisim Alanlari (kanit ile)\n"
-                f"4. Sayisal Veriler (varsa tablo formatinda)\n\n"
-                f"KURALLAR:\n"
-                f"- Baglamda olmayan bilgi EKLEME. Sayi uydurmak YASAK.\n"
-                f"- Veri yoksa 'Bu konuda yeterli veri bulunamamistir' de.\n"
-                f"- En az 5 somut veri noktasi icermeli."
-            )
-
-            result = self.analyzer.run(analysis_prompt)
-            analyses.append(f"### {criterion_name}\n\n{result.content}")
-            logger.info(f"  Kriter analizi tamamlandı: {criterion_name}")
-
-        # Tüm analizleri birleştirip rapor yaz
-        combined = "\n\n---\n\n".join(analyses)
         
-        yil_str = f" {yil}" if yil else ""
-        report_prompt = (
-            f"Asagidaki 6 kriter analizini kullanarak {birim_full} ({birim}) birimi icin{yil_str} "
-            f"kapsamli bir Oz Degerlendirme Raporu yaz.\n\n"
-            f"KRITER ANALIZLERI:\n{combined}\n\n"
-            "IMPORTANT RULES:\n"
-            "1. Each section MUST have at least 2-3 paragraphs with concrete data points.\n"
-            "2. Transfer specific numbers, dates, and names from the analyses.\n"
-            "3. Do NOT fabricate information not in the analyses.\n"
-            "4. Write in YOKAK 7-section format.\n"
-            "5. Do NOT give advice — report the current state only.\n"
-            "6. Each section must contain at least 5 concrete data points.\n"
-            "7. Do NOT repeat the same paragraph in multiple sections.\n"
-            f"8. BIRIM ADI: {birim_full} — use this exact name, do NOT invent other names."
-        )
+        criteria_analyses = []
+        for criterion_id, info in Config.RUBRIC_CRITERIA.items():
+            logger.info(f"  ⏳ Kriter analiz ediliyor: {criterion_id}")
+            context = self.vector_store.search(
+                f"{info['title']} {info['desc']}", 
+                birim=birim, 
+                yil=yil, 
+                k=Config.MAX_CONTEXT_CHUNKS
+            )
+            
+            prompt = (
+                f"Birim: {birim_full} ({birim})\nYıl: {yil if yil else 'Tümü'}\n"
+                f"Kalite Kriteri: {info['title']}\n"
+                f"Açıklama: {info['desc']}\n\n"
+                f"Veri Bağlamı:\n{context}\n\n"
+                "GÖREV: Bu kriter için Güçlü Yanlar ve Gelişim Alanlarını somut verilerle analiz et."
+            )
+            response = self.analyzer.run(prompt)
+            # Uzun analizleri özetleyerek sentez ajanına gönder (Context overflow önlemi)
+            criteria_analyses.append(f"### {info['title']}\n{response.content[:2000]}")
 
-        report = self.report_writer.run(report_prompt)
-        # Post-processing: tekrar kaldırma + halüsinasyon uyarısı + birim düzeltme
-        result = OutputValidator.remove_repetitions(report.content)
-        result = OutputValidator.fix_birim_names(result, birim)
-        result = OutputValidator.add_hallucination_warnings(result, combined)
+        # 2. Sentez Raporu Oluştur (Report Writer)
+        logger.info(f"  📝 {birim} için rapor sentezleniyor...")
+        full_context = "\n\n".join(criteria_analyses)
+        
+        report_prompt = (
+            f"Birim: {birim_full} ({birim})\nYıl: {yil if yil else 'Tümü'}\n\n"
+            f"KRİTER ANALİZLERİ:\n{full_context}\n\n"
+            "GÖREV: Yukarıdaki analizleri kullanarak resmi YÖKAK formatında bir Öz Değerlendirme Raporu oluştur."
+        )
+        response = self.report_writer.run(report_prompt)
+        
+        # 3. Doğrulama ve Temizlik
+        result = OutputValidator.validate_full_output(
+            response.content, 
+            full_context,
+            expected_sections=["Yonetici Ozeti", "Liderlik", "Egitim", "Arastirma", "Toplumsal Katki", "Guclu Yonler", "Sonuc"],
+            expected_birim=birim,
+        )
         return result
 
     # ── Belirli Rapor Analizi ──────────────────────────────────────────
@@ -512,13 +489,7 @@ class QualityBrain:
                     f"Unit: {birim_full} ({birim})\n"
                     f"Criterion: {criterion_name} — {criterion_desc}\n\n"
                     f"CONTEXT (Text from this file ONLY):\n{context}\n\n"
-                    "TASK: Score this criterion 1-5 based on the context above.\n"
-                    "Write ONLY these 4 lines:\n"
-                    "Puan: [1-5 INTEGER]/5\n"
-                    "Gerekce: [why this score]\n"
-                    "Kanit: '[exact quote from context]'\n"
-                    "Gelisim Onerisi: [concrete step]\n\n"
-                    "REMEMBER: Most scores should be 2-3. Give 4-5 ONLY with concrete PDCA evidence."
+                    "GÖREV: Yukarıdaki bağlama göre bu kriteri puanla."
                 )
                 eval_response = self.rubric_evaluator.run(eval_prompt)
                 eval_content = eval_response.content
@@ -527,7 +498,7 @@ class QualityBrain:
                 puan_str = f"{eval_score['score']}/5" if eval_score['valid'] else "Değerlendirilemedi"
 
                 # Kanıt doğrulama
-                kanit_match = re.search(r"Kanit:\s*['\"](.+?)['\"]" , eval_content)
+                kanit_match = re.search(r"Kanıt:\s*['\"](.+?)['\"]" , eval_content)
                 evidence_note = ""
                 if kanit_match:
                     evidence_text = kanit_match.group(1)
@@ -541,14 +512,8 @@ class QualityBrain:
                     f"Unit: {birim_full} ({birim})\n"
                     f"Criterion: {criterion_name} — {criterion_desc}\n\n"
                     f"CONTEXT (Original Report Text):\n{context}\n\n"
-                    "STEP 1: Score this criterion INDEPENDENTLY (1-5) using only the context.\n"
-                    "STEP 2: The other evaluator's assessment is below. Compare your score with theirs.\n\n"
-                    f"OTHER EVALUATOR'S ASSESSMENT:\n{eval_content}\n\n"
-                    "Write ONLY these 4 lines in Turkish:\n"
-                    "Bagimsiz Puan: [1-5]/5\n"
-                    "Karar: ONAYLANDI veya HATALI BULUNDU\n"
-                    "Gozlem: [max 3 sentences]\n"
-                    "Sonuc: Puan [X]/5 olmalidir — [brief reason]"
+                    f"DİĞER ANALİSTİN DEĞERLENDİRMESİ:\n{eval_content}\n\n"
+                    "GÖREV: Bağımsız olarak puanla ve diğer analistle karşılaştır."
                 )
                 val_response = self.rubric_validator.run(val_prompt)
                 val_content = val_response.content

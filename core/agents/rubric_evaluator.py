@@ -35,7 +35,7 @@ def create_rubric_evaluator(model) -> Agent:
             "Do NOT give 4 or 5 just because intentions or plans are mentioned.",
             "When in doubt between two scores, choose the LOWER score.",
             "",
-            "### MANDATORY OUTPUT FORMAT (Write exactly these 4 lines, nothing more):",
+            "### MANDATORY OUTPUT FORMAT (Write exactly these 4 lines in Turkish):",
             "Puan: [INTEGER 1-5]/5",
             "Gerekce: [Why this score — reference the scoring key definition]",
             "Kanit: '[EXACT quote from the context in quotation marks]' (Kaynak: dosya_adi)",

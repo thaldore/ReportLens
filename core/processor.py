@@ -28,19 +28,28 @@ class ReportProcessor:
     # ── PDF İşleme ────────────────────────────────────────────────────
 
     def process_pdf(self, file_path: Path, output_path: Path):
-        """PDF dosyasını Markdown'a çevirir. Görsel tabanlı PDF'ler için otomatik OCR kullanır."""
+        """PDF dosyasını Markdown'a çevirir. Gelişmiş tablo/liste desteği ve OCR temizliği içerir."""
         md_text = ""
         try:
-            md_text = pymupdf4llm.to_markdown(str(file_path))
+            # pymupdf4llm'in en güncel Markdown dönüşümünü kullan - tablo ve resim desteğiyle
+            md_text = pymupdf4llm.to_markdown(
+                str(file_path),
+                write_images=False, # Şimdilik görsel kaydetmeyi kapatıyoruz (disk performansı için)
+                page_chunks=False
+            )
+            
+            # OCR gürültüsünü ve gereksiz boşlukları temizle
+            md_text = self._clean_ocr_text(md_text)
+            
         except Exception as e:
             logger.warning(f"pymupdf4llm hatası ({file_path.name}): {e}")
 
         # Çıktı çok kısaysa (taranmış/görsel tabanlı PDF) OCR ile yeniden dene
-        if len(md_text.strip()) < 200:
+        if len(md_text.strip()) < 300: # Eşik değerini biraz artırdık
             logger.info(f"  🔍 OCR modu deneniyor: {file_path.name} (metin uzunluğu: {len(md_text.strip())})")
             ocr_text = self._pdf_ocr_fallback(file_path)
             if len(ocr_text.strip()) > len(md_text.strip()):
-                md_text = ocr_text
+                md_text = self._clean_ocr_text(ocr_text)
                 logger.info(f"  ✅ OCR başarılı: {file_path.name} ({len(md_text)} karakter)")
             else:
                 logger.warning(f"  ⚠️ OCR çıktısı da yetersiz: {file_path.name}")
@@ -51,19 +60,18 @@ class ReportProcessor:
     def _pdf_ocr_fallback(self, file_path: Path) -> str:
         """Görsel tabanlı PDF sayfaları için PyMuPDF + Tesseract OCR kullanarak metin çıkarır."""
         try:
-            import fitz  # PyMuPDF (pymupdf4llm ile birlikte gelir)
+            import fitz  # PyMuPDF
             doc = fitz.open(str(file_path))
             md_parts = []
 
             for page_num in range(len(doc)):
                 page = doc[page_num]
-
-                # Önce normal metin çıkarmayı dene
+                # OCR öncesi sayfa metnini kontrol et
                 text = page.get_text("text").strip()
 
-                if len(text) < 50:
-                    # Görüntü tabanlı sayfa — Tesseract OCR uygula
+                if len(text) < 100:
                     try:
+                        # Tesseract tur+eng desteğiyle sayfa bazlı OCR
                         tp = page.get_textpage_ocr(flags=0, full=True, language="tur+eng")
                         text = page.get_text(textpage=tp).strip()
                     except Exception as ocr_err:
@@ -78,6 +86,27 @@ class ReportProcessor:
         except Exception as e:
             logger.error(f"OCR fallback genel hata ({file_path.name}): {e}")
             return ""
+
+    def _clean_ocr_text(self, text: str) -> str:
+        """OCR gürültüsünü ve yapısal bozuklukları temizler."""
+        import re
+        if not text:
+            return ""
+
+        # 1. Ardışık boş satırları 2'ye indir
+        text = re.sub(r'\n{3,}', '\n\n', text)
+
+        # 2. Satır sonu gereksiz boşlukları sil
+        text = re.sub(r'[ \t]+\n', '\n', text)
+
+        # 3. OCR yırtıklarını temizle (tekil anlamsız karakterler)
+        # Sadece harf veya rakam olmayan, boşluklar arasındaki tekil karakterleri temizle
+        text = re.sub(r'(?<=\s)[^\w\s](?=\s)', '', text)
+
+        # 4. Sayfa altı/üstü tekrarlayan kalıpları (optional - şimdilik sadece boşluk)
+        text = text.strip()
+
+        return text
 
     def check_empty_processed_files(self) -> list:
         """Boş veya çok kısa olan işlenmiş dosyaları tespit eder (yeniden işleme için)."""

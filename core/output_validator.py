@@ -149,53 +149,78 @@ class OutputValidator:
     # ── Tekrar Dedektörü ──────────────────────────────────────────────
 
     @staticmethod
-    def detect_repetitions(output: str, threshold: float = 0.8) -> Dict:
-        """Tekrarlı paragrafları tespit eder (Jaccard benzerliği ile)."""
+    def detect_repetitions(output: str, threshold: float = 0.6) -> Dict:
+        """Tekrarlı bölümleri ve cümleleri tespit eder (Cosine Similarity ile)."""
+        # 1. Paragraf düzeyinde kontrol
         paragraphs = [p.strip() for p in output.split('\n\n') if len(p.strip()) > 50]
-        duplicate_pairs = []
         duplicates_to_remove = set()
-
+        
         for i in range(len(paragraphs)):
             for j in range(i + 1, len(paragraphs)):
-                similarity = OutputValidator._jaccard_similarity(
-                    paragraphs[i], paragraphs[j]
-                )
+                similarity = OutputValidator._cosine_similarity(paragraphs[i], paragraphs[j])
                 if similarity >= threshold:
-                    duplicate_pairs.append((i, j, round(similarity, 2)))
                     duplicates_to_remove.add(j)
 
-        cleaned_paragraphs = [
+        # 2. Cümle düzeyinde ardışık tekrar kontrolü (Örn: OD-7 hatası)
+        # Uzun cümleleri (40+ karakter) kontrol et
+        sentences = re.split(r'(?<=[.!?])\s+', output)
+        cleaned_sentences = []
+        last_sentence_norm = ""
+        
+        for sent in sentences:
+            sent_strip = sent.strip()
+            if len(sent_strip) < 10:
+                cleaned_sentences.append(sent)
+                continue
+                
+            norm = OutputValidator.normalize_turkish(sent_strip).lower()
+            norm = re.sub(r'[^\w\s]', '', norm) # Noktalama temizle
+            
+            # Ardışık tam tekrar veya çok yüksek benzerlik
+            if norm == last_sentence_norm and len(norm) > 30:
+                continue
+            
+            cleaned_sentences.append(sent)
+            last_sentence_norm = norm
+
+        # Paragraf bazlı temizlenmiş hali oluştur
+        final_paragraphs = [
             p for idx, p in enumerate(paragraphs)
             if idx not in duplicates_to_remove
         ]
-
-        if duplicate_pairs:
-            logger.info(f"Tekrar tespit: {len(duplicate_pairs)} tekrarlı paragraf çifti")
+        
+        cleaned_output = '\n\n'.join(final_paragraphs)
+        
+        # Eğer cümle bazlı temizleme bir şey değiştirdiyse onu kullan (daha detaylı)
+        if len(cleaned_sentences) < len(sentences):
+            cleaned_output = ' '.join(cleaned_sentences)
 
         return {
-            "duplicate_pairs": duplicate_pairs,
-            "duplicate_count": len(duplicate_pairs),
-            "cleaned_output": '\n\n'.join(cleaned_paragraphs),
+            "duplicate_count": len(duplicates_to_remove) + (len(sentences) - len(cleaned_sentences)),
+            "cleaned_output": cleaned_output,
         }
 
     @staticmethod
-    def remove_repetitions(output: str, threshold: float = 0.8) -> str:
-        """Tekrarlı paragrafları kaldırır."""
-        result = OutputValidator.detect_repetitions(output, threshold)
-        if result["duplicate_count"] > 0:
-            return result["cleaned_output"]
-        return output
+    def _cosine_similarity(text1: str, text2: str) -> float:
+        """İki metin arasındaki Cosine benzerliğini hesaplar (TF-IDF basitleştirilmiş)."""
+        import math
+        from collections import Counter
+        
+        def get_vectors(t1, t2):
+            v1 = Counter(t1.lower().split())
+            v2 = Counter(t2.lower().split())
+            all_words = set(v1.keys()) | set(v2.keys())
+            return v1, v2, list(all_words)
 
-    @staticmethod
-    def _jaccard_similarity(text1: str, text2: str) -> float:
-        """İki metin arasındaki Jaccard benzerliğini hesaplar."""
-        words1 = set(text1.lower().split())
-        words2 = set(text2.lower().split())
-        if not words1 or not words2:
+        v1, v2, words = get_vectors(text1, text2)
+        
+        dot_product = sum(v1.get(w, 0) * v2.get(w, 0) for w in words)
+        mag1 = math.sqrt(sum(v1.get(w, 0)**2 for w in words))
+        mag2 = math.sqrt(sum(v2.get(w, 0)**2 for w in words))
+        
+        if not mag1 or not mag2:
             return 0.0
-        intersection = words1 & words2
-        union = words1 | words2
-        return len(intersection) / len(union)
+        return dot_product / (mag1 * mag2)
 
     # ── Rubrik Puan Doğrulama ─────────────────────────────────────────
 
