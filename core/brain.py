@@ -4,7 +4,7 @@ Veri toplama, analiz, rapor yazma ve tutarsızlık kontrolü ajanlarını orkest
 Prompt caching (keep_alive), re-ranking ve birim kısaltma doğrulama destekler.
 """
 import os
-# 🔒 Agno telemetrisini kapat — veri gizliliği (os-api.agno.com'a veri gönderimini engelle)
+# Agno telemetrisini kapat — veri gizliliği (os-api.agno.com'a veri gönderimini engelle)
 os.environ["AGNO_TELEMETRY"] = "false"
 
 import re

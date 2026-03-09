@@ -1,0 +1,29 @@
+{
+  "run_id": "20260308_183950",
+  "tarih": "08.03.2026 22:11:32",
+  "toplam_test": 51,
+  "basarili": 51,
+  "hata": 0,
+  "moduller": {
+    "Kalite Analiz Uzmanı": {
+      "test": 10,
+      "hata": 0
+    },
+    "Rapor Analizi": {
+      "test": 15,
+      "hata": 0
+    },
+    "Öz Değerlendirme Raporu": {
+      "test": 8,
+      "hata": 0
+    },
+    "Rubrik Notlandırma": {
+      "test": 8,
+      "hata": 0
+    },
+    "Tutarsızlık Analizi": {
+      "test": 10,
+      "hata": 0
+    }
+  }
+}

@@ -331,16 +331,17 @@ with tabs[5]:
                         
                         # Regex ile BOLUM 1 ve BOLUM 2 ayrımı (Türkçe karakter ve başlık seviyesi bağımsız)
                         import re
-                        parts = re.split(r'#{1,3}\s*B[OÖ]L[UÜ]M\s*2.*', mock_data, flags=re.IGNORECASE | re.DOTALL)
+                        parts = re.split(r'#{1,3}\s*B[OÖ]L[UÜ]M\s*2[^\n]*', mock_data, flags=re.IGNORECASE)
                         
                         if len(parts) > 1:
                             # Bölüm 1 temizle (Bölüm 1 başlığını kaldır)
                             b1_clean = re.sub(r'^#{1,3}\s*B[OÖ]L[UÜ]M\s*1.*', '', parts[0], flags=re.IGNORECASE).strip()
-                            st.session_state["survey_text"] = b1_clean
-                            st.session_state["comparison_text"] = parts[1].strip()
+                            # Widget key'lerine doğrudan yaz (Streamlit widget'lar kendi key'lerinden okur)
+                            st.session_state["survey_input"] = b1_clean
+                            st.session_state["text_input"] = parts[1].strip()
                         else:
-                            st.session_state["comparison_text"] = mock_data
-                            st.session_state["survey_text"] = ""
+                            st.session_state["text_input"] = mock_data
+                            st.session_state["survey_input"] = ""
                         st.rerun()
                 else:
                     st.warning("Lütfen veri üretmek için önce bir rapor seçin (Tümü seçeneği ile veri üretilemez).")
@@ -350,7 +351,6 @@ with tabs[5]:
             st.caption("Anket tablosunu aşağıya yapıştırın veya otomatik üretin.")
             survey_text = st.text_area(
                 "Anket Tablosu",
-                value=st.session_state.get("survey_text", ""),
                 height=180,
                 placeholder="| # | Soru | Puan (1-5) | İşaretleme |\n| 1 | ... | 4 | [X] |\n| 2 | ... | 3 | [X] |",
                 key="survey_input",
@@ -360,7 +360,6 @@ with tabs[5]:
             st.caption("Metin iddialarını aşağıya yapıştırın veya otomatik üretin.")
             comparison_text = st.text_area(
                 "Metin Beyanları",
-                value=st.session_state.get("comparison_text", ""),
                 height=180,
                 placeholder="Birim bünyesinde 5 program bulunmakta olup, toplam 2441 öğrenci kayıtlıdır...\n3 adet TÜBİTAK projesi yürütülmektedir...",
                 key="text_input",

@@ -42,7 +42,7 @@ class Config:
     MIN_CHUNK_CONTENT_LENGTH = int(os.getenv("MIN_CHUNK_CONTENT_LENGTH", "50"))
 
     # Model parametreleri
-    TEMPERATURE = float(os.getenv("TEMPERATURE", "0.1"))
+    TEMPERATURE = float(os.getenv("TEMPERATURE", "0.1")) # "0.1" katsayısı üretkenliği azaltır, tutarlılığı artırır.
     MOCK_TEMPERATURE = float(os.getenv("MOCK_TEMPERATURE", "0.3"))
     NUM_CTX = int(os.getenv("NUM_CTX", "8192")) # 8192, 16384, 32768 şeklinde vram kullanımını artırıyor
 
