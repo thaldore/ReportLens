@@ -26,8 +26,8 @@ class Config:
     # MSSQL Yapılandırması (Vector Search desteği ile)
     MSSQL_HOST = os.getenv("MSSQL_HOST", "localhost")
     MSSQL_DB = os.getenv("MSSQL_DB", "ReportLensDB")
-    MSSQL_USER = os.getenv("MSSQL_USER", "sa")
-    MSSQL_PASS = os.getenv("MSSQL_PASS", "YourStrongPassword123!")
+    MSSQL_USER = os.getenv("MSSQL_USER", "")
+    MSSQL_PASS = os.getenv("MSSQL_PASS", "")
     MSSQL_DRIVER = os.getenv("MSSQL_DRIVER", "{ODBC Driver 18 for SQL Server}")
     MSSQL_TABLE = os.getenv("MSSQL_TABLE", "DocumentVectors")
 
@@ -35,10 +35,10 @@ class Config:
     # Vektör arama yapılandırması
     CHUNK_SIZE = int(os.getenv("CHUNK_SIZE", "1000"))
     CHUNK_OVERLAP = int(os.getenv("CHUNK_OVERLAP", "200"))
-    SEARCH_K = int(os.getenv("SEARCH_K", "8"))
+    SEARCH_K = 15                 # Vektör aramadan dönecek en alakalı chunk sayısı
     
     # Maksimum bağlam limiti (8b model güvenli sınırı)
-    MAX_CONTEXT_CHUNKS = 15  # Daha zengin bağlam için 15 parça (RAG)
+    MAX_CONTEXT_CHUNKS = 15       # Prompt'a girecek maksimum chunk (VRAM dostu)
 
     # Tutarsızlık analizi beyan boyutu limiti (karakter)
     MAX_COMPARISON_TEXT = int(os.getenv("MAX_COMPARISON_TEXT", "5000"))
@@ -48,8 +48,8 @@ class Config:
 
     # Model parametreleri
     TEMPERATURE = float(os.getenv("TEMPERATURE", "0.1")) 
-    MOCK_TEMPERATURE = float(os.getenv("MOCK_TEMPERATURE", "0.3"))
-    NUM_CTX = int(os.getenv("NUM_CTX", "4096")) # RTX 4070 (8GB) için güvenli 4k ctx
+    MOCK_TEMPERATURE = float(os.getenv("MOCK_TEMPERATURE", "0.7"))
+    NUM_CTX = 8192                # Bağlam penceresi (8GB VRAM için 8192 idealdir)
 
     # Prompt caching — modeli bellekte tut (Ollama keep_alive)
     OLLAMA_KEEP_ALIVE = os.getenv("OLLAMA_KEEP_ALIVE", "30m")

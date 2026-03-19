@@ -105,35 +105,18 @@ class OutputValidator:
             if section_normalized in output_normalized:
                 found.append(section)
                 continue
-            
-            # 2. Sayı ve Nokta Temizleme (Örn: "2. TEMEL BULGULAR" -> "temel bulgular")
+            # 2. Numarasız eşleşme
             section_clean = re.sub(r'^\d+\.\s*', '', section_normalized).strip()
             if section_clean in output_normalized:
                 found.append(section)
                 continue
-
-            # 3. Kısmi eşleşme: Eğer beklenen başlık (örn: "BULGULAR") çıktı başlığının içindeyse (örn: "TEMEL BULGULAR")
-            # Veya tam tersi (Çıktıdaki başlık beklenen kısa başlığı içeriyorsa)
-            found_partial = False
-            for line in output_normalized.split('\n'):
-                 # Sadece ## veya ### ile başlayan satırları kontrol et
-                 if line.startswith('##'):
-                     line_clean = re.sub(r'^#+\s*\d*\.?\s*', '', line).strip()
-                     if section_clean in line_clean or line_clean in section_clean:
-                         found.append(section)
-                         found_partial = True
-                         break
-            if found_partial:
-                continue
-
-            # 4. Anahtar kelime eşleşme (%40+ kelime eşleşmesi - daha esnek)
+            # 3. Anahtar kelime eşleşme (başlığın %60+ kelimesi bulunursa)
             words = [w for w in section_clean.split() if len(w) > 2]
             if words:
                 matched = sum(1 for w in words if w in output_normalized)
-                if matched / len(words) >= 0.4:
+                if matched / len(words) >= 0.6:
                     found.append(section)
                     continue
-            
             missing.append(section)
 
         total = len(expected_sections)
@@ -166,8 +149,8 @@ class OutputValidator:
     # ── Tekrar Dedektörü ──────────────────────────────────────────────
 
     @staticmethod
-    def remove_repetitions(output: str, threshold: float = 0.6) -> str:
-        """Tekrarlı bölümleri ve cümleleri tespit eder ve kaldırır (Cosine Similarity ile)."""
+    def detect_repetitions(output: str, threshold: float = 0.6) -> Dict:
+        """Tekrarlı bölümleri ve cümleleri tespit eder (Cosine Similarity ile)."""
         # 1. Paragraf düzeyinde kontrol
         paragraphs = [p.strip() for p in output.split('\n\n') if len(p.strip()) > 50]
         duplicates_to_remove = set()
@@ -212,7 +195,10 @@ class OutputValidator:
         if len(cleaned_sentences) < len(sentences):
             cleaned_output = ' '.join(cleaned_sentences)
 
-        return cleaned_output
+        return {
+            "duplicate_count": len(duplicates_to_remove) + (len(sentences) - len(cleaned_sentences)),
+            "cleaned_output": cleaned_output,
+        }
 
     @staticmethod
     def _cosine_similarity(text1: str, text2: str) -> float:
@@ -239,39 +225,34 @@ class OutputValidator:
     # ── Rubrik Puan Doğrulama ─────────────────────────────────────────
 
     @staticmethod
-    def validate_rubric_score(text: str) -> Dict:
-        """Metin içerisinden [PUAN: X] veya [DENETİM_PUANI: X] formatındaki puanı ayıklar.
-        Puanı mutlaka 1-5 tam sayı aralığına zorlar (Altın Standart).
-        """
-        try:
-            # 1. Öncelikli Marker: [PUAN: X] veya [DENETIM_PUANI: X]
-            marker_match = re.search(r'\[(?:PUAN|DENET[İI]M[_\s]PUANI):\s*(\d+(?:[.,]\d+)?)\]', text, re.IGNORECASE)
-            if marker_match:
-                score_raw = float(marker_match.group(1).replace(',', '.'))
-                score = max(1, min(5, round(score_raw)))
-                return {"valid": True, "score": int(score)}
-            
-            # 2. Alternatif: "Puan: X/5" veya "Puan: X"
-            score_match = re.search(r'(?:Puan|Skor|Not):\s*(\d+(?:[.,]\d+)?)', text, re.IGNORECASE)
-            if score_match:
-                score_raw = float(score_match.group(1).replace(',', '.'))
-                score = max(1, min(5, round(score_raw)))
-                return {"valid": True, "score": int(score)}
-            
-            return {"valid": False, "score": 0}
-        except Exception:
-            return {"valid": False, "score": 0}
+    def validate_rubric_score(output: str) -> Dict:
+        """Rubrik puanının doğru formatta olup olmadığını kontrol eder."""
+        puan_patterns = [
+            r'[Pp]uan\s*[:\-]?\s*(\d)\s*/\s*5',
+            r'[Pp]uan\s*[:\-]?\s*(\d)\b',
+            r'\b(\d)\s*/\s*5\b',
+        ]
+
+        for pattern in puan_patterns:
+            match = re.search(pattern, output)
+            if match:
+                val = int(match.group(1))
+                if 1 <= val <= 5:
+                    return {
+                        "score": val,
+                        "valid": True,
+                        "raw_match": match.group(0),
+                    }
+
+        return {"score": None, "valid": False, "raw_match": ""}
 
     @staticmethod
-    def enforce_rubric_score(result_text: str, criterion_name: str) -> str:
-        """Eğer puan bulunamazsa, belirgin bir uyarı mesajı döner."""
-        val = OutputValidator.validate_rubric_score(result_text)
-        if not val["valid"]:
-            logger.warning(f"Kriter için puan bulunamadı: {criterion_name}")
-            if len(result_text) > 100:
-                 return f"⚠️ **Format Notu:** Puanlama standart [PUAN: X] formatında bulunamadı.\n\n{result_text}"
-            return f"### 📏 {criterion_name}\n\nDeğerlendirilemedi (Geçerli puan bulunamadı)."
-        return result_text
+    def enforce_rubric_score(output: str) -> str:
+        """Puan bulunamazsa 'Değerlendirilemedi' mesajı ekler."""
+        result = OutputValidator.validate_rubric_score(output)
+        if not result["valid"]:
+            return output + "\n\n⚠️ **Puan parse edilemedi.** Bu kriter için değerlendirme tamamlanamadı."
+        return output
 
     # ── Kanıt Doğrulama (N-gram Matching) ─────────────────────────────
 

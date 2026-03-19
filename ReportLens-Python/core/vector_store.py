@@ -28,19 +28,32 @@ class VectorStore:
             model=Config.EMBEDDING_MODEL,
             base_url=Config.OLLAMA_BASE_URL,
         )
-        self.conn_str = (
-            f"DRIVER={Config.MSSQL_DRIVER};"
-            f"SERVER={Config.MSSQL_HOST};"
-            f"DATABASE={Config.MSSQL_DB};"
-            f"UID={Config.MSSQL_USER};"
-            f"PWD={Config.MSSQL_PASS};"
-            "TrustServerCertificate=yes;"
-        )
+        # Bağlantı dizesini oluştur (Windows Auth desteği ile)
+        if Config.MSSQL_USER and Config.MSSQL_PASS:
+            self.conn_str = (
+                f"DRIVER={Config.MSSQL_DRIVER};"
+                f"SERVER={Config.MSSQL_HOST};"
+                f"DATABASE={Config.MSSQL_DB};"
+                f"UID={Config.MSSQL_USER};"
+                f"PWD={Config.MSSQL_PASS};"
+                "TrustServerCertificate=yes;"
+            )
+        else:
+            self.conn_str = (
+                f"DRIVER={Config.MSSQL_DRIVER};"
+                f"SERVER={Config.MSSQL_HOST};"
+                f"DATABASE={Config.MSSQL_DB};"
+                "Trusted_Connection=yes;"
+                "TrustServerCertificate=yes;"
+            )
+        
         self.table_name = Config.MSSQL_TABLE
         self._ensure_table()
-        # Bellek içi vektör önbelleği (Fallback performansı için)
-        self._vector_cache = None # List[Dict] -> [{id: ..., vector: ...}]
-        self._cache_timestamp = 0
+        # Bellek içi vektör önbelleği (Yüksek performans için)
+        self._vector_ids = []    # List[str]
+        self._vector_matrix = None # np.ndarray (N, dim)
+        self._metadata_cache = [] # List[dict]
+        self._cache_loaded = False
 
     def _get_connection(self):
         return pyodbc.connect(self.conn_str)
@@ -48,14 +61,23 @@ class VectorStore:
     def _ensure_table(self):
         """Veritabanı ve vektör tablosunun var olduğundan emin olur, yoksa oluşturur."""
         # 1. Önce master veritabanına bağlanıp DB kontrolü yapalım
-        master_conn_str = (
-            f"DRIVER={Config.MSSQL_DRIVER};"
-            f"SERVER={Config.MSSQL_HOST};"
-            f"DATABASE=master;"
-            f"UID={Config.MSSQL_USER};"
-            f"PWD={Config.MSSQL_PASS};"
-            "TrustServerCertificate=yes;"
-        )
+        if Config.MSSQL_USER and Config.MSSQL_PASS:
+            master_conn_str = (
+                f"DRIVER={Config.MSSQL_DRIVER};"
+                f"SERVER={Config.MSSQL_HOST};"
+                f"DATABASE=master;"
+                f"UID={Config.MSSQL_USER};"
+                f"PWD={Config.MSSQL_PASS};"
+                "TrustServerCertificate=yes;"
+            )
+        else:
+            master_conn_str = (
+                f"DRIVER={Config.MSSQL_DRIVER};"
+                f"SERVER={Config.MSSQL_HOST};"
+                f"DATABASE=master;"
+                "Trusted_Connection=yes;"
+                "TrustServerCertificate=yes;"
+            )
         try:
             with pyodbc.connect(master_conn_str, autocommit=True) as conn:
                 cursor = conn.cursor()
@@ -324,60 +346,83 @@ class VectorStore:
             return "\n\n---\n\n".join(context_parts) if context_parts else "İlgili veri bulunamadı."
 
         except Exception as e:
-            # 2. Aşama: Fallback - Python tarafında benzerlik hesaplama
+            # 2. Aşama: Fallback - Yüksek Performanslı Python taraflı matris araması (V5)
             if "[42000]" in str(e) or "VECTOR_DISTANCE" in str(e):
-                logger.info("  ⚠️ SQL VECTOR_DISTANCE hatası, optimize edilmiş Python-side ranking'e geçiliyor...")
-                # --- AKILLI ÖNBELLEKLEME VE HIBRID ARAMA (MS-V2) ---
                 try:
+                    import numpy as np
                     # 1. Önbelleği kontrol et veya yükle (Tüm tabloyu bir kez RAM'e alır)
-                    if self._vector_cache is None:
-                        logger.info("  📥 Vektör tablosu RAM'e yükleniyor (hızlı fallback için)...")
+                    if not self._cache_loaded:
+                        logger.info("  📥 Vektör tablosu numpy matrisine yükleniyor...")
                         with self._get_connection() as conn:
                             cursor = conn.cursor()
                             cursor.execute(f"SELECT Id, Vector, Birim, Yil, FileName FROM [{self.table_name}]")
-                            self._vector_cache = cursor.fetchall()
-                            self._cache_timestamp = time.time()
+                            rows = cursor.fetchall()
+                            
+                            vectors = []
+                            self._metadata_cache = []
+                            self._vector_ids = []
+                            for row in rows:
+                                rid, v_blob, b, y, f = row
+                                v_len = len(v_blob) // 4
+                                v = struct.unpack(f'{v_len}f', v_blob)
+                                vectors.append(v)
+                                self._metadata_cache.append({"birim": b, "yil": y, "filename": f, "id": rid})
+                                self._vector_ids.append(rid)
+                            
+                            if vectors:
+                                self._vector_matrix = np.array(vectors, dtype=np.float32)
+                                # L2 Normalizasyonu (Cosine Similarity için dot product yeterli olsun diye)
+                                norms = np.linalg.norm(self._vector_matrix, axis=1, keepdims=True)
+                                self._vector_matrix = self._vector_matrix / (norms + 1e-10)
+                                self._cache_loaded = True
+                                logger.info(f"  ✅ {len(vectors)} vektör RAM'e yüklendi.")
+
+                    if not self._cache_loaded:
+                         return "İlgili veri bulunamadı (Önbellek boş)."
+
+                    # 2. RAM üzerinde filtre Uygula
+                    q_vec = np.array(query_vector, dtype=np.float32)
+                    q_vec = q_vec / (np.linalg.norm(q_vec) + 1e-10)
                     
-                    # 2. RAM üzerinde filtrele (Birim, Yıl, Dosya)
-                    import numpy as np
-                    q_vec = np.array(query_vector)
-                    candidates = []
+                    # Filtre maskesi oluştur
+                    mask = np.ones(len(self._metadata_cache), dtype=bool)
+                    for i, meta in enumerate(self._metadata_cache):
+                        if filename and meta["filename"] != filename: mask[i] = False
+                        if birim and meta["birim"] != birim: mask[i] = False
+                        if yil and meta["yil"] != yil: mask[i] = False
                     
-                    # Vektörleri unpack et ve benzerlik hesapla
-                    for row_id, v_blob, b_name, y_name, f_name in self._vector_cache:
-                        # Filtreleri uygula
-                        if filename and f_name != filename: continue
-                        if birim and b_name != birim: continue
-                        if yil and y_name != yil: continue
-                        
-                        v_len = len(v_blob) // 4
-                        v = np.array(struct.unpack(f'{v_len}f', v_blob))
-                        sim = np.dot(q_vec, v) / (np.linalg.norm(q_vec) * np.linalg.norm(v))
-                        candidates.append((sim, row_id))
+                    if not np.any(mask):
+                        return "İlgili veri bulunamadı (Filtre sonucu boş)."
                     
-                    if not candidates:
-                        return "İlgili veri bulunamadı."
+                    # Benzerlik hesapla (Sadece maskelenmiş olanlar için)
+                    masked_vectors = self._vector_matrix[mask]
+                    masked_indices = np.where(mask)[0]
                     
-                    # 3. Sırala ve Top-K ID'leri belirle
-                    candidates.sort(key=lambda x: x[0], reverse=True)
-                    top_k_ids = [c[1] for c in candidates[:k]]
-                    top_k_scores = {c[1]: c[0] for c in candidates[:k]}
+                    # Dot product (Vektörler normalize edildiği için cosine similarity'ye eşittir)
+                    similarities = np.dot(masked_vectors, q_vec)
                     
+                    # En yüksek k sonucu bul
+                    top_indices_local = np.argsort(similarities)[::-1][:k]
+                    top_indices_global = [masked_indices[i] for i in top_indices_local]
+                    
+                    results_ids = [self._vector_ids[i] for i in top_indices_global]
+                    top_scores = {self._vector_ids[masked_indices[i]]: float(similarities[i]) for i in top_indices_local}
+
                     # 4. Sadece en alakalı metinleri DB'den çek (IO tasarrufu)
-                    id_placeholders = ",".join(["?"] * len(top_k_ids))
+                    id_placeholders = ",".join(["?"] * len(results_ids))
                     sql_details = f"SELECT Content, FileName, Birim, Yil, Id FROM [{self.table_name}] WHERE Id IN ({id_placeholders})"
                     
                     with self._get_connection() as conn:
                         cursor = conn.cursor()
-                        cursor.execute(sql_details, top_k_ids)
+                        cursor.execute(sql_details, results_ids)
                         detail_rows = cursor.fetchall()
                     
                     detail_map = {row[4]: row for row in detail_rows}
                     context_parts = []
-                    for rid in top_k_ids:
+                    for rid in results_ids:
                         if rid in detail_map:
                             content, src, b, y, _ = detail_map[rid]
-                            context_parts.append(f"[Kaynak: {src} | Birim: {b} | Yıl: {y} | Skor: {top_k_scores[rid]:.3f}]\n{content}")
+                            context_parts.append(f"[Kaynak: {src} | Birim: {b} | Yıl: {y} | Skor: {top_scores[rid]:.3f}]\n{content}")
                     
                     return "\n\n---\n\n".join(context_parts)
                 

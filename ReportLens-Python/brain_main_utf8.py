@@ -4,11 +4,9 @@ Veri toplama, analiz, rapor yazma ve tutarsızlık kontrolü ajanlarını orkest
 Prompt caching (keep_alive), re-ranking ve birim kısaltma doğrulama destekler.
 """
 import os
-# Agno telemetrisini kapat — veri gizliliği (os-api.agno.com'a veri gönderimini engelle)
+# 🔒 Agno telemetrisini kapat — veri gizliliği (os-api.agno.com'a veri gönderimini engelle)
 os.environ["AGNO_TELEMETRY"] = "false"
 
-from typing import Dict, List, Optional, Tuple
-from concurrent.futures import ThreadPoolExecutor, as_completed
 import re
 import requests
 from agno.agent import Agent
@@ -27,8 +25,7 @@ from core.logging_config import get_logger
 from core.output_validator import OutputValidator
 from core.processor import ReportProcessor
 from core.vector_store import VectorStore
-# from qdrant_client.models import Filter, FieldCondition, MatchValue (Kaldırıldı)
-
+from qdrant_client.models import Filter, FieldCondition, MatchValue
 
 logger = get_logger(__name__)
 
@@ -47,7 +44,6 @@ class QualityBrain:
             options={
                 "temperature": Config.TEMPERATURE,
                 "num_ctx": Config.NUM_CTX,
-                "repeat_penalty": 1.2, # Tekrarları önlemek için
             },
             keep_alive=Config.OLLAMA_KEEP_ALIVE,
         )
@@ -171,13 +167,7 @@ class QualityBrain:
         if birim or yil:
             logger.info(f"Sorguda birim/yıl tespit edildi: birim={birim}, yil={yil}")
 
-        context_raw = self.vector_store.search(query, birim=birim, yil=yil, k=40)
-        
-        # Re-ranking (Yeniden Sıralama)
-        from core.reranker import rerank
-        context_list = context_raw.split("\n\n---\n\n")
-        reranked = rerank(query, context_list, top_k=Config.SEARCH_K)
-        context = "\n\n---\n\n".join([r[1] for r in reranked])
+        context = self.vector_store.search(query, birim=birim, yil=yil)
 
         if not context.strip():
             return (
@@ -191,31 +181,19 @@ class QualityBrain:
         yil_info = f", Yıl filtresi: **{yil}**" if yil else ""
 
         prompt = (
-            f"### ANALİZ FİLTRESİ: [{birim_info}{yil_info}]\n\n"
-            f"### BAĞLAM VERİSİ:\n{context}\n\n"
-            f"### GÖREV: '{query}' sorusunu yukarıdaki verilere dayanarak analiz et.\n\n"
-            "### ZORUNLU YANIT ŞABLONU:\n"
-            "## 1. BIRIM / KONU\n"
-            "(Hangi birim ve konu analiz ediliyor?)\n\n"
-            "## 2. TEMEL BULGULAR\n"
-            "- Bulgu 1: [Veri/Açıklama] (Kaynak: Dosya.md)\n"
-            "- Bulgu 2: ...\n\n"
-            "## 3. GUCLU YONLER\n"
-            "- [Güçlü Yan] (Kaynak: Dosya.md)\n\n"
-            "## 4. GELISIME ACIK ALANLAR\n"
-            "- [Gelişim Alanı]\n\n"
-            "## 5. ONERILER\n"
-            "- [Somut Öneri]\n\n"
-            "### KRİTİK KURALLAR:\n"
-            "1. Yalnızca bağlamdaki veriyi kullan. Veri yoksa 'Bilgi bulunamadı' yaz.\n"
-            "2. Başlıkları tam olarak yukarıdaki gibi (## 1. ...) yazmak mecburidir.\n"
-            "3. Yanıt dilin akademik ve profesyonel Türkçe olsun."
+            f"[{birim_info}{yil_info}]\n"
+            f"Context Data:\n{context}\n\n"
+            f"Question/Task: {query}\n\n"
+            "Answer the question based on the context data above. "
+            "Use ONLY data from the specified unit and year. "
+            "Include concrete numbers, dates, and activity names in your answer. "
+            "If a number is NOT in the context, write 'Raporda bu veri bulunamamistir.'"
         )
 
         response = self.analyzer.run(prompt)
         result = OutputValidator.validate_full_output(
             response.content, context,
-            expected_sections=["BIRIM / KONU", "TEMEL BULGULAR", "GUCLU YONLER", "GELISIME ACIK ALANLAR", "ONERILER"],
+            expected_sections=["BULGULAR", "GUCLU YONLER", "GELISIME ACIK"],
             expected_birim=birim,
         )
         return result, auto_birim, auto_yil
@@ -228,14 +206,11 @@ class QualityBrain:
         """
         birim_full = self._get_birim_full_name(birim)
         
-        # 1. Her kriteri analiz et (Sıralı - VRAM Güvenliği için)
         criteria_analyses = []
-        criterion_data = list(Config.RUBRIC_CRITERIA.items())
-        
-        for cid, desc in criterion_data:
-            logger.info(f"  ⏳ Kriter analiz ediliyor: {cid}")
+        for criterion_id, info in Config.RUBRIC_CRITERIA.items():
+            logger.info(f"  ⏳ Kriter analiz ediliyor: {criterion_id}")
             context = self.vector_store.search(
-                f"{cid} {desc}", 
+                f"{info['title']} {info['desc']}", 
                 birim=birim, 
                 yil=yil, 
                 k=Config.MAX_CONTEXT_CHUNKS
@@ -243,34 +218,31 @@ class QualityBrain:
             
             prompt = (
                 f"Birim: {birim_full} ({birim})\nYıl: {yil if yil else 'Tümü'}\n"
-                f"Kalite Kriteri: {cid}\n"
+                f"Kalite Kriteri: {info['title']}\n"
+                f"Açıklama: {info['desc']}\n\n"
                 f"Veri Bağlamı:\n{context}\n\n"
-                "GÖREV: Bu kriter için Güçlü Yanlar ve Gelişim Alanlarını analiz et. "
-                "MUTLAKA somut bir veri veya rapor alıntısı ekle."
+                "GÖREV: Bu kriter için Güçlü Yanlar ve Gelişim Alanlarını somut verilerle analiz et."
             )
             response = self.analyzer.run(prompt)
-            criteria_analyses.append(f"### {cid}\n{response.content[:2500]}")
+            # Uzun analizleri özetleyerek sentez ajanına gönder (Context overflow önlemi)
+            criteria_analyses.append(f"### {info['title']}\n{response.content[:2000]}")
 
-        # 2. Sentez Raporu Oluştur
+        # 2. Sentez Raporu Oluştur (Report Writer)
         logger.info(f"  📝 {birim} için rapor sentezleniyor...")
         full_context = "\n\n".join(criteria_analyses)
         
-        sections = ["Yonetici Ozeti", "Liderlik", "Egitim", "Arastirma", "Toplumsal Katki", "Guclu Yonler", "Sonuc"]
         report_prompt = (
             f"Birim: {birim_full} ({birim})\nYıl: {yil if yil else 'Tümü'}\n\n"
             f"KRİTER ANALİZLERİ:\n{full_context}\n\n"
-            "GÖREV: Yukarıdaki analizleri kullanarak YÖKAK formatında bir Öz Değerlendirme Raporu oluştur.\n"
-            "ZORUNLU KURALLAR:\n"
-            "1. Aşağıdaki 7 başlığın TAMAMI çıktıda bulunmalıdır: ## Yonetici Ozeti, ## Liderlik, ## Egitim, ## Arastirma, ## Toplumsal Katki, ## Guclu Yonler, ## Sonuc\n"
-            "2. Eğer bir başlık için yeterli veri yoksa 'Bu alanda spesifik veri bulunamamıştır' yazarak başlığı koru.\n"
-            "3. Başlıkları ## (Markdown H2) olarak yaz."
+            "GÖREV: Yukarıdaki analizleri kullanarak resmi YÖKAK formatında bir Öz Değerlendirme Raporu oluştur."
         )
         response = self.report_writer.run(report_prompt)
         
+        # 3. Doğrulama ve Temizlik
         result = OutputValidator.validate_full_output(
             response.content, 
             full_context,
-            expected_sections=sections,
+            expected_sections=["Yonetici Ozeti", "Liderlik", "Egitim", "Arastirma", "Toplumsal Katki", "Guclu Yonler", "Sonuc"],
             expected_birim=birim,
         )
         return result
@@ -279,19 +251,20 @@ class QualityBrain:
 
     def analyze_single_report(self, filename: str) -> str:
         """Belirli bir raporun (dosya adı ile) içeriğini analiz eder."""
-        # 1. Geniş Kapsamlı Arama
-        anchors = [
-             "Raporun genel özeti ve temel sayısal veriler",
-             "Eğitim öğretim, güçlü yanlar ve gelişim alanları",
-             "Araştırma geliştirme, toplumsal katkı ve gelecek hedefleri"
-        ]
-        
-        context_parts = []
-        for anchor in anchors:
-            res = self.vector_store.search(anchor, k=10, filename=filename) # K artırıldı
-            context_parts.append(res)
-        
-        full_context = "\n\n---\n\n".join(context_parts)
+        search_results = self.vector_store.client.scroll(
+            collection_name=self.vector_store.collection_name,
+            scroll_filter=Filter(
+                must=[FieldCondition(key="dosya_adi", match=MatchValue(value=filename))]
+            ),
+            limit=100,
+            with_payload=True
+        )[0]
+
+        if not search_results:
+            return f"{filename} için veritabanında kayıt bulunamadı."
+
+        sorted_results = sorted(search_results, key=lambda p: p.payload.get("chunk_index", 0))
+        full_content = "\n\n".join([p.payload.get("content", "") for p in sorted_results])
 
         metadata = VectorStore.parse_metadata(filename)
         birim = metadata.get("birim", "")
@@ -304,35 +277,34 @@ class QualityBrain:
         )
 
         prompt = (
-            f"### RAPOR ANALİZİ: {filename}\n"
+            f"File: {filename}\n"
             f"{meta_info}\n"
-            f"### BAĞLAM VERİSİ:\n{full_context}\n\n"
-            "### GÖREV: Bu raporu aşağıdaki şablona göre analiz et. ŞABLON DIŞINA ÇIKMA. BAŞLIKLARI ASLA ATALAMA.\n\n"
-            "## 1. Rapor Turu ve Kapsami\n"
+            f"Document Content:\n{full_content[:15000]}\n\n"
+            "TASK: Analyze this report comprehensively in Turkish, using EXACTLY this structure.\n"
+            "Use ONLY concrete data from the document. Fabricating numbers is STRICTLY FORBIDDEN.\n"
+            "If a number does NOT appear in the document, write 'Raporda bu veri bulunamamistir.'\n\n"
+            f"## 1. Rapor Turu ve Kapsami\n"
             f"- Raporun turu: {metadata.get('tur', 'Bilinmiyor')}\n"
             f"- Birim: {birim_full}\n"
             f"- Yil: {metadata.get('yil', 'Bilinmiyor')}\n\n"
             "## 2. Temel Sayisal Veriler\n"
-            "- Öğrenci Sayısı: (Veri yoksa 'Belirtilmemiştir' yaz)\n"
-            "- Program Sayısı: ...\n"
-            "- Proje/Yayın Sayısı: ...\n"
-            "- Anket Sonuçları: ...\n\n"
+            "- Student counts, program counts, project/publication counts, survey results\n"
+            "- Use EXACT numbers from the report. If data not found, write 'Raporda bu veri bulunamamistir'\n\n"
             "## 3. Ana Bulgular\n"
-            "- Bulgu 1: (Somut kanıtlı veri)\n"
-            "- Bulgu 2: ...\n\n"
+            "- Top 4-5 findings with concrete evidence\n\n"
             "## 4. Guclu Yonler\n"
-            "- (Rapordaki olumlu veriler)\n\n"
+            "- Positive areas with evidence from report\n\n"
             "## 5. Zayif Yonler / Gelisim Alanlari\n"
-            "- (Eksik veya zayıf yanlar)\n\n"
+            "- Weak or missing areas\n\n"
             "## 6. Eylem / Hedefler\n"
-            "- (Gelecek planları ve hedefler)\n\n"
-            "ÖNEMLİ: Başlıkları tam olarak '## 1. Rapor Turu ve Kapsami', '## 2. Temel Sayisal Veriler' şeklinde (Markdown H2) yazmak ZORUNLUDUR."
+            "- Goals and actions mentioned in the report\n\n"
+            "Base your analysis ONLY on the document content above."
         )
 
         response = self.analyzer.run(prompt)
         result = OutputValidator.validate_full_output(
-            response.content, full_context,
-            expected_sections=["Rapor Turu ve Kapsami", "Temel Sayisal Veriler", "Ana Bulgular", "Guclu Yonler", "Zayif Yonler", "Eylem / Hedefler"],
+            response.content, full_content,
+            expected_sections=["Rapor Turu", "Sayisal Veriler", "Bulgular", "Guclu Yonler", "Zayif Yonler", "Eylem"],
             expected_birim=birim,
         )
         return result
@@ -340,10 +312,20 @@ class QualityBrain:
     # ── Sahte Veri Üretimi ──────────────────────────────────────────────
 
     def generate_mock_data(self, filename: str, mode: str = "Tutarsız") -> str:
-        """Seçilen rapor için hem Anket hem Metin içeren hibrit sahte veri üretir."""
+        """Seçilen rapor için hem Anket hem Metin içeren hibrit sahte veri üretir.
+        Fallback mekanizması: BOLUM bölümleri bulunamazsa yeniden dener.
+        """
         try:
-            search_results = self.vector_store.get_file_content(filename, limit=20)
-            context = "\n".join([p.get("content", "") for p in search_results])
+            search_results = self.vector_store.client.scroll(
+                collection_name=self.vector_store.collection_name,
+                scroll_filter=Filter(
+                    must=[FieldCondition(key="dosya_adi", match=MatchValue(value=filename))]
+                ),
+                limit=20,
+                with_payload=True
+            )[0]
+            sorted_results = sorted(search_results, key=lambda p: p.payload.get("chunk_index", 0))
+            context = "\n".join([p.payload.get("content", "") for p in sorted_results])
         except Exception:
             context = self.vector_store.search("", filename=filename, k=15)
 
@@ -354,19 +336,26 @@ class QualityBrain:
             f"File: {filename}\n"
             f"Generation Mode: {mode}\n"
             f"Report Content:\n{context[:10000]}\n\n"
-            "TASK: Generate 2 SEPARATE blocks. Use the EXACT markers below.\n\n"
-            "[ANKET_VERISI]\n"
-            "(Generate a Markdown table with columns: #, Soru, Puan (1-5), Isaretleme)\n\n"
-            "[METIN_BEYANLARI]\n"
-            "(Generate 4-6 sentences of claims/paragraphs with [GT:DOGRU] or [GT:YANLIS] tags)\n\n"
-            "CRITICAL: Start the first block with [ANKET_VERISI] and the second with [METIN_BEYANLARI]."
+            "TASK: Generate 2 SEPARATE sections based on the report content above.\n"
+            "1. BOLUM 1: ANKET YANITLARI — Markdown table format (5-7 questions, 1-5 score, checkmark)\n"
+            "2. BOLUM 2: METIN BEYANLARI — Paragraph claims (4-6 sentences) with [GT:DOGRU] or [GT:YANLIS] tags\n"
+            "Follow your instruction format EXACTLY. Do NOT change section headers.\n"
+            "YOU MUST GENERATE BOTH SECTIONS."
         )
 
+        # İlk deneme
         response = self.mock_generator.run(prompt)
         result = response.content
 
-        if "[ANKET_VERISI]" not in result or "[METIN_BEYANLARI]" not in result:
-            retry_prompt = prompt + "\n\nIMPORTANT: You MUST use the [ANKET_VERISI] and [METIN_BEYANLARI] tags."
+        # Fallback: BOLUM bölümleri bulunamazsa yeniden dene
+        if "BOLUM 1" not in result or "BOLUM 2" not in result:
+            logger.warning("Mock veri bölüm başlıkları bulunamadı, yeniden deneniyor...")
+            retry_prompt = (
+                f"{prompt}\n\n"
+                "CRITICAL: Your previous output was missing the section headers.\n"
+                "YOU MUST include '## BOLUM 1: ANKET YANITLARI' and '## BOLUM 2: METIN BEYANLARI' headers.\n"
+                "Start your response with '## BOLUM 1: ANKET YANITLARI' immediately."
+            )
             response = self.mock_generator.run(retry_prompt)
             result = response.content
 
@@ -388,41 +377,49 @@ class QualityBrain:
                 survey_text = survey_text[:Config.MAX_COMPARISON_TEXT]
 
             if filename:
-                search_query = f"{comparison_text[:1000]} {survey_text[:500] if survey_text else ''}"
-                context = self.vector_store.search(search_query, k=15, filename=filename)
+                try:
+                    search_results = self.vector_store.client.scroll(
+                        collection_name=self.vector_store.collection_name,
+                        scroll_filter=Filter(
+                            must=[FieldCondition(key="dosya_adi", match=MatchValue(value=filename))]
+                        ),
+                        limit=Config.MAX_CONTEXT_CHUNKS,
+                        with_payload=True
+                    )[0]
+                    sorted_results = sorted(search_results, key=lambda p: p.payload.get("chunk_index", 0))
+                    context = "\n\n".join([p.payload.get("content", "") for p in sorted_results])
+                except Exception as e:
+                    logger.warning(f"Scroll hatası, search'e dönülüyor: {str(e)}")
+                    context = self.vector_store.search("", k=Config.MAX_CONTEXT_CHUNKS, filename=filename)
             else:
                 if birim is None:
                     birim = self._detect_birim_from_query(comparison_text)
-                context = self.vector_store.search(comparison_text[:500], birim=birim, k=15)
+                context = self.vector_store.search(comparison_text[:500], birim=birim, k=Config.MAX_CONTEXT_CHUNKS)
 
-            if not context or not self._is_valid_context(context):
+            if not context or "hata" in str(context).lower():
                 return "Karşılaştırma için yeterli rapor verisi bulunamadı."
 
+            # Kullanıcı beyanlarını birleştir
             user_claims = ""
             if survey_text:
                 user_claims += f"### ANKET VERILERI:\n{survey_text}\n\n"
             user_claims += f"### METIN BEYANLARI:\n{comparison_text}"
 
             prompt = (
-                f"### ANALİZ: {filename if filename else birim}\n"
-                f"### 1. RAPOR İÇERİĞİ (GERÇEK VERİ):\n{context[:12000]}\n\n"
-                f"### 2. KULLANICI BEYANLARI (KONTROL EDİLECEK):\n{user_claims}\n\n"
-                "### GÖREV: Beyanları rapor verisiyle kıyasla. Her beyan için DOGRU/YANLIS/BILGI YOK kararı ver.\n\n"
-                "### ZORUNLU FORMAT:\n"
-                "### ANALIZ 1\n"
-                "- Beyan: (Özet)\n"
-                "- Karar: [DOĞRU / YANLIŞ / BİLGİ YOK]\n"
-                "- Kanıt: (Rapordan alıntı)\n\n"
-                "### ANALIZ 2\n"
-                "...\n\n"
-                "### OZET TABLOSU\n"
-                "| # | Beyan | Karar | Not |\n"
-                "|---|---|---|---|\n"
+                f"## 1. REPORT CONTENT (ABSOLUTE TRUTH — every piece of information here is factual):\n"
+                f"{context[:12000]}\n\n"
+                f"## 2. USER CLAIMS (test the accuracy of these):\n"
+                f"{user_claims}\n\n"
+                "TASK: Analyze EACH claim and survey answer SEPARATELY.\n"
+                "Label each: DOGRU / YANLIS / BILGI YOK with confidence level (HIGH/MEDIUM/LOW).\n"
+                "The REPORT is ABSOLUTE TRUTH — never question report information.\n"
+                "Follow your instruction format: ANALIZ 1, ANALIZ 2, ANALIZ 3, OZET TABLOSU.\n"
+                "EVERY claim MUST have a confidence level."
             )
             response = self.consistency_checker.run(prompt)
             result = OutputValidator.validate_full_output(
                 response.content, context,
-                expected_sections=["ANALIZ 1", "ANALIZ 2", "OZET TABLOSU"]
+                expected_sections=["ANALIZ 1", "ANALIZ 2", "ANALIZ 3", "OZET TABLOSU"]
             )
             return result
         except Exception as e:
@@ -436,7 +433,10 @@ class QualityBrain:
         """Vektör arama sonucunun gerçek içerik mi yoksa hata mesajı mı olduğunu kontrol eder."""
         if not context or not context.strip():
             return False
-        error_markers = ["sorun oluştu", "hata", "bulunamadı", "error", "MSSQL"]
+        error_markers = [
+            "sorun oluştu", "hata", "bulunamadı", "error", "no such attribute",
+            "QdrantClient", "arama hatası", "kritik arama"
+        ]
         lower = context.lower()
         if len(context) < 200 and any(m in lower for m in error_markers):
             return False
@@ -445,7 +445,7 @@ class QualityBrain:
     # ── Rubrik Notlandırma ───────────────────────────────────────────
 
     def evaluate_rubric(self, filenames: list) -> str:
-        """Bir veya birden fazla raporu rubrik kriterlerine göre değerlendirir (Sıralı - VRAM Güvenliği)."""
+        """Bir veya birden fazla raporu rubrik kriterlerine göre değerlendirir."""
         if not filenames:
             return "Değerlendirilecek rapor seçilmedi."
 
@@ -466,44 +466,79 @@ class QualityBrain:
                 logger.info(f"  📏 Rubrik Değerlendirmesi: {filename} -> {criterion_name}")
                 
                 search_query = f"{criterion_name} {criterion_desc}"
-                context = self.vector_store.search(search_query, k=15, filename=filename)
+                context = self.vector_store.search(
+                    search_query, k=15, filename=filename,
+                )
 
                 if not self._is_valid_context(context):
-                    report_analyses.append(f"### 📏 {criterion_name}\n\n⚠️ Bağlam bulunamadı.")
-                    summary_rows.append(f"| {criterion_name} | —/5 | —/5 | ⚠️ |")
+                    no_data_msg = (
+                        f"### 📏 {criterion_name}\n\n"
+                        f"⚠️ Bu dosya için kriter bağlamı bulunamadı. "
+                        f"Raporun bu bölümü eksik veya indekslenmemiş olabilir.\n\n"
+                        f"**--- 🤖 RUBRİK DENETİMİ ---**\n"
+                        f"Değerlendirme yapılamadı (bağlam yok).\n"
+                        f"{'-' * 40}"
+                    )
+                    report_analyses.append(no_data_msg)
+                    summary_rows.append(f"| {criterion_name} | —/5 | ⚠️ Bağlam Yok |")
                     continue
 
-                # 1. ADIM: Bağımsız Değerlendirme
+                # 1. Adım: Değerlendirme (Evaluator)
                 eval_prompt = (
-                    f"### RAPOR: {filename}\n"
-                    f"### KRİTER: {criterion_name}\n"
-                    f"### BAĞLAM:\n{context}\n\n"
-                    f"GÖREV: Bağımsız olarak puanla ve kanıt sun.\n"
-                    f"SONUÇ: Mutlaka [PUAN: X] marker'ı ile bitir (X=1-5)."
+                    f"Report: {filename}\n"
+                    f"Unit: {birim_full} ({birim})\n"
+                    f"Criterion: {criterion_name} — {criterion_desc}\n\n"
+                    f"CONTEXT (Text from this file ONLY):\n{context}\n\n"
+                    "GÖREV: Yukarıdaki bağlama göre bu kriteri puanla."
                 )
-                eval_content = self.rubric_evaluator.run(eval_prompt).content
-                
-                # 2. ADIM: Bağımsız Denetim
-                val_prompt = (
-                    f"### BAĞLAM:\n{context}\n\n"
-                    f"### ANALİZ:\n{eval_content}\n\n"
-                    f"GÖREV: Yukarıdaki analizi denetle.\n"
-                    f"SONUÇ: Mutlaka [DENETIM_PUANI: X] marker'ı ile bitir."
-                )
-                val_content = self.rubric_validator.run(val_prompt).content
+                eval_response = self.rubric_evaluator.run(eval_prompt)
+                eval_content = eval_response.content
 
                 eval_score = OutputValidator.validate_rubric_score(eval_content)
+                puan_str = f"{eval_score['score']}/5" if eval_score['valid'] else "Değerlendirilemedi"
+
+                # Kanıt doğrulama
+                kanit_match = re.search(r"Kanıt:\s*['\"](.+?)['\"]" , eval_content)
+                evidence_note = ""
+                if kanit_match:
+                    evidence_text = kanit_match.group(1)
+                    ev_result = OutputValidator.verify_evidence(evidence_text, context)
+                    if not ev_result["verified"]:
+                        evidence_note = "\n⚠️ Kanıt alıntısı bağlamda doğrulanamadı."
+
+                # 2. Adım: Denetleme — BLIND REVIEW
+                val_prompt = (
+                    f"Report: {filename}\n"
+                    f"Unit: {birim_full} ({birim})\n"
+                    f"Criterion: {criterion_name} — {criterion_desc}\n\n"
+                    f"CONTEXT (Original Report Text):\n{context}\n\n"
+                    f"DİĞER ANALİSTİN DEĞERLENDİRMESİ:\n{eval_content}\n\n"
+                    "GÖREV: Bağımsız olarak puanla ve diğer analistle karşılaştır."
+                )
+                val_response = self.rubric_validator.run(val_prompt)
+                val_content = val_response.content
+
                 val_score = OutputValidator.validate_rubric_score(val_content)
-                
-                p_str = f"{eval_score['score']}/5" if eval_score['valid'] else "—"
-                v_str = f"{val_score['score']}/5" if val_score['valid'] else "—"
-                
-                _approved = any(kw in val_content.lower() for kw in ["onaylandi", "tutarli", "dogru"])
+                val_puan_str = f"{val_score['score']}/5" if val_score['valid'] else "—"
+
+                _vc_lower = val_content.lower()
+                _approved = any(kw in _vc_lower for kw in [
+                    "onaylandi", "onaylandı", "dogrudur", "doğrudur", "✅ onaylandi",
+                    "tutarli", "tutarlı", "dogru bulundu", "doğru bulundu",
+                ])
                 karar = "✅ Onay" if _approved else "❌ Düzeltme"
+                summary_rows.append(f"| {criterion_name} | {puan_str} | {val_puan_str} | {karar} |")
+                
+                criterion_result = (
+                    f"### 📏 {criterion_name}\n"
+                    f"{eval_content}{evidence_note}\n\n"
+                    f"#### 🛡️ DENETİM (Blind Review)\n"
+                    f"{val_content}\n"
+                    f"{'-' * 40}"
+                )
+                report_analyses.append(criterion_result)
 
-                summary_rows.append(f"| {criterion_name} | {p_str} | {v_str} | {karar} |")
-                report_analyses.append(f"### 📏 {criterion_name}\n{eval_content}\n\n#### 🛡️ DENETİM\n{val_content}\n---")
-
+            # Özet tablo
             summary_table = (
                 f"\n\n### 📋 {filename} — Özet Puan Tablosu\n\n"
                 f"| Kriter | Değerlendirici Puanı | Denetçi Puanı | Denetim Kararı |\n"
@@ -511,7 +546,7 @@ class QualityBrain:
                 + "\n".join(summary_rows)
             )
 
-            overall_results.append("\n\n".join(report_analyses))
+            overall_results.append("\n\n---\n\n".join(report_analyses))
             overall_results.append(summary_table)
             overall_results.append("\n---")
 
