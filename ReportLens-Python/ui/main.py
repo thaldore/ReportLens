@@ -73,7 +73,8 @@ with tabs[0]:
     ### 🛡️ Temel Prensipler
     1. **Veri Gizliliği:** Verileriniz asla internete çıkmaz. Ollama ile tamamen yerel çalışır.
     2. **Çok Ajanlı Mimari:** Analiz, Rapor Yazım, Tutarsızlık Kontrol ve Sahte Veri Üretim ajanları birlikte çalışır.
-    3. **Qdrant Vektör DB:** Hızlı semantik arama ve metadata filtreleme.
+    3. **MSSQL Vektör DB:** Hızlı semantik arama ve metadata filtreleme.
+
     """
     )
 
@@ -329,15 +330,15 @@ with tabs[5]:
                     with st.spinner("Örnek veri üretiliyor..."):
                         mock_data = brain.generate_mock_data(target_file, mode)
                         
-                        # Regex ile BOLUM 1 ve BOLUM 2 ayrımı (Türkçe karakter ve başlık seviyesi bağımsız)
+                        # Yeni Keskin Ayırıcı ile Böl (Case-insensitive)
                         import re
-                        parts = re.split(r'#{1,3}\s*B[OÖ]L[UÜ]M\s*2[^\n]*', mock_data, flags=re.IGNORECASE)
+                        # [METIN_BEYANLARI] etiketini ayırıcı olarak kullan
+                        parts = re.split(r'\[MET[İI]N[_\s]BEYANLARI\]', mock_data, flags=re.IGNORECASE)
                         
                         if len(parts) > 1:
-                            # Bölüm 1 temizle (Bölüm 1 başlığını kaldır)
-                            b1_clean = re.sub(r'^#{1,3}\s*B[OÖ]L[UÜ]M\s*1.*', '', parts[0], flags=re.IGNORECASE).strip()
-                            # Widget key'lerine doğrudan yaz (Streamlit widget'lar kendi key'lerinden okur)
-                            st.session_state["survey_input"] = b1_clean
+                            # Anket verisinden [ANKET_VERISI] etiketini temizle
+                            survey_part = re.sub(r'\[ANKET[_\s]VER[İI]S[İI]\]', '', parts[0], flags=re.IGNORECASE).strip()
+                            st.session_state["survey_input"] = survey_part
                             st.session_state["text_input"] = parts[1].strip()
                         else:
                             st.session_state["text_input"] = mock_data
@@ -414,10 +415,13 @@ with tabs[6]:
             if brain:
                 with st.spinner("Dosyalar işleniyor ve indeksleniyor..."):
                     result = brain.process_and_index()
-                    st.success(
-                        f"✅ {result['islenen_dosya']} dosya işlendi, "
-                        f"{result['indekslenen_chunk']} chunk indekslendi."
-                    )
+                    if result['islenen_dosya'] > 0:
+                        st.success(
+                            f"✅ {result['islenen_dosya']} dosya işlendi, "
+                            f"{result['indekslenen_chunk']} chunk indekslendi."
+                        )
+                    else:
+                        st.info("ℹ️ Tüm dosyalar halihazırda işlenmiş ve veritabanında güncel.")
                     st.cache_resource.clear()
                     st.rerun()
 

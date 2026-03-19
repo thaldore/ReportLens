@@ -222,34 +222,35 @@ class OutputValidator:
     # ── Rubrik Puan Doğrulama ─────────────────────────────────────────
 
     @staticmethod
-    def validate_rubric_score(output: str) -> Dict:
-        """Rubrik puanının doğru formatta olup olmadığını kontrol eder."""
-        puan_patterns = [
-            r'[Pp]uan\s*[:\-]?\s*(\d)\s*/\s*5',
-            r'[Pp]uan\s*[:\-]?\s*(\d)\b',
-            r'\b(\d)\s*/\s*5\b',
-        ]
-
-        for pattern in puan_patterns:
-            match = re.search(pattern, output)
-            if match:
-                val = int(match.group(1))
-                if 1 <= val <= 5:
-                    return {
-                        "score": val,
-                        "valid": True,
-                        "raw_match": match.group(0),
-                    }
-
-        return {"score": None, "valid": False, "raw_match": ""}
+    def validate_rubric_score(text: str) -> Dict:
+        """Metin içerisinden [PUAN: X] veya [DENETİM_PUANI: X] formatındaki puanı ayıklar."""
+        import re
+        try:
+            # Önce [PUAN: X] marker'ını ara (En güvenli yöntem)
+            marker_match = re.search(r'\[(?:PUAN|DENET[İI]M[_\s]PUANI):\s*([1-5])\]', text, re.IGNORECASE)
+            if marker_match:
+                return {"valid": True, "score": int(marker_match.group(1))}
+            
+            # Klasik yöntem: "Puan: X" veya "X/5"
+            score_match = re.search(r'(?:Puan|Skor|Not):\s*([1-5])', text, re.IGNORECASE)
+            if score_match:
+                return {"valid": True, "score": int(score_match.group(1))}
+            
+            return {"valid": False, "score": 0}
+        except Exception:
+            return {"valid": False, "score": 0}
 
     @staticmethod
-    def enforce_rubric_score(output: str) -> str:
-        """Puan bulunamazsa 'Değerlendirilemedi' mesajı ekler."""
-        result = OutputValidator.validate_rubric_score(output)
-        if not result["valid"]:
-            return output + "\n\n⚠️ **Puan parse edilemedi.** Bu kriter için değerlendirme tamamlanamadı."
-        return output
+    def enforce_rubric_score(result_text: str, criterion_name: str) -> str:
+        """Eğer puan bulunamazsa, belirgin bir uyarı mesajı döner."""
+        val = OutputValidator.validate_rubric_score(result_text)
+        if not val["valid"]:
+            logger.warning(f"Kriter için puan bulunamadı: {criterion_name}")
+            # Eğer model puan vermediyse ancak açıklama yaptıysa, açıklamayı koru ama başına not ekle
+            if len(result_text) > 100:
+                 return f"⚠️ **Not:** Puanlama formatı anlaşılamadı.\n\n{result_text}"
+            return f"### 📏 {criterion_name}\n\nDeğerlendirilemedi (Puan bulunamadı)."
+        return result_text
 
     # ── Kanıt Doğrulama (N-gram Matching) ─────────────────────────────
 

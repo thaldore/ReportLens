@@ -2,8 +2,9 @@ langchain>=0.2.0
 langchain-community>=0.2.0
 langchain-ollama>=0.1.0
 langchain-text-splitters>=0.2.0
-qdrant-client>=1.9.0
-fastembed>=0.2.0
+pyodbc>=5.0.0
+# qdrant-client ve fastembed mssql geçişi nedeniyle kaldırıldı
+
 pymupdf4llm>=0.0.10
 python-docx>=1.1.0
 pandas>=2.0.0
@@ -15,4 +16,5 @@ Pillow>=10.0.0
 openpyxl>=3.1.0
 requests>=2.31.0
 pytest>=8.0.0
-sentence-transformers>=2.2.0
+numpy>=1.24.0
+
