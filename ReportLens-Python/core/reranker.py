@@ -87,9 +87,10 @@ def rerank(
         if top_k:
             scored = scored[:top_k]
 
+        top_score = f"{scored[0][2]:.3f}" if scored else "N/A"
         logger.info(
             f"Re-ranking: {len(documents)} → {len(scored)} belge "
-            f"(top score: {scored[0][2]:.3f} if scored else 'N/A')"
+            f"(top score: {top_score})"
         )
         return scored
 

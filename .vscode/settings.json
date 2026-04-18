@@ -1,0 +1,6 @@
+{
+  "yaml.schemas": {
+    "https://raw.githubusercontent.com/compose-spec/compose-go/master/schema/compose-spec.json": "docker-compose*.yml"
+  },
+  "yaml.schemaStore.enable": true
+}

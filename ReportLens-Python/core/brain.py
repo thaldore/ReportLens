@@ -80,17 +80,25 @@ class QualityBrain:
     # ── Sağlık Kontrolleri ────────────────────────────────────────────
 
     def _check_ollama_connection(self):
-        """Ollama servisinin erişilebilir olup olmadığını kontrol eder."""
+        """Ollama servisinin ve gerekli modellerin (LLM + Embedding) kontrolünü yapar."""
         try:
             r = requests.get(f"{Config.OLLAMA_BASE_URL}/api/tags", timeout=5)
             r.raise_for_status()
             models = [m["name"] for m in r.json().get("models", [])]
             logger.info(f"Ollama bağlantısı başarılı. Yüklü modeller: {models}")
 
+            # Ana model kontrolü
             if not any(Config.MODEL_ID in m for m in models):
                 logger.warning(
-                    f"⚠️ '{Config.MODEL_ID}' modeli bulunamadı! "
+                    f"⚠️ Ana model '{Config.MODEL_ID}' bulunamadı! "
                     f"Lütfen 'ollama pull {Config.MODEL_ID}' çalıştırın."
+                )
+            
+            # Embedding model kontrolü
+            if not any(Config.EMBEDDING_MODEL in m for m in models):
+                logger.error(
+                    f"❌ Embedding modeli '{Config.EMBEDDING_MODEL}' bulunamadı! "
+                    f"Vektör indeksleme çalışmayacaktır. Lütfen 'ollama pull {Config.EMBEDDING_MODEL}' çalıştırın."
                 )
         except requests.ConnectionError:
             raise ConnectionError(
@@ -102,8 +110,6 @@ class QualityBrain:
 
     def get_status(self) -> dict:
         """Sistem durumu bilgisi döner."""
-        import os
-
         raw_count = len(list(Config.RAW_DATA_DIR.glob("**/*"))) if Config.RAW_DATA_DIR.exists() else 0
         proc_count = len(list(Config.PROCESSED_DATA_DIR.glob("**/*.md"))) if Config.PROCESSED_DATA_DIR.exists() else 0
         db_info = self.vector_store.get_collection_info()
@@ -111,9 +117,17 @@ class QualityBrain:
         return {
             "ham_rapor_sayisi": raw_count,
             "islenmiş_rapor_sayisi": proc_count,
-            "vektor_db": db_info,
+            "vektor_sayisi": db_info.get("toplam_nokta", 0),
+            "toplam_nokta": db_info.get("toplam_nokta", 0),
+            "durum": db_info.get("durum", "bilinmiyor"),
             "model": Config.MODEL_ID,
+            "embedding_model": Config.EMBEDDING_MODEL,
             "ollama_url": Config.OLLAMA_BASE_URL,
+            "keep_alive": Config.OLLAMA_KEEP_ALIVE,
+            "num_ctx": Config.NUM_CTX,
+            "mssql_host": Config.MSSQL_HOST,
+            "mssql_db": Config.MSSQL_DB,
+            "reranker_enabled": Config.RERANKER_ENABLED,
             "reranker": "aktif" if Config.RERANKER_ENABLED else "devre dışı",
             "prompt_cache": Config.OLLAMA_KEEP_ALIVE,
         }
@@ -191,31 +205,32 @@ class QualityBrain:
         yil_info = f", Yıl filtresi: **{yil}**" if yil else ""
 
         prompt = (
-            f"### ANALİZ FİLTRESİ: [{birim_info}{yil_info}]\n\n"
-            f"### BAĞLAM VERİSİ:\n{context}\n\n"
-            f"### GÖREV: '{query}' sorusunu yukarıdaki verilere dayanarak analiz et.\n\n"
-            "### ZORUNLU YANIT ŞABLONU:\n"
-            "## 1. BIRIM / KONU\n"
-            "(Hangi birim ve konu analiz ediliyor?)\n\n"
-            "## 2. TEMEL BULGULAR\n"
-            "- Bulgu 1: [Veri/Açıklama] (Kaynak: Dosya.md)\n"
-            "- Bulgu 2: ...\n\n"
-            "## 3. GUCLU YONLER\n"
-            "- [Güçlü Yan] (Kaynak: Dosya.md)\n\n"
-            "## 4. GELISIME ACIK ALANLAR\n"
-            "- [Gelişim Alanı]\n\n"
-            "## 5. ONERILER\n"
-            "- [Somut Öneri]\n\n"
-            "### KRİTİK KURALLAR:\n"
-            "1. Yalnızca bağlamdaki veriyi kullan. Veri yoksa 'Bilgi bulunamadı' yaz.\n"
-            "2. Başlıkları tam olarak yukarıdaki gibi (## 1. ...) yazmak mecburidir.\n"
-            "3. Yanıt dilin akademik ve profesyonel Türkçe olsun."
+            f"### ANALYSIS FILTER: [{birim_info}{yil_info}]\n\n"
+            f"### CONTEXT DATA (REPORT EXCERPTS):\n{context}\n\n"
+            f"### TASK: Provide a detailed and academic analysis of the question: '{query}' based ONLY on the data above.\n\n"
+            "### CORE RULES:\n"
+            "1. EVIDENCE: Every claim or finding MUST include a source. Format: (Kaynak: filename.md)\n"
+            "2. STRUCTURE: Use the exact headers defined in the template below.\n"
+            "3. DATA-DRIVEN: Prioritize numerical data, statistics, and specific system names.\n\n"
+            "### OUTPUT TEMPLATE (YOUR ENTIRE RESPONSE MUST BE IN TURKISH):\n"
+            "## 1. ANALIZ KAPSAMI\n"
+            "(Which unit, year, and specific topic is being analyzed?)\n\n"
+            "## 2. TEMEL BULGULAR VE KANITLAR\n"
+            "- [Finding Description] (Kaynak: Dosya_Adi.md)\n"
+            "- [Data/Statistic] (Kaynak: Dosya_Adi.md)\n\n"
+            "## 3. GÜÇLÜ YÖNLER VE BAŞARILAR\n"
+            "- [Strong Point] (Kaynak: Dosya_Adi.md)\n\n"
+            "## 4. GELİŞİME AÇIK ALANLAR VE RİSKLER\n"
+            "- [Area for Improvement] (Kaynak: Dosya_Adi.md)\n\n"
+            "## 5. STRATEJİK ÖNERİLER VE SONUÇ\n"
+            "- [Concrete, applicable recommendation]\n\n"
+            "### CRITICAL NOTE: Your response must be academic, objective, and strictly evidence-based."
         )
 
         response = self.analyzer.run(prompt)
         result = OutputValidator.validate_full_output(
             response.content, context,
-            expected_sections=["BIRIM / KONU", "TEMEL BULGULAR", "GUCLU YONLER", "GELISIME ACIK ALANLAR", "ONERILER"],
+            expected_sections=["ANALIZ KAPSAMI", "TEMEL BULGULAR", "GUCLU YONLER", "GELISIME ACIK ALANLAR", "ONERILER"],
             expected_birim=birim,
         )
         return result, auto_birim, auto_yil
@@ -242,11 +257,12 @@ class QualityBrain:
             )
             
             prompt = (
-                f"Birim: {birim_full} ({birim})\nYıl: {yil if yil else 'Tümü'}\n"
-                f"Kalite Kriteri: {cid}\n"
-                f"Veri Bağlamı:\n{context}\n\n"
-                "GÖREV: Bu kriter için Güçlü Yanlar ve Gelişim Alanlarını analiz et. "
-                "MUTLAKA somut bir veri veya rapor alıntısı ekle."
+                f"Unit: {birim_full} ({birim})\nYear: {yil if yil else 'All'}\n"
+                f"Quality Criterion: {cid}\n"
+                f"Context Data:\n{context}\n\n"
+                f"TASK: Analyze the 'Strengths' and 'Areas for Improvement' for this specific criterion based ONLY on the evidence. "
+                "You MUST include at least one concrete data point or direct report excerpt. "
+                "YOUR RESPONSE MUST BE IN ACADEMIC TURKISH."
             )
             response = self.analyzer.run(prompt)
             criteria_analyses.append(f"### {cid}\n{response.content[:2500]}")
@@ -255,15 +271,16 @@ class QualityBrain:
         logger.info(f"  📝 {birim} için rapor sentezleniyor...")
         full_context = "\n\n".join(criteria_analyses)
         
-        sections = ["Yonetici Ozeti", "Liderlik", "Egitim", "Arastirma", "Toplumsal Katki", "Guclu Yonler", "Sonuc"]
+        sections = ["YONETICI OZETI", "LIDERLIK", "EGITIM", "ARASTIRMA", "TOPLUMSAL KATKI", "GUCLU YONLER", "SONUC"]
         report_prompt = (
-            f"Birim: {birim_full} ({birim})\nYıl: {yil if yil else 'Tümü'}\n\n"
-            f"KRİTER ANALİZLERİ:\n{full_context}\n\n"
-            "GÖREV: Yukarıdaki analizleri kullanarak YÖKAK formatında bir Öz Değerlendirme Raporu oluştur.\n"
-            "ZORUNLU KURALLAR:\n"
-            "1. Aşağıdaki 7 başlığın TAMAMI çıktıda bulunmalıdır: ## Yonetici Ozeti, ## Liderlik, ## Egitim, ## Arastirma, ## Toplumsal Katki, ## Guclu Yonler, ## Sonuc\n"
-            "2. Eğer bir başlık için yeterli veri yoksa 'Bu alanda spesifik veri bulunamamıştır' yazarak başlığı koru.\n"
-            "3. Başlıkları ## (Markdown H2) olarak yaz."
+            f"Unit: {birim_full} ({birim})\nYear: {yil if yil else 'All'}\n\n"
+            f"CRITERIA ANALYSES:\n{full_context}\n\n"
+            "TASK: Create a formal Self-Assessment Report in YOKAK format using the analyses provided above.\n"
+            "MANDATORY RULES:\n"
+            "1. STRUCTURE: ALL following headers must be present in the output: ## Yonetici Ozeti, ## Liderlik, ## Egitim, ## Arastirma, ## Toplumsal Katki, ## Guclu Yonler, ## Sonuc\n"
+            "2. DATA GAP: If there is insufficient data for a section, write 'Bu alanda spesifik veri bulunamamıştır' but KEEP the header.\n"
+            "3. FORMAT: Write headers as Markdown H2 (##).\n"
+            "4. LANGUAGE: YOUR ENTIRE REPORT MUST BE IN FORMAL ACADEMIC TURKISH."
         )
         response = self.report_writer.run(report_prompt)
         
@@ -304,35 +321,35 @@ class QualityBrain:
         )
 
         prompt = (
-            f"### RAPOR ANALİZİ: {filename}\n"
+            f"### DETAILED REPORT ANALYSIS: {filename}\n"
             f"{meta_info}\n"
-            f"### BAĞLAM VERİSİ:\n{full_context}\n\n"
-            "### GÖREV: Bu raporu aşağıdaki şablona göre analiz et. ŞABLON DIŞINA ÇIKMA. BAŞLIKLARI ASLA ATALAMA.\n\n"
-            "## 1. Rapor Turu ve Kapsami\n"
-            f"- Raporun turu: {metadata.get('tur', 'Bilinmiyor')}\n"
-            f"- Birim: {birim_full}\n"
-            f"- Yil: {metadata.get('yil', 'Bilinmiyor')}\n\n"
-            "## 2. Temel Sayisal Veriler\n"
-            "- Öğrenci Sayısı: (Veri yoksa 'Belirtilmemiştir' yaz)\n"
-            "- Program Sayısı: ...\n"
-            "- Proje/Yayın Sayısı: ...\n"
-            "- Anket Sonuçları: ...\n\n"
-            "## 3. Ana Bulgular\n"
-            "- Bulgu 1: (Somut kanıtlı veri)\n"
-            "- Bulgu 2: ...\n\n"
-            "## 4. Guclu Yonler\n"
-            "- (Rapordaki olumlu veriler)\n\n"
-            "## 5. Zayif Yonler / Gelisim Alanlari\n"
-            "- (Eksik veya zayıf yanlar)\n\n"
-            "## 6. Eylem / Hedefler\n"
-            "- (Gelecek planları ve hedefler)\n\n"
-            "ÖNEMLİ: Başlıkları tam olarak '## 1. Rapor Turu ve Kapsami', '## 2. Temel Sayisal Veriler' şeklinde (Markdown H2) yazmak ZORUNLUDUR."
+            f"### CONTEXT DATA (REPORT EXCERPTS):\n{full_context}\n\n"
+            "### TASK: Analyze this report in depth according to the template below.\n\n"
+            "### CORE RULES:\n"
+            "1. EVIDENCE: For each section, provide CONCRETE EVIDENCE and DATA (numbers, ratios) from the report.\n"
+            "2. STRUCTURE: Use H2 (##) headers exactly as named in the template.\n"
+            "3. CITATION: Use ONLY the format (Kaynak: {filename}) for citations.\n"
+            "4. LANGUAGE: YOUR ENTIRE RESPONSE MUST BE IN FORMAL TURKISH.\n\n"
+            "## 1. RAPOR TURU VE KAPSAMI\n"
+            " (Purpose of the report, period covered, and unit information)\n\n"
+            "## 2. TEMEL SAYISAL VERİLER VE İSTATİSTİKLER\n"
+            "- Student/Faculty Data: ...\n"
+            "- Success/Satisfaction Ratios: ...\n\n"
+            "## 3. ANA BULGULAR VE DEĞERLENDİRME\n"
+            "- [Finding]: [Explanation]\n\n"
+            "## 4. GÜÇLÜ YÖNLER\n"
+            "- [Success Area]: [Detailed Explanation] (Kaynak: {filename})\n\n"
+            "## 5. ZAYIF YÖNLER VE RİSKLER\n"
+            "- [Weakness]: [Area needing improvement] (Kaynak: {filename})\n\n"
+            "## 6. EYLEM PLANLARI VE HEDEFLER\n"
+            "- [Goal]: [Reported future plan]\n\n"
+            "### CRITICAL WARNING: If data is missing for a section, write 'İlgili veri raporda açıkça belirtilmemiştir'."
         )
 
         response = self.analyzer.run(prompt)
         result = OutputValidator.validate_full_output(
             response.content, full_context,
-            expected_sections=["Rapor Turu ve Kapsami", "Temel Sayisal Veriler", "Ana Bulgular", "Guclu Yonler", "Zayif Yonler", "Eylem / Hedefler"],
+            expected_sections=["RAPOR TURU", "SAYISAL VERILER", "ANA BULGULAR", "GUCLU YONLER", "ZAYIF YONLER", "EYLEM / HEDEFLER"],
             expected_birim=birim,
         )
         return result
@@ -388,12 +405,13 @@ class QualityBrain:
                 survey_text = survey_text[:Config.MAX_COMPARISON_TEXT]
 
             if filename:
+                # İsimlendirilmiş parçaları ara
                 search_query = f"{comparison_text[:1000]} {survey_text[:500] if survey_text else ''}"
-                context = self.vector_store.search(search_query, k=15, filename=filename)
+                context = self.vector_store.search(search_query, k=25, filename=filename) # K artırıldı
             else:
                 if birim is None:
                     birim = self._detect_birim_from_query(comparison_text)
-                context = self.vector_store.search(comparison_text[:500], birim=birim, k=15)
+                context = self.vector_store.search(comparison_text[:1000], birim=birim, k=25)
 
             if not context or not self._is_valid_context(context):
                 return "Karşılaştırma için yeterli rapor verisi bulunamadı."
@@ -401,28 +419,30 @@ class QualityBrain:
             user_claims = ""
             if survey_text:
                 user_claims += f"### ANKET VERILERI:\n{survey_text}\n\n"
-            user_claims += f"### METIN BEYANLARI:\n{comparison_text}"
+            user_claims += f"### KULLANICI BEYANLARI:\n{comparison_text}"
 
             prompt = (
-                f"### ANALİZ: {filename if filename else birim}\n"
-                f"### 1. RAPOR İÇERİĞİ (GERÇEK VERİ):\n{context[:12000]}\n\n"
-                f"### 2. KULLANICI BEYANLARI (KONTROL EDİLECEK):\n{user_claims}\n\n"
-                "### GÖREV: Beyanları rapor verisiyle kıyasla. Her beyan için DOGRU/YANLIS/BILGI YOK kararı ver.\n\n"
+                f"### CONSISTENCY ANALYSIS: {filename if filename else birim}\n"
+                f"### 1. REPORT CONTENT (CONTEXT):\n{context}\n\n"
+                f"### 2. CLAIMS TO VERIFY:\n{user_claims}\n\n"
+                "### TASK: Compare the claims above with the report content. For each claim, decide: [DOĞRU / YANLIŞ / BİLGİ YOK].\n"
+                "### CORE RULES:\n"
+                "1. Decisions must be based ONLY on what is written in the report.\n"
+                "2. If a claim is WRONG, you MUST provide the correct fact with evidence.\n"
+                "3. YOUR ENTIRE RESPONSE MUST BE IN TURKISH.\n\n"
                 "### ZORUNLU FORMAT:\n"
                 "### ANALIZ 1\n"
-                "- Beyan: (Özet)\n"
-                "- Karar: [DOĞRU / YANLIŞ / BİLGİ YOK]\n"
-                "- Kanıt: (Rapordan alıntı)\n\n"
-                "### ANALIZ 2\n"
-                "...\n\n"
+                "- Beyan: ...\n"
+                "- Karar: ...\n"
+                "- Kanıt: (Kaynak: {filename})\n\n"
                 "### OZET TABLOSU\n"
-                "| # | Beyan | Karar | Not |\n"
+                "| # | Beyan | Karar | Kanıt/Not |\n"
                 "|---|---|---|---|\n"
             )
             response = self.consistency_checker.run(prompt)
             result = OutputValidator.validate_full_output(
                 response.content, context,
-                expected_sections=["ANALIZ 1", "ANALIZ 2", "OZET TABLOSU"]
+                expected_sections=["ANALIZ 1", "OZET TABLOSU"]
             )
             return result
         except Exception as e:
@@ -445,74 +465,101 @@ class QualityBrain:
     # ── Rubrik Notlandırma ───────────────────────────────────────────
 
     def evaluate_rubric(self, filenames: list) -> str:
-        """Bir veya birden fazla raporu rubrik kriterlerine göre değerlendirir (Sıralı - VRAM Güvenliği)."""
+        """Bir veya birden fazla raporu rubrik kriterlerine göre 'Altın Standart' kıyaslama formatında değerlendirir."""
         if not filenames:
             return "Değerlendirilecek rapor seçilmedi."
 
+        import datetime
+        now_str = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
         overall_results = []
-        overall_results.append(f"# 📊 Rubrik Notlandırma Raporu\n")
+        overall_results.append(f"# 📊 ReportLens Rubrik Ve Denetim Raporu\n")
+        overall_results.append(f"**Tarih:** {now_str}")
         overall_results.append(f"**Değerlendirilen Raporlar:** {', '.join(filenames)}\n")
+        overall_results.append(f"## 📋 Analiz Özeti\n| Rapor | Kriter Sayısı | Denetim Durumu |\n| :--- | :---: | :---: |\n" + "\n".join([f"| {f} | {len(Config.RUBRIC_CRITERIA)} | 🛡️ Bekliyor |" for f in filenames]))
+        overall_results.append("\n---\n")
 
         for filename in filenames:
-            overall_results.append(f"## 📄 Rapor: {filename}")
-            metadata = VectorStore.parse_metadata(filename)
-            birim = metadata.get("birim", "")
-            birim_full = self._get_birim_full_name(birim)
+            logger.info(f"  📏 Rubrik Analiz/Denetim Başlıyor: {filename}")
             
-            report_analyses = []
-            summary_rows = []
-
+            # 1. BAĞLAM TOPLAMA
+            all_criteria_context = []
             for criterion_name, criterion_desc in Config.RUBRIC_CRITERIA.items():
-                logger.info(f"  📏 Rubrik Değerlendirmesi: {filename} -> {criterion_name}")
-                
-                search_query = f"{criterion_name} {criterion_desc}"
-                context = self.vector_store.search(search_query, k=15, filename=filename)
+                res = self.vector_store.search(f"{criterion_name} {criterion_desc}", k=8, filename=filename)
+                all_criteria_context.append(f"### KRİTER: {criterion_name}\n{res}")
+            
+            full_context = "\n\n---\n\n".join(all_criteria_context)
 
-                if not self._is_valid_context(context):
-                    report_analyses.append(f"### 📏 {criterion_name}\n\n⚠️ Bağlam bulunamadı.")
-                    summary_rows.append(f"| {criterion_name} | —/5 | —/5 | ⚠️ |")
-                    continue
+            # 2. ADIM: DETAYLI ANALİZ (Batch 1)
+            analiz_prompt = (
+                f"### REPORT: {filename}\n"
+                f"### CONTEXT DATA:\n{full_context}\n\n"
+                "TASK: Perform a detailed analysis of the report according to YOKAK rubric criteria.\n"
+                "GOLDEN STANDARD FORMAT RULES:\n"
+                "1. TITLE: Every criterion must have a ## header.\n"
+                "2. LABELS: Provide justification and evidence in **Label:** format.\n"
+                "3. SCORE: Specify the score as [PUAN: X].\n"
+                "4. LANGUAGE: YOUR ENTIRE RESPONSE MUST BE IN TURKISH.\n\n"
+                "## [Kriter Adı]\n"
+                "- **Gerekçe:** ...\n"
+                "- **Kanıt:** (Quote) (Kaynak: {filename})\n"
+                "- **Puan:** [PUAN: X] (1-5)"
+            )
+            analiz_content = self.rubric_evaluator.run(analiz_prompt).content
 
-                # 1. ADIM: Bağımsız Değerlendirme
-                eval_prompt = (
-                    f"### RAPOR: {filename}\n"
-                    f"### KRİTER: {criterion_name}\n"
-                    f"### BAĞLAM:\n{context}\n\n"
-                    f"GÖREV: Bağımsız olarak puanla ve kanıt sun.\n"
-                    f"SONUÇ: Mutlaka [PUAN: X] marker'ı ile bitir (X=1-5)."
-                )
-                eval_content = self.rubric_evaluator.run(eval_prompt).content
-                
-                # 2. ADIM: Bağımsız Denetim
-                val_prompt = (
-                    f"### BAĞLAM:\n{context}\n\n"
-                    f"### ANALİZ:\n{eval_content}\n\n"
-                    f"GÖREV: Yukarıdaki analizi denetle.\n"
-                    f"SONUÇ: Mutlaka [DENETIM_PUANI: X] marker'ı ile bitir."
-                )
-                val_content = self.rubric_validator.run(val_prompt).content
+            # 3. ADIM: DENETİMCİ KIYASLAMASI (Batch 2)
+            denetim_prompt = (
+                f"### CONTEXT DATA:\n{full_context}\n\n"
+                f"### ANALYSIS RESULTS:\n{analiz_content}\n\n"
+                "TASK: Audit and compare the analysis above.\n"
+                "FORMAT RULES:\n"
+                "1. HEADER: Use '### 🛡️ Denetim: [Criterion Name]'.\n"
+                "2. COMPARISON: If there's a difference between Analysis Score and Audit Score, explain why based on evidence.\n"
+                "3. MARKER: Place the final score in [DENETIM_PUANI: X] marker.\n"
+                "4. LANGUAGE: YOUR ENTIRE RESPONSE MUST BE IN TURKISH.\n\n"
+                "### 🛡️ Denetim: [Kriter Adı]\n"
+                "- **Analiz Puanı:** [Score from analysis]\n"
+                "- **Denetçi Puanı:** [Your score]\n"
+                "- **Kıyaslama ve Gerekçe:** (Describe differences if any...)\n"
+                "- **Karar:** [✅ ONAYLANDI / ❌ DÜZELTİLDİ]\n"
+                "Nihai Puan Marker: [DENETIM_PUANI: X]"
+            )
+            denetim_content = self.rubric_validator.run(denetim_prompt).content
 
-                eval_score = OutputValidator.validate_rubric_score(eval_content)
-                val_score = OutputValidator.validate_rubric_score(val_content)
+            # 4. TABLO VE BİRLEŞTİRME
+            summary_rows = []
+            for criterion_name in Config.RUBRIC_CRITERIA.keys():
+                crit_escaped = re.escape(criterion_name)
+                # Analizden puan çek (Regex fix)
+                analiz_match = re.search(f"##.*?{crit_escaped}.*?PUAN:\s*(\d+)", analiz_content, re.DOTALL | re.IGNORECASE)
+                a_score = analiz_match.group(1) if analiz_match else "—"
                 
-                p_str = f"{eval_score['score']}/5" if eval_score['valid'] else "—"
-                v_str = f"{val_score['score']}/5" if val_score['valid'] else "—"
-                
-                _approved = any(kw in val_content.lower() for kw in ["onaylandi", "tutarli", "dogru"])
-                karar = "✅ Onay" if _approved else "❌ Düzeltme"
-
-                summary_rows.append(f"| {criterion_name} | {p_str} | {v_str} | {karar} |")
-                report_analyses.append(f"### 📏 {criterion_name}\n{eval_content}\n\n#### 🛡️ DENETİM\n{val_content}\n---")
+                # Denetimden puan çek
+                denetim_block = re.search(f"Denetim:.*?{crit_escaped}.*?\n(.*?)(?=\n### 🛡️ Denetim|$)", denetim_content, re.DOTALL | re.IGNORECASE)
+                if denetim_block:
+                    block_text = denetim_block.group(1)
+                    score_info = OutputValidator.validate_rubric_score(block_text)
+                    d_score = f"{score_info['score']}" if score_info['valid'] else "—"
+                    karar = "✅" if a_score == d_score else "❌"
+                    summary_rows.append(f"| {criterion_name} | {a_score}/5 | {d_score}/5 | {karar} |")
+                else:
+                    summary_rows.append(f"| {criterion_name} | {a_score}/5 | — | ❓ |")
 
             summary_table = (
-                f"\n\n### 📋 {filename} — Özet Puan Tablosu\n\n"
-                f"| Kriter | Değerlendirici Puanı | Denetçi Puanı | Denetim Kararı |\n"
+                f"\n\n## 📊 Analiz vs Denetçi Puan Tablosu: {filename}\n\n"
+                f"| Kriter | Analiz Puanı | Denetçi Puanı | Karar |\n"
                 f"| :--- | :---: | :---: | :---: |\n"
                 + "\n".join(summary_rows)
             )
 
-            overall_results.append("\n\n".join(report_analyses))
-            overall_results.append(summary_table)
-            overall_results.append("\n---")
+            report_block = (
+                f"## 📄 Rapor: {filename}\n\n"
+                f"## 🔍 1. DETAYLI ANALİZLER\n{analiz_content}\n\n"
+                f"--- \n\n"
+                f"## 🛡️ 2. DENETÇİ VE KIYASLAMA RAPORU\n{denetim_content}\n\n"
+                f"{summary_table}"
+            )
+
+            overall_results.append(report_block)
+            overall_results.append("\n---\n")
 
         return "\n\n".join(overall_results)

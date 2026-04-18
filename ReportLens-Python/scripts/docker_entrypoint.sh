@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 
-OLLAMA_URL="${OLLAMA_BASE_URL:-http://ollama:11434}"
+OLLAMA_URL="${OLLAMA_BASE_URL:-http://reportlens-ollama:11434}"
 
 echo "=== Ollama servisi bekleniyor ($OLLAMA_URL) ==="
 MAX_RETRIES=60
@@ -17,7 +17,7 @@ until curl -sf "$OLLAMA_URL/" > /dev/null 2>&1; do
 done
 echo "=== Ollama hazir ==="
 
-# Modelleri SIRAYLA indir (Streamlit baslamadan once hazir olmali)
+# Modelleri SIRAYLA indir (FastAPI baslamadan once hazir olmali)
 echo "=== nomic-embed-text indiriliyor ==="
 curl -sf "$OLLAMA_URL/api/pull" -d '{"name": "nomic-embed-text", "stream": false}' --max-time 600
 echo ""
@@ -29,4 +29,14 @@ echo ""
 echo "=== llama3.1:8b hazir ==="
 
 echo "=== Tum modeller hazir, ReportLens baslatiliyor ==="
+
+echo "--------------------------------------------------------"
+echo "REPORTLENS SERVISLERI HAZIR!"
+echo "--------------------------------------------------------"
+echo "Frontend / API:    http://localhost:8000"
+echo "API Dokümantasyonu: http://localhost:8000/docs"
+echo "Veritabanı (Adminer): http://localhost:8080"
+echo "Ollama API:        http://localhost:11434"
+echo "--------------------------------------------------------"
+
 exec "$@"

@@ -1,24 +1,38 @@
-# Python
-venv/
-__pycache__/
+# ── Python & Ortam ──────────────────────────────────────────────────
+**/__pycache__/
 *.py[cod]
 *$py.class
 *.egg-info/
+.venv/
+.env
 
-# Data & Database (Büyük dosyalar ve gizli veriler)
-Data/raw_data/
-Data/processed/
-Data/vector_db/
-Data_json/
+# ── .NET ────────────────────────────────────────────────────────────
+**/bin/
+**/obj/
+.vs/
+*.user
 
-# VS Code
-.vscode/
-
-# OS
+# ── Docker & İşletim Sistemi ────────────────────────────────────────
 .DS_Store
 Thumbs.db
+mssql_data/
+ollama_data/
 
-# Geçici dosyalar
+# ── Projeye Özel Veri Yönetimi ──────────────────────────────────────
+# NOT: Data/processed ve Data/raw_data klasörleri GİT TARAFINDAN TAKİP EDİLİR.
+# Bu klasörler bilerek ignore listesine eklenmemiştir.
+
+# Aşağıdaki türetilmiş/büyük veri dosyaları ignore edilir:
+Data/vector_db/
+Data/test_results/
+Data_json/
+.lock
+**/indexed_hashes.json
+**/meta.json
+logs/
+
+# ── Geçici Dosyalar ─────────────────────────────────────────────────
 output.txt
 test_summary.txt
 final_report.txt
+*.log

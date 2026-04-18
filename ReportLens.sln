@@ -1,0 +1,51 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ReportLens-Microsoft-Agent-Framework", "ReportLens-Microsoft-Agent-Framework", "{78400429-4023-E506-4B5D-87B0EA7BED68}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ReportLens-LLM", "ReportLens-LLM", "{D7AE945C-F76C-CDA2-9C1A-BA9940DBBFFA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{7B29E396-C349-CC99-C5BF-C9E2903B88EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReportLens.LLM", "ReportLens-Microsoft-Agent-Framework\ReportLens-LLM\src\ReportLens.LLM.csproj", "{F27D17E5-4A91-700D-AF9D-7F18245DF45B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "backend", "backend", "{56DBF8A6-5F27-868F-2718-A0AC473CD02A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{730A0002-E1CD-17A9-E375-81C699E670EF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebApi", "WebApi", "{B78AE08B-6740-A5C0-A731-5246F36957FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReportLens.WebApi", "ReportLens-Microsoft-Agent-Framework\backend\src\WebApi\ReportLens.WebApi.csproj", "{597557CB-EC4B-7626-DA1C-584EE56E73A3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F27D17E5-4A91-700D-AF9D-7F18245DF45B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F27D17E5-4A91-700D-AF9D-7F18245DF45B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F27D17E5-4A91-700D-AF9D-7F18245DF45B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F27D17E5-4A91-700D-AF9D-7F18245DF45B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{597557CB-EC4B-7626-DA1C-584EE56E73A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{597557CB-EC4B-7626-DA1C-584EE56E73A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{597557CB-EC4B-7626-DA1C-584EE56E73A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{597557CB-EC4B-7626-DA1C-584EE56E73A3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D7AE945C-F76C-CDA2-9C1A-BA9940DBBFFA} = {78400429-4023-E506-4B5D-87B0EA7BED68}
+		{7B29E396-C349-CC99-C5BF-C9E2903B88EA} = {D7AE945C-F76C-CDA2-9C1A-BA9940DBBFFA}
+		{F27D17E5-4A91-700D-AF9D-7F18245DF45B} = {7B29E396-C349-CC99-C5BF-C9E2903B88EA}
+		{56DBF8A6-5F27-868F-2718-A0AC473CD02A} = {78400429-4023-E506-4B5D-87B0EA7BED68}
+		{730A0002-E1CD-17A9-E375-81C699E670EF} = {56DBF8A6-5F27-868F-2718-A0AC473CD02A}
+		{B78AE08B-6740-A5C0-A731-5246F36957FB} = {730A0002-E1CD-17A9-E375-81C699E670EF}
+		{597557CB-EC4B-7626-DA1C-584EE56E73A3} = {B78AE08B-6740-A5C0-A731-5246F36957FB}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ABF4715E-E2F1-4344-BC05-4DB2CC2F191B}
+	EndGlobalSection
+EndGlobal

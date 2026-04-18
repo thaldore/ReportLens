@@ -1,0 +1,35 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>ReportLens.WebApi</RootNamespace>
+    <AssemblyName>ReportLens.WebApi</AssemblyName>
+    <!-- Suppress experimental SK warnings — intentionally using preview connectors -->
+    <NoWarn>SKEXP0001;SKEXP0010;SKEXP0070</NoWarn>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- Microsoft Semantic Kernel — Ollama üzerinden LLM orchestration -->
+    <PackageReference Include="Microsoft.SemanticKernel" Version="1.32.0" />
+    <PackageReference Include="Microsoft.SemanticKernel.Connectors.OpenAI" Version="1.32.0" />
+
+    <!-- SQL Server — MSSQL 2025 native VECTOR desteği -->
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="6.0.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="9.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="9.0.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+
+    <!-- API belgesi — Swagger/OpenAPI -->
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="7.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="9.0.0" />
+  </ItemGroup>
+
+  <!-- Project referanslari — Application ve Infrastructure katmanlari -->
+  <!-- NOT: Modular Monolith mimarisinde tek bir .csproj kullaniliyor.   -->
+  <!-- Buyuk olceklensme gerekirse ayri projeler haline donusturulebilir. -->
+
+</Project>

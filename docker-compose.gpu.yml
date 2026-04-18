@@ -1,0 +1,23 @@
+# ══════════════════════════════════════════════════════════════════
+# ReportLens GPU Override — NVIDIA GPU Desteği
+#
+# Kullanım:
+#   docker compose -f docker-compose.yml -f docker-compose.gpu.yml up
+#
+# Gereksinimler:
+#   - NVIDIA GPU (CUDA destekli)
+#   - nvidia-container-toolkit kurulumu
+#   - drivers: https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/install-guide.html
+#
+# GPU yoksa docker-compose.yml'i doğrudan kullanın (CPU modunda çalışır).
+# ══════════════════════════════════════════════════════════════════
+
+services:
+  reportlens-ollama:
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]

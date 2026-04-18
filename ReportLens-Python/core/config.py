@@ -24,12 +24,12 @@ class Config:
     EMBEDDING_MODEL = os.getenv("EMBEDDING_MODEL", "nomic-embed-text")
 
     # MSSQL Yapılandırması (Vector Search desteği ile)
-    MSSQL_HOST = os.getenv("MSSQL_HOST", "localhost")
+    MSSQL_HOST = os.getenv("MSSQL_HOST", "reportlens-mssql-db")
     MSSQL_DB = os.getenv("MSSQL_DB", "ReportLensDB")
-    MSSQL_USER = os.getenv("MSSQL_USER", "")
-    MSSQL_PASS = os.getenv("MSSQL_PASS", "")
+    MSSQL_USER = os.getenv("MSSQL_USER", "ReportLensUser")
+    MSSQL_PASS = os.getenv("MSSQL_PASS", "ReportLensPass123!")
     MSSQL_DRIVER = os.getenv("MSSQL_DRIVER", "{ODBC Driver 18 for SQL Server}")
-    MSSQL_TABLE = os.getenv("MSSQL_TABLE", "DocumentVectors")
+    MSSQL_TABLE = os.getenv("MSSQL_TABLE", "Python_DocumentVectors")
 
 
     # Vektör arama yapılandırması
@@ -49,10 +49,10 @@ class Config:
     # Model parametreleri
     TEMPERATURE = float(os.getenv("TEMPERATURE", "0.1")) 
     MOCK_TEMPERATURE = float(os.getenv("MOCK_TEMPERATURE", "0.7"))
-    NUM_CTX = 8192                # Bağlam penceresi (8GB VRAM için 8192 idealdir)
+    NUM_CTX = 8192                # Bağlam penceresi (Daha geniş analiz kapasitesi için)
 
     # Prompt caching — modeli bellekte tut (Ollama keep_alive)
-    OLLAMA_KEEP_ALIVE = os.getenv("OLLAMA_KEEP_ALIVE", "30m")
+    OLLAMA_KEEP_ALIVE = os.getenv("OLLAMA_KEEP_ALIVE", "60m")
 
     # Re-ranker modeli (CPU üzerinde çalışır, GPU ile çakışma yok)
     RERANKER_MODEL = os.getenv("RERANKER_MODEL", "cross-encoder/ms-marco-MiniLM-L-6-v2")

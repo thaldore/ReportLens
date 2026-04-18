@@ -1,15 +1,19 @@
 """
 ReportLens MSSQL Vektör Veritabanı Yönetim Modülü.
-SQL Server 2022+ vektör fonksiyonlarını kullanarak semantik arama ve metadata filtreleme sağlar.
+SQL Server 2025 native VECTOR tipi ve VECTOR_DISTANCE fonksiyonu ile
+semantik arama ve metadata filtreleme sağlar.
 """
 import hashlib
 import json
-import uuid
-import pyodbc
-from pathlib import Path
+import logging
+import os
+import re
 import struct
-import time
-from typing import Dict, List, Optional, Tuple, Any
+import pyodbc
+import uuid
+from pathlib import Path
+from typing import Any, Dict, List, Optional, Tuple
+from concurrent.futures import ThreadPoolExecutor
 
 from langchain_ollama import OllamaEmbeddings
 from langchain_text_splitters import RecursiveCharacterTextSplitter
@@ -19,9 +23,12 @@ from core.logging_config import get_logger
 
 logger = get_logger(__name__)
 
+# nomic-embed-text vektör boyutu
+VECTOR_DIMENSION = 768
+
 
 class VectorStore:
-    """MSSQL tabanlı vektör veritabanı yönetimi."""
+    """SQL Server 2025 native VECTOR tipi ile vektör veritabanı yönetimi."""
 
     def __init__(self):
         self.embeddings = OllamaEmbeddings(
@@ -46,14 +53,9 @@ class VectorStore:
                 "Trusted_Connection=yes;"
                 "TrustServerCertificate=yes;"
             )
-        
+
         self.table_name = Config.MSSQL_TABLE
         self._ensure_table()
-        # Bellek içi vektör önbelleği (Yüksek performans için)
-        self._vector_ids = []    # List[str]
-        self._vector_matrix = None # np.ndarray (N, dim)
-        self._metadata_cache = [] # List[dict]
-        self._cache_loaded = False
 
     def _get_connection(self):
         return pyodbc.connect(self.conn_str)
@@ -81,11 +83,51 @@ class VectorStore:
         try:
             with pyodbc.connect(master_conn_str, autocommit=True) as conn:
                 cursor = conn.cursor()
-                cursor.execute(f"IF NOT EXISTS (SELECT name FROM sys.databases WHERE name = '{Config.MSSQL_DB}') CREATE DATABASE [{Config.MSSQL_DB}]")
+                cursor.execute(
+                    f"IF NOT EXISTS (SELECT name FROM sys.databases WHERE name = '{Config.MSSQL_DB}') "
+                    f"CREATE DATABASE [{Config.MSSQL_DB}]"
+                )
         except Exception as e:
             logger.error(f"Veritabanı oluşturma hatası: {e}")
 
-        # 2. Tabloyu oluştur
+        # 2. Tabloyu oluştur — SQL Server 2025 native VECTOR tipi
+        try:
+            with self._get_connection() as conn:
+                cursor = conn.cursor()
+                cursor.execute(f"""
+                    IF NOT EXISTS (SELECT * FROM sys.tables WHERE name = '{self.table_name}')
+                    BEGIN
+                        CREATE TABLE {self.table_name} (
+                            Id UNIQUEIDENTIFIER PRIMARY KEY DEFAULT NEWID(),
+                            FileName NVARCHAR(255),
+                            Birim NVARCHAR(100),
+                            Yil NVARCHAR(10),
+                            Tur NVARCHAR(255),
+                            BolumBasligi NVARCHAR(MAX),
+                            Content NVARCHAR(MAX),
+                            Vector VECTOR({VECTOR_DIMENSION}) NOT NULL,
+                            Payload NVARCHAR(MAX),
+                            CreatedAt DATETIME DEFAULT GETDATE()
+                        );
+                        CREATE INDEX IX_{self.table_name}_Metadata 
+                            ON {self.table_name} (Birim, Yil, FileName);
+                    END
+                """)
+                conn.commit()
+                logger.info(f"Tablo hazır: {self.table_name} (VECTOR({VECTOR_DIMENSION}))")
+        except Exception as e:
+            # Eğer VECTOR tipi desteklenmiyorsa VARBINARY(MAX) fallback
+            if "VECTOR" in str(e).upper() or "15600" in str(e):
+                logger.warning(
+                    f"SQL Server VECTOR tipi desteklenmiyor, VARBINARY(MAX) kullanılıyor. "
+                    f"SQL Server 2025 gereklidir. Hata: {e}"
+                )
+                self._ensure_table_legacy()
+            else:
+                logger.error(f"Tablo oluşturma hatası: {e}")
+
+    def _ensure_table_legacy(self):
+        """SQL Server 2022 uyumlu tablo (VARBINARY fallback)."""
         try:
             with self._get_connection() as conn:
                 cursor = conn.cursor()
@@ -101,16 +143,16 @@ class VectorStore:
                             BolumBasligi NVARCHAR(MAX),
                             Content NVARCHAR(MAX),
                             Vector VARBINARY(MAX),
-                            Payload NVARCHAR(MAX), -- JSON tipi için SQL Server sürümüne göre NVARCHAR(MAX) daha güvenli
+                            Payload NVARCHAR(MAX),
                             CreatedAt DATETIME DEFAULT GETDATE()
                         );
-                        CREATE INDEX IX_{self.table_name}_Metadata ON {self.table_name} (Birim, Yil, FileName);
+                        CREATE INDEX IX_{self.table_name}_Metadata 
+                            ON {self.table_name} (Birim, Yil, FileName);
                     END
                 """)
                 conn.commit()
         except Exception as e:
-            logger.error(f"Tablo oluşturma hatası: {e}")
-
+            logger.error(f"Legacy tablo oluşturma hatası: {e}")
 
     # ── Dosya Hash Yönetimi ──────────────────────────────────────────
 
@@ -136,34 +178,69 @@ class VectorStore:
     def parse_metadata(filename: str) -> Dict:
         parts = filename.replace(".md", "").split("_")
         metadata = {"dosya_adi": filename}
-        if len(parts) >= 1: metadata["birim"] = parts[0]
-        if len(parts) >= 2: metadata["yil"] = parts[1]
-        if len(parts) >= 3: metadata["tur"] = "_".join(parts[2:])
+        if len(parts) >= 1:
+            metadata["birim"] = parts[0]
+        if len(parts) >= 2:
+            metadata["yil"] = parts[1]
+        if len(parts) >= 3:
+            metadata["tur"] = "_".join(parts[2:])
         return metadata
+
+    # ── Vektör Dönüşüm Yardımcıları ──────────────────────────────────
+
+    @staticmethod
+    def _vector_to_json(vector: List[float]) -> str:
+        """Vektörü yuvarlayarak ve boşlukları atarak NVARCHAR(8000) altına indirir."""
+        # 6 basamak yuvarlama + kompak JSON (Boşluksuz)
+        # Bu yöntem SQL Server'daki 'ntext to vector' hatasını (Error 22018) çözer.
+        rounded = [round(float(x), 6) for x in vector]
+        return json.dumps(rounded, separators=(',', ':'))
+
+    @staticmethod
+    def _vector_to_binary(vector: List[float]) -> bytes:
+        """Vektörü binary formata çevirir (legacy VARBINARY desteği)."""
+        return struct.pack(f'{len(vector)}f', *vector)
+
+    def _detect_vector_column_type(self) -> str:
+        """Tablodaki Vector kolonunun tipini tespit eder."""
+        try:
+            with self._get_connection() as conn:
+                cursor = conn.cursor()
+                cursor.execute(f"""
+                    SELECT DATA_TYPE FROM INFORMATION_SCHEMA.COLUMNS 
+                    WHERE TABLE_NAME = '{self.table_name}' AND COLUMN_NAME = 'Vector'
+                """)
+                row = cursor.fetchone()
+                if row:
+                    return row[0].upper()
+        except Exception:
+            pass
+        return "UNKNOWN"
 
     # ── İndeksleme ────────────────────────────────────────────────────
 
     def index_documents(self, force_reindex: bool = False) -> int:
         md_files = list(Config.PROCESSED_DATA_DIR.glob("**/*.md"))
         if not md_files:
-            logger.error("İndekslenecek dosya bulunamadı!")
+            logger.error(" ❌ İndekslenecek dosya bulunamadı! Data/processed klasörünü kontrol edin.")
             return 0
 
         # Eğer veritabanı tamamen boşsa force_reindex'i True yapalım
-        if not force_reindex:
-            try:
-                with self._get_connection() as conn:
-                    cursor = conn.cursor()
-                    cursor.execute(f"SELECT COUNT(*) FROM {self.table_name}")
-                    if cursor.fetchone()[0] == 0:
-                        logger.info("  ℹ️ Veritabanı boş tespit edildi, tam indeksleme başlatılıyor...")
-                        force_reindex = True
-            except Exception:
-                pass
+        db_empty = False
+        try:
+            with self._get_connection() as conn:
+                cursor = conn.cursor()
+                cursor.execute(f"SELECT COUNT(*) FROM {self.table_name}")
+                row = cursor.fetchone()
+                if row and row[0] == 0:
+                    db_empty = True
+                    logger.info("  ℹ️ Veritabanı boş tespit edildi, tam indeksleme başlatılıyor...")
+                    force_reindex = True
+        except Exception as e:
+            logger.warning(f"  ⚠️ Veritabanı doluluk kontrolü yapılamadı: {e}")
 
         indexed_hashes = {} if force_reindex else self._get_indexed_hashes()
         files_to_index = []
-
 
         for md_file in md_files:
             file_hash = self._compute_file_hash(md_file)
@@ -172,54 +249,107 @@ class VectorStore:
                 indexed_hashes[md_file.name] = file_hash
 
         if not files_to_index:
-            logger.info("Tüm dosyalar zaten indekslenmiş.")
+            logger.info("  ✅ Tüm dosyalar zaten güncel ve indekslenmiş.")
             return 0
+
+        # Kolon tipini tespit et
+        col_type = self._detect_vector_column_type()
+        use_native_vector = col_type in ("VECTOR", "UNKNOWN")
+        logger.info(f"  🚀 İndeksleme başlıyor... Kolon tipi: {col_type}, Native VECTOR: {use_native_vector}")
 
         fallback_splitter = RecursiveCharacterTextSplitter(
             chunk_size=Config.CHUNK_SIZE, chunk_overlap=Config.CHUNK_OVERLAP
         )
 
         total_chunks = 0
+        error_count = 0
+        
+        # Parallel embedding using ThreadPoolExecutor
+        max_workers = 10 
+        
         for md_file in files_to_index:
             try:
                 content = md_file.read_text(encoding="utf-8")
                 semantic_chunks = self._semantic_split(content, fallback_splitter)
                 meta = self.parse_metadata(md_file.name)
 
-                # Eski verileri temizle
+                # ℹ️ IMPORTANT: Always clear OLD data for a file to prevent duplicates
                 self._delete_file_chunks(md_file.name)
 
+                # Collect chunks for parallel embedding
+                valid_chunks = []
+                for chunk_text, bolum in semantic_chunks:
+                    if len(chunk_text.strip()) >= Config.MIN_CHUNK_CONTENT_LENGTH:
+                        valid_chunks.append((chunk_text, bolum))
+                
+                if not valid_chunks:
+                    continue
+
+                def _embed_task(item):
+                    txt, blm = item
+                    try:
+                        vec = self.embeddings.embed_query(txt)
+                        return (vec, txt, blm)
+                    except Exception as ve:
+                        logger.error(f"  ❌ Embedding error ({md_file.name}): {ve}")
+                        return (None, txt, blm)
+
+                logger.info(f"  ⏳ Vectorizing {len(valid_chunks)} chunks for {md_file.name}...")
+                with ThreadPoolExecutor(max_workers=max_workers) as executor:
+                    results = list(executor.map(_embed_task, valid_chunks))
+
+                # Batch write successful results
+                batch_data = [r for r in results if r[0] is not None]
+                
                 with self._get_connection() as conn:
                     cursor = conn.cursor()
-                    for chunk_text, bolum in semantic_chunks:
-                        if len(chunk_text.strip()) < Config.MIN_CHUNK_CONTENT_LENGTH:
+                    chunk_count = 0
+                    for vector, chunk_text, bolum in batch_data:
+                        if len(vector) != VECTOR_DIMENSION:
                             continue
-                        
-                        vector = self.embeddings.embed_query(chunk_text)
-                        # Vektörü binary formatta sakla (veya SQL Vector tipine uygun çeviri)
-                        import struct
-                        vector_blob = struct.pack(f'{len(vector)}f', *vector)
-                        
+
                         payload = json.dumps({
                             "bolum_basligi": bolum,
                             "content": chunk_text,
                             **meta
                         }, ensure_ascii=False)
 
-                        cursor.execute(f"""
-                            INSERT INTO {self.table_name} (FileName, Birim, Yil, Tur, BolumBasligi, Content, Vector, Payload)
-                            VALUES (?, ?, ?, ?, ?, ?, ?, ?)
-                        """, (md_file.name, meta.get('birim'), meta.get('yil'), meta.get('tur'), bolum, chunk_text, vector_blob, payload))
-                    
+                        try:
+                            if use_native_vector:
+                                vector_value = self._vector_to_json(vector)
+                                cursor.execute(f"""
+                                    INSERT INTO {self.table_name} 
+                                    (FileName, Birim, Yil, Tur, BolumBasligi, Content, Vector, Payload)
+                                    VALUES (?, ?, ?, ?, ?, ?, CAST('{vector_value}' AS VECTOR({VECTOR_DIMENSION})), ?)
+                                """, (
+                                    md_file.name, meta.get('birim'), meta.get('yil'),
+                                    meta.get('tur'), bolum, chunk_text, payload
+                                ))
+                            else:
+                                vector_blob = self._vector_to_binary(vector)
+                                cursor.execute(f"""
+                                    INSERT INTO {self.table_name} 
+                                    (FileName, Birim, Yil, Tur, BolumBasligi, Content, Vector, Payload)
+                                    VALUES (?, ?, ?, ?, ?, ?, ?, ?)
+                                """, (
+                                    md_file.name, meta.get('birim'), meta.get('yil'),
+                                    meta.get('tur'), bolum, chunk_text, vector_blob, payload
+                                ))
+                            chunk_count += 1
+                        except Exception as ie:
+                            logger.error(f"  ❌ Chunk save error ({md_file.name}): {ie}")
+                            error_count += 1
+
                     conn.commit()
-                total_chunks += len(semantic_chunks)
-                logger.info(f" ✅ {md_file.name} başarıyla indekslendi.")
+                total_chunks += chunk_count
+                logger.info(f"  ✅ {md_file.name} successfully processed ({chunk_count} chunks).")
 
             except Exception as e:
-                logger.error(f" ❌ {md_file.name} hatası: {e}")
+                logger.error(f"  ❌ Error processing {md_file.name}: {str(e)}")
+                error_count += 1
 
         self._save_indexed_hashes(indexed_hashes)
-        self._vector_cache = None # Önbelleği temizle
+        logger.info(f"  📊 Indexing result: {total_chunks} chunks successfully written. {error_count} errors.")
         return total_chunks
 
     def _delete_file_chunks(self, filename: str):
@@ -231,31 +361,31 @@ class VectorStore:
         except Exception:
             pass
 
-    # ── Semantik Chunking (Aynen Korundu) ─────────────────────────────
-    # (Metodlar: _semantic_split, _protect_tables, _split_preserving_tables vb.)
-    # Kısıtlı alan nedeniyle burada özetlenmiştir, orijinal mantık korunmalıdır.
+    # ── Semantik Chunking ─────────────────────────────────────────────
 
     def _semantic_split(self, content: str, fallback_splitter) -> list:
-        # Orijinal semantic split mantığınızı buraya dahil ediyorum.
-        import re as _re
         content = self._protect_tables(content)
-        heading_pattern = _re.compile(r'^(#{1,3})\s+(.+)$', _re.MULTILINE)
+        heading_pattern = re.compile(r'^(#{1,3})\s+(.+)$', re.MULTILINE)
         sections = []
         last_end, current_heading = 0, "Genel"
         for match in heading_pattern.finditer(content):
             section_text = content[last_end:match.start()].strip()
-            if section_text: sections.append((section_text, current_heading))
+            if section_text:
+                sections.append((section_text, current_heading))
             current_heading = match.group(2).strip()
             last_end = match.start()
         remaining = content[last_end:].strip()
-        if remaining: sections.append((remaining, current_heading))
-        
+        if remaining:
+            sections.append((remaining, current_heading))
+
         result = []
         for section_text, heading in (sections or [(content.strip(), "Genel")]):
             if len(section_text) > Config.CHUNK_SIZE * 2:
                 sub_chunks = self._split_preserving_tables(section_text, fallback_splitter)
-                for sub in sub_chunks: result.append((sub, heading))
-            else: result.append((section_text, heading))
+                for sub in sub_chunks:
+                    result.append((sub, heading))
+            else:
+                result.append((section_text, heading))
         return result
 
     @staticmethod
@@ -290,19 +420,23 @@ class VectorStore:
                     current_block = []
                 in_table = False
                 current_block.append(line)
-        if current_block: blocks.append(('table' if in_table else 'text', '\n'.join(current_block)))
+        if current_block:
+            blocks.append(('table' if in_table else 'text', '\n'.join(current_block)))
         result = []
         for b_type, b_text in blocks:
-            if b_type == 'table' or len(b_text) <= Config.CHUNK_SIZE * 2: result.append(b_text)
-            else: result.extend(fallback_splitter.split_text(b_text))
+            if b_type == 'table' or len(b_text) <= Config.CHUNK_SIZE * 2:
+                result.append(b_text)
+            else:
+                result.extend(fallback_splitter.split_text(b_text))
         return result
 
-    # ── Arama ─────────────────────────────────────────────────────────
+    # ── Arama — SQL Server 2025 Native VECTOR_DISTANCE ────────────────
 
-    def search(self, query: str, k: int = None, birim: str = None, yil: str = None, filename: str = None) -> str:
+    def search(self, query: str, k: int = None, birim: str = None,
+               yil: str = None, filename: str = None) -> str:
         k = k or Config.SEARCH_K
         query_vector = self.embeddings.embed_query(query)
-        
+
         where_clauses = []
         params = []
 
@@ -318,121 +452,96 @@ class VectorStore:
                 params.append(yil)
 
         where_sql = "WHERE " + " AND ".join(where_clauses) if where_clauses else ""
-        
-        # 1. Aşama: SQL üzerinden adayları çek
-        # (Eğer VECTOR_DISTANCE destekleniyorsa doğrudan SQL'de yap, yoksa tüm adayları çek)
+
+        # SQL Server 2025 native VECTOR_DISTANCE
+        # KESIN ÇÖZÜM: Vektörü SQL string literal olarak gömüyoruz.
+        query_vector_json = self._vector_to_json(query_vector)
+
         sql_native = f"""
-            SELECT TOP ({k}) Content, FileName, Birim, Yil, 
-            VECTOR_DISTANCE('cosine', CAST(? AS VARBINARY(MAX)), Vector) as distance
+            SELECT TOP ({k}) Content, FileName, Birim, Yil,
+            VECTOR_DISTANCE('cosine', CAST('{query_vector_json}' AS VECTOR({VECTOR_DIMENSION})), Vector) AS distance
             FROM {self.table_name}
             {where_sql}
             ORDER BY distance ASC
         """
-        
-        import struct
-        query_blob = struct.pack(f'{len(query_vector)}f', *query_vector)
-        
+
         try:
-            # Önce native SQL denemesi
             with self._get_connection() as conn:
                 cursor = conn.cursor()
-                cursor.execute(sql_native, [query_blob] + params)
+                cursor.execute(sql_native, params)
                 results = cursor.fetchall()
-            
+
             context_parts = []
             for row in results:
                 content, source, b, y, dist = row
-                context_parts.append(f"[Kaynak: {source} | Birim: {b} | Yıl: {y}]\n{content}")
+                score = 1.0 - float(dist) if dist is not None else 0.0
+                context_parts.append(
+                    f"[Kaynak: {source} | Birim: {b} | Yıl: {y} | Skor: {score:.3f}]\n{content}"
+                )
             return "\n\n---\n\n".join(context_parts) if context_parts else "İlgili veri bulunamadı."
 
         except Exception as e:
-            # 2. Aşama: Fallback - Yüksek Performanslı Python taraflı matris araması (V5)
-            if "[42000]" in str(e) or "VECTOR_DISTANCE" in str(e):
-                try:
-                    import numpy as np
-                    # 1. Önbelleği kontrol et veya yükle (Tüm tabloyu bir kez RAM'e alır)
-                    if not self._cache_loaded:
-                        logger.info("  📥 Vektör tablosu numpy matrisine yükleniyor...")
-                        with self._get_connection() as conn:
-                            cursor = conn.cursor()
-                            cursor.execute(f"SELECT Id, Vector, Birim, Yil, FileName FROM [{self.table_name}]")
-                            rows = cursor.fetchall()
-                            
-                            vectors = []
-                            self._metadata_cache = []
-                            self._vector_ids = []
-                            for row in rows:
-                                rid, v_blob, b, y, f = row
-                                v_len = len(v_blob) // 4
-                                v = struct.unpack(f'{v_len}f', v_blob)
-                                vectors.append(v)
-                                self._metadata_cache.append({"birim": b, "yil": y, "filename": f, "id": rid})
-                                self._vector_ids.append(rid)
-                            
-                            if vectors:
-                                self._vector_matrix = np.array(vectors, dtype=np.float32)
-                                # L2 Normalizasyonu (Cosine Similarity için dot product yeterli olsun diye)
-                                norms = np.linalg.norm(self._vector_matrix, axis=1, keepdims=True)
-                                self._vector_matrix = self._vector_matrix / (norms + 1e-10)
-                                self._cache_loaded = True
-                                logger.info(f"  ✅ {len(vectors)} vektör RAM'e yüklendi.")
+            # Fallback: VARBINARY formatı ile Python taraflı cosine similarity
+            if "VECTOR_DISTANCE" in str(e) or "VECTOR" in str(e) or "[42000]" in str(e):
+                logger.warning(f"Native VECTOR_DISTANCE desteklenmiyor, Python fallback kullanılıyor: {e}")
+                return self._search_fallback(query_vector, k, where_clauses, params)
 
-                    if not self._cache_loaded:
-                         return "İlgili veri bulunamadı (Önbellek boş)."
-
-                    # 2. RAM üzerinde filtre Uygula
-                    q_vec = np.array(query_vector, dtype=np.float32)
-                    q_vec = q_vec / (np.linalg.norm(q_vec) + 1e-10)
-                    
-                    # Filtre maskesi oluştur
-                    mask = np.ones(len(self._metadata_cache), dtype=bool)
-                    for i, meta in enumerate(self._metadata_cache):
-                        if filename and meta["filename"] != filename: mask[i] = False
-                        if birim and meta["birim"] != birim: mask[i] = False
-                        if yil and meta["yil"] != yil: mask[i] = False
-                    
-                    if not np.any(mask):
-                        return "İlgili veri bulunamadı (Filtre sonucu boş)."
-                    
-                    # Benzerlik hesapla (Sadece maskelenmiş olanlar için)
-                    masked_vectors = self._vector_matrix[mask]
-                    masked_indices = np.where(mask)[0]
-                    
-                    # Dot product (Vektörler normalize edildiği için cosine similarity'ye eşittir)
-                    similarities = np.dot(masked_vectors, q_vec)
-                    
-                    # En yüksek k sonucu bul
-                    top_indices_local = np.argsort(similarities)[::-1][:k]
-                    top_indices_global = [masked_indices[i] for i in top_indices_local]
-                    
-                    results_ids = [self._vector_ids[i] for i in top_indices_global]
-                    top_scores = {self._vector_ids[masked_indices[i]]: float(similarities[i]) for i in top_indices_local}
-
-                    # 4. Sadece en alakalı metinleri DB'den çek (IO tasarrufu)
-                    id_placeholders = ",".join(["?"] * len(results_ids))
-                    sql_details = f"SELECT Content, FileName, Birim, Yil, Id FROM [{self.table_name}] WHERE Id IN ({id_placeholders})"
-                    
-                    with self._get_connection() as conn:
-                        cursor = conn.cursor()
-                        cursor.execute(sql_details, results_ids)
-                        detail_rows = cursor.fetchall()
-                    
-                    detail_map = {row[4]: row for row in detail_rows}
-                    context_parts = []
-                    for rid in results_ids:
-                        if rid in detail_map:
-                            content, src, b, y, _ = detail_map[rid]
-                            context_parts.append(f"[Kaynak: {src} | Birim: {b} | Yıl: {y} | Skor: {top_scores[rid]:.3f}]\n{content}")
-                    
-                    return "\n\n---\n\n".join(context_parts)
-                
-                except Exception as fe:
-                    logger.error(f"Fallback arama hatası: {fe}")
-                    return f"Arama hatası: {str(fe)[:100]}"
-            
             logger.error(f"Genel arama hatası: {e}")
             return f"Analiz sırasında bir sorun oluştu: {str(e)[:100]}"
 
+    def _search_fallback(self, query_vector: List[float], k: int,
+                         where_clauses: List[str], params: List) -> str:
+        """VARBINARY fallback — Python taraflı cosine similarity hesaplama."""
+        try:
+            import numpy as np
+
+            where_sql = "WHERE " + " AND ".join(where_clauses) if where_clauses else ""
+
+            with self._get_connection() as conn:
+                cursor = conn.cursor()
+                cursor.execute(
+                    f"SELECT Id, Content, FileName, Birim, Yil, Vector "
+                    f"FROM [{self.table_name}] {where_sql}",
+                    params
+                )
+                rows = cursor.fetchall()
+
+            if not rows:
+                return "İlgili veri bulunamadı."
+
+            # Vektörleri decode et ve cosine similarity hesapla
+            q_vec = np.array(query_vector, dtype=np.float32)
+            q_norm = np.linalg.norm(q_vec)
+            if q_norm > 0:
+                q_vec = q_vec / q_norm
+
+            scored_results = []
+            for row in rows:
+                rid, content, fname, birim, yil, v_blob = row
+                if v_blob is None:
+                    continue
+                v_len = len(v_blob) // 4
+                v = np.array(struct.unpack(f'{v_len}f', v_blob), dtype=np.float32)
+                v_norm = np.linalg.norm(v)
+                if v_norm > 0:
+                    v = v / v_norm
+                similarity = float(np.dot(q_vec, v))
+                scored_results.append((content, fname, birim, yil, similarity))
+
+            # En yüksek skorlu sonuçları sırala
+            scored_results.sort(key=lambda x: x[4], reverse=True)
+            top_results = scored_results[:k]
+
+            context_parts = []
+            for content, source, b, y, score in top_results:
+                context_parts.append(
+                    f"[Kaynak: {source} | Birim: {b} | Yıl: {y} | Skor: {score:.3f}]\n{content}"
+                )
+            return "\n\n---\n\n".join(context_parts) if context_parts else "İlgili veri bulunamadı."
+
+        except Exception as fe:
+            logger.error(f"Fallback arama hatası: {fe}")
+            return f"Arama hatası: {str(fe)[:100]}"
 
     def get_collection_info(self) -> Dict:
         try:
@@ -440,7 +549,12 @@ class VectorStore:
                 cursor = conn.cursor()
                 cursor.execute(f"SELECT COUNT(*) FROM {self.table_name}")
                 count = cursor.fetchone()[0]
-                return {"toplam_nokta": count, "durum": "aktif (MSSQL-V2)"}
+
+                # Kolon tipini kontrol et
+                col_type = self._detect_vector_column_type()
+                engine = "SQL Server 2025 (Native VECTOR)" if col_type == "VECTOR" else "SQL Server (VARBINARY Fallback)"
+
+                return {"toplam_nokta": count, "durum": f"aktif ({engine})"}
         except Exception:
             return {"toplam_nokta": 0, "durum": "bağlantı hatası"}
 
@@ -451,14 +565,14 @@ class VectorStore:
             SELECT {limit_sql} Content, BolumBasligi, Payload
             FROM [{self.table_name}]
             WHERE FileName = ?
-            ORDER BY Id -- Veya varsa chunk_index
+            ORDER BY Id
         """
         try:
             with self._get_connection() as conn:
                 cursor = conn.cursor()
                 cursor.execute(sql, (filename,))
                 rows = cursor.fetchall()
-                
+
                 results = []
                 for row in rows:
                     content, bolum, payload_raw = row
@@ -472,5 +586,3 @@ class VectorStore:
         except Exception as e:
             logger.error(f"Dosya içeriği getirme hatası ({filename}): {e}")
             return []
-
-

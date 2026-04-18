@@ -3,12 +3,10 @@ langchain-community>=0.2.0
 langchain-ollama>=0.1.0
 langchain-text-splitters>=0.2.0
 pyodbc>=5.0.0
-# qdrant-client ve fastembed mssql geçişi nedeniyle kaldırıldı
 
 pymupdf4llm>=0.0.10
 python-docx>=1.1.0
 pandas>=2.0.0
-streamlit>=1.30.0
 tqdm>=4.60.0
 agno>=1.0.0
 openai>=1.0.0
@@ -19,3 +17,7 @@ pytest>=8.0.0
 numpy>=1.24.0
 sentence-transformers>=2.2.0
 
+# FastAPI Backend (Streamlit yerine)
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+python-multipart>=0.0.6

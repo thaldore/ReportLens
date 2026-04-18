@@ -1,11 +1,14 @@
-# Python 3.10 tabanlı resmi imaj
+# ══════════════════════════════════════════════════════════════════
+# ReportLens Python App — Docker Image
+# FastAPI + Core Engine + Frontend (HTML/CSS/JS)
+# ══════════════════════════════════════════════════════════════════
+
 FROM python:3.10-slim
 
-# Çalışma dizini
 WORKDIR /app
 ENV PYTHONPATH=/app
 
-# Gerekli sistem kütüphaneleri (PDF, OCR, curl, dos2unix)
+# ── Sistem Bağımlılıkları (PDF, OCR, MSSQL Driver) ────────────────
 RUN apt-get update && apt-get install -y --no-install-recommends \
     build-essential \
     libmagic1 \
@@ -24,27 +27,23 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     && ACCEPT_EULA=Y apt-get install -y msodbcsql18 \
     && rm -rf /var/lib/apt/lists/*
 
-
-
-# Bağımlılıkları kopyala ve kur
+# ── Python Bağımlılıkları ──────────────────────────────────────────
 COPY requirements.txt .
 RUN pip install --no-cache-dir --default-timeout=1000 --retries 10 -r requirements.txt
 
-
-
-# Proje dosyalarını kopyala
+# ── Proje Dosyaları ────────────────────────────────────────────────
 COPY . .
 
-# Entrypoint scriptini Unix formatına çevir ve çalıştırma izni ver
+# Entrypoint scriptini hazırla
 RUN dos2unix scripts/docker_entrypoint.sh && chmod +x scripts/docker_entrypoint.sh
 
-# Streamlit portu
-EXPOSE 8501
+# ── FastAPI Portu ──────────────────────────────────────────────────
+EXPOSE 8000
 
-# Healthcheck
+# ── Healthcheck ────────────────────────────────────────────────────
 HEALTHCHECK --interval=30s --timeout=10s --start-period=60s --retries=3 \
-    CMD curl -sf http://localhost:8501/_stcore/health || exit 1
+    CMD curl -sf http://localhost:8000/api/status || exit 1
 
-# Entrypoint: Ollama'yı bekle, modelleri indir, uygulamayı başlat
+# ── Çalıştırma ─────────────────────────────────────────────────────
 ENTRYPOINT ["scripts/docker_entrypoint.sh"]
-CMD ["streamlit", "run", "ui/main.py", "--server.port=8501", "--server.address=0.0.0.0"]
+CMD ["uvicorn", "api.main:app", "--host", "0.0.0.0", "--port", "8000"]

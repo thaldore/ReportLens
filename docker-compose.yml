@@ -1,8 +1,26 @@
+# ══════════════════════════════════════════════════════════════════
+# ReportLens Docker Compose — Çok Ortamlı Mimari
+#
+# Servisler ve Port Dağılımı:
+#   reportlens-mssql-db       → 1433  (Ortak MSSQL — iki ortam paylaşır)
+#   reportlens-ollama         → 11434 (Ortak Ollama LLM)
+#   reportlens-adminer        → 8080  (DB Yönetim Arayüzü)
+#   reportlens-python-api     → 8000  (Python FastAPI + Frontend)
+#   reportlens-maf-backend    → 8001  (.NET Clean Architecture WebApi)
+#   reportlens-maf-frontend   → 3001  (Nginx — MAF HTML/CSS/JS Frontend)
+#
+# GPU: Varsayılan olarak GPU DESTEĞİ KAPALIDIR.
+#       GPU kullanmak için docker-compose.gpu.yml override dosyasını ekleyin:
+#       docker compose -f docker-compose.yml -f docker-compose.gpu.yml up
+#
+# Prefix: reportlens-
+# ══════════════════════════════════════════════════════════════════
+
 services:
-  # ── Microsoft SQL Server (Ortak Veritabanı) ───────────────────────
-  mssql:
-    image: mcr.microsoft.com/mssql/server:2022-latest
-    container_name: reportlens-mssql
+  # ── Microsoft SQL Server 2025 (Ortak Veritabanı) ──────────────────
+  reportlens-mssql-db:
+    image: mcr.microsoft.com/mssql/server:2025-latest
+    container_name: reportlens-mssql-db
     ports:
       - "1433:1433"
     environment:
@@ -10,75 +28,174 @@ services:
       - MSSQL_SA_PASSWORD=YourStrongPassword123!
       - MSSQL_PID=Developer
     volumes:
-      - mssql_data:/var/opt/mssql
+      - reportlens-mssql-data:/var/opt/mssql
+    networks:
+      - reportlens-net
     restart: unless-stopped
     healthcheck:
-      test: ["CMD-SHELL", "/opt/mssql-tools18/bin/sqlcmd -S localhost -U sa -P YourStrongPassword123! -Q 'SELECT 1' -C || /opt/mssql-tools/bin/sqlcmd -S localhost -U sa -P YourStrongPassword123! -Q 'SELECT 1' || exit 1"]
+      test: ["CMD-SHELL", "/opt/mssql-tools18/bin/sqlcmd -S localhost -U sa -P YourStrongPassword123! -Q 'SELECT 1' -C || exit 1"]
       interval: 15s
       timeout: 10s
       retries: 10
-      start_period: 30s
+      start_period: 45s
 
-
-  # ── Ollama (Yerel LLM Motoru - Paylaşımlı) ────────────────────────
-  ollama:
+  # ── Ollama (Yerel LLM Motoru) ────────────────────────────────────
+  # NOT: GPU yoksa bu servis CPU modunda çalışır — hata vermez, daha yavaş olur.
+  # GPU etkinleştirmek için: docker compose -f docker-compose.yml -f docker-compose.gpu.yml up
+  reportlens-ollama:
     image: ollama/ollama:latest
     container_name: reportlens-ollama
     ports:
       - "11434:11434"
     volumes:
-      - ollama_data:/root/.ollama
+      - reportlens-ollama-data:/root/.ollama
     environment:
       - OLLAMA_HOST=0.0.0.0
-      - OLLAMA_NUM_PARALLEL=2
+      - OLLAMA_NUM_PARALLEL=1
       - OLLAMA_MAX_LOADED_MODELS=1
+      - OLLAMA_KEEP_ALIVE=60m
+    networks:
+      - reportlens-net
     restart: unless-stopped
-    deploy:
-      resources:
-        reservations:
-          devices:
-            - driver: nvidia
-              count: 1
-              capabilities: [gpu]
 
-  # ── ReportLens Python (Mevcut Sistem) ─────────────────────────────
-  python-app:
-    build: 
+  # ── ReportLens Python API (FastAPI + Core Engine) ──────────────────
+  reportlens-python-api:
+    build:
       context: ./ReportLens-Python
-    container_name: reportlens-python-app
+    image: reportlens-python-api
+    container_name: reportlens-python-api
     ports:
-      - "8501:8501"
+      - "8000:8000"
     environment:
-      - OLLAMA_BASE_URL=http://ollama:11434
-      - MSSQL_HOST=mssql
-      - MSSQL_USER=sa
-      - MSSQL_PASS=YourStrongPassword123!
+      - OLLAMA_BASE_URL=http://reportlens-ollama:11434
+      - MSSQL_HOST=reportlens-mssql-db
+      - MSSQL_USER=ReportLensUser
+      - MSSQL_PASS=ReportLensPass123!
       - MSSQL_DB=ReportLensDB
+      - MSSQL_DRIVER={ODBC Driver 18 for SQL Server}
+      - MSSQL_TABLE=Python_DocumentVectors
       - MODEL_ID=llama3.1:8b
       - EMBEDDING_MODEL=nomic-embed-text
       - AGNO_TELEMETRY=false
+      - ENVIRONMENT=Python
     depends_on:
-      mssql:
+      reportlens-mssql-db:
         condition: service_healthy
-      ollama:
+      reportlens-ollama:
         condition: service_started
     volumes:
       - ./ReportLens-Python/Data:/app/Data
+    networks:
+      - reportlens-net
     restart: unless-stopped
 
+  # ── ReportLens MAF Backend (.NET Clean Architecture WebApi) ────────
+  reportlens-maf-backend:
+    build:
+      context: ./ReportLens-Microsoft-Agent-Framework/backend
+      dockerfile: Dockerfile
+    image: reportlens-maf-backend
+    container_name: reportlens-maf-backend
+    ports:
+      - "8001:8080"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Production
+      - ASPNETCORE_URLS=http://+:8080
+      - ConnectionStrings__DefaultConnection=Server=reportlens-mssql-db;Database=ReportLensDB;User Id=ReportLensUser;Password=ReportLensPass123!;TrustServerCertificate=True;ConnectRetryCount=5;ConnectRetryInterval=10
+      - LLM__BaseUrl=http://reportlens-maf-llm:8080  # MAF LLM Mikroservis bağlantısı
+      - Ollama__BaseUrl=http://reportlens-ollama:11434
+      - Environment__Name=Microsoft Agent Framework
+    depends_on:
+      reportlens-mssql-db:
+        condition: service_healthy
+      reportlens-maf-llm:
+        condition: service_started
+    volumes:
+      - ./ReportLens-Python/Data:/app/Data:ro
+    networks:
+      - reportlens-net
+    restart: unless-stopped
 
-  # ── ReportLens .NET Backend (Taslak) ──────────────────────────────
-  # (Bu bölüm .NET projesi hazır olduğunda aktif edilebilir)
-  # dotnet-backend:
-  #   build: ./ReportLens-Microsoft-Agent-Framework/backend
-  #   container_name: reportlens-dotnet-backend
-  #   environment:
-  #     - ConnectionStrings__DefaultConnection=Server=mssql;Database=ReportLensDB;User Id=sa;Password=YourStrongPassword123!;TrustServerCertificate=True
-  #   depends_on:
-  #     - mssql
+  # ── ReportLens MAF LLM Microservice (Agents & Brain) ──────────────
+  reportlens-maf-llm:
+    build:
+      context: ./ReportLens-Microsoft-Agent-Framework/ReportLens-LLM
+      dockerfile: Dockerfile
+    image: reportlens-maf-llm
+    container_name: reportlens-maf-llm
+    ports:
+      - "8002:8080"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Production
+      - ConnectionStrings__VectorDb=Server=reportlens-mssql-db;Database=ReportLensDB;User Id=ReportLensUser;Password=ReportLensPass123!;TrustServerCertificate=True
+      - Ollama__BaseUrl=http://reportlens-ollama:11434
+      - Ollama__ModelId=llama3.1:8b
+      - Ollama__EmbeddingModel=nomic-embed-text
+      - VectorSearch__TableName=MAF_DocumentVectors
+    depends_on:
+      reportlens-mssql-db:
+        condition: service_healthy
+      reportlens-ollama:
+        condition: service_started
+    volumes:
+      - ./ReportLens-Python/Data:/app/Data:ro
+    networks:
+      - reportlens-net
+    restart: unless-stopped
+
+  # ── ReportLens MAF Frontend (Nginx ile HTML/CSS/JS) ────────────────
+  reportlens-maf-frontend:
+    build:
+      context: ./ReportLens-Microsoft-Agent-Framework/frontend
+      dockerfile: Dockerfile
+    image: reportlens-maf-frontend
+    container_name: reportlens-maf-frontend
+    ports:
+      - "3001:80"
+    depends_on:
+      - reportlens-maf-backend
+    networks:
+      - reportlens-net
+    restart: unless-stopped
+
+  # ── Adminer (Database Management Tool) ───────────────────────────
+  reportlens-adminer:
+    image: adminer:latest
+    container_name: reportlens-adminer
+    ports:
+      - "8080:8080"
+    environment:
+      - ADMINER_DEFAULT_SERVER=reportlens-mssql-db
+    networks:
+      - reportlens-net
+    restart: unless-stopped
+
+networks:
+  reportlens-net:
+    name: reportlens-network
+    driver: bridge
 
 volumes:
-  mssql_data:
+  reportlens-mssql-data:
     name: reportlens_mssql_data
-  ollama_data:
+    external: true
+  reportlens-ollama-data:
     name: reportlens_ollama_data
+    external: true
+
+# ══════════════════════════════════════════════════════════════════
+# SERVIS BAGLANTI OZETI:
+#
+# 🐍 PYTHON ENVIRONMENT:
+#   - Frontend & API: http://localhost:8000
+#
+# 🏢 MICROSOFT AGENT FRAMEWORK (MAF) ENVIRONMENT:
+#   - Frontend (UI):  http://localhost:3001
+#   - Main Backend:   http://localhost:8001
+#   - LLM/Agent MS:   http://localhost:8002
+#
+# 🛠️ GLOBAL SERVISLER:
+#   - DB Adminer:     http://localhost:8080
+#   - Ollama API:      http://localhost:11434
+#   - MSSQL:          localhost, 1433
+# ══════════════════════════════════════════════════════════════════
