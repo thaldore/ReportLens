@@ -16,14 +16,6 @@ namespace ReportLens.LLM.VectorSearch;
 /// <summary>
 /// SQL Server 2025 native VECTOR araması.
 /// Python'daki VectorStore sınıfının .NET karşılığı.
-///
-/// Python:
-///   store = VectorStore(config)
-///   results = store.search(query, k=15, birim="Fen")
-///
-/// .NET:
-///   var store = new VectorStore(connStr, ollamaUrl, model);
-///   var results = await store.SearchAsync(query, k: 15, birim: "Fen");
 /// </summary>
 public class VectorStore
 {
@@ -34,6 +26,10 @@ public class VectorStore
     private readonly HttpClient _httpClient;
     private readonly ILogger<VectorStore> _logger;
     private const int VectorDimension = 768;  // nomic-embed-text
+    
+    // ⚡ SPEED OPTIMIZATION: Match OLLAMA_NUM_PARALLEL setting.
+    // Set to 2 for 5.6GB effective VRAM safety on RTX 4070 Laptop.
+    private static readonly SemaphoreSlim _ollamaSemaphore = new(2); 
 
     public VectorStore(
         IConfiguration configuration,
@@ -50,7 +46,7 @@ public class VectorStore
     }
 
     /// <summary>
-    /// Tablo oluşturur (yoksa). Python'daki _create_table() karşılığı.
+    /// Tablo oluşturur (yoksa).
     /// </summary>
     public async Task EnsureTableExistsAsync()
     {
@@ -74,19 +70,13 @@ public class VectorStore
         using var conn = new SqlConnection(_connectionString);
         await conn.OpenAsync();
         using var cmd = new SqlCommand(sql, conn);
+        cmd.CommandTimeout = 3600; // 1 hour
         await cmd.ExecuteNonQueryAsync();
         _logger.LogInformation("Tablo hazır: {Table}", _tableName);
     }
 
     /// <summary>
     /// Semantik vektör araması.
-    /// Python'daki VectorStore.search() metodunun .NET karşılığı.
-    ///
-    /// Python:
-    ///   results = self.vector_store.search(query, k=15, birim=birim, yil=yil)
-    ///
-    /// .NET:
-    ///   var results = await _vectorStore.SearchAsync(query, k: 15, birim: birim, yil: yil);
     /// </summary>
     public async Task<string> SearchAsync(
         string query, int k = 15,
@@ -142,6 +132,7 @@ public class VectorStore
             using var conn = new SqlConnection(_connectionString);
             await conn.OpenAsync();
             using var cmd = new SqlCommand(sql, conn);
+            cmd.CommandTimeout = 3600;
             cmd.Parameters.AddRange(parameters.ToArray());
             using var reader = await cmd.ExecuteReaderAsync();
 
@@ -163,7 +154,6 @@ public class VectorStore
 
     /// <summary>
     /// İşlenmiş markdown dosyalarını indeksler.
-    /// Python'daki VectorStore.index_documents() metodunun .NET karşılığı.
     /// </summary>
     public async Task<int> IndexDocumentsAsync(string dataPath, bool forceReindex = false)
     {
@@ -175,8 +165,10 @@ public class VectorStore
             return 0;
         }
 
+        var mdFiles = Directory.GetFiles(processedDir, "*.md");
         var indexedCount = 0;
-        foreach (var mdFile in Directory.GetFiles(processedDir, "*.md"))
+
+        foreach (var mdFile in mdFiles)
         {
             try
             {
@@ -189,10 +181,12 @@ public class VectorStore
                 var yil = parts.Length > 1 && parts[1].All(char.IsDigit) ? parts[1] : null;
                 var tur = parts.Length > 2 ? string.Join(" ", parts[2..]) : null;
 
-                // ℹ️ IMPORTANT: Always clear OLD data for a file to prevent duplicates
+                // ℹ️ İDAMPOTENLİK: Dosyayı temizle
                 await DeleteFileVectorsAsync(filename);
 
                 var chunks = ChunkText(content);
+                
+                // ⚡ HIZLANDIRMA: Metin parçalarını paralel vektörle (limitli)
                 var embeddingTasks = chunks
                     .Where(c => c.Text.Length >= 50)
                     .Select(async c => 
@@ -204,14 +198,15 @@ public class VectorStore
                         }
                         catch (Exception ex)
                         {
-                            _logger.LogError(ex, "Embedding error for chunk in {File}", filename);
+                            _logger.LogError(ex, "Embedding hatası ({File})", filename);
                             return null;
                         }
                     });
 
-                _logger.LogInformation("⏳ Vectorizing {Count} chunks for {File} in parallel...", chunks.Count, filename);
+                _logger.LogInformation("⏳ {File} için {Count} parça vektörleştiriliyor...", filename, chunks.Count);
                 var results = await Task.WhenAll(embeddingTasks);
 
+                // Toplu kayıt (Batch insert performansı)
                 foreach (var res in results)
                 {
                     if (res == null) continue;
@@ -219,20 +214,17 @@ public class VectorStore
                     indexedCount++;
                 }
 
-                _logger.LogInformation("✅ Indexed: {File} — {Count} chunks", filename, chunks.Count);
+                _logger.LogInformation("✅ Tamamlandı: {File}", filename);
             }
             catch (Exception ex)
             {
-                _logger.LogError(ex, "Indexing error: {File}", mdFile);
+                _logger.LogError(ex, "Dosya işleme hatası: {File}", mdFile);
             }
         }
 
         return indexedCount;
     }
 
-    /// <summary>
-    /// Koleksiyon bilgisi. Python'daki get_collection_info() karşılığı.
-    /// </summary>
     public async Task<Dictionary<string, object>> GetCollectionInfoAsync()
     {
         try
@@ -240,6 +232,7 @@ public class VectorStore
             using var conn = new SqlConnection(_connectionString);
             await conn.OpenAsync();
             using var cmd = new SqlCommand($"SELECT COUNT(*) FROM {_tableName}", conn);
+            cmd.CommandTimeout = 3600;
             var count = (int)await cmd.ExecuteScalarAsync();
             return new Dictionary<string, object>
             {
@@ -261,20 +254,28 @@ public class VectorStore
 
     // ── Private Helpers ──────────────────────────────────────────
 
-    /// <summary>Ollama REST API ile embedding üretimi.</summary>
     private async Task<float[]> EmbedAsync(string text)
     {
-        var body = JsonSerializer.Serialize(new { model = _embeddingModel, prompt = text });
-        var content = new StringContent(body, Encoding.UTF8, "application/json");
-        var response = await _httpClient.PostAsync($"{_ollamaBaseUrl}/api/embeddings", content);
-        response.EnsureSuccessStatusCode();
+        // ⚡ SEMAPHORE: Ollama'yı boğmamak için sırayla/limitli al
+        await _ollamaSemaphore.WaitAsync();
+        try
+        {
+            var body = JsonSerializer.Serialize(new { model = _embeddingModel, prompt = text });
+            var content = new StringContent(body, Encoding.UTF8, "application/json");
+            var response = await _httpClient.PostAsync($"{_ollamaBaseUrl}/api/embeddings", content);
+            response.EnsureSuccessStatusCode();
 
-        var json = await response.Content.ReadAsStringAsync();
-        using var doc = JsonDocument.Parse(json);
-        return doc.RootElement.GetProperty("embedding")
-            .EnumerateArray()
-            .Select(e => e.GetSingle())
-            .ToArray();
+            var json = await response.Content.ReadAsStringAsync();
+            using var doc = JsonDocument.Parse(json);
+            return doc.RootElement.GetProperty("embedding")
+                .EnumerateArray()
+                .Select(e => e.GetSingle())
+                .ToArray();
+        }
+        finally
+        {
+            _ollamaSemaphore.Release();
+        }
     }
 
     private async Task InsertVectorAsync(string fileName, string content, float[] vector,
@@ -288,6 +289,7 @@ public class VectorStore
         using var conn = new SqlConnection(_connectionString);
         await conn.OpenAsync();
         using var cmd = new SqlCommand(sql, conn);
+        cmd.CommandTimeout = 3600;
         cmd.Parameters.AddWithValue("@fn", fileName);
         cmd.Parameters.AddWithValue("@birim", (object?)birim ?? DBNull.Value);
         cmd.Parameters.AddWithValue("@yil", (object?)yil ?? DBNull.Value);
@@ -303,6 +305,7 @@ public class VectorStore
         using var conn = new SqlConnection(_connectionString);
         await conn.OpenAsync();
         using var cmd = new SqlCommand($"DELETE FROM {_tableName} WHERE FileName = @fn", conn);
+        cmd.CommandTimeout = 3600;
         cmd.Parameters.AddWithValue("@fn", filename);
         await cmd.ExecuteNonQueryAsync();
     }

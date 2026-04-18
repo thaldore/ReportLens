@@ -35,10 +35,10 @@ class Config:
     # Vektör arama yapılandırması
     CHUNK_SIZE = int(os.getenv("CHUNK_SIZE", "1000"))
     CHUNK_OVERLAP = int(os.getenv("CHUNK_OVERLAP", "200"))
-    SEARCH_K = 15                 # Vektör aramadan dönecek en alakalı chunk sayısı
+    SEARCH_K = 20                 # Vektör aramadan dönecek en alakalı chunk sayısı
     
     # Maksimum bağlam limiti (8b model güvenli sınırı)
-    MAX_CONTEXT_CHUNKS = 15       # Prompt'a girecek maksimum chunk (VRAM dostu)
+    MAX_CONTEXT_CHUNKS = 20       # Prompt'a girecek maksimum chunk (VRAM dostu)
 
     # Tutarsızlık analizi beyan boyutu limiti (karakter)
     MAX_COMPARISON_TEXT = int(os.getenv("MAX_COMPARISON_TEXT", "5000"))

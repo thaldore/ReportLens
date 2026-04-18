@@ -16,7 +16,7 @@
 //   2. User prompt ile LLM çağrısı yapılır (Ollama → llama3.1:8b)
 //   3. Sonuç string olarak döner (Markdown formatında)
 // ══════════════════════════════════════════════════════════════════
-#pragma warning disable SKEXP0001, SKEXP0010
+#pragma warning disable SKEXP0001, SKEXP0010, SKEXP0070
 
 using Microsoft.SemanticKernel.ChatCompletion;
 using Microsoft.SemanticKernel.Connectors.OpenAI;
@@ -57,7 +57,7 @@ public abstract class AgentBase
         var settings = new OpenAIPromptExecutionSettings
         {
             Temperature = temperature,
-            MaxTokens = 4096,
+            MaxTokens = 2048, // Optimized for 5.6GB VRAM — balanced speed vs quality
         };
 
         var result = await chatService.GetChatMessageContentAsync(history, settings, _kernel);

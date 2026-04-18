@@ -40,8 +40,6 @@ services:
       start_period: 45s
 
   # ── Ollama (Yerel LLM Motoru) ────────────────────────────────────
-  # NOT: GPU yoksa bu servis CPU modunda çalışır — hata vermez, daha yavaş olur.
-  # GPU etkinleştirmek için: docker compose -f docker-compose.yml -f docker-compose.gpu.yml up
   reportlens-ollama:
     image: ollama/ollama:latest
     container_name: reportlens-ollama
@@ -51,9 +49,17 @@ services:
       - reportlens-ollama-data:/root/.ollama
     environment:
       - OLLAMA_HOST=0.0.0.0
-      - OLLAMA_NUM_PARALLEL=1
-      - OLLAMA_MAX_LOADED_MODELS=1
-      - OLLAMA_KEEP_ALIVE=60m
+      - OLLAMA_NUM_PARALLEL=2      # 5.6GB VRAM için güvenli: 2 paralel istek
+      - OLLAMA_MAX_LOADED_MODELS=2 # Chat + Embedding modelleri aynı anda VRAM'de (Hız için kritik)
+      - OLLAMA_KEEP_ALIVE=60m      # Modelleri 1 saat bellekte tut
+      - OLLAMA_GPU_OVERHEAD=512    # RTX 4070 VRAM'ının 512MB'ını sistem için ayır
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
     networks:
       - reportlens-net
     restart: unless-stopped

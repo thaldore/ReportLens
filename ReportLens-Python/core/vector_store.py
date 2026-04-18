@@ -265,7 +265,7 @@ class VectorStore:
         error_count = 0
         
         # Parallel embedding using ThreadPoolExecutor
-        max_workers = 10 
+        max_workers = 2 # Matches OLLAMA_NUM_PARALLEL=2 for 5.6GB VRAM safety
         
         for md_file in files_to_index:
             try:

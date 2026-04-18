@@ -120,7 +120,7 @@ public class QualityBrain
         _logger.LogInformation("analyze() - Query: {Query}, Birim: {Birim}, Yil: {Yil}",
             query[..Math.Min(60, query.Length)], autoBirim, autoYil);
 
-        var context = await _vectorStore.SearchAsync(query, k: 40, birim: autoBirim, yil: autoYil);
+        var context = await _vectorStore.SearchAsync(query, k: 25, birim: autoBirim, yil: autoYil);
         if (string.IsNullOrWhiteSpace(context))
             return ("Bu konuda vektör veritabanında ilgili bilgi bulunamadı. Raporların yüklenip indekslendiğinden emin olun.", autoBirim, autoYil);
 

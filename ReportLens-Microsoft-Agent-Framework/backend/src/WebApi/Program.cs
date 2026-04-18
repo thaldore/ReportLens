@@ -24,7 +24,7 @@ builder.Services.AddHttpClient("ollama", client =>
 {
     var ollamaUrl = builder.Configuration["Ollama:BaseUrl"] ?? "http://localhost:11434";
     client.BaseAddress = new Uri(ollamaUrl);
-    client.Timeout = TimeSpan.FromMinutes(5); // LLM yanitlari zaman alabilir
+    client.Timeout = TimeSpan.FromHours(1); // 1-hour timeout for long indexing or complex AI tasks
 });
 
 // ── HTTP Client (MAF LLM Microservice icin) ──────────────────────
@@ -32,7 +32,7 @@ builder.Services.AddHttpClient("LLM_Microservice", client =>
 {
     var llmUrl = builder.Configuration["LLM:BaseUrl"] ?? "http://localhost:8002";
     client.BaseAddress = new Uri(llmUrl);
-    client.Timeout = TimeSpan.FromMinutes(5);
+    client.Timeout = TimeSpan.FromHours(1);
 });
 
 // ── Semantic Kernel (Ollama Chat Completion) ──────────────────────

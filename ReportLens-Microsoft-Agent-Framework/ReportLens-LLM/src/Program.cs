@@ -20,20 +20,23 @@ builder.Services.AddHttpClient("ollama", client =>
 {
     var ollamaUrl = builder.Configuration["Ollama:BaseUrl"] ?? "http://localhost:11434";
     client.BaseAddress = new Uri(ollamaUrl);
-    client.Timeout = TimeSpan.FromMinutes(5);
+    client.Timeout = TimeSpan.FromHours(1); // 1-hour timeout for Ollama embeddings
 });
 
-// ── Semantic Kernel — Ollama Chat Completion ──────────────────────
-var ollamaBaseUrl = builder.Configuration["Ollama:BaseUrl"] ?? "http://localhost:11434";
+// —— Semantic Kernel — Ollama Native Chat Completion ——————————————————————————————————
+var ollamaBaseUrl = builder.Configuration["Ollama:BaseUrl"] ?? "http://reportlens-ollama:11434";
 var modelId = builder.Configuration["Ollama:ModelId"] ?? "llama3.1:8b";
 
 builder.Services.AddSingleton(_ =>
 {
+    // Use Ollama's OpenAI-compatible /v1 endpoint.
+    // The dedicated Ollama SK connector is only alpha (1.33.0-alpha) — not production-ready.
+    // Ollama exposes a fully OpenAI-compatible API at /v1/chat/completions.
     return Kernel.CreateBuilder()
         .AddOpenAIChatCompletion(
             modelId: modelId,
-            endpoint: new Uri(ollamaBaseUrl + "/"),
-            apiKey: "ollama"  // Ollama gerçek key gerektirmiyor
+            endpoint: new Uri(ollamaBaseUrl + "/v1"), // KEY FIX: /v1 suffix = OpenAI compat path
+            apiKey: "ollama"
         )
         .Build();
 });
