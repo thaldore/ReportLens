@@ -279,73 +279,91 @@ public class QualityBrain
 
         foreach (var filename in filenameList)
         {
-            _logger.LogInformation("evaluate_rubric() - File: {File}", filename);
-
-            // Tüm kriterler için bağlam topla
-            var contextParts = new List<string>();
-            foreach (var (cId, cDesc) in RubricCriteria)
+            try 
             {
-                var res = await _vectorStore.SearchAsync($"{cId} {cDesc}", k: 8, filename: filename);
-                contextParts.Add($"### KRİTER: {cId}\n{res}");
+                _logger.LogInformation("evaluate_rubric() - File: {File}", filename);
+
+                // Tüm kriterler için bağlam topla
+                var contextParts = new List<string>();
+                foreach (var (cId, cDesc) in RubricCriteria)
+                {
+                    var res = await _vectorStore.SearchAsync($"{cId} {cDesc}", k: 8, filename: filename);
+                    if (!string.IsNullOrWhiteSpace(res))
+                        contextParts.Add($"### KRİTER: {cId}\n{res}");
+                }
+                var fullContext = string.Join("\n\n---\n\n", contextParts);
+
+                if (string.IsNullOrWhiteSpace(fullContext))
+                {
+                    overallResults.Add($"## Rapor: {filename}\n⚠️ Bu rapor için vektör veritabanında yeterli bağlam bulunamadı.");
+                    continue;
+                }
+
+                // PASS 1: Analiz (RubricEvaluator)
+                var analizPrompt = $"""
+                    ### REPORT: {filename}
+                    ### CONTEXT DATA:
+                    {fullContext}
+
+                    TASK: Perform a detailed analysis of the university report according to YOKAK rubric criteria.
+                    You must stick strictly to the context. 
+
+                    CORE RULES:
+                    1. TITLE: Every criterion must have a ## header.
+                    2. EVIDENCE: Provide justification and evidence in **Gerekçe:** and **Kanıt:** format.
+                    3. SCORE: Specify the score as [PUAN: X] (1-5).
+                    4. LANGUAGE: YOUR ENTIRE RESPONSE MUST BE IN TURKISH.
+                    5. COMPLETENESS: DO NOT skip any criteria.
+
+                    FORMAT CASE:
+                    ## [Kriter Adı]
+                    - **Gerekçe:** ...
+                    - **Kanıt:** (Doğrudan Alıntı) (Kaynak: {filename})
+                    - [PUAN: X]
+                    """;
+                var analizContent = await _rubricEvaluator.RunAsync(analizPrompt);
+
+                // PASS 2: Denetim (RubricValidator)
+                var denetimPrompt = $"""
+                    ### CONTEXT DATA:
+                    {fullContext}
+
+                    ### SCAN RESULTS:
+                    {analizContent}
+
+                    TASK: Audit the analysis above. Compare the extracted evidence with context.
+                    FORMAT RULES:
+                    1. HEADER: Use '### 🛡️ Denetim: [Criterion Name]'.
+                    2. SCORE MARKER: Place final score in [DENETİM_PUANI: X].
+                    3. LANGUAGE: TURKISH.
+
+                    ### 🛡️ Denetim: [Kriter Adı]
+                    - **Analiz Puanı:** X
+                    - **Denetçi Puanı:** Y
+                    - **Kıyaslama:** ...
+                    - **Karar:** [✅ ONAYLANDI / ❌ DÜZELTİLDİ]
+                    [DENETİM_PUANI: Y]
+                    """;
+                var denetimContent = await _rubricValidator.RunAsync(denetimPrompt);
+
+                overallResults.Add($"""
+                    ## Rapor: {filename}
+
+                    ## 📊 1. DETAYLI ANALİZLER
+                    {analizContent}
+
+                    ---
+
+                    ## 🛡️ 2. DENETÇİ VE KIYASLAMA RAPORU
+                    {denetimContent}
+                    """);
+                overallResults.Add("\n---\n");
             }
-            var fullContext = string.Join("\n\n---\n\n", contextParts);
-
-            // PASS 1: Analiz (RubricEvaluator)
-            var analizPrompt = $"""
-                ### REPORT: {filename}
-                ### CONTEXT DATA:
-                {fullContext}
-
-                TASK: Perform a detailed analysis of the report according to YOKAK rubric criteria.
-                FORMAT RULES:
-                1. TITLE: Every criterion must have a ## header.
-                2. LABELS: Provide justification and evidence in **Label:** format.
-                3. SCORE: Specify the score as [PUAN: X].
-                4. LANGUAGE: YOUR ENTIRE RESPONSE MUST BE IN TURKISH.
-
-                ## [Kriter Adı]
-                - **Gerekçe:** ...
-                - **Kanıt:** (Quote) (Kaynak: {filename})
-                - **Puan:** [PUAN: X] (1-5)
-                """;
-            var analizContent = await _rubricEvaluator.RunAsync(analizPrompt);
-
-            // PASS 2: Denetim (RubricValidator)
-            var denetimPrompt = $"""
-                ### CONTEXT DATA:
-                {fullContext}
-
-                ### ANALYSIS RESULTS:
-                {analizContent}
-
-                TASK: Audit and compare the analysis above.
-                FORMAT RULES:
-                1. HEADER: Use '### 🛡️ Denetim: [Criterion Name]'.
-                2. COMPARISON: If there's a difference between Analysis Score and Audit Score, explain why based on evidence.
-                3. MARKER: Place the final score in [DENETİM_PUANI: X] marker.
-                4. LANGUAGE: YOUR ENTIRE RESPONSE MUST BE IN TURKISH.
-
-                ### 🛡️ Denetim: [Kriter Adı]
-                - **Analiz Puanı:** [Score from analysis]
-                - **Denetçi Puanı:** [Your independent score]
-                - **Kıyaslama ve Gerekçe:** [Explain differences if any]
-                - **Karar:** [✅ ONAYLANDI / ❌ DÜZELTİLDİ]
-                Nihai Puan Marker: [DENETİM_PUANI: X]
-                """;
-            var denetimContent = await _rubricValidator.RunAsync(denetimPrompt);
-
-            overallResults.Add($"""
-                ## Rapor: {filename}
-
-                ## 1. DETAYLI ANALİZLER
-                {analizContent}
-
-                ---
-
-                ## 2. DENETÇİ VE KIYASLAMA RAPORU
-                {denetimContent}
-                """);
-            overallResults.Add("\n---\n");
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Rubrik analizi hatası: {File}", filename);
+                overallResults.Add($"## Rapor: {filename}\n❌ Analiz sırasında hata oluştu: {ex.Message}");
+            }
         }
 
         return string.Join("\n\n", overallResults);

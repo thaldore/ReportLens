@@ -64,8 +64,8 @@ def create_report_writer(model) -> Agent:
             "2. DATA-DRIVEN: Prioritize student counts, survey scores, and project numbers.",
             "3. ACADEMIC TONE: Use formal, objective, and academic Turkish (e.g., 'tespit edilmiştir', 'gözlemlenmiştir').",
             "4. NO REPETITION: Each section must have unique content. Do not reuse paragraphs across sections.",
-            "5. NO HALLUCINATION: If a specific section lacks data, write: 'Bu konuda yeterli veri bulunamamıştır.'",
-            "6. DESCRIPTIVE ONLY: Report the current state. Do not give direct advice like 'you should do X' unless it's in the Recommendations/Action Plan.",
-            "7. COMPLETE: Do not skip any of the 7 mandatory sections.",
+            "5. NO HALLUCINATION: If a specific section lacks data, write: 'Bu konuda yeterli veri bulunamamıştır.' BUT KEEP THE HEADER.",
+            "6. NO SECTION SKIPPING: All 7 headers defined below MUST be present in the output. NO EXCEPTIONS.",
+            "7. COMPLETE: Use Academic Turkish. Ensure Source format is: (Kaynak: filename.md).",
         ],
     )

@@ -50,7 +50,7 @@ services:
     environment:
       - OLLAMA_HOST=0.0.0.0
       - OLLAMA_NUM_PARALLEL=2      # 5.6GB VRAM için güvenli: 2 paralel istek
-      - OLLAMA_MAX_LOADED_MODELS=2 # Chat + Embedding modelleri aynı anda VRAM'de (Hız için kritik)
+      - OLLAMA_MAX_LOADED_MODELS=2 # Chat + Embedding modelleri aynı anda VRAM'de (Faz 3)
       - OLLAMA_KEEP_ALIVE=60m      # Modelleri 1 saat bellekte tut
       - OLLAMA_GPU_OVERHEAD=512    # RTX 4070 VRAM'ının 512MB'ını sistem için ayır
     deploy:

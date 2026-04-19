@@ -60,7 +60,10 @@ builder.Services.AddScoped<IDocumentProcessor, DocumentProcessor>();
 builder.Services.AddScoped<IAnalysisService, QualityBrainService>();
 
 // ── WebApi Altyapisi ─────────────────────────────────────────────
-builder.Services.AddControllers();
+builder.Services.AddControllers().AddJsonOptions(options =>
+{
+    options.JsonSerializerOptions.PropertyNameCaseInsensitive = true;
+});
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(c =>
 {

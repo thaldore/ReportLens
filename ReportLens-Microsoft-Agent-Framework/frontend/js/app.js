@@ -419,7 +419,7 @@ async function checkConsistency() {
     document.getElementById('consistency-loading').style.display = 'block';
 
     try {
-        const data = await apiPost('/api/consistency', { comparison_text: text, survey_text: survey, birim, filename });
+        const data = await apiPost('/api/consistency', { comparisonText: text, surveyText: survey, birim, filename });
         document.getElementById('consistency-result').innerHTML = renderMarkdown(data.result);
         document.getElementById('consistency-result').style.display = 'block';
     } catch (e) {
@@ -447,7 +447,7 @@ async function generateAndCheckMock() {
             surveyText = parts[0].replace('[ANKET_VERISI]', '').trim();
             comparisonText = parts[1] ? parts[1].trim() : mockText;
         }
-        const consData = await apiPost('/api/consistency', { comparison_text: comparisonText, survey_text: surveyText || null, filename });
+        const consData = await apiPost('/api/consistency', { comparisonText, surveyText: surveyText || null, filename });
         document.getElementById('consistency-result').innerHTML = `
             <h2 style="font-family:'Manrope';color:var(--primary)">📋 Mock Veri (Mod: ${mode})</h2>
             ${renderMarkdown(mockText)}
