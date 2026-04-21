@@ -96,6 +96,7 @@ public class AnalyzerAgent : AgentBase
         ## 4. GELİŞİME AÇIK ALANLAR VE RİSKLER
         ## 5. STRATEJİK ÖNERİLER VE SONUÇ
         """;
+}
 
 // ─────────────────────────────────────────────────────────────────
 // 2. REPORT WRITER AGENT — report_writer.py karşılığı
